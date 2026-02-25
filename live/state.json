@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T15:10:05.948122+00:00",
+  "now": "2026-02-25T15:21:26.446688+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,109 +54,6 @@
   ],
   "backlog": [
     {
-      "id": "P0-FE-001",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Design system foundation (tokens, spacing, typography, component standards)",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-25T23:09:53.249489+08:00",
-      "updated_at": "2026-02-25T23:09:53.249489+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Design token spec + reusable component styles applied across dashboard; consistent visual rhythm and contrast."
-    },
-    {
-      "id": "P0-FE-002",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Client-grade information architecture and navigation model",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-25T23:09:53.249489+08:00",
-      "updated_at": "2026-02-25T23:09:53.249489+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "IA map for operator/executive views, task-focused navigation, and role-based mental model with low cognitive load."
-    },
-    {
-      "id": "P0-FE-003",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Executive overview mode + operator mode toggle",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-25T23:09:53.249489+08:00",
-      "updated_at": "2026-02-25T23:09:53.249489+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [
-        "P0-FE-001",
-        "P0-FE-002"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Two polished modes with different density and controls; preserves live data and usability on desktop/mobile."
-    },
-    {
-      "id": "P0-FE-004",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Interaction polish pack (animations, states, transitions, delight without clutter)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-25T23:09:53.249489+08:00",
-      "updated_at": "2026-02-25T23:09:53.249489+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [
-        "P0-FE-001"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Micro-interactions documented and implemented; clear hover/focus/loading/error states; no readability regression."
-    },
-    {
-      "id": "P0-FE-005",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Frontend QA hardening for premium client demos",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-25T23:09:53.249489+08:00",
-      "updated_at": "2026-02-25T23:09:53.249489+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [
-        "P0-FE-003",
-        "P0-FE-004"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Cross-browser/device checks, accessibility baseline, performance pass, and demo readiness checklist."
-    },
-    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -170,23 +67,99 @@
       ]
     },
     {
-      "id": "P1-REV-033",
+      "id": "P1-REV-036",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build activation-to-upgrade in-app nudge matrix",
+      "title": "Build PLG invite-wall experiment spec with instant unlock loop",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T23:07:04.056935+08:00",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
+      "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Matrix with trigger events, copy variants, and expected uplift per segment."
+      "acceptance": "Define invite-wall trigger, unlock reward, anti-abuse controls, and KPI targets for activation and referral rate."
+    },
+    {
+      "id": "P1-REV-037",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Create high-ticket upsell qualification rubric for inbound enterprise leads",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Rubric with fit score bands, qualification questions, and next-action routing to increase close velocity."
+    },
+    {
+      "id": "P1-REV-038",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Design customer win-story capture sprint for weekly social proof shipping",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Weekly capture workflow with interview prompts, proof format templates, and publish SLA by funnel stage."
+    },
+    {
+      "id": "P1-REV-039",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft conversion rescue offer ladder for abandoned checkout users",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "3-tier rescue offers with trigger windows, margin guardrails, and rollback criteria."
+    },
+    {
+      "id": "P1-REV-040",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Build founder outbound sniper list v2 for top-20 fastest-close targets",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Top-20 account list with intent signal, opening angle, risk notes, and 7-day outreach plan."
     },
     {
       "id": "P2-PROD-021",
@@ -206,6 +179,44 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Ruleset mapping source intent to onboarding path, prompts, and KPI targets."
+    },
+    {
+      "id": "P2-PROD-023",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Define onboarding speed-run flow for first value in under 3 minutes",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Flow with step pruning, progressive disclosure, and metric targets for time-to-value."
+    },
+    {
+      "id": "P2-PROD-024",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Create friction kill-list for signup and workspace setup",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-25T23:21:05.580618+08:00",
+      "updated_at": "2026-02-25T23:21:05.580618+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Prioritized friction list with fix proposals, expected uplift, and owner/date commitments."
     },
     {
       "id": "P3-CONT-019",
@@ -247,6 +258,62 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-25 23:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:21",
+      "owner": "EXECUTOR",
+      "taskId": "P0-FE-005",
+      "artifact": "Frontend QA hardening pack for premium client demos",
+      "path": "office_os/artifacts/P0-FE-005_frontend_qa_hardening_premium_client_demos_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:21",
+      "owner": "SOCIAL",
+      "taskId": "P0-FE-004",
+      "artifact": "Interaction polish pack (states, micro-interactions, accessibility/perf guardrails)",
+      "path": "office_os/artifacts/P0-FE-004_interaction_polish_pack_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-033",
+      "artifact": "Activation-to-upgrade in-app nudge matrix delivered (segment triggers + copy variants + uplift hypotheses)",
+      "path": "office_os/artifacts/P1-REV-033_activation_to_upgrade_nudge_matrix_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:15",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-003",
+      "artifact": "Executive overview + operator mode toggle delivered (dual-mode UX spec + state model)",
+      "path": "office_os/artifacts/P0-FE-003_executive_operator_mode_toggle_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:11",
+      "owner": "RESEARCH",
+      "taskId": "P0-FE-002",
+      "artifact": "Executive/Operator IA + navigation model implemented with progressive disclosure",
+      "path": "office_os/artifacts/P0-FE-002_information_architecture_navigation_model_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:11",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-001",
+      "artifact": "Design system foundation implemented (tokens + component standards + accessibility focus states)",
+      "path": "office_os/artifacts/P0-FE-001_design_system_foundation_2026-02-25.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-25 23:07",
       "owner": "COMMAND",
@@ -389,62 +456,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (added 10 READY tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-003",
-      "artifact": "Reliability smoke-test pack for growth automations",
-      "path": "office_os/artifacts/P5-003_reliability_smoke_test_pack_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:20",
-      "owner": "BUILDER",
-      "taskId": "P4-OPS-004",
-      "artifact": "Autonomous QA handshake protocol",
-      "path": "office_os/artifacts/P4-OPS-004_autonomous_qa_handshake_protocol_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-017",
-      "artifact": "Launch blocker triage board template with 48h SLA lanes",
-      "path": "office_os/artifacts/P2-PROD-017_launch_blocker_triage_board_48h_sla_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-023",
-      "artifact": "Conversion-focused pricing test matrix (8 cells, metrics, guardrails)",
-      "path": "office_os/artifacts/P1-REV-023_pricing_test_matrix_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-018",
-      "artifact": "Feature adoption telemetry spec (first-week retention events/targets/alerts)",
-      "path": "office_os/artifacts/P2-PROD-018_feature_adoption_telemetry_spec_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-022",
-      "artifact": "30-day growth experiment pipeline (12 experiments + weekly revenue checkpoints)",
-      "path": "office_os/artifacts/P1-REV-022_30_day_growth_experiment_pipeline_2026-02-25.md",
       "status": "done"
     }
   ],
