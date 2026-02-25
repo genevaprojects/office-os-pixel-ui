@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T23:21:38.714828+00:00",
+  "now": "2026-02-25T23:30:06.022183+00:00",
   "workers": [
     {
       "name": "Research",
@@ -76,25 +76,6 @@
       "effort": 3,
       "urgency": 4,
       "acceptance": "Sequence includes trigger criteria, 6-message arc, proof inserts, and winback KPI targets.",
-      "status": "READY",
-      "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-077",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design referral partner fast-start kit for 72-hour launch",
-      "owner": "SOCIAL",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "Kit includes outreach script, partner FAQ, co-post templates, and activation threshold scoreboard.",
       "status": "READY",
       "created_at": "2026-02-26T07:20:00+08:00",
       "updated_at": "2026-02-26T07:20:00+08:00",
@@ -200,25 +181,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-030",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Ship founder myth-busting thread bank for top 10 misconceptions",
-      "owner": "SOCIAL",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "acceptance": "10 thread outlines with contrarian hook, evidence slots, and conversion CTA variants.",
-      "status": "READY",
-      "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P3-CONT-031",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 07:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-030",
+      "artifact": "Founder myth-busting thread bank (top 10 misconceptions)",
+      "path": "office_os/artifacts/P3-CONT-030_founder_myth_busting_thread_bank_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-077",
+      "artifact": "Referral partner fast-start kit for 72-hour launch",
+      "path": "office_os/artifacts/P1-REV-077_referral_partner_fast_start_kit_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 07:20",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-036",
-      "artifact": "First-week retention recovery script pack",
-      "path": "office_os/artifacts/P2-PROD-036_first_week_retention_recovery_script_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-068",
-      "artifact": "Pilot close-risk pre-mortem checklist",
-      "path": "office_os/artifacts/P1-REV-068_pilot_close_risk_pre_mortem_checklist_2026-02-26.md",
       "status": "done"
     }
   ],
