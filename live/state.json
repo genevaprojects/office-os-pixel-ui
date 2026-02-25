@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T15:21:26.446688+00:00",
+  "now": "2026-02-25T15:30:05.058007+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Rubric with fit score bands, qualification questions, and next-action routing to increase close velocity."
     },
     {
-      "id": "P1-REV-038",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design customer win-story capture sprint for weekly social proof shipping",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-25T23:21:05.580618+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Weekly capture workflow with interview prompts, proof format templates, and publish SLA by funnel stage."
-    },
-    {
       "id": "P1-REV-039",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -219,25 +200,6 @@
       "acceptance": "Prioritized friction list with fix proposals, expected uplift, and owner/date commitments."
     },
     {
-      "id": "P3-CONT-019",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create founder POV controversy calendar (high-share themes)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T23:07:04.056953+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "14-day calendar with contrarian hooks, evidence anchors, and CTAs."
-    },
-    {
       "id": "P5-005",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-25 23:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-019",
+      "artifact": "Founder POV controversy calendar (14-day, evidence-anchored)",
+      "path": "office_os/artifacts/P3-CONT-019_founder_pov_controversy_calendar_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-038",
+      "artifact": "Customer win-story capture sprint for weekly social proof shipping",
+      "path": "office_os/artifacts/P1-REV-038_customer_win_story_capture_sprint_2026-02-25.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-25 23:21",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P2-PROD-020",
       "artifact": "72-hour activation rescue sequence (email/DM/in-app + segmentation KPI)",
       "path": "office_os/artifacts/P2-PROD-020_72h_activation_rescue_sequence_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-027",
-      "artifact": "Product-led referral challenge with weekly prize loop",
-      "path": "office_os/artifacts/P1-REV-027_product_led_referral_challenge_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
