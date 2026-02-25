@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T19:21:56.693265+00:00",
+  "now": "2026-02-25T19:30:04.894207+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Calculator spec includes conservative/base/aggressive scenarios with payback and risk notes."
     },
     {
-      "id": "P1-REV-059",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build customer-voice clip pipeline for weekly conversion assets",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pipeline defines sourcing, editing, proof tagging, and weekly publishing SLA for funnel stages."
-    },
-    {
       "id": "P1-REV-060",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -179,25 +160,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Rubric includes risk signals, confidence scoring, and intervention routing rules."
-    },
-    {
-      "id": "P3-CONT-024",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Draft 10 proof-first short posts mapped to active objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Each post maps one objection to one proof artifact and one conversion CTA."
     },
     {
       "id": "P3-CONT-025",
@@ -277,6 +239,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 03:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-024",
+      "artifact": "10 proof-first short posts mapped to active objections",
+      "path": "office_os/artifacts/P3-CONT-024_proof_first_short_posts_active_objections_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-059",
+      "artifact": "Customer-voice clip pipeline for weekly conversion assets",
+      "path": "office_os/artifacts/P1-REV-059_customer_voice_clip_pipeline_weekly_conversion_assets_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 03:21",
       "owner": "COMMAND",
@@ -459,22 +437,6 @@
       "taskId": "P0-FE-008",
       "artifact": "Executive decision queue panel (attention-only escalations)",
       "path": "office_os/artifacts/P0-FE-008_executive_decision_queue_panel_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-028",
-      "artifact": "milestone artifact delivered",
-      "path": "office_os/artifacts/P2-PROD-028_activation_dropoff_debug_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-049",
-      "artifact": "milestone artifact delivered",
-      "path": "office_os/artifacts/P1-REV-049_roi_calculator_input_schema_2026-02-26.md",
       "status": "done"
     }
   ],
