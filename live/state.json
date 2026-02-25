@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T22:00:07.924950+00:00",
+  "now": "2026-02-25T22:10:06.015817+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-066",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design outbound proof-snippet bank for enterprise cold starts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Bank includes 30 proof snippets tagged by ICP, objection, and KPI outcome."
-    },
-    {
       "id": "P1-REV-067",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -103,25 +84,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Ladder defines primary/secondary CTA logic, trigger timing, and expected conversion uplift hypothesis."
-    },
-    {
-      "id": "P1-REV-070",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design reactivation offer tree for stalled enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Offer tree includes trigger conditions, value framing, and stop/escalate rules by deal stage."
     },
     {
       "id": "P2-PROD-035",
@@ -182,6 +144,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 06:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-070",
+      "artifact": "Reactivation offer tree for stalled enterprise deals (triggers, value framing, stop/escalate rules by stage)",
+      "path": "office_os/artifacts/P1-REV-070_reactivation_offer_tree_stalled_enterprise_deals_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 06:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-066",
+      "artifact": "Outbound proof-snippet bank for enterprise cold starts (30 snippets tagged by ICP/objection/KPI)",
+      "path": "office_os/artifacts/P1-REV-066_outbound_proof_snippet_bank_enterprise_cold_starts_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-013",
+      "artifact": "Operator filter presets + persistent taskboard state",
+      "path": "office_os/artifacts/P0-FE-013_operator_filter_presets_persistence_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-012",
+      "artifact": "Critical jobs state filters + triage chips",
+      "path": "office_os/artifacts/P0-FE-012_critical_jobs_state_filters_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 05:37",
       "owner": "COMMAND",
@@ -348,38 +342,6 @@
       "taskId": "P4-OPS-009",
       "artifact": "Autonomous weekly rerank + stale-burn workflow",
       "path": "office_os/artifacts/P4-OPS-009_autonomous_weekly_rerank_stale_burn_workflow_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-031",
-      "artifact": "First-value instrumentation patch for sub-5-minute activation",
-      "path": "office_os/artifacts/P2-PROD-031_first_value_instrumentation_patch_sub5min_activation_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-058",
-      "artifact": "Enterprise pilot ROI calculator v2 with scenario toggles",
-      "path": "office_os/artifacts/P1-REV-058_enterprise_pilot_roi_calculator_v2_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-032",
-      "artifact": "Week-1 churn-risk early warning rubric with confidence scoring + intervention routing",
-      "path": "office_os/artifacts/P2-PROD-032_churn_risk_early_warning_rubric_week1_2026-02-26.md",
       "status": "done"
     }
   ],
