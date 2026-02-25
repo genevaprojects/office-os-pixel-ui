@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T18:00:06.656294+00:00",
+  "now": "2026-02-25T18:10:04.511493+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-047",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build founder-led deal acceleration checklist for 7-day enterprise closes",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist with daily deal actions, stakeholder map, and close-risk mitigations for top 10 enterprise opportunities."
-    },
-    {
       "id": "P1-REV-048",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
+      "updated_at": "2026-02-26T02:07:01.755053+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -105,25 +86,6 @@
       "acceptance": "One-pager covering top procurement/IT concerns with concise proof blocks and fast-response links."
     },
     {
-      "id": "P1-REV-051",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft case-study-to-close conversion sequence for high-intent prospects",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps proof asset timing to stage transitions with expected conversion uplift hypotheses."
-    },
-    {
       "id": "P2-PROD-027",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -131,7 +93,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
+      "updated_at": "2026-02-26T02:07:01.755063+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -150,7 +112,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
+      "updated_at": "2026-02-26T02:07:01.755068+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
+      "updated_at": "2026-02-26T02:07:01.755077+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,7 +150,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-26T00:07:02.910925+08:00",
+      "updated_at": "2026-02-26T02:07:01.755073+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -201,6 +163,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 02:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:08",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-051",
+      "artifact": "Case-study-to-close conversion sequence for high-intent prospects",
+      "path": "office_os/artifacts/P1-REV-051_case_study_to_close_conversion_sequence_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:07",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-047",
+      "artifact": "Founder-led 7-day enterprise deal acceleration checklist",
+      "path": "office_os/artifacts/P1-REV-047_founder_led_deal_acceleration_checklist_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-009",
+      "artifact": "Responsive/accessibility/state hardening for premium frontend reliability",
+      "path": "office_os/artifacts/P0-FE-009_responsive_accessibility_state_hardening_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-008",
+      "artifact": "Executive decision queue panel (attention-only escalations)",
+      "path": "office_os/artifacts/P0-FE-008_executive_decision_queue_panel_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 01:36",
       "owner": "EXECUTOR",
@@ -359,46 +361,6 @@
       "taskId": "P2-PROD-021",
       "artifact": "Onboarding personalization ruleset by acquisition source with KPI targets",
       "path": "office_os/artifacts/P2-PROD-021_onboarding_personalization_rules_by_source_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-036",
-      "artifact": "PLG invite-wall experiment spec with unlock loop + anti-abuse + KPI targets",
-      "path": "office_os/artifacts/P1-REV-036_plg_invite_wall_experiment_spec_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-007",
-      "artifact": "Operator taskboard filtering controls (priority/status/owner + reset + no-match guidance)",
-      "path": "office_os/artifacts/P0-FE-007_operator_taskboard_filtering_controls_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-006",
-      "artifact": "Live data health + source traceability strip (freshness/degraded state/source endpoint + manual refresh)",
-      "path": "office_os/artifacts/P0-FE-006_live_data_health_traceability_strip_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
