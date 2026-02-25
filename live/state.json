@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T16:10:04.477498+00:00",
+  "now": "2026-02-25T16:22:05.032061+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-036",
+      "id": "P1-REV-041",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build PLG invite-wall experiment spec with instant unlock loop",
+      "title": "Build outbound offer-angle matrix by ICP pain tier",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-26T00:07:02.910895+08:00",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -83,17 +83,17 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Define invite-wall trigger, unlock reward, anti-abuse controls, and KPI targets for activation and referral rate."
+      "acceptance": "Matrix covers 5 ICPs x 3 offers with objection hooks and KPI hypothesis per cell."
     },
     {
-      "id": "P1-REV-037",
+      "id": "P1-REV-042",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Create high-ticket upsell qualification rubric for inbound enterprise leads",
-      "owner": "RESEARCH",
+      "title": "Design fast-close pilot proposal template with ROI proof blocks",
+      "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-26T00:07:02.910906+08:00",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -102,17 +102,17 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Rubric with fit score bands, qualification questions, and next-action routing to increase close velocity."
+      "acceptance": "Template includes scope, timeline, ROI model, risk limits, and signature-ready CTA."
     },
     {
-      "id": "P1-REV-040",
+      "id": "P1-REV-043",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build founder outbound sniper list v2 for top-20 fastest-close targets",
-      "owner": "RESEARCH",
+      "title": "Create reactivation campaign for dormant high-intent leads (30-day)",
+      "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-26T00:07:02.910911+08:00",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -121,26 +121,45 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Top-20 account list with intent signal, opening angle, risk notes, and 7-day outreach plan."
+      "acceptance": "Campaign includes segmentation, 5-touch sequence, proof assets, and recovery KPI targets."
     },
     {
-      "id": "P2-PROD-021",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define onboarding personalization rules by acquisition source",
-      "owner": "BUILDER",
+      "id": "P1-REV-044",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft enterprise objection battlecards for procurement/security/legal",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-26T00:07:02.910916+08:00",
-      "impact": 4,
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
+      "impact": 5,
       "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
+      "urgency": 4,
+      "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Ruleset mapping source intent to onboarding path, prompts, and KPI targets."
+      "acceptance": "Battlecards cover top 15 objections with evidence tags, rebuttals, and fallback offers."
+    },
+    {
+      "id": "P1-REV-045",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Build weekly revenue war-room scorecard with owner-level accountability",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Scorecard tracks pipeline, conversion, velocity, blockers, and next actions per owner."
     },
     {
       "id": "P2-PROD-023",
@@ -160,6 +179,63 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Flow with step pruning, progressive disclosure, and metric targets for time-to-value."
+    },
+    {
+      "id": "P2-PROD-025",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Define first-run empty-state UX scripts for activation lift",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Empty states for top 8 screens include prompt copy, CTA intent, and expected activation impact."
+    },
+    {
+      "id": "P2-PROD-026",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Create experiment QA checklist for onboarding and paywall tests",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist includes instrumentation, segment isolation, rollback triggers, and result validation."
+    },
+    {
+      "id": "P3-CONT-020",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Build founder hot-take response kit for trending AI/Crypto news",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T00:20:00+08:00",
+      "updated_at": "2026-02-26T00:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Kit includes 20 response templates with evidence slots, CTA variants, and risk guardrails."
     },
     {
       "id": "P5-005",
@@ -182,6 +258,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 00:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-040",
+      "artifact": "Founder outbound sniper list v2 (top-20 fastest-close targets)",
+      "path": "office_os/artifacts/P1-REV-040_founder_outbound_sniper_list_v2_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-037",
+      "artifact": "High-ticket upsell qualification rubric for inbound enterprise leads",
+      "path": "office_os/artifacts/P1-REV-037_high_ticket_upsell_qualification_rubric_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:15",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-021",
+      "artifact": "Onboarding personalization ruleset by acquisition source with KPI targets",
+      "path": "office_os/artifacts/P2-PROD-021_onboarding_personalization_rules_by_source_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-036",
+      "artifact": "PLG invite-wall experiment spec with unlock loop + anti-abuse + KPI targets",
+      "path": "office_os/artifacts/P1-REV-036_plg_invite_wall_experiment_spec_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 00:07",
       "owner": "COMMAND",
@@ -340,46 +456,6 @@
       "taskId": "P4-OPS-006",
       "artifact": "Autonomous backlog hygiene checklist + weekly audit SOP",
       "path": "office_os/artifacts/P4-OPS-006_backlog_hygiene_weekly_audit_sop_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-02-25 22:25"
-    },
-    {
-      "time": "2026-02-25 22:21",
-      "owner": "EXECUTOR",
-      "taskId": "P5-004",
-      "artifact": "Define fallback communication tree when primary channel fails",
-      "path": "office_os/artifacts/P5-004_fallback_communication_tree_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:21",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-017",
-      "artifact": "Build proof-led case study storyboards for short-form channels",
-      "path": "office_os/artifacts/P3-CONT-017_proof_led_case_study_storyboards_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-019",
-      "artifact": "First-session aha prompt map for in-app onboarding (0-15 min)",
-      "path": "office_os/artifacts/P2-PROD-019_first_session_aha_prompt_map_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-029",
-      "artifact": "Objection-triggered pricing FAQ block set for checkout",
-      "path": "office_os/artifacts/P1-REV-029_pricing_faq_objection_trigger_blocks_2026-02-25.md",
       "status": "done"
     }
   ],
