@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T20:30:05.906896+00:00",
+  "now": "2026-02-25T20:40:05.911022+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Embed spec includes inputs, outputs, CTA handoff, and event instrumentation for conversion lift."
     },
     {
-      "id": "P1-REV-062",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create 5-day founder DM sprint for pipeline reactivation",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint plan includes target segments, message variants, send cadence, and recovery KPI dashboard."
-    },
-    {
       "id": "P1-REV-063",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -122,25 +103,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Demo flow maps top objections to proof moments and conversion checkpoints with close signals."
-    },
-    {
-      "id": "P1-REV-065",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create expansion playbook for converting pilots to annual contracts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook includes expansion triggers, stakeholder map, renewal sequence, and risk mitigations."
     },
     {
       "id": "P2-PROD-033",
@@ -239,6 +201,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-065",
+      "artifact": "Expansion playbook for converting pilots to annual contracts",
+      "path": "office_os/artifacts/P1-REV-065_expansion_playbook_pilot_to_annual_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-062",
+      "artifact": "5-day founder DM sprint for pipeline reactivation",
+      "path": "office_os/artifacts/P1-REV-062_founder_dm_sprint_pipeline_reactivation_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 04:26",
       "owner": "SOCIAL",
@@ -413,30 +399,6 @@
       "taskId": "P1-REV-054",
       "artifact": "ROI proof asset blueprint for outbound + closing calls",
       "path": "office_os/artifacts/P1-REV-054_roi_proof_asset_blueprint_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-029",
-      "artifact": "Activation KPI control tower with anomaly playbooks",
-      "path": "office_os/artifacts/P2-PROD-029_activation_kpi_control_tower_anomaly_playbooks_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-052",
-      "artifact": "Referral-to-revenue compounding loop with monthly target math",
-      "path": "office_os/artifacts/P1-REV-052_referral_to_revenue_compounding_loop_2026-02-26.md",
       "status": "done"
     }
   ],
