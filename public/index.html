@@ -12,8 +12,8 @@
   <main class="office">
     <header class="panel top">
       <div>
-        <p class="kicker">OFFICE OS CONTROL ROOM</p>
-        <h1>Pixel Operations Dashboard</h1>
+        <p class="kicker pixel">OFFICE OS CONTROL ROOM</p>
+        <h1 class="pixel">Pixel Operations Dashboard</h1>
       </div>
       <div class="right-meta">
         <div id="now" class="timestamp">--</div>
@@ -21,37 +21,59 @@
       </div>
     </header>
 
+    <section class="panel hero" id="hero"></section>
+
+    <section class="panel guide-panel">
+      <details open>
+        <summary class="pixel">How to use this dashboard (Beginner Guide)</summary>
+        <div class="guide-grid">
+          <div class="guide-card">
+            <h3>1) Check overall health first</h3>
+            <p>Look at <strong>System status</strong> at the top. If it says Healthy, you’re good.</p>
+          </div>
+          <div class="guide-card">
+            <h3>2) Watch urgent work</h3>
+            <p>Check <strong>Urgent tasks (P1)</strong>. If this is high, focus there first.</p>
+          </div>
+          <div class="guide-card">
+            <h3>3) Read worker cards</h3>
+            <p><span class="dot green"></span>Good, <span class="dot yellow"></span>In progress, <span class="dot red"></span>Needs action.</p>
+          </div>
+        </div>
+      </details>
+    </section>
+
     <section class="panel summary-panel">
-      <h2>At a Glance</h2>
+      <h2 class="pixel">At a Glance</h2>
       <div id="summary" class="summary-grid"></div>
     </section>
 
     <section class="panel">
       <div class="section-head">
-        <h2>Workers</h2>
-        <span class="small muted">Live status</span>
+        <h2 class="pixel">Team Workers</h2>
+        <span class="small muted">Who is doing what right now</span>
       </div>
       <div id="workers" class="workers"></div>
     </section>
 
     <section class="panel">
       <div class="section-head">
-        <h2>Cron Monitors</h2>
-        <span class="small muted">Health + next run</span>
+        <h2 class="pixel">Automation Jobs</h2>
+        <span class="small muted">Background schedulers and their health</span>
       </div>
       <div id="monitors" class="monitors"></div>
     </section>
 
     <section class="panel">
       <details open>
-        <summary>Backlog Board (P1 first)</summary>
+        <summary class="pixel">Task Board (Urgent first)</summary>
         <div id="backlog" class="board"></div>
       </details>
     </section>
 
     <section class="panel">
       <details>
-        <summary>Ship Log (latest)</summary>
+        <summary class="pixel">Recent Completed Work</summary>
         <div id="ship" class="board"></div>
       </details>
     </section>
