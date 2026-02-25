@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T22:30:05.443101+00:00",
+  "now": "2026-02-25T22:40:04.654494+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-073",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create high-velocity deal desk script for 7-day close windows",
-      "owner": "EXECUTOR",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "Script defines day-by-day touchpoints, objection handling, and go/no-go decision checkpoints.",
-      "status": "READY",
-      "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-075",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -152,25 +133,6 @@
       "effort": 3,
       "urgency": 3,
       "acceptance": "Template includes issue fingerprint, user impact, owner SLA, patch status, and verification step.",
-      "status": "READY",
-      "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-038",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Build first-week feature adoption intervention ladder by persona",
-      "owner": "EXECUTOR",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "acceptance": "Ladder includes trigger thresholds, intervention message, channel, and expected retention lift.",
       "status": "READY",
       "created_at": "2026-02-26T06:20:40+08:00",
       "updated_at": "2026-02-26T06:20:40+08:00",
@@ -220,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 06:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-038",
+      "artifact": "First-week feature adoption intervention ladder by persona",
+      "path": "office_os/artifacts/P2-PROD-038_first_week_feature_adoption_intervention_ladder_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-073",
+      "artifact": "High-velocity deal desk script for 7-day close windows",
+      "path": "office_os/artifacts/P1-REV-073_high_velocity_deal_desk_script_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 06:26",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-034",
-      "artifact": "Day-2 inactive onboarding intervention automations spec",
-      "path": "office_os/artifacts/P2-PROD-034_day2_inactive_onboarding_intervention_automations_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-063",
-      "artifact": "Objection-first enterprise demo flow with proof checkpoints",
-      "path": "office_os/artifacts/P1-REV-063_objection_first_enterprise_demo_flow_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
