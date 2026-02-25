@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T16:22:05.032061+00:00",
+  "now": "2026-02-25T16:30:05.869055+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Template includes scope, timeline, ROI model, risk limits, and signature-ready CTA."
     },
     {
-      "id": "P1-REV-043",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create reactivation campaign for dormant high-intent leads (30-day)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T00:20:00+08:00",
-      "updated_at": "2026-02-26T00:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Campaign includes segmentation, 5-touch sequence, proof assets, and recovery KPI targets."
-    },
-    {
       "id": "P1-REV-044",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -219,25 +200,6 @@
       "acceptance": "Checklist includes instrumentation, segment isolation, rollback triggers, and result validation."
     },
     {
-      "id": "P3-CONT-020",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build founder hot-take response kit for trending AI/Crypto news",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T00:20:00+08:00",
-      "updated_at": "2026-02-26T00:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes 20 response templates with evidence slots, CTA variants, and risk guardrails."
-    },
-    {
       "id": "P5-005",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 00:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-020",
+      "artifact": "Founder hot-take response kit for trending AI/Crypto news (20 templates + CTA variants + risk guardrails)",
+      "path": "office_os/artifacts/P3-CONT-020_founder_hot_take_response_kit_ai_crypto_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-043",
+      "artifact": "Reactivation campaign for dormant high-intent leads (30-day segmentation + 5-touch + KPI targets)",
+      "path": "office_os/artifacts/P1-REV-043_reactivation_campaign_dormant_high_intent_leads_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 00:20",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P1-REV-031",
       "artifact": "Referral reward economics simulator (3 schemes, CAC payback, k-factor, fraud guardrails)",
       "path": "office_os/artifacts/P1-REV-031_referral_reward_economics_simulator_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 22:35",
-      "owner": "EXECUTOR",
-      "taskId": "P4-OPS-006",
-      "artifact": "Autonomous backlog hygiene checklist + weekly audit SOP",
-      "path": "office_os/artifacts/P4-OPS-006_backlog_hygiene_weekly_audit_sop_2026-02-25.md",
       "status": "done"
     }
   ],
