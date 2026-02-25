@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T17:30:05.033572+00:00",
+  "now": "2026-02-25T17:40:05.390914+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "One-pager covering top procurement/IT concerns with concise proof blocks and fast-response links."
     },
     {
-      "id": "P1-REV-049",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create ROI calculator input schema for outbound enterprise pitches",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Schema with required inputs, default assumptions, and output views tied to payback period and annual impact."
-    },
-    {
       "id": "P1-REV-051",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -160,25 +141,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Role-based onboarding branches with triggers, prompts, and activation KPI targets."
-    },
-    {
-      "id": "P2-PROD-028",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create activation drop-off debug checklist for first 24h",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes telemetry checks, failure signatures, and fix routing owners."
     },
     {
       "id": "P3-CONT-022",
@@ -239,6 +201,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 01:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-028",
+      "artifact": "milestone artifact delivered",
+      "path": "office_os/artifacts/P2-PROD-028_activation_dropoff_debug_checklist_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 01:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-049",
+      "artifact": "milestone artifact delivered",
+      "path": "office_os/artifacts/P1-REV-049_roi_calculator_input_schema_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 01:26",
       "owner": "SOCIAL",
@@ -421,22 +399,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-024",
-      "artifact": "Friction kill-list for signup and workspace setup",
-      "path": "office_os/artifacts/P2-PROD-024_signup_workspace_friction_kill_list_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-039",
-      "artifact": "Conversion rescue offer ladder for abandoned checkout users",
-      "path": "office_os/artifacts/P1-REV-039_conversion_rescue_offer_ladder_2026-02-25.md",
       "status": "done"
     }
   ],
