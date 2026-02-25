@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T17:00:06.223391+00:00",
+  "now": "2026-02-25T17:10:05.813227+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Matrix covers 5 ICPs x 3 offers with objection hooks and KPI hypothesis per cell."
     },
     {
-      "id": "P1-REV-044",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft enterprise objection battlecards for procurement/security/legal",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T00:20:00+08:00",
-      "updated_at": "2026-02-26T00:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Battlecards cover top 15 objections with evidence tags, rebuttals, and fallback offers."
-    },
-    {
       "id": "P1-REV-045",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -182,6 +163,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 01:09",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-046",
+      "artifact": "Enterprise security questionnaire fast-fill template (40 Qs + escalation tags)",
+      "path": "office_os/artifacts/P1-REV-046_enterprise_security_questionnaire_fast_fill_template_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 01:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-044",
+      "artifact": "Enterprise objection battlecards for procurement/security/legal",
+      "path": "office_os/artifacts/P1-REV-044_enterprise_objection_battlecards_procurement_security_legal_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 00:37",
       "owner": "COMMAND",
@@ -364,22 +361,6 @@
       "taskId": "P0-FE-003",
       "artifact": "Executive overview + operator mode toggle delivered (dual-mode UX spec + state model)",
       "path": "office_os/artifacts/P0-FE-003_executive_operator_mode_toggle_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:11",
-      "owner": "RESEARCH",
-      "taskId": "P0-FE-002",
-      "artifact": "Executive/Operator IA + navigation model implemented with progressive disclosure",
-      "path": "office_os/artifacts/P0-FE-002_information_architecture_navigation_model_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:11",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-001",
-      "artifact": "Design system foundation implemented (tokens + component standards + accessibility focus states)",
-      "path": "office_os/artifacts/P0-FE-001_design_system_foundation_2026-02-25.md",
       "status": "done"
     }
   ],
