@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T20:00:04.793531+00:00",
+  "now": "2026-02-25T20:10:05.127099+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-057",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design 2-week outbound reply-rate lift sprint using proof snippets",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Reply-rate sprint includes 10 message variants, proof snippet library, and win/lose attribution model."
-    },
-    {
       "id": "P1-REV-058",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T04:07:01.796450+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +93,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T04:07:01.796461+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -124,25 +105,6 @@
       "acceptance": "Patch spec defines missing events, logging schema, and dashboard fields for first-value timing."
     },
     {
-      "id": "P2-PROD-032",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create churn-risk early warning rubric for week-1 users",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Rubric includes risk signals, confidence scoring, and intervention routing rules."
-    },
-    {
       "id": "P4-OPS-009",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -150,7 +112,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T04:07:01.796470+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-26T03:07:02.925549+08:00",
+      "updated_at": "2026-02-26T04:07:01.796466+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,7 +150,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T04:07:01.796476+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -201,6 +163,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-032",
+      "artifact": "Week-1 churn-risk early warning rubric with confidence scoring + intervention routing",
+      "path": "office_os/artifacts/P2-PROD-032_churn_risk_early_warning_rubric_week1_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-057",
+      "artifact": "2-week outbound reply-rate lift sprint with 10 variants + proof snippet library + attribution model",
+      "path": "office_os/artifacts/P1-REV-057_outbound_reply_rate_lift_sprint_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-011",
+      "artifact": "Operator keyboard accessibility + command hotkeys",
+      "path": "office_os/artifacts/P0-FE-011_operator_keyboard_accessibility_hotkeys_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-010",
+      "artifact": "Live sync rail + next-refresh countdown visibility",
+      "path": "office_os/artifacts/P0-FE-010_sync_rail_and_refresh_countdown_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 03:37",
       "owner": "COMMAND",
@@ -359,46 +361,6 @@
       "taskId": "P4-OPS-007",
       "artifact": "Cross-agent handoff SLA board for autonomy loop",
       "path": "office_os/artifacts/P4-OPS-007_cross_agent_handoff_sla_board_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:20",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-022",
-      "artifact": "Founder authority thread format pack (5 reusable structures)",
-      "path": "office_os/artifacts/P3-CONT-022_founder_authority_thread_format_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-027",
-      "artifact": "Role-based first-session onboarding branch logic with triggers/prompts/KPI targets",
-      "path": "office_os/artifacts/P2-PROD-027_role_based_onboarding_branch_logic_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-048",
-      "artifact": "Procurement/IT objection preemption one-pager (proof blocks + fast-response links)",
-      "path": "office_os/artifacts/P1-REV-048_procurement_it_objection_preemption_one_pager_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:08",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-051",
-      "artifact": "Case-study-to-close conversion sequence for high-intent prospects",
-      "path": "office_os/artifacts/P1-REV-051_case_study_to_close_conversion_sequence_2026-02-26.md",
       "status": "done"
     }
   ],
