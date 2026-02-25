@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T19:30:04.894207+00:00",
+  "now": "2026-02-25T19:40:04.305639+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Calculator spec includes conservative/base/aggressive scenarios with payback and risk notes."
     },
     {
-      "id": "P1-REV-060",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft 7-day warm-intro blitz plan for top 30 enterprise accounts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan includes account map, intro path, messaging angle, and daily execution scoreboard."
-    },
-    {
       "id": "P2-PROD-031",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -160,25 +141,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Rubric includes risk signals, confidence scoring, and intervention routing rules."
-    },
-    {
-      "id": "P3-CONT-025",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build comment-to-call escalation SOP for high-intent threads",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T03:21:31+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "SOP defines qualification gates, response templates, and handoff timing to sales calls."
     },
     {
       "id": "P4-OPS-009",
@@ -239,6 +201,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 03:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P3-CONT-025",
+      "artifact": "Comment-to-call escalation SOP for high-intent threads",
+      "path": "office_os/artifacts/P3-CONT-025_comment_to_call_escalation_sop_high_intent_threads_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-060",
+      "artifact": "7-day warm-intro blitz plan for top 30 enterprise accounts",
+      "path": "office_os/artifacts/P1-REV-060_warm_intro_blitz_plan_top30_enterprise_accounts_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 03:25",
       "owner": "SOCIAL",
@@ -413,30 +399,6 @@
       "taskId": "P1-REV-051",
       "artifact": "Case-study-to-close conversion sequence for high-intent prospects",
       "path": "office_os/artifacts/P1-REV-051_case_study_to_close_conversion_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:07",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-047",
-      "artifact": "Founder-led 7-day enterprise deal acceleration checklist",
-      "path": "office_os/artifacts/P1-REV-047_founder_led_deal_acceleration_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-009",
-      "artifact": "Responsive/accessibility/state hardening for premium frontend reliability",
-      "path": "office_os/artifacts/P0-FE-009_responsive_accessibility_state_hardening_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-008",
-      "artifact": "Executive decision queue panel (attention-only escalations)",
-      "path": "office_os/artifacts/P0-FE-008_executive_decision_queue_panel_2026-02-26.md",
       "status": "done"
     }
   ],
