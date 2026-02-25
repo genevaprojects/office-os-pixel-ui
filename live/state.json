@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T15:00:05.349673+00:00",
+  "now": "2026-02-25T15:10:05.948122+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,6 +54,109 @@
   ],
   "backlog": [
     {
+      "id": "P0-FE-001",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Design system foundation (tokens, spacing, typography, component standards)",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-25T23:09:53.249489+08:00",
+      "updated_at": "2026-02-25T23:09:53.249489+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Design token spec + reusable component styles applied across dashboard; consistent visual rhythm and contrast."
+    },
+    {
+      "id": "P0-FE-002",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Client-grade information architecture and navigation model",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-25T23:09:53.249489+08:00",
+      "updated_at": "2026-02-25T23:09:53.249489+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "IA map for operator/executive views, task-focused navigation, and role-based mental model with low cognitive load."
+    },
+    {
+      "id": "P0-FE-003",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Executive overview mode + operator mode toggle",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-25T23:09:53.249489+08:00",
+      "updated_at": "2026-02-25T23:09:53.249489+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-001",
+        "P0-FE-002"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Two polished modes with different density and controls; preserves live data and usability on desktop/mobile."
+    },
+    {
+      "id": "P0-FE-004",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Interaction polish pack (animations, states, transitions, delight without clutter)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-25T23:09:53.249489+08:00",
+      "updated_at": "2026-02-25T23:09:53.249489+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-001"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Micro-interactions documented and implemented; clear hover/focus/loading/error states; no readability regression."
+    },
+    {
+      "id": "P0-FE-005",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Frontend QA hardening for premium client demos",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-25T23:09:53.249489+08:00",
+      "updated_at": "2026-02-25T23:09:53.249489+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-003",
+        "P0-FE-004"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Cross-browser/device checks, accessibility baseline, performance pass, and demo readiness checklist."
+    },
+    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -67,25 +170,6 @@
       ]
     },
     {
-      "id": "P1-REV-031",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design referral reward economics simulator (viral coefficient focused)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Model 3 reward schemes with CAC payback, fraud guardrails, and k-factor assumptions."
-    },
-    {
       "id": "P1-REV-033",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +177,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
+      "updated_at": "2026-02-25T23:07:04.056935+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +196,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
+      "updated_at": "2026-02-25T23:07:04.056946+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -124,25 +208,6 @@
       "acceptance": "Ruleset mapping source intent to onboarding path, prompts, and KPI targets."
     },
     {
-      "id": "P2-PROD-022",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft 14-day retention intervention playbook",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook with risk signals, interventions, and holdout measurement plan."
-    },
-    {
       "id": "P3-CONT-019",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -150,7 +215,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
+      "updated_at": "2026-02-25T23:07:04.056953+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +234,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-25T22:21:17+08:00",
+      "updated_at": "2026-02-25T23:07:04.056957+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,6 +247,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-25 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-022",
+      "artifact": "14-day retention intervention playbook (signals, interventions, holdout plan)",
+      "path": "office_os/artifacts/P2-PROD-022_14_day_retention_intervention_playbook_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-031",
+      "artifact": "Referral reward economics simulator (3 schemes, CAC payback, k-factor, fraud guardrails)",
+      "path": "office_os/artifacts/P1-REV-031_referral_reward_economics_simulator_2026-02-25.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-25 22:37",
       "owner": "COMMAND",
@@ -356,30 +445,6 @@
       "taskId": "P1-REV-022",
       "artifact": "30-day growth experiment pipeline (12 experiments + weekly revenue checkpoints)",
       "path": "office_os/artifacts/P1-REV-022_30_day_growth_experiment_pipeline_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 20:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-026",
-      "artifact": "Zero-friction checkout optimization checklist with rollback logic",
-      "path": "office_os/artifacts/P1-REV-026_checkout_optimization_checklist_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 20:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-024",
-      "artifact": "Founder-led outbound calendar targeting 50 high-intent prospects",
-      "path": "office_os/artifacts/P1-REV-024_founder_led_outbound_calendar_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 20:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-016",
-      "artifact": "Contrarian narrative bank (30 takes) for AI+Crypto distribution",
-      "path": "office_os/artifacts/P3-CONT-016_contrarian_narrative_bank_2026-02-25.md",
       "status": "done"
     }
   ],
