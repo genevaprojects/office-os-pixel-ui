@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T21:30:04.348938+00:00",
+  "now": "2026-02-25T21:40:04.848978+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Ladder defines primary/secondary CTA logic, trigger timing, and expected conversion uplift hypothesis."
     },
     {
-      "id": "P1-REV-068",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build pilot close-risk pre-mortem checklist",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist maps top 12 close risks to prevention actions, owner, and deadline gates."
-    },
-    {
       "id": "P1-REV-070",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -160,25 +141,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Worksheet captures lag signals, probable causes, confidence score, and fix owner."
-    },
-    {
-      "id": "P2-PROD-036",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Build first-week retention recovery script pack",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes day-1/day-3/day7 intervention scripts with segmentation and KPI targets."
     },
     {
       "id": "P4-OPS-011",
@@ -220,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 05:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 05:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-036",
+      "artifact": "First-week retention recovery script pack",
+      "path": "office_os/artifacts/P2-PROD-036_first_week_retention_recovery_script_pack_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 05:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-068",
+      "artifact": "Pilot close-risk pre-mortem checklist",
+      "path": "office_os/artifacts/P1-REV-068_pilot_close_risk_pre_mortem_checklist_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 05:25",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "P2-PROD-032",
       "artifact": "Week-1 churn-risk early warning rubric with confidence scoring + intervention routing",
       "path": "office_os/artifacts/P2-PROD-032_churn_risk_early_warning_rubric_week1_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-057",
-      "artifact": "2-week outbound reply-rate lift sprint with 10 variants + proof snippet library + attribution model",
-      "path": "office_os/artifacts/P1-REV-057_outbound_reply_rate_lift_sprint_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-011",
-      "artifact": "Operator keyboard accessibility + command hotkeys",
-      "path": "office_os/artifacts/P0-FE-011_operator_keyboard_accessibility_hotkeys_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 04:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-010",
-      "artifact": "Live sync rail + next-refresh countdown visibility",
-      "path": "office_os/artifacts/P0-FE-010_sync_rail_and_refresh_countdown_2026-02-26.md",
       "status": "done"
     }
   ],
