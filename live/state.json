@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T17:21:20.176219+00:00",
+  "now": "2026-02-25T17:30:05.033572+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "Schema with required inputs, default assumptions, and output views tied to payback period and annual impact."
     },
     {
-      "id": "P1-REV-050",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build revenue experiment kill/scale decision rubric",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Rubric defines stop/iterate/scale thresholds with confidence and revenue impact scoring."
-    },
-    {
       "id": "P1-REV-051",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -198,25 +179,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist includes telemetry checks, failure signatures, and fix routing owners."
-    },
-    {
-      "id": "P3-CONT-021",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build weekly narrative hijack playbook for breaking AI/Crypto topics",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T01:20:00+08:00",
-      "updated_at": "2026-02-26T01:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook with 10 rapid-response angles, evidence slots, and distribution timing rules."
     },
     {
       "id": "P3-CONT-022",
@@ -277,6 +239,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 01:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-021",
+      "artifact": "Weekly narrative hijack playbook for breaking AI/Crypto topics (angles, evidence slots, timing rules)",
+      "path": "office_os/artifacts/P3-CONT-021_weekly_narrative_hijack_playbook_ai_crypto_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 01:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-050",
+      "artifact": "Revenue experiment kill/scale decision rubric with confidence and revenue impact thresholds",
+      "path": "office_os/artifacts/P1-REV-050_revenue_experiment_kill_scale_decision_rubric_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 01:20",
       "owner": "COMMAND",
@@ -459,22 +437,6 @@
       "taskId": "P1-REV-039",
       "artifact": "Conversion rescue offer ladder for abandoned checkout users",
       "path": "office_os/artifacts/P1-REV-039_conversion_rescue_offer_ladder_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-019",
-      "artifact": "Founder POV controversy calendar (14-day, evidence-anchored)",
-      "path": "office_os/artifacts/P3-CONT-019_founder_pov_controversy_calendar_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-038",
-      "artifact": "Customer win-story capture sprint for weekly social proof shipping",
-      "path": "office_os/artifacts/P1-REV-038_customer_win_story_capture_sprint_2026-02-25.md",
       "status": "done"
     }
   ],
