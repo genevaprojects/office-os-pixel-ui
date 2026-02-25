@@ -67,8 +67,9 @@ function renderWorkers(items){
     const role = key;
     target.innerHTML = `
       <div class="worker-head">
-        <div class="pixel-char ${role}">
+        <div class="pixel-char ${role} ${color(w.status)}">
           <span class="status-dot ${color(w.status)}"></span>
+          <span class="pixel-prop"></span>
         </div>
         <div class="worker-name">${esc(w.name)}</div>
       </div>
