@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T19:00:04.808614+00:00",
+  "now": "2026-02-25T19:10:05.012614+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-052",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design referral-to-revenue compounding loop with monthly target math",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Loop spec includes trigger events, reward logic, anti-abuse controls, and revenue projection scenarios."
-    },
-    {
       "id": "P1-REV-054",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
+      "updated_at": "2026-02-26T03:07:02.925528+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +93,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
+      "updated_at": "2026-02-26T03:07:02.925539+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -124,25 +105,6 @@
       "acceptance": "Sprint plan maps content formats to funnel stages, CTA routing, and pipeline contribution metrics."
     },
     {
-      "id": "P2-PROD-029",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Design activation KPI control tower with anomaly playbooks",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Control tower spec includes KPI tiers, thresholds, owner routing, and response playbooks."
-    },
-    {
       "id": "P3-CONT-023",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -150,7 +112,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
+      "updated_at": "2026-02-26T03:07:02.925545+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-25T22:21:17+08:00",
-      "updated_at": "2026-02-26T02:07:01.755073+08:00",
+      "updated_at": "2026-02-26T03:07:02.925549+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,7 +150,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
+      "updated_at": "2026-02-26T03:07:02.925554+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -201,6 +163,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 03:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-029",
+      "artifact": "Activation KPI control tower with anomaly playbooks",
+      "path": "office_os/artifacts/P2-PROD-029_activation_kpi_control_tower_anomaly_playbooks_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-052",
+      "artifact": "Referral-to-revenue compounding loop with monthly target math",
+      "path": "office_os/artifacts/P1-REV-052_referral_to_revenue_compounding_loop_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 02:37",
       "owner": "COMMAND",
@@ -375,30 +361,6 @@
       "taskId": "P1-REV-045",
       "artifact": "Weekly revenue war-room scorecard with owner accountability",
       "path": "office_os/artifacts/P1-REV-045_weekly_revenue_war_room_scorecard_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-023",
-      "artifact": "Onboarding speed-run flow spec (<3 min time-to-value) with step pruning and progressive disclosure",
-      "path": "office_os/artifacts/P2-PROD-023_onboarding_speed_run_flow_under_3_minutes_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-041",
-      "artifact": "Outbound offer-angle matrix by ICP pain tier (5 ICPs x 3 offers + objection hooks + KPI hypotheses)",
-      "path": "office_os/artifacts/P1-REV-041_outbound_offer_angle_matrix_by_icp_pain_tier_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:09",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-046",
-      "artifact": "Enterprise security questionnaire fast-fill template (40 Qs + escalation tags)",
-      "path": "office_os/artifacts/P1-REV-046_enterprise_security_questionnaire_fast_fill_template_2026-02-26.md",
       "status": "done"
     }
   ],
