@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T21:21:50.132147+00:00",
+  "now": "2026-02-25T21:30:04.348938+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "Checklist maps top 12 close risks to prevention actions, owner, and deadline gates."
     },
     {
-      "id": "P1-REV-069",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft founder authority proof thread series (5) tied to live objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Each thread includes objection hook, proof block, and conversion CTA mapped to funnel stage."
-    },
-    {
       "id": "P1-REV-070",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "acceptance": "Pack includes day-1/day-3/day7 intervention scripts with segmentation and KPI targets."
     },
     {
-      "id": "P3-CONT-028",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce objection-led short video shotlist pack",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T05:21:16+08:00",
-      "updated_at": "2026-02-26T05:21:16+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Shotlist pack includes 15 scripts mapped to objection category, proof type, and CTA."
-    },
-    {
       "id": "P4-OPS-011",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 05:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-028",
+      "artifact": "Objection-led short video shotlist pack (15 scripts with proof type + CTA)",
+      "path": "office_os/artifacts/P3-CONT-028_objection_led_short_video_shotlist_pack_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 05:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-069",
+      "artifact": "Founder authority proof thread series (5) tied to live objections",
+      "path": "office_os/artifacts/P1-REV-069_founder_authority_proof_thread_series_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 05:21",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P0-FE-010",
       "artifact": "Live sync rail + next-refresh countdown visibility",
       "path": "office_os/artifacts/P0-FE-010_sync_rail_and_refresh_countdown_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:36",
-      "owner": "EXECUTOR",
-      "taskId": "P3-CONT-025",
-      "artifact": "Comment-to-call escalation SOP for high-intent threads",
-      "path": "office_os/artifacts/P3-CONT-025_comment_to_call_escalation_sop_high_intent_threads_2026-02-26.md",
       "status": "done"
     }
   ],
