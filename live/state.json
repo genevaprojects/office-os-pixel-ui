@@ -1,0 +1,388 @@
+{
+  "now": "2026-02-25T11:45:20.930455+00:00",
+  "workers": [
+    {
+      "name": "Research",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "running": false
+    },
+    {
+      "name": "Builder",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "running": false
+    },
+    {
+      "name": "Social",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "running": false
+    },
+    {
+      "name": "Executor",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "running": false
+    }
+  ],
+  "monitors": [
+    {
+      "name": "Worker Loop (Research)",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "errors": 0
+    },
+    {
+      "name": "Worker Loop (Builder)",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "errors": 0
+    },
+    {
+      "name": "Worker Loop (Social)",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "errors": 0
+    },
+    {
+      "name": "Worker Loop (Executor)",
+      "status": "scheduled",
+      "nextRunAtMs": null,
+      "errors": 0
+    }
+  ],
+  "backlog": [
+    {
+      "id": "OPS-001",
+      "priority": "P1",
+      "title": "Install Office OS autonomy loop",
+      "owner": "COMMAND",
+      "status": "in_progress",
+      "deadline": "2026-02-25",
+      "acceptanceCriteria": [
+        "STATE object exists and is maintained",
+        "DecisionQueue format defined",
+        "Autonomy rules documented and active"
+      ]
+    },
+    {
+      "id": "P1-REV-020",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Build high-intent lead scoring rubric for inbound DMs",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-25T19:20:51.105357+08:00",
+      "updated_at": "2026-02-25T19:20:51.105357+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-02-28T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Scoring rubric with qualification thresholds and next-action routing."
+    },
+    {
+      "id": "P1-REV-021",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft 5 conversion-first landing page hero variants",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-25T19:20:51.105357+08:00",
+      "updated_at": "2026-02-25T19:20:51.105357+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-02-28T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "5 hero variants with target persona, promise, and measurable hypothesis."
+    },
+    {
+      "id": "P2-PROD-015",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Map activation blockers to 7-day fix sprint",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-25T19:20:51.105357+08:00",
+      "updated_at": "2026-02-25T19:20:51.105357+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-02-28T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Prioritized blocker list with effort/impact and owner/date commitments."
+    },
+    {
+      "id": "P3-CONT-015",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Create 14-day short-video hook library",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-25T19:20:51.105357+08:00",
+      "updated_at": "2026-02-25T19:20:51.105357+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-01T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "20 hooks categorized by pain point, proof type, and CTA."
+    },
+    {
+      "id": "P4-OPS-003",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define automation error budget policy",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-25T19:20:51.105357+08:00",
+      "updated_at": "2026-02-25T19:20:51.105357+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-01T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Policy with allowed failure thresholds and remediation SLA."
+    },
+    {
+      "id": "P5-001",
+      "project": "P5",
+      "priority": "P5",
+      "title": "Reliability guardrail checklist",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-25T18:12:02.494447+08:00",
+      "updated_at": "2026-02-25T19:07:02.253801+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-02-27T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Critical monitors, thresholds, owners"
+    }
+  ],
+  "ship": [
+    {
+      "time": "2026-02-25 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-018",
+      "artifact": "Affiliate onboarding kit for micro-partners",
+      "path": "office_os/artifacts/P1-REV-018_affiliate_onboarding_kit_2026-02-25.md",
+      "status": "done\\n2026-02-25 19:35"
+    },
+    {
+      "time": "2026-02-25 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-019",
+      "artifact": "Viral product demo script pack (3 variants + shot list + CTA)",
+      "path": "office_os/artifacts/P1-REV-019_viral_product_demo_script_social_distribution_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-017",
+      "artifact": "Waitlist referral leaderboard experiment spec (anti-fraud + reward tiers + KPI)",
+      "path": "office_os/artifacts/P1-REV-017_waitlist_referral_leaderboard_experiment_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (maintain >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:20",
+      "owner": "COMMAND",
+      "taskId": "P4-002",
+      "artifact": "Ops SOP hardening (trigger/owner/escalation)",
+      "path": "office_os/artifacts/P4-002_ops_sop_hardening_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:20",
+      "owner": "COMMAND",
+      "taskId": "P3-001",
+      "artifact": "Growth content backlog sprint (10 high-leverage tasks)",
+      "path": "office_os/artifacts/P3-001_growth_content_backlog_sprint_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:15",
+      "owner": "BUILDER",
+      "taskId": "P3-003",
+      "artifact": "Weekly narrative themes (7-day) with reusable hook bank",
+      "path": "office_os/artifacts/P3-003_weekly_narrative_themes_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:15",
+      "owner": "BUILDER",
+      "taskId": "P2-DEAL-013",
+      "artifact": "Source verification playbook with false-positive handling workflow",
+      "path": "office_os/artifacts/P2-DEAL-013_source_verification_playbook_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P4-001",
+      "artifact": "Automation gap audit (top 10 repeatable tasks + automation plan)",
+      "path": "office_os/artifacts/P4-001_automation_gap_audit_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P3-002",
+      "artifact": "FlowX onboarding friction map with remediation proposals",
+      "path": "office_os/artifacts/P3-002_flowx_onboarding_friction_map_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-002",
+      "artifact": "Incident drill playbook (5 scenarios + runbooks)",
+      "path": "office_os/artifacts/P5-002_incident_drill_playbook_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-016",
+      "artifact": "High-intent outbound script pack (10 scripts + cadence)",
+      "path": "office_os/artifacts/P1-REV-016_outbound_script_pack_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P2-DEAL-014",
+      "artifact": "Opportunity board review cadence with owners + SLA protocol",
+      "path": "office_os/artifacts/P2-DEAL-014_opportunity_board_review_cadence_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-015",
+      "artifact": "14-day partner co-marketing sprint with conversion targets",
+      "path": "office_os/artifacts/P1-REV-015_partner_co_marketing_sprint_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (P1 revenue/distribution tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:21",
+      "owner": "RESEARCH",
+      "taskId": "P2-DEAL-011",
+      "artifact": "Deal qualification scorecard",
+      "path": "office_os/artifacts/P2-DEAL-011_deal_qualification_scorecard_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:21",
+      "owner": "BUILDER",
+      "taskId": "P2-DEAL-003",
+      "artifact": "Source reliability and verification matrix",
+      "path": "office_os/artifacts/P2-DEAL-003_source_reliability_verification_matrix_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:24",
+      "owner": "BUILDER",
+      "taskId": "P2-001",
+      "artifact": "Product milestone board cleanup",
+      "path": "office_os/artifacts/P2-001_product_milestone_board_cleanup_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:18",
+      "owner": "BUILDER",
+      "taskId": "P1-CONT-014",
+      "artifact": "Repurposing SOP from long-form to short-form",
+      "path": "office_os/artifacts/P1-CONT-014_repurposing_sop_longform_to_shortform_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:12",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up",
+      "path": "office_os/TOPUP_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-DEAL-001",
+      "artifact": "Deal hunting signal framework refresh",
+      "path": "office_os/artifacts/P2-DEAL-001_deal_hunting_signal_framework_refresh_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 18:05",
+      "owner": "RESEARCH",
+      "taskId": "OPS-005",
+      "artifact": "AI+Crypto headlines automation validation on next cycle",
+      "path": "office_os/artifacts/OPS-005_ai_crypto_headlines_automation_validation_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    }
+  ],
+  "alertCount": 1,
+  "decisions": 0
+}
