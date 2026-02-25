@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T20:21:40.336681+00:00",
+  "now": "2026-02-25T20:30:05.906896+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "Demo flow maps top objections to proof moments and conversion checkpoints with close signals."
     },
     {
-      "id": "P1-REV-064",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design referral partner tiering model with anti-fraud triggers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Model defines tier thresholds, reward math, fraud flags, and weekly payout controls."
-    },
-    {
       "id": "P1-REV-065",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -198,25 +179,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Automation spec includes trigger rules, message logic, suppression conditions, and success metrics."
-    },
-    {
-      "id": "P3-CONT-026",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create conversion-led authority post bundle for weekly distribution",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Bundle includes 7 posts tied to funnel stage, proof asset, and CTA variant."
     },
     {
       "id": "P3-CONT-027",
@@ -277,6 +239,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 04:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-026",
+      "artifact": "Conversion-led authority post bundle (7 posts mapped to funnel/proof/CTA)",
+      "path": "office_os/artifacts/P3-CONT-026_conversion_led_authority_post_bundle_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 04:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-064",
+      "artifact": "Referral partner tiering model with anti-fraud triggers + payout controls",
+      "path": "office_os/artifacts/P1-REV-064_referral_partner_tiering_model_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 04:20",
       "owner": "COMMAND",
@@ -459,22 +437,6 @@
       "taskId": "P1-REV-052",
       "artifact": "Referral-to-revenue compounding loop with monthly target math",
       "path": "office_os/artifacts/P1-REV-052_referral_to_revenue_compounding_loop_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 02:36",
-      "owner": "EXECUTOR",
-      "taskId": "P4-OPS-008",
-      "artifact": "Autonomous backlog decay policy to prevent stale priorities",
-      "path": "office_os/artifacts/P4-OPS-008_autonomous_backlog_decay_policy_2026-02-26.md",
       "status": "done"
     }
   ],
