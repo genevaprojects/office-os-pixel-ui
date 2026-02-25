@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T15:30:05.058007+00:00",
+  "now": "2026-02-25T15:40:06.226156+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Rubric with fit score bands, qualification questions, and next-action routing to increase close velocity."
     },
     {
-      "id": "P1-REV-039",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft conversion rescue offer ladder for abandoned checkout users",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-25T23:21:05.580618+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "3-tier rescue offers with trigger windows, margin guardrails, and rollback criteria."
-    },
-    {
       "id": "P1-REV-040",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -181,25 +162,6 @@
       "acceptance": "Flow with step pruning, progressive disclosure, and metric targets for time-to-value."
     },
     {
-      "id": "P2-PROD-024",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create friction kill-list for signup and workspace setup",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-25T23:21:05.580618+08:00",
-      "updated_at": "2026-02-25T23:21:05.580618+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Prioritized friction list with fix proposals, expected uplift, and owner/date commitments."
-    },
-    {
       "id": "P5-005",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -220,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-25 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-024",
+      "artifact": "Friction kill-list for signup and workspace setup",
+      "path": "office_os/artifacts/P2-PROD-024_signup_workspace_friction_kill_list_2026-02-25.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-25 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-039",
+      "artifact": "Conversion rescue offer ladder for abandoned checkout users",
+      "path": "office_os/artifacts/P1-REV-039_conversion_rescue_offer_ladder_2026-02-25.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-25 23:25",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "P1-REV-030",
       "artifact": "Urgency campaign matrix (deadline/bonus/seat cap) with guardrails",
       "path": "office_os/artifacts/P1-REV-030_urgency_campaign_matrix_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:36",
-      "owner": "EXECUTOR",
-      "taskId": "P3-CONT-018",
-      "artifact": "Comment-to-DM conversion script tree (12 branches)",
-      "path": "office_os/artifacts/P3-CONT-018_comment_to_dm_conversion_script_tree_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-028",
-      "artifact": "Founder/influencer co-sell playbook for 10 warm channels",
-      "path": "office_os/artifacts/P1-REV-028_founder_influencer_co_sell_playbook_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 21:26",
-      "owner": "SOCIAL",
-      "taskId": "P2-PROD-020",
-      "artifact": "72-hour activation rescue sequence (email/DM/in-app + segmentation KPI)",
-      "path": "office_os/artifacts/P2-PROD-020_72h_activation_rescue_sequence_2026-02-25.md",
       "status": "done"
     }
   ],
