@@ -1,0 +1,25 @@
+{
+  "now": "2026-02-25T16:39:00.000Z",
+  "workers": [
+    { "name": "Research", "status": "ok", "nextRunAtMs": 1772000100000, "running": false },
+    { "name": "Builder", "status": "running", "nextRunAtMs": 1772000400000, "running": true },
+    { "name": "Social", "status": "scheduled", "nextRunAtMs": 1772000700000, "running": false },
+    { "name": "Executor", "status": "ok", "nextRunAtMs": 1772001000000, "running": false }
+  ],
+  "monitors": [
+    { "name": "Office OS - Worker Loop (Research)", "status": "ok", "nextRunAtMs": 1772000100000, "errors": 0 },
+    { "name": "Office OS - Worker Loop (Builder)", "status": "running", "nextRunAtMs": 1772000400000, "errors": 0 },
+    { "name": "Office OS - Worker Loop (Social)", "status": "scheduled", "nextRunAtMs": 1772000700000, "errors": 0 },
+    { "name": "Office OS - Worker Loop (Executor)", "status": "ok", "nextRunAtMs": 1772001000000, "errors": 0 }
+  ],
+  "backlog": [
+    { "id": "P1-001", "title": "Investor one-pager v2", "priority": "P1", "owner": "Builder", "status": "READY" },
+    { "id": "P1-002", "title": "Launch growth loop experiment", "priority": "P1", "owner": "Research", "status": "QUEUED" }
+  ],
+  "ship": [
+    { "time": "2026-02-25 16:00", "owner": "Builder", "taskId": "P1-001", "artifact": "one-pager-v2.md", "path": "office_os/ship/one-pager-v2.md", "status": "done" },
+    { "time": "2026-02-25 15:35", "owner": "Research", "taskId": "P1-002", "artifact": "growth-experiment-notes.md", "path": "office_os/ship/growth-experiment-notes.md", "status": "ok" }
+  ],
+  "alertCount": 0,
+  "decisions": 1
+}

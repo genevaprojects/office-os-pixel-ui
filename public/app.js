@@ -23,15 +23,46 @@ function renderShip(items){
   el.innerHTML=items.map(s=>`<div class="card"><div>${s.time} | ${s.owner}</div><div class="small">${s.taskId} — ${s.artifact}</div><div class="small">${s.status}</div></div>`).join('');
 }
 
-async function tick(){
-  const res=await fetch('/api/state');
-  const d=await res.json();
-  document.getElementById('now').textContent=new Date(d.now).toLocaleString();
+function resolveApiUrl(){
+  const q = new URLSearchParams(window.location.search);
+  const fromQuery = q.get('api');
+  if(fromQuery) return fromQuery;
+
+  const fromStorage = window.localStorage.getItem('OFFICE_OS_API_URL');
+  if(fromStorage) return fromStorage;
+
+  if(window.OFFICE_OS_API_URL) return window.OFFICE_OS_API_URL;
+
+  return './mock/state.json';
+}
+
+async function fetchState(){
+  const apiUrl = resolveApiUrl();
+  const res = await fetch(apiUrl, { cache: 'no-store' });
+  if(!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+  return res.json();
+}
+
+function renderAll(d){
+  document.getElementById('now').textContent = new Date(d.now || Date.now()).toLocaleString();
   renderWorkers(d.workers||[]);
   renderMonitors(d.monitors||[]);
   renderBacklog(d.backlog||[]);
   renderShip(d.ship||[]);
 }
 
+async function tick(){
+  try{
+    const d = await fetchState();
+    renderAll(d);
+  }catch(err){
+    console.error(err);
+    renderAll({
+      now: new Date().toISOString(),
+      workers: [], monitors: [], backlog: [], ship: []
+    });
+  }
+}
+
 tick();
-setInterval(tick,30000);
+setInterval(tick, window.OFFICE_OS_REFRESH_MS || 30000);

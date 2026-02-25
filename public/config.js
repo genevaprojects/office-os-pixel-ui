@@ -1,0 +1,5 @@
+// Static-host friendly config.
+// Option A: set window.OFFICE_OS_API_URL to a full endpoint returning state JSON.
+// Option B: leave empty to use local mock data at ./mock/state.json
+window.OFFICE_OS_API_URL = '';
+window.OFFICE_OS_REFRESH_MS = 30000;
