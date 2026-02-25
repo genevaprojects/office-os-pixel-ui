@@ -52,7 +52,26 @@ function renderHero(d){
   `;
 }
 
+function renderCrew(items){
+  const el = document.getElementById('crew');
+  if (!el) return;
+  if (!items.length) {
+    el.innerHTML = '<div class="crew-meta">Crew status unavailable.</div>';
+    return;
+  }
+  el.innerHTML = items.map(w => `
+    <div class="crew-card">
+      <div class="avatar ${color(w.status)}"></div>
+      <div>
+        <div class="crew-name">${esc(w.name)}</div>
+        <div class="crew-meta">${friendlyStatus(w.status)}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
 function renderSummary(d){
+
   const workers = d.workers || [];
   const monitors = d.monitors || [];
   const backlog = d.backlog || [];
@@ -176,6 +195,7 @@ function renderAll(d){
 
   renderHero(d);
   renderSummary(d);
+  renderCrew(d.workers || []);
   renderWorkers(d.workers || []);
   renderMonitors(d.monitors || []);
   renderBacklog(d.backlog || []);
