@@ -7,59 +7,52 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="iso-stage">
-    <section class="iso-room">
-      <div class="wall wall-left"></div>
-      <div class="wall wall-right"></div>
-      <div class="floor"></div>
-      <div class="rug"></div>
-      <div class="plant plant-a"></div>
-      <div class="plant plant-b"></div>
-
-      <header class="hud panel">
+  <main class="wrap">
+    <header class="top panel">
+      <div>
         <p class="kicker">OFFICE OS CONTROL ROOM</p>
-        <h1>Office Ops Isometric View</h1>
-        <p class="sub">Inspired by Monument Valley’s isometric calm + The Sims’ cozy office readability.</p>
-        <div class="meta-row">
-          <span id="now" class="badge">--</span>
-          <span id="api-mode" class="badge soft">Data source: --</span>
-        </div>
-      </header>
+        <h1>Isometric Office Command Center</h1>
+        <p class="sub">Each worker sits in a fixed cubicle so you can read who is doing what instantly.</p>
+      </div>
+      <div class="meta-row">
+        <span id="now" class="badge">--</span>
+        <span id="api-mode" class="badge soft">Data source: --</span>
+      </div>
+    </header>
 
-      <section class="desk desk-left panel">
-        <h2>Team Workers</h2>
-        <div id="workers" class="workers"></div>
-      </section>
+    <section class="panel scene-panel">
+      <h2>Live Office Floor</h2>
+      <div id="hero" class="hero"></div>
+      <div class="scene">
+        <div class="cubicle research" id="worker-research"></div>
+        <div class="cubicle builder" id="worker-builder"></div>
+        <div class="cubicle social" id="worker-social"></div>
+        <div class="cubicle executor" id="worker-executor"></div>
+      </div>
+    </section>
 
-      <section class="desk desk-right panel">
-        <h2>Automation Jobs</h2>
-        <div id="monitors" class="monitors"></div>
-      </section>
+    <section class="panel summary-panel">
+      <h2>At a Glance</h2>
+      <div id="summary" class="summary-grid"></div>
+    </section>
 
-      <section class="center panel summary-panel">
-        <h2>At a Glance</h2>
-        <div id="hero" class="hero"></div>
-        <div id="summary" class="summary-grid"></div>
-      </section>
+    <section class="panel">
+      <h2>Automation Jobs</h2>
+      <div id="monitors" class="monitors"></div>
+    </section>
 
-      <section class="crew panel">
-        <h2>Office Crew</h2>
-        <div id="crew" class="crew-grid"></div>
-      </section>
+    <section class="panel">
+      <details open>
+        <summary>Task Board (Urgent first)</summary>
+        <div id="backlog" class="board"></div>
+      </details>
+    </section>
 
-      <section class="board-left panel">
-        <details open>
-          <summary>Task Board (Urgent first)</summary>
-          <div id="backlog" class="board"></div>
-        </details>
-      </section>
-
-      <section class="board-right panel">
-        <details>
-          <summary>Recent Completed Work</summary>
-          <div id="ship" class="board"></div>
-        </details>
-      </section>
+    <section class="panel">
+      <details>
+        <summary>Recent Completed Work</summary>
+        <div id="ship" class="board"></div>
+      </details>
     </section>
   </main>
 
