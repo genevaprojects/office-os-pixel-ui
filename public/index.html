@@ -8,32 +8,55 @@
 </head>
 <body>
   <div class="skyline"></div>
+
   <main class="office">
     <header class="panel top">
-      <h1>OFFICE OS // PIXEL OFFICE SIM</h1>
-      <div id="now">--</div>
+      <div>
+        <p class="kicker">OFFICE OS CONTROL ROOM</p>
+        <h1>Pixel Operations Dashboard</h1>
+      </div>
+      <div class="right-meta">
+        <div id="now" class="timestamp">--</div>
+        <div id="api-mode" class="small muted">Data source: --</div>
+      </div>
     </header>
 
+    <section class="panel summary-panel">
+      <h2>At a Glance</h2>
+      <div id="summary" class="summary-grid"></div>
+    </section>
+
     <section class="panel">
-      <h2>Workers at Desks</h2>
+      <div class="section-head">
+        <h2>Workers</h2>
+        <span class="small muted">Live status</span>
+      </div>
       <div id="workers" class="workers"></div>
     </section>
 
     <section class="panel">
-      <h2>In-Game Monitors (Cron Health)</h2>
+      <div class="section-head">
+        <h2>Cron Monitors</h2>
+        <span class="small muted">Health + next run</span>
+      </div>
       <div id="monitors" class="monitors"></div>
     </section>
 
     <section class="panel">
-      <h2>BACKLOG Wall Task Board</h2>
-      <div id="backlog" class="board"></div>
+      <details open>
+        <summary>Backlog Board (P1 first)</summary>
+        <div id="backlog" class="board"></div>
+      </details>
     </section>
 
     <section class="panel">
-      <h2>SHIP_LOG Bulletin Board</h2>
-      <div id="ship" class="board"></div>
+      <details>
+        <summary>Ship Log (latest)</summary>
+        <div id="ship" class="board"></div>
+      </details>
     </section>
   </main>
+
   <script src="config.js"></script>
   <script src="app.js"></script>
 </body>
