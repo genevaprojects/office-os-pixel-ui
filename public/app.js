@@ -64,9 +64,12 @@ function renderWorkers(items){
     const key = String(w.name || '').toLowerCase();
     const target = map[key];
     if (!target) return;
+    const role = key;
     target.innerHTML = `
       <div class="worker-head">
-        <div class="avatar ${color(w.status)}"></div>
+        <div class="pixel-char ${role}">
+          <span class="status-dot ${color(w.status)}"></span>
+        </div>
         <div class="worker-name">${esc(w.name)}</div>
       </div>
       <div class="worker-meta"><span>Status</span><span>${friendlyStatus(w.status)}</span></div>
