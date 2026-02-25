@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root{--bg:#1e2533;--panel:#2a3347;--ink:#e7e6df;--g:#6ee7a2;--y:#f5d76e;--r:#f87171}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Press Start 2P',monospace;font-size:10px}
+.skyline{height:72px;border-bottom:3px solid #0b0e14;background:linear-gradient(#33425f,#20293b);position:relative;overflow:hidden}
+.skyline:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to right,transparent 0 24px,#3a4c71 24px 26px)}
+.office{max-width:1180px;margin:0 auto;padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.panel{background:var(--panel);border:3px solid #111827;padding:10px;box-shadow:inset 0 0 0 2px #475675}
+.top{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}
+h1,h2{margin:0 0 8px;color:#8ab4ff;font-size:11px}
+.workers,.monitors,.board{display:grid;gap:8px;max-height:300px;overflow:auto}
+.workers,.monitors{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{background:#1f2738;border:2px solid #0f172a;padding:8px}
+.worker{display:flex;gap:8px;align-items:center}
+.sprite{width:24px;height:24px;border:2px solid #111;background:linear-gradient(#f2c9a2 0 8px,#3d4865 8px 14px,#5fb183 14px 24px)}
+.light{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+.green{background:var(--g)}.yellow{background:var(--y)}.red{background:var(--r)}
+.small{font-size:8px;opacity:.85}
+@media(max-width:900px){.office{grid-template-columns:1fr}}
