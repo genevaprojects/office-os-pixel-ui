@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T23:00:06.120680+00:00",
+  "now": "2026-02-25T23:10:05.093496+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-071",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design objection-to-proof response map for top 25 enterprise sales objections",
-      "owner": "RESEARCH",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "Map includes objection trigger, proof asset, short response script, and conversion KPI target.",
-      "status": "READY",
-      "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-072",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -97,26 +78,7 @@
       "acceptance": "30 openers tagged by ICP, pain, expected reply-rate lift, and follow-up CTA.",
       "status": "READY",
       "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-075",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create enterprise pilot renewal trigger matrix (week 2-6)",
-      "owner": "RESEARCH",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "Matrix links usage/impact signals to renewal nudges, owner actions, and risk thresholds.",
-      "status": "READY",
-      "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
+      "updated_at": "2026-02-26T07:07:01.705501+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -135,7 +97,7 @@
       "acceptance": "Template includes issue fingerprint, user impact, owner SLA, patch status, and verification step.",
       "status": "READY",
       "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
+      "updated_at": "2026-02-26T07:07:01.705511+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -154,7 +116,7 @@
       "acceptance": "Protocol defines rollback triggers, communication path, ownership, and post-incident verification loop.",
       "status": "READY",
       "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
+      "updated_at": "2026-02-26T07:07:01.705517+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -173,7 +135,7 @@
       "acceptance": "Watchlist includes critical deps, drift detection method, alert thresholds, and remediation owner.",
       "status": "READY",
       "created_at": "2026-02-26T06:20:40+08:00",
-      "updated_at": "2026-02-26T06:20:40+08:00",
+      "updated_at": "2026-02-26T07:07:01.705521+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -182,6 +144,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-075",
+      "artifact": "Enterprise pilot renewal trigger matrix (week 2-6)",
+      "path": "office_os/artifacts/P1-REV-075_enterprise_pilot_renewal_trigger_matrix_week2_6_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-071",
+      "artifact": "Objection-to-proof response map for top 25 enterprise objections",
+      "path": "office_os/artifacts/P1-REV-071_objection_to_proof_response_map_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 06:37",
       "owner": "COMMAND",
@@ -356,30 +342,6 @@
       "taskId": "P3-CONT-027",
       "artifact": "Short-form rebuttal library for top 15 sales objections",
       "path": "office_os/artifacts/P3-CONT-027_short_form_rebuttal_library_top15_objections_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-033",
-      "artifact": "Activation friction telemetry QA sweep for top 10 drop-offs with patch priority ordering",
-      "path": "office_os/artifacts/P2-PROD-033_activation_friction_telemetry_qa_sweep_top10_dropoffs_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-061",
-      "artifact": "Self-serve ROI mini-calculator embed spec (inputs/outputs/CTA handoff + event instrumentation)",
-      "path": "office_os/artifacts/P1-REV-061_self_serve_roi_mini_calculator_embed_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 05:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
