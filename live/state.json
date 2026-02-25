@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T19:10:05.012614+00:00",
+  "now": "2026-02-25T19:21:56.693265+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-054",
+      "id": "P1-REV-057",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build ROI proof asset blueprint for outbound and closing calls",
-      "owner": "BUILDER",
+      "title": "Design 2-week outbound reply-rate lift sprint using proof snippets",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T03:07:02.925528+08:00",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -83,17 +83,17 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Blueprint defines proof modules, data requirements, ICP variants, and deployment checklist."
+      "acceptance": "Reply-rate sprint includes 10 message variants, proof snippet library, and win/lose attribution model."
     },
     {
-      "id": "P1-REV-056",
+      "id": "P1-REV-058",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Define weekly founder sales content sprint tied to pipeline stages",
-      "owner": "COMMAND",
+      "title": "Create enterprise pilot ROI calculator v2 with scenario toggles",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T03:07:02.925539+08:00",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -102,17 +102,55 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Sprint plan maps content formats to funnel stages, CTA routing, and pipeline contribution metrics."
+      "acceptance": "Calculator spec includes conservative/base/aggressive scenarios with payback and risk notes."
     },
     {
-      "id": "P3-CONT-023",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build proof-driven carousel narrative templates for conversion content",
+      "id": "P1-REV-059",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Build customer-voice clip pipeline for weekly conversion assets",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pipeline defines sourcing, editing, proof tagging, and weekly publishing SLA for funnel stages."
+    },
+    {
+      "id": "P1-REV-060",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft 7-day warm-intro blitz plan for top 30 enterprise accounts",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Plan includes account map, intro path, messaging angle, and daily execution scoreboard."
+    },
+    {
+      "id": "P2-PROD-031",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Design first-value instrumentation patch for sub-5-minute activation",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T03:07:02.925545+08:00",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -121,7 +159,83 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "At least 6 templates with hook/proof/CTA sequencing and repurposing guidance."
+      "acceptance": "Patch spec defines missing events, logging schema, and dashboard fields for first-value timing."
+    },
+    {
+      "id": "P2-PROD-032",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Create churn-risk early warning rubric for week-1 users",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Rubric includes risk signals, confidence scoring, and intervention routing rules."
+    },
+    {
+      "id": "P3-CONT-024",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Draft 10 proof-first short posts mapped to active objections",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Each post maps one objection to one proof artifact and one conversion CTA."
+    },
+    {
+      "id": "P3-CONT-025",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Build comment-to-call escalation SOP for high-intent threads",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "SOP defines qualification gates, response templates, and handoff timing to sales calls."
+    },
+    {
+      "id": "P4-OPS-009",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous weekly rerank + stale-burn workflow",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Workflow includes trigger schedule, rerank criteria, stale decay policy hooks, and audit log format."
     },
     {
       "id": "P5-005",
@@ -143,14 +257,14 @@
       "acceptance": "Monthly drill plan with test scenarios, pass/fail criteria, and rollback policy."
     },
     {
-      "id": "P5-006",
+      "id": "P5-007",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
-      "title": "Create observability minimum set for cron-driven growth workflows",
+      "title": "Create cron failure fingerprint catalog with remediation mapping",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T03:07:02.925554+08:00",
+      "created_at": "2026-02-26T03:21:31+08:00",
+      "updated_at": "2026-02-26T03:21:31+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -159,10 +273,50 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Minimum monitoring set includes health checks, alert thresholds, and owner escalation chain."
+      "acceptance": "Catalog covers top failure fingerprints, likely causes, and first/second/third remediation actions."
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 03:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:21",
+      "owner": "BUILDER",
+      "taskId": "P5-006",
+      "artifact": "Observability minimum set for cron-driven growth workflows",
+      "path": "office_os/artifacts/P5-006_observability_minimum_set_cron_growth_workflows_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-056",
+      "artifact": "Weekly founder sales content sprint tied to pipeline stages",
+      "path": "office_os/artifacts/P1-REV-056_weekly_founder_sales_content_sprint_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:16",
+      "owner": "BUILDER",
+      "taskId": "P3-CONT-023",
+      "artifact": "Proof-driven carousel narrative templates (6) for conversion content",
+      "path": "office_os/artifacts/P3-CONT-023_proof_driven_carousel_narrative_templates_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 03:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-054",
+      "artifact": "ROI proof asset blueprint for outbound + closing calls",
+      "path": "office_os/artifacts/P1-REV-054_roi_proof_asset_blueprint_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 03:07",
       "owner": "COMMAND",
@@ -321,46 +475,6 @@
       "taskId": "P1-REV-049",
       "artifact": "milestone artifact delivered",
       "path": "office_os/artifacts/P1-REV-049_roi_calculator_input_schema_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-021",
-      "artifact": "Weekly narrative hijack playbook for breaking AI/Crypto topics (angles, evidence slots, timing rules)",
-      "path": "office_os/artifacts/P3-CONT-021_weekly_narrative_hijack_playbook_ai_crypto_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-050",
-      "artifact": "Revenue experiment kill/scale decision rubric with confidence and revenue impact thresholds",
-      "path": "office_os/artifacts/P1-REV-050_revenue_experiment_kill_scale_decision_rubric_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:20",
-      "owner": "COMMAND",
-      "taskId": "P2-PROD-025",
-      "artifact": "First-run empty-state UX scripts for activation lift",
-      "path": "office_os/artifacts/P2-PROD-025_first_run_empty_state_ux_scripts_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-045",
-      "artifact": "Weekly revenue war-room scorecard with owner accountability",
-      "path": "office_os/artifacts/P1-REV-045_weekly_revenue_war_room_scorecard_2026-02-26.md",
       "status": "done"
     }
   ],
