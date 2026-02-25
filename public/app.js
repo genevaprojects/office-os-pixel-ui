@@ -66,15 +66,20 @@ function renderWorkers(items){
     if (!target) return;
     const role = key;
     target.innerHTML = `
-      <div class="worker-head">
-        <div class="pixel-char ${role} ${color(w.status)}">
-          <span class="status-dot ${color(w.status)}"></span>
-          <span class="pixel-prop"></span>
-        </div>
-        <div class="worker-name">${esc(w.name)}</div>
+      <div class="status-pop ${color(w.status)}">
+        <div class="pop-title">${esc(w.name)}</div>
+        <div class="pop-row"><span>Status</span><span>${friendlyStatus(w.status)}</span></div>
+        <div class="pop-row"><span>Next</span><span>${relTime(w.nextRunAtMs)}</span></div>
       </div>
-      <div class="worker-meta"><span>Status</span><span>${friendlyStatus(w.status)}</span></div>
-      <div class="worker-meta"><span>Next run</span><span>${relTime(w.nextRunAtMs)}</span></div>
+
+      <div class="pixel-person ${role}">
+        <span class="hair"></span>
+        <span class="head"></span>
+        <span class="torso"></span>
+        <span class="legs"></span>
+        <span class="shoes"></span>
+      </div>
+      <div class="char-name">${esc(w.name)}</div>
     `;
   });
 }
