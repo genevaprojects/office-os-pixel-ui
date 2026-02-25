@@ -7,76 +7,54 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="skyline"></div>
+  <main class="iso-stage">
+    <section class="iso-room">
+      <div class="wall wall-left"></div>
+      <div class="wall wall-right"></div>
+      <div class="floor"></div>
+      <div class="rug"></div>
+      <div class="plant plant-a"></div>
+      <div class="plant plant-b"></div>
 
-  <main class="office">
-    <header class="panel top header-panel">
-      <div class="header-title-wrap">
-        <p class="kicker pixel">OFFICE OS CONTROL ROOM</p>
-        <h1>Pixel Operations Dashboard</h1>
-        <p class="header-sub">Real-time command view for tasks, automation, and team execution.</p>
-      </div>
-      <div class="right-meta">
-        <div id="now" class="timestamp badge">--</div>
-        <div id="api-mode" class="small badge badge-soft">Data source: --</div>
-      </div>
-    </header>
-
-    <section class="panel hero" id="hero"></section>
-
-    <section class="panel guide-panel">
-      <details open>
-        <summary class="pixel">How to use this dashboard (Beginner Guide)</summary>
-        <div class="guide-grid">
-          <div class="guide-card">
-            <h3>1) Check overall health first</h3>
-            <p>Look at <strong>System status</strong> at the top. If it says Healthy, you’re good.</p>
-          </div>
-          <div class="guide-card">
-            <h3>2) Watch urgent work</h3>
-            <p>Check <strong>Urgent tasks (P1)</strong>. If this is high, focus there first.</p>
-          </div>
-          <div class="guide-card">
-            <h3>3) Read worker cards</h3>
-            <p><span class="dot green"></span>Good, <span class="dot yellow"></span>In progress, <span class="dot red"></span>Needs action.</p>
-          </div>
+      <header class="hud panel">
+        <p class="kicker">OFFICE OS CONTROL ROOM</p>
+        <h1>Office Ops Isometric View</h1>
+        <p class="sub">Inspired by Monument Valley’s isometric calm + The Sims’ cozy office readability.</p>
+        <div class="meta-row">
+          <span id="now" class="badge">--</span>
+          <span id="api-mode" class="badge soft">Data source: --</span>
         </div>
-      </details>
-    </section>
+      </header>
 
-    <section class="panel summary-panel">
-      <h2 class="pixel">At a Glance</h2>
-      <div id="summary" class="summary-grid"></div>
-    </section>
+      <section class="desk desk-left panel">
+        <h2>Team Workers</h2>
+        <div id="workers" class="workers"></div>
+      </section>
 
-    <section class="panel">
-      <div class="section-head">
-        <h2 class="pixel">Team Workers</h2>
-        <span class="small muted">Who is doing what right now</span>
-      </div>
-      <div id="workers" class="workers"></div>
-    </section>
+      <section class="desk desk-right panel">
+        <h2>Automation Jobs</h2>
+        <div id="monitors" class="monitors"></div>
+      </section>
 
-    <section class="panel">
-      <div class="section-head">
-        <h2 class="pixel">Automation Jobs</h2>
-        <span class="small muted">Background schedulers and their health</span>
-      </div>
-      <div id="monitors" class="monitors"></div>
-    </section>
+      <section class="center panel summary-panel">
+        <h2>At a Glance</h2>
+        <div id="hero" class="hero"></div>
+        <div id="summary" class="summary-grid"></div>
+      </section>
 
-    <section class="panel">
-      <details open>
-        <summary class="pixel">Task Board (Urgent first)</summary>
-        <div id="backlog" class="board"></div>
-      </details>
-    </section>
+      <section class="board-left panel">
+        <details open>
+          <summary>Task Board (Urgent first)</summary>
+          <div id="backlog" class="board"></div>
+        </details>
+      </section>
 
-    <section class="panel">
-      <details>
-        <summary class="pixel">Recent Completed Work</summary>
-        <div id="ship" class="board"></div>
-      </details>
+      <section class="board-right panel">
+        <details>
+          <summary>Recent Completed Work</summary>
+          <div id="ship" class="board"></div>
+        </details>
+      </section>
     </section>
   </main>
 
