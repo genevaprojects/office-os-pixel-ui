@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T16:30:05.869055+00:00",
+  "now": "2026-02-25T16:40:04.847481+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Matrix covers 5 ICPs x 3 offers with objection hooks and KPI hypothesis per cell."
     },
     {
-      "id": "P1-REV-042",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design fast-close pilot proposal template with ROI proof blocks",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T00:20:00+08:00",
-      "updated_at": "2026-02-26T00:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes scope, timeline, ROI model, risk limits, and signature-ready CTA."
-    },
-    {
       "id": "P1-REV-044",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -181,25 +162,6 @@
       "acceptance": "Empty states for top 8 screens include prompt copy, CTA intent, and expected activation impact."
     },
     {
-      "id": "P2-PROD-026",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create experiment QA checklist for onboarding and paywall tests",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T00:20:00+08:00",
-      "updated_at": "2026-02-26T00:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes instrumentation, segment isolation, rollback triggers, and result validation."
-    },
-    {
       "id": "P5-005",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -220,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 00:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-026",
+      "artifact": "Experiment QA checklist for onboarding and paywall tests",
+      "path": "office_os/artifacts/P2-PROD-026_experiment_qa_checklist_onboarding_paywall_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 00:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-042",
+      "artifact": "Fast-close pilot proposal template with ROI proof blocks",
+      "path": "office_os/artifacts/P1-REV-042_fast_close_pilot_proposal_template_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 00:26",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "P0-FE-001",
       "artifact": "Design system foundation implemented (tokens + component standards + accessibility focus states)",
       "path": "office_os/artifacts/P0-FE-001_design_system_foundation_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-022",
-      "artifact": "14-day retention intervention playbook (signals, interventions, holdout plan)",
-      "path": "office_os/artifacts/P2-PROD-022_14_day_retention_intervention_playbook_2026-02-25.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-25 23:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-031",
-      "artifact": "Referral reward economics simulator (3 schemes, CAC payback, k-factor, fraud guardrails)",
-      "path": "office_os/artifacts/P1-REV-031_referral_reward_economics_simulator_2026-02-25.md",
       "status": "done"
     }
   ],
