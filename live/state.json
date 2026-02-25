@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T21:00:05.221615+00:00",
+  "now": "2026-02-25T21:10:04.432957+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
+      "updated_at": "2026-02-26T05:07:02.308848+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -86,25 +86,6 @@
       "acceptance": "Embed spec includes inputs, outputs, CTA handoff, and event instrumentation for conversion lift."
     },
     {
-      "id": "P1-REV-063",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft objection-first enterprise demo flow with proof checkpoints",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Demo flow maps top objections to proof moments and conversion checkpoints with close signals."
-    },
-    {
       "id": "P2-PROD-033",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -112,7 +93,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
+      "updated_at": "2026-02-26T05:07:02.308860+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -124,25 +105,6 @@
       "acceptance": "QA sweep identifies top 10 drop-offs with instrumentation checks and patch priority ordering."
     },
     {
-      "id": "P2-PROD-034",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define onboarding intervention automations for inactive day-2 users",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Automation spec includes trigger rules, message logic, suppression conditions, and success metrics."
-    },
-    {
       "id": "P3-CONT-027",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -150,7 +112,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
+      "updated_at": "2026-02-26T05:07:02.308865+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T04:20:00+08:00",
-      "updated_at": "2026-02-26T04:20:00+08:00",
+      "updated_at": "2026-02-26T05:07:02.308875+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,7 +150,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T03:21:31+08:00",
-      "updated_at": "2026-02-26T04:07:01.796476+08:00",
+      "updated_at": "2026-02-26T05:07:02.308870+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -201,6 +163,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 05:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-034",
+      "artifact": "Day-2 inactive onboarding intervention automations spec",
+      "path": "office_os/artifacts/P2-PROD-034_day2_inactive_onboarding_intervention_automations_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 05:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-063",
+      "artifact": "Objection-first enterprise demo flow with proof checkpoints",
+      "path": "office_os/artifacts/P1-REV-063_objection_first_enterprise_demo_flow_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 04:37",
       "owner": "COMMAND",
@@ -375,30 +361,6 @@
       "taskId": "P5-006",
       "artifact": "Observability minimum set for cron-driven growth workflows",
       "path": "office_os/artifacts/P5-006_observability_minimum_set_cron_growth_workflows_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:21",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-056",
-      "artifact": "Weekly founder sales content sprint tied to pipeline stages",
-      "path": "office_os/artifacts/P1-REV-056_weekly_founder_sales_content_sprint_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:16",
-      "owner": "BUILDER",
-      "taskId": "P3-CONT-023",
-      "artifact": "Proof-driven carousel narrative templates (6) for conversion content",
-      "path": "office_os/artifacts/P3-CONT-023_proof_driven_carousel_narrative_templates_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 03:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-054",
-      "artifact": "ROI proof asset blueprint for outbound + closing calls",
-      "path": "office_os/artifacts/P1-REV-054_roi_proof_asset_blueprint_2026-02-26.md",
       "status": "done"
     }
   ],
