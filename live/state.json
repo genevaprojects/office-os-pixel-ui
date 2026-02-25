@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-25T18:30:07.214604+00:00",
+  "now": "2026-02-25T18:40:04.451003+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Loop spec includes trigger events, reward logic, anti-abuse controls, and revenue projection scenarios."
     },
     {
-      "id": "P1-REV-053",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create enterprise pilot close plan for top 10 warm accounts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Top-10 account plan with decision-maker map, offer angle, risk handling, and close timeline."
-    },
-    {
       "id": "P1-REV-054",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -181,25 +162,6 @@
       "acceptance": "At least 6 templates with hook/proof/CTA sequencing and repurposing guidance."
     },
     {
-      "id": "P4-OPS-008",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Define autonomous backlog decay policy to prevent stale priorities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T02:20:00+08:00",
-      "updated_at": "2026-02-26T02:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Policy defines stale thresholds, auto-demotion rules, review cadence, and recovery workflow."
-    },
-    {
       "id": "P5-005",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -239,6 +201,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 02:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:36",
+      "owner": "EXECUTOR",
+      "taskId": "P4-OPS-008",
+      "artifact": "Autonomous backlog decay policy to prevent stale priorities",
+      "path": "office_os/artifacts/P4-OPS-008_autonomous_backlog_decay_policy_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 02:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-053",
+      "artifact": "Enterprise pilot close plan for top 10 warm accounts",
+      "path": "office_os/artifacts/P1-REV-053_enterprise_pilot_close_plan_top10_warm_accounts_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 02:26",
       "owner": "SOCIAL",
@@ -413,30 +399,6 @@
       "taskId": "P1-REV-046",
       "artifact": "Enterprise security questionnaire fast-fill template (40 Qs + escalation tags)",
       "path": "office_os/artifacts/P1-REV-046_enterprise_security_questionnaire_fast_fill_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 01:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-044",
-      "artifact": "Enterprise objection battlecards for procurement/security/legal",
-      "path": "office_os/artifacts/P1-REV-044_enterprise_objection_battlecards_procurement_security_legal_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 00:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-026",
-      "artifact": "Experiment QA checklist for onboarding and paywall tests",
-      "path": "office_os/artifacts/P2-PROD-026_experiment_qa_checklist_onboarding_paywall_2026-02-26.md",
       "status": "done"
     }
   ],
