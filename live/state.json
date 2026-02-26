@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T01:30:05.376717+00:00",
+  "now": "2026-02-26T01:40:05.648068+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,25 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-086",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build enterprise champion enablement kit for internal selling",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T09:20:00+08:00",
-      "updated_at": "2026-02-26T09:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "7-asset kit includes internal email forward, ROI summary, risk FAQ, and decision-slide with send-ready templates."
     },
     {
       "id": "P1-REV-087",
@@ -160,25 +141,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "SLA document with owners, timelines, handoff checklist, and first-14-day activation quality gates."
-    },
-    {
-      "id": "P2-PROD-044",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create enterprise onboarding fast-track playbook for signed pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T09:20:00+08:00",
-      "updated_at": "2026-02-26T09:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook covers day0-day14 onboarding milestones, blocker triage, and adoption KPI checkpoints by owner."
     },
     {
       "id": "P4-OPS-014",
@@ -259,12 +221,20 @@
   ],
   "ship": [
     {
+      "time": "2026-02-26 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-044",
+      "artifact": "Enterprise onboarding fast-track playbook (day0-14, triage SLA, KPI checkpoints)",
+      "path": "office_os/artifacts/P2-PROD-044_enterprise_onboarding_fast_track_playbook_2026-02-26.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-26 09:25",
       "owner": "SOCIAL",
       "taskId": "P3-CONT-033",
       "artifact": "ROI-proof content atomization plan from webinar + case studies (20 mapped assets)",
       "path": "office_os/artifacts/P3-CONT-033_roi_proof_content_atomization_plan_webinar_case_studies_2026-02-26.md",
-      "status": "done"
+      "status": "done2026-02-26 09:35"
     },
     {
       "time": "2026-02-26 09:25",
@@ -448,14 +418,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P3-CONT-031",
-      "artifact": "Testimonial-to-reel script transform template (3 short-form cuts with proof intensity + CTA ladder)",
-      "path": "office_os/artifacts/P3-CONT-031_testimonial_to_reel_script_transform_template_2026-02-26.md",
       "status": "done"
     }
   ],
