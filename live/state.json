@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T21:21:27.499098+00:00",
+  "now": "2026-02-26T21:30:05.885843+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,22 +99,6 @@
       "acceptance": "Spec calculator inputs/outputs, embed states, and conversion instrumentation with guardrails."
     },
     {
-      "id": "P1-REV-269",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Proof-first founder DM reactivation sequence",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Deliver 7-message sequence by stall reason with CTA ladder and reply-branch logic."
-    },
-    {
       "id": "P1-REV-270",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -179,22 +163,6 @@
       "acceptance": "Template for breach handling, owner override, and recovery windows for enterprise onboarding."
     },
     {
-      "id": "P3-CONT-267",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Enterprise objection-to-content remix queue",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Create 20 objection-led content prompts mapped to proof assets and channels."
-    },
-    {
       "id": "P4-OPS-213",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -228,6 +196,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 05:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-267",
+      "artifact": "Enterprise objection-to-content remix queue (20 prompts mapped to proof assets/channels)",
+      "path": "office_os/artifacts/P3-CONT-267_enterprise_objection_to_content_remix_queue_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 05:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-269",
+      "artifact": "Proof-first founder DM reactivation sequence (7-message stall-reason ladder + reply branches)",
+      "path": "office_os/artifacts/P1-REV-269_proof_first_founder_dm_reactivation_sequence_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-056",
+      "artifact": "Founder Desk SLA breach command bundle + one-click escalation draft",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Overview investor recovery clock + live blocker narrative",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 05:20",
       "owner": "COMMAND",
@@ -394,38 +394,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-046",
-      "artifact": "Team investor demo cast readiness matrix (lane readiness scoring + weakest-lane alert)",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-045",
-      "artifact": "Founder Desk decision turnaround control panel (avg open age + high-risk load + demo gate)",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-301",
-      "artifact": "Closed-lost reversal proof-first content series (5 posts)",
-      "path": "office_os/artifacts/P3-CONT-301_closed_lost_reversal_proof_first_post_series_2026-02-27.md",
       "status": "done"
     }
   ],
