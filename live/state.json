@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T14:30:05.022654+00:00",
+  "now": "2026-02-26T14:40:04.699127+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       "acceptance": "Template maps economic buyer/champion/security/procurement with influence score, risk flag, and next action for each stakeholder."
     },
     {
-      "id": "P1-REV-232",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Pilot success metric one-pager for executive signoff acceleration",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "One-pager defines success KPIs, baseline, target, reporting cadence, and signoff trigger thresholds."
-    },
-    {
       "id": "P1-REV-233",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -129,22 +113,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Matrix maps top 10 drop-off signals to intervention copy, channel, trigger delay, and expected lift."
-    },
-    {
-      "id": "P2-PROD-251",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation QA smoke suite for weekly release cadence",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Smoke suite includes pass/fail scripts for signup, first value event, and critical onboarding handoffs."
     },
     {
       "id": "P4-OPS-028",
@@ -216,6 +184,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 22:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-251",
+      "artifact": "Activation QA smoke suite for weekly release cadence",
+      "path": "office_os/artifacts/P2-PROD-251_activation_qa_smoke_suite_weekly_release_cadence_2026-02-26.md",
+      "status": "done2026-02-26 22:37"
+    },
+    {
+      "time": "2026-02-26 22:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-232",
+      "artifact": "Pilot success metric one-pager for executive signoff acceleration",
+      "path": "office_os/artifacts/P1-REV-232_pilot_success_metric_one_pager_executive_signoff_acceleration_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 22:26",
       "owner": "SOCIAL",
@@ -398,22 +382,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 20:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-050",
-      "artifact": "Enterprise onboarding TTV SLA dashboard spec (D0-D14)",
-      "path": "office_os/artifacts/P2-PROD-050_enterprise_onboarding_ttv_sla_dashboard_spec_D0_D14_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 20:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-118",
-      "artifact": "Objection-cluster to close-plan routing matrix for live enterprise deals",
-      "path": "office_os/artifacts/P1-REV-118_objection_cluster_to_close_plan_routing_matrix_2026-02-26.md",
       "status": "done"
     }
   ],
