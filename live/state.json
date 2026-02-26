@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T22:30:06.055889+00:00",
+  "now": "2026-02-26T22:40:04.338768+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,22 +99,6 @@
       "acceptance": "Deliver offer matrix with 3 value pivots by objection type, qualification guardrails, and expected conversion hypothesis per segment."
     },
     {
-      "id": "P1-REV-303",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement acceleration artifact pack outline for security-cleared pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Produce pack outline with required docs, owner SLA, sequence order, and definition of done for sub-7-day procurement handoff."
-    },
-    {
       "id": "P1-REV-305",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -145,22 +129,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Deliver triage lane design with severity classes, owner routing, SLA windows, and verification checklist for resolved blockers."
-    },
-    {
-      "id": "P2-PROD-307",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-week adoption rescue script grid by inactivity signature",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Build script grid mapping inactivity signatures to intervention scripts, channel priority, and measurable recovery KPI."
     },
     {
       "id": "P4-OPS-309",
@@ -226,6 +194,22 @@
       "taskId": "P0-FE-059",
       "artifact": "Founder Desk decision autopilot drafts with one-click command generation",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 06:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-307",
+      "artifact": "First-week adoption rescue script grid by inactivity signature",
+      "path": "office_os/artifacts/P2-PROD-307_first_week_adoption_rescue_script_grid_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-303",
+      "artifact": "Procurement acceleration artifact pack outline for security-cleared pilots",
+      "path": "office_os/artifacts/P1-REV-303_procurement_acceleration_artifact_pack_outline_2026-02-27.md",
       "status": "done"
     },
     {
@@ -378,22 +362,6 @@
       "taskId": "P5-267",
       "artifact": "Cron artifact existence monitor spec for DONE-task evidence reliability",
       "path": "office_os/artifacts/P5-267_cron_artifact_existence_monitor_done_task_evidence_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-263",
-      "artifact": "Activation dropout replay worksheet with experiment-ready hypotheses",
-      "path": "office_os/artifacts/P2-PROD-263_activation_dropout_replay_worksheet_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
