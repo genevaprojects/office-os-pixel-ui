@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T06:30:07.255414+00:00",
+  "now": "2026-02-26T06:40:04.268757+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "updated_at": "2026-02-26T14:20:00+08:00"
     },
     {
-      "id": "P1-REV-102",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create founder weekly close-room agenda for top 20 opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Agenda template includes account-by-account risk, next action owner, deadline, and close probability movement.",
-      "artifact_path": "office_os/artifacts/P1-REV-102_founder_weekly_close_room_agenda_top20_2026-02-26.md",
-      "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
-    },
-    {
       "id": "P1-REV-104",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -187,26 +167,6 @@
       "updated_at": "2026-02-26T14:20:00+08:00"
     },
     {
-      "id": "P3-CONT-040",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Draft founder rebuttal live-response playbook for trending objections",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-08T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook includes response timers, evidence slotting, and channel-specific CTA templates.",
-      "artifact_path": "office_os/artifacts/P3-CONT-040_founder_rebuttal_live_response_playbook_2026-02-26.md",
-      "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
-    },
-    {
       "id": "P4-OPS-019",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 14:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:36",
+      "owner": "EXECUTOR",
+      "taskId": "P3-CONT-040",
+      "artifact": "Founder rebuttal live-response playbook for trending objections",
+      "path": "office_os/artifacts/P3-CONT-040_founder_rebuttal_live_response_playbook_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-102",
+      "artifact": "Founder weekly close-room agenda for top 20 opportunities",
+      "path": "office_os/artifacts/P1-REV-102_founder_weekly_close_room_agenda_top20_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 14:26",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P1-REV-104",
       "artifact": "Renewal-window expansion trigger checklist with weekly checkpoints",
       "path": "office_os/artifacts/P1-REV-104_renewal_window_expansion_trigger_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-100",
-      "artifact": "Objection-to-metric proof snippet bank for CFO/procurement calls",
-      "path": "office_os/artifacts/P1-REV-100_objection_to_metric_proof_snippets_cfo_procurement_calls_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-049",
-      "artifact": "Onboarding-to-value time budget worksheet for enterprise trial teams",
-      "path": "office_os/artifacts/P2-PROD-049_onboarding_to_value_time_budget_worksheet_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-101",
-      "artifact": "Enterprise close-risk scoring sheet for week-by-week pipeline triage",
-      "path": "office_os/artifacts/P1-REV-101_enterprise_close_risk_scoring_sheet_2026-02-26.md",
       "status": "done"
     }
   ],
