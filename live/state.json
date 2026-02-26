@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T15:21:38.214068+00:00",
+  "now": "2026-02-26T15:30:07.826539+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,45 +127,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-253_activation_blocker_taxonomy_v2_owner_routing_2026-02-26.md"
     },
     {
-      "id": "P3-CONT-223",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Enterprise proof clip storyboard set for budget-holder objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744345+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "12 storyboard cards with hook, proof source, objection targeted, and conversion CTA per platform."
-    },
-    {
-      "id": "P3-CONT-224",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first procurement objection post kit (10 posts across X/Telegram/LinkedIn)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T23:20:00+08:00",
-      "updated_at": "2026-02-26T23:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10 publish-ready posts with objection angle, proof source slot, CTA, and platform-specific formatting.",
-      "artifact_path": "office_os/artifacts/P3-CONT-224_proof_first_procurement_objection_post_kit_2026-02-26.md"
-    },
-    {
       "id": "P4-OPS-028",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -254,6 +215,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 23:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-035",
+      "artifact": "Team role-coverage radar + attention-first operator ordering",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-034",
+      "artifact": "Founder Desk decision SLA radar + next-decision spotlight",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 23:20",
       "owner": "COMMAND",
@@ -436,22 +413,6 @@
       "taskId": "P2-PROD-220",
       "artifact": "Onboarding SLA breach handoff template for CS-to-Engineering",
       "path": "office_os/artifacts/P2-PROD-220_onboarding_sla_breach_handoff_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-222",
-      "artifact": "Late-stage enterprise champion mobilization one-pager pack",
-      "path": "office_os/artifacts/P1-REV-222_champion_mobilization_one_pager_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
