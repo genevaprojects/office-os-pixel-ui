@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T03:30:05.735103+00:00",
+  "now": "2026-02-26T03:40:04.804607+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-098_objection_triggered_roi_proof_map_2026-02-26.md"
     },
     {
-      "id": "P1-REV-099",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create founder-led close plan for top 15 renewal-window pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Account-by-account close plan with risk score, next meeting objective, executive sponsor ask, and 7-day deadline schedule.",
-      "artifact_path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md"
-    },
-    {
       "id": "P3-CONT-035",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -224,6 +204,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 11:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-099",
+      "artifact": "Founder-led close plan for top 15 renewal-window pilots",
+      "path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 11:26",
       "owner": "SOCIAL",
@@ -415,14 +403,6 @@
       "artifact": "Enterprise onboarding fast-track playbook (day0-14, triage SLA, KPI checkpoints)",
       "path": "office_os/artifacts/P2-PROD-044_enterprise_onboarding_fast_track_playbook_2026-02-26.md",
       "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-033",
-      "artifact": "ROI-proof content atomization plan from webinar + case studies (20 mapped assets)",
-      "path": "office_os/artifacts/P3-CONT-033_roi_proof_content_atomization_plan_webinar_case_studies_2026-02-26.md",
-      "status": "done2026-02-26 09:35"
     }
   ],
   "alertCount": 1,
