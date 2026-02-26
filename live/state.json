@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T13:10:04.803404+00:00",
+  "now": "2026-02-26T13:21:40.247651+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,62 +67,44 @@
       ]
     },
     {
-      "id": "P1-REV-122",
+      "id": "P1-REV-221",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build procurement-friction preemption checklist for enterprise pilots",
+      "title": "Security-review fast-lane response matrix for enterprise procurement cycles",
       "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T21:07:02.238810+08:00",
       "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist covers legal/security/procurement artifacts with owner, SLA, and failure fallback.",
-      "artifact_path": "office_os/artifacts/P1-REV-122_procurement_friction_preemption_checklist_2026-02-26.md"
-    },
-    {
-      "id": "P1-REV-220",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Executive deal desk daily standup agenda with outcome tracking",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
       "effort": 2,
       "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Agenda includes commit review, blockers, decision asks, and close forecast deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-220_deal_desk_daily_standup_agenda_2026-02-26.md",
-      "created_at": "2026-02-26T20:35:30+08:00",
-      "updated_at": "2026-02-26T21:07:02.238822+08:00"
-    },
-    {
-      "id": "P2-PROD-211",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation checkpoint instrumentation QA matrix v2",
-      "owner": "BUILDER",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
       "due_at": "2026-03-04T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Matrix maps each checkpoint event to expected payload, alert threshold, and QA test case.",
-      "artifact_path": "office_os/artifacts/P2-PROD-211_activation_checkpoint_instrumentation_qa_matrix_v2_2026-02-26.md",
-      "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T21:07:02.238834+08:00"
+      "acceptance": "Matrix maps top 25 security questionnaire asks to ready responses, evidence links, owner, and max response SLA.",
+      "artifact_path": "office_os/artifacts/P1-REV-221_security_review_fast_lane_response_matrix_2026-02-26.md",
+      "created_at": "2026-02-26T21:20:00+08:00",
+      "updated_at": "2026-02-26T21:20:00+08:00"
+    },
+    {
+      "id": "P1-REV-222",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Late-stage enterprise champion mobilization one-pager pack",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes internal-forward email, ROI bullets, risk rebuttals, and 48h action checklist for champions.",
+      "artifact_path": "office_os/artifacts/P1-REV-222_champion_mobilization_one_pager_pack_2026-02-26.md",
+      "created_at": "2026-02-26T21:20:00+08:00",
+      "updated_at": "2026-02-26T21:20:00+08:00"
     },
     {
       "id": "P2-PROD-220",
@@ -143,6 +125,26 @@
       "artifact_path": "office_os/artifacts/P2-PROD-220_onboarding_sla_breach_handoff_template_2026-02-26.md",
       "created_at": "2026-02-26T20:35:30+08:00",
       "updated_at": "2026-02-26T21:07:02.238829+08:00"
+    },
+    {
+      "id": "P2-PROD-221",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Pilot onboarding risk-to-owner triage map with 24h containment SLA",
+      "owner": "BUILDER",
+      "status": "READY",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-05T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Map covers top onboarding failure signatures, primary/secondary owner, containment action, and verification checkpoint.",
+      "artifact_path": "office_os/artifacts/P2-PROD-221_onboarding_risk_owner_triage_map_2026-02-26.md",
+      "created_at": "2026-02-26T21:20:00+08:00",
+      "updated_at": "2026-02-26T21:20:00+08:00"
     },
     {
       "id": "P3-CONT-210",
@@ -185,6 +187,26 @@
       "updated_at": "2026-02-26T21:07:02.238843+08:00"
     },
     {
+      "id": "P3-CONT-221",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Proof-first enterprise objection micro-content sprint board (10 assets)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Board defines 10 objection-led assets with hook, proof type, CTA, channel, publish date, and success KPI.",
+      "artifact_path": "office_os/artifacts/P3-CONT-221_proof_first_enterprise_objection_micro_content_sprint_board_2026-02-26.md",
+      "created_at": "2026-02-26T21:20:00+08:00",
+      "updated_at": "2026-02-26T21:20:00+08:00"
+    },
+    {
       "id": "P4-OPS-027",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -223,25 +245,6 @@
       "updated_at": "2026-02-26T21:07:02.238860+08:00"
     },
     {
-      "id": "P5-012",
-      "project": "P5_INFRASTRUCTURE_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron runbook for artifact write failures and recovery validation",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T21:07:02.238847+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Runbook includes failure fingerprints, 3 remediation paths, and post-fix verification steps."
-    },
-    {
       "id": "P5-013",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -261,6 +264,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 21:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 21:20",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-220",
+      "artifact": "Executive deal desk daily standup agenda with outcome tracking",
+      "path": "office_os/artifacts/P1-REV-220_deal_desk_daily_standup_agenda_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 21:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-122",
+      "artifact": "Procurement-friction preemption checklist for enterprise pilots",
+      "path": "office_os/artifacts/P1-REV-122_procurement_friction_preemption_checklist_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 21:07",
       "owner": "COMMAND",
@@ -435,30 +462,6 @@
       "taskId": "P3-CONT-202",
       "artifact": "Onboarding proof-post template pack from first-14-day wins",
       "path": "office_os/artifacts/P3-CONT-202_onboarding_proof_post_template_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 17:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-053",
-      "artifact": "7-day post-onboarding adoption checkpoint script pack for CSM calls",
-      "path": "office_os/artifacts/P2-PROD-053_post_onboarding_adoption_checkpoint_scripts_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 17:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-118",
-      "artifact": "10-day procurement unblock micro-campaign for security-cleared deals",
-      "path": "office_os/artifacts/P1-REV-118_procurement_unblock_micro_campaign_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 17:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-114",
-      "artifact": "Top-10 enterprise loss reasons reversal playbook",
-      "path": "office_os/artifacts/P1-REV-114_enterprise_loss_reasons_reversal_playbook_2026-02-26.md",
       "status": "done"
     }
   ],
