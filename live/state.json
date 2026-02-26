@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T05:22:11.499219+00:00",
+  "now": "2026-02-26T05:30:07.209467+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-202_champion_enablement_followthrough_sequence_2026-02-26.md"
     },
     {
-      "id": "P1-REV-203",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design risk-reversal offer ladder for late-stage no-decision deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Offer ladder includes eligibility, guardrails, and margin-safe escalation logic.",
-      "artifact_path": "office_os/artifacts/P1-REV-203_risk_reversal_offer_ladder_2026-02-26.md"
-    },
-    {
       "id": "P1-REV-204",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -225,26 +205,6 @@
       "manual_rank": null,
       "acceptance": "Sprint board defines 7-day asset slots, proof source links, and distribution checklist.",
       "artifact_path": "office_os/artifacts/P3-CONT-038_founder_credibility_proof_asset_sprint_board_2026-02-26.md"
-    },
-    {
-      "id": "P3-CONT-201",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create objection-proof weekly authority thread sprint board",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes 7 thread slots mapped to objections, proof assets, and CTA intent.",
-      "artifact_path": "office_os/artifacts/P3-CONT-201_objection_proof_authority_thread_sprint_board_2026-02-26.md"
     },
     {
       "id": "P4-OPS-018",
@@ -381,6 +341,22 @@
       "status": "done"
     },
     {
+      "time": "2026-02-26 13:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-201",
+      "artifact": "Objection-proof weekly authority thread sprint board",
+      "path": "office_os/artifacts/P3-CONT-201_objection_proof_weekly_authority_thread_sprint_board_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 13:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-203",
+      "artifact": "Risk-reversal offer ladder for late-stage no-decision deals",
+      "path": "office_os/artifacts/P1-REV-203_risk_reversal_offer_ladder_late_stage_no_decision_2026-02-26.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-26 12:20",
       "owner": "COMMAND",
       "taskId": "P4-OPS-016",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-099",
       "artifact": "Founder-led close plan for top 15 renewal-window pilots",
       "path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-036",
-      "artifact": "Enterprise trust-building micro-content hooks (10) mapped to objections, proof type, platform, funnel stage, and CTA",
-      "path": "office_os/artifacts/P3-CONT-036_enterprise_trust_micro_content_hooks_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P2-PROD-048",
-      "artifact": "First-7-day enterprise trial adoption playbook with owner checkpoints and intervention/KPI guardrails",
-      "path": "office_os/artifacts/P2-PROD-048_enterprise_trial_adoption_playbook_first7days_2026-02-26.md",
       "status": "done"
     }
   ],
