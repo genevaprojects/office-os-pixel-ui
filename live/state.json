@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T15:00:07.969475+00:00",
+  "now": "2026-02-26T15:10:05.054987+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-230",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise multi-thread stakeholder map template for late-stage deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template maps economic buyer/champion/security/procurement with influence score, risk flag, and next action for each stakeholder."
-    },
-    {
       "id": "P1-REV-233",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -90,13 +74,32 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744316+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Checklist sequences legal/security/commercial docs to reduce cycle time with owner SLA per step."
+    },
+    {
+      "id": "P1-REV-235",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Proposal redline turnaround playbook for sub-72h enterprise cycles",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T23:05:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744331+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-03-01T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Playbook with owner handoffs, pre-approved clause matrix, and SLA guardrails for legal/procurement redlines."
     },
     {
       "id": "P2-PROD-250",
@@ -106,13 +109,51 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744336+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Matrix maps top 10 drop-off signals to intervention copy, channel, trigger delay, and expected lift."
+    },
+    {
+      "id": "P2-PROD-252",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Activation blocker handoff brief template for CS-to-product escalation",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T23:05:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744341+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-03T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template includes blocker evidence, customer impact, owner assignment, and 48h resolution checkpoint."
+    },
+    {
+      "id": "P3-CONT-223",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Enterprise proof clip storyboard set for budget-holder objections",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T23:05:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744345+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-03T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "12 storyboard cards with hook, proof source, objection targeted, and conversion CTA per platform."
     },
     {
       "id": "P4-OPS-028",
@@ -122,7 +163,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744349+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -138,13 +179,32 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744353+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Policy defines stale age buckets, revalidation rule, and automatic archive/requeue criteria."
+    },
+    {
+      "id": "P4-OPS-030",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Autonomous ship-log quality validator checklist",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T23:05:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744368+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist catches malformed lines, duplicate milestones, and missing artifact paths before log append."
     },
     {
       "id": "P4-OPS-210",
@@ -164,7 +224,7 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T22:07:03.578069+08:00"
+      "updated_at": "2026-02-26T23:07:03.744363+08:00"
     },
     {
       "id": "P5-020",
@@ -174,7 +234,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
+      "updated_at": "2026-02-26T23:07:03.744359+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -184,6 +244,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-234",
+      "artifact": "Deal committee influence path map for enterprise close cycles",
+      "path": "office_os/artifacts/P1-REV-234_deal_committee_influence_path_map_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-230",
+      "artifact": "Enterprise multi-thread stakeholder map template for late-stage deals",
+      "path": "office_os/artifacts/P1-REV-230_enterprise_multithread_stakeholder_map_template_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 22:50",
       "owner": "BUILDER",
@@ -358,30 +442,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 20:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 20:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-026",
-      "artifact": "Autonomous DONE-gate verifier checklist",
-      "path": "office_os/artifacts/P4-OPS-026_autonomous_done_gate_verifier_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 20:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-025",
-      "artifact": "Autonomous artifact naming lint rules",
-      "path": "office_os/artifacts/P4-OPS-025_autonomous_artifact_naming_lint_rules_2026-02-26.md",
       "status": "done"
     }
   ],
