@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T23:30:05.854922+00:00",
+  "now": "2026-02-26T23:40:06.901560+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       "acceptance": "Deliver 3-stage DM ladder (reopen/proof/close) with trigger timing, objection hooks, and KPI targets."
     },
     {
-      "id": "P1-REV-312",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise close acceleration checklist for procurement week",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T07:20:40+08:00",
-      "updated_at": "2026-02-27T07:20:40+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Create checklist with day-by-day actions, owner, required artifacts, and fallback path to prevent slippage."
-    },
-    {
       "id": "P1-REV-314",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -113,22 +97,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Template includes stage risk score, confidence trend, blocker owner, and next-action SLA for top 20 deals."
-    },
-    {
-      "id": "P2-PROD-316",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation drop-off triage script for customer success handoffs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T07:20:40+08:00",
-      "updated_at": "2026-02-27T07:20:40+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Script covers top 10 failure signatures, required diagnostics, and handoff SLA to product owner."
     },
     {
       "id": "P2-PROD-317",
@@ -196,6 +164,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 07:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-316",
+      "artifact": "Activation drop-off triage script for customer success handoffs",
+      "path": "office_os/artifacts/P2-PROD-316_activation_dropoff_triage_script_customer_success_handoffs_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-312",
+      "artifact": "Enterprise close acceleration checklist for procurement week",
+      "path": "office_os/artifacts/P1-REV-312_enterprise_close_acceleration_checklist_procurement_week_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 07:25",
       "owner": "SOCIAL",
@@ -370,30 +362,6 @@
       "taskId": "P4-OPS-213",
       "artifact": "Autonomous top-up quality bar rubric",
       "path": "office_os/artifacts/P4-OPS-213_autonomous_topup_quality_bar_rubric_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:17",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-267",
-      "artifact": "Activation funnel loss-code taxonomy",
-      "path": "office_os/artifacts/P2-PROD-267_activation_funnel_loss_code_taxonomy_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-268",
-      "artifact": "Self-serve case-study ROI calculator outline",
-      "path": "office_os/artifacts/P1-REV-268_self_serve_case_study_roi_calculator_outline_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
