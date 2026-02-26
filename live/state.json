@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T12:10:07.563406+00:00",
+  "now": "2026-02-26T12:21:30.333049+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,78 +67,40 @@
       ]
     },
     {
-      "id": "P1-REV-121",
+      "id": "P1-REV-122",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Draft 10-day proof-to-proposal conversion sprint with daily KPI checkpoints",
-      "owner": "BUILDER",
+      "title": "Build procurement-friction preemption checklist for enterprise pilots",
+      "owner": "RESEARCH",
       "status": "READY",
+      "created_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T20:20:26+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-05T23:59:00+08:00",
+      "due_at": "2026-03-01T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint board with experiments, owners, stop/scale rules, and forecasted pipeline impact.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T20:07:03.171772+08:00"
+      "acceptance": "Checklist covers legal/security/procurement artifacts with owner, SLA, and failure fallback.",
+      "artifact_path": "office_os/artifacts/P1-REV-122_procurement_friction_preemption_checklist_2026-02-26.md"
     },
     {
-      "id": "P2-PROD-051",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create high-risk activation regression containment checklist for weekly releases",
-      "owner": "BUILDER",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes pre-release gates, rollback triggers, validation steps, and owner signoff flow.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T20:07:03.171783+08:00"
-    },
-    {
-      "id": "P4-OPS-025",
+      "id": "P4-OPS-027",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Define autonomous artifact naming lint rules for Office OS deliverables",
+      "title": "Draft autonomous backlog state-transition audit checklist",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-02-26T18:20:00+08:00",
-      "updated_at": "2026-02-26T20:07:03.171789+08:00",
+      "created_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T20:20:26+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
+      "due_at": "2026-03-03T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Lint rules specify filename schema, date conventions, invalid patterns, and auto-fix examples.",
-      "artifact_path": null
-    },
-    {
-      "id": "P4-OPS-026",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create autonomous DONE-gate verifier checklist for backlog state transitions",
-      "owner": "COMMAND",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist validates artifact existence, acceptance coverage, ship-log entry, and rollback notes before DONE.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T20:07:03.171798+08:00"
+      "acceptance": "Checklist validates status integrity, timestamp hygiene, owner consistency, and dependency correctness.",
+      "artifact_path": "office_os/artifacts/P4-OPS-027_backlog_state_transition_audit_checklist_2026-02-26.md"
     },
     {
       "id": "P5-012",
@@ -158,9 +120,67 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Runbook includes failure fingerprints, 3 remediation paths, and post-fix verification steps."
+    },
+    {
+      "id": "P5-013",
+      "project": "P5_INFRA_RELIABILITY",
+      "priority": "P5",
+      "title": "Define minimal cron artifact backup and restore verification routine",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T20:20:26+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Routine includes backup cadence, restore test cadence, integrity checks, and rollback trigger.",
+      "artifact_path": "office_os/artifacts/P5-013_cron_artifact_backup_restore_verification_routine_2026-02-26.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 20:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-026",
+      "artifact": "Autonomous DONE-gate verifier checklist",
+      "path": "office_os/artifacts/P4-OPS-026_autonomous_done_gate_verifier_checklist_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-025",
+      "artifact": "Autonomous artifact naming lint rules",
+      "path": "office_os/artifacts/P4-OPS-025_autonomous_artifact_naming_lint_rules_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:17",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-051",
+      "artifact": "High-risk activation regression containment checklist for weekly releases",
+      "path": "office_os/artifacts/P2-PROD-051_activation_regression_containment_checklist_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:17",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-121",
+      "artifact": "10-day proof-to-proposal conversion sprint with daily KPI checkpoints",
+      "path": "office_os/artifacts/P1-REV-121_proof_to_proposal_conversion_sprint_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 20:07",
       "owner": "COMMAND",
@@ -319,46 +339,6 @@
       "taskId": "P1-REV-110",
       "artifact": "Enterprise deal slippage early-warning trigger sheet (D-21 to close)",
       "path": "office_os/artifacts/P1-REV-110_enterprise_deal_slippage_early_warning_trigger_sheet_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 16:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 16:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 16:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-020",
-      "artifact": "Autonomous backlog quality audit routine",
-      "path": "office_os/artifacts/P4-OPS-020_autonomous_backlog_quality_audit_routine_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 16:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-109",
-      "artifact": "Close-risk dashboard template for enterprise pipeline reviews",
-      "path": "office_os/artifacts/P1-REV-109_close_risk_dashboard_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
