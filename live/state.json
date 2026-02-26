@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T09:30:04.939120+00:00",
+  "now": "2026-02-26T09:40:05.950200+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-118",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create 10-day procurement unblock micro-campaign for security-cleared deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T17:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10-day sequence with role-specific messages, SLA timers, and close-rate KPI targets."
-    },
-    {
       "id": "P1-REV-119",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -122,25 +103,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Template includes goals, success metrics, stakeholder map, risks, and 14-day launch plan."
-    },
-    {
-      "id": "P2-PROD-053",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define 7-day post-onboarding adoption checkpoint script for CSM calls",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T17:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script pack includes usage diagnostics, risk flags, intervention paths, and expansion prompt."
     },
     {
       "id": "P4-OPS-021",
@@ -230,6 +192,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 17:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-053",
+      "artifact": "7-day post-onboarding adoption checkpoint script pack for CSM calls",
+      "path": "office_os/artifacts/P2-PROD-053_post_onboarding_adoption_checkpoint_scripts_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 17:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-118",
+      "artifact": "10-day procurement unblock micro-campaign for security-cleared deals",
+      "path": "office_os/artifacts/P1-REV-118_procurement_unblock_micro_campaign_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 17:05",
       "owner": "RESEARCH",
@@ -412,22 +390,6 @@
       "taskId": "P1-REV-204",
       "artifact": "Enterprise multi-thread outreach map for executive + operator buyers",
       "path": "office_os/artifacts/P1-REV-204_enterprise_multithread_outreach_map_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:07",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-202",
-      "artifact": "Enterprise trial handoff checklist (sales→onboarding) with D0 inputs, RACI, D7 gates",
-      "path": "office_os/artifacts/P2-PROD-202_enterprise_trial_handoff_checklist_sales_to_onboarding_2026-02-26.md",
       "status": "done"
     }
   ],
