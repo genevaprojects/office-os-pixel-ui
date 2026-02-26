@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T04:30:05.085497+00:00",
+  "now": "2026-02-26T04:40:04.666988+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "updated_at": "2026-02-26T12:20:00+08:00"
     },
     {
-      "id": "P1-REV-102",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create 7-day multithread follow-up sequence for stalled legal reviews",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes stakeholder map, message templates, triggers, and stop rules.",
-      "created_at": "2026-02-26T12:20:00+08:00",
-      "updated_at": "2026-02-26T12:20:00+08:00"
-    },
-    {
       "id": "P1-REV-104",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -158,25 +139,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Worksheet defines time budget per step, variance threshold, and owner remediation.",
-      "created_at": "2026-02-26T12:20:00+08:00",
-      "updated_at": "2026-02-26T12:20:00+08:00"
-    },
-    {
-      "id": "P2-PROD-050",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft first-14-day activation escalation ladder with SLA timers",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder includes severity levels, owner routing, SLA clocks, and escalation path.",
       "created_at": "2026-02-26T12:20:00+08:00",
       "updated_at": "2026-02-26T12:20:00+08:00"
     },
@@ -222,6 +184,14 @@
   ],
   "ship": [
     {
+      "time": "2026-02-26 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-26 12:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -243,6 +213,22 @@
       "taskId": "P1-REV-103",
       "artifact": "Proof-first founder posts tied to active enterprise objections (10)",
       "path": "office_os/artifacts/P1-REV-103_proof_first_founder_posts_enterprise_objections_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-050",
+      "artifact": "First-14-day activation escalation ladder with SLA timers",
+      "path": "office_os/artifacts/P2-PROD-050_first14_day_activation_escalation_ladder_sla_timers_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-102",
+      "artifact": "7-day multithread follow-up sequence for stalled legal reviews",
+      "path": "office_os/artifacts/P1-REV-102_multithread_follow_up_sequence_stalled_legal_reviews_2026-02-26.md",
       "status": "done"
     },
     {
@@ -395,30 +381,6 @@
       "taskId": "P2-PROD-046",
       "artifact": "First-week activation rescue message map by inactivity signature",
       "path": "office_os/artifacts/P2-PROD-046_first_week_activation_rescue_message_map_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-093",
-      "artifact": "Objection-first demo opening scripts by buyer persona",
-      "path": "office_os/artifacts/P1-REV-093_objection_first_demo_opening_scripts_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-034",
-      "artifact": "Conversion-focused founder clip storyboard pack (12 clips with hook/proof/CTA/channel map)",
-      "path": "office_os/artifacts/P3-CONT-034_conversion_focused_founder_clip_storyboard_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-094",
-      "artifact": "No-decision deal rescue playbook (3 offer pivots + guardrails)",
-      "path": "office_os/artifacts/P1-REV-094_no_decision_deal_rescue_playbook_2026-02-26.md",
       "status": "done"
     }
   ],
