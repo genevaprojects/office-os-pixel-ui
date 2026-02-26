@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T20:30:05.479575+00:00",
+  "now": "2026-02-26T20:40:05.629082+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       "acceptance": "Scoreboard template with stage-aging thresholds, slip-risk flags, owner SLA breach markers, and weekly review cadence."
     },
     {
-      "id": "P1-REV-261",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review fast-lane response kit for enterprise procurement blockers",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T04:21:20+08:00",
-      "updated_at": "2026-02-27T04:21:20+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Pack includes FAQ snippets, evidence index, turnaround SOP, and escalation routing for security/procurement stalls."
-    },
-    {
       "id": "P2-PROD-263",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -113,22 +97,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Worksheet maps top 10 drop-off moments to root-cause hypotheses, instrumentation needs, and owner-assigned experiments."
-    },
-    {
-      "id": "P2-PROD-264",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding SLA breach auto-escalation message matrix by severity",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T04:21:20+08:00",
-      "updated_at": "2026-02-27T04:21:20+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Severity-based message matrix with trigger rules, recipients, response-time targets, and rollback guardrails."
     },
     {
       "id": "P4-OPS-030",
@@ -219,6 +187,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-264",
+      "artifact": "Onboarding SLA breach auto-escalation message matrix by severity",
+      "path": "office_os/artifacts/P2-PROD-264_onboarding_sla_breach_auto_escalation_message_matrix_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-261",
+      "artifact": "Security-review fast-lane response kit for enterprise procurement blockers",
+      "path": "office_os/artifacts/P1-REV-261_security_review_fast_lane_response_kit_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 04:21",
       "owner": "COMMAND",
@@ -393,30 +385,6 @@
       "taskId": "P2-PROD-300",
       "artifact": "Activation funnel evidence requirements matrix for weekly experiment reviews",
       "path": "office_os/artifacts/P2-PROD-300_activation_funnel_evidence_requirements_matrix_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-245",
-      "artifact": "Proposal turnaround SLA tracker with breach alerts + escalation routing",
-      "path": "office_os/artifacts/P1-REV-245_proposal_turnaround_sla_tracker_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 02:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-300",
-      "artifact": "Enterprise stakeholder risk radar for top 20 live opportunities",
-      "path": "office_os/artifacts/P1-REV-300_enterprise_stakeholder_risk_radar_top20_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:50",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-037",
-      "artifact": "Founder Desk command recovery plan (next actions + overdue decision shortlist)",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
