@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T08:00:04.496043+00:00",
+  "now": "2026-02-26T08:10:05.374066+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-105",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build no-response rescue sequence for late-stage enterprise opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps silence-day bands to multi-channel touch plan with ARR-priority routing and stop rules.",
-      "artifact_path": "office_os/artifacts/P1-REV-105_no_response_rescue_sequence_late_stage_enterprise_2026-02-26.md",
-      "created_at": "2026-02-26T15:20:00+08:00",
-      "updated_at": "2026-02-26T15:20:00+08:00"
-    },
-    {
       "id": "P1-REV-106",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -143,26 +123,6 @@
       "manual_rank": null,
       "acceptance": "Decision tree maps inactivity signatures to intervention actions with expected KPI uplift and owner SLA.",
       "artifact_path": "office_os/artifacts/P2-PROD-050_first14_day_activation_intervention_decision_tree_2026-02-26.md",
-      "created_at": "2026-02-26T15:20:00+08:00",
-      "updated_at": "2026-02-26T15:20:00+08:00"
-    },
-    {
-      "id": "P2-PROD-051",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create onboarding experiment backlog for enterprise trial compression",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Backlog includes 10 experiments with hypothesis, effort/impact, and validation windows.",
-      "artifact_path": "office_os/artifacts/P2-PROD-051_onboarding_experiment_backlog_enterprise_trial_compression_2026-02-26.md",
       "created_at": "2026-02-26T15:20:00+08:00",
       "updated_at": "2026-02-26T15:20:00+08:00"
     },
