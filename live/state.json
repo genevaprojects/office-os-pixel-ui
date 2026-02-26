@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T16:00:06.631565+00:00",
+  "now": "2026-02-26T16:10:06.082941+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-236",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review fast-lane email sequence for procurement-stalled enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T23:20:00+08:00",
-      "updated_at": "2026-02-26T23:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "7-message sequence with stage triggers, legal/procurement objection hooks, and measurable reply-to-signature KPI targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-236_security_review_fast_lane_email_sequence_2026-02-26.md"
-    },
-    {
       "id": "P1-REV-237",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T23:20:00+08:00",
-      "updated_at": "2026-02-26T23:20:00+08:00",
+      "updated_at": "2026-02-27T00:07:03.948833+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -107,6 +87,66 @@
       "artifact_path": "office_os/artifacts/P1-REV-237_enterprise_champion_internal_forward_pack_2026-02-26.md"
     },
     {
+      "id": "P1-REV-238",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Mutual action plan template for security-cleared enterprise deals (signature in 7 days)",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T00:05:00+08:00",
+      "updated_at": "2026-02-27T00:07:03.948846+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-03-02T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template includes buyer/seller owners, daily milestones, blocker flags, and signature-date commitment field.",
+      "artifact_path": "office_os/artifacts/P1-REV-238_mutual_action_plan_template_security_cleared_enterprise_deals_2026-02-27.md"
+    },
+    {
+      "id": "P2-PROD-254",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Post-signature onboarding handoff packet spec (sales -> delivery in <24h)",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T00:05:00+08:00",
+      "updated_at": "2026-02-27T00:07:03.948851+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-03T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Spec defines required fields, auto-validation checks, SLA timer, and escalation route for missing handoff data.",
+      "artifact_path": "office_os/artifacts/P2-PROD-254_post_signature_onboarding_handoff_packet_spec_2026-02-27.md"
+    },
+    {
+      "id": "P3-CONT-225",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Security-approved proof snippet set for enterprise social selling (15 assets)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T00:05:00+08:00",
+      "updated_at": "2026-02-27T00:07:03.948858+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "15 short assets mapped by objection type with compliance-safe wording and CTA for procurement-stage buyers.",
+      "artifact_path": "office_os/artifacts/P3-CONT-225_security_approved_proof_snippet_set_2026-02-27.md"
+    },
+    {
       "id": "P4-OPS-028",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -114,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744349+08:00",
+      "updated_at": "2026-02-27T00:07:03.948863+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -130,7 +170,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744353+08:00",
+      "updated_at": "2026-02-27T00:07:03.948867+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -146,7 +186,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744368+08:00",
+      "updated_at": "2026-02-27T00:07:03.948876+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -175,7 +215,27 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744363+08:00"
+      "updated_at": "2026-02-27T00:07:03.948871+08:00"
+    },
+    {
+      "id": "P4-OPS-211",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Deal-stall aging monitor spec with automatic owner pings",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-27T00:05:00+08:00",
+      "updated_at": "2026-02-27T00:07:03.948880+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Defines stall-age buckets, alert thresholds, ping cadence, and closed-loop verification metrics.",
+      "artifact_path": "office_os/artifacts/P4-OPS-211_deal_stall_aging_monitor_spec_owner_pings_2026-02-27.md"
     },
     {
       "id": "P5-020",
@@ -185,7 +245,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744359+08:00",
+      "updated_at": "2026-02-27T00:07:03.948884+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -195,6 +255,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 00:05",
+      "owner": "RESEARCH",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 00:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-236",
+      "artifact": "Security-review fast-lane email sequence for procurement-stalled enterprise deals",
+      "path": "office_os/artifacts/P1-REV-236_security_review_fast_lane_email_sequence_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 23:51",
       "owner": "BUILDER",
@@ -369,30 +453,6 @@
       "taskId": "P4-OPS-027",
       "artifact": "Autonomous backlog state-transition audit checklist",
       "path": "office_os/artifacts/P4-OPS-027_autonomous_backlog_state_transition_audit_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 22:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-221",
-      "artifact": "Proof-first enterprise objection micro-content sprint board (10 assets)",
-      "path": "office_os/artifacts/P3-CONT-221_proof_first_enterprise_objection_micro_content_sprint_board_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-029",
-      "artifact": "Critical jobs SLA breach/watch timing semantics in monitor cards",
-      "path": "office_os/artifacts/P0-FE-029_monitor_sla_breach_watch_2026-02-26.md",
       "status": "done"
     }
   ],
