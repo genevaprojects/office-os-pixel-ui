@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T22:00:06.137237+00:00",
+  "now": "2026-02-26T22:10:04.782640+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-267",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise referral wedge map for channel-partner co-selling",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Map 12 channel partners by audience overlap, incentive, and 14-day launch playbook with KPI targets."
-    },
-    {
       "id": "P1-REV-268",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -90,29 +74,13 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
+      "updated_at": "2026-02-27T06:07:02.528427+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Spec calculator inputs/outputs, embed states, and conversion instrumentation with guardrails."
-    },
-    {
-      "id": "P1-REV-271",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "High-intent expansion trigger dictionary",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Define expansion triggers from usage and stakeholder behavior with score thresholds and next actions."
     },
     {
       "id": "P2-PROD-267",
@@ -122,7 +90,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T05:20:00+08:00",
-      "updated_at": "2026-02-27T05:20:00+08:00",
+      "updated_at": "2026-02-27T06:07:02.528439+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -138,7 +106,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T05:07:02.613046+08:00",
+      "updated_at": "2026-02-27T06:07:02.528445+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +122,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T04:21:20+08:00",
-      "updated_at": "2026-02-27T05:07:02.613050+08:00",
+      "updated_at": "2026-02-27T06:07:02.528450+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -164,6 +132,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 05:50",
       "owner": "BUILDER",
@@ -354,14 +330,6 @@
       "taskId": "P0-FE-050",
       "artifact": "Team continuity scorecard for mission-lane demo readiness",
       "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 03:55",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-049",
-      "artifact": "Founder Desk investor demo gate with explicit pass/fail blockers",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
