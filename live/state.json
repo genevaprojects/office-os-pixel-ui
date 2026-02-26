@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T10:10:06.796805+00:00",
+  "now": "2026-02-26T10:22:13.148577+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,81 +67,89 @@
       ]
     },
     {
-      "id": "P1-REV-119",
+      "id": "P1-REV-210",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Build executive one-slide ROI brief template for CFO sign-off calls",
-      "owner": "BUILDER",
+      "title": "Create enterprise pilot stakeholder map template with influence scoring",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T17:20:00+08:00",
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
       "impact": 5,
-      "effort": 2,
+      "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes baseline/upside/downside, payback window, risk notes, and decision CTA."
+      "acceptance": "Template includes role, influence score, risk level, proof needed, next action, and owner handoff fields.",
+      "artifact_path": null
     },
     {
-      "id": "P2-PROD-203",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create implementation kickoff checklist generated from handoff packet fields",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-26T18:05:00+08:00",
-      "updated_at": "2026-02-26T18:05:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [
-        "P2-PROD-052"
-      ],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist maps deal goals/KPIs/stakeholders/risks into day-1 kickoff actions with owner and SLA."
-    },
-    {
-      "id": "P3-CONT-202",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create onboarding proof-post template pack from first-14-day wins",
+      "id": "P1-REV-211",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft 12 quantified proof snippets for procurement and finance objections",
       "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-02-26T18:05:00+08:00",
-      "updated_at": "2026-02-26T18:05:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [
-        "P2-PROD-052"
-      ],
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [],
       "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10 templates convert implementation milestones into proof-led posts with KPI slots and CTA variants."
+      "acceptance": "12 objection-tagged snippets with metric slot, source slot, and CTA bridge to proposal/demo.",
+      "artifact_path": null
     },
     {
-      "id": "P4-OPS-021",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create weekly backlog entropy score and auto-cleanup protocol",
-      "owner": "COMMAND",
+      "id": "P1-REV-212",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Build no-decision reactivation decision tree for week-2 to week-6 enterprise deals",
+      "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-02-26T16:20:00+08:00",
-      "updated_at": "2026-02-26T17:07:02.180870+08:00",
-      "impact": 3,
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Decision tree includes trigger conditions, message angle, escalation path, and stop-loss criteria by stage.",
+      "artifact_path": null
+    },
+    {
+      "id": "P2-PROD-210",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Create activation anomaly triage board template with owner SLA and verification loop",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
+      "impact": 4,
       "effort": 3,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Entropy score formula, thresholds, and automated cleanup steps documented with examples."
+      "acceptance": "Board template includes severity lanes, owner SLA, root-cause fields, remediation status, and verify-close checklist.",
+      "artifact_path": null
+    },
+    {
+      "id": "P3-CONT-203",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Draft weekly founder proof-thread publishing cadence linked to pipeline stages",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Cadence defines 7 posts with stage mapping, proof format, KPI target, and CTA outcome per post.",
+      "artifact_path": null
     },
     {
       "id": "P4-OPS-022",
@@ -198,6 +206,23 @@
       "acceptance": "Guardrails include uniqueness checks, acceptance-quality rubric, and priority-stack alignment checks."
     },
     {
+      "id": "P4-OPS-025",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous artifact naming lint rules for Office OS deliverables",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T18:20:00+08:00",
+      "updated_at": "2026-02-26T18:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Lint rules specify filename schema, date conventions, invalid patterns, and auto-fix examples.",
+      "artifact_path": null
+    },
+    {
       "id": "P5-011",
       "project": "P5_INFRA_RELIABILITY",
       "priority": "P5",
@@ -234,6 +259,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 18:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (added 6 READY tasks aligned to priority weights)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 18:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-021",
+      "artifact": "Weekly backlog entropy score and auto-cleanup protocol",
+      "path": "office_os/artifacts/P4-OPS-021_weekly_backlog_entropy_score_auto_cleanup_protocol_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 18:20",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-202",
+      "artifact": "Onboarding proof-post template pack from first-14-day wins",
+      "path": "office_os/artifacts/P3-CONT-202_onboarding_proof_post_template_pack_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 17:35",
       "owner": "EXECUTOR",
@@ -408,30 +457,6 @@
       "taskId": "P3-CONT-039",
       "artifact": "ROI-proof short-form remix board from top-performing assets",
       "path": "office_os/artifacts/P3-CONT-039_roi_proof_short_form_remix_board_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-103",
-      "artifact": "Pilot-to-expansion champion enablement sequence",
-      "path": "office_os/artifacts/P1-REV-103_pilot_to_expansion_champion_enablement_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-201",
-      "artifact": "Activation anomaly severity rubric for daily triage",
-      "path": "office_os/artifacts/P2-PROD-201_activation_anomaly_severity_rubric_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-204",
-      "artifact": "Enterprise multi-thread outreach map for executive + operator buyers",
-      "path": "office_os/artifacts/P1-REV-204_enterprise_multithread_outreach_map_2026-02-26.md",
       "status": "done"
     }
   ],
