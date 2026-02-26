@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T01:21:36.724102+00:00",
+  "now": "2026-02-26T01:30:05.376717+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "Sequence includes procurement checklist prefill, security appendix trigger, and time-to-signature KPI targets."
     },
     {
-      "id": "P1-REV-089",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft executive sponsor briefing pack for stalled late-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T09:20:00+08:00",
-      "updated_at": "2026-02-26T09:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Briefing pack includes board-level narrative, risk/reward matrix, and executive call script with close CTA."
-    },
-    {
       "id": "P1-REV-090",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -198,25 +179,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Playbook covers day0-day14 onboarding milestones, blocker triage, and adoption KPI checkpoints by owner."
-    },
-    {
-      "id": "P3-CONT-033",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build ROI-proof content atomization plan from webinar and case studies",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T09:20:00+08:00",
-      "updated_at": "2026-02-26T09:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan outputs 20 short-form assets mapped to objections, funnel stage, and conversion CTA variants."
     },
     {
       "id": "P4-OPS-014",
@@ -296,6 +258,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 09:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-033",
+      "artifact": "ROI-proof content atomization plan from webinar + case studies (20 mapped assets)",
+      "path": "office_os/artifacts/P3-CONT-033_roi_proof_content_atomization_plan_webinar_case_studies_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 09:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-089",
+      "artifact": "Executive sponsor briefing pack for stalled late-stage deals",
+      "path": "office_os/artifacts/P1-REV-089_executive_sponsor_briefing_pack_stalled_late_stage_deals_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 09:20",
       "owner": "COMMAND",
@@ -478,22 +456,6 @@
       "taskId": "P3-CONT-031",
       "artifact": "Testimonial-to-reel script transform template (3 short-form cuts with proof intensity + CTA ladder)",
       "path": "office_os/artifacts/P3-CONT-031_testimonial_to_reel_script_transform_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-079",
-      "artifact": "Pilot-to-annual conversion objection handling pack (renewal objections + quantified rebuttals + escalation tree)",
-      "path": "office_os/artifacts/P1-REV-079_pilot_to_annual_conversion_objection_handling_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 07:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-030",
-      "artifact": "Founder myth-busting thread bank (top 10 misconceptions)",
-      "path": "office_os/artifacts/P3-CONT-030_founder_myth_busting_thread_bank_2026-02-26.md",
       "status": "done"
     }
   ],
