@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T11:30:05.800714+00:00",
+  "now": "2026-02-26T11:40:07.201431+00:00",
   "workers": [
     {
       "name": "Research",
@@ -82,25 +82,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix maps top 20 objections to proof assets, owner action, and 72h follow-up triggers.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
-    },
-    {
-      "id": "P1-REV-119",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design procurement-stall breaker sequence with time-to-signature KPI gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "7-touch sequence with trigger conditions, escalation ladder, and measurable signature-cycle reduction target.",
       "created_at": "2026-02-26T19:20:26+08:00",
       "updated_at": "2026-02-26T19:20:26+08:00"
     },
@@ -218,6 +199,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 19:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-119",
+      "artifact": "Procurement-stall breaker sequence with time-to-signature KPI gates",
+      "path": "office_os/artifacts/P1-REV-119_procurement_stall_breaker_sequence_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 19:26",
       "owner": "SOCIAL",
@@ -400,22 +397,6 @@
       "taskId": "P3-CONT-039",
       "artifact": "Objection-led founder content sprint mapped to live pipeline risks (12 assets + proof/CTA ladder)",
       "path": "office_os/artifacts/P3-CONT-039_objection_led_founder_content_sprint_live_pipeline_risks_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-108",
-      "artifact": "Referral-to-meeting conversion sprint plan for partner channels (tiers, incentives, targets, anti-fraud)",
-      "path": "office_os/artifacts/P1-REV-108_referral_to_meeting_conversion_sprint_partner_channels_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
