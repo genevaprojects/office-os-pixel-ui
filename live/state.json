@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T22:50:07.308528+00:00",
+  "now": "2026-02-26T23:00:05.700880+00:00",
   "workers": [
     {
       "name": "Research",
@@ -164,6 +164,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 06:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-062",
+      "artifact": "Team page pulse signal for cast readiness",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 06:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-061",
+      "artifact": "Founder Desk command reliability signal strip",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 06:25",
       "owner": "SOCIAL",
@@ -346,22 +362,6 @@
       "taskId": "P4-OPS-212",
       "artifact": "Autonomous deal-cycle SLA breach digest template",
       "path": "office_os/artifacts/P4-OPS-212_autonomous_deal_cycle_sla_breach_digest_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-030",
-      "artifact": "Autonomous ship-log quality validator checklist",
-      "path": "office_os/artifacts/P4-OPS-030_autonomous_ship_log_quality_validator_checklist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:15",
-      "owner": "BUILDER",
-      "taskId": "P5-267",
-      "artifact": "Cron artifact existence monitor spec for DONE-task evidence reliability",
-      "path": "office_os/artifacts/P5-267_cron_artifact_existence_monitor_done_task_evidence_2026-02-27.md",
       "status": "done"
     }
   ],
