@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T07:00:04.516071+00:00",
+  "now": "2026-02-26T07:10:05.253103+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-100",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build 10-day enterprise proof-to-close follow-up scheduler",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scheduler defines day-by-day touchpoints, proof asset attach points, and stop/escalate rules for late-stage enterprise deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-100_enterprise_proof_to_close_followup_scheduler_2026-02-26.md",
-      "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
-    },
-    {
       "id": "P1-REV-101",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -104,7 +84,7 @@
       "acceptance": "Routing map links top objections to specific case studies, ROI snippets, and CTA next step by persona.",
       "artifact_path": "office_os/artifacts/P1-REV-101_objection_triggered_case_study_routing_map_2026-02-26.md",
       "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
+      "updated_at": "2026-02-26T15:07:02.250231+08:00"
     },
     {
       "id": "P1-REV-104",
@@ -124,27 +104,7 @@
       "acceptance": "Heatmap ranks stalled deals by ARR risk, silence duration, and reactivation opportunity with owner actions.",
       "artifact_path": "office_os/artifacts/P1-REV-104_revenue_risk_heatmap_no_decision_pipeline_2026-02-26.md",
       "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
-    },
-    {
-      "id": "P2-PROD-049",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define day-0 to day-7 onboarding SLA breach auto-escalation map",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-07T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map defines trigger thresholds, owner escalation ladder, and recovery playbook per breach type.",
-      "artifact_path": "office_os/artifacts/P2-PROD-049_onboarding_sla_breach_auto_escalation_map_2026-02-26.md",
-      "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
+      "updated_at": "2026-02-26T15:07:02.250242+08:00"
     },
     {
       "id": "P2-PROD-050",
@@ -164,7 +124,7 @@
       "acceptance": "Matrix contains 8 interventions with segment target, KPI hypothesis, and kill/scale thresholds.",
       "artifact_path": "office_os/artifacts/P2-PROD-050_first_value_dropoff_intervention_matrix_2026-02-26.md",
       "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
+      "updated_at": "2026-02-26T15:07:02.250247+08:00"
     },
     {
       "id": "P4-OPS-019",
@@ -184,7 +144,7 @@
       "acceptance": "Checklist defines completeness checks, acceptance validation, and ship-log quality guardrails before marking DONE.",
       "artifact_path": "office_os/artifacts/P4-OPS-019_autonomous_artifact_qa_gate_checklist_2026-02-26.md",
       "created_at": "2026-02-26T14:20:00+08:00",
-      "updated_at": "2026-02-26T14:20:00+08:00"
+      "updated_at": "2026-02-26T15:07:02.250252+08:00"
     }
   ],
   "ship": [
