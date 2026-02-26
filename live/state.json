@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T03:00:07.653576+00:00",
+  "now": "2026-02-26T03:10:06.780021+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-091",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build 10-day enterprise follow-up cadence for security-reviewed deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence includes day-by-day touchpoints, proof assets, and stop/scale criteria tied to reply and meeting rates.",
-      "created_at": "2026-02-26T10:20:00+08:00",
-      "updated_at": "2026-02-26T10:20:00+08:00"
-    },
-    {
       "id": "P1-REV-092",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -105,6 +86,25 @@
       "updated_at": "2026-02-26T10:20:00+08:00"
     },
     {
+      "id": "P1-REV-095",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Design security-signoff-to-procurement fast lane with 72h SLA",
+      "owner": "BUILDER",
+      "status": "READY",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Workflow includes owner handoffs, SLA timers, and escalation triggers that reduce post-security stall time.",
+      "created_at": "2026-02-26T11:08:00+08:00",
+      "updated_at": "2026-02-26T11:08:00+08:00"
+    },
+    {
       "id": "P2-PROD-045",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -122,6 +122,44 @@
       "acceptance": "Board spec maps blocker severity to response times, owner escalation path, and verification checkpoints.",
       "created_at": "2026-02-26T10:20:00+08:00",
       "updated_at": "2026-02-26T10:20:00+08:00"
+    },
+    {
+      "id": "P2-PROD-047",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Create onboarding-to-security-review readiness checklist for enterprise trials",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-07T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist maps product usage milestones to security review artifacts and handoff owners.",
+      "created_at": "2026-02-26T11:08:00+08:00",
+      "updated_at": "2026-02-26T11:08:00+08:00"
+    },
+    {
+      "id": "P3-CONT-035",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Write 8 procurement-proof micro case posts for late-stage deal trust",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-08T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "8 short posts include objection, evidence, and CTA mapped to enterprise buyer roles.",
+      "created_at": "2026-02-26T11:08:00+08:00",
+      "updated_at": "2026-02-26T11:08:00+08:00"
     },
     {
       "id": "P4-OPS-016",
@@ -182,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 11:12",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-096",
+      "artifact": "CFO-ready ROI rebuttal pack for budget-freeze objections",
+      "path": "office_os/artifacts/P1-REV-096_cfo_ready_roi_rebuttal_pack_budget_freeze_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-091",
+      "artifact": "10-day enterprise follow-up cadence for security-reviewed deals",
+      "path": "office_os/artifacts/P1-REV-091_enterprise_follow_up_cadence_security_reviewed_deals_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 10:35",
       "owner": "EXECUTOR",
@@ -364,22 +418,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 08:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-042",
-      "artifact": "First-48h onboarding rescue experiment backlog (10 tests)",
-      "path": "office_os/artifacts/P2-PROD-042_first_48h_onboarding_rescue_experiment_backlog_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 08:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-082",
-      "artifact": "Founder weekly pipeline review script with close-risk triggers",
-      "path": "office_os/artifacts/P1-REV-082_founder_weekly_pipeline_review_script_close_risk_triggers_2026-02-26.md",
       "status": "done"
     }
   ],
