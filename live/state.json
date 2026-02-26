@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T20:00:08.034461+00:00",
+  "now": "2026-02-26T20:10:09.334861+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T03:16:44+08:00",
-      "updated_at": "2026-02-27T03:16:44+08:00",
+      "updated_at": "2026-02-27T04:07:01.858935+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-901_activation_instrumentation_qa_triage_card_set_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-903",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Design first-value session replay annotation rubric",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T03:16:44+08:00",
-      "updated_at": "2026-02-27T03:16:44+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Rubric for tagging friction points and experiment opportunities.",
-      "artifact_path": "office_os/artifacts/P2-PROD-903_first_value_session_replay_annotation_rubric_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-030",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-27T03:07:03.157264+08:00",
+      "updated_at": "2026-02-27T04:07:01.858958+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -143,7 +123,7 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-27T03:07:03.157246+08:00"
+      "updated_at": "2026-02-27T04:07:01.858947+08:00"
     },
     {
       "id": "P4-OPS-212",
@@ -153,7 +133,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T00:20:00+08:00",
-      "updated_at": "2026-02-27T03:07:03.157269+08:00",
+      "updated_at": "2026-02-27T04:07:01.858963+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -173,7 +153,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T03:07:03.157274+08:00",
+      "updated_at": "2026-02-27T04:07:01.858967+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -189,36 +169,24 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T03:07:03.157259+08:00",
+      "updated_at": "2026-02-27T04:07:01.858952+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Checklist or script spec that verifies DONE tasks have valid artifact path and ship-log entry."
-    },
-    {
-      "id": "P4-OPS-901",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create autonomous artifact freshness monitor checklist",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T03:16:44+08:00",
-      "updated_at": "2026-02-27T03:16:44+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-08T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist for stale artifact detection and cleanup cadence.",
-      "artifact_path": "office_os/artifacts/P4-OPS-901_autonomous_artifact_freshness_monitor_checklist_2026-02-27.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 03:55",
       "owner": "COMMAND",
@@ -409,14 +377,6 @@
       "taskId": "P5-010A",
       "artifact": "Cron execution drift weekly sentinel",
       "path": "office_os/artifacts/P5-010A_cron_execution_drift_weekly_sentinel_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-243",
-      "artifact": "Mutual action plan enforcement checklist for close-week",
-      "path": "office_os/artifacts/P1-REV-243_mutual_action_plan_enforcement_checklist_close_week_2026-02-27.md",
       "status": "done"
     }
   ],
