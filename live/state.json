@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T03:10:06.780021+00:00",
+  "now": "2026-02-26T03:21:31.076538+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,80 +67,84 @@
       ]
     },
     {
-      "id": "P1-REV-092",
+      "id": "P1-REV-097",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Create expansion trigger dashboard spec for pilot accounts approaching renewal",
-      "owner": "BUILDER",
+      "title": "Design 5-day enterprise re-engagement sprint for silent late-stage stakeholders",
+      "owner": "RESEARCH",
       "status": "READY",
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
+      "due_at": "2026-03-03T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Spec defines usage/stakeholder/risk triggers, thresholds, and owner actions to convert pilots into annual contracts.",
-      "created_at": "2026-02-26T10:20:00+08:00",
-      "updated_at": "2026-02-26T10:20:00+08:00"
+      "acceptance": "5-day multi-thread re-engagement plan with role-specific messaging, proof assets, CTA ladder, and success KPI thresholds.",
+      "artifact_path": "office_os/artifacts/P1-REV-097_enterprise_reengagement_sprint_silent_stakeholders_2026-02-26.md"
     },
     {
-      "id": "P1-REV-095",
+      "id": "P1-REV-098",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Design security-signoff-to-procurement fast lane with 72h SLA",
+      "title": "Build objection-triggered ROI proof map for procurement and finance reviewers",
       "owner": "BUILDER",
       "status": "READY",
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
+      "due_at": "2026-03-03T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Workflow includes owner handoffs, SLA timers, and escalation triggers that reduce post-security stall time.",
-      "created_at": "2026-02-26T11:08:00+08:00",
-      "updated_at": "2026-02-26T11:08:00+08:00"
+      "acceptance": "Matrix linking top 20 objections to quantified proof elements, source fields, and proposal insertion points.",
+      "artifact_path": "office_os/artifacts/P1-REV-098_objection_triggered_roi_proof_map_2026-02-26.md"
     },
     {
-      "id": "P2-PROD-045",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define onboarding friction SLA board with owner escalation windows",
-      "owner": "BUILDER",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-07T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board spec maps blocker severity to response times, owner escalation path, and verification checkpoints.",
-      "created_at": "2026-02-26T10:20:00+08:00",
-      "updated_at": "2026-02-26T10:20:00+08:00"
-    },
-    {
-      "id": "P2-PROD-047",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create onboarding-to-security-review readiness checklist for enterprise trials",
+      "id": "P1-REV-099",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Create founder-led close plan for top 15 renewal-window pilots",
       "owner": "EXECUTOR",
       "status": "READY",
-      "impact": 4,
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
+      "impact": 5,
       "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-07T23:59:00+08:00",
+      "urgency": 4,
+      "due_at": "2026-03-03T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist maps product usage milestones to security review artifacts and handoff owners.",
-      "created_at": "2026-02-26T11:08:00+08:00",
-      "updated_at": "2026-02-26T11:08:00+08:00"
+      "acceptance": "Account-by-account close plan with risk score, next meeting objective, executive sponsor ask, and 7-day deadline schedule.",
+      "artifact_path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md"
+    },
+    {
+      "id": "P2-PROD-048",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Draft first-7-day enterprise trial adoption playbook with owner checkpoints",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Day-by-day adoption playbook with owner handoffs, intervention triggers, and KPI guardrails for trial success.",
+      "artifact_path": "office_os/artifacts/P2-PROD-048_enterprise_trial_adoption_playbook_first7days_2026-02-26.md"
     },
     {
       "id": "P3-CONT-035",
@@ -162,6 +166,26 @@
       "updated_at": "2026-02-26T11:08:00+08:00"
     },
     {
+      "id": "P3-CONT-036",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Produce 10 enterprise trust-building micro-content hooks mapped to active objections",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-05T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "10 hooks with objection tag, proof type, platform format, and CTA mapped to funnel stage.",
+      "artifact_path": "office_os/artifacts/P3-CONT-036_enterprise_trust_micro_content_hooks_2026-02-26.md"
+    },
+    {
       "id": "P4-OPS-016",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -179,6 +203,26 @@
       "acceptance": "Protocol defines handoff payload, quality gates, ownership transfer, and rollback responsibility boundaries.",
       "created_at": "2026-02-26T10:20:00+08:00",
       "updated_at": "2026-02-26T10:20:00+08:00"
+    },
+    {
+      "id": "P4-OPS-017",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Create autonomous SLA breach digest template for daily command review",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T11:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-05T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template captures breach count, severity, owner, root cause, fix ETA, and prevention action in one page.",
+      "artifact_path": "office_os/artifacts/P4-OPS-017_autonomous_sla_breach_digest_template_2026-02-26.md"
     },
     {
       "id": "P5-009",
@@ -220,6 +264,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 11:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (added 6 READY tasks to maintain execution buffer >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:20",
+      "owner": "COMMAND",
+      "taskId": "P2-PROD-047",
+      "artifact": "Onboarding-to-security-review readiness checklist for enterprise trials",
+      "path": "office_os/artifacts/P2-PROD-047_onboarding_to_security_review_readiness_checklist_enterprise_trials_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:20",
+      "owner": "COMMAND",
+      "taskId": "P2-PROD-045",
+      "artifact": "Onboarding friction SLA board with owner escalation windows",
+      "path": "office_os/artifacts/P2-PROD-045_onboarding_friction_sla_board_owner_escalation_windows_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-095",
+      "artifact": "Security-signoff-to-procurement fast lane with 72h SLA",
+      "path": "office_os/artifacts/P1-REV-095_security_signoff_to_procurement_fast_lane_72h_sla_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-092",
+      "artifact": "Expansion trigger dashboard spec for renewal-window pilot accounts",
+      "path": "office_os/artifacts/P1-REV-092_expansion_trigger_dashboard_spec_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 11:12",
       "owner": "RESEARCH",
@@ -378,46 +462,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-085",
-      "artifact": "Multi-touch revival sequence for no-decision enterprise opportunities",
-      "path": "office_os/artifacts/P1-REV-085_multi_touch_revival_sequence_no_decision_enterprise_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-081",
-      "artifact": "Proof-to-proposal CTA bridge sequence for enterprise leads",
-      "path": "office_os/artifacts/P1-REV-081_proof_to_proposal_cta_bridge_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-041",
-      "artifact": "Activation-to-adoption weekly scorecard with owner SLA",
-      "path": "office_os/artifacts/P2-PROD-041_activation_to_adoption_weekly_scorecard_owner_sla_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-084",
-      "artifact": "Founder-led case-study webinar conversion blueprint",
-      "path": "office_os/artifacts/P1-REV-084_founder_led_case_study_webinar_conversion_blueprint_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 08:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
