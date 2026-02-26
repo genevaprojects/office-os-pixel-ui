@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T10:30:06.492531+00:00",
+  "now": "2026-02-26T10:40:04.606839+00:00",
   "workers": [
     {
       "name": "Research",
@@ -81,23 +81,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Template includes role, influence score, risk level, proof needed, next action, and owner handoff fields.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-212",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build no-decision reactivation decision tree for week-2 to week-6 enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T18:20:00+08:00",
-      "updated_at": "2026-02-26T18:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Decision tree includes trigger conditions, message angle, escalation path, and stop-loss criteria by stage.",
       "artifact_path": null
     },
     {
@@ -189,22 +172,6 @@
       "artifact_path": null
     },
     {
-      "id": "P5-011",
-      "project": "P5_INFRA_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron payload validation checklist for reminder and worker jobs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T17:15:00+08:00",
-      "updated_at": "2026-02-26T17:15:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist validating payload schema, delivery target, retry behavior, and failure telemetry."
-    },
-    {
       "id": "P5-012",
       "project": "P5_INFRASTRUCTURE_RELIABILITY",
       "priority": "P5",
@@ -225,6 +192,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 18:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-212",
+      "artifact": "No-decision reactivation decision tree (week 2 to week 6 enterprise deals)",
+      "path": "office_os/artifacts/P1-REV-212_no_decision_reactivation_decision_tree_week2_week6_enterprise_deals_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 18:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-011",
+      "artifact": "Cron payload validation checklist for reminder/worker jobs",
+      "path": "office_os/artifacts/P5-011_cron_payload_validation_checklist_reminder_worker_jobs_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 18:20",
       "owner": "COMMAND",
@@ -407,22 +390,6 @@
       "taskId": "P3-CONT-040",
       "artifact": "Founder rebuttal live-response playbook for trending objections",
       "path": "office_os/artifacts/P3-CONT-040_founder_rebuttal_live_response_playbook_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-102",
-      "artifact": "Founder weekly close-room agenda for top 20 opportunities",
-      "path": "office_os/artifacts/P1-REV-102_founder_weekly_close_room_agenda_top20_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-039",
-      "artifact": "ROI-proof short-form remix board from top-performing assets",
-      "path": "office_os/artifacts/P3-CONT-039_roi_proof_short_form_remix_board_2026-02-26.md",
       "status": "done"
     }
   ],
