@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T00:00:56.787546+00:00",
+  "now": "2026-02-26T00:10:07.042728+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-076",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build close-lost resurrection sequence for enterprise opportunities (14-day)",
-      "owner": "RESEARCH",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "Sequence includes trigger criteria, 6-message arc, proof inserts, and winback KPI targets.",
-      "status": "READY",
-      "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-078",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -97,7 +78,7 @@
       "acceptance": "Matrix contains 20 opening variants mapped to persona, pain, and next best proof asset.",
       "status": "READY",
       "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
+      "updated_at": "2026-02-26T08:07:02.938445+08:00",
       "due_at": "2026-03-03T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
@@ -116,27 +97,8 @@
       "acceptance": "Calendar schedules weekly proof drops by funnel stage with target revenue influence metric.",
       "status": "READY",
       "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
+      "updated_at": "2026-02-26T08:07:02.938456+08:00",
       "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-039",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define activation regression guardrail dashboard spec",
-      "owner": "RESEARCH",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "acceptance": "Spec includes north-star activation KPI, leading indicators, thresholds, and daily owner workflow.",
-      "status": "READY",
-      "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
-      "due_at": "2026-03-04T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -154,7 +116,7 @@
       "acceptance": "QA sheet covers first-session journey checkpoints with pass/fail logic and remediation mapping.",
       "status": "READY",
       "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
+      "updated_at": "2026-02-26T08:07:02.938462+08:00",
       "due_at": "2026-03-04T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
@@ -173,7 +135,7 @@
       "acceptance": "Template captures trigger, blast radius, rollback actions, verification results, and prevention steps.",
       "status": "READY",
       "created_at": "2026-02-26T07:20:00+08:00",
-      "updated_at": "2026-02-26T07:20:00+08:00",
+      "updated_at": "2026-02-26T08:07:02.938467+08:00",
       "due_at": "2026-03-05T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
@@ -182,6 +144,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 08:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-039",
+      "artifact": "Activation regression guardrail dashboard spec",
+      "path": "office_os/artifacts/P2-PROD-039_activation_regression_guardrail_dashboard_spec_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 08:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-076",
+      "artifact": "Close-lost resurrection sequence for enterprise opportunities (14-day)",
+      "path": "office_os/artifacts/P1-REV-076_close_lost_resurrection_sequence_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 08:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-015",
+      "artifact": "Execution timeline panel (monitor + worker run horizon)",
+      "path": "office_os/artifacts/P0-FE-015_execution_timeline_panel_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 08:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-014",
+      "artifact": "Degraded sync alert banner with fallback-state visibility",
+      "path": "office_os/artifacts/P0-FE-014_degraded_sync_alert_banner_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 07:37",
       "owner": "COMMAND",
@@ -340,46 +342,6 @@
       "taskId": "P5-007",
       "artifact": "Cron failure fingerprint catalog with remediation mapping",
       "path": "office_os/artifacts/P5-007_cron_failure_fingerprint_catalog_remediation_mapping_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-011",
-      "artifact": "Weekly automation drift review scorecard template",
-      "path": "office_os/artifacts/P4-OPS-011_weekly_automation_drift_review_scorecard_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-035",
-      "artifact": "Activation lag root-cause worksheet for onboarding teams",
-      "path": "office_os/artifacts/P2-PROD-035_activation_lag_root_cause_worksheet_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-067",
-      "artifact": "Webinar-to-demo 2-step CTA ladder (conversion-first)",
-      "path": "office_os/artifacts/P1-REV-067_webinar_to_demo_cta_ladder_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-070",
-      "artifact": "Reactivation offer tree for stalled enterprise deals (triggers, value framing, stop/escalate rules by stage)",
-      "path": "office_os/artifacts/P1-REV-070_reactivation_offer_tree_stalled_enterprise_deals_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-066",
-      "artifact": "Outbound proof-snippet bank for enterprise cold starts (30 snippets tagged by ICP/objection/KPI)",
-      "path": "office_os/artifacts/P1-REV-066_outbound_proof_snippet_bank_enterprise_cold_starts_2026-02-26.md",
       "status": "done"
     }
   ],
