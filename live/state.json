@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T13:21:40.247651+00:00",
+  "now": "2026-02-26T13:30:05.865585+00:00",
   "workers": [
     {
       "name": "Research",
@@ -145,46 +145,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-221_onboarding_risk_owner_triage_map_2026-02-26.md",
       "created_at": "2026-02-26T21:20:00+08:00",
       "updated_at": "2026-02-26T21:20:00+08:00"
-    },
-    {
-      "id": "P3-CONT-210",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Case-study CTA variants for objection-led short content",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "15 CTA variants mapped to objection stage, proof type, and platform constraints.",
-      "artifact_path": "office_os/artifacts/P3-CONT-210_case_study_cta_variants_objection_led_2026-02-26.md",
-      "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T21:07:02.238839+08:00"
-    },
-    {
-      "id": "P3-CONT-220",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Objection-proof CTA swipe file for founder comments",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Swipe file includes 25 CTAs with intent tags and anti-spam guardrails.",
-      "artifact_path": "office_os/artifacts/P3-CONT-220_objection_proof_cta_swipe_file_founder_comments_2026-02-26.md",
-      "created_at": "2026-02-26T20:35:30+08:00",
-      "updated_at": "2026-02-26T21:07:02.238843+08:00"
     },
     {
       "id": "P3-CONT-221",
