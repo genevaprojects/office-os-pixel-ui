@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T10:22:13.148577+00:00",
+  "now": "2026-02-26T10:30:06.492531+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,23 +84,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-211",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft 12 quantified proof snippets for procurement and finance objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T18:20:00+08:00",
-      "updated_at": "2026-02-26T18:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "12 objection-tagged snippets with metric slot, source slot, and CTA bridge to proposal/demo.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-212",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -132,23 +115,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Board template includes severity lanes, owner SLA, root-cause fields, remediation status, and verify-close checklist.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-203",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Draft weekly founder proof-thread publishing cadence linked to pipeline stages",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T18:20:00+08:00",
-      "updated_at": "2026-02-26T18:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Cadence defines 7 posts with stage mapping, proof format, KPI target, and CTA outcome per post.",
       "artifact_path": null
     },
     {
