@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T04:00:04.867418+00:00",
+  "now": "2026-02-26T04:10:05.835353+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-097",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design 5-day enterprise re-engagement sprint for silent late-stage stakeholders",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "5-day multi-thread re-engagement plan with role-specific messaging, proof assets, CTA ladder, and success KPI thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-097_enterprise_reengagement_sprint_silent_stakeholders_2026-02-26.md"
-    },
-    {
       "id": "P1-REV-098",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T12:07:04.069099+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -123,7 +103,7 @@
       "manual_rank": null,
       "acceptance": "8 short posts include objection, evidence, and CTA mapped to enterprise buyer roles.",
       "created_at": "2026-02-26T11:08:00+08:00",
-      "updated_at": "2026-02-26T11:08:00+08:00"
+      "updated_at": "2026-02-26T12:07:04.069110+08:00"
     },
     {
       "id": "P4-OPS-016",
@@ -142,7 +122,7 @@
       "manual_rank": null,
       "acceptance": "Protocol defines handoff payload, quality gates, ownership transfer, and rollback responsibility boundaries.",
       "created_at": "2026-02-26T10:20:00+08:00",
-      "updated_at": "2026-02-26T10:20:00+08:00"
+      "updated_at": "2026-02-26T12:07:04.069120+08:00"
     },
     {
       "id": "P4-OPS-017",
@@ -152,7 +132,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
+      "updated_at": "2026-02-26T12:07:04.069124+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -176,7 +156,7 @@
       "acceptance": "Checklist defines dependency heartbeat checks, drift thresholds, and remediation owner mapping.",
       "status": "READY",
       "created_at": "2026-02-26T08:20:55+08:00",
-      "updated_at": "2026-02-26T10:07:03.180048+08:00",
+      "updated_at": "2026-02-26T12:07:04.069129+08:00",
       "due_at": "2026-03-09T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
@@ -191,7 +171,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T09:20:00+08:00",
-      "updated_at": "2026-02-26T10:07:03.180057+08:00",
+      "updated_at": "2026-02-26T12:07:04.069115+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -204,6 +184,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 12:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-097",
+      "artifact": "5-day enterprise re-engagement sprint for silent late-stage stakeholders",
+      "path": "office_os/artifacts/P1-REV-097_enterprise_reengagement_sprint_silent_stakeholders_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-019",
+      "artifact": "Source traceability drill-down dialog for live sync auditing",
+      "path": "office_os/artifacts/P0-FE-019_source_traceability_drilldown_dialog_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-018",
+      "artifact": "Executive focus mode for attention-first leadership workflows",
+      "path": "office_os/artifacts/P0-FE-018_executive_focus_mode_attention_first_layout_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 11:36",
       "owner": "EXECUTOR",
@@ -370,38 +382,6 @@
       "taskId": "P1-REV-090",
       "artifact": "Expansion trigger map for renewal-window pilots (usage/stakeholder triggers + motion + weekly ARR dashboard)",
       "path": "office_os/artifacts/P1-REV-090_expansion_trigger_map_pilot_accounts_renewal_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-088",
-      "artifact": "Procurement acceleration micro-sequence (checklist prefill + security appendix triggers + time-to-signature KPIs)",
-      "path": "office_os/artifacts/P1-REV-088_procurement_acceleration_micro_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-017",
-      "artifact": "Refresh resilience hardening (backoff + visibility pause + network-aware recovery)",
-      "path": "office_os/artifacts/P0-FE-017_refresh_resilience_backoff_visibility_network_awareness_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-016",
-      "artifact": "Executive confidence scorecard integrated into live snapshot",
-      "path": "office_os/artifacts/P0-FE-016_executive_confidence_scorecard_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-044",
-      "artifact": "Enterprise onboarding fast-track playbook (day0-14, triage SLA, KPI checkpoints)",
-      "path": "office_os/artifacts/P2-PROD-044_enterprise_onboarding_fast_track_playbook_2026-02-26.md",
       "status": "done"
     }
   ],
