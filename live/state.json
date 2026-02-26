@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T12:00:05.567091+00:00",
+  "now": "2026-02-26T12:10:07.563406+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-118",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build objection-cluster to close-plan routing matrix for live enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps top 20 objections to proof assets, owner action, and 72h follow-up triggers.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
-    },
-    {
       "id": "P1-REV-121",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -102,26 +83,7 @@
       "manual_rank": null,
       "acceptance": "Sprint board with experiments, owners, stop/scale rules, and forecasted pipeline impact.",
       "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
-    },
-    {
-      "id": "P2-PROD-050",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define enterprise onboarding time-to-value SLA dashboard spec (D0-D14)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines events, ownership, thresholds, and red-flag alert routing for SLA misses.",
-      "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
+      "updated_at": "2026-02-26T20:07:03.171772+08:00"
     },
     {
       "id": "P2-PROD-051",
@@ -140,7 +102,7 @@
       "manual_rank": null,
       "acceptance": "Checklist includes pre-release gates, rollback triggers, validation steps, and owner signoff flow.",
       "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
+      "updated_at": "2026-02-26T20:07:03.171783+08:00"
     },
     {
       "id": "P4-OPS-025",
@@ -150,7 +112,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T18:20:00+08:00",
-      "updated_at": "2026-02-26T19:07:01.811592+08:00",
+      "updated_at": "2026-02-26T20:07:03.171789+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -176,7 +138,7 @@
       "manual_rank": null,
       "acceptance": "Checklist validates artifact existence, acceptance coverage, ship-log entry, and rollback notes before DONE.",
       "created_at": "2026-02-26T19:20:26+08:00",
-      "updated_at": "2026-02-26T19:20:26+08:00"
+      "updated_at": "2026-02-26T20:07:03.171798+08:00"
     },
     {
       "id": "P5-012",
@@ -186,7 +148,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T19:07:01.811596+08:00",
+      "updated_at": "2026-02-26T20:07:03.171794+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -199,6 +161,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-050",
+      "artifact": "Enterprise onboarding TTV SLA dashboard spec (D0-D14)",
+      "path": "office_os/artifacts/P2-PROD-050_enterprise_onboarding_ttv_sla_dashboard_spec_D0_D14_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 20:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-118",
+      "artifact": "Objection-cluster to close-plan routing matrix for live enterprise deals",
+      "path": "office_os/artifacts/P1-REV-118_objection_cluster_to_close_plan_routing_matrix_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 19:37",
       "owner": "COMMAND",
@@ -373,30 +359,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:35",
-      "owner": "EXECUTOR",
-      "taskId": "P3-CONT-040",
-      "artifact": "Enterprise trust proof narrative grid (15 proof angles by ICP/channel/conversion objective)",
-      "path": "office_os/artifacts/P3-CONT-040_enterprise_trust_proof_narrative_grid_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-107",
-      "artifact": "Founder escalation script pack for procurement-stalled deals (8 objection-specific branches + ROI inserts + CTA paths)",
-      "path": "office_os/artifacts/P1-REV-107_founder_escalation_script_pack_procurement_stalled_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-039",
-      "artifact": "Objection-led founder content sprint mapped to live pipeline risks (12 assets + proof/CTA ladder)",
-      "path": "office_os/artifacts/P3-CONT-039_objection_led_founder_content_sprint_live_pipeline_risks_2026-02-26.md",
       "status": "done"
     }
   ],
