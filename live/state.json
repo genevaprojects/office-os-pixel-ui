@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T03:21:31.076538+00:00",
+  "now": "2026-02-26T03:30:05.735103+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md"
     },
     {
-      "id": "P2-PROD-048",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft first-7-day enterprise trial adoption playbook with owner checkpoints",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Day-by-day adoption playbook with owner handoffs, intervention triggers, and KPI guardrails for trial success.",
-      "artifact_path": "office_os/artifacts/P2-PROD-048_enterprise_trial_adoption_playbook_first7days_2026-02-26.md"
-    },
-    {
       "id": "P3-CONT-035",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -164,26 +144,6 @@
       "acceptance": "8 short posts include objection, evidence, and CTA mapped to enterprise buyer roles.",
       "created_at": "2026-02-26T11:08:00+08:00",
       "updated_at": "2026-02-26T11:08:00+08:00"
-    },
-    {
-      "id": "P3-CONT-036",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 enterprise trust-building micro-content hooks mapped to active objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T11:20:00+08:00",
-      "updated_at": "2026-02-26T11:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10 hooks with objection tag, proof type, platform format, and CTA mapped to funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-036_enterprise_trust_micro_content_hooks_2026-02-26.md"
     },
     {
       "id": "P4-OPS-016",
@@ -264,6 +224,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 11:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-036",
+      "artifact": "Enterprise trust-building micro-content hooks (10) mapped to objections, proof type, platform, funnel stage, and CTA",
+      "path": "office_os/artifacts/P3-CONT-036_enterprise_trust_micro_content_hooks_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 11:26",
+      "owner": "SOCIAL",
+      "taskId": "P2-PROD-048",
+      "artifact": "First-7-day enterprise trial adoption playbook with owner checkpoints and intervention/KPI guardrails",
+      "path": "office_os/artifacts/P2-PROD-048_enterprise_trial_adoption_playbook_first7days_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 11:20",
       "owner": "COMMAND",
@@ -447,22 +423,6 @@
       "artifact": "ROI-proof content atomization plan from webinar + case studies (20 mapped assets)",
       "path": "office_os/artifacts/P3-CONT-033_roi_proof_content_atomization_plan_webinar_case_studies_2026-02-26.md",
       "status": "done2026-02-26 09:35"
-    },
-    {
-      "time": "2026-02-26 09:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-089",
-      "artifact": "Executive sponsor briefing pack for stalled late-stage deals",
-      "path": "office_os/artifacts/P1-REV-089_executive_sponsor_briefing_pack_stalled_late_stage_deals_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 09:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
     }
   ],
   "alertCount": 1,
