@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T20:10:09.334861+00:00",
+  "now": "2026-02-26T20:21:30.542877+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,100 @@
       ]
     },
     {
-      "id": "P2-PROD-901",
+      "id": "P1-REV-260",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Enterprise deal velocity scoreboard (stage aging + slip-risk + owner SLA)",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Scoreboard template with stage-aging thresholds, slip-risk flags, owner SLA breach markers, and weekly review cadence."
+    },
+    {
+      "id": "P1-REV-261",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Security-review fast-lane response kit for enterprise procurement blockers",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Pack includes FAQ snippets, evidence index, turnaround SOP, and escalation routing for security/procurement stalls."
+    },
+    {
+      "id": "P1-REV-262",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Champion mobilization sequence for multithreaded late-stage deals",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "7-touch sequence with stakeholder-specific message angles, proof payloads, and measurable progression checkpoints."
+    },
+    {
+      "id": "P2-PROD-263",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
-      "title": "Create activation instrumentation QA triage card set",
+      "title": "Activation dropout replay worksheet with experiment-ready hypotheses",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-27T03:16:44+08:00",
-      "updated_at": "2026-02-27T04:07:01.858935+08:00",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card set with issue signature, severity, owner SLA, and verification checklist.",
-      "artifact_path": "office_os/artifacts/P2-PROD-901_activation_instrumentation_qa_triage_card_set_2026-02-27.md"
+      "acceptance": "Worksheet maps top 10 drop-off moments to root-cause hypotheses, instrumentation needs, and owner-assigned experiments."
+    },
+    {
+      "id": "P2-PROD-264",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Onboarding SLA breach auto-escalation message matrix by severity",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Severity-based message matrix with trigger rules, recipients, response-time targets, and rollback guardrails."
+    },
+    {
+      "id": "P3-CONT-265",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Proof-led founder narrative pack for closed-won enterprise stories",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "10 post templates tied to real proof moments, objection class, CTA type, and distribution channel."
     },
     {
       "id": "P4-OPS-030",
@@ -104,26 +180,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist catches malformed lines, duplicate milestones, and missing artifact paths before log append."
-    },
-    {
-      "id": "P4-OPS-210",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Autonomous task aging thresholds and auto-requeue protocol",
-      "owner": "COMMAND",
-      "status": "READY",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
-      "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
-      "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-27T04:07:01.858947+08:00"
     },
     {
       "id": "P4-OPS-212",
@@ -162,23 +218,63 @@
       "acceptance": "Define rubric that validates newly added backlog tasks for executability, owner fit, and acceptance testability before enqueue."
     },
     {
-      "id": "P4-OPS-214",
+      "id": "P4-OPS-266",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Autonomous done-state validator for backlog status/artifact consistency",
+      "title": "Autonomous backlog hygiene linter for acceptance criteria quality",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T04:07:01.858952+08:00",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Checklist or script spec that verifies DONE tasks have valid artifact path and ship-log entry."
+      "acceptance": "Lint checklist/spec flags vague acceptance criteria, missing owner/status fields, and non-executable task statements."
+    },
+    {
+      "id": "P5-267",
+      "project": "P5_INFRA_RELIABILITY",
+      "priority": "P5",
+      "title": "Cron artifact existence monitor for DONE-task evidence reliability",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T04:21:20+08:00",
+      "updated_at": "2026-02-27T04:21:20+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 2,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Monitoring spec that checks artifact path existence for newly DONE tasks and emits critical/warn/info outcomes."
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 04:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (added 8 READY tasks to maintain execution buffer >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 04:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-214",
+      "artifact": "DONE-state validator checklist for backlog/artifact/ship-log consistency",
+      "path": "office_os/artifacts/P4-OPS-214_done_state_validator_checklist_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 04:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-210",
+      "artifact": "Autonomous task aging thresholds and auto-requeue protocol",
+      "path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 04:07",
       "owner": "COMMAND",
@@ -353,30 +449,6 @@
       "taskId": "P0-FE-037",
       "artifact": "Founder Desk command recovery plan (next actions + overdue decision shortlist)",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:50",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-036",
-      "artifact": "Investor demo narrative rail (weakest-signal callout + pre-demo fix)",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-010A",
-      "artifact": "Cron execution drift weekly sentinel",
-      "path": "office_os/artifacts/P5-010A_cron_execution_drift_weekly_sentinel_2026-02-27.md",
       "status": "done"
     }
   ],
