@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T06:00:06.181456+00:00",
+  "now": "2026-02-26T06:10:04.691177+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-201",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build weekly enterprise close-probability heatmap by stage",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap includes stage probability bands, owner, and recovery action playbook.",
-      "artifact_path": "office_os/artifacts/P1-REV-201_enterprise_close_probability_heatmap_2026-02-26.md"
-    },
-    {
       "id": "P1-REV-204",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
+      "updated_at": "2026-02-26T14:07:07.234250+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
+      "updated_at": "2026-02-26T14:07:07.234271+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-201_activation_anomaly_severity_rubric_2026-02-26.md"
     },
     {
-      "id": "P2-PROD-202",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Design enterprise trial handoff checklist from sales to onboarding",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines D0 inputs, owner RACI, and D7 success checkpoint gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-202_enterprise_trial_handoff_checklist_sales_to_onboarding_2026-02-26.md"
-    },
-    {
       "id": "P3-CONT-038",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -154,7 +114,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-26T13:21:18.089793+08:00",
-      "updated_at": "2026-02-26T13:21:18.089793+08:00",
+      "updated_at": "2026-02-26T14:07:07.234261+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T13:21:18.089793+08:00",
-      "updated_at": "2026-02-26T13:21:18.089793+08:00",
+      "updated_at": "2026-02-26T14:07:07.234267+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,6 +148,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:07",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-202",
+      "artifact": "Enterprise trial handoff checklist (sales→onboarding) with D0 inputs, RACI, D7 gates",
+      "path": "office_os/artifacts/P2-PROD-202_enterprise_trial_handoff_checklist_sales_to_onboarding_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-201",
+      "artifact": "Weekly enterprise close-probability heatmap by stage with recovery playbook",
+      "path": "office_os/artifacts/P1-REV-201_enterprise_close_probability_heatmap_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-021",
+      "artifact": "Adaptive compact/comfort density toggle with persistent preference",
+      "path": "office_os/artifacts/P0-FE-021_adaptive_density_mode_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-020",
+      "artifact": "Global command palette (Ctrl/Cmd+K) for fast mode/filter/trace actions",
+      "path": "office_os/artifacts/P0-FE-020_command_palette_operator_speed_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 13:35",
       "owner": "EXECUTOR",
@@ -346,46 +346,6 @@
       "taskId": "P3-CONT-035",
       "artifact": "Procurement-proof micro case posts for late-stage enterprise trust",
       "path": "office_os/artifacts/P3-CONT-035_procurement_proof_micro_case_posts_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:15",
-      "owner": "BUILDER",
-      "taskId": "P5-010",
-      "artifact": "Cron-run artifact integrity checklist for growth automations",
-      "path": "office_os/artifacts/P5-010_cron_run_artifact_integrity_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-098",
-      "artifact": "Objection-triggered ROI proof map for procurement/finance reviewers",
-      "path": "office_os/artifacts/P1-REV-098_objection_triggered_roi_proof_map_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-097",
-      "artifact": "5-day enterprise re-engagement sprint for silent late-stage stakeholders",
-      "path": "office_os/artifacts/P1-REV-097_enterprise_reengagement_sprint_silent_stakeholders_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-019",
-      "artifact": "Source traceability drill-down dialog for live sync auditing",
-      "path": "office_os/artifacts/P0-FE-019_source_traceability_drilldown_dialog_2026-02-26.md",
       "status": "done"
     }
   ],
