@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T23:21:36.507256+00:00",
+  "now": "2026-02-26T23:30:05.854922+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,22 +99,6 @@
       "acceptance": "Create checklist with day-by-day actions, owner, required artifacts, and fallback path to prevent slippage."
     },
     {
-      "id": "P1-REV-313",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Proof-to-proposal conversion copy pack for late-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T07:20:40+08:00",
-      "updated_at": "2026-02-27T07:20:40+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Provide 12 reusable snippets across email/DM/deck notes tied to top objections and CTA outcomes."
-    },
-    {
       "id": "P1-REV-314",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -129,22 +113,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Template includes stage risk score, confidence trend, blocker owner, and next-action SLA for top 20 deals."
-    },
-    {
-      "id": "P1-REV-315",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Referral partner activation sprint plan with 7-day launch targets",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T07:20:40+08:00",
-      "updated_at": "2026-02-27T07:20:40+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Ship sprint board with partner tiers, launch assets, outreach sequence, and activation KPI thresholds."
     },
     {
       "id": "P2-PROD-316",
@@ -228,6 +196,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-315",
+      "artifact": "Referral partner activation sprint plan with 7-day launch targets",
+      "path": "office_os/artifacts/P1-REV-315_referral_partner_activation_sprint_plan_7_day_launch_targets_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-313",
+      "artifact": "Proof-to-proposal conversion copy pack for late-stage deals (12 snippets across email/DM/deck notes)",
+      "path": "office_os/artifacts/P1-REV-313_proof_to_proposal_conversion_copy_pack_late_stage_deals_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:23",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-056",
+      "artifact": "Founder Desk immediate reliability actions with one-click command drafts",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:23",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Overview 90-second demo narrative strip tied to weakest live signal",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 07:20",
       "owner": "COMMAND",
@@ -394,38 +394,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-056",
-      "artifact": "Investor staffing gate checklist integrated into Team",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-055",
-      "artifact": "Investor demo gate checklist integrated into Overview",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-268",
-      "artifact": "Onboarding handoff SLA exception workflow",
-      "path": "office_os/artifacts/P2-PROD-268_onboarding_handoff_sla_exception_workflow_2026-02-27.md",
       "status": "done"
     }
   ],
