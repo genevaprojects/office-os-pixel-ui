@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T19:00:06.120526+00:00",
+  "now": "2026-02-26T19:10:06.028098+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-247",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-lost intervention experiment board (top 2 reversible reasons)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [
-        "P1-REV-246"
-      ],
-      "blocked_reason": null,
-      "acceptance": "Experiment board with hypotheses, owner, KPI, and stop/scale criteria for top 2 reversible loss reasons."
-    },
-    {
       "id": "P4-OPS-030",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -92,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-27T01:07:04.500961+08:00",
+      "updated_at": "2026-02-27T03:07:03.157264+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -121,7 +103,7 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-27T01:07:04.500956+08:00"
+      "updated_at": "2026-02-27T03:07:03.157246+08:00"
     },
     {
       "id": "P4-OPS-212",
@@ -131,7 +113,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T00:20:00+08:00",
-      "updated_at": "2026-02-27T01:07:04.500969+08:00",
+      "updated_at": "2026-02-27T03:07:03.157269+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -151,7 +133,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T01:20:00+08:00",
+      "updated_at": "2026-02-27T03:07:03.157274+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -167,7 +149,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T03:07:03.157259+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -177,6 +159,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 03:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 02:50",
       "owner": "BUILDER",
@@ -367,14 +357,6 @@
       "taskId": "P4-OPS-028",
       "artifact": "Autonomous artifact acceptance gate scorecard",
       "path": "office_os/artifacts/P4-OPS-028_autonomous_artifact_acceptance_gate_scorecard_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:15",
-      "owner": "BUILDER",
-      "taskId": "P5-020",
-      "artifact": "Cron artifact checksum verification SOP (SHA-256 generation/verification + mismatch triage)",
-      "path": "office_os/artifacts/P5-020_cron_artifact_checksum_verification_sop_2026-02-27.md",
       "status": "done"
     }
   ],
