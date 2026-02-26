@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T05:30:07.209467+00:00",
+  "now": "2026-02-26T05:40:06.630471+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-201_enterprise_close_probability_heatmap_2026-02-26.md"
     },
     {
-      "id": "P1-REV-202",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create 5-touch champion enablement follow-through sequence",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence provides stakeholder map, forwardable assets, and close triggers.",
-      "artifact_path": "office_os/artifacts/P1-REV-202_champion_enablement_followthrough_sequence_2026-02-26.md"
-    },
-    {
       "id": "P1-REV-204",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -125,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Map defines persona-specific messaging, cadence, and response routing.",
       "artifact_path": "office_os/artifacts/P1-REV-204_enterprise_multithread_outreach_map_2026-02-26.md"
-    },
-    {
-      "id": "P1-REV-205",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create proposal redline fast-lane checklist for 72h signature cycles",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T13:21:40.378989+08:00",
-      "updated_at": "2026-02-26T13:21:40.378989+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes legal/procurement prep, owner SLA, and blocker bypass rules [ASSUMPTION].",
-      "artifact_path": "office_os/artifacts/P1-REV-205_proposal_redline_fast_lane_checklist_2026-02-26.md"
     },
     {
       "id": "P2-PROD-201",
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 13:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-205",
+      "artifact": "Proposal redline fast-lane checklist for 72h signature cycles",
+      "path": "office_os/artifacts/P1-REV-205_proposal_redline_fast_lane_checklist_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 13:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-202",
+      "artifact": "Champion enablement follow-through sequence (5-touch + stakeholder map + close triggers)",
+      "path": "office_os/artifacts/P1-REV-202_champion_enablement_followthrough_sequence_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 13:22",
       "owner": "COMMAND",
@@ -410,22 +386,6 @@
       "taskId": "P0-FE-019",
       "artifact": "Source traceability drill-down dialog for live sync auditing",
       "path": "office_os/artifacts/P0-FE-019_source_traceability_drilldown_dialog_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 12:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-018",
-      "artifact": "Executive focus mode for attention-first leadership workflows",
-      "path": "office_os/artifacts/P0-FE-018_executive_focus_mode_attention_first_layout_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 11:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-099",
-      "artifact": "Founder-led close plan for top 15 renewal-window pilots",
-      "path": "office_os/artifacts/P1-REV-099_founder_led_close_plan_top15_renewal_pilots_2026-02-26.md",
       "status": "done"
     }
   ],
