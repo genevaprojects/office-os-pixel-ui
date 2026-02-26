@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T07:30:04.956797+00:00",
+  "now": "2026-02-26T07:40:06.434616+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "updated_at": "2026-02-26T15:20:00+08:00"
     },
     {
-      "id": "P1-REV-107",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft founder escalation script pack for procurement-stalled deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script pack includes 8 objection-specific escalations with ROI proof inserts and CTA branches.",
-      "artifact_path": "office_os/artifacts/P1-REV-107_founder_escalation_script_pack_procurement_stalled_2026-02-26.md",
-      "created_at": "2026-02-26T15:20:00+08:00",
-      "updated_at": "2026-02-26T15:20:00+08:00"
-    },
-    {
       "id": "P1-REV-109",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -187,26 +167,6 @@
       "updated_at": "2026-02-26T15:20:00+08:00"
     },
     {
-      "id": "P3-CONT-040",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create enterprise trust proof narrative grid for multi-platform distribution",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Narrative grid maps 15 proof angles by ICP, channel, and conversion objective.",
-      "artifact_path": "office_os/artifacts/P3-CONT-040_enterprise_trust_proof_narrative_grid_2026-02-26.md",
-      "created_at": "2026-02-26T15:20:00+08:00",
-      "updated_at": "2026-02-26T15:20:00+08:00"
-    },
-    {
       "id": "P4-OPS-020",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P3-CONT-040",
+      "artifact": "Enterprise trust proof narrative grid (15 proof angles by ICP/channel/conversion objective)",
+      "path": "office_os/artifacts/P3-CONT-040_enterprise_trust_proof_narrative_grid_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-107",
+      "artifact": "Founder escalation script pack for procurement-stalled deals (8 objection-specific branches + ROI inserts + CTA paths)",
+      "path": "office_os/artifacts/P1-REV-107_founder_escalation_script_pack_procurement_stalled_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 15:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks with weighted priority mix)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:21",
-      "owner": "COMMAND",
-      "taskId": "P5-009",
-      "artifact": "Cron dependency health sentinel checklist with thresholds and owner mapping",
-      "path": "office_os/artifacts/P5-009_cron_dependency_health_sentinel_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-017",
-      "artifact": "Autonomous SLA breach digest template for daily command review",
-      "path": "office_os/artifacts/P4-OPS-017_autonomous_sla_breach_digest_template_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 13:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
