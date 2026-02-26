@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T00:21:53.150059+00:00",
+  "now": "2026-02-26T00:30:46.769630+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-083",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create enterprise deal acceleration email pack (objection-first)",
-      "owner": "SOCIAL",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "acceptance": "10 reusable emails mapped to procurement/security/value objections with measurable reply-rate hypothesis.",
-      "status": "READY",
-      "created_at": "2026-02-26T08:20:55+08:00",
-      "updated_at": "2026-02-26T08:20:55+08:00",
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-084",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-032",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce founder proof carousel templates mapped to objection tiers",
-      "owner": "SOCIAL",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "acceptance": "8 carousel templates map objection tier to proof format, hook, CTA, and expected engagement metric.",
-      "status": "READY",
-      "created_at": "2026-02-26T08:20:55+08:00",
-      "updated_at": "2026-02-26T08:20:55+08:00",
-      "due_at": "2026-03-07T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-014",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 08:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-032",
+      "artifact": "Founder proof carousel templates mapped to objection tiers",
+      "path": "office_os/artifacts/P3-CONT-032_founder_proof_carousel_templates_objection_tiers_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-083",
+      "artifact": "Enterprise deal acceleration email pack (10 objection-first templates)",
+      "path": "office_os/artifacts/P1-REV-083_enterprise_deal_acceleration_email_pack_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 08:20",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P1-REV-075",
       "artifact": "Enterprise pilot renewal trigger matrix (week 2-6)",
       "path": "office_os/artifacts/P1-REV-075_enterprise_pilot_renewal_trigger_matrix_week2_6_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-071",
-      "artifact": "Objection-to-proof response map for top 25 enterprise objections",
-      "path": "office_os/artifacts/P1-REV-071_objection_to_proof_response_map_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 06:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
