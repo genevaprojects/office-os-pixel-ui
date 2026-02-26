@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T14:00:05.497316+00:00",
+  "now": "2026-02-26T14:10:06.091052+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-221",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review fast-lane response matrix for enterprise procurement cycles",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps top 25 security questionnaire asks to ready responses, evidence links, owner, and max response SLA.",
-      "artifact_path": "office_os/artifacts/P1-REV-221_security_review_fast_lane_response_matrix_2026-02-26.md",
-      "created_at": "2026-02-26T21:20:00+08:00",
-      "updated_at": "2026-02-26T21:20:00+08:00"
-    },
-    {
       "id": "P2-PROD-221",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -104,7 +84,7 @@
       "acceptance": "Map covers top onboarding failure signatures, primary/secondary owner, containment action, and verification checkpoint.",
       "artifact_path": "office_os/artifacts/P2-PROD-221_onboarding_risk_owner_triage_map_2026-02-26.md",
       "created_at": "2026-02-26T21:20:00+08:00",
-      "updated_at": "2026-02-26T21:20:00+08:00"
+      "updated_at": "2026-02-26T22:07:03.578039+08:00"
     },
     {
       "id": "P3-CONT-221",
@@ -124,7 +104,7 @@
       "acceptance": "Board defines 10 objection-led assets with hook, proof type, CTA, channel, publish date, and success KPI.",
       "artifact_path": "office_os/artifacts/P3-CONT-221_proof_first_enterprise_objection_micro_content_sprint_board_2026-02-26.md",
       "created_at": "2026-02-26T21:20:00+08:00",
-      "updated_at": "2026-02-26T21:20:00+08:00"
+      "updated_at": "2026-02-26T22:07:03.578054+08:00"
     },
     {
       "id": "P4-OPS-027",
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T21:07:02.238852+08:00",
+      "updated_at": "2026-02-26T22:07:03.578059+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -162,7 +142,7 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T21:07:02.238860+08:00"
+      "updated_at": "2026-02-26T22:07:03.578069+08:00"
     },
     {
       "id": "P5-013",
@@ -172,7 +152,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T21:07:02.238856+08:00",
+      "updated_at": "2026-02-26T22:07:03.578064+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -184,6 +164,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-029",
+      "artifact": "Critical jobs SLA breach/watch timing semantics in monitor cards",
+      "path": "office_os/artifacts/P0-FE-029_monitor_sla_breach_watch_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-028",
+      "artifact": "Incident command surface with one-click executive→operator handoff",
+      "path": "office_os/artifacts/P0-FE-028_incident_command_surface_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 21:37",
       "owner": "COMMAND",
@@ -358,30 +362,6 @@
       "taskId": "P4-OPS-023",
       "artifact": "Autonomous artifact quality lint checklist for Office OS docs",
       "path": "office_os/artifacts/P4-OPS-023_autonomous_artifact_quality_lint_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 19:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-212",
-      "artifact": "No-decision reactivation decision tree (week 2 to week 6 enterprise deals)",
-      "path": "office_os/artifacts/P1-REV-212_no_decision_reactivation_decision_tree_week2_week6_enterprise_deals_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-011",
-      "artifact": "Cron payload validation checklist for reminder/worker jobs",
-      "path": "office_os/artifacts/P5-011_cron_payload_validation_checklist_reminder_worker_jobs_2026-02-26.md",
       "status": "done"
     }
   ],
