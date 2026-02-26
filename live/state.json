@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T13:06:03.937022+00:00",
+  "now": "2026-02-26T13:10:04.803404+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T21:07:02.238810+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -102,7 +102,7 @@
       "acceptance": "Agenda includes commit review, blockers, decision asks, and close forecast deltas.",
       "artifact_path": "office_os/artifacts/P1-REV-220_deal_desk_daily_standup_agenda_2026-02-26.md",
       "created_at": "2026-02-26T20:35:30+08:00",
-      "updated_at": "2026-02-26T20:35:30+08:00"
+      "updated_at": "2026-02-26T21:07:02.238822+08:00"
     },
     {
       "id": "P2-PROD-211",
@@ -122,7 +122,7 @@
       "acceptance": "Matrix maps each checkpoint event to expected payload, alert threshold, and QA test case.",
       "artifact_path": "office_os/artifacts/P2-PROD-211_activation_checkpoint_instrumentation_qa_matrix_v2_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T20:35:00+08:00"
+      "updated_at": "2026-02-26T21:07:02.238834+08:00"
     },
     {
       "id": "P2-PROD-220",
@@ -142,7 +142,7 @@
       "acceptance": "Template captures symptom, reproduction, impact band, owner, ETA, and verify steps.",
       "artifact_path": "office_os/artifacts/P2-PROD-220_onboarding_sla_breach_handoff_template_2026-02-26.md",
       "created_at": "2026-02-26T20:35:30+08:00",
-      "updated_at": "2026-02-26T20:35:30+08:00"
+      "updated_at": "2026-02-26T21:07:02.238829+08:00"
     },
     {
       "id": "P3-CONT-210",
@@ -162,7 +162,7 @@
       "acceptance": "15 CTA variants mapped to objection stage, proof type, and platform constraints.",
       "artifact_path": "office_os/artifacts/P3-CONT-210_case_study_cta_variants_objection_led_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T20:35:00+08:00"
+      "updated_at": "2026-02-26T21:07:02.238839+08:00"
     },
     {
       "id": "P3-CONT-220",
@@ -182,7 +182,7 @@
       "acceptance": "Swipe file includes 25 CTAs with intent tags and anti-spam guardrails.",
       "artifact_path": "office_os/artifacts/P3-CONT-220_objection_proof_cta_swipe_file_founder_comments_2026-02-26.md",
       "created_at": "2026-02-26T20:35:30+08:00",
-      "updated_at": "2026-02-26T20:35:30+08:00"
+      "updated_at": "2026-02-26T21:07:02.238843+08:00"
     },
     {
       "id": "P4-OPS-027",
@@ -192,7 +192,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T21:07:02.238852+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -220,7 +220,7 @@
       "acceptance": "Protocol defines stale thresholds by priority, requeue logic, and audit log fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-210_task_aging_thresholds_auto_requeue_protocol_2026-02-26.md",
       "created_at": "2026-02-26T20:35:00+08:00",
-      "updated_at": "2026-02-26T20:35:00+08:00"
+      "updated_at": "2026-02-26T21:07:02.238860+08:00"
     },
     {
       "id": "P5-012",
@@ -230,7 +230,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T20:07:03.171794+08:00",
+      "updated_at": "2026-02-26T21:07:02.238847+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -249,7 +249,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T20:20:26+08:00",
-      "updated_at": "2026-02-26T20:20:26+08:00",
+      "updated_at": "2026-02-26T21:07:02.238856+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -261,6 +261,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 20:20",
       "owner": "COMMAND",
@@ -451,14 +459,6 @@
       "taskId": "P1-REV-114",
       "artifact": "Top-10 enterprise loss reasons reversal playbook",
       "path": "office_os/artifacts/P1-REV-114_enterprise_loss_reasons_reversal_playbook_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 17:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-110",
-      "artifact": "Enterprise deal slippage early-warning trigger sheet (D-21 to close)",
-      "path": "office_os/artifacts/P1-REV-110_enterprise_deal_slippage_early_warning_trigger_sheet_2026-02-26.md",
       "status": "done"
     }
   ],
