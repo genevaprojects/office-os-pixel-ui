@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T19:21:35.363172+00:00",
+  "now": "2026-02-26T19:30:07.759496+00:00",
   "workers": [
     {
       "name": "Research",
@@ -125,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Rubric for tagging friction points and experiment opportunities.",
       "artifact_path": "office_os/artifacts/P2-PROD-903_first_value_session_replay_annotation_rubric_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-901",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build objection-proof micro-case tweet thread templates",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T03:16:44+08:00",
-      "updated_at": "2026-02-27T03:16:44+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-07T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "15 templates mapped by objection type and credibility proof.",
-      "artifact_path": "office_os/artifacts/P3-CONT-901_objection_proof_micro_case_thread_templates_2026-02-27.md"
     },
     {
       "id": "P4-OPS-030",
