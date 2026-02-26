@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T17:22:07.017378+00:00",
+  "now": "2026-02-26T17:30:06.011291+00:00",
   "workers": [
     {
       "name": "Research",
@@ -131,22 +131,6 @@
       "acceptance": "Specify dashboard schema that compresses closed-lost reasons into top reversible patterns with weekly intervention actions."
     },
     {
-      "id": "P3-CONT-227",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Late-stage objection rebuttal post pack",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T01:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Draft 10 concise rebuttal post structures addressing procurement/security objections with proof hooks and CTA variants."
-    },
-    {
       "id": "P4-OPS-030",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -239,6 +223,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 01:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-227",
+      "artifact": "Late-stage objection rebuttal post pack (10 procurement/security rebuttal structures with proof hooks + CTA variants)",
+      "path": "office_os/artifacts/P3-CONT-227_late_stage_objection_rebuttal_post_pack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-035",
+      "artifact": "Team mission ownership matrix + confidence signal",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-034",
+      "artifact": "Founder Desk delivery forecast + queue-aging reliability gate",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 01:20",
       "owner": "COMMAND",
@@ -413,30 +421,6 @@
       "taskId": "P0-FE-034",
       "artifact": "Founder Desk decision SLA radar + next-decision spotlight",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 23:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 23:20",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-252",
-      "artifact": "Activation blocker handoff brief template for CS-to-product escalation",
-      "path": "office_os/artifacts/P2-PROD-252_activation_blocker_handoff_brief_template_cs_to_product_escalation_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 23:20",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-235",
-      "artifact": "Proposal redline turnaround playbook for sub-72h enterprise cycles",
-      "path": "office_os/artifacts/P1-REV-235_proposal_redline_turnaround_playbook_sub72h_enterprise_cycles_2026-02-26.md",
       "status": "done"
     }
   ],
