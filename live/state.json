@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T04:21:44.510967+00:00",
+  "now": "2026-02-26T04:30:05.085497+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "updated_at": "2026-02-26T12:20:00+08:00"
     },
     {
-      "id": "P1-REV-103",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Write 10 proof-first founder posts tied to active enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10 posts include objection, quantified proof placeholder, and CTA by funnel stage.",
-      "created_at": "2026-02-26T12:20:00+08:00",
-      "updated_at": "2026-02-26T12:20:00+08:00"
-    },
-    {
       "id": "P1-REV-104",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "updated_at": "2026-02-26T12:20:00+08:00"
     },
     {
-      "id": "P3-CONT-037",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create objection-tagged short video CTA ladder (12 assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "12 CTA assets tagged by objection, proof type, and intent stage.",
-      "created_at": "2026-02-26T12:20:00+08:00",
-      "updated_at": "2026-02-26T12:20:00+08:00"
-    },
-    {
       "id": "P4-OPS-017",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -265,6 +227,22 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-037",
+      "artifact": "Objection-tagged short video CTA ladder (12 assets)",
+      "path": "office_os/artifacts/P3-CONT-037_objection_tagged_short_video_cta_ladder_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-103",
+      "artifact": "Proof-first founder posts tied to active enterprise objections (10)",
+      "path": "office_os/artifacts/P1-REV-103_proof_first_founder_posts_enterprise_objections_2026-02-26.md",
       "status": "done"
     },
     {
@@ -441,22 +419,6 @@
       "taskId": "P1-REV-094",
       "artifact": "No-decision deal rescue playbook (3 offer pivots + guardrails)",
       "path": "office_os/artifacts/P1-REV-094_no_decision_deal_rescue_playbook_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 8 READY tasks to maintain execution buffer >=10)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-015",
-      "artifact": "Autonomous revenue experiment retrospective template (HQS + kill/iterate/scale)",
-      "path": "office_os/artifacts/P4-OPS-015_revenue_experiment_retrospective_template_2026-02-26.md",
       "status": "done"
     }
   ],
