@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T18:21:46.553947+00:00",
+  "now": "2026-02-26T18:30:05.100852+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,40 +99,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "One packet template with legal/security/procurement checklist and response SLA map."
-    },
-    {
-      "id": "P3-CONT-300",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first narrative wedge tracker for AI+Crypto distribution",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T02:05:38+08:00",
-      "updated_at": "2026-02-27T02:05:38+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Tracker with 15 wedges tagged by audience, proof type, controversy level, and expected engagement-to-DM conversion."
-    },
-    {
-      "id": "P3-CONT-301",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first content series from closed-lost reversals (5 posts)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T02:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [
-        "P1-REV-246"
-      ],
-      "blocked_reason": null,
-      "acceptance": "5 post drafts translating reversible loss patterns into trust-building proof narratives with CTA."
     },
     {
       "id": "P4-OPS-030",
@@ -245,6 +211,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-301",
+      "artifact": "Closed-lost reversal proof-first content series (5 posts)",
+      "path": "office_os/artifacts/P3-CONT-301_closed_lost_reversal_proof_first_post_series_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-300",
+      "artifact": "Proof-first narrative wedge tracker for AI+Crypto distribution",
+      "path": "office_os/artifacts/P3-CONT-300_proof_first_narrative_wedge_tracker_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:21",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-044",
+      "artifact": "Team operator rebalance plan with intervention actions",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:21",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-043",
+      "artifact": "Founder Desk command queue SLA clock (oldest age + breach/at-risk counters)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 02:20",
       "owner": "COMMAND",
@@ -411,38 +409,6 @@
       "taskId": "P1-REV-242",
       "artifact": "Procurement redline risk register template for enterprise renewals",
       "path": "office_os/artifacts/P1-REV-242_procurement_redline_risk_register_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-241",
-      "artifact": "Champion-to-procurement handoff packet template for enterprise pilots",
-      "path": "office_os/artifacts/P1-REV-241_champion_to_procurement_handoff_packet_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-226",
-      "artifact": "Procurement-objection content reply matrix (text/video/carousel)",
-      "path": "office_os/artifacts/P3-CONT-226_procurement_objection_content_reply_matrix_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-239",
-      "artifact": "Enterprise security-review fast lane email sequence (5 touches, 10-day)",
-      "path": "office_os/artifacts/P1-REV-239_enterprise_security_review_fast_lane_email_sequence_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-035",
-      "artifact": "Founder Desk throughput radar (24h reliability + queued/failed pressure)",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
