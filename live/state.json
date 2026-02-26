@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T19:50:05.162770+00:00",
+  "now": "2026-02-26T20:00:08.034461+00:00",
   "workers": [
     {
       "name": "Research",
@@ -220,6 +220,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-27 03:55",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-050",
+      "artifact": "Team continuity scorecard for mission-lane demo readiness",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 03:55",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-049",
+      "artifact": "Founder Desk investor demo gate with explicit pass/fail blockers",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-27 03:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -401,22 +417,6 @@
       "taskId": "P1-REV-243",
       "artifact": "Mutual action plan enforcement checklist for close-week",
       "path": "office_os/artifacts/P1-REV-243_mutual_action_plan_enforcement_checklist_close_week_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-227",
-      "artifact": "Late-stage objection rebuttal post pack (10 procurement/security rebuttal structures with proof hooks + CTA variants)",
-      "path": "office_os/artifacts/P3-CONT-227_late_stage_objection_rebuttal_post_pack_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-035",
-      "artifact": "Team mission ownership matrix + confidence signal",
-      "path": "office_os_mission_control/app/team/page.tsx",
       "status": "done"
     }
   ],
