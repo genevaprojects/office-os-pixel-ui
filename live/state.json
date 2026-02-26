@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T18:50:05.390956+00:00",
+  "now": "2026-02-26T19:00:06.120526+00:00",
   "workers": [
     {
       "name": "Research",
@@ -177,6 +177,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 02:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-046",
+      "artifact": "Team investor demo cast readiness matrix (lane readiness scoring + weakest-lane alert)",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-045",
+      "artifact": "Founder Desk decision turnaround control panel (avg open age + high-risk load + demo gate)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 02:37",
       "owner": "COMMAND",
@@ -359,22 +375,6 @@
       "taskId": "P5-020",
       "artifact": "Cron artifact checksum verification SOP (SHA-256 generation/verification + mismatch triage)",
       "path": "office_os/artifacts/P5-020_cron_artifact_checksum_verification_sop_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-240",
-      "artifact": "Late-stage deal rescue dashboard spec (12 triggers + escalation + owner SLA)",
-      "path": "office_os/artifacts/P1-REV-240_late_stage_deal_rescue_dashboard_spec_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 01:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
