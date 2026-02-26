@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T18:10:05.252339+00:00",
+  "now": "2026-02-26T18:21:46.553947+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,27 +54,6 @@
   ],
   "backlog": [
     {
-      "id": "P0-FE-042",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Executive snapshot visual regression harness (desktop+mobile breakpoints)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T02:00:00+08:00",
-      "updated_at": "2026-02-27T02:00:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [
-        "P0-FE-041"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Automated screenshot baseline at key breakpoints with change threshold and fail-fast report for demo-critical panels.",
-      "artifact_path": "office_os/artifacts/P0-FE-042_visual_regression_harness_pending.md"
-    },
-    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -88,52 +67,38 @@
       ]
     },
     {
-      "id": "P1-REV-245",
+      "id": "P1-REV-247",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Proposal turnaround SLA tracker",
-      "owner": "BUILDER",
+      "title": "Closed-lost intervention experiment board (top 2 reversible reasons)",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T01:20:00+08:00",
+      "created_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T02:20:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "depends_on": [
+        "P1-REV-246"
+      ],
+      "blocked_reason": null,
+      "acceptance": "Experiment board with hypotheses, owner, KPI, and stop/scale criteria for top 2 reversible loss reasons."
+    },
+    {
+      "id": "P1-REV-248",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Procurement fast-lane packet template for late-stage enterprise deals",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T02:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Create tracker template for proposal redline turnaround with SLA breach alerts and owner escalation routing."
-    },
-    {
-      "id": "P1-REV-246",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-lost reason compression dashboard spec",
-      "owner": "COMMAND",
-      "status": "READY",
-      "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Specify dashboard schema that compresses closed-lost reasons into top reversible patterns with weekly intervention actions."
-    },
-    {
-      "id": "P2-PROD-300",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation funnel evidence requirements matrix for weekly experiment reviews",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-27T02:05:38+08:00",
-      "updated_at": "2026-02-27T02:05:38+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Matrix defining minimum evidence per funnel stage, source, freshness SLA, and owner for weekly review readiness."
+      "acceptance": "One packet template with legal/security/procurement checklist and response SLA map."
     },
     {
       "id": "P3-CONT-300",
@@ -150,6 +115,24 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Tracker with 15 wedges tagged by audience, proof type, controversy level, and expected engagement-to-DM conversion."
+    },
+    {
+      "id": "P3-CONT-301",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Proof-first content series from closed-lost reversals (5 posts)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T02:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [
+        "P1-REV-246"
+      ],
+      "blocked_reason": null,
+      "acceptance": "5 post drafts translating reversible loss patterns into trust-building proof narratives with CTA."
     },
     {
       "id": "P4-OPS-030",
@@ -225,9 +208,83 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Define rubric that validates newly added backlog tasks for executability, owner fit, and acceptance testability before enqueue."
+    },
+    {
+      "id": "P4-OPS-214",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Autonomous done-state validator for backlog status/artifact consistency",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T02:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Checklist or script spec that verifies DONE tasks have valid artifact path and ship-log entry."
+    },
+    {
+      "id": "P5-011",
+      "project": "P5_INFRA_RELIABILITY",
+      "priority": "P5",
+      "title": "Visual diff artifact retention and cleanup policy (7/30-day windows)",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T02:20:00+08:00",
+      "updated_at": "2026-02-27T02:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 2,
+      "depends_on": [
+        "P0-FE-042"
+      ],
+      "blocked_reason": null,
+      "acceptance": "Policy defines retention windows, storage cap thresholds, and cleanup automation triggers for visual diff artifacts."
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 02:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up to maintain >=10 READY/QUEUED/TODO tasks",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:20",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-246",
+      "artifact": "Closed-lost reason compression dashboard spec with weekly intervention loop",
+      "path": "office_os/artifacts/P1-REV-246_closed_lost_reason_compression_dashboard_spec_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:20",
+      "owner": "EXECUTOR",
+      "taskId": "P0-FE-042",
+      "artifact": "Executive snapshot visual regression harness (desktop/mobile breakpoints + fail-fast thresholds)",
+      "path": "office_os/artifacts/P0-FE-042_visual_regression_harness_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:15",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-300",
+      "artifact": "Activation funnel evidence requirements matrix for weekly experiment reviews",
+      "path": "office_os/artifacts/P2-PROD-300_activation_funnel_evidence_requirements_matrix_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 02:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-245",
+      "artifact": "Proposal turnaround SLA tracker with breach alerts + escalation routing",
+      "path": "office_os/artifacts/P1-REV-245_proposal_turnaround_sla_tracker_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 02:06",
       "owner": "RESEARCH",
@@ -386,46 +443,6 @@
       "taskId": "P0-FE-035",
       "artifact": "Founder Desk throughput radar (24h reliability + queued/failed pressure)",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-034",
-      "artifact": "Overview sync trust strip (latency + stale-state + degraded-sync warning)",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-254",
-      "artifact": "Post-signature onboarding handoff packet spec (<24h SLA, validation gates, escalation route)",
-      "path": "office_os/artifacts/P2-PROD-254_post_signature_onboarding_handoff_packet_spec_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-237",
-      "artifact": "Enterprise champion internal-forward pack (ROI/security/implementation one-pagers + stakeholder send guidance + metrics)",
-      "path": "office_os/artifacts/P1-REV-237_enterprise_champion_internal_forward_pack_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:05",
-      "owner": "RESEARCH",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
