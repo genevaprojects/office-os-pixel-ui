@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T09:00:08.007109+00:00",
+  "now": "2026-02-26T09:10:05.597449+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-110",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build enterprise deal slippage early-warning trigger sheet (D-21 to close)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T16:20:00+08:00",
-      "updated_at": "2026-02-26T16:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Trigger sheet with top 12 slip signals, thresholds, and owner actions within 24h."
-    },
-    {
       "id": "P1-REV-111",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -90,29 +74,13 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-26T16:20:00+08:00",
-      "updated_at": "2026-02-26T16:20:00+08:00",
+      "updated_at": "2026-02-26T17:07:02.180858+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "One-page template with ROI math blocks, risk controls, and approval CTA for finance buyers."
-    },
-    {
-      "id": "P1-REV-114",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Produce top-10 enterprise loss reasons reversal playbook",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-26T16:20:00+08:00",
-      "updated_at": "2026-02-26T16:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Playbook maps each loss reason to prevention motion, proof asset, and responsible owner."
     },
     {
       "id": "P4-OPS-021",
@@ -122,7 +90,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-26T16:20:00+08:00",
-      "updated_at": "2026-02-26T16:20:00+08:00",
+      "updated_at": "2026-02-26T17:07:02.180870+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -132,6 +100,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 17:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-114",
+      "artifact": "Top-10 enterprise loss reasons reversal playbook",
+      "path": "office_os/artifacts/P1-REV-114_enterprise_loss_reasons_reversal_playbook_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 17:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-110",
+      "artifact": "Enterprise deal slippage early-warning trigger sheet (D-21 to close)",
+      "path": "office_os/artifacts/P1-REV-110_enterprise_deal_slippage_early_warning_trigger_sheet_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 16:37",
       "owner": "COMMAND",
@@ -314,22 +298,6 @@
       "taskId": "P2-PROD-202",
       "artifact": "Enterprise trial handoff checklist (sales→onboarding) with D0 inputs, RACI, D7 gates",
       "path": "office_os/artifacts/P2-PROD-202_enterprise_trial_handoff_checklist_sales_to_onboarding_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-201",
-      "artifact": "Weekly enterprise close-probability heatmap by stage with recovery playbook",
-      "path": "office_os/artifacts/P1-REV-201_enterprise_close_probability_heatmap_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 14:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-021",
-      "artifact": "Adaptive compact/comfort density toggle with persistent preference",
-      "path": "office_os/artifacts/P0-FE-021_adaptive_density_mode_2026-02-26.md",
       "status": "done"
     }
   ],
