@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T23:00:05.700880+00:00",
+  "now": "2026-02-26T23:10:04.968102+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-301",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led 7-day outbound follow-up sequencer for late-stage enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Map 7-day follow-up sequencer with day-by-day message objective, proof insertion point, and close-risk trigger for each stage."
-    },
-    {
       "id": "P1-REV-302",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -90,29 +74,13 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
+      "updated_at": "2026-02-27T07:07:02.457247+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Deliver offer matrix with 3 value pivots by objection type, qualification guardrails, and expected conversion hypothesis per segment."
-    },
-    {
-      "id": "P1-REV-305",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Deal slippage early-warning signal map v2",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Define signal map with leading indicators, threshold bands, and intervention playbook links by pipeline stage."
     },
     {
       "id": "P2-PROD-306",
@@ -122,7 +90,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
+      "updated_at": "2026-02-27T07:07:02.457259+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -138,7 +106,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
+      "updated_at": "2026-02-27T07:07:02.457265+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +122,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-02-27T06:20:00+08:00",
-      "updated_at": "2026-02-27T06:20:00+08:00",
+      "updated_at": "2026-02-27T07:07:02.457269+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -164,6 +132,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-305",
+      "artifact": "Deal slippage early-warning signal map v2",
+      "path": "office_os/artifacts/P1-REV-305_deal_slippage_early_warning_signal_map_v2_2026-02-27.md",
+      "status": "done2026-02-27 07:07"
+    },
+    {
+      "time": "2026-02-27 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-301",
+      "artifact": "Founder-led 7-day outbound follow-up sequencer for late-stage enterprise deals",
+      "path": "office_os/artifacts/P1-REV-301_founder_led_7_day_outbound_follow_up_sequencer_late_stage_enterprise_deals_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 06:50",
       "owner": "BUILDER",
@@ -346,22 +330,6 @@
       "taskId": "P0-FE-055",
       "artifact": "Overview investor recovery clock + live blocker narrative",
       "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 05:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-212",
-      "artifact": "Autonomous deal-cycle SLA breach digest template",
-      "path": "office_os/artifacts/P4-OPS-212_autonomous_deal_cycle_sla_breach_digest_template_2026-02-27.md",
       "status": "done"
     }
   ],
