@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T09:22:21.519906+00:00",
+  "now": "2026-02-26T09:30:04.939120+00:00",
   "workers": [
     {
       "name": "Research",
@@ -141,25 +141,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Script pack includes usage diagnostics, risk flags, intervention paths, and expansion prompt."
-    },
-    {
-      "id": "P3-CONT-041",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Design win-proof repost loop for enterprise social channels",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T17:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Loop defines weekly proof asset reuse across channels with CTA and attribution tags."
     },
     {
       "id": "P4-OPS-021",
