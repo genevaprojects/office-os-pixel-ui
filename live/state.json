@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T15:10:05.054987+00:00",
+  "now": "2026-02-26T15:21:38.214068+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,30 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-233",
+      "id": "P1-REV-236",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Procurement cycle compression checklist with document-ready sequencing",
-      "owner": "BUILDER",
+      "title": "Security-review fast-lane email sequence for procurement-stalled enterprise deals",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744316+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist sequences legal/security/commercial docs to reduce cycle time with owner SLA per step."
-    },
-    {
-      "id": "P1-REV-235",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Proposal redline turnaround playbook for sub-72h enterprise cycles",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744331+08:00",
+      "created_at": "2026-02-26T23:20:00+08:00",
+      "updated_at": "2026-02-26T23:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -99,42 +83,48 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Playbook with owner handoffs, pre-approved clause matrix, and SLA guardrails for legal/procurement redlines."
+      "acceptance": "7-message sequence with stage triggers, legal/procurement objection hooks, and measurable reply-to-signature KPI targets.",
+      "artifact_path": "office_os/artifacts/P1-REV-236_security_review_fast_lane_email_sequence_2026-02-26.md"
     },
     {
-      "id": "P2-PROD-250",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding drop-off intervention matrix by behavioral signal",
+      "id": "P1-REV-237",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Enterprise champion internal-forward pack (ROI, security, implementation one-pagers)",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744336+08:00",
-      "impact": 4,
+      "created_at": "2026-02-26T23:20:00+08:00",
+      "updated_at": "2026-02-26T23:20:00+08:00",
+      "impact": 5,
       "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Matrix maps top 10 drop-off signals to intervention copy, channel, trigger delay, and expected lift."
-    },
-    {
-      "id": "P2-PROD-252",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation blocker handoff brief template for CS-to-product escalation",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-26T23:05:00+08:00",
-      "updated_at": "2026-02-26T23:07:03.744341+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
+      "urgency": 4,
+      "due_at": "2026-03-01T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template includes blocker evidence, customer impact, owner assignment, and 48h resolution checkpoint."
+      "acceptance": "3 internal-forward assets + send guidance by stakeholder type + success metric framework.",
+      "artifact_path": "office_os/artifacts/P1-REV-237_enterprise_champion_internal_forward_pack_2026-02-26.md"
+    },
+    {
+      "id": "P2-PROD-253",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Activation blocker taxonomy v2 with owner routing and fix-SLA bands",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-26T23:20:00+08:00",
+      "updated_at": "2026-02-26T23:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-02T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Taxonomy covering top blocker families with severity mapping, owner matrix, and SLA per class.",
+      "artifact_path": "office_os/artifacts/P2-PROD-253_activation_blocker_taxonomy_v2_owner_routing_2026-02-26.md"
     },
     {
       "id": "P3-CONT-223",
@@ -154,6 +144,26 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "12 storyboard cards with hook, proof source, objection targeted, and conversion CTA per platform."
+    },
+    {
+      "id": "P3-CONT-224",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Proof-first procurement objection post kit (10 posts across X/Telegram/LinkedIn)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T23:20:00+08:00",
+      "updated_at": "2026-02-26T23:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-03T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "10 publish-ready posts with objection angle, proof source slot, CTA, and platform-specific formatting.",
+      "artifact_path": "office_os/artifacts/P3-CONT-224_proof_first_procurement_objection_post_kit_2026-02-26.md"
     },
     {
       "id": "P4-OPS-028",
@@ -244,6 +254,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 23:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:20",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-252",
+      "artifact": "Activation blocker handoff brief template for CS-to-product escalation",
+      "path": "office_os/artifacts/P2-PROD-252_activation_blocker_handoff_brief_template_cs_to_product_escalation_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:20",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-235",
+      "artifact": "Proposal redline turnaround playbook for sub-72h enterprise cycles",
+      "path": "office_os/artifacts/P1-REV-235_proposal_redline_turnaround_playbook_sub72h_enterprise_cycles_2026-02-26.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 23:07",
       "owner": "COMMAND",
@@ -418,30 +452,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:20",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-220",
-      "artifact": "Executive deal desk daily standup agenda with outcome tracking",
-      "path": "office_os/artifacts/P1-REV-220_deal_desk_daily_standup_agenda_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-122",
-      "artifact": "Procurement-friction preemption checklist for enterprise pilots",
-      "path": "office_os/artifacts/P1-REV-122_procurement_friction_preemption_checklist_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
