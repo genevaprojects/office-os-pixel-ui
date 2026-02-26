@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T10:00:05.808936+00:00",
+  "now": "2026-02-26T10:10:06.796805+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,23 +86,46 @@
       "acceptance": "Template includes baseline/upside/downside, payback window, risk notes, and decision CTA."
     },
     {
-      "id": "P2-PROD-052",
+      "id": "P2-PROD-203",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
-      "title": "Create handoff packet template from signed deal to implementation owner",
-      "owner": "RESEARCH",
+      "title": "Create implementation kickoff checklist generated from handoff packet fields",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-26T17:20:00+08:00",
-      "updated_at": "2026-02-26T17:20:00+08:00",
+      "created_at": "2026-02-26T18:05:00+08:00",
+      "updated_at": "2026-02-26T18:05:00+08:00",
       "impact": 4,
-      "effort": 2,
+      "effort": 3,
       "urgency": 3,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
+      "due_at": "2026-03-03T23:59:00+08:00",
+      "depends_on": [
+        "P2-PROD-052"
+      ],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template includes goals, success metrics, stakeholder map, risks, and 14-day launch plan."
+      "acceptance": "Checklist maps deal goals/KPIs/stakeholders/risks into day-1 kickoff actions with owner and SLA."
+    },
+    {
+      "id": "P3-CONT-202",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Create onboarding proof-post template pack from first-14-day wins",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-26T18:05:00+08:00",
+      "updated_at": "2026-02-26T18:05:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [
+        "P2-PROD-052"
+      ],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "10 templates convert implementation milestones into proof-led posts with KPI slots and CTA variants."
     },
     {
       "id": "P4-OPS-021",
@@ -154,6 +177,25 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist enforces source tags, assumptions labels, KPI hooks, and actionability standards."
+    },
+    {
+      "id": "P4-OPS-024",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define backlog top-up quality guardrails to prevent duplicate/low-value tasks",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-26T18:05:00+08:00",
+      "updated_at": "2026-02-26T18:05:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Guardrails include uniqueness checks, acceptance-quality rubric, and priority-stack alignment checks."
     },
     {
       "id": "P5-011",
