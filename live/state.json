@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T18:30:05.100852+00:00",
+  "now": "2026-02-26T18:40:05.876481+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       ],
       "blocked_reason": null,
       "acceptance": "Experiment board with hypotheses, owner, KPI, and stop/scale criteria for top 2 reversible loss reasons."
-    },
-    {
-      "id": "P1-REV-248",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement fast-lane packet template for late-stage enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "One packet template with legal/security/procurement checklist and response SLA map."
     },
     {
       "id": "P4-OPS-030",
@@ -190,27 +174,17 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Checklist or script spec that verifies DONE tasks have valid artifact path and ship-log entry."
-    },
-    {
-      "id": "P5-011",
-      "project": "P5_INFRA_RELIABILITY",
-      "priority": "P5",
-      "title": "Visual diff artifact retention and cleanup policy (7/30-day windows)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T02:20:00+08:00",
-      "updated_at": "2026-02-27T02:20:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 2,
-      "depends_on": [
-        "P0-FE-042"
-      ],
-      "blocked_reason": null,
-      "acceptance": "Policy defines retention windows, storage cap thresholds, and cleanup automation triggers for visual diff artifacts."
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 02:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 02:25",
       "owner": "SOCIAL",
@@ -401,14 +375,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:37",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-242",
-      "artifact": "Procurement redline risk register template for enterprise renewals",
-      "path": "office_os/artifacts/P1-REV-242_procurement_redline_risk_register_template_2026-02-27.md",
       "status": "done"
     }
   ],
