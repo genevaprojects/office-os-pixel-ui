@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T14:21:40.957955+00:00",
+  "now": "2026-02-26T14:30:05.022654+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       "acceptance": "Template maps economic buyer/champion/security/procurement with influence score, risk flag, and next action for each stakeholder."
     },
     {
-      "id": "P1-REV-231",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review objection rebuttal snippet library (20 proof-backed replies)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "20 concise rebuttal snippets tagged by objection severity, proof source, and CTA-to-next-step."
-    },
-    {
       "id": "P1-REV-232",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -161,22 +145,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Smoke suite includes pass/fail scripts for signup, first value event, and critical onboarding handoffs."
-    },
-    {
-      "id": "P3-CONT-222",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-led founder AMA question bank for conversion events",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-26T22:20:00+08:00",
-      "updated_at": "2026-02-26T22:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Question bank includes 30 high-intent prompts with objection mapping and conversion CTA for each answer."
     },
     {
       "id": "P4-OPS-028",
@@ -248,6 +216,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-26 22:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-222",
+      "artifact": "Proof-led founder AMA question bank for conversion events (30 prompts + objection map + CTA)",
+      "path": "office_os/artifacts/P3-CONT-222_proof_led_founder_ama_question_bank_conversion_events_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 22:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-231",
+      "artifact": "Security-review objection rebuttal snippet library (20 proof-backed replies)",
+      "path": "office_os/artifacts/P1-REV-231_security_review_objection_rebuttal_snippet_library_2026-02-26.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-031",
+      "artifact": "Founder decision queue urgency ordering + due-state visibility",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-030",
+      "artifact": "Overview confidence semantics + reliability telemetry polish",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-26 22:20",
       "owner": "COMMAND",
@@ -414,38 +414,6 @@
       "taskId": "P1-REV-118",
       "artifact": "Objection-cluster to close-plan routing matrix for live enterprise deals",
       "path": "office_os/artifacts/P1-REV-118_objection_cluster_to_close_plan_routing_matrix_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 19:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-119",
-      "artifact": "Procurement-stall breaker sequence with time-to-signature KPI gates",
-      "path": "office_os/artifacts/P1-REV-119_procurement_stall_breaker_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-203",
-      "artifact": "Founder proof-clip distribution cadence tied to active pipeline objections",
-      "path": "office_os/artifacts/P3-CONT-203_founder_proof_clip_distribution_cadence_pipeline_objections_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-120",
-      "artifact": "Champion-mobilization pack for multi-threaded late-stage opportunities",
-      "path": "office_os/artifacts/P1-REV-120_champion_mobilization_pack_multi_threaded_late_stage_opportunities_2026-02-26.md",
       "status": "done"
     }
   ],
