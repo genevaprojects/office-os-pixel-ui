@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T18:00:07.160683+00:00",
+  "now": "2026-02-26T18:10:05.252339+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,6 +54,27 @@
   ],
   "backlog": [
     {
+      "id": "P0-FE-042",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Executive snapshot visual regression harness (desktop+mobile breakpoints)",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T02:00:00+08:00",
+      "updated_at": "2026-02-27T02:00:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "depends_on": [
+        "P0-FE-041"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Automated screenshot baseline at key breakpoints with change threshold and fail-fast report for demo-critical panels.",
+      "artifact_path": "office_os/artifacts/P0-FE-042_visual_regression_harness_pending.md"
+    },
+    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -65,22 +86,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-244",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion multi-thread map for enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T01:20:00+08:00",
-      "updated_at": "2026-02-27T01:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Map each live enterprise deal to champion, blocker stakeholder, and next proof asset with 72h action cadence."
     },
     {
       "id": "P1-REV-245",
@@ -113,6 +118,38 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Specify dashboard schema that compresses closed-lost reasons into top reversible patterns with weekly intervention actions."
+    },
+    {
+      "id": "P2-PROD-300",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Activation funnel evidence requirements matrix for weekly experiment reviews",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T02:05:38+08:00",
+      "updated_at": "2026-02-27T02:05:38+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Matrix defining minimum evidence per funnel stage, source, freshness SLA, and owner for weekly review readiness."
+    },
+    {
+      "id": "P3-CONT-300",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Proof-first narrative wedge tracker for AI+Crypto distribution",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T02:05:38+08:00",
+      "updated_at": "2026-02-27T02:05:38+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Tracker with 15 wedges tagged by audience, proof type, controversy level, and expected engagement-to-DM conversion."
     },
     {
       "id": "P4-OPS-030",
@@ -191,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 02:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-300",
+      "artifact": "Enterprise stakeholder risk radar for top 20 live opportunities",
+      "path": "office_os/artifacts/P1-REV-300_enterprise_stakeholder_risk_radar_top20_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 01:50",
       "owner": "COMMAND",
@@ -381,14 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 00:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-236",
-      "artifact": "Security-review fast-lane email sequence for procurement-stalled enterprise deals",
-      "path": "office_os/artifacts/P1-REV-236_security_review_fast_lane_email_sequence_2026-02-26.md",
       "status": "done"
     }
   ],
