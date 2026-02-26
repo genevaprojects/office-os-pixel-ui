@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T17:50:07.776791+00:00",
+  "now": "2026-02-26T18:00:07.160683+00:00",
   "workers": [
     {
       "name": "Research",
@@ -192,6 +192,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-27 01:50",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-037",
+      "artifact": "Founder Desk command recovery plan (next actions + overdue decision shortlist)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 01:50",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-036",
+      "artifact": "Investor demo narrative rail (weakest-signal callout + pre-demo fix)",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-27 01:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -373,22 +389,6 @@
       "taskId": "P1-REV-236",
       "artifact": "Security-review fast-lane email sequence for procurement-stalled enterprise deals",
       "path": "office_os/artifacts/P1-REV-236_security_review_fast_lane_email_sequence_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 23:51",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-037",
-      "artifact": "Team reliability radar (blocked load, ownership clarity, role coverage gaps)",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 23:51",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-036",
-      "artifact": "Founder Desk command reliability radar + live SLA aging clock",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
