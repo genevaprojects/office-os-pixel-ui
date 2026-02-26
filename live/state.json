@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T15:50:59.236073+00:00",
+  "now": "2026-02-26T16:00:06.631565+00:00",
   "workers": [
     {
       "name": "Research",
@@ -196,6 +196,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-26 23:51",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-037",
+      "artifact": "Team reliability radar (blocked load, ownership clarity, role coverage gaps)",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-26 23:51",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-036",
+      "artifact": "Founder Desk command reliability radar + live SLA aging clock",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-26 23:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -377,22 +393,6 @@
       "taskId": "P0-FE-029",
       "artifact": "Critical jobs SLA breach/watch timing semantics in monitor cards",
       "path": "office_os/artifacts/P0-FE-029_monitor_sla_breach_watch_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-028",
-      "artifact": "Incident command surface with one-click executive→operator handoff",
-      "path": "office_os/artifacts/P0-FE-028_incident_command_surface_2026-02-26.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-26 21:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
