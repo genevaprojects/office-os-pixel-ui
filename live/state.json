@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T15:10:04.854599+00:00",
+  "now": "2026-02-27T15:21:27.966355+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,84 +67,44 @@
       ]
     },
     {
-      "id": "P1-REV-913",
+      "id": "P1-REV-934",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Enterprise mutual action plan enforcement checklist (sub-14 day close)",
-      "owner": "COMMAND",
+      "title": "Proof-to-procurement compression checklist for security-cleared enterprise deals",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
+      "created_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-27T23:21:06+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
+      "due_at": "2026-03-06T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist defines stage SLAs, owner actions, and slip penalties for enterprise MAP-driven deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-913_enterprise_map_enforcement_checklist_2026-02-27.md"
+      "acceptance": "Checklist reduces post-proof to procurement handoff to <72h with owner SLAs and blocker routing.",
+      "artifact_path": "office_os/artifacts/P1-REV-934_proof_to_procurement_compression_checklist_2026-02-27.md"
     },
     {
-      "id": "P1-REV-917",
+      "id": "P1-REV-935",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Deal slippage early-warning dashboard spec v2",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines slippage signals, risk thresholds, and auto-routing actions by owner.",
-      "artifact_path": "office_os/artifacts/P1-REV-917_deal_slippage_early_warning_dashboard_spec_v2_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-913",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-value within 3 minutes instrumentation validation pass",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Validation pass confirms instrumentation coverage and alerting for sub-3-minute time-to-value KPI.",
-      "artifact_path": "office_os/artifacts/P2-PROD-913_first_value_3min_instrumentation_validation_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-917",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Reopened-deal onboarding fast-track checklist (security-cleared path)",
+      "title": "Enterprise champion multithreading playbook (3-stakeholder mobilization)",
       "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-02-27T23:05:00+08:00",
-      "updated_at": "2026-02-27T23:05:00+08:00",
-      "impact": 4,
+      "created_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-27T23:21:06+08:00",
+      "impact": 5,
       "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
+      "urgency": 4,
+      "due_at": "2026-03-06T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist compresses post-reopen handoff to activation with D1/D3/D7 checkpoints and fallback rules.",
-      "artifact_path": "office_os/artifacts/P2-PROD-917_reopened_deal_onboarding_fast_track_checklist_2026-02-27.md"
+      "acceptance": "Playbook maps champion to economic buyer/legal/procurement mobilization with timing scripts and risk flags.",
+      "artifact_path": "office_os/artifacts/P1-REV-935_enterprise_champion_multithreading_playbook_2026-02-27.md"
     },
     {
       "id": "P3-CONT-918",
@@ -185,6 +145,26 @@
       "manual_rank": null,
       "acceptance": "14-day calendar links reopened deal proof moments to channel, format, and CTA objectives.",
       "artifact_path": "office_os/artifacts/P3-CONT-921_reopened_deal_social_proof_narrative_calendar_2026-02-27.md"
+    },
+    {
+      "id": "P3-CONT-936",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Reopen-win proof clip storyboard pack (10 short assets)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-27T23:21:06+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Storyboard pack includes hook/proof/CTA with objection tags for reopened enterprise deals.",
+      "artifact_path": "office_os/artifacts/P3-CONT-936_reopen_win_proof_clip_storyboard_pack_2026-02-27.md"
     },
     {
       "id": "P4-OPS-912",
@@ -247,6 +227,26 @@
       "artifact_path": "office_os/artifacts/P4-OPS-919_closed_lost_trigger_detection_sop_2026-02-27.md"
     },
     {
+      "id": "P4-OPS-937",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Hourly run quality regression sentry checklist",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-27T23:21:06+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist detects quality regression in autonomous artifacts with pass/fail gates and rollback trigger.",
+      "artifact_path": "office_os/artifacts/P4-OPS-937_hourly_run_quality_regression_sentry_checklist_2026-02-27.md"
+    },
+    {
       "id": "P5-REL-920",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -268,6 +268,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 23:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (added 4 READY tasks to restore execution buffer >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:21",
+      "owner": "COMMAND",
+      "taskId": "P2-PROD-917",
+      "artifact": "Reopened-deal onboarding fast-track checklist (security-cleared path)",
+      "path": "office_os/artifacts/P2-PROD-917_reopened_deal_onboarding_fast_track_checklist_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-913",
+      "artifact": "Enterprise MAP enforcement checklist (sub-14 day close)",
+      "path": "office_os/artifacts/P1-REV-913_enterprise_map_enforcement_checklist_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-917,P2-PROD-913",
+      "artifact": "Shipped slippage warning dashboard spec v2 + sub-3min first-value instrumentation validation pass",
+      "path": "office_os/artifacts/P1-REV-917_deal_slippage_early_warning_dashboard_spec_v2_2026-02-27.md; office_os/artifacts/P2-PROD-913_first_value_3min_instrumentation_validation_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 22:50",
       "owner": "BUILDER",
@@ -434,38 +466,6 @@
       "taskId": "P0-FE-075",
       "artifact": "Live refresh control surface (pause/resume + cadence selector + persisted sync state)",
       "path": "office_os/artifacts/P0-FE-075_live_refresh_control_surface_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-908",
-      "artifact": "Procurement friction fast-response kit for end-of-quarter deals",
-      "path": "office_os/artifacts/P1-REV-908_procurement_friction_fast_response_kit_eoq_deals_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-911",
-      "artifact": "Proof-led short video sequence for security/procurement objections",
-      "path": "office_os/artifacts/P3-CONT-911_proof_led_short_video_sequence_security_procurement_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-907",
-      "artifact": "Founder authority proof drop calendar for late-stage objection windows",
-      "path": "office_os/artifacts/P1-REV-907_founder_authority_proof_drop_calendar_objection_windows_2026-02-27.md",
       "status": "done"
     }
   ],
