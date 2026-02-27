@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-26T23:50:05.044320+00:00",
+  "now": "2026-02-27T00:01:02.114786+00:00",
   "workers": [
     {
       "name": "Research",
@@ -164,6 +164,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-056",
+      "artifact": "Demo gate lock quick action with founder command draft",
+      "path": "office_os_pixel_ui/public/index.html",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Investor demo gate panel (go/no-go checks) added to Pixel UI",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 07:37",
       "owner": "COMMAND",
@@ -346,22 +362,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-266",
-      "artifact": "Backlog hygiene linter for acceptance-criteria quality",
-      "path": "office_os/artifacts/P4-OPS-266_autonomous_backlog_hygiene_linter_acceptance_quality_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-213",
-      "artifact": "Autonomous top-up quality bar rubric",
-      "path": "office_os/artifacts/P4-OPS-213_autonomous_topup_quality_bar_rubric_2026-02-27.md",
       "status": "done"
     }
   ],
