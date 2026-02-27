@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T09:21:33.520821+00:00",
+  "now": "2026-02-27T09:30:10.143929+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Template set includes 3 persona-specific one-pagers with proof/ROI/risk blocks and forwarding copy.",
       "artifact_path": "office_os/artifacts/P1-REV-410_executive_forward_one_page_template_library_finance_procurement_security_personas_2026-02-27.md"
-    },
-    {
-      "id": "P1-REV-411",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion handoff email pack with internal buy-in trigger mapping",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 8 trigger-based internal-forward drafts mapped to deal stage and stakeholder type.",
-      "artifact_path": "office_os/artifacts/P1-REV-411_champion_handoff_email_pack_with_internal_buy_in_trigger_mapping_2026-02-27.md"
     },
     {
       "id": "P1-REV-412",
@@ -207,26 +187,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-416_onboarding_incident_communication_matrix_internal_+_customer_safe_2026-02-27.md"
     },
     {
-      "id": "P3-CONT-417",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first short-post batch plan for top funnel objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan outputs 14 post concepts mapped to objection clusters, evidence type, and CTA intent.",
-      "artifact_path": "office_os/artifacts/P3-CONT-417_proof_first_short_post_batch_plan_for_top_funnel_objections_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-418",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -265,6 +225,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 17:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-417",
+      "artifact": "Proof-first short-post batch plan for top funnel objections",
+      "path": "office_os/artifacts/P3-CONT-417_proof_first_short_post_batch_plan_for_top_funnel_objections_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 17:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-411",
+      "artifact": "Champion handoff email pack with internal buy-in trigger mapping",
+      "path": "office_os/artifacts/P1-REV-411_champion_handoff_email_pack_with_internal_buy_in_trigger_mapping_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 17:20",
       "owner": "COMMAND",
@@ -447,22 +423,6 @@
       "taskId": "P3-CONT-397",
       "artifact": "Objection-to-proof short-post sprint board for 7-day founder distribution",
       "path": "office_os/artifacts/P3-CONT-397_objection_to_proof_short_post_sprint_board_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-393",
-      "artifact": "Champion mobilization follow-up cadence for multi-stakeholder enterprise deals",
-      "path": "office_os/artifacts/P1-REV-393_champion_mobilization_followup_cadence_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-385",
-      "artifact": "Activation failure hotfix lane protocol with 24h verification SLA",
-      "path": "office_os/artifacts/P2-PROD-385_activation_failure_hotfix_lane_protocol_2026-02-27.md",
       "status": "done"
     }
   ],
