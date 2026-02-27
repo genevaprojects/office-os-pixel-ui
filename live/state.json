@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T15:30:07.114443+00:00",
+  "now": "2026-02-27T15:40:05.161446+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Checklist reduces post-proof to procurement handoff to <72h with owner SLAs and blocker routing.",
       "artifact_path": "office_os/artifacts/P1-REV-934_proof_to_procurement_compression_checklist_2026-02-27.md"
-    },
-    {
-      "id": "P1-REV-935",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise champion multithreading playbook (3-stakeholder mobilization)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T23:21:06+08:00",
-      "updated_at": "2026-02-27T23:21:06+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook maps champion to economic buyer/legal/procurement mobilization with timing scripts and risk flags.",
-      "artifact_path": "office_os/artifacts/P1-REV-935_enterprise_champion_multithreading_playbook_2026-02-27.md"
     },
     {
       "id": "P3-CONT-936",
@@ -228,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-935",
+      "artifact": "Enterprise champion multithreading playbook (3-stakeholder mobilization)",
+      "path": "office_os/artifacts/P1-REV-935_enterprise_champion_multithreading_playbook_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 23:26",
       "owner": "SOCIAL",
@@ -410,22 +406,6 @@
       "taskId": "P2-PROD-910",
       "artifact": "Activation-to-expansion handoff checklist for enterprise pilots",
       "path": "office_os/artifacts/P2-PROD-910_activation_to_expansion_handoff_checklist_enterprise_pilots_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-906",
-      "artifact": "Mutual action plan compression template for sub-14-day enterprise closes",
-      "path": "office_os/artifacts/P1-REV-906_mutual_action_plan_compression_template_sub14_day_enterprise_closes_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
