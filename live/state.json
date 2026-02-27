@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T14:30:06.303379+00:00",
+  "now": "2026-02-27T14:40:06.420530+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-914_closed_lost_resurrection_trigger_matrix_2026-02-27.md"
     },
     {
-      "id": "P1-REV-915",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement redline acceleration playbook for MSA cycles",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook defines fallback clauses, approval lanes, and 72h redline turnaround protocol.",
-      "artifact_path": "office_os/artifacts/P1-REV-915_procurement_redline_acceleration_playbook_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-917",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -165,26 +145,6 @@
       "manual_rank": null,
       "acceptance": "Validation pass confirms instrumentation coverage and alerting for sub-3-minute time-to-value KPI.",
       "artifact_path": "office_os/artifacts/P2-PROD-913_first_value_3min_instrumentation_validation_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-914",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Enterprise onboarding risk handoff template v2",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes owner SLA, risk severity lanes, and verification checkpoints for D1/D7/D14.",
-      "artifact_path": "office_os/artifacts/P2-PROD-914_enterprise_onboarding_risk_handoff_template_v2_2026-02-27.md"
     },
     {
       "id": "P4-OPS-912",
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 22:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-914",
+      "artifact": "Enterprise onboarding risk handoff template v2",
+      "path": "office_os/artifacts/P2-PROD-914_enterprise_onboarding_risk_handoff_template_v2_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-915",
+      "artifact": "Procurement redline acceleration playbook for MSA cycles",
+      "path": "office_os/artifacts/P1-REV-915_procurement_redline_acceleration_playbook_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 22:26",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-436",
-      "artifact": "Trial Day-1 friction remediation template with telemetry hook map",
-      "path": "office_os/artifacts/P2-PROD-436_trial_day1_friction_remediation_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-432",
-      "artifact": "Champion-to-procurement handoff fast lane checklist v2",
-      "path": "office_os/artifacts/P1-REV-432_champion_to_procurement_handoff_fast_lane_checklist_v2_2026-02-27.md",
       "status": "done"
     }
   ],
