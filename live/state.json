@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T08:21:31.146333+00:00",
+  "now": "2026-02-27T08:30:05.030804+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-402_procurement_stall_breaker_sequence_2026-02-27.md"
     },
     {
-      "id": "P1-REV-403",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Late-stage deal risk heatmap with weekly save plays",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap links risk signals to owner actions and save-play timelines.",
-      "artifact_path": "office_os/artifacts/P1-REV-403_late_stage_deal_risk_heatmap_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-404",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-406_trial_setup_friction_replay_checklist_2026-02-27.md"
     },
     {
-      "id": "P3-CONT-407",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Founder rebuttal clip sprint for top 8 live objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint plan outputs 8 objection-led clip scripts with proof and CTA mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-407_founder_rebuttal_clip_sprint_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-408",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -285,6 +245,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 16:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-407",
+      "artifact": "Founder rebuttal clip sprint for top 8 live objections",
+      "path": "office_os/artifacts/P3-CONT-407_founder_rebuttal_clip_sprint_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 16:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-403",
+      "artifact": "Late-stage deal risk heatmap with weekly save plays",
+      "path": "office_os/artifacts/P1-REV-403_late_stage_deal_risk_heatmap_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 16:20",
       "owner": "COMMAND",
@@ -467,22 +443,6 @@
       "taskId": "P4-OPS-370",
       "artifact": "Autonomous WIP-cap breach prevention guardrail",
       "path": "office_os/artifacts/P4-OPS-370_autonomous_wip_cap_breach_prevention_guardrail_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 13:20",
-      "owner": "BUILDER",
-      "taskId": "P3-CONT-369",
-      "artifact": "Founder voice memo to short-clip conversion SOP",
-      "path": "office_os/artifacts/P3-CONT-369_founder_voice_memo_to_short_clip_sop_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 13:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-367",
-      "artifact": "Activation funnel blind-spot audit for untracked drop-offs",
-      "path": "office_os/artifacts/P2-PROD-367_activation_funnel_blindspot_audit_2026-02-27.md",
       "status": "done"
     }
   ],
