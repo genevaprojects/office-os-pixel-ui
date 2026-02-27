@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T12:00:05.871151+00:00",
+  "now": "2026-02-27T12:10:04.906191+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-422",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review fast-lane packet template for enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T19:20:00+08:00",
-      "updated_at": "2026-02-27T19:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template includes questionnaire answers, control mapping, and 24h response SLA workflow.",
-      "artifact_path": "office_os/artifacts/P1-REV-422_security_review_fast_lane_packet_template_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-423",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -101,24 +83,6 @@
       "blocked_reason": null,
       "acceptance": "SOP defines extraction fields, redaction rules, and publish-ready snippet format per channel.",
       "artifact_path": "office_os/artifacts/P1-REV-423_closed_won_proof_extraction_sop_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-426",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation KPI anomaly runbook for weekend coverage",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T19:20:00+08:00",
-      "updated_at": "2026-02-27T19:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Runbook defines anomaly thresholds, triage owner, and rollback/patch decision tree.",
-      "artifact_path": "office_os/artifacts/P2-PROD-426_activation_kpi_anomaly_runbook_weekend_coverage_2026-02-27.md"
     },
     {
       "id": "P2-PROD-427",
@@ -175,6 +139,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 20:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-426",
+      "artifact": "Activation KPI anomaly runbook for weekend coverage",
+      "path": "office_os/artifacts/P2-PROD-426_activation_kpi_anomaly_runbook_weekend_coverage_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 20:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-422",
+      "artifact": "Security-review fast-lane packet template for enterprise deals",
+      "path": "office_os/artifacts/P1-REV-422_security_review_fast_lane_packet_template_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 19:37",
       "owner": "EXECUTOR",
@@ -357,22 +337,6 @@
       "taskId": "P1-REV-410",
       "artifact": "Executive-forward one-page template library (finance/procurement/security personas)",
       "path": "office_os/artifacts/P1-REV-410_executive_forward_one_page_template_library_finance_procurement_security_personas_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-416",
-      "artifact": "Onboarding incident communication matrix (severity-to-channel/owner/ETA + recovery cadence)",
-      "path": "office_os/artifacts/P2-PROD-416_onboarding_incident_communication_matrix_internal_+_customer_safe_2026-02-27.md",
       "status": "done"
     }
   ],
