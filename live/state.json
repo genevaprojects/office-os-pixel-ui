@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T21:00:07.641553+00:00",
+  "now": "2026-02-27T21:10:06.203203+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1201",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Revenue reactivation trigger matrix for dormant enterprise champions",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "12 trigger conditions with owner actions and 24h/72h SLA follow-ups mapped to funnel stage.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1204",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
+      "updated_at": "2026-02-28T05:07:03.013203+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1205",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise no-decision rescue sequence with quantified value pivots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "5-touch rescue flow with ROI reframing and stop/escalate thresholds.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-1206",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
+      "updated_at": "2026-02-28T05:07:03.013216+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -154,7 +114,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
+      "updated_at": "2026-02-28T05:07:03.013222+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T04:20:50+08:00",
-      "updated_at": "2026-02-28T04:20:50+08:00",
+      "updated_at": "2026-02-28T05:07:03.013226+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 04:50",
       "owner": "COMMAND",
@@ -378,14 +346,6 @@
       "taskId": "P4-OPS-912",
       "artifact": "Hourly run artifact acceptance spot-check rubric v3",
       "path": "office_os/artifacts/P4-OPS-912_hourly_run_artifact_acceptance_spot_check_rubric_v3_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:15",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-946",
-      "artifact": "Cron artifact path consistency validator spec for ship-log/backlog parity",
-      "path": "office_os/artifacts/P5-REL-946_cron_artifact_path_consistency_validator_2026-02-28.md",
       "status": "done"
     }
   ],
