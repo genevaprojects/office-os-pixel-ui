@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T22:00:08.448480+00:00",
+  "now": "2026-02-27T22:10:05.712996+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1211",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise re-open triggers from closed-lost notes mining",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Extract top 20 closed-lost patterns and produce a trigger matrix with message angle + success KPI.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1212",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
+      "updated_at": "2026-02-28T06:07:03.072408+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1215",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security review objection rebuttal bank v2",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Create 25 rebuttals with evidence placeholders and risk-safe wording guardrails.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-1216",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
+      "updated_at": "2026-02-28T06:07:03.072421+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
+      "updated_at": "2026-02-28T06:07:03.072426+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
+      "updated_at": "2026-02-28T06:07:03.072431+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 05:37",
       "owner": "COMMAND",
@@ -378,14 +346,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:08",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-970",
-      "artifact": "Activation anomaly response tree for first-24h behavior drop",
-      "path": "office_os/artifacts/P2-PROD-970_activation_anomaly_response_tree_first24h_behavior_drop_2026-02-28.md",
       "status": "done"
     }
   ],
