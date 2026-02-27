@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T14:00:06.552031+00:00",
+  "now": "2026-02-27T14:10:07.245805+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-905",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Account-progression risk rubric v2 for weekly close forecasting",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Weighted rubric scoring momentum, stakeholder coverage, and unblock velocity with action tiers.",
-      "artifact_path": "office_os/artifacts/P1-REV-905_account_progression_risk_rubric_v2_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-906",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
+      "updated_at": "2026-02-27T22:07:02.185766+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
+      "updated_at": "2026-02-27T22:07:02.185780+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
+      "updated_at": "2026-02-27T22:07:02.185786+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -145,24 +125,6 @@
       "manual_rank": null,
       "acceptance": "Checklist ensures clean transition from onboarding milestones to expansion trigger tracking.",
       "artifact_path": "office_os/artifacts/P2-PROD-910_activation_to_expansion_handoff_checklist_enterprise_pilots_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-438",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Short-form clip repurposing queue from live sales calls",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Queue format defines source clip, objection, proof moment, platform cut, and CTA target.",
-      "artifact_path": "office_os/artifacts/P3-CONT-438_short_form_clip_repurposing_queue_live_sales_calls_2026-02-27.md",
-      "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T21:07:03.028237+08:00"
     },
     {
       "id": "P4-OPS-439",
@@ -180,7 +142,7 @@
       "acceptance": "Sampler checks at least 5 newly added tasks per run for measurable acceptance and owner fit.",
       "artifact_path": "office_os/artifacts/P4-OPS-439_autonomous_backlog_topup_quality_sampler_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T21:07:03.028241+08:00"
+      "updated_at": "2026-02-27T22:07:02.185790+08:00"
     },
     {
       "id": "P4-OPS-912",
@@ -190,7 +152,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
+      "updated_at": "2026-02-27T22:07:02.185795+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -204,6 +166,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P3-CONT-438",
+      "artifact": "Short-form clip repurposing queue from live sales calls",
+      "path": "office_os/artifacts/P3-CONT-438_short_form_clip_repurposing_queue_live_sales_calls_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-905",
+      "artifact": "Account-progression risk rubric v2 for weekly close forecasting",
+      "path": "office_os/artifacts/P1-REV-905_account_progression_risk_rubric_v2_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-076",
+      "artifact": "Operator SLA watchlist for overdue/stale task triage with jump-to-task action",
+      "path": "office_os/artifacts/P0-FE-076_operator_sla_watchlist_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-075",
+      "artifact": "Live refresh control surface (pause/resume + cadence selector + persisted sync state)",
+      "path": "office_os/artifacts/P0-FE-075_live_refresh_control_surface_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 21:37",
       "owner": "COMMAND",
@@ -362,46 +364,6 @@
       "taskId": "P1-REV-425",
       "artifact": "Deal slippage pre-mortem worksheet (top 20 opportunities; trigger/owner/confidence model)",
       "path": "office_os/artifacts/P1-REV-425_deal_slippage_premortem_worksheet_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 19:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to 10)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 19:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-409",
-      "artifact": "Autonomous backlog top-up quality gate v3",
-      "path": "office_os/artifacts/P4-OPS-409_autonomous_backlog_topup_quality_gate_v3_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 19:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-405",
-      "artifact": "Founder weekly deal unblock standup format",
-      "path": "office_os/artifacts/P1-REV-405_founder_weekly_deal_unblock_standup_format_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 19:15",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-417",
-      "artifact": "Cron backup retention and purge policy for artifacts",
-      "path": "office_os/artifacts/P5-REL-417_cron_backup_retention_and_purge_policy_artifacts_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 19:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
