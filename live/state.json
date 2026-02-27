@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T10:22:06.708480+00:00",
+  "now": "2026-02-27T10:30:05.116890+00:00",
   "workers": [
     {
       "name": "Research",
@@ -135,40 +135,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-413_onboarding_instrumentation_gap_patch_list_2026-02-27.md"
     },
     {
-      "id": "P3-CONT-408",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first founder short-post batch (15)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "15 short posts mapped to objections with hook-proof-CTA structure and distribution channel tags.",
-      "artifact_path": "office_os/artifacts/P3-CONT-408_proof_first_founder_short_post_batch_15_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-414",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Case-study snippet remix board for social distribution",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Board contains 20 remixable snippets tagged by objection, proof type, and CTA style.",
-      "artifact_path": "office_os/artifacts/P3-CONT-414_case_study_snippet_remix_board_social_distribution_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-409",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -238,6 +204,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 18:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-414",
+      "artifact": "Case-study snippet remix board for social distribution",
+      "path": "office_os/artifacts/P3-CONT-414_case_study_snippet_remix_board_social_distribution_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-408",
+      "artifact": "Proof-first founder short-post batch (15)",
+      "path": "office_os/artifacts/P3-CONT-408_proof_first_founder_short_post_batch_15_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 18:20",
       "owner": "COMMAND",
@@ -420,22 +402,6 @@
       "taskId": "P1-REV-402",
       "artifact": "Procurement stall-breaker sequence (5 touchpoints, 10 days)",
       "path": "office_os/artifacts/P1-REV-402_procurement_stall_breaker_sequence_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-407",
-      "artifact": "Founder rebuttal clip sprint for top 8 live objections",
-      "path": "office_os/artifacts/P3-CONT-407_founder_rebuttal_clip_sprint_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-403",
-      "artifact": "Late-stage deal risk heatmap with weekly save plays",
-      "path": "office_os/artifacts/P1-REV-403_late_stage_deal_risk_heatmap_2026-02-27.md",
       "status": "done"
     }
   ],
