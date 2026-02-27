@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T00:30:51.064566+00:00",
+  "now": "2026-02-27T00:40:04.975701+00:00",
   "workers": [
     {
       "name": "Research",
@@ -101,23 +101,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-321_deal_acceleration_scoreboard_weekly_close_probability_2026-02-27.md"
     },
     {
-      "id": "P1-REV-322",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement friction preemption email kit (legal/security/budget)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Deliver 12 send-ready templates with objection-to-proof mapping and follow-up cadence.",
-      "artifact_path": "office_os/artifacts/P1-REV-322_procurement_friction_preemption_email_kit_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-324",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -150,23 +133,6 @@
       "blocked_reason": null,
       "acceptance": "Produce bottleneck matrix with owner SLA, fix complexity, and expected activation uplift.",
       "artifact_path": "office_os/artifacts/P2-PROD-325_activation_bottleneck_triage_matrix_first24h_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-326",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Enterprise onboarding handoff checklist from sales to delivery",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Create day0-day14 checklist with hard gates, owners, and escalation windows.",
-      "artifact_path": "office_os/artifacts/P2-PROD-326_enterprise_onboarding_handoff_checklist_sales_to_delivery_2026-02-27.md"
     },
     {
       "id": "P4-OPS-328",
@@ -204,6 +170,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 08:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 08:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-326",
+      "artifact": "Enterprise onboarding handoff checklist (day0-day14 gates/owners/escalation windows)",
+      "path": "office_os/artifacts/P2-PROD-326_enterprise_onboarding_handoff_checklist_sales_to_delivery_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 08:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-322",
+      "artifact": "Procurement friction preemption email kit (12 objection-mapped templates + cadence)",
+      "path": "office_os/artifacts/P1-REV-322_procurement_friction_preemption_email_kit_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 08:25",
       "owner": "SOCIAL",
@@ -378,30 +368,6 @@
       "taskId": "P1-REV-302",
       "artifact": "High-intent reactivation offer matrix for no-decision enterprise opportunities",
       "path": "office_os/artifacts/P1-REV-302_high_intent_reactivation_offer_matrix_no_decision_enterprise_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-305",
-      "artifact": "Deal slippage early-warning signal map v2",
-      "path": "office_os/artifacts/P1-REV-305_deal_slippage_early_warning_signal_map_v2_2026-02-27.md",
-      "status": "done2026-02-27 07:07"
-    },
-    {
-      "time": "2026-02-27 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-301",
-      "artifact": "Founder-led 7-day outbound follow-up sequencer for late-stage enterprise deals",
-      "path": "office_os/artifacts/P1-REV-301_founder_led_7_day_outbound_follow_up_sequencer_late_stage_enterprise_deals_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-062",
-      "artifact": "Team page pulse signal for cast readiness",
-      "path": "office_os_mission_control/app/team/page.tsx",
       "status": "done"
     }
   ],
