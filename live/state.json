@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T10:00:06.596493+00:00",
+  "now": "2026-02-27T10:10:04.904899+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-410",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Executive-forward one-page template library (finance/procurement/security personas)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template set includes 3 persona-specific one-pagers with proof/ROI/risk blocks and forwarding copy.",
-      "artifact_path": "office_os/artifacts/P1-REV-410_executive_forward_one_page_template_library_finance_procurement_security_personas_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-413",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
+      "updated_at": "2026-02-27T18:07:02.583766+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-413_deal_desk_proof_index_schema_for_rapid_executive_packet_assembly_2026-02-27.md"
     },
     {
-      "id": "P1-REV-414",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Economic-buyer objection rebuttal cards (budget freeze, risk, timing)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cards provide quantified rebuttal paths, fallback options, and next-step asks per objection.",
-      "artifact_path": "office_os/artifacts/P1-REV-414_economic_buyer_objection_rebuttal_cards_budget_freeze_risk_timing_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-415",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
+      "updated_at": "2026-02-27T18:07:02.583777+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
+      "updated_at": "2026-02-27T18:07:02.583789+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -181,10 +141,34 @@
       "acceptance": "Checklist validates backup selection, restore sequence, and post-restore integrity verification.",
       "artifact_path": "office_os/artifacts/P5-REL-399_cron_artifact_restore_drill_checklist_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T17:07:06.343253+08:00"
+      "updated_at": "2026-02-27T18:07:02.583785+08:00"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 18:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 18:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-414",
+      "artifact": "Economic-buyer objection rebuttal cards (budget freeze, risk, timing)",
+      "path": "office_os/artifacts/P1-REV-414_economic_buyer_objection_rebuttal_cards_budget_freeze_risk_timing_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 18:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-410",
+      "artifact": "Executive-forward one-page template library (finance/procurement/security personas)",
+      "path": "office_os/artifacts/P1-REV-410_executive_forward_one_page_template_library_finance_procurement_security_personas_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 17:37",
       "owner": "COMMAND",
@@ -359,30 +343,6 @@
       "taskId": "P1-REV-391",
       "artifact": "Security-review fast-lane response kit for enterprise procurement blockers",
       "path": "office_os/artifacts/P1-REV-391_security_review_fast_lane_response_kit_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-390",
-      "artifact": "Founder-led 48h deal unblock sprint board (top 15 stalled deals + unblock hypotheses/actions/metrics)",
-      "path": "office_os/artifacts/P1-REV-390_founder_led_48h_deal_unblock_sprint_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
