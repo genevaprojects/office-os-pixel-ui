@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T00:21:45.155278+00:00",
+  "now": "2026-02-27T00:30:51.064566+00:00",
   "workers": [
     {
       "name": "Research",
@@ -118,23 +118,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-322_procurement_friction_preemption_email_kit_2026-02-27.md"
     },
     {
-      "id": "P1-REV-323",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Referral partner fast-lane contract brief for 72h launch",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Draft concise partner brief with incentive model, eligibility gates, and launch checklist.",
-      "artifact_path": "office_os/artifacts/P1-REV-323_referral_partner_fast_lane_contract_brief_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-324",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -186,23 +169,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-326_enterprise_onboarding_handoff_checklist_sales_to_delivery_2026-02-27.md"
     },
     {
-      "id": "P3-CONT-327",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-led founder rebuttal reel library (10 scripts)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Ship 10 short-form scripts tied to highest-frequency objections with CTA tags.",
-      "artifact_path": "office_os/artifacts/P3-CONT-327_proof_led_founder_rebuttal_reel_library_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-328",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -238,6 +204,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-327",
+      "artifact": "Proof-led founder rebuttal reel library (10 scripts)",
+      "path": "office_os/artifacts/P3-CONT-327_proof_led_founder_rebuttal_reel_library_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-323",
+      "artifact": "Referral partner fast-lane contract brief for 72h launch",
+      "path": "office_os/artifacts/P1-REV-323_referral_partner_fast_lane_contract_brief_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 08:16",
       "owner": "BUILDER",
@@ -420,22 +402,6 @@
       "taskId": "P0-FE-062",
       "artifact": "Team page pulse signal for cast readiness",
       "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-061",
-      "artifact": "Founder Desk command reliability signal strip",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 06:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-308",
-      "artifact": "Founder proof-snippet carousel backlog (14 objection-led posts)",
-      "path": "office_os/artifacts/P3-CONT-308_founder_proof_snippet_carousel_backlog_objection_led_distribution_2026-02-27.md",
       "status": "done"
     }
   ],
