@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T03:30:04.838394+00:00",
+  "now": "2026-02-27T03:40:05.046999+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-351_pipeline_velocity_audit_top20_enterprise_2026-02-27.md"
     },
     {
-      "id": "P1-REV-352",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "7-day outbound reactivation sprint for no-reply executive buyers",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Deliver message sequence, send cadence, and KPI targets for reply-rate lift among stalled executive threads.",
-      "artifact_path": "office_os/artifacts/P1-REV-352_outbound_reactivation_sprint_exec_buyers_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-353",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -150,23 +133,6 @@
       "blocked_reason": null,
       "acceptance": "Top-10 instrumentation gaps with patch priority, owners, and validation checks.",
       "artifact_path": "office_os/artifacts/P2-PROD-356_activation_dropoff_instrumentation_patch_list_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-357",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding rescue intervention tree for day-1 inactive users",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Decision tree with trigger thresholds, message variants, and rollback conditions.",
-      "artifact_path": "office_os/artifacts/P2-PROD-357_onboarding_rescue_intervention_tree_day1_inactive_2026-02-27.md"
     },
     {
       "id": "P4-OPS-359",
@@ -222,6 +188,14 @@
   ],
   "ship": [
     {
+      "time": "2026-02-27 11:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-27 11:26",
       "owner": "SOCIAL",
       "taskId": "P3-CONT-358",
@@ -235,6 +209,22 @@
       "taskId": "P1-REV-355",
       "artifact": "Pilot-to-annual renewal risk heatmap with risk tiers, proof gaps, and save actions",
       "path": "office_os/artifacts/P1-REV-355_pilot_to_annual_renewal_risk_heatmap_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 11:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-357",
+      "artifact": "Onboarding rescue intervention tree for day-1 inactive users",
+      "path": "office_os/artifacts/P2-PROD-357_onboarding_rescue_intervention_tree_day1_inactive_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 11:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-352",
+      "artifact": "7-day outbound reactivation sprint for no-reply executive buyers",
+      "path": "office_os/artifacts/P1-REV-352_outbound_reactivation_sprint_exec_buyers_2026-02-27.md",
       "status": "done"
     },
     {
@@ -395,30 +385,6 @@
       "taskId": "P1-REV-320",
       "artifact": "Enterprise champion reactivation sequence for stalled security-cleared deals",
       "path": "office_os/artifacts/P1-REV-320_enterprise_champion_reactivation_sequence_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 08:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 08:37",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-326",
-      "artifact": "Enterprise onboarding handoff checklist (day0-day14 gates/owners/escalation windows)",
-      "path": "office_os/artifacts/P2-PROD-326_enterprise_onboarding_handoff_checklist_sales_to_delivery_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 08:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-322",
-      "artifact": "Procurement friction preemption email kit (12 objection-mapped templates + cadence)",
-      "path": "office_os/artifacts/P1-REV-322_procurement_friction_preemption_email_kit_2026-02-27.md",
       "status": "done"
     }
   ],
