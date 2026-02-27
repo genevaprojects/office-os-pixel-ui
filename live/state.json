@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T23:22:04.828855+00:00",
+  "now": "2026-02-27T23:30:07.148188+00:00",
   "workers": [
     {
       "name": "Research",
@@ -269,6 +269,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 07:24",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1242",
+      "artifact": "Role clarity board upgraded with lane-level ownership confidence",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 07:24",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1241",
+      "artifact": "Recovery-mode orchestration hardening for investor quick actions",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 07:22",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -450,22 +466,6 @@
       "taskId": "P2-PROD-1217",
       "artifact": "Onboarding rescue sequence for day-3 inactive enterprise trials",
       "path": "office_os/artifacts/P2-PROD-1217_onboarding_rescue_sequence_day3_inactive_enterprise_trials_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1214",
-      "artifact": "Top-15 expansion account fast-close action plan",
-      "path": "office_os/artifacts/P1-REV-1214_top15_expansion_account_fast_close_action_plan_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1222",
-      "artifact": "Mission Control investor demo verdict (explicit GO/NO-GO panel)",
-      "path": "office_os_mission_control/app/page.tsx",
       "status": "done"
     }
   ],
