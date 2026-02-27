@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T15:50:06.739781+00:00",
+  "now": "2026-02-27T16:00:07.508220+00:00",
   "workers": [
     {
       "name": "Research",
@@ -209,6 +209,38 @@
   ],
   "ship": [
     {
+      "time": "2026-02-27 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Founder Desk instant queue actions for investor gate recovery commands",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-938",
+      "artifact": "Mission Control investor demo spotlight strip (single verdict + blocker chips)",
+      "path": "office_os_pixel_ui/public/{index.html,styles.css,app.js}",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-056",
+      "artifact": "Founder Desk instant command queueing for reliability interventions",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Investor demo spotlight verdict panel (GO/NO-GO + blocker recovery actions)",
+      "path": "office_os_pixel_ui/public/{index.html,styles.css,app.js}",
+      "status": "done"
+    },
+    {
       "time": "2026-02-27 23:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -374,38 +406,6 @@
       "taskId": "P1-REV-914",
       "artifact": "Closed-lost resurrection trigger matrix by objection cluster",
       "path": "office_os/artifacts/P1-REV-914_closed_lost_resurrection_trigger_matrix_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-439",
-      "artifact": "Autonomous backlog top-up quality sampler for hourly runs",
-      "path": "office_os/artifacts/P4-OPS-439_autonomous_backlog_topup_quality_sampler_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-909",
-      "artifact": "Weekly deal desk operating rhythm for top-20 opportunities",
-      "path": "office_os/artifacts/P1-REV-909_weekly_deal_desk_operating_rhythm_top20_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:17",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-910",
-      "artifact": "Activation-to-expansion handoff checklist for enterprise pilots",
-      "path": "office_os/artifacts/P2-PROD-910_activation_to_expansion_handoff_checklist_enterprise_pilots_2026-02-27.md",
       "status": "done"
     }
   ],
