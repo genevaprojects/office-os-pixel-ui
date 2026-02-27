@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T08:00:04.969229+00:00",
+  "now": "2026-02-27T08:10:05.580793+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,23 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-390",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led 48h deal unblock sprint for stalled late-stage opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Sprint board includes top 15 stalled deals, unblock hypothesis, owner action, and 48h success metric.",
-      "artifact_path": "office_os/artifacts/P1-REV-390_founder_led_48h_deal_unblock_sprint_2026-02-27.md",
-      "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
-    },
-    {
       "id": "P1-REV-391",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -98,7 +81,7 @@
       "acceptance": "Kit includes objection library, prefilled response snippets, and SLA routing for security/procurement threads.",
       "artifact_path": "office_os/artifacts/P1-REV-391_security_review_fast_lane_response_kit_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
+      "updated_at": "2026-02-27T16:07:02.211169+08:00"
     },
     {
       "id": "P1-REV-394",
@@ -115,7 +98,7 @@
       "acceptance": "Checklist maps required proof assets, owner SLA, and handoff gates to produce proposal within 72h.",
       "artifact_path": "office_os/artifacts/P1-REV-394_proof_to_proposal_acceleration_checklist_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
+      "updated_at": "2026-02-27T16:07:02.211182+08:00"
     },
     {
       "id": "P2-PROD-395",
@@ -132,7 +115,7 @@
       "acceptance": "Board defines anomaly severity lanes, owner SLA, and verification criteria for activation recovery.",
       "artifact_path": "office_os/artifacts/P2-PROD-395_activation_anomaly_triage_board_enterprise_trials_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
+      "updated_at": "2026-02-27T16:07:02.211187+08:00"
     },
     {
       "id": "P4-OPS-398",
@@ -149,7 +132,7 @@
       "acceptance": "SOP defines freshness windows, decay scoring, and concrete reset actions to prevent stale execution.",
       "artifact_path": "office_os/artifacts/P4-OPS-398_autonomous_backlog_freshness_checkpoint_sop_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
+      "updated_at": "2026-02-27T16:07:02.211192+08:00"
     },
     {
       "id": "P5-REL-399",
@@ -166,10 +149,26 @@
       "acceptance": "Checklist validates backup selection, restore sequence, and post-restore integrity verification.",
       "artifact_path": "office_os/artifacts/P5-REL-399_cron_artifact_restore_drill_checklist_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
+      "updated_at": "2026-02-27T16:07:02.211196+08:00"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 16:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 16:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-390",
+      "artifact": "Founder-led 48h deal unblock sprint board (top 15 stalled deals + unblock hypotheses/actions/metrics)",
+      "path": "office_os/artifacts/P1-REV-390_founder_led_48h_deal_unblock_sprint_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 15:37",
       "owner": "COMMAND",
@@ -352,22 +351,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 12:20",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-346",
-      "artifact": "Cron execution anomaly fingerprint quick triage card",
-      "path": "office_os/artifacts/P5-REL-346_cron_execution_anomaly_fingerprint_quick_triage_card_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 12:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-359",
-      "artifact": "Autonomous stale-task recovery playbook v2",
-      "path": "office_os/artifacts/P4-OPS-359_autonomous_stale_task_recovery_playbook_v2_2026-02-27.md",
       "status": "done"
     }
   ],
