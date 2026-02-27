@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T05:21:41.630882+00:00",
+  "now": "2026-02-27T05:30:07.922980+00:00",
   "workers": [
     {
       "name": "Research",
@@ -137,23 +137,6 @@
     {
       "created_at": "2026-02-27T13:20:00+08:00",
       "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P1-REV-375",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement objection preemption packet refresh",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Packet with concise proof assets, compliance-safe phrasing, and 3 CTA variants for procurement stakeholders.",
-      "artifact_path": "office_os/artifacts/P1-REV-375_procurement_objection_preemption_packet_refresh_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
       "id": "P2-PROD-376",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -184,23 +167,6 @@
       "blocked_reason": null,
       "acceptance": "Checklist covering event integrity, latency, missing payloads, and QA signoff path.",
       "artifact_path": "office_os/artifacts/P2-PROD-377_first_session_aha_instrumentation_validation_checklist_v2_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P3-CONT-378",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Founder proof-first short clip backlog (14 assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Backlog of 14 clips tagged by objection, channel, hook, proof type, and CTA.",
-      "artifact_path": "office_os/artifacts/P3-CONT-378_founder_proof_first_short_clip_backlog_2026-02-27.md"
     },
     {
       "created_at": "2026-02-27T13:20:00+08:00",
