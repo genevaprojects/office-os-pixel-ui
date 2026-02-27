@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T21:50:06.553645+00:00",
+  "now": "2026-02-27T22:00:08.448480+00:00",
   "workers": [
     {
       "name": "Research",
@@ -229,6 +229,22 @@
       "status": "done"
     },
     {
+      "time": "2026-02-28 05:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1224",
+      "artifact": "Team fragile-lane command bundle for hot-swap reliability",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 05:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1223",
+      "artifact": "Founder Desk recovery clock + top intervention queue controls",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 05:21",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -370,22 +386,6 @@
       "taskId": "P2-PROD-970",
       "artifact": "Activation anomaly response tree for first-24h behavior drop",
       "path": "office_os/artifacts/P2-PROD-970_activation_anomaly_response_tree_first24h_behavior_drop_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:07",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-966",
-      "artifact": "High-intent reactivation micro-offer matrix for stalled enterprise opportunities",
-      "path": "office_os/artifacts/P1-REV-966_high_intent_reactivation_micro_offer_matrix_stalled_enterprise_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-969",
-      "artifact": "Reliability drift sentinel with trend-aware recovery jump controls",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
