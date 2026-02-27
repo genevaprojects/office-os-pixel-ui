@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T04:30:05.328564+00:00",
+  "now": "2026-02-27T04:40:10.446650+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-361_revenue_objection_heatmap_last30_calls_2026-02-27.md"
     },
     {
-      "id": "P1-REV-362",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "30-minute pilot kickoff script optimized for time-to-value",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Script with minute-by-minute agenda, risk probes, and expansion trigger moments.",
-      "artifact_path": "office_os/artifacts/P1-REV-362_30min_pilot_kickoff_script_time_to_value_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-363",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -133,23 +116,6 @@
       "blocked_reason": null,
       "acceptance": "Rubric for consistent closed-lost tagging tied to remediation playbooks.",
       "artifact_path": "office_os/artifacts/P1-REV-365_loss_reason_auto_tagging_rubric_pipeline_hygiene_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-366",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-week activation SLA breach drill for CS+Product",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Drill with breach scenarios, comms scripts, and resolution timer checkpoints.",
-      "artifact_path": "office_os/artifacts/P2-PROD-366_first_week_activation_sla_breach_drill_2026-02-27.md"
     },
     {
       "id": "P2-PROD-367",
