@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T21:30:07.481193+00:00",
+  "now": "2026-02-27T21:40:05.288702+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1214",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Top-15 expansion account fast-close action plan",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "For 15 accounts, include owner, blocker, proof asset, and next meeting ask.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1215",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -164,26 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board includes severity, owner SLA, acceptance tests, and verification timestamp fields.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-1217",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding rescue sequence for day-3 inactive enterprise trials",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-07T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes triggers, channels, escalation conditions, and measurable recovery KPI.",
       "artifact_path": null
     },
     {
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 05:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1217",
+      "artifact": "Onboarding rescue sequence for day-3 inactive enterprise trials",
+      "path": "office_os/artifacts/P2-PROD-1217_onboarding_rescue_sequence_day3_inactive_enterprise_trials_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 05:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1214",
+      "artifact": "Top-15 expansion account fast-close action plan",
+      "path": "office_os/artifacts/P1-REV-1214_top15_expansion_account_fast_close_action_plan_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 05:21",
       "owner": "BUILDER",
@@ -402,30 +386,6 @@
       "taskId": "P0-FE-969",
       "artifact": "Reliability drift sentinel with trend-aware recovery jump controls",
       "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-968",
-      "artifact": "Demo narrative assistant with copy-ready 90-second investor script",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-971",
-      "artifact": "Fast-lane onboarding handoff brief template for reopened enterprise deals",
-      "path": "office_os/artifacts/P2-PROD-971_fast_lane_onboarding_handoff_brief_template_reopened_enterprise_deals_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-968",
-      "artifact": "Founder-led urgency proof script stack for end-of-quarter closes",
-      "path": "office_os/artifacts/P1-REV-968_founder_led_urgency_proof_script_stack_end_of_quarter_closes_2026-02-28.md",
       "status": "done"
     }
   ],
