@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T15:21:27.966355+00:00",
+  "now": "2026-02-27T15:30:07.114443+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,46 +105,6 @@
       "manual_rank": null,
       "acceptance": "Playbook maps champion to economic buyer/legal/procurement mobilization with timing scripts and risk flags.",
       "artifact_path": "office_os/artifacts/P1-REV-935_enterprise_champion_multithreading_playbook_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-918",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Closed-lost comeback proof-post pack (8 objection-tied assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T23:05:00+08:00",
-      "updated_at": "2026-02-27T23:05:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "8 short proof assets mapped to closed-lost objections with CTA to re-open conversations.",
-      "artifact_path": "office_os/artifacts/P3-CONT-918_closed_lost_comeback_proof_post_pack_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-921",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Reopened-deal social proof narrative calendar (14-day)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T23:09:00+08:00",
-      "updated_at": "2026-02-27T23:09:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "14-day calendar links reopened deal proof moments to channel, format, and CTA objectives.",
-      "artifact_path": "office_os/artifacts/P3-CONT-921_reopened_deal_social_proof_narrative_calendar_2026-02-27.md"
     },
     {
       "id": "P3-CONT-936",
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 23:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-921",
+      "artifact": "Reopened-deal social proof narrative calendar (14-day)",
+      "path": "office_os/artifacts/P3-CONT-921_reopened_deal_social_proof_narrative_calendar_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-918",
+      "artifact": "Closed-lost comeback proof-post pack (8 objection-tied assets)",
+      "path": "office_os/artifacts/P3-CONT-918_closed_lost_comeback_proof_post_pack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-056",
+      "artifact": "Team lane redundancy radar with backup visibility and hot-swap draft action",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-055",
+      "artifact": "Founder Desk auto-brief panel with one-click investor summary + primary action draft",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 23:21",
       "owner": "COMMAND",
@@ -434,38 +426,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:05",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-438",
-      "artifact": "Short-form clip repurposing queue from live sales calls",
-      "path": "office_os/artifacts/P3-CONT-438_short_form_clip_repurposing_queue_live_sales_calls_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-905",
-      "artifact": "Account-progression risk rubric v2 for weekly close forecasting",
-      "path": "office_os/artifacts/P1-REV-905_account_progression_risk_rubric_v2_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-076",
-      "artifact": "Operator SLA watchlist for overdue/stale task triage with jump-to-task action",
-      "path": "office_os/artifacts/P0-FE-076_operator_sla_watchlist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-075",
-      "artifact": "Live refresh control surface (pause/resume + cadence selector + persisted sync state)",
-      "path": "office_os/artifacts/P0-FE-075_live_refresh_control_surface_2026-02-27.md",
       "status": "done"
     }
   ],
