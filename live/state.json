@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T09:30:10.143929+00:00",
+  "now": "2026-02-27T09:40:07.380194+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-410_executive_forward_one_page_template_library_finance_procurement_security_personas_2026-02-27.md"
     },
     {
-      "id": "P1-REV-412",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Late-stage decision deadline acceleration script tree",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script tree defines 5 urgency-safe branches with stop/escalate criteria and meeting CTA logic.",
-      "artifact_path": "office_os/artifacts/P1-REV-412_late_stage_decision_deadline_acceleration_script_tree_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-413",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -167,26 +147,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-415_activation_regression_containment_checklist_for_release_days_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-416",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding incident communication matrix (internal + customer-safe)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T17:20:00+08:00",
-      "updated_at": "2026-02-27T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps severity to channel/message owner/ETA promises with recovery update cadence.",
-      "artifact_path": "office_os/artifacts/P2-PROD-416_onboarding_incident_communication_matrix_internal_+_customer_safe_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-418",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -225,6 +185,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 17:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-416",
+      "artifact": "Onboarding incident communication matrix (severity-to-channel/owner/ETA + recovery cadence)",
+      "path": "office_os/artifacts/P2-PROD-416_onboarding_incident_communication_matrix_internal_+_customer_safe_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 17:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-412",
+      "artifact": "Late-stage decision deadline acceleration script tree (5 urgency-safe branches + stop/escalate + CTA ladder)",
+      "path": "office_os/artifacts/P1-REV-412_late_stage_decision_deadline_acceleration_script_tree_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 17:26",
       "owner": "SOCIAL",
@@ -399,30 +383,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-396",
-      "artifact": "Onboarding handoff QA rubric between growth and delivery teams",
-      "path": "office_os/artifacts/P2-PROD-396_onboarding_handoff_qa_rubric_growth_delivery_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-392",
-      "artifact": "Win/loss signal extraction template tied to next-week revenue actions",
-      "path": "office_os/artifacts/P1-REV-392_win_loss_signal_extraction_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-397",
-      "artifact": "Objection-to-proof short-post sprint board for 7-day founder distribution",
-      "path": "office_os/artifacts/P3-CONT-397_objection_to_proof_short_post_sprint_board_2026-02-27.md",
       "status": "done"
     }
   ],
