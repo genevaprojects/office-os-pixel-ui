@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T19:21:35.516244+00:00",
+  "now": "2026-02-27T19:30:06.030041+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "10 script blocks for DM/email/call with urgency framing, proof insertion points, and objection fallback lines."
     },
     {
-      "id": "P1-REV-969",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Referral-to-demo compounding loop playbook for partner channels",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook with partner tiers, referral CTA assets, conversion checkpoints, and anti-fraud guardrails."
-    },
-    {
       "id": "P2-PROD-970",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -179,25 +160,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Template includes deal context, blockers, success criteria, owner checklist, and D1/D7 verification fields."
-    },
-    {
-      "id": "P3-CONT-972",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first objection rebuttal clip calendar (7-day)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "7-day calendar with hook, objection, proof source, CTA, platform format, and post timing."
     },
     {
       "id": "P4-OPS-965",
@@ -258,6 +220,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 03:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-972",
+      "artifact": "Proof-first objection rebuttal clip calendar (7-day)",
+      "path": "office_os/artifacts/P3-CONT-972_proof_first_objection_rebuttal_clip_calendar_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-969",
+      "artifact": "Referral-to-demo compounding loop playbook for partner channels",
+      "path": "office_os/artifacts/P1-REV-969_referral_to_demo_compounding_loop_playbook_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-964",
+      "artifact": "Team demo cast GO/NO-GO verdict with copyable recovery command path",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-963",
+      "artifact": "Founder Desk decision ownership pressure board + owner queue-clear command drafts",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 03:20",
       "owner": "COMMAND",
@@ -424,38 +418,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-021",
-      "artifact": "Taskboard and monitor empty-state recovery actions",
-      "path": "office_os/artifacts/P0-FE-021_empty_state_recovery_actions_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-020",
-      "artifact": "Executive briefing rail with action-linked recovery controls",
-      "path": "office_os/artifacts/P0-FE-020_executive_briefing_rail_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-960",
-      "artifact": "Team sync trust strip (latency + stale/degraded state visibility)",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-959",
-      "artifact": "Founder Desk recovery bundle queue acceleration (dedupe + concurrent submit + single refresh)",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
