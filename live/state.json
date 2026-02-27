@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T11:21:32.958814+00:00",
+  "now": "2026-02-27T11:30:06.080986+00:00",
   "workers": [
     {
       "name": "Research",
@@ -121,24 +121,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-424_exec_sponsor_escalation_email_kit_2026-02-27.md"
     },
     {
-      "id": "P1-REV-425",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Deal slippage pre-mortem worksheet for top 20 open opportunities",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T19:20:00+08:00",
-      "updated_at": "2026-02-27T19:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Worksheet includes risk triggers, mitigation owners, and weekly confidence scoring.",
-      "artifact_path": "office_os/artifacts/P1-REV-425_deal_slippage_premortem_worksheet_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-426",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -173,24 +155,6 @@
       "blocked_reason": null,
       "acceptance": "Checklist maps owner actions for close+0h to day+1 with SLA and verification fields.",
       "artifact_path": "office_os/artifacts/P2-PROD-427_onboarding_handoff_checklist_sales_to_day1_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-428",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Enterprise objection rebuttal carousel pack (10 assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T19:20:00+08:00",
-      "updated_at": "2026-02-27T19:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "10 carousel outlines with hook, proof source, objection, and CTA mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-428_enterprise_objection_rebuttal_carousel_pack_2026-02-27.md"
     },
     {
       "id": "P4-OPS-415",
@@ -246,6 +210,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 19:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-428",
+      "artifact": "Enterprise objection rebuttal carousel pack (10 assets; hook/proof/CTA mapped)",
+      "path": "office_os/artifacts/P3-CONT-428_enterprise_objection_rebuttal_carousel_pack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-425",
+      "artifact": "Deal slippage pre-mortem worksheet (top 20 opportunities; trigger/owner/confidence model)",
+      "path": "office_os/artifacts/P1-REV-425_deal_slippage_premortem_worksheet_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 19:20",
       "owner": "COMMAND",
@@ -428,22 +408,6 @@
       "taskId": "P3-CONT-417",
       "artifact": "Proof-first short-post batch plan for top funnel objections",
       "path": "office_os/artifacts/P3-CONT-417_proof_first_short_post_batch_plan_for_top_funnel_objections_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-411",
-      "artifact": "Champion handoff email pack with internal buy-in trigger mapping",
-      "path": "office_os/artifacts/P1-REV-411_champion_handoff_email_pack_with_internal_buy_in_trigger_mapping_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to >=10)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
