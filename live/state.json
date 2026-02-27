@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T19:50:04.791331+00:00",
+  "now": "2026-02-27T20:00:05.260131+00:00",
   "workers": [
     {
       "name": "Research",
@@ -183,6 +183,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-969",
+      "artifact": "Reliability drift sentinel with trend-aware recovery jump controls",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-968",
+      "artifact": "Demo narrative assistant with copy-ready 90-second investor script",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 03:36",
       "owner": "EXECUTOR",
       "taskId": "P2-PROD-971",
@@ -364,22 +380,6 @@
       "taskId": "P4-OPS-955",
       "artifact": "Autonomous task state-change audit script spec",
       "path": "office_os/artifacts/P4-OPS-955_autonomous_task_state_change_audit_script_spec_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-951",
-      "artifact": "Deal slippage prevention standup script (15-minute daily for top accounts)",
-      "path": "office_os/artifacts/P1-REV-951_deal_slippage_prevention_standup_script_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-952",
-      "artifact": "Activation regression hotfix triage board template with severity lanes and 24h verification SLA",
-      "path": "office_os/artifacts/P2-PROD-952_activation_regression_hotfix_triage_board_24h_verification_sla_2026-02-28.md",
       "status": "done"
     }
   ],
