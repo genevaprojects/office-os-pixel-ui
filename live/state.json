@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T06:00:08.724227+00:00",
+  "now": "2026-02-27T06:10:05.180008+00:00",
   "workers": [
     {
       "name": "Research",
@@ -68,24 +68,7 @@
     },
     {
       "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P1-REV-371",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led objection reversal micro-webinar blueprint",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "45-minute webinar blueprint with 3 objection segments, live proof moments, and CTA sequence tied to booked demos.",
-      "artifact_path": "office_os/artifacts/P1-REV-371_founder_led_objection_reversal_micro_webinar_blueprint_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
+      "updated_at": "2026-02-27T14:07:03.769359+08:00",
       "id": "P1-REV-373",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -102,7 +85,7 @@
     },
     {
       "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
+      "updated_at": "2026-02-27T14:07:03.769373+08:00",
       "id": "P1-REV-374",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -119,24 +102,7 @@
     },
     {
       "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P2-PROD-376",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation drop-off recovery experiment sheet (next 7 days)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "7 experiments with trigger logic, owner, expected uplift, and rollback condition.",
-      "artifact_path": "office_os/artifacts/P2-PROD-376_activation_dropoff_recovery_experiment_sheet_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
+      "updated_at": "2026-02-27T14:07:03.769383+08:00",
       "id": "P4-OPS-379",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -159,7 +125,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T13:07:04.933834+08:00",
+      "updated_at": "2026-02-27T14:07:03.769378+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -170,6 +136,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 13:20",
       "owner": "COMMAND",
@@ -360,14 +334,6 @@
       "taskId": "P3-CONT-344",
       "artifact": "Founder authority clip repurposing grid (1 long asset → 12 channel-specific clips)",
       "path": "office_os/artifacts/P3-CONT-344_founder_authority_clip_repurposing_grid_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-343",
-      "artifact": "Proof-first objection micro-content sprint pack (15 prompts mapped to objections/proof/CTA ladders)",
-      "path": "office_os/artifacts/P3-CONT-343_proof_first_objection_micro_content_sprint_pack_2026-02-27.md",
       "status": "done"
     }
   ],
