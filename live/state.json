@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T20:00:05.260131+00:00",
+  "now": "2026-02-27T20:10:16.144723+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-966",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "High-intent reactivation micro-offer matrix for stalled enterprise opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix with 9 offer-message combinations, trigger criteria, and stop/scale rules tied to reply and meeting-booked rates."
-    },
-    {
       "id": "P1-REV-967",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
+      "updated_at": "2026-02-28T04:07:02.806644+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -105,25 +86,6 @@
       "acceptance": "Scoreboard template with stage aging, risk flags, owner next action, and weekly recovered-pipeline KPI."
     },
     {
-      "id": "P2-PROD-970",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation anomaly response tree for first-24h behavior drop",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Decision tree mapping anomaly signatures to intervention actions, owner SLA, and verification metrics."
-    },
-    {
       "id": "P4-OPS-965",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -131,7 +93,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T03:07:02.227047+08:00",
+      "updated_at": "2026-02-28T04:07:02.806661+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -150,7 +112,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
+      "updated_at": "2026-02-28T04:07:02.806665+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T03:07:02.227043+08:00",
+      "updated_at": "2026-02-28T04:07:02.806655+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -182,6 +144,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 04:08",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-970",
+      "artifact": "Activation anomaly response tree for first-24h behavior drop",
+      "path": "office_os/artifacts/P2-PROD-970_activation_anomaly_response_tree_first24h_behavior_drop_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 04:07",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-966",
+      "artifact": "High-intent reactivation micro-offer matrix for stalled enterprise opportunities",
+      "path": "office_os/artifacts/P1-REV-966_high_intent_reactivation_micro_offer_matrix_stalled_enterprise_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 03:50",
       "owner": "BUILDER",
@@ -356,30 +342,6 @@
       "taskId": "P0-FE-962",
       "artifact": "Team weakest-lane hot-swap command bundle",
       "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:21",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-961",
-      "artifact": "Founder Desk single-thread intervention rail",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to >=10)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-955",
-      "artifact": "Autonomous task state-change audit script spec",
-      "path": "office_os/artifacts/P4-OPS-955_autonomous_task_state_change_audit_script_spec_2026-02-28.md",
       "status": "done"
     }
   ],
