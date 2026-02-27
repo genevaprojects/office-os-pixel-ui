@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T02:00:05.708501+00:00",
+  "now": "2026-02-27T02:10:05.901436+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,23 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-330",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-approved deal velocity dashboard (weekly) for late-stage pipeline",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Define KPI set, threshold bands, and weekly review script with action routing.",
-      "artifact_path": "office_os/artifacts/P1-REV-330_security_approved_deal_velocity_dashboard_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-331",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -91,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T10:07:02.416224+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -101,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-331_champion_to_cfo_handoff_templates_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-336",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Enterprise trial friction incident taxonomy for CS->Product loops",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Taxonomy with severity classes, evidence fields, and auto-escalation triggers.",
-      "artifact_path": "office_os/artifacts/P2-PROD-336_enterprise_trial_friction_incident_taxonomy_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-328",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -125,7 +91,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "updated_at": "2026-02-27T10:07:02.416236+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -142,7 +108,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T10:07:02.416248+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -159,7 +125,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "updated_at": "2026-02-27T10:07:02.416243+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -176,7 +142,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T10:07:02.416252+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -187,6 +153,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-336",
+      "artifact": "Enterprise trial friction incident taxonomy for CS->Product loops",
+      "path": "office_os/artifacts/P2-PROD-336_enterprise_trial_friction_incident_taxonomy_cs_to_product_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-330",
+      "artifact": "Security-approved deal velocity dashboard (weekly) for late-stage pipeline",
+      "path": "office_os/artifacts/P1-REV-330_security_approved_deal_velocity_dashboard_weekly_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 09:26",
       "owner": "SOCIAL",
@@ -361,30 +351,6 @@
       "taskId": "P1-REV-312",
       "artifact": "Enterprise close acceleration checklist for procurement week",
       "path": "office_os/artifacts/P1-REV-312_enterprise_close_acceleration_checklist_procurement_week_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-315",
-      "artifact": "Referral partner activation sprint plan with 7-day launch targets",
-      "path": "office_os/artifacts/P1-REV-315_referral_partner_activation_sprint_plan_7_day_launch_targets_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-313",
-      "artifact": "Proof-to-proposal conversion copy pack for late-stage deals (12 snippets across email/DM/deck notes)",
-      "path": "office_os/artifacts/P1-REV-313_proof_to_proposal_conversion_copy_pack_late_stage_deals_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:23",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-056",
-      "artifact": "Founder Desk immediate reliability actions with one-click command drafts",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
