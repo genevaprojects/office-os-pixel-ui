@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T19:00:07.073724+00:00",
+  "now": "2026-02-27T19:10:04.616101+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-960",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion decay early-warning prompt pack for enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "15 prompt templates triggered by silence/risk signals with owner routing and expected response windows."
-    },
-    {
       "id": "P1-REV-961",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T03:07:02.227015+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +93,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-28T02:07:04.869878+08:00",
+      "updated_at": "2026-02-28T03:07:02.227027+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -132,7 +113,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-28T02:07:04.869883+08:00",
+      "updated_at": "2026-02-28T03:07:02.227032+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -145,26 +126,6 @@
       "artifact_path": "office_os/artifacts/P4-OPS-913_hourly_run_acceptance_drift_tracker_2026-02-27.md"
     },
     {
-      "id": "P4-OPS-919",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Closed-lost trigger detection SOP for CRM + workflow automation",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T23:05:00+08:00",
-      "updated_at": "2026-02-28T02:07:04.869888+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "SOP defines detection signals, false-positive checks, routing rules, and audit cadence.",
-      "artifact_path": "office_os/artifacts/P4-OPS-919_closed_lost_trigger_detection_sop_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-965",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -172,7 +133,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T03:07:02.227047+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -191,7 +152,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T00:20:40+08:00",
-      "updated_at": "2026-02-28T02:07:04.869893+08:00",
+      "updated_at": "2026-02-28T03:07:02.227037+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -208,7 +169,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T02:07:04.869899+08:00",
+      "updated_at": "2026-02-28T03:07:02.227043+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -221,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 03:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P4-OPS-919",
+      "artifact": "Closed-lost trigger detection SOP for CRM + workflow automation",
+      "path": "office_os/artifacts/P4-OPS-919_closed_lost_trigger_detection_sop_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-960",
+      "artifact": "Champion decay early-warning prompt pack for enterprise deals",
+      "path": "office_os/artifacts/P1-REV-960_champion_decay_early_warning_prompt_pack_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 02:50",
       "owner": "BUILDER",
@@ -395,30 +380,6 @@
       "taskId": "P2-PROD-945",
       "artifact": "Post-signature onboarding launch checklist for enterprise handoff in 24h",
       "path": "office_os/artifacts/P2-PROD-945_post_signature_onboarding_launch_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-942",
-      "artifact": "Reopened enterprise deal onboarding fast-start checklist (day 0-7)",
-      "path": "office_os/artifacts/P2-PROD-942_reopened_enterprise_onboarding_fast_start_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:08",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-944",
-      "artifact": "Security-review objection reversal brief (procurement committee unblock checkpoints)",
-      "path": "office_os/artifacts/P1-REV-944_security_review_objection_reversal_brief_2026-02-28.md",
       "status": "done"
     }
   ],
