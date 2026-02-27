@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T11:00:05.098249+00:00",
+  "now": "2026-02-27T11:10:06.609763+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
+      "updated_at": "2026-02-27T19:07:03.136734+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -84,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-405_founder_weekly_deal_unblock_standup_format_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-407",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-value time compression playbook (<5 min)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Playbook identifies top 10 delays with targeted fixes, expected lift, and instrumentation checkpoints.",
-      "artifact_path": "office_os/artifacts/P2-PROD-407_first_value_time_compression_playbook_under_5min_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-409",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -108,7 +91,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
+      "updated_at": "2026-02-27T19:07:03.136745+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -125,7 +108,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
+      "updated_at": "2026-02-27T19:07:03.136755+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -142,7 +125,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
+      "updated_at": "2026-02-27T19:07:03.136751+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -159,7 +142,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
+      "updated_at": "2026-02-27T19:07:03.136760+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -170,6 +153,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-407",
+      "artifact": "First-value time compression playbook (<5 min)",
+      "path": "office_os/artifacts/P2-PROD-407_first_value_time_compression_playbook_under_5min_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 18:37",
       "owner": "COMMAND",
@@ -352,22 +351,6 @@
       "taskId": "P1-REV-401",
       "artifact": "Champion-to-economic-buyer intro trigger matrix",
       "path": "office_os/artifacts/P1-REV-401_champion_to_eb_intro_trigger_matrix_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-406",
-      "artifact": "Trial setup friction replay checklist from session logs",
-      "path": "office_os/artifacts/P2-PROD-406_trial_setup_friction_replay_checklist_2026-02-27.md",
       "status": "done"
     }
   ],
