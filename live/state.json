@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T23:00:05.872634+00:00",
+  "now": "2026-02-27T23:10:05.827604+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1221",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise re-open trigger matrix from closed-lost reasons",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map top 15 closed-lost reasons to re-open triggers, proof asset, outreach timing, and success KPI.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1222",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
+      "updated_at": "2026-02-28T07:07:03.412125+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
+      "updated_at": "2026-02-28T07:07:03.412151+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
+      "updated_at": "2026-02-28T07:07:03.412161+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -147,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P4-OPS-1229",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Run-summary compression rubric for operator handoff",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Define compact summary rubric with mandatory fields, failure signals, and actionability score.",
-      "artifact_path": null
-    },
-    {
       "id": "P5-REL-1230",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -174,7 +134,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
+      "updated_at": "2026-02-28T07:07:03.412169+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 07:06",
+      "owner": "RESEARCH",
+      "taskId": "P4-OPS-1229",
+      "artifact": "Run-summary compression rubric for operator handoff",
+      "path": "office_os/artifacts/P4-OPS-1229_run_summary_compression_rubric_operator_handoff_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 07:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1221",
+      "artifact": "Enterprise re-open trigger matrix from closed-lost reasons",
+      "path": "office_os/artifacts/P1-REV-1221_enterprise_reopen_trigger_matrix_closed_lost_reasons_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 06:37",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "P4-OPS-1210",
       "artifact": "Autonomous backlog freshness SLA monitor checklist",
       "path": "office_os/artifacts/P4-OPS-1210_autonomous_backlog_freshness_sla_monitor_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:20",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-1209",
-      "artifact": "Objection-led authority thread pack for enterprise buyers",
-      "path": "office_os/artifacts/P3-CONT-1209_objection_led_authority_thread_pack_enterprise_buyers_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1206",
-      "artifact": "Activation blocker escalation board for cross-functional 48h resolution",
-      "path": "office_os/artifacts/P2-PROD-1206_activation_blocker_escalation_board_cross_functional_48h_resolution_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1204",
-      "artifact": "Mutual action plan acceleration checklist for sub-30-day close cycles",
-      "path": "office_os/artifacts/P1-REV-1204_mutual_action_plan_acceleration_checklist_sub30_day_close_cycles_2026-02-28.md",
       "status": "done"
     }
   ],
