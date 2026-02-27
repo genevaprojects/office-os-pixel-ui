@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T06:30:04.610311+00:00",
+  "now": "2026-02-27T06:40:05.443125+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,23 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-380",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led inbound to demo fast-lane SOP (sub-15min response)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T14:20:00+08:00",
-      "updated_at": "2026-02-27T14:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "SOP defines trigger rules, response scripts, owner handoff, and conversion KPI targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-380_founder_led_inbound_to_demo_fast_lane_sop_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-381",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -116,23 +99,6 @@
       "blocked_reason": null,
       "acceptance": "Spec defines inputs, output blocks, and quality rubric to generate internal champion kits in <10 minutes.",
       "artifact_path": "office_os/artifacts/P1-REV-383_champion_enablement_onepager_generator_spec_2026-02-27.md"
-    },
-    {
-      "id": "P1-REV-384",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-lost resurrection trigger pack for budget-freeze accounts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T14:20:00+08:00",
-      "updated_at": "2026-02-27T14:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Trigger matrix defines timing signals, re-entry offers, and measurable reactivation target.",
-      "artifact_path": "office_os/artifacts/P1-REV-384_closed_lost_resurrection_trigger_pack_budget_freeze_2026-02-27.md"
     },
     {
       "id": "P2-PROD-385",
