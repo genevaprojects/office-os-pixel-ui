@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T09:00:05.584914+00:00",
+  "now": "2026-02-27T09:10:06.470017+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-400",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise mutual action plan compression template (decision-path in 1 page)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template compresses buyer timeline, owner map, and deadline commitments into one decision sheet.",
-      "artifact_path": "office_os/artifacts/P1-REV-400_enterprise_map_compression_template_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-401",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
+      "updated_at": "2026-02-27T17:07:06.343243+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
+      "updated_at": "2026-02-27T17:07:06.343230+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
+      "updated_at": "2026-02-27T17:07:06.343249+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -147,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-405_activation_failure_triage_sprint_board_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-406",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Trial setup friction replay checklist from session logs",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist reconstructs first-session friction using event/session evidence and fix candidates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-406_trial_setup_friction_replay_checklist_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-408",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T16:20:00+08:00",
-      "updated_at": "2026-02-27T16:20:00+08:00",
+      "updated_at": "2026-02-27T17:07:06.343258+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -201,10 +161,34 @@
       "acceptance": "Checklist validates backup selection, restore sequence, and post-restore integrity verification.",
       "artifact_path": "office_os/artifacts/P5-REL-399_cron_artifact_restore_drill_checklist_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T16:07:02.211196+08:00"
+      "updated_at": "2026-02-27T17:07:06.343253+08:00"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 17:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 17:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-406",
+      "artifact": "Trial setup friction replay checklist from session logs",
+      "path": "office_os/artifacts/P2-PROD-406_trial_setup_friction_replay_checklist_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 17:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-400",
+      "artifact": "Enterprise mutual action plan compression template (decision-path in 1 page)",
+      "path": "office_os/artifacts/P1-REV-400_enterprise_map_compression_template_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 16:36",
       "owner": "EXECUTOR",
@@ -379,30 +363,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 14:20",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-360",
-      "artifact": "Cron recovery canary checklist for mission-critical jobs",
-      "path": "office_os/artifacts/P5-REL-360_cron_recovery_canary_checklist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 14:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-379",
-      "artifact": "Autonomous backlog throughput health dashboard spec",
-      "path": "office_os/artifacts/P4-OPS-379_autonomous_backlog_throughput_health_dashboard_spec_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
