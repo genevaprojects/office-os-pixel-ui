@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T05:00:04.783060+00:00",
+  "now": "2026-02-27T05:10:05.017740+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,23 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-361",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Revenue objection heatmap from last 30 enterprise calls",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Build objection frequency + close-rate impact matrix with priority fixes.",
-      "artifact_path": "office_os/artifacts/P1-REV-361_revenue_objection_heatmap_last30_calls_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-363",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -91,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
+      "updated_at": "2026-02-27T13:07:04.933810+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -101,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-363_deal_acceleration_scoreboard_weekly_owner_penalties_2026-02-27.md"
     },
     {
-      "id": "P1-REV-365",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Loss-reason auto-tagging rubric for pipeline hygiene",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Rubric for consistent closed-lost tagging tied to remediation playbooks.",
-      "artifact_path": "office_os/artifacts/P1-REV-365_loss_reason_auto_tagging_rubric_pipeline_hygiene_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-367",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -125,7 +91,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
+      "updated_at": "2026-02-27T13:07:04.933823+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -142,7 +108,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
+      "updated_at": "2026-02-27T13:07:04.933830+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -159,7 +125,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
+      "updated_at": "2026-02-27T13:07:04.933839+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -176,7 +142,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T12:07:03.759794+08:00",
+      "updated_at": "2026-02-27T13:07:04.933834+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -187,6 +153,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-365",
+      "artifact": "Loss-reason auto-tagging rubric for pipeline hygiene",
+      "path": "office_os/artifacts/P1-REV-365_loss_reason_auto_tagging_rubric_pipeline_hygiene_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-361",
+      "artifact": "Revenue objection heatmap from last 30 enterprise calls",
+      "path": "office_os/artifacts/P1-REV-361_revenue_objection_heatmap_last30_calls_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 12:20",
       "owner": "COMMAND",
@@ -361,30 +351,6 @@
       "taskId": "P1-REV-331",
       "artifact": "Champion-to-CFO handoff memo templates (6 objection classes + quantified business fields)",
       "path": "office_os/artifacts/P1-REV-331_champion_to_cfo_handoff_templates_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 10:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 10:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-336",
-      "artifact": "Enterprise trial friction incident taxonomy for CS->Product loops",
-      "path": "office_os/artifacts/P2-PROD-336_enterprise_trial_friction_incident_taxonomy_cs_to_product_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 10:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-330",
-      "artifact": "Security-approved deal velocity dashboard (weekly) for late-stage pipeline",
-      "path": "office_os/artifacts/P1-REV-330_security_approved_deal_velocity_dashboard_weekly_2026-02-27.md",
       "status": "done"
     }
   ],
