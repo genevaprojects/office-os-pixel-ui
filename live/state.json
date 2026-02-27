@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T12:21:34.791637+00:00",
+  "now": "2026-02-27T12:30:38.053573+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,24 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-430",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Objection-triggered outbound micro-demo library for enterprise first replies",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "12 micro-demo scripts mapped to top objections with persona tags, CTA, and follow-up branch.",
-      "artifact_path": "office_os/artifacts/P1-REV-430_objection_triggered_outbound_micro_demo_library_2026-02-27.md",
-      "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
     },
     {
       "id": "P1-REV-431",
@@ -189,24 +171,6 @@
       "blocked_reason": null,
       "acceptance": "Template includes friction symptom, event hooks, fix owner, ETA, and verify event criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-436_trial_day1_friction_remediation_template_2026-02-27.md",
-      "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
-    },
-    {
-      "id": "P3-CONT-437",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first founder thread skeletons for weekly demand capture",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "8 thread skeletons with hook-proof-CTA structure tied to active objections and ICPs.",
-      "artifact_path": "office_os/artifacts/P3-CONT-437_proof_first_founder_thread_skeletons_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
       "updated_at": "2026-02-27T20:20:00+08:00"
     },
