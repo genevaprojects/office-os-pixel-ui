@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T12:30:38.053573+00:00",
+  "now": "2026-02-27T12:40:04.888615+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,24 +85,6 @@
       "updated_at": "2026-02-27T20:20:00+08:00"
     },
     {
-      "id": "P1-REV-432",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion-to-procurement handoff fast lane checklist v2",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist includes mandatory assets, response SLA, blocker routing, and close-risk fallback path.",
-      "artifact_path": "office_os/artifacts/P1-REV-432_champion_to_procurement_handoff_fast_lane_checklist_v2_2026-02-27.md",
-      "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
-    },
-    {
       "id": "P1-REV-433",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -157,24 +139,6 @@
       "updated_at": "2026-02-27T20:20:00+08:00"
     },
     {
-      "id": "P2-PROD-436",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Trial Day-1 friction remediation template with telemetry hook map",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-05T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template includes friction symptom, event hooks, fix owner, ETA, and verify event criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-436_trial_day1_friction_remediation_template_2026-02-27.md",
-      "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
-    },
-    {
       "id": "P3-CONT-438",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -212,6 +176,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 20:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 20:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-436",
+      "artifact": "Trial Day-1 friction remediation template with telemetry hook map",
+      "path": "office_os/artifacts/P2-PROD-436_trial_day1_friction_remediation_template_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 20:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-432",
+      "artifact": "Champion-to-procurement handoff fast lane checklist v2",
+      "path": "office_os/artifacts/P1-REV-432_champion_to_procurement_handoff_fast_lane_checklist_v2_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 20:20",
       "owner": "COMMAND",
@@ -386,30 +374,6 @@
       "taskId": "P5-REL-399",
       "artifact": "Cron artifact restore drill checklist for last-known-good recovery",
       "path": "office_os/artifacts/P5-REL-399_cron_artifact_restore_drill_checklist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-418",
-      "artifact": "Autonomous ship-log lint rulepack for malformed or duplicate milestones",
-      "path": "office_os/artifacts/P4-OPS-418_autonomous_ship_log_lint_rulepack_for_malformed_or_duplicate_milestones_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:17",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-415",
-      "artifact": "Activation regression containment checklist for release days",
-      "path": "office_os/artifacts/P2-PROD-415_activation_regression_containment_checklist_for_release_days_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-413",
-      "artifact": "Deal desk proof-index schema for rapid executive packet assembly",
-      "path": "office_os/artifacts/P1-REV-413_deal_desk_proof_index_schema_for_rapid_executive_packet_assembly_2026-02-27.md",
       "status": "done"
     }
   ],
