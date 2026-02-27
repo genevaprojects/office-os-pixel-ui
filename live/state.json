@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T04:00:08.073613+00:00",
+  "now": "2026-02-27T04:10:04.485033+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,23 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-351",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Pipeline velocity audit for top 20 enterprise opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Rank top 20 opportunities by stall risk, next action, and close-date confidence with recovery moves.",
-      "artifact_path": "office_os/artifacts/P1-REV-351_pipeline_velocity_audit_top20_enterprise_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-353",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -91,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
+      "updated_at": "2026-02-27T12:07:03.759753+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -101,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-353_champion_enablement_memo_pack_2026-02-27.md"
     },
     {
-      "id": "P1-REV-354",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement objection fast-response matrix for sub-72h turnarounds",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Map top procurement blockers to approved response snippets, evidence links, and owner SLA.",
-      "artifact_path": "office_os/artifacts/P1-REV-354_procurement_objection_fast_response_matrix_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-356",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -125,7 +91,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
+      "updated_at": "2026-02-27T12:07:03.759780+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -142,7 +108,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
+      "updated_at": "2026-02-27T12:07:03.759790+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -159,7 +125,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T10:21:05+08:00",
-      "updated_at": "2026-02-27T11:07:01.924482+08:00",
+      "updated_at": "2026-02-27T12:07:03.759785+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -176,7 +142,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T11:20:00+08:00",
-      "updated_at": "2026-02-27T11:20:00+08:00",
+      "updated_at": "2026-02-27T12:07:03.759794+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 2,
@@ -187,6 +153,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 12:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 11:37",
       "owner": "COMMAND",
@@ -377,14 +351,6 @@
       "taskId": "P1-REV-324",
       "artifact": "Closed-lost resurrection trigger board with proof-first plays",
       "path": "office_os/artifacts/P1-REV-324_closed_lost_resurrection_trigger_board_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 09:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-320",
-      "artifact": "Enterprise champion reactivation sequence for stalled security-cleared deals",
-      "path": "office_os/artifacts/P1-REV-320_enterprise_champion_reactivation_sequence_2026-02-27.md",
       "status": "done"
     }
   ],
