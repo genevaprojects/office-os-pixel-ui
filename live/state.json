@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T21:21:44.290623+00:00",
+  "now": "2026-02-27T21:30:07.481193+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1213",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder proof-post sprint mapped to live procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Deliver 10 posts mapped to objections with proof asset references and CTA intent tags.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1214",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-1218",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Contrarian micro-content pack for enterprise AI adoption myths",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T05:20:00+08:00",
-      "updated_at": "2026-02-28T05:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-08T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Deliver 20 short posts tagged by myth/proof/CTA and platform format.",
-      "artifact_path": null
-    },
-    {
       "id": "P3-CONT-1219",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1222",
+      "artifact": "Mission Control investor demo verdict (explicit GO/NO-GO panel)",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1221",
+      "artifact": "Investor cockpit control-state clarity polish (focus/a11y toggles)",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 05:21",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-968",
       "artifact": "Founder-led urgency proof script stack for end-of-quarter closes",
       "path": "office_os/artifacts/P1-REV-968_founder_led_urgency_proof_script_stack_end_of_quarter_closes_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-972",
-      "artifact": "Proof-first objection rebuttal clip calendar (7-day)",
-      "path": "office_os/artifacts/P3-CONT-972_proof_first_objection_rebuttal_clip_calendar_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-969",
-      "artifact": "Referral-to-demo compounding loop playbook for partner channels",
-      "path": "office_os/artifacts/P1-REV-969_referral_to_demo_compounding_loop_playbook_2026-02-28.md",
       "status": "done"
     }
   ],
