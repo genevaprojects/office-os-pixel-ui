@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T14:50:05.231543+00:00",
+  "now": "2026-02-27T15:00:12.139811+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-27 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-913",
+      "artifact": "Founder Desk investor gate verdict ribbon + one-click remediation command draft",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-912",
+      "artifact": "Decision queue trust upgrade with due-aware escalation sorting in Pixel UI",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-02-27 22:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P1-REV-434",
       "artifact": "Founder close-call prep one-pager for top 10 live opportunities",
       "path": "office_os/artifacts/P1-REV-434_founder_close_call_prep_one_pager_top10_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-431",
-      "artifact": "Deal-slippage early warning prompt stack for founder daily standups",
-      "path": "office_os/artifacts/P1-REV-431_deal_slippage_early_warning_prompt_stack_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
