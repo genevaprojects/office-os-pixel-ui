@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T04:22:13.358098+00:00",
+  "now": "2026-02-27T04:30:05.328564+00:00",
   "workers": [
     {
       "name": "Research",
@@ -118,23 +118,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-363_deal_acceleration_scoreboard_weekly_owner_penalties_2026-02-27.md"
     },
     {
-      "id": "P1-REV-364",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion-to-CFO internal sell kit generator template",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template pack for champions to forward ROI/security proof to finance stakeholders.",
-      "artifact_path": "office_os/artifacts/P1-REV-364_champion_to_cfo_internal_sell_kit_generator_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-365",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -184,23 +167,6 @@
       "blocked_reason": null,
       "acceptance": "Audit checklist to identify missing telemetry at each onboarding step.",
       "artifact_path": "office_os/artifacts/P2-PROD-367_activation_funnel_blindspot_audit_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-368",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-led rebuttal post batch for top 5 objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T12:20:00+08:00",
-      "updated_at": "2026-02-27T12:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Create reusable post prompts with objection, proof, and CTA variants.",
-      "artifact_path": "office_os/artifacts/P3-CONT-368_proof_led_rebuttal_post_batch_top5_objections_2026-02-27.md"
     },
     {
       "id": "P3-CONT-369",
