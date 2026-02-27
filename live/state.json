@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T14:21:34.392512+00:00",
+  "now": "2026-02-27T14:30:06.303379+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-915_procurement_redline_acceleration_playbook_2026-02-27.md"
     },
     {
-      "id": "P1-REV-916",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion multithreading script stack for late-stage enterprise deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script stack provides role-specific messages to mobilize technical, finance, and exec stakeholders.",
-      "artifact_path": "office_os/artifacts/P1-REV-916_champion_multithreading_script_stack_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-917",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-914_enterprise_onboarding_risk_handoff_template_v2_2026-02-27.md"
     },
     {
-      "id": "P3-CONT-913",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first objection rebuttal micro-content board (15 assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-06T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board contains 15 objection-linked assets with hook/proof/CTA and publishing cadence.",
-      "artifact_path": "office_os/artifacts/P3-CONT-913_proof_first_objection_rebuttal_micro_content_board_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-912",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 22:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-913",
+      "artifact": "Proof-first objection rebuttal micro-content board (15 assets)",
+      "path": "office_os/artifacts/P3-CONT-913_proof_first_objection_rebuttal_micro_content_board_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-916",
+      "artifact": "Champion multithreading script stack for late-stage enterprise deals",
+      "path": "office_os/artifacts/P1-REV-916_champion_multithreading_script_stack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-078",
+      "artifact": "Founder Desk aged-decision escalation bundle for one-click command drafting",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-077",
+      "artifact": "Role Clarity Board for owner-confidence + assignment visibility",
+      "path": "office_os_pixel_ui/public/index.html; office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 22:20",
       "owner": "COMMAND",
@@ -434,38 +426,6 @@
       "taskId": "P1-REV-432",
       "artifact": "Champion-to-procurement handoff fast lane checklist v2",
       "path": "office_os/artifacts/P1-REV-432_champion_to_procurement_handoff_fast_lane_checklist_v2_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-415",
-      "artifact": "Autonomous acceptance-criteria lint checklist v2",
-      "path": "office_os/artifacts/P4-OPS-415_autonomous_acceptance_criteria_lint_checklist_v2_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-429",
-      "artifact": "Autonomous run summary compression format for faster founder review",
-      "path": "office_os/artifacts/P4-OPS-429_autonomous_run_summary_compression_format_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 20:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-426",
-      "artifact": "Activation KPI anomaly runbook for weekend coverage",
-      "path": "office_os/artifacts/P2-PROD-426_activation_kpi_anomaly_runbook_weekend_coverage_2026-02-27.md",
       "status": "done"
     }
   ],
