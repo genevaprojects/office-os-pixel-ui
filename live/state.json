@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T17:22:00.146482+00:00",
+  "now": "2026-02-27T17:30:04.997853+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "7-touch sequence with timing, channel switch rules, exit conditions, and KPI tracking fields."
     },
     {
-      "id": "P1-REV-950",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder credibility proof vault taxonomy for rapid outbound personalization",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T01:20:50+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Taxonomy with 5 buckets, tagging rules, and retrieval playbook for sub-5 minute personalization."
-    },
-    {
       "id": "P1-REV-951",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -198,25 +179,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "10 experiments with hypothesis, segment, event instrumentation, and stop/scale criteria."
-    },
-    {
-      "id": "P3-CONT-954",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Procurement-objection rebuttal carousel pack (8 posts)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T01:20:50+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "8 post-ready carousel scripts with hook, proof citation slot, and CTA mapped to funnel stage."
     },
     {
       "id": "P4-OPS-912",
@@ -335,6 +297,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 01:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-954",
+      "artifact": "Procurement-objection rebuttal carousel pack (8 posts)",
+      "path": "office_os/artifacts/P3-CONT-954_procurement_objection_rebuttal_carousel_pack_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 01:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-950",
+      "artifact": "Founder credibility proof vault taxonomy for rapid outbound personalization",
+      "path": "office_os/artifacts/P1-REV-950_founder_credibility_proof_vault_taxonomy_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-958",
+      "artifact": "Founder Desk feed trust hardening (sync degradation handling + last successful sync visibility)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-957",
+      "artifact": "Investor demo gate lock mode (persistent executive focus toggle + recovery unlock path)",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 01:15",
       "owner": "BUILDER",
@@ -501,38 +495,6 @@
       "taskId": "P0-FE-940",
       "artifact": "Executive one-click copy briefs for decisions/incidents",
       "path": "office_os/artifacts/P0-FE-940_executive_copyable_brief_actions_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:05",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-939",
-      "artifact": "Command palette contextual live jumps (task/monitor aware)",
-      "path": "office_os/artifacts/P0-FE-939_command_palette_contextual_live_jumps_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-055",
-      "artifact": "Founder Desk instant queue actions for investor gate recovery commands",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-938",
-      "artifact": "Mission Control investor demo spotlight strip (single verdict + blocker chips)",
-      "path": "office_os_pixel_ui/public/{index.html,styles.css,app.js}",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-056",
-      "artifact": "Founder Desk instant command queueing for reliability interventions",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
