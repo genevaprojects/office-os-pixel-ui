@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T16:50:05.903617+00:00",
+  "now": "2026-02-27T17:00:06.027593+00:00",
   "workers": [
     {
       "name": "Research",
@@ -248,6 +248,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-950",
+      "artifact": "Founder Desk reliability recovery bundle launcher (draft/queue)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-949",
+      "artifact": "Overview investor confidence trend rail with drift + latency snapshots",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 00:36",
       "owner": "EXECUTOR",
       "taskId": "OPS-TOPUP",
@@ -429,22 +445,6 @@
       "taskId": "P3-CONT-918",
       "artifact": "Closed-lost comeback proof-post pack (8 objection-tied assets)",
       "path": "office_os/artifacts/P3-CONT-918_closed_lost_comeback_proof_post_pack_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-056",
-      "artifact": "Team lane redundancy radar with backup visibility and hot-swap draft action",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-055",
-      "artifact": "Founder Desk auto-brief panel with one-click investor summary + primary action draft",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
