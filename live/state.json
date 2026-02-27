@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T22:21:26.764550+00:00",
+  "now": "2026-02-27T22:30:05.282764+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1224",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Proof-first outbound content sequence for dormant enterprise leads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Create 10-post sequence mapped to dormant lead objections, proof type, and DM conversion CTA.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-1225",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Define D1/D3/D7 rescue triggers, owner routing, and rollback criteria for failed interventions.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-1227",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Founder proof clip cadence for objection clusters",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Build 14-day clip cadence linking objection cluster, proof asset, hook style, and CTA.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1227",
+      "artifact": "Founder proof clip cadence for objection clusters (14-day hook/proof/CTA schedule)",
+      "path": "office_os/artifacts/P3-CONT-1227_founder_proof_clip_cadence_objection_clusters_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1224",
+      "artifact": "Proof-first outbound content sequence for dormant enterprise leads (10-post objection→proof→CTA map)",
+      "path": "office_os/artifacts/P1-REV-1224_proof_first_outbound_content_sequence_dormant_enterprise_leads_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 06:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-971",
+      "artifact": "Team page clipboard resilience unification for hot-swap action commands",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 06:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-970",
+      "artifact": "Pixel UI command rails click-target hardening for investor quick actions",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 06:20",
       "owner": "COMMAND",
@@ -434,38 +426,6 @@
       "taskId": "P0-FE-974",
       "artifact": "Founder Desk next-30-minute command strip with one-click draft/queue",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1207",
-      "artifact": "First-week adoption intervention scripts by inactivity signature",
-      "path": "office_os/artifacts/P2-PROD-1207_first_week_adoption_intervention_scripts_by_inactivity_signature_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1202",
-      "artifact": "Outbound objection compression script pack for procurement bottlenecks",
-      "path": "office_os/artifacts/P1-REV-1202_outbound_objection_compression_script_pack_procurement_bottlenecks_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1208",
-      "artifact": "Proof-first founder short video sprint board",
-      "path": "office_os/artifacts/P3-CONT-1208_proof_first_founder_short_video_sprint_board_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1203",
-      "artifact": "Founder weekly proof drop calendar tied to active close risks",
-      "path": "office_os/artifacts/P1-REV-1203_founder_weekly_proof_drop_calendar_close_risks_2026-02-28.md",
       "status": "done"
     }
   ],
