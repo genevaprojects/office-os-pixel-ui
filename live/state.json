@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T15:00:12.139811+00:00",
+  "now": "2026-02-27T15:10:04.854599+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-913_enterprise_map_enforcement_checklist_2026-02-27.md"
     },
     {
-      "id": "P1-REV-914",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-lost resurrection trigger matrix by objection cluster",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps top loss reasons to timed re-entry triggers, proof assets, and owner actions.",
-      "artifact_path": "office_os/artifacts/P1-REV-914_closed_lost_resurrection_trigger_matrix_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-917",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -147,6 +127,66 @@
       "artifact_path": "office_os/artifacts/P2-PROD-913_first_value_3min_instrumentation_validation_2026-02-27.md"
     },
     {
+      "id": "P2-PROD-917",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Reopened-deal onboarding fast-track checklist (security-cleared path)",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-27T23:05:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-05T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist compresses post-reopen handoff to activation with D1/D3/D7 checkpoints and fallback rules.",
+      "artifact_path": "office_os/artifacts/P2-PROD-917_reopened_deal_onboarding_fast_track_checklist_2026-02-27.md"
+    },
+    {
+      "id": "P3-CONT-918",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Closed-lost comeback proof-post pack (8 objection-tied assets)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-27T23:05:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-05T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "8 short proof assets mapped to closed-lost objections with CTA to re-open conversations.",
+      "artifact_path": "office_os/artifacts/P3-CONT-918_closed_lost_comeback_proof_post_pack_2026-02-27.md"
+    },
+    {
+      "id": "P3-CONT-921",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Reopened-deal social proof narrative calendar (14-day)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T23:09:00+08:00",
+      "updated_at": "2026-02-27T23:09:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "14-day calendar links reopened deal proof moments to channel, format, and CTA objectives.",
+      "artifact_path": "office_os/artifacts/P3-CONT-921_reopened_deal_social_proof_narrative_calendar_2026-02-27.md"
+    },
+    {
       "id": "P4-OPS-912",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -185,6 +225,46 @@
       "manual_rank": null,
       "acceptance": "Tracker defines drift signals and mandatory correction actions within same run window.",
       "artifact_path": "office_os/artifacts/P4-OPS-913_hourly_run_acceptance_drift_tracker_2026-02-27.md"
+    },
+    {
+      "id": "P4-OPS-919",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Closed-lost trigger detection SOP for CRM + workflow automation",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-27T23:05:00+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "SOP defines detection signals, false-positive checks, routing rules, and audit cadence.",
+      "artifact_path": "office_os/artifacts/P4-OPS-919_closed_lost_trigger_detection_sop_2026-02-27.md"
+    },
+    {
+      "id": "P5-REL-920",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Automation fail-safe checklist for re-entry campaigns",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-27T23:05:00+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-06T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist covers suppression rules, duplicate-send guards, rollback triggers, and recovery verification.",
+      "artifact_path": "office_os/artifacts/P5-REL-920_reentry_campaign_automation_fail_safe_checklist_2026-02-27.md"
     }
   ],
   "ship": [
@@ -258,6 +338,22 @@
       "taskId": "P0-FE-077",
       "artifact": "Role Clarity Board for owner-confidence + assignment visibility",
       "path": "office_os_pixel_ui/public/index.html; office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:08",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-915",
+      "artifact": "Stakeholder-persona re-entry messaging pack",
+      "path": "office_os/artifacts/P1-REV-915_stakeholder_persona_reentry_messaging_pack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-914",
+      "artifact": "Closed-lost resurrection trigger matrix by objection cluster",
+      "path": "office_os/artifacts/P1-REV-914_closed_lost_resurrection_trigger_matrix_2026-02-27.md",
       "status": "done"
     },
     {
@@ -370,22 +466,6 @@
       "taskId": "P1-REV-907",
       "artifact": "Founder authority proof drop calendar for late-stage objection windows",
       "path": "office_os/artifacts/P1-REV-907_founder_authority_proof_drop_calendar_objection_windows_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 21:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-434",
-      "artifact": "Founder close-call prep one-pager for top 10 live opportunities",
-      "path": "office_os/artifacts/P1-REV-434_founder_close_call_prep_one_pager_top10_2026-02-27.md",
       "status": "done"
     }
   ],
