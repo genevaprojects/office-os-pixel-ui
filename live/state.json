@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T01:10:55.168851+00:00",
+  "now": "2026-02-27T01:21:34.328887+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,72 +67,106 @@
       ]
     },
     {
-      "id": "P1-REV-320",
+      "id": "P1-REV-330",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Enterprise champion reactivation sequence for stalled security-cleared deals",
+      "title": "Security-approved deal velocity dashboard (weekly) for late-stage pipeline",
       "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Build 10-touch sequence with trigger timing, stakeholder mapping, and expected conversion lifts.",
-      "artifact_path": "office_os/artifacts/P1-REV-320_enterprise_champion_reactivation_sequence_2026-02-27.md"
+      "acceptance": "Define KPI set, threshold bands, and weekly review script with action routing.",
+      "artifact_path": "office_os/artifacts/P1-REV-330_security_approved_deal_velocity_dashboard_2026-02-27.md"
     },
     {
-      "id": "P1-REV-321",
+      "id": "P1-REV-331",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Deal acceleration scoreboard for weekly close probability shifts",
+      "title": "Champion-to-CFO handoff memo templates for procurement-stage deals",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Create scorecard with stage-level movement, risk flags, and next-action routing per account.",
-      "artifact_path": "office_os/artifacts/P1-REV-321_deal_acceleration_scoreboard_weekly_close_probability_2026-02-27.md"
+      "acceptance": "Create 6 templates by objection class with quantified business case fields.",
+      "artifact_path": "office_os/artifacts/P1-REV-331_champion_to_cfo_handoff_templates_2026-02-27.md"
     },
     {
-      "id": "P1-REV-324",
+      "id": "P1-REV-335",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Closed-lost resurrection trigger board with proof-first plays",
-      "owner": "RESEARCH",
+      "title": "Re-opened deal 14-day close acceleration command sheet",
+      "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Map top 15 closed-lost reasons to 2 re-entry plays each with confidence thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-324_closed_lost_resurrection_trigger_board_2026-02-27.md"
+      "acceptance": "Command sheet with daily actions, owner routing, and close/no-close decision gates.",
+      "artifact_path": "office_os/artifacts/P1-REV-335_reopened_deal_14_day_close_acceleration_2026-02-27.md"
     },
     {
-      "id": "P2-PROD-325",
+      "id": "P2-PROD-332",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
-      "title": "Activation bottleneck triage matrix for first 24h user journey",
-      "owner": "BUILDER",
+      "title": "Post-security-signoff onboarding fast-path checklist (D0-D14)",
+      "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-02-27T08:20:00+08:00",
-      "updated_at": "2026-02-27T08:20:00+08:00",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
       "depends_on": [],
       "blocked_reason": null,
-      "acceptance": "Produce bottleneck matrix with owner SLA, fix complexity, and expected activation uplift.",
-      "artifact_path": "office_os/artifacts/P2-PROD-325_activation_bottleneck_triage_matrix_first24h_2026-02-27.md"
+      "acceptance": "Checklist with owner SLA, risk gates, and measurable activation milestones.",
+      "artifact_path": "office_os/artifacts/P2-PROD-332_post_security_signoff_onboarding_fast_path_2026-02-27.md"
+    },
+    {
+      "id": "P2-PROD-336",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Enterprise trial friction incident taxonomy for CS->Product loops",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Taxonomy with severity classes, evidence fields, and auto-escalation triggers.",
+      "artifact_path": "office_os/artifacts/P2-PROD-336_enterprise_trial_friction_incident_taxonomy_2026-02-27.md"
+    },
+    {
+      "id": "P3-CONT-333",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Closed-lost comeback story content pack (proof-first)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "8 reusable posts with before/after proof schema and CTA per funnel stage.",
+      "artifact_path": "office_os/artifacts/P3-CONT-333_closed_lost_comeback_story_pack_2026-02-27.md"
     },
     {
       "id": "P4-OPS-328",
@@ -152,6 +186,23 @@
       "artifact_path": "office_os/artifacts/P4-OPS-328_autonomous_run_qa_drift_tracker_2026-02-27.md"
     },
     {
+      "id": "P4-OPS-334",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Autonomous artifact acceptance linter v2 with fail-fast rules",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Rule set covering naming, acceptance criteria coverage, and ship-log relevance scoring.",
+      "artifact_path": "office_os/artifacts/P4-OPS-334_autonomous_artifact_acceptance_linter_v2_2026-02-27.md"
+    },
+    {
       "id": "P5-REL-329",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -167,9 +218,50 @@
       "blocked_reason": null,
       "acceptance": "Document critical dependency graph, failure blast radius, and fastest safe fallback paths.",
       "artifact_path": "office_os/artifacts/P5-REL-329_cron_dependency_failure_blast_radius_quick_map_2026-02-27.md"
+    },
+    {
+      "id": "P5-REL-337",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Critical cron job fallback runbook for revenue-impacting automations",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-02-27T09:20:00+08:00",
+      "updated_at": "2026-02-27T09:20:00+08:00",
+      "impact": 3,
+      "effort": 3,
+      "urgency": 2,
+      "depends_on": [],
+      "blocked_reason": null,
+      "acceptance": "Runbook with trigger thresholds, manual failover steps, and verification checklist.",
+      "artifact_path": "office_os/artifacts/P5-REL-337_critical_cron_fallback_runbook_2026-02-27.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 09:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 09:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-324",
+      "artifact": "Closed-lost resurrection trigger board with proof-first plays",
+      "path": "office_os/artifacts/P1-REV-324_closed_lost_resurrection_trigger_board_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 09:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-320",
+      "artifact": "Enterprise champion reactivation sequence for stalled security-cleared deals",
+      "path": "office_os/artifacts/P1-REV-320_enterprise_champion_reactivation_sequence_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 08:37",
       "owner": "COMMAND",
@@ -344,30 +436,6 @@
       "taskId": "P5-REL-310",
       "artifact": "Cron run-state integrity checklist for mission-critical growth jobs",
       "path": "office_os/artifacts/P5-REL-310_cron_run_state_integrity_checklist_mission_critical_growth_jobs_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-309",
-      "artifact": "Autonomous artifact quality spot-check protocol for hourly runs",
-      "path": "office_os/artifacts/P4-OPS-309_autonomous_artifact_quality_spot_check_protocol_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-306",
-      "artifact": "Activation blocker triage lane design for enterprise onboarding squads",
-      "path": "office_os/artifacts/P2-PROD-306_activation_blocker_triage_lane_design_enterprise_onboarding_squads_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-302",
-      "artifact": "High-intent reactivation offer matrix for no-decision enterprise opportunities",
-      "path": "office_os/artifacts/P1-REV-302_high_intent_reactivation_offer_matrix_no_decision_enterprise_2026-02-27.md",
       "status": "done"
     }
   ],
