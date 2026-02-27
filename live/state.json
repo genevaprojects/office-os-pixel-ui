@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T18:30:06.738562+00:00",
+  "now": "2026-02-27T18:40:04.923486+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,25 +103,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "One-page MAP template with critical path dates, decision owners, legal/security checkpoints, and close-risk flags."
-    },
-    {
-      "id": "P1-REV-962",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Executive sponsor escalation email tree for red-zone opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "12 escalation templates by buyer role with trigger thresholds, tone variants, and expected next-step conversion KPI."
     },
     {
       "id": "P4-OPS-912",
@@ -240,6 +221,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 02:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-962",
+      "artifact": "Executive sponsor escalation email tree for red-zone opportunities",
+      "path": "office_os/artifacts/P1-REV-962_executive_sponsor_escalation_email_tree_red_zone_opportunities_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 02:26",
       "owner": "SOCIAL",
@@ -430,14 +419,6 @@
       "taskId": "P0-FE-950",
       "artifact": "Founder Desk reliability recovery bundle launcher (draft/queue)",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-949",
-      "artifact": "Overview investor confidence trend rail with drift + latency snapshots",
-      "path": "office_os_mission_control/app/page.tsx",
       "status": "done"
     }
   ],
