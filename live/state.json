@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T06:21:54.892625+00:00",
+  "now": "2026-02-27T06:30:04.610311+00:00",
   "workers": [
     {
       "name": "Research",
@@ -101,23 +101,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-381_enterprise_pilot_map_compression_template_2026-02-27.md"
     },
     {
-      "id": "P1-REV-382",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement objection pre-bunk email sequence (5 touches)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T14:20:00+08:00",
-      "updated_at": "2026-02-27T14:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Five-message sequence with objection-to-proof mapping, CTA ladder, and stop/escalate rules.",
-      "artifact_path": "office_os/artifacts/P1-REV-382_procurement_objection_prebunk_email_sequence_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-383",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -184,23 +167,6 @@
       "blocked_reason": null,
       "acceptance": "Decision tree covers top 8 behavior patterns with intervention copy and KPI benchmarks.",
       "artifact_path": "office_os/artifacts/P2-PROD-386_first_session_abandonment_rescue_tree_2026-02-27.md"
-    },
-    {
-      "id": "P3-CONT-387",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-first founder clip backlog tied to live pipeline objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T14:20:00+08:00",
-      "updated_at": "2026-02-27T14:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Backlog of 15 clips includes hook, proof asset, CTA, channel, and publish cadence.",
-      "artifact_path": "office_os/artifacts/P3-CONT-387_proof_first_founder_clip_backlog_2026-02-27.md"
     },
     {
       "id": "P4-OPS-388",
