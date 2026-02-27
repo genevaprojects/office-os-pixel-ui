@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T17:50:06.736026+00:00",
+  "now": "2026-02-27T18:00:08.255159+00:00",
   "workers": [
     {
       "name": "Research",
@@ -279,6 +279,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 01:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-960",
+      "artifact": "Team sync trust strip (latency + stale/degraded state visibility)",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 01:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-959",
+      "artifact": "Founder Desk recovery bundle queue acceleration (dedupe + concurrent submit + single refresh)",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 01:25",
       "owner": "SOCIAL",
       "taskId": "P3-CONT-954",
@@ -460,22 +476,6 @@
       "taskId": "P5-REL-920",
       "artifact": "Automation fail-safe checklist for re-entry campaigns",
       "path": "office_os/artifacts/P5-REL-920_automation_fail_safe_checklist_re_entry_campaigns_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:05",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-940",
-      "artifact": "Executive one-click copy briefs for decisions/incidents",
-      "path": "office_os/artifacts/P0-FE-940_executive_copyable_brief_actions_2026-02-28.md",
       "status": "done"
     }
   ],
