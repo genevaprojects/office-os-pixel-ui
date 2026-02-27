@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T13:05:54.638737+00:00",
+  "now": "2026-02-27T13:10:05.731513+00:00",
   "workers": [
     {
       "name": "Research",
@@ -82,7 +82,7 @@
       "acceptance": "Prompt stack flags at-risk deals by stage with next best action and confidence labels.",
       "artifact_path": "office_os/artifacts/P1-REV-431_deal_slippage_early_warning_prompt_stack_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028207+08:00"
     },
     {
       "id": "P1-REV-433",
@@ -100,7 +100,7 @@
       "acceptance": "Matrix maps 30 proof snippets to CFO/CTO/Ops buyers and TOFU-MOFU-BOFU stages with usage triggers.",
       "artifact_path": "office_os/artifacts/P1-REV-433_proof_snippet_recommendation_matrix_buyer_role_funnel_stage_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028222+08:00"
     },
     {
       "id": "P1-REV-434",
@@ -118,7 +118,7 @@
       "acceptance": "One-pager template with account context, likely objections, proof blocks, and clear close objective.",
       "artifact_path": "office_os/artifacts/P1-REV-434_founder_close_call_prep_one_pager_top10_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028227+08:00"
     },
     {
       "id": "P2-PROD-435",
@@ -136,7 +136,7 @@
       "acceptance": "7 tests with hypothesis, expected lift, owner, and kill/scale criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-435_activation_dropoff_intervention_ab_backlog_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028232+08:00"
     },
     {
       "id": "P3-CONT-438",
@@ -154,7 +154,7 @@
       "acceptance": "Queue format defines source clip, objection, proof moment, platform cut, and CTA target.",
       "artifact_path": "office_os/artifacts/P3-CONT-438_short_form_clip_repurposing_queue_live_sales_calls_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028237+08:00"
     },
     {
       "id": "P4-OPS-439",
@@ -172,10 +172,18 @@
       "acceptance": "Sampler checks at least 5 newly added tasks per run for measurable acceptance and owner fit.",
       "artifact_path": "office_os/artifacts/P4-OPS-439_autonomous_backlog_topup_quality_sampler_2026-02-27.md",
       "created_at": "2026-02-27T20:20:00+08:00",
-      "updated_at": "2026-02-27T20:20:00+08:00"
+      "updated_at": "2026-02-27T21:07:03.028241+08:00"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 20:37",
       "owner": "COMMAND",
@@ -366,14 +374,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to >=10 with priority-weighted tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:20",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-399",
-      "artifact": "Cron artifact restore drill checklist for last-known-good recovery",
-      "path": "office_os/artifacts/P5-REL-399_cron_artifact_restore_drill_checklist_2026-02-27.md",
       "status": "done"
     }
   ],
