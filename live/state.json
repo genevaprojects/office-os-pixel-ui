@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T05:30:07.922980+00:00",
+  "now": "2026-02-27T05:40:07.527705+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,23 +86,6 @@
     {
       "created_at": "2026-02-27T13:20:00+08:00",
       "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P1-REV-372",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Enterprise deal acceleration mutual-action-plan email pack",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "8 email templates for stalled late-stage deals with MAP milestones, deadlines, and close-risk triggers.",
-      "artifact_path": "office_os/artifacts/P1-REV-372_enterprise_deal_acceleration_map_email_pack_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
       "id": "P1-REV-373",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -150,23 +133,6 @@
       "blocked_reason": null,
       "acceptance": "7 experiments with trigger logic, owner, expected uplift, and rollback condition.",
       "artifact_path": "office_os/artifacts/P2-PROD-376_activation_dropoff_recovery_experiment_sheet_2026-02-27.md"
-    },
-    {
-      "created_at": "2026-02-27T13:20:00+08:00",
-      "updated_at": "2026-02-27T13:20:00+08:00",
-      "id": "P2-PROD-377",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-session aha instrumentation validation checklist v2",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist covering event integrity, latency, missing payloads, and QA signoff path.",
-      "artifact_path": "office_os/artifacts/P2-PROD-377_first_session_aha_instrumentation_validation_checklist_v2_2026-02-27.md"
     },
     {
       "created_at": "2026-02-27T13:20:00+08:00",
