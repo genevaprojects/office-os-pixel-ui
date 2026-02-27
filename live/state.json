@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T19:30:06.030041+00:00",
+  "now": "2026-02-27T19:40:07.298848+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Scoreboard template with stage aging, risk flags, owner next action, and weekly recovered-pipeline KPI."
     },
     {
-      "id": "P1-REV-968",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led urgency proof script stack for end-of-quarter closes",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-02T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "10 script blocks for DM/email/call with urgency framing, proof insertion points, and objection fallback lines."
-    },
-    {
       "id": "P2-PROD-970",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -141,25 +122,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Decision tree mapping anomaly signatures to intervention actions, owner SLA, and verification metrics."
-    },
-    {
-      "id": "P2-PROD-971",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Fast-lane onboarding handoff brief template for reopened enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T03:20:00+08:00",
-      "updated_at": "2026-02-28T03:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes deal context, blockers, success criteria, owner checklist, and D1/D7 verification fields."
     },
     {
       "id": "P4-OPS-965",
@@ -220,6 +182,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-971",
+      "artifact": "Fast-lane onboarding handoff brief template for reopened enterprise deals",
+      "path": "office_os/artifacts/P2-PROD-971_fast_lane_onboarding_handoff_brief_template_reopened_enterprise_deals_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-968",
+      "artifact": "Founder-led urgency proof script stack for end-of-quarter closes",
+      "path": "office_os/artifacts/P1-REV-968_founder_led_urgency_proof_script_stack_end_of_quarter_closes_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 03:26",
       "owner": "SOCIAL",
@@ -402,22 +380,6 @@
       "taskId": "P2-PROD-952",
       "artifact": "Activation regression hotfix triage board template with severity lanes and 24h verification SLA",
       "path": "office_os/artifacts/P2-PROD-952_activation_regression_hotfix_triage_board_24h_verification_sla_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-948",
-      "artifact": "Proof-led proposal section library (12 reusable objection blocks + measurable placeholders + CTA next-steps)",
-      "path": "office_os/artifacts/P1-REV-948_proof_led_proposal_section_library_procurement_finance_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 02:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
