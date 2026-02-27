@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T01:30:08.613191+00:00",
+  "now": "2026-02-27T01:40:05.322680+00:00",
   "workers": [
     {
       "name": "Research",
@@ -101,40 +101,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-331_champion_to_cfo_handoff_templates_2026-02-27.md"
     },
     {
-      "id": "P1-REV-335",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Re-opened deal 14-day close acceleration command sheet",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Command sheet with daily actions, owner routing, and close/no-close decision gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-335_reopened_deal_14_day_close_acceleration_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-332",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Post-security-signoff onboarding fast-path checklist (D0-D14)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T09:20:00+08:00",
-      "updated_at": "2026-02-27T09:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist with owner SLA, risk gates, and measurable activation milestones.",
-      "artifact_path": "office_os/artifacts/P2-PROD-332_post_security_signoff_onboarding_fast_path_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-336",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -227,6 +193,22 @@
       "taskId": "P3-CONT-333",
       "artifact": "Closed-lost comeback story content pack (proof-first, 8 reusable posts)",
       "path": "office_os/artifacts/P3-CONT-333_closed_lost_comeback_story_pack_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 09:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-332",
+      "artifact": "Post-security-signoff onboarding fast-path checklist (D0-D14)",
+      "path": "office_os/artifacts/P2-PROD-332_post_security_signoff_onboarding_fast_path_checklist_D0_D14_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 09:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-335",
+      "artifact": "Re-opened deal 14-day close acceleration command sheet",
+      "path": "office_os/artifacts/P1-REV-335_reopened_deal_14_day_close_acceleration_command_sheet_2026-02-27.md",
       "status": "done"
     },
     {
@@ -403,22 +385,6 @@
       "taskId": "P0-FE-056",
       "artifact": "Founder Desk immediate reliability actions with one-click command drafts",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:23",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-055",
-      "artifact": "Overview 90-second demo narrative strip tied to weakest live signal",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 07:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
