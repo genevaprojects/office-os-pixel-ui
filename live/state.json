@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T07:30:07.510013+00:00",
+  "now": "2026-02-27T07:40:05.338932+00:00",
   "workers": [
     {
       "name": "Research",
@@ -101,23 +101,6 @@
       "updated_at": "2026-02-27T15:20:00+08:00"
     },
     {
-      "id": "P1-REV-392",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Win/loss signal extraction template tied to next-week revenue actions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template captures top 10 win/loss causes, evidence links, and one action per cause with owner/date.",
-      "artifact_path": "office_os/artifacts/P1-REV-392_win_loss_signal_extraction_template_2026-02-27.md",
-      "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
-    },
-    {
       "id": "P1-REV-394",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -148,23 +131,6 @@
       "blocked_reason": null,
       "acceptance": "Board defines anomaly severity lanes, owner SLA, and verification criteria for activation recovery.",
       "artifact_path": "office_os/artifacts/P2-PROD-395_activation_anomaly_triage_board_enterprise_trials_2026-02-27.md",
-      "created_at": "2026-02-27T15:20:00+08:00",
-      "updated_at": "2026-02-27T15:20:00+08:00"
-    },
-    {
-      "id": "P2-PROD-396",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding handoff QA rubric between growth and delivery teams",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Rubric includes pass/fail checks, defect taxonomy, and escalation path for failed handoffs.",
-      "artifact_path": "office_os/artifacts/P2-PROD-396_onboarding_handoff_qa_rubric_growth_delivery_2026-02-27.md",
       "created_at": "2026-02-27T15:20:00+08:00",
       "updated_at": "2026-02-27T15:20:00+08:00"
     },
@@ -204,6 +170,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-396",
+      "artifact": "Onboarding handoff QA rubric between growth and delivery teams",
+      "path": "office_os/artifacts/P2-PROD-396_onboarding_handoff_qa_rubric_growth_delivery_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-392",
+      "artifact": "Win/loss signal extraction template tied to next-week revenue actions",
+      "path": "office_os/artifacts/P1-REV-392_win_loss_signal_extraction_template_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 15:25",
       "owner": "SOCIAL",
@@ -378,30 +368,6 @@
       "taskId": "P4-OPS-359",
       "artifact": "Autonomous stale-task recovery playbook v2",
       "path": "office_os/artifacts/P4-OPS-359_autonomous_stale_task_recovery_playbook_v2_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 12:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-356",
-      "artifact": "Activation drop-off instrumentation patch list (top 10 friction points)",
-      "path": "office_os/artifacts/P2-PROD-356_activation_dropoff_instrumentation_patch_list_top10_friction_points_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 12:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-353",
-      "artifact": "Champion enablement memo pack for multithreaded enterprise deals",
-      "path": "office_os/artifacts/P1-REV-353_champion_enablement_memo_pack_multithreaded_enterprise_deals_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 12:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
