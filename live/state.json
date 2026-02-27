@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T18:21:32.670018+00:00",
+  "now": "2026-02-27T18:30:06.738562+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,44 +124,6 @@
       "acceptance": "12 escalation templates by buyer role with trigger thresholds, tone variants, and expected next-step conversion KPI."
     },
     {
-      "id": "P2-PROD-963",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Post-sale onboarding fast-lane checklist for reactivated enterprise accounts",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist with D0/D3/D7 milestones, owner handoffs, and adoption-risk mitigation actions."
-    },
-    {
-      "id": "P3-CONT-964",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Deal-proof micro-content remix board from closed-won evidence",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T02:20:00+08:00",
-      "updated_at": "2026-02-28T02:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-04T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "20 short-form content ideas mapped to objection category, evidence source, and CTA for pipeline acceleration."
-    },
-    {
       "id": "P4-OPS-912",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +240,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 02:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-964",
+      "artifact": "Deal-proof micro-content remix board from closed-won evidence",
+      "path": "office_os/artifacts/P3-CONT-964_deal_proof_micro_content_remix_board_closed_won_evidence_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P2-PROD-963",
+      "artifact": "Post-sale onboarding fast-lane checklist for reactivated enterprise accounts",
+      "path": "office_os/artifacts/P2-PROD-963_post_sale_onboarding_fast_lane_checklist_reactivated_enterprise_accounts_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:21",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-962",
+      "artifact": "Team weakest-lane hot-swap command bundle",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:21",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-961",
+      "artifact": "Founder Desk single-thread intervention rail",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 02:20",
       "owner": "COMMAND",
@@ -444,38 +438,6 @@
       "taskId": "P0-FE-949",
       "artifact": "Overview investor confidence trend rail with drift + latency snapshots",
       "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:36",
-      "owner": "EXECUTOR",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to >=10)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:38",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-942",
-      "artifact": "Quarter-end signature unblock checklist for procurement-stalled enterprise deals",
-      "path": "office_os/artifacts/P1-REV-942_quarter_end_signature_unblock_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-941",
-      "artifact": "Procurement redline fast-lane playbook with fallback offer structure",
-      "path": "office_os/artifacts/P1-REV-941_procurement_redline_fast_lane_playbook_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:29",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-944",
-      "artifact": "Reactivation comment-to-DM script stack (12 objection-first replies)",
-      "path": "office_os/artifacts/P3-CONT-944_reactivation_comment_to_dm_script_stack_2026-02-28.md",
       "status": "done"
     }
   ],
