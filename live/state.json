@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T13:21:34.053831+00:00",
+  "now": "2026-02-27T13:30:05.766113+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-906_mutual_action_plan_compression_template_sub14day_2026-02-27.md"
     },
     {
-      "id": "P1-REV-907",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder authority proof drop calendar for late-stage objection windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Calendar maps proof drops to objection timing with CTA and expected progression signal.",
-      "artifact_path": "office_os/artifacts/P1-REV-907_founder_authority_proof_drop_calendar_objection_windows_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-908",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -205,26 +185,6 @@
       "updated_at": "2026-02-27T21:07:03.028237+08:00"
     },
     {
-      "id": "P3-CONT-911",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-led short video sequence for security/procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T21:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-03T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines clip angle, proof moment, and CTA by objection cluster.",
-      "artifact_path": "office_os/artifacts/P3-CONT-911_proof_led_short_video_sequence_security_procurement_2026-02-27.md"
-    },
-    {
       "id": "P4-OPS-439",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -264,6 +224,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-911",
+      "artifact": "Proof-led short video sequence for security/procurement objections",
+      "path": "office_os/artifacts/P3-CONT-911_proof_led_short_video_sequence_security_procurement_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-907",
+      "artifact": "Founder authority proof drop calendar for late-stage objection windows",
+      "path": "office_os/artifacts/P1-REV-907_founder_authority_proof_drop_calendar_objection_windows_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 21:20",
       "owner": "COMMAND",
@@ -446,22 +422,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-413",
-      "artifact": "Onboarding instrumentation gap patch list",
-      "path": "office_os/artifacts/P2-PROD-413_onboarding_instrumentation_gap_patch_list_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 18:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-416",
-      "artifact": "Procurement delay counterplay script pack",
-      "path": "office_os/artifacts/P1-REV-416_procurement_delay_counterplay_script_pack_2026-02-27.md",
       "status": "done"
     }
   ],
