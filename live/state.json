@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T22:30:05.282764+00:00",
+  "now": "2026-02-27T22:40:05.026595+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1223",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "7-day late-stage deal unblock standup protocol",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Define daily standup format with owner commitments, risk flags, and same-day unblock SLA.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-1225",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -144,26 +124,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Prioritize top 12 instrumentation gaps with event definitions, owners, and deploy order.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-1226",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Enterprise trial rescue SLA ladder",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T06:20:00+08:00",
-      "updated_at": "2026-02-28T06:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-09T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Define D1/D3/D7 rescue triggers, owner routing, and rollback criteria for failed interventions.",
       "artifact_path": null
     },
     {
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 06:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1226",
+      "artifact": "Enterprise trial rescue SLA ladder",
+      "path": "office_os/artifacts/P2-PROD-1226_enterprise_trial_rescue_sla_ladder_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 06:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1223",
+      "artifact": "7-day late-stage deal unblock standup protocol",
+      "path": "office_os/artifacts/P1-REV-1223_late_stage_deal_unblock_standup_protocol_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 06:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P1-REV-1204",
       "artifact": "Mutual action plan acceleration checklist for sub-30-day close cycles",
       "path": "office_os/artifacts/P1-REV-1204_mutual_action_plan_acceleration_checklist_sub30_day_close_cycles_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:50",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-975",
-      "artifact": "Team live reassignment suggestions for low-readiness lanes",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 04:50",
-      "owner": "COMMAND",
-      "taskId": "P0-FE-974",
-      "artifact": "Founder Desk next-30-minute command strip with one-click draft/queue",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
