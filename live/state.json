@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T20:50:05.882270+00:00",
+  "now": "2026-02-27T21:00:07.641553+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 04:50",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-975",
+      "artifact": "Team live reassignment suggestions for low-readiness lanes",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 04:50",
+      "owner": "COMMAND",
+      "taskId": "P0-FE-974",
+      "artifact": "Founder Desk next-30-minute command strip with one-click draft/queue",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 04:35",
       "owner": "EXECUTOR",
       "taskId": "P2-PROD-1207",
@@ -370,22 +386,6 @@
       "taskId": "P5-REL-946",
       "artifact": "Cron artifact path consistency validator spec for ship-log/backlog parity",
       "path": "office_os/artifacts/P5-REL-946_cron_artifact_path_consistency_validator_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-961",
-      "artifact": "Mutual action plan compression template for security+procurement stage",
-      "path": "office_os/artifacts/P1-REV-961_mutual_action_plan_compression_template_security_procurement_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 03:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
