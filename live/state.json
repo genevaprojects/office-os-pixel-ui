@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T18:50:06.265889+00:00",
+  "now": "2026-02-27T19:00:07.073724+00:00",
   "workers": [
     {
       "name": "Research",
@@ -222,6 +222,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 02:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-964",
+      "artifact": "Founder Desk hard-stop NO-GO banner with immediate recovery actions",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-963",
+      "artifact": "Command reliability rail + one-click recovery routing (Pixel UI)",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 02:35",
       "owner": "EXECUTOR",
       "taskId": "P1-REV-962",
@@ -403,22 +419,6 @@
       "taskId": "P1-REV-944",
       "artifact": "Security-review objection reversal brief (procurement committee unblock checkpoints)",
       "path": "office_os/artifacts/P1-REV-944_security_review_objection_reversal_brief_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 01:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-940",
-      "artifact": "Enterprise champion multithread reactivation map (economic + technical buyer routing)",
-      "path": "office_os/artifacts/P1-REV-940_enterprise_champion_multithread_reactivation_map_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-950",
-      "artifact": "Founder Desk reliability recovery bundle launcher (draft/queue)",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
