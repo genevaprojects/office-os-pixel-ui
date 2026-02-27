@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T10:30:05.116890+00:00",
+  "now": "2026-02-27T10:40:07.742769+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-405_founder_weekly_deal_unblock_standup_format_2026-02-27.md"
     },
     {
-      "id": "P1-REV-416",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Procurement delay counterplay script pack",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Pack includes 8 scripts for legal/procurement delay rebuttal with timeline compression tactics.",
-      "artifact_path": "office_os/artifacts/P1-REV-416_procurement_delay_counterplay_script_pack_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-407",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -116,23 +99,6 @@
       "blocked_reason": null,
       "acceptance": "Playbook identifies top 10 delays with targeted fixes, expected lift, and instrumentation checkpoints.",
       "artifact_path": "office_os/artifacts/P2-PROD-407_first_value_time_compression_playbook_under_5min_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-413",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Onboarding instrumentation gap patch list",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T18:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Patch list maps missing events to owner, implementation effort, and verification query.",
-      "artifact_path": "office_os/artifacts/P2-PROD-413_onboarding_instrumentation_gap_patch_list_2026-02-27.md"
     },
     {
       "id": "P4-OPS-409",
@@ -204,6 +170,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 18:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 18:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-413",
+      "artifact": "Onboarding instrumentation gap patch list",
+      "path": "office_os/artifacts/P2-PROD-413_onboarding_instrumentation_gap_patch_list_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 18:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-416",
+      "artifact": "Procurement delay counterplay script pack",
+      "path": "office_os/artifacts/P1-REV-416_procurement_delay_counterplay_script_pack_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 18:27",
       "owner": "SOCIAL",
@@ -378,30 +368,6 @@
       "taskId": "P2-PROD-406",
       "artifact": "Trial setup friction replay checklist from session logs",
       "path": "office_os/artifacts/P2-PROD-406_trial_setup_friction_replay_checklist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-400",
-      "artifact": "Enterprise mutual action plan compression template (decision-path in 1 page)",
-      "path": "office_os/artifacts/P1-REV-400_enterprise_map_compression_template_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-409",
-      "artifact": "Critical cron rerun evidence capture checklist",
-      "path": "office_os/artifacts/P5-REL-409_critical_cron_rerun_evidence_checklist_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 16:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-402",
-      "artifact": "Procurement stall-breaker sequence (5 touchpoints, 10 days)",
-      "path": "office_os/artifacts/P1-REV-402_procurement_stall_breaker_sequence_2026-02-27.md",
       "status": "done"
     }
   ],
