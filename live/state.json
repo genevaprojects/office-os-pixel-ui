@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T11:30:06.080986+00:00",
+  "now": "2026-02-27T11:40:05.068659+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,24 +103,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-423_closed_won_proof_extraction_sop_2026-02-27.md"
     },
     {
-      "id": "P1-REV-424",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Executive sponsor escalation email kit for stalled procurement stage",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T19:20:00+08:00",
-      "updated_at": "2026-02-27T19:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": "2026-03-01T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "8 email templates mapped to stall reasons with CTA and measurable next-step commitments.",
-      "artifact_path": "office_os/artifacts/P1-REV-424_exec_sponsor_escalation_email_kit_2026-02-27.md"
-    },
-    {
       "id": "P2-PROD-426",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -190,26 +172,25 @@
       "blocked_reason": null,
       "acceptance": "Format yields <90-second skim summary with shipped artifacts, status changes, and next risks.",
       "artifact_path": "office_os/artifacts/P4-OPS-429_autonomous_run_summary_compression_format_2026-02-27.md"
-    },
-    {
-      "id": "P5-REL-410",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Artifact checksum manifest SOP for critical cron outputs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T18:20:00+08:00",
-      "updated_at": "2026-02-27T19:07:03.136751+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "SOP defines manifest schema, generation cadence, verification points, and incident response on checksum drift.",
-      "artifact_path": "office_os/artifacts/P5-REL-410_artifact_checksum_manifest_sop_critical_cron_outputs_2026-02-27.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-27 19:37",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-410",
+      "artifact": "Artifact checksum manifest SOP for critical cron outputs (schema, cadence, verification points, drift incident response)",
+      "path": "office_os/artifacts/P5-REL-410_artifact_checksum_manifest_sop_critical_cron_outputs_2026-02-27.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-27 19:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-424",
+      "artifact": "Executive sponsor escalation email kit (8 templates mapped to procurement stall reasons + measurable CTA commitments)",
+      "path": "office_os/artifacts/P1-REV-424_exec_sponsor_escalation_email_kit_2026-02-27.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 19:26",
       "owner": "SOCIAL",
@@ -392,22 +373,6 @@
       "taskId": "P2-PROD-416",
       "artifact": "Onboarding incident communication matrix (severity-to-channel/owner/ETA + recovery cadence)",
       "path": "office_os/artifacts/P2-PROD-416_onboarding_incident_communication_matrix_internal_+_customer_safe_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-412",
-      "artifact": "Late-stage decision deadline acceleration script tree (5 urgency-safe branches + stop/escalate + CTA ladder)",
-      "path": "office_os/artifacts/P1-REV-412_late_stage_decision_deadline_acceleration_script_tree_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 17:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-417",
-      "artifact": "Proof-first short-post batch plan for top funnel objections",
-      "path": "office_os/artifacts/P3-CONT-417_proof_first_short_post_batch_plan_for_top_funnel_objections_2026-02-27.md",
       "status": "done"
     }
   ],
