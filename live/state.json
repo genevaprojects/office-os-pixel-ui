@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T16:00:07.508220+00:00",
+  "now": "2026-02-27T16:10:05.188088+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-27T23:21:06+08:00",
-      "updated_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-28T00:07:02.023522+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -94,7 +94,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-02-27T23:21:06+08:00",
-      "updated_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-28T00:07:02.023536+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -114,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T21:20:00+08:00",
-      "updated_at": "2026-02-27T22:07:02.185795+08:00",
+      "updated_at": "2026-02-28T00:07:02.023543+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -134,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-27T22:20:00+08:00",
-      "updated_at": "2026-02-27T22:20:00+08:00",
+      "updated_at": "2026-02-28T00:07:02.023548+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +154,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-27T23:05:00+08:00",
-      "updated_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-28T00:07:02.023553+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -174,7 +174,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T23:21:06+08:00",
-      "updated_at": "2026-02-27T23:21:06+08:00",
+      "updated_at": "2026-02-28T00:07:02.023561+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -194,7 +194,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-27T23:05:00+08:00",
-      "updated_at": "2026-02-27T23:05:00+08:00",
+      "updated_at": "2026-02-28T00:07:02.023557+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -208,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 00:05",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-940",
+      "artifact": "Executive one-click copy briefs for decisions/incidents",
+      "path": "office_os/artifacts/P0-FE-940_executive_copyable_brief_actions_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 00:05",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-939",
+      "artifact": "Command palette contextual live jumps (task/monitor aware)",
+      "path": "office_os/artifacts/P0-FE-939_command_palette_contextual_live_jumps_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-27 23:50",
       "owner": "BUILDER",
@@ -382,30 +406,6 @@
       "taskId": "P0-FE-078",
       "artifact": "Founder Desk aged-decision escalation bundle for one-click command drafting",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 22:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-077",
-      "artifact": "Role Clarity Board for owner-confidence + assignment visibility",
-      "path": "office_os_pixel_ui/public/index.html; office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:08",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-915",
-      "artifact": "Stakeholder-persona re-entry messaging pack",
-      "path": "office_os/artifacts/P1-REV-915_stakeholder_persona_reentry_messaging_pack_2026-02-27.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-27 23:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-914",
-      "artifact": "Closed-lost resurrection trigger matrix by objection cluster",
-      "path": "office_os/artifacts/P1-REV-914_closed_lost_resurrection_trigger_matrix_2026-02-27.md",
       "status": "done"
     }
   ],
