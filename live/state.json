@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T18:10:04.450286+00:00",
+  "now": "2026-02-27T18:21:32.670018+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-948",
+      "id": "P1-REV-960",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Proof-led proposal section library for procurement and finance objections",
-      "owner": "BUILDER",
+      "title": "Champion decay early-warning prompt pack for enterprise deals",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T02:07:04.869864+08:00",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -83,36 +83,55 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "12 reusable proposal blocks mapped to top objections with measurable claim placeholders and CTA next-steps."
+      "acceptance": "15 prompt templates triggered by silence/risk signals with owner routing and expected response windows."
     },
     {
-      "id": "P1-REV-951",
+      "id": "P1-REV-961",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Deal slippage prevention standup script (15-minute daily) for top accounts",
-      "owner": "COMMAND",
+      "title": "Mutual action plan compression template for security+procurement stage",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T02:07:04.869850+08:00",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
       "impact": 5,
-      "effort": 2,
+      "effort": 3,
       "urgency": 4,
       "due_at": "2026-03-02T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Facilitator script + checklist + escalation matrix producing daily unblock actions per account."
+      "acceptance": "One-page MAP template with critical path dates, decision owners, legal/security checkpoints, and close-risk flags."
     },
     {
-      "id": "P2-PROD-952",
+      "id": "P1-REV-962",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Executive sponsor escalation email tree for red-zone opportunities",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": "2026-03-02T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "12 escalation templates by buyer role with trigger thresholds, tone variants, and expected next-step conversion KPI."
+    },
+    {
+      "id": "P2-PROD-963",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
-      "title": "Activation regression hotfix triage board with 24h verification SLA",
-      "owner": "BUILDER",
+      "title": "Post-sale onboarding fast-lane checklist for reactivated enterprise accounts",
+      "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T02:07:04.869869+08:00",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -121,7 +140,26 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Board template with severity lanes, owner, patch ETA, and verification step for each regression."
+      "acceptance": "Checklist with D0/D3/D7 milestones, owner handoffs, and adoption-risk mitigation actions."
+    },
+    {
+      "id": "P3-CONT-964",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Deal-proof micro-content remix board from closed-won evidence",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
+      "impact": 4,
+      "effort": 3,
+      "urgency": 3,
+      "due_at": "2026-03-04T23:59:00+08:00",
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "20 short-form content ideas mapped to objection category, evidence source, and CTA for pipeline acceleration."
     },
     {
       "id": "P4-OPS-912",
@@ -184,23 +222,23 @@
       "artifact_path": "office_os/artifacts/P4-OPS-919_closed_lost_trigger_detection_sop_2026-02-27.md"
     },
     {
-      "id": "P4-OPS-955",
+      "id": "P4-OPS-965",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Autonomous task state-change audit script spec (READY↔IN_PROGRESS↔DONE)",
+      "title": "Autonomous backlog top-up quality sampler v4 with duplicate-task guard",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-02-28T01:20:50+08:00",
-      "updated_at": "2026-02-28T02:07:04.869874+08:00",
+      "created_at": "2026-02-28T02:20:00+08:00",
+      "updated_at": "2026-02-28T02:20:00+08:00",
       "impact": 3,
-      "effort": 2,
+      "effort": 3,
       "urgency": 3,
       "due_at": "2026-03-04T23:59:00+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Spec with required audit fields, anomaly detection rules, and hourly report output format."
+      "acceptance": "Sampling rubric that checks novelty, acceptance clarity, and priority-fit before top-up tasks are committed."
     },
     {
       "id": "P5-REL-946",
@@ -240,6 +278,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 02:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to >=10)",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-955",
+      "artifact": "Autonomous task state-change audit script spec",
+      "path": "office_os/artifacts/P4-OPS-955_autonomous_task_state_change_audit_script_spec_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:20",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-951",
+      "artifact": "Deal slippage prevention standup script (15-minute daily for top accounts)",
+      "path": "office_os/artifacts/P1-REV-951_deal_slippage_prevention_standup_script_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:16",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-952",
+      "artifact": "Activation regression hotfix triage board template with severity lanes and 24h verification SLA",
+      "path": "office_os/artifacts/P2-PROD-952_activation_regression_hotfix_triage_board_24h_verification_sla_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 02:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-948",
+      "artifact": "Proof-led proposal section library (12 reusable objection blocks + measurable placeholders + CTA next-steps)",
+      "path": "office_os/artifacts/P1-REV-948_proof_led_proposal_section_library_procurement_finance_objections_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 02:07",
       "owner": "COMMAND",
@@ -398,46 +476,6 @@
       "taskId": "P3-CONT-944",
       "artifact": "Reactivation comment-to-DM script stack (12 objection-first replies)",
       "path": "office_os/artifacts/P3-CONT-944_reactivation_comment_to_dm_script_stack_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-943",
-      "artifact": "Closed-lost comeback narrative bank (15 objection-first post angles)",
-      "path": "office_os/artifacts/P3-CONT-943_closed_lost_comeback_narrative_bank_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:24",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-942",
-      "artifact": "Demo-gate recovery quick action (action-only monitors + needs-action backlog pivot)",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:24",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-941",
-      "artifact": "Decision queue resilience for mixed payload feeds (array + count fallback)",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to 10 with weighted tasks P1-P5)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 00:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-936",
-      "artifact": "Reopen-win proof clip storyboard pack (10 assets with hook/proof/CTA + objection tags)",
-      "path": "office_os/artifacts/P3-CONT-936_reopen_win_proof_clip_storyboard_pack_2026-02-27.md",
       "status": "done"
     }
   ],
