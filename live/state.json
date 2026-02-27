@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T02:30:06.284592+00:00",
+  "now": "2026-02-27T02:40:12.024372+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,23 +84,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-338_pipeline_velocity_chokepoint_audit_2026-02-27.md"
     },
     {
-      "id": "P1-REV-339",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion-to-procurement handoff acceleration script pack",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T10:21:05+08:00",
-      "updated_at": "2026-02-27T10:21:05+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Deliver 8 scripts/templates to cut handoff lag and increase proposal progression rate.",
-      "artifact_path": "office_os/artifacts/P1-REV-339_champion_to_procurement_handoff_script_pack_2026-02-27.md"
-    },
-    {
       "id": "P1-REV-340",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -133,23 +116,6 @@
       "blocked_reason": null,
       "acceptance": "Prioritized experiment board with owner, metric, stop/scale criteria, and 72h review cadence.",
       "artifact_path": "office_os/artifacts/P2-PROD-341_activation_first_value_latency_experiment_board_2026-02-27.md"
-    },
-    {
-      "id": "P2-PROD-342",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Enterprise onboarding risk triage matrix v2",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-27T10:21:05+08:00",
-      "updated_at": "2026-02-27T10:21:05+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Matrix mapping risk signatures to intervention SLA and accountable owner.",
-      "artifact_path": "office_os/artifacts/P2-PROD-342_enterprise_onboarding_risk_triage_matrix_v2_2026-02-27.md"
     },
     {
       "id": "P4-OPS-345",
