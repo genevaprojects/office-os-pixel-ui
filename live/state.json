@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T15:00:07.683489+00:00",
+  "now": "2026-02-28T15:10:05.435025+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1401",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design 3-step pilot rescue offer ladder with ROI-backed reopen triggers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 3 offer tiers, trigger rules, and expected conversion hypotheses."
-    },
-    {
       "id": "P1-REV-1404",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
+      "updated_at": "2026-02-28T23:07:05.290574+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -105,25 +86,6 @@
       "acceptance": "Template provides 30-minute agenda with objection-proof blocks and next-step commitments."
     },
     {
-      "id": "P1-REV-1405",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Map 14-day no-decision recovery sequence for enterprise opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes day-by-day touchpoints, message goals, and stop/scale criteria."
-    },
-    {
       "id": "P2-PROD-1406",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -131,7 +93,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
+      "updated_at": "2026-02-28T23:07:05.290588+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -150,7 +112,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
+      "updated_at": "2026-02-28T23:07:05.290594+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T22:21:27+08:00",
-      "updated_at": "2026-02-28T22:21:27+08:00",
+      "updated_at": "2026-02-28T23:07:05.290599+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,6 +144,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 23:08",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1405",
+      "artifact": "14-day no-decision recovery sequence for enterprise opportunities",
+      "path": "office_os/artifacts/P1-REV-1405_no_decision_recovery_sequence_enterprise_14_day_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 23:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1401",
+      "artifact": "Pilot rescue offer ladder with ROI-backed reopen triggers",
+      "path": "office_os/artifacts/P1-REV-1401_pilot_rescue_offer_ladder_roi_reopen_triggers_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 22:37",
       "owner": "COMMAND",
@@ -357,30 +343,6 @@
       "artifact": "Late-stage deal rescue scorecard with weekly kill/scale rules",
       "path": "office_os/artifacts/P1-REV-1383_late_stage_deal_rescue_scorecard_weekly_kill_scale_rules_2026-02-28.md",
       "status": "done"
-    },
-    {
-      "time": "2026-02-28 20:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 20:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1387",
-      "artifact": "First-value SLA dashboard schema for customer success handoff",
-      "path": "office_os/artifacts/P2-PROD-1387_first_value_sla_dashboard_schema_cs_handoff_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 20:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1388",
-      "artifact": "10 proof-led short-post hooks for procurement objections",
-      "path": "office_os/artifacts/P3-CONT-1388_proof_led_short_post_hooks_procurement_objections_2026-02-28.md",
-      "status": "done2026-02-28 20:35"
     }
   ],
   "alertCount": 1,
