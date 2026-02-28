@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T00:01:23.496674+00:00",
+  "now": "2026-02-28T00:10:05.010845+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1231",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Founder-led outbound priority account reactivation sprint (Top 20)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "acceptance": "Top 20 dormant high-intent accounts with trigger reason, personalized reactivation angle, and 7-day follow-up cadence.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1232",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -100,7 +80,7 @@
       "acceptance": "30 reusable proof snippets tagged by objection type, buyer role, and quantified outcome placeholder format.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092630+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -120,7 +100,7 @@
       "acceptance": "10 co-selling scripts for partner channels with CTA ladder and anti-spam guardrails.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092642+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -140,7 +120,7 @@
       "acceptance": "Checklist covers funnel leak points, owner accountability field, and corrective action SLA per stage.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092649+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -160,27 +140,7 @@
       "acceptance": "Escalation map with blocker severity lanes, owner routing, and max response time per lane.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1237",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-value telemetry QA pack for onboarding experiments",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-10T23:59:00+08:00",
-      "acceptance": "QA pack includes event list, expected payload schema, failure signatures, and verification checklist.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092654+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -200,7 +160,7 @@
       "acceptance": "7 post drafts with hook, proof point, contrarian angle, and distribution CTA by channel.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092658+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -220,7 +180,7 @@
       "acceptance": "Rule update defines duplicate thresholds, review window, and remediation actions with examples.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T07:22:30+08:00",
+      "updated_at": "2026-02-28T08:07:02.092663+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 07:50",
       "owner": "BUILDER",
@@ -418,14 +386,6 @@
       "taskId": "P1-REV-1212",
       "artifact": "Deal desk daily scoreboard template with weighted auto-priority and SLA breach routing",
       "path": "office_os/artifacts/P1-REV-1212_deal_desk_daily_scoreboard_template_auto_priority_rules_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
