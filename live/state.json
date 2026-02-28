@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T10:00:07.457922+00:00",
+  "now": "2026-02-28T10:10:06.810958+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1351",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build founder-led outbound reactivation sprint board for top 25 stalled deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board must include account tiering, message angle by objection, 5-day touch sequence, and win/loss KPI thresholds."
-    },
-    {
       "id": "P1-REV-1353",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -103,25 +84,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix must include persona pain, proof metric, source slot, and CTA bridge for each stakeholder type."
-    },
-    {
-      "id": "P1-REV-1355",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Write late-stage no-decision rescue playbook with offer pivot tree",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook must provide trigger signals, three offer pivots, response scripts, and stop/escalate rules."
     },
     {
       "id": "P2-PROD-1356",
@@ -182,6 +144,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 18:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1355",
+      "artifact": "Late-stage no-decision rescue playbook with offer pivot tree",
+      "path": "office_os/artifacts/P1-REV-1355_late_stage_no_decision_rescue_playbook_offer_pivot_tree_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 18:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1351",
+      "artifact": "Founder-led outbound reactivation sprint board for top 25 stalled deals",
+      "path": "office_os/artifacts/P1-REV-1351_founder_led_outbound_reactivation_sprint_board_top25_stalled_deals_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 18:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-021",
+      "artifact": "Mobile dock live triage badges + P0 one-tap operator jump",
+      "path": "office_os/artifacts/P0-FE-021_mobile_dock_live_triage_badges_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 18:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-020",
+      "artifact": "UX readiness sentinel (live readability/responsiveness/control-state health)",
+      "path": "office_os/artifacts/P0-FE-020_ux_readiness_sentinel_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 17:37",
       "owner": "COMMAND",
@@ -348,38 +342,6 @@
       "taskId": "P3-CONT-1338",
       "artifact": "Proof-led short clip calendar for top 10 enterprise objections",
       "path": "office_os/artifacts/P3-CONT-1338_proof_led_short_clip_calendar_top10_enterprise_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1333",
-      "artifact": "Revenue-first referral brief for niche community partners",
-      "path": "office_os/artifacts/P1-REV-1333_revenue_first_referral_brief_niche_community_partners_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 15:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1327",
-      "artifact": "Adoption regression early-warning checklist for CS and Product",
-      "path": "office_os/artifacts/P2-PROD-1327_adoption_regression_early_warning_checklist_cs_product_2026-02-28.md",
       "status": "done"
     }
   ],
