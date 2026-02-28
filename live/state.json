@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T19:50:05.083526+00:00",
+  "now": "2026-02-28T20:00:05.236241+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-01 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1522",
+      "artifact": "Recovery Clock now surfaces dominant blocker and next red-monitor checkpoint ETA for clearer trust-restoration pacing during live demos",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1521",
+      "artifact": "Demo Spotlight now includes one-click verdict brief copy plus direct recovery/lock action control to cut investor handoff friction under pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-01 03:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P1-REV-1418",
       "artifact": "Close-risk early warning rubric for legal-stage deals with 10 signals + 48h SLA owners",
       "path": "office_os/artifacts/P1-REV-1418_close_risk_early_warning_rubric_legal_review_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 00:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
