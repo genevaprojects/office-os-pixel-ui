@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T21:30:06.692039+00:00",
+  "now": "2026-02-28T21:40:04.142122+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Cadence includes daily trigger conditions, stakeholder-specific script angles, proof payload slots, and recovery path for no-response by day 3.",
       "artifact_path": "office_os/artifacts/P1-REV-1701_exec_followup_cadence_security_cleared_procurement_edge_2026-03-01.md"
-    },
-    {
-      "id": "P1-REV-1702",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create mutual-action-plan rescue template for delayed enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template defines owner SLA, next 5 milestones, blocker taxonomy, and red/yellow/green conversion checkpoints for delayed pilots.",
-      "artifact_path": "office_os/artifacts/P1-REV-1702_map_rescue_template_delayed_enterprise_pilots_2026-03-01.md"
     },
     {
       "id": "P1-REV-1704",
@@ -225,29 +205,33 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null
-    },
-    {
-      "id": "P5-REL-1710",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create dependency freshness check matrix for hourly cron-critical artifacts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix specifies dependency TTL, stale thresholds, fallback source strategy, and verification cadence for hourly runs.",
-      "artifact_path": "office_os/artifacts/P5-REL-1710_dependency_freshness_matrix_hourly_cron_artifacts_2026-03-01.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 05:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-1710",
+      "artifact": "Delivered dependency freshness matrix defining TTL, stale thresholds, fallback source strategy, and verification cadence for hourly cron-critical artifacts",
+      "path": "office_os/artifacts/P5-REL-1710_dependency_freshness_matrix_hourly_cron_artifacts_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1702",
+      "artifact": "Delivered mutual-action-plan rescue template with owner SLA, 5 milestone sequence, blocker taxonomy, and R/Y/G conversion checkpoints for delayed enterprise pilots",
+      "path": "office_os/artifacts/P1-REV-1702_map_rescue_template_delayed_enterprise_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 05:25",
       "owner": "SOCIAL",
@@ -422,30 +406,6 @@
       "taskId": "P1-REV-1512",
       "artifact": "Delivered sub-48h procurement redline turnaround fast-path checklist with legal/security/finance owner lanes, SLA triggers, blocker fallback motions, and escalation thresholds for deal-cycle compression",
       "path": "office_os/artifacts/P1-REV-1512_procurement_redline_turnaround_fastpath_checklist_sub48h_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1516",
-      "artifact": "Delivered 10 proof-first founder post prompts mapped to enterprise objections with hook/proof/CTA and channel adaptation notes",
-      "path": "office_os/artifacts/P3-CONT-1516_proof_first_founder_post_prompts_enterprise_objections_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1513",
-      "artifact": "Delivered champion mobilization message tree for week 2-4 enterprise deals with 3-channel variants, objection branch logic, and response targets",
-      "path": "office_os/artifacts/P1-REV-1513_champion_mobilization_message_tree_week2_4_enterprise_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1503",
-      "artifact": "Delivered first-14-day enterprise activation rescue playbook with day-by-day trigger thresholds, owner actions, rollback criteria, and KPI response bands",
-      "path": "office_os/artifacts/P2-PROD-1503_first14day_enterprise_activation_rescue_playbook_2026-03-01.md",
       "status": "done"
     }
   ],
