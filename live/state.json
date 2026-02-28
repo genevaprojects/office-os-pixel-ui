@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T11:21:46.072404+00:00",
+  "now": "2026-02-28T11:30:06.870295+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Template must define daily conversion metrics, owner actions, and scale/kill thresholds."
     },
     {
-      "id": "P1-REV-1373",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft founder-led credibility clip sprint board (7-day)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board must include 14 short clips with hook, proof asset, CTA, and distribution slot."
-    },
-    {
       "id": "P1-REV-1374",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "acceptance": "Spec must define event chain from first value to expansion intent with anomaly thresholds."
     },
     {
-      "id": "P3-CONT-1378",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create proof-led objection rebuttal carousel pack",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack must include 10 carousel outlines tagged by ICP, objection, and CTA type."
-    },
-    {
       "id": "P4-OPS-1379",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 19:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1378",
+      "artifact": "Proof-led objection rebuttal carousel pack (10 outlines tagged by ICP/objection/CTA type)",
+      "path": "office_os/artifacts/P3-CONT-1378_proof_led_objection_rebuttal_carousel_pack_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1373",
+      "artifact": "Founder-led credibility clip sprint board (14 clips with hooks/proof/CTA/distribution slots)",
+      "path": "office_os/artifacts/P1-REV-1373_founder_led_credibility_clip_sprint_board_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 19:20",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P1-REV-1340",
       "artifact": "7-day founder outbound sprint for stalled enterprise champion reactivation",
       "path": "office_os/artifacts/P1-REV-1340_founder_outbound_reactivation_sprint_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:36",
-      "owner": "EXECUTOR",
-      "taskId": "P3-CONT-1346",
-      "artifact": "Weekly narrative hijack board for AI/automation market moments",
-      "path": "office_os/artifacts/P3-CONT-1346_weekly_narrative_hijack_board_ai_automation_2026-02-28.md",
       "status": "done"
     }
   ],
