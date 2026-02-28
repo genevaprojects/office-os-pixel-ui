@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T07:30:05.364882+00:00",
+  "now": "2026-02-28T07:40:04.990184+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,24 +85,6 @@
       "acceptance": "Decision tree maps 20 objection branches to one CTA outcome, with confidence tag and follow-up timing."
     },
     {
-      "id": "P1-REV-1332",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create 10-day founder outbound sprint targeting re-openable closed-lost accounts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan includes top-30 account list schema, touchpoint cadence, message angle by loss reason, and success KPI."
-    },
-    {
       "id": "P1-REV-1334",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -157,24 +139,6 @@
       "acceptance": "Playbook includes 8 inactivity signatures, intervention sequence, ownership, and verification KPI."
     },
     {
-      "id": "P2-PROD-1337",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft onboarding handoff checklist from sales to CS for enterprise trials",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist covers handoff data contract, Day 0-Day 7 milestones, risk flags, and SLA ownership."
-    },
-    {
       "id": "P4-OPS-1339",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -212,6 +176,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 15:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1337",
+      "artifact": "Sales-to-CS enterprise trial handoff checklist with SLA, scoring, and escalation rules",
+      "path": "office_os/artifacts/P2-PROD-1337_sales_to_cs_enterprise_trial_handoff_checklist_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1332",
+      "artifact": "10-day founder outbound sprint for re-openable closed-lost accounts",
+      "path": "office_os/artifacts/P1-REV-1332_closed_lost_reopen_outbound_sprint_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 15:27",
       "owner": "SOCIAL",
@@ -386,30 +374,6 @@
       "taskId": "P1-REV-1302",
       "artifact": "Pipeline heat-score dashboard spec for weekly deal acceleration triage",
       "path": "office_os/artifacts/P1-REV-1302_pipeline_heat_score_dashboard_spec_weekly_deal_acceleration_triage_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 13:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 13:06",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-1306",
-      "artifact": "Contrarian authority thread pack tied to live enterprise deal blockers",
-      "path": "office_os/artifacts/P3-CONT-1306_contrarian_authority_thread_pack_enterprise_blockers_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 13:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1301",
-      "artifact": "Fast-lane pilot conversion script stack for security-cleared enterprise prospects",
-      "path": "office_os/artifacts/P1-REV-1301_fast_lane_pilot_conversion_script_stack_2026-02-28.md",
       "status": "done"
     }
   ],
