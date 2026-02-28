@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T21:00:06.854706+00:00",
+  "now": "2026-02-28T21:10:05.302074+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1601",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 14-day enterprise reactivation sprint board for stalled security-cleared deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board defines 20 target accounts, daily outreach lane, proof asset mapping, and win/reply targets with rollback triggers.",
-      "artifact_path": "office_os/artifacts/P1-REV-1601_enterprise_reactivation_sprint_board_security_cleared_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1604",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Talk track maps discovery inputs to ROI output narrative, objection branches, and close CTA by stakeholder type.",
       "artifact_path": "office_os/artifacts/P1-REV-1604_onecall_roi_talktrack_late_stage_deals_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-1605",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce closed-lost resurrection trigger matrix with 30/60/90-day re-entry plays",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Matrix lists loss reasons, re-entry trigger signals, outreach template angle, and measurable reactivation targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-1605_closed_lost_resurrection_trigger_matrix_2026-03-01.md",
       "created_at": "2026-03-01T04:20:00+08:00",
       "updated_at": "2026-03-01T04:20:00+08:00",
       "due_at": null,
@@ -208,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 05:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1601",
+      "artifact": "Delivered 14-day enterprise reactivation sprint board for 20 security-cleared stalled deals with daily outreach lanes, proof-asset mapping, win/reply targets, and rollback triggers",
+      "path": "office_os/artifacts/P1-REV-1601_enterprise_reactivation_sprint_board_security_cleared_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1605",
+      "artifact": "Delivered closed-lost resurrection trigger matrix with reason-specific signals, 30/60/90 re-entry plays, and 3-channel outreach angles with measurable reactivation targets",
+      "path": "office_os/artifacts/P1-REV-1605_closed_lost_resurrection_trigger_matrix_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 04:36",
       "owner": "EXECUTOR",
@@ -390,22 +366,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with weighted P1-P5 coverage and explicit acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1422",
-      "artifact": "Objection-led founder proof thread bank (10 threads) with hook, proof asset slots, and conversion CTAs",
-      "path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:20",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1439",
-      "artifact": "Founder outbound proof-snippet rotation calendar for top 20 accounts with objection/proof/CTA/owner handoff mapping",
-      "path": "office_os/artifacts/P1-REV-1439_founder_outbound_proof_snippet_rotation_calendar_top20_2026-03-01.md",
       "status": "done"
     }
   ],
