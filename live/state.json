@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T23:21:38.882024+00:00",
+  "now": "2026-02-28T23:30:09.948712+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-1733_security_review_to_procurement_conversion_leak_map_2026-03-01.md"
     },
     {
-      "id": "P1-REV-1734",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build executive multithread follow-up sequence for silent week-3 enterprise pilots",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 7-touch multithread playbook (champion, economic buyer, legal/procurement) with proof payload slots and response-rate targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-1734_exec_multithread_followup_sequence_silent_week3_pilots_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1735",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -187,26 +167,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1738_activation_risk_intervention_ladder_first_value_miss_48h_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-1739",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce proof-first founder content sprint for procurement-objection rebuttals (7 assets)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint board includes 7 assets with hook, objection target, proof requirement, and CTA mapped to X/LinkedIn/Telegram.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1739_proof_first_founder_content_sprint_procurement_objections_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1726",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1739",
+      "artifact": "Delivered 7-asset proof-first founder content sprint board mapping procurement objections to channel-specific hooks, required proof blocks, CTA keywords, routing map, and conversion targets",
+      "path": "office_os/artifacts/P3-CONT-1739_proof_first_founder_content_sprint_procurement_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1734",
+      "artifact": "Delivered 7-touch executive multithread follow-up playbook across champion/economic buyer/legal-procurement with proof payload slots, channel templates, sequencing rules, and reply-rate targets for silent week-3 pilots",
+      "path": "office_os/artifacts/P1-REV-1734_exec_multithread_followup_sequence_silent_week3_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 07:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P0-FE-1711",
       "artifact": "Added Live Refresh Clock rail in Overview with snapshot age, next-refresh ETA, and cadence freshness score for investor trust pacing clarity",
       "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1606",
-      "artifact": "Delivered first-7-day activation rescue script mapping telemetry thresholds to persona-specific owner actions, in-product prompts, and expected lift targets",
-      "path": "office_os/artifacts/P2-PROD-1606_first7day_activation_rescue_script_persona_threshold_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1604",
-      "artifact": "Delivered one-call ROI calculator talk track with discovery input schema, live output narrative, objection branches, and stakeholder-specific close CTA path for late-stage enterprise deals",
-      "path": "office_os/artifacts/P1-REV-1604_onecall_roi_talktrack_late_stage_deals_2026-03-01.md",
       "status": "done"
     }
   ],
