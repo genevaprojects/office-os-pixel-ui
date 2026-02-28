@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T02:21:26.623560+00:00",
+  "now": "2026-02-28T02:30:06.866791+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1259",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create referral partner launch brief template optimized for 72-hour activation",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-16T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template includes offer structure, partner CTA assets, anti-fraud guardrails, and activation KPI baseline.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-1260",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -160,26 +140,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Checklist maps event evidence, session replay signals, owner action, and expected uplift per fix.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-1262",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create proof-led short-form content calendar tied to top 5 enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-16T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Deliver 14-post calendar with hook/proof/CTA per objection tier and distribution cadence.",
       "artifact_path": null,
       "created_at": "2026-02-28T10:20:00+08:00",
       "updated_at": "2026-02-28T10:20:00+08:00",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1262",
+      "artifact": "Proof-led short-form content calendar tied to top 5 enterprise objections",
+      "path": "office_os/artifacts/P3-CONT-1262_proof_led_short_form_content_calendar_top5_enterprise_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1259",
+      "artifact": "Referral partner launch brief template optimized for 72-hour activation",
+      "path": "office_os/artifacts/P1-REV-1259_referral_partner_launch_brief_template_72h_activation_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 10:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-1241",
       "artifact": "Security-review acceleration email/doc bundle",
       "path": "office_os/artifacts/P1-REV-1241_security_review_acceleration_bundle_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 08:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1238",
-      "artifact": "Objection-led founder authority post pack (7-day)",
-      "path": "office_os/artifacts/P3-CONT-1238_objection_led_founder_authority_post_pack_7_day_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 08:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1243",
-      "artifact": "Closed-lost reactivation script tree for budget-freeze accounts",
-      "path": "office_os/artifacts/P1-REV-1243_closed_lost_reactivation_script_tree_budget_freeze_2026-02-28.md",
       "status": "done"
     }
   ],
