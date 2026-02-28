@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T01:30:05.197630+00:00",
+  "now": "2026-02-28T01:40:04.580578+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1251",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Champion-to-procurement handoff script with 72h acceleration path",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-13T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Script includes role-specific messaging, required proof artifacts, and 72h follow-up sequence with escalation triggers.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1252",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -120,26 +100,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Matrix defines 6+ sequence variants with trigger logic, KPI target, stop/scale rules, and attribution tags.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1253",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "First-call-to-onboarding friction handoff checklist",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-14T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist maps sales promises to onboarding steps, owners, SLA checkpoints, and failure recovery actions.",
       "artifact_path": null,
       "created_at": "2026-02-28T09:21:00+08:00",
       "updated_at": "2026-02-28T09:21:00+08:00",
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 09:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 09:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1253",
+      "artifact": "First-call-to-onboarding friction handoff checklist",
+      "path": "office_os/artifacts/P2-PROD-1253_first_call_to_onboarding_friction_handoff_checklist_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 09:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1251",
+      "artifact": "Champion-to-procurement handoff script with 72h acceleration path",
+      "path": "office_os/artifacts/P1-REV-1251_champion_to_procurement_handoff_script_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 09:26",
       "owner": "SOCIAL",
@@ -422,30 +406,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:21",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-1230",
-      "artifact": "Critical cron fallback verification matrix",
-      "path": "office_os/artifacts/P5-REL-1230_critical_cron_fallback_verification_matrix_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1228",
-      "artifact": "Autonomous backlog top-up quality drift monitor",
-      "path": "office_os/artifacts/P4-OPS-1228_autonomous_backlog_topup_quality_drift_monitor_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1225",
-      "artifact": "Onboarding bottleneck instrumentation patch list v2 (top 12 gaps)",
-      "path": "office_os/artifacts/P2-PROD-1225_onboarding_bottleneck_instrumentation_patch_list_v2_2026-02-28.md",
       "status": "done"
     }
   ],
