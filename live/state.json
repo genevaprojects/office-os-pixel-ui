@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T05:00:06.555754+00:00",
+  "now": "2026-02-28T05:10:04.761821+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1301",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build fast-lane pilot conversion script stack for security-cleared enterprise prospects",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script stack maps objection-first outreach to 7-day close windows with KPI checkpoints and fallback branches.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1302",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
+      "updated_at": "2026-02-28T13:07:02.776179+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +93,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
+      "updated_at": "2026-02-28T13:07:02.776191+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -124,25 +105,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-1306",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build contrarian authority thread pack tied to live enterprise deal blockers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack delivers 7 post-ready threads each linked to active objections, proof assets, and CTA path into pipeline.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-1307",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -150,7 +112,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
+      "updated_at": "2026-02-28T13:07:02.776197+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -169,7 +131,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
+      "updated_at": "2026-02-28T13:07:02.776201+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,6 +144,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 13:06",
+      "owner": "RESEARCH",
+      "taskId": "P3-CONT-1306",
+      "artifact": "Contrarian authority thread pack tied to live enterprise deal blockers",
+      "path": "office_os/artifacts/P3-CONT-1306_contrarian_authority_thread_pack_enterprise_blockers_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1301",
+      "artifact": "Fast-lane pilot conversion script stack for security-cleared enterprise prospects",
+      "path": "office_os/artifacts/P1-REV-1301_fast_lane_pilot_conversion_script_stack_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 12:37",
       "owner": "COMMAND",
@@ -356,30 +342,6 @@
       "taskId": "P5-REL-1265",
       "artifact": "Cron-run anomaly quick triage card for failed Office OS automation cycles",
       "path": "office_os/artifacts/P5-REL-1265_cron_run_anomaly_quick_triage_card_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1262",
-      "artifact": "Proof-led short-form content calendar tied to top 5 enterprise objections",
-      "path": "office_os/artifacts/P3-CONT-1262_proof_led_short_form_content_calendar_top5_enterprise_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1259",
-      "artifact": "Referral partner launch brief template optimized for 72-hour activation",
-      "path": "office_os/artifacts/P1-REV-1259_referral_partner_launch_brief_template_72h_activation_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
