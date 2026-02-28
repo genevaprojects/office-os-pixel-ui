@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T06:21:45.828969+00:00",
+  "now": "2026-02-28T06:30:04.921670+00:00",
   "workers": [
     {
       "name": "Research",
@@ -139,24 +139,6 @@
       "acceptance": "Sheet maps usage/stakeholder triggers to expansion plays with threshold and owner handoff."
     },
     {
-      "id": "P1-REV-1325",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build security-objection rebuttal email pack for procurement bottlenecks",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack provides 8 send-ready responses with proof links, escalation options, and conversion CTA."
-    },
-    {
       "id": "P2-PROD-1326",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -191,24 +173,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist includes trigger thresholds, triage ownership, response SLA, and post-fix verification."
-    },
-    {
-      "id": "P3-CONT-1328",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build proof-first founder thread pack for enterprise objections (7 posts)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Posts include hook, objection, evidence block, and CTA mapped to funnel stage."
     },
     {
       "id": "P3-CONT-1329",
