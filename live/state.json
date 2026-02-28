@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T19:21:44.851475+00:00",
+  "now": "2026-02-28T19:30:06.947051+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-1512_procurement_redline_turnaround_fastpath_checklist_sub48h_2026-03-01.md"
     },
     {
-      "id": "P1-REV-1513",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion mobilization message tree for multi-thread enterprise deals in week 2-4",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Message tree provides 3-channel variants, objection branch logic, and measurable response targets for champion-led internal selling.",
-      "artifact_path": "office_os/artifacts/P1-REV-1513_champion_mobilization_message_tree_week2_4_enterprise_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-1514",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -165,26 +145,6 @@
       "manual_rank": null,
       "acceptance": "Intervention map links drop-off thresholds to owner actions, expected uplift, and rollback criteria by persona segment.",
       "artifact_path": "office_os/artifacts/P2-PROD-1515_firstweek_adoption_rescue_intervention_map_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-1516",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 proof-first founder post prompts mapped to active enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Prompt pack includes hook, proof slot, objection target, CTA, and channel adaptation notes for each post.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1516_proof_first_founder_post_prompts_enterprise_objections_2026-03-01.md"
     },
     {
       "id": "P4-OPS-1442",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 03:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1516",
+      "artifact": "Delivered 10 proof-first founder post prompts mapped to enterprise objections with hook/proof/CTA and channel adaptation notes",
+      "path": "office_os/artifacts/P3-CONT-1516_proof_first_founder_post_prompts_enterprise_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 03:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1513",
+      "artifact": "Delivered champion mobilization message tree for week 2-4 enterprise deals with 3-channel variants, objection branch logic, and response targets",
+      "path": "office_os/artifacts/P1-REV-1513_champion_mobilization_message_tree_week2_4_enterprise_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 03:15",
       "owner": "BUILDER",
@@ -450,22 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-1410",
-      "artifact": "Cron artifact integrity verification mini-runbook",
-      "path": "office_os/artifacts/P5-REL-1410_cron_artifact_integrity_verification_mini_runbook_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1409",
-      "artifact": "Backlog freshness auto-topup quality gate checklist v2",
-      "path": "office_os/artifacts/P4-OPS-1409_backlog_freshness_auto_topup_quality_gate_checklist_v2_2026-02-28.md",
       "status": "done"
     }
   ],
