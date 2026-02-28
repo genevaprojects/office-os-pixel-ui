@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T22:30:05.198783+00:00",
+  "now": "2026-02-28T22:40:05.093236+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1722_first_value_proof_artifact_generator_template_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1723",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft 48h enterprise onboarding blocker strike-team protocol",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Protocol defines severity triggers, owner SLA ladder, escalation handoff, and verification criteria for blocker resolution within 48h.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1723_enterprise_onboarding_blocker_striketeam_protocol_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1726",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -205,29 +185,33 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null
-    },
-    {
-      "id": "P5-REL-1728",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron runtime regression sentinel with p95 latency guard thresholds",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sentinel specifies p95 runtime guardrails, anomaly thresholds, rollback trigger conditions, and verification checks per critical cron.",
-      "artifact_path": "office_os/artifacts/P5-REL-1728_cron_runtime_regression_sentinel_2026-03-01.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 06:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-1728",
+      "artifact": "Delivered cron runtime regression sentinel spec with p95 guardrails, anomaly thresholds, rollback triggers, and post-fix verification checks for critical jobs",
+      "path": "office_os/artifacts/P5-REL-1728_cron_runtime_regression_sentinel_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 06:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1723",
+      "artifact": "Delivered 48h enterprise onboarding blocker strike-team protocol with severity triggers, SLA escalation ladder, and verification criteria for blocker resolution",
+      "path": "office_os/artifacts/P2-PROD-1723_enterprise_onboarding_blocker_striketeam_protocol_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 06:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P3-CONT-1608",
       "artifact": "Delivered 10-post proof-first founder short-post calendar mapped to enterprise objections with hook, artifact slot, objection target, CTA, and channel adaptations",
       "path": "office_os/artifacts/P3-CONT-1608_prooffirst_founder_shortpost_calendar_enterprise_objections_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1602",
-      "artifact": "Delivered procurement objection rebuttal pack with email/DM/call variants for top 10 blockers, proof slots, and next-step CTA framework",
-      "path": "office_os/artifacts/P1-REV-1602_procurement_objection_rebuttal_pack_3channel_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:17",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1514",
-      "artifact": "Delivered activation-to-first-proof enterprise trial handoff SOP with trigger gates, owner responsibilities, day-0/day-7 QA checkpoints, and proof artifact minimums",
-      "path": "office_os/artifacts/P2-PROD-1514_activation_to_first_proof_handoff_sop_enterprise_trials_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:17",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1525",
-      "artifact": "Shipped viewport-safe mobile sticky action bar with always-reachable recovery/handoff/incident/demo controls and dynamic gate-state cues without content occlusion",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
