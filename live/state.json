@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T14:00:05.458912+00:00",
+  "now": "2026-02-28T14:10:08.179424+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1391",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft 5-message CFO objection collapse sequence for budget-frozen enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Sequence includes 5 messages with objection trigger, quantified proof cue, and meeting CTA."
-    },
-    {
       "id": "P1-REV-1394",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -90,29 +74,13 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
+      "updated_at": "2026-02-28T22:07:03.142089+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Template defines milestones, responsible stakeholder, due date, and red-flag escalation rule."
-    },
-    {
-      "id": "P1-REV-1395",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Produce enterprise champion weekly mobilization script stack",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Stack provides 7 scripts for internal forwarding with purpose, proof point, and next ask."
     },
     {
       "id": "P2-PROD-1396",
@@ -122,7 +90,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
+      "updated_at": "2026-02-28T22:07:03.142104+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -138,7 +106,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
+      "updated_at": "2026-02-28T22:07:03.142110+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -154,7 +122,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
+      "updated_at": "2026-02-28T22:07:03.142116+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -164,6 +132,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 22:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1395",
+      "artifact": "Enterprise champion weekly mobilization script stack (7 forwardable scripts with purpose/proof/next ask)",
+      "path": "office_os/artifacts/P1-REV-1395_enterprise_champion_weekly_mobilization_script_stack_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1391",
+      "artifact": "CFO objection collapse sequence (5-message, quantified proof cues + meeting CTAs)",
+      "path": "office_os/artifacts/P1-REV-1391_cfo_objection_collapse_sequence_budget_frozen_enterprise_deals_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 21:37",
       "owner": "COMMAND",
@@ -338,30 +330,6 @@
       "taskId": "P1-REV-1372",
       "artifact": "Proof-to-proposal conversion scoreboard template v2",
       "path": "office_os/artifacts/P1-REV-1372_proof_to_proposal_conversion_scoreboard_template_v2_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 20:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-1380",
-      "artifact": "Cron recovery smoke-test checklist for growth jobs",
-      "path": "office_os/artifacts/P5-REL-1380_cron_recovery_smoke_test_checklist_growth_jobs_2026-02-28.md",
       "status": "done"
     }
   ],
