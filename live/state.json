@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T08:00:05.162057+00:00",
+  "now": "2026-02-28T08:10:06.089209+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1331",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build objection-triggered demo CTA decision tree for enterprise buyers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Decision tree maps 20 objection branches to one CTA outcome, with confidence tag and follow-up timing."
-    },
-    {
       "id": "P1-REV-1334",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -101,24 +83,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Pack specifies required docs, sequencing, owner SLA, and blockers escalation protocol for <72h movement."
-    },
-    {
-      "id": "P1-REV-1335",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build expansion trigger signal board for pilots entering renewal window",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines 12 expansion signals, threshold logic, owner routing, and action play per trigger."
     },
     {
       "id": "P2-PROD-1336",
@@ -176,6 +140,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 16:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-983",
+      "artifact": "Operator command bar with next-critical triage + copy-ready task brief",
+      "path": "office_os/artifacts/P0-FE-983_operator_command_bar_next_critical_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 16:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-982",
+      "artifact": "Data integrity sentinel panel (duplicate ID / owner gap / artifact trace checks)",
+      "path": "office_os/artifacts/P0-FE-982_data_integrity_sentinel_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 15:37",
       "owner": "COMMAND",
@@ -358,22 +338,6 @@
       "taskId": "P4-OPS-1307",
       "artifact": "Autonomous top-up dedup audit template with run-level metrics",
       "path": "office_os/artifacts/P4-OPS-1307_autonomous_topup_dedup_audit_template_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 13:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1304",
-      "artifact": "First-value proof widget requirements for onboarding-to-proposal compression",
-      "path": "office_os/artifacts/P2-PROD-1304_first_value_proof_widget_requirements_onboarding_to_proposal_compression_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 13:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1302",
-      "artifact": "Pipeline heat-score dashboard spec for weekly deal acceleration triage",
-      "path": "office_os/artifacts/P1-REV-1302_pipeline_heat_score_dashboard_spec_weekly_deal_acceleration_triage_2026-02-28.md",
       "status": "done"
     }
   ],
