@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T17:10:07.023594+00:00",
+  "now": "2026-02-28T17:22:08.559379+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-1433",
+      "id": "P1-REV-1437",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Design proposal-to-procurement handoff checklist for sub-7-day transitions",
-      "owner": "BUILDER",
+      "title": "Build enterprise pilot ROI evidence one-pager generator template",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544821+08:00",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -83,18 +83,58 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist covers legal/security/finance handoffs with owner, SLA, and unblock trigger per step.",
-      "artifact_path": "office_os/artifacts/P1-REV-1433_proposal_to_procurement_handoff_checklist_sub7day_2026-03-01.md"
+      "acceptance": "Template outputs one-page ROI brief with baseline, intervention, quantified delta, and procurement-ready proof references.",
+      "artifact_path": "office_os/artifacts/P1-REV-1437_enterprise_pilot_roi_evidence_onepager_generator_template_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1434",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define day-0 enterprise onboarding kickoff script with risk gate checks",
+      "id": "P1-REV-1438",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Draft late-stage deal unblock sequence for security-procurement deadlocks",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
+      "impact": 5,
+      "effort": 3,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sequence includes 5 touches, owner triggers, escalation paths, and stop-loss criteria for stalled enterprise deals.",
+      "artifact_path": "office_os/artifacts/P1-REV-1438_late_stage_deal_unblock_sequence_security_procurement_2026-03-01.md"
+    },
+    {
+      "id": "P1-REV-1439",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Create founder outbound proof-snippet rotation calendar for top 20 accounts",
       "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544834+08:00",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Calendar maps 10 days of outbound touches with proof type, objection class, CTA, and owner handoff fields.",
+      "artifact_path": "office_os/artifacts/P1-REV-1439_founder_outbound_proof_snippet_rotation_calendar_top20_2026-03-01.md"
+    },
+    {
+      "id": "P2-PROD-1440",
+      "project": "P2_PRODUCT_DELIVERY",
+      "priority": "P2",
+      "title": "Define week-1 enterprise onboarding anomaly triage board",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -103,8 +143,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Script includes kickoff agenda, risk gates, stakeholder owners, and success criteria for first 7 days.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1434_day0_enterprise_onboarding_kickoff_script_2026-03-01.md"
+      "acceptance": "Board spec includes anomaly categories, severity SLA, owner routing, and verification-close loop for first 7 days.",
+      "artifact_path": "office_os/artifacts/P2-PROD-1440_week1_enterprise_onboarding_anomaly_triage_board_2026-03-01.md"
     },
     {
       "id": "P3-CONT-1422",
@@ -147,14 +187,14 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-1435",
+      "id": "P3-CONT-1441",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
-      "title": "Produce ROI-proof founder carousel pack (8 posts) for enterprise buyers",
+      "title": "Produce objection-to-proof short clip storyboard set for enterprise buyers",
       "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544854+08:00",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -163,8 +203,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "8 carousel outlines include hook, quantified proof, objection rebuttal, and CTA by funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1435_roi_proof_founder_carousel_pack_enterprise_2026-03-01.md"
+      "acceptance": "Set includes 12 clips with hook, proof artifact slot, objection class, and CTA mapped by funnel stage.",
+      "artifact_path": "office_os/artifacts/P3-CONT-1441_objection_to_proof_short_clip_storyboard_set_enterprise_2026-03-01.md"
     },
     {
       "id": "P4-OPS-1424",
@@ -205,6 +245,26 @@
       "manual_rank": null,
       "acceptance": "Spec defines stale thresholds, archive rules, and weekly review output format for autonomous cleanup.",
       "artifact_path": "office_os/artifacts/P4-OPS-1436_backlog_freshness_watchdog_spec_2026-03-01.md"
+    },
+    {
+      "id": "P4-OPS-1442",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Create autonomous backlog top-up quality scorer rubric v5",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T01:23:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Rubric scores top-up tasks for specificity, acceptance clarity, owner fit, and duplicate risk before insertion.",
+      "artifact_path": "office_os/artifacts/P4-OPS-1442_autonomous_backlog_topup_quality_scorer_rubric_v5_2026-03-01.md"
     }
   ],
   "ship": [
