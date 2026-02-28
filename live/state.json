@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T19:30:06.947051+00:00",
+  "now": "2026-02-28T19:40:05.757733+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Matrix maps 12 top enterprise objections to one-call proof blocks, quant evidence prompts, and CTA closes by deal stage.",
       "artifact_path": "office_os/artifacts/P1-REV-1511_enterprise_objection_to_proof_onecall_close_script_matrix_2026-03-01.md"
-    },
-    {
-      "id": "P1-REV-1512",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build procurement redline turnaround fast-path checklist for sub-48h cycle compression",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes legal/security/finance owner lanes, SLA triggers, blocker fallback, and escalation thresholds for <48h redline turnaround.",
-      "artifact_path": "office_os/artifacts/P1-REV-1512_procurement_redline_turnaround_fastpath_checklist_sub48h_2026-03-01.md"
     },
     {
       "id": "P2-PROD-1514",
@@ -205,29 +185,33 @@
       "manual_rank": null,
       "acceptance": "Policy specifies split triggers, naming convention, parent-child linkage, and success metrics for throughput improvement.",
       "artifact_path": "office_os/artifacts/P4-OPS-1517_autonomous_staletask_split_policy_2026-03-01.md"
-    },
-    {
-      "id": "P5-REL-1518",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron run anomaly early-warning card with owner-by-severity response matrix",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card defines severity bands, response owner, response SLA, and verification checkpoints for critical hourly jobs.",
-      "artifact_path": "office_os/artifacts/P5-REL-1518_cron_run_anomaly_early_warning_response_matrix_2026-03-01.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 03:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-1518",
+      "artifact": "Delivered cron run anomaly early-warning response matrix with severity bands, owner-by-severity SLA, and verification checkpoints for mission-critical hourly job continuity",
+      "path": "office_os/artifacts/P5-REL-1518_cron_run_anomaly_early_warning_response_matrix_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 03:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1512",
+      "artifact": "Delivered sub-48h procurement redline turnaround fast-path checklist with legal/security/finance owner lanes, SLA triggers, blocker fallback motions, and escalation thresholds for deal-cycle compression",
+      "path": "office_os/artifacts/P1-REV-1512_procurement_redline_turnaround_fastpath_checklist_sub48h_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 03:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1421",
-      "artifact": "First-week activation anomaly triage playbook for CS handoffs",
-      "path": "office_os/artifacts/P2-PROD-1421_first_week_activation_anomaly_triage_playbook_cs_handoffs_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1416",
-      "artifact": "Procurement stall-breaker sequence with proof attachments and CTA ladder",
-      "path": "office_os/artifacts/P1-REV-1416_procurement_stall_breaker_sequence_proof_attachments_cta_ladder_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
