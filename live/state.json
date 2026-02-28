@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T12:30:40.621388+00:00",
+  "now": "2026-02-28T12:40:04.824444+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,22 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1381",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build 5-step procurement reactivation sequence for stalled redlines",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Sequence must include trigger conditions, message variants, and success KPI per step."
-    },
-    {
       "id": "P1-REV-1382",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -147,22 +131,6 @@
       "acceptance": "Pack must define hypotheses, intervention logic, and measurement plan by segment."
     },
     {
-      "id": "P2-PROD-1387",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create first-value SLA dashboard schema for customer success handoff",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Schema must include D0/D1/D7 SLA metrics, owner fields, and breach escalation rules."
-    },
-    {
       "id": "P3-CONT-1389",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -197,12 +165,28 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 20:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 20:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1387",
+      "artifact": "First-value SLA dashboard schema for customer success handoff",
+      "path": "office_os/artifacts/P2-PROD-1387_first_value_sla_dashboard_schema_cs_handoff_2026-02-28.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 20:25",
       "owner": "SOCIAL",
       "taskId": "P3-CONT-1388",
       "artifact": "10 proof-led short-post hooks for procurement objections",
       "path": "office_os/artifacts/P3-CONT-1388_proof_led_short_post_hooks_procurement_objections_2026-02-28.md",
-      "status": "done"
+      "status": "done2026-02-28 20:35"
     },
     {
       "time": "2026-02-28 20:25",
@@ -378,22 +362,6 @@
       "taskId": "P3-CONT-1368",
       "artifact": "Short-form proof rebuttal pack for top 12 objections",
       "path": "office_os/artifacts/P3-CONT-1368_short_form_proof_rebuttal_pack_top12_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1363",
-      "artifact": "Proof-first enterprise trust post sprint (10 assets)",
-      "path": "office_os/artifacts/P1-REV-1363_proof_first_enterprise_trust_post_sprint_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
