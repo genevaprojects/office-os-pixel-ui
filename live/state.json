@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T01:06:34.193661+00:00",
+  "now": "2026-02-28T01:10:04.246332+00:00",
   "workers": [
     {
       "name": "Research",
@@ -82,7 +82,7 @@
       "acceptance": "Heatmap maps top objections by ICP, win-rate impact, and counter-asset recommendation with owner and weekly refresh cadence.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
+      "updated_at": "2026-02-28T09:07:04.410655+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -102,7 +102,7 @@
       "acceptance": "Model specifies reward tiers, fraud thresholds, payout cadence, and KPI targets for activation and paid conversion.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
+      "updated_at": "2026-02-28T09:07:04.410666+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -122,7 +122,7 @@
       "acceptance": "Protocol defines replay sample rules, top defect taxonomy, fix priority scoring, and validation checklist.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
+      "updated_at": "2026-02-28T09:07:04.410672+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -142,7 +142,7 @@
       "acceptance": "Board includes 7 remix concepts with source quote, contrarian take, CTA, and channel adaptation notes.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
+      "updated_at": "2026-02-28T09:07:04.410682+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -160,7 +160,7 @@
       "acceptance": "Rule update defines duplicate thresholds, review window, and remediation actions with examples.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T08:07:02.092663+08:00",
+      "updated_at": "2026-02-28T09:07:04.410677+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -182,12 +182,20 @@
       "acceptance": "Rule set defines SLA miss thresholds, tag schema, triage queue behavior, and weekly cleanup procedure.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
+      "updated_at": "2026-02-28T09:07:04.410686+08:00",
       "pinned": false,
       "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 09:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 08:37",
       "owner": "COMMAND",
@@ -378,14 +386,6 @@
       "taskId": "P2-PROD-1226",
       "artifact": "Enterprise trial rescue SLA ladder",
       "path": "office_os/artifacts/P2-PROD-1226_enterprise_trial_rescue_sla_ladder_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1223",
-      "artifact": "7-day late-stage deal unblock standup protocol",
-      "path": "office_os/artifacts/P1-REV-1223_late_stage_deal_unblock_standup_protocol_2026-02-28.md",
       "status": "done"
     }
   ],
