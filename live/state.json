@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T00:30:56.245235+00:00",
+  "now": "2026-02-28T00:40:05.935723+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1241",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Security-review acceleration email + doc bundle for enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-11T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Bundle includes 6 templates, required-doc checklist, SLA timeline, and escalation trigger map for stalled reviews.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1242",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -140,26 +120,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Protocol defines replay sample rules, top defect taxonomy, fix priority scoring, and validation checklist.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1245",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation rescue decision tree for low-intent signups",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-12T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Decision tree maps inactivity signals to intervention sequence, owner, channel, and KPI exit criteria.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
       "updated_at": "2026-02-28T08:20:00+08:00",
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 08:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 08:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1245",
+      "artifact": "Activation rescue decision tree for low-intent signups",
+      "path": "office_os/artifacts/P2-PROD-1245_activation_rescue_decision_tree_low_intent_signups_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 08:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1241",
+      "artifact": "Security-review acceleration email/doc bundle",
+      "path": "office_os/artifacts/P1-REV-1241_security_review_acceleration_bundle_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 08:26",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P1-REV-1223",
       "artifact": "7-day late-stage deal unblock standup protocol",
       "path": "office_os/artifacts/P1-REV-1223_late_stage_deal_unblock_standup_protocol_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1227",
-      "artifact": "Founder proof clip cadence for objection clusters (14-day hook/proof/CTA schedule)",
-      "path": "office_os/artifacts/P3-CONT-1227_founder_proof_clip_cadence_objection_clusters_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1224",
-      "artifact": "Proof-first outbound content sequence for dormant enterprise leads (10-post objection→proof→CTA map)",
-      "path": "office_os/artifacts/P1-REV-1224_proof_first_outbound_content_sequence_dormant_enterprise_leads_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-971",
-      "artifact": "Team page clipboard resilience unification for hot-swap action commands",
-      "path": "office_os_mission_control/app/team/page.tsx",
       "status": "done"
     }
   ],
