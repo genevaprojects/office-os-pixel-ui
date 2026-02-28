@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T22:21:51.243332+00:00",
+  "now": "2026-02-28T22:30:05.198783+00:00",
   "workers": [
     {
       "name": "Research",
@@ -147,46 +147,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1723_enterprise_onboarding_blocker_striketeam_protocol_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-1724",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Design objection-triggered proof clip publishing cadence for procurement-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines 10 clip slots with objection mapping, proof evidence requirements, and CTA routing by X/LinkedIn/Telegram.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1724_objection_triggered_proof_clip_publishing_cadence_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-1725",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create founder authority rebuttal thread kit for top 8 enterprise risk objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes hook, proof block, rebuttal angle, and conversion CTA for 8 objections with channel adaptation notes.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1725_founder_authority_rebuttal_thread_kit_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1726",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1724",
+      "artifact": "Delivered objection-triggered proof clip publishing cadence with 10 procurement-stage clip slots, proof evidence gates, and X/LinkedIn/Telegram CTA routing",
+      "path": "office_os/artifacts/P3-CONT-1724_objection_triggered_proof_clip_publishing_cadence_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1725",
+      "artifact": "Delivered founder authority rebuttal thread kit covering 8 enterprise risk objections with hook-proof-rebuttal-CTA structure and channel adaptation notes",
+      "path": "office_os/artifacts/P3-CONT-1725_founder_authority_rebuttal_thread_kit_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 06:21",
       "owner": "COMMAND",
@@ -449,22 +425,6 @@
       "owner": "BUILDER",
       "taskId": "P0-FE-1525",
       "artifact": "Shipped viewport-safe mobile sticky action bar with always-reachable recovery/handoff/incident/demo controls and dynamic gate-state cues without content occlusion",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1524",
-      "artifact": "Added Handoff Console generating investor/operator/incident copy-ready briefs from live state with in-panel preview for faster cross-role handoff under demo pressure",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
