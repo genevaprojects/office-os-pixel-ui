@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T13:21:48.016945+00:00",
+  "now": "2026-02-28T13:30:04.968364+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,22 +99,6 @@
       "acceptance": "Board includes 10 deals, daily unblock action, owner, and expected close-stage movement."
     },
     {
-      "id": "P1-REV-1393",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create ROI proof snippet pack v2 mapped to security/procurement/finance objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Pack includes 18 snippets tagged by objection type, metric anchor, and CTA."
-    },
-    {
       "id": "P1-REV-1394",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -179,22 +163,6 @@
       "acceptance": "Checklist includes event thresholds, handoff packet fields, and weekly review cadence."
     },
     {
-      "id": "P3-CONT-1398",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build 10 short-form proof hooks for late-stage enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Hook set includes 10 hooks with objection target, evidence angle, and CTA variant."
-    },
-    {
       "id": "P3-CONT-1399",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -228,6 +196,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 21:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1398",
+      "artifact": "10 short-form proof hooks for late-stage enterprise objections",
+      "path": "office_os/artifacts/P3-CONT-1398_short_form_proof_hooks_late_stage_enterprise_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1393",
+      "artifact": "ROI proof snippet pack v2 mapped to security/procurement/finance objections",
+      "path": "office_os/artifacts/P1-REV-1393_roi_proof_snippet_pack_v2_security_procurement_finance_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 21:21",
       "owner": "COMMAND",
@@ -410,22 +394,6 @@
       "taskId": "P1-REV-1373",
       "artifact": "Founder-led credibility clip sprint board (14 clips with hooks/proof/CTA/distribution slots)",
       "path": "office_os/artifacts/P1-REV-1373_founder_led_credibility_clip_sprint_board_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:20",
-      "owner": "RESEARCH",
-      "taskId": "P5-REL-1370",
-      "artifact": "Cron canary recovery verification checklist v2",
-      "path": "office_os/artifacts/P5-REL-1370_cron_canary_recovery_verification_checklist_v2_2026-02-28.md",
       "status": "done"
     }
   ],
