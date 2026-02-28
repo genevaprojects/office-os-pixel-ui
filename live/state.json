@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T11:00:07.220734+00:00",
+  "now": "2026-02-28T11:10:04.823369+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1361",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "owner": "RESEARCH",
-      "title": "Build objection-indexed outbound snippet retrieval matrix",
-      "acceptance": "Matrix must map top 30 objections to proof snippets, persona tags, channel fit, and CTA routing.",
-      "status": "READY",
-      "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1362",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,26 +75,7 @@
       "acceptance": "Cadence doc must define daily inputs, blocker taxonomy, owner SLA, and close-risk escalation triggers.",
       "status": "READY",
       "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-1365",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "owner": "RESEARCH",
-      "title": "Write closed-lost resurrection trigger map for Q2 pipeline",
-      "acceptance": "Map must define trigger signals, timing windows, offer variants, and stop/continue thresholds.",
-      "status": "READY",
-      "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
+      "updated_at": "2026-02-28T19:07:04.333997+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -132,7 +94,7 @@
       "acceptance": "Board spec must include severity lanes, owner routing, evidence fields, and verification close criteria.",
       "status": "READY",
       "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
+      "updated_at": "2026-02-28T19:07:04.334009+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -151,7 +113,7 @@
       "acceptance": "Policy must define decay thresholds, auto-rewrite triggers, and archival criteria with audit fields.",
       "status": "READY",
       "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
+      "updated_at": "2026-02-28T19:07:04.334016+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -170,7 +132,7 @@
       "acceptance": "Checklist must define canary job criteria, pass/fail gates, rollback trigger, and post-recovery validation steps.",
       "status": "READY",
       "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
+      "updated_at": "2026-02-28T19:07:04.334021+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,6 +144,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1365",
+      "artifact": "Closed-lost resurrection trigger map for Q2 pipeline",
+      "path": "office_os/artifacts/P1-REV-1365_closed_lost_resurrection_trigger_map_q2_pipeline_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1361",
+      "artifact": "Objection-indexed outbound snippet retrieval matrix",
+      "path": "office_os/artifacts/P1-REV-1361_objection_indexed_outbound_snippet_retrieval_matrix_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 18:37",
       "owner": "COMMAND",
@@ -356,30 +342,6 @@
       "taskId": "P5-REL-1320",
       "artifact": "Cron artifact restore verification checklist for failed run recovery",
       "path": "office_os/artifacts/P5-REL-1320_cron_artifact_restore_verification_checklist_failed_run_recovery_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1339",
-      "artifact": "Autonomous run-quality scorecard for artifact acceptance consistency",
-      "path": "office_os/artifacts/P4-OPS-1339_autonomous_run_quality_scorecard_artifact_acceptance_consistency_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1336",
-      "artifact": "First-week activation rescue playbook by inactivity signature",
-      "path": "office_os/artifacts/P2-PROD-1336_first_week_activation_rescue_playbook_inactivity_signature_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1334",
-      "artifact": "Procurement fast-lane artifact pack for security-cleared deals",
-      "path": "office_os/artifacts/P1-REV-1334_procurement_fast_lane_artifact_pack_2026-02-28.md",
       "status": "done"
     }
   ],
