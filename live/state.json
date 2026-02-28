@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T01:21:54.478470+00:00",
+  "now": "2026-02-28T01:30:05.197630+00:00",
   "workers": [
     {
       "name": "Research",
@@ -167,26 +167,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-1255",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Proof-snippet to short-video conversion templates for sales objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-15T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Template pack includes 10 scripts with hook, proof clip instruction, CTA, and platform adaptation notes.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-1239",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +248,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 09:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1255",
+      "artifact": "Proof-snippet to short-video conversion template pack (10 objection scripts)",
+      "path": "office_os/artifacts/P3-CONT-1255_proof_snippet_to_short_video_conversion_templates_sales_objections_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 09:21",
       "owner": "COMMAND",
@@ -458,14 +446,6 @@
       "taskId": "P2-PROD-1225",
       "artifact": "Onboarding bottleneck instrumentation patch list v2 (top 12 gaps)",
       "path": "office_os/artifacts/P2-PROD-1225_onboarding_bottleneck_instrumentation_patch_list_v2_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1222",
-      "artifact": "Champion-to-CFO deal acceleration one-pager templates (6)",
-      "path": "office_os/artifacts/P1-REV-1222_champion_to_cfo_deal_acceleration_one_pager_templates_2026-02-28.md",
       "status": "done"
     }
   ],
