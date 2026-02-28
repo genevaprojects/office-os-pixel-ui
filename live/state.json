@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T20:00:05.236241+00:00",
+  "now": "2026-02-28T20:10:06.141985+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,6 +54,28 @@
   ],
   "backlog": [
     {
+      "id": "P0-FE-1525",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Implement viewport-safe sticky action bar to keep recovery and handoff controls always reachable on mobile",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-01T04:00:00+08:00",
+      "updated_at": "2026-03-01T04:07:03.046359+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-1524"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "On <=760px screens, critical recovery/handoff actions remain visible without occluding content and preserve keyboard/touch accessibility.",
+      "artifact_path": "office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js"
+    },
+    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -67,26 +89,6 @@
       ]
     },
     {
-      "id": "P1-REV-1511",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create enterprise objection-to-proof one-call close script matrix for top 12 blockers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps 12 top enterprise objections to one-call proof blocks, quant evidence prompts, and CTA closes by deal stage.",
-      "artifact_path": "office_os/artifacts/P1-REV-1511_enterprise_objection_to_proof_onecall_close_script_matrix_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-1514",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -94,7 +96,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
+      "updated_at": "2026-03-01T04:07:03.046372+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +109,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1514_activation_to_first_proof_handoff_sop_enterprise_trials_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1515",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-week adoption rescue intervention map with telemetry thresholds",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Intervention map links drop-off thresholds to owner actions, expected uplift, and rollback criteria by persona segment.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1515_firstweek_adoption_rescue_intervention_map_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1442",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -134,7 +116,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T03:07:03.195812+08:00",
+      "updated_at": "2026-03-01T04:07:03.046382+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +136,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T02:20:00+08:00",
-      "updated_at": "2026-03-01T03:07:03.195827+08:00",
+      "updated_at": "2026-03-01T04:07:03.046388+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +156,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T03:20:00+08:00",
-      "updated_at": "2026-03-01T03:20:00+08:00",
+      "updated_at": "2026-03-01T04:07:03.046378+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +170,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1524",
+      "artifact": "Added Handoff Console generating investor/operator/incident copy-ready briefs from live state with in-panel preview for faster cross-role handoff under demo pressure",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1523",
+      "artifact": "Added Sync Confidence Timeline with 12-cycle refresh reliability strip, success-rate + latency metrics, and one-click sync audit brief copy for trust-grade data cadence visibility",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 03:50",
       "owner": "BUILDER",
@@ -362,30 +368,6 @@
       "taskId": "P1-REV-2000",
       "artifact": "Security-review mutual action plan template with owner SLAs, unblock triggers, and escalation gates for sub-7-day signatures",
       "path": "office_os/artifacts/P1-REV-2000_security_review_mutual_action_plan_template_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 00:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1432",
-      "artifact": "Security-review acceleration email sequence (5 touches) with objection-specific CTAs and risk-reversal language",
-      "path": "office_os/artifacts/P1-REV-1432_security_review_acceleration_email_sequence_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 00:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1420",
-      "artifact": "Onboarding-to-first-value instrumentation gap map with missing events, owners, patch estimates, and validation queries",
-      "path": "office_os/artifacts/P2-PROD-1420_onboarding_first_value_instrumentation_gap_map_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 00:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1418",
-      "artifact": "Close-risk early warning rubric for legal-stage deals with 10 signals + 48h SLA owners",
-      "path": "office_os/artifacts/P1-REV-1418_close_risk_early_warning_rubric_legal_review_2026-02-28.md",
       "status": "done"
     }
   ],
