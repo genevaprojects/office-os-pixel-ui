@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T12:00:08.633037+00:00",
+  "now": "2026-02-28T12:10:05.741015+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,25 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1371",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build objection-triggered enterprise follow-up cadence v4",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence must map top 12 objection states to next-touch message, channel, and close KPI."
-    },
-    {
       "id": "P1-REV-1372",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -93,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
+      "updated_at": "2026-02-28T20:07:04.964404+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -112,7 +93,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
+      "updated_at": "2026-02-28T20:07:04.964418+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -131,7 +112,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
+      "updated_at": "2026-02-28T20:07:04.964424+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 4,
@@ -143,25 +124,6 @@
       "acceptance": "Matrix must include top 8 activation drop-offs, hypothesis, owner, and rollback criteria."
     },
     {
-      "id": "P2-PROD-1377",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft onboarding-to-expansion telemetry bridge spec",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec must define event chain from first value to expansion intent with anomaly thresholds."
-    },
-    {
       "id": "P4-OPS-1379",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -169,7 +131,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
+      "updated_at": "2026-02-28T20:07:04.964430+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,6 +144,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 19:37",
       "owner": "COMMAND",
@@ -372,14 +342,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 17:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1358",
-      "artifact": "Proof-first short-form content sprint plan for top 10 objections",
-      "path": "office_os/artifacts/P3-CONT-1358_proof_first_short_form_content_sprint_plan_2026-02-28.md",
       "status": "done"
     }
   ],
