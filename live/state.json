@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T10:22:30.700286+00:00",
+  "now": "2026-02-28T10:30:06.503728+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1363",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "owner": "SOCIAL",
-      "title": "Create proof-first enterprise trust post sprint (10 assets)",
-      "acceptance": "Sprint board must include 10 post briefs with hook, proof artifact, objection target, and conversion CTA.",
-      "status": "READY",
-      "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1364",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-1368",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "owner": "SOCIAL",
-      "title": "Build short-form proof rebuttal pack for top 12 objections",
-      "acceptance": "Pack must provide scripts, visual proof cues, CTA variants, and platform adaptation rules.",
-      "status": "READY",
-      "created_at": "2026-02-28T18:20:00+08:00",
-      "updated_at": "2026-02-28T18:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-1369",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1368",
+      "artifact": "Short-form proof rebuttal pack for top 12 objections",
+      "path": "office_os/artifacts/P3-CONT-1368_short_form_proof_rebuttal_pack_top12_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1363",
+      "artifact": "Proof-first enterprise trust post sprint (10 assets)",
+      "path": "office_os/artifacts/P1-REV-1363_proof_first_enterprise_trust_post_sprint_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 18:20",
       "owner": "COMMAND",
@@ -440,22 +418,6 @@
       "taskId": "P0-FE-983",
       "artifact": "Operator command bar with next-critical triage + copy-ready task brief",
       "path": "office_os/artifacts/P0-FE-983_operator_command_bar_next_critical_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 16:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-982",
-      "artifact": "Data integrity sentinel panel (duplicate ID / owner gap / artifact trace checks)",
-      "path": "office_os/artifacts/P0-FE-982_data_integrity_sentinel_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 15:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
