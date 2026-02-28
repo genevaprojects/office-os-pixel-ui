@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T23:00:07.466066+00:00",
+  "now": "2026-02-28T23:10:06.013546+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
+      "updated_at": "2026-03-01T07:07:04.188670+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-1720_procurement_stall_early_warning_trigger_matrix_2026-03-01.md"
     },
     {
-      "id": "P1-REV-1721",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build enterprise champion decay detector checklist for week-2 to week-6 pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist maps champion inactivity signals, internal-thread health checks, and recovery playbooks with measurable reply/reactivation targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-1721_enterprise_champion_decay_detector_checklist_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-1722",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
+      "updated_at": "2026-03-01T07:07:04.188683+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
+      "updated_at": "2026-03-01T07:07:04.188694+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T06:21:27+08:00",
+      "updated_at": "2026-03-01T07:07:04.188689+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -179,7 +159,7 @@
       "acceptance": "Watchdog defines check cadence, missing-artifact alert thresholds, auto-regeneration fallback, and verification steps.",
       "artifact_path": "office_os/artifacts/P5-REL-1610_cron_artifact_existence_watchdog_fallback_protocol_2026-03-01.md",
       "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T06:07:03.339933+08:00",
+      "updated_at": "2026-03-01T07:07:04.188713+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 07:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1721",
+      "artifact": "Delivered enterprise champion decay detector checklist for week 2-6 pilots with measurable inactivity signals, internal-thread health checks, and reactivation playbooks/targets",
+      "path": "office_os/artifacts/P1-REV-1721_enterprise_champion_decay_detector_checklist_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 06:37",
       "owner": "COMMAND",
@@ -370,22 +366,6 @@
       "taskId": "P2-PROD-1607",
       "artifact": "Delivered enterprise onboarding friction triage board template with severity tiers, SLA timers, unblock owner path, and done verification checklist",
       "path": "office_os/artifacts/P2-PROD-1607_enterprise_onboarding_friction_triage_board_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1603",
-      "artifact": "Delivered week-3 executive sponsor mobilization sequence with trigger conditions, owner SLA matrix, sponsor scripts, and success/fail conversion checkpoints",
-      "path": "office_os/artifacts/P1-REV-1603_exec_sponsor_mobilization_sequence_week3_pilots_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1608",
-      "artifact": "Delivered 10-post proof-first founder short-post calendar mapped to enterprise objections with hook, artifact slot, objection target, CTA, and channel adaptations",
-      "path": "office_os/artifacts/P3-CONT-1608_prooffirst_founder_shortpost_calendar_enterprise_objections_2026-03-01.md",
       "status": "done"
     }
   ],
