@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T16:30:05.753623+00:00",
+  "now": "2026-02-28T16:40:06.282884+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Map includes sponsor role, influence score, current stance, and next leverage action for 10 accounts.",
       "artifact_path": "office_os/artifacts/P1-REV-1431_executive_sponsor_map_late_stage_enterprise_2026-03-01.md"
-    },
-    {
-      "id": "P1-REV-1432",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create security-review acceleration email sequence (5 touches)",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 5 objection-specific emails with timeline compression CTA and risk-reversal language.",
-      "artifact_path": "office_os/artifacts/P1-REV-1432_security_review_acceleration_email_sequence_2026-03-01.md"
     },
     {
       "id": "P1-REV-1433",
@@ -268,6 +248,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 00:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 00:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-2000",
+      "artifact": "Security-review mutual action plan template with owner SLAs, unblock triggers, and escalation gates for sub-7-day signatures",
+      "path": "office_os/artifacts/P1-REV-2000_security_review_mutual_action_plan_template_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 00:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1432",
+      "artifact": "Security-review acceleration email sequence (5 touches) with objection-specific CTAs and risk-reversal language",
+      "path": "office_os/artifacts/P1-REV-1432_security_review_acceleration_email_sequence_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 00:16",
       "owner": "BUILDER",
@@ -442,30 +446,6 @@
       "taskId": "P1-REV-1395",
       "artifact": "Enterprise champion weekly mobilization script stack (7 forwardable scripts with purpose/proof/next ask)",
       "path": "office_os/artifacts/P1-REV-1395_enterprise_champion_weekly_mobilization_script_stack_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1391",
-      "artifact": "CFO objection collapse sequence (5-message, quantified proof cues + meeting CTAs)",
-      "path": "office_os/artifacts/P1-REV-1391_cfo_objection_collapse_sequence_budget_frozen_enterprise_deals_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1397",
-      "artifact": "Activation-to-expansion handoff checklist for CS-product feedback loops",
-      "path": "office_os/artifacts/P2-PROD-1397_activation_to_expansion_handoff_checklist_cs_product_feedback_loops_2026-02-28.md",
       "status": "done"
     }
   ],
