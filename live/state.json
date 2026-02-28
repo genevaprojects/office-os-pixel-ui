@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T03:00:06.705839+00:00",
+  "now": "2026-02-28T03:10:07.782646+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1257",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design 7-day founder outbound sprint scoreboard with daily conversion triggers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-16T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Define KPI board with daily target, lagging/leading indicators, and stop/scale decision rules.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-1260",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -102,27 +82,7 @@
       "acceptance": "Board spec includes severity rubric, assignment SLA, verification criteria, and weekly closeout routine.",
       "artifact_path": null,
       "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1261",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define activation drop-off evidence pack checklist for weekly product review",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-16T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist maps event evidence, session replay signals, owner action, and expected uplift per fix.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
+      "updated_at": "2026-02-28T11:07:10.469843+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -142,7 +102,7 @@
       "acceptance": "Protocol defines stale thresholds, decay score formula, recycle actions, and audit log format.",
       "artifact_path": null,
       "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T10:07:04.306151+08:00",
+      "updated_at": "2026-02-28T11:07:10.469830+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -162,7 +122,7 @@
       "acceptance": "Define monitor thresholds, stale alert conditions, recycle queue actions, and audit log fields.",
       "artifact_path": null,
       "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
+      "updated_at": "2026-02-28T11:07:10.469850+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -182,12 +142,20 @@
       "acceptance": "Checklist enforces acceptance traceability, artifact naming compliance, and duplicate-output prevention.",
       "artifact_path": null,
       "created_at": "2026-02-28T10:20:00+08:00",
-      "updated_at": "2026-02-28T10:20:00+08:00",
+      "updated_at": "2026-02-28T11:07:10.469855+08:00",
       "pinned": false,
       "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 11:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 10:37",
       "owner": "COMMAND",
@@ -378,14 +346,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 08:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
