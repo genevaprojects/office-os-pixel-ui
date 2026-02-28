@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T20:21:48.111743+00:00",
+  "now": "2026-02-28T20:30:05.959367+00:00",
   "workers": [
     {
       "name": "Research",
@@ -78,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Board defines 20 target accounts, daily outreach lane, proof asset mapping, and win/reply targets with rollback triggers.",
       "artifact_path": "office_os/artifacts/P1-REV-1601_enterprise_reactivation_sprint_board_security_cleared_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-1602",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement objection rebuttal pack with quant proof slots and 3-channel variants",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Pack includes email/DM/call variants for top 10 procurement blockers with proof placeholders and CTA next steps.",
-      "artifact_path": "office_os/artifacts/P1-REV-1602_procurement_objection_rebuttal_pack_3channel_2026-03-01.md",
       "created_at": "2026-03-01T04:20:00+08:00",
       "updated_at": "2026-03-01T04:20:00+08:00",
       "due_at": null,
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-1608",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build proof-first founder short-post calendar mapped to active enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Calendar delivers 10 posts with hook, proof artifact slot, objection target, and CTA by channel.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1608_prooffirst_founder_shortpost_calendar_enterprise_objections_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-1517",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 04:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1608",
+      "artifact": "Delivered 10-post proof-first founder short-post calendar mapped to enterprise objections with hook, artifact slot, objection target, CTA, and channel adaptations",
+      "path": "office_os/artifacts/P3-CONT-1608_prooffirst_founder_shortpost_calendar_enterprise_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 04:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1602",
+      "artifact": "Delivered procurement objection rebuttal pack with email/DM/call variants for top 10 blockers, proof slots, and next-step CTA framework",
+      "path": "office_os/artifacts/P1-REV-1602_procurement_objection_rebuttal_pack_3channel_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 04:17",
       "owner": "BUILDER",
@@ -471,24 +447,8 @@
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-01 01:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1438",
-      "artifact": "Late-stage deal unblock sequence for security-procurement deadlocks with 5-touch cadence, escalation paths, and stop-loss gates",
-      "path": "office_os/artifacts/P1-REV-1438_late_stage_deal_unblock_sequence_security_procurement_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 01:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
     }
   ],
-  "alertCount": 1,
+  "alertCount": 2,
   "decisions": 0
 }
