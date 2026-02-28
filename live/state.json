@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T02:00:10.770608+00:00",
+  "now": "2026-02-28T02:10:05.074002+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1250",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-won narrative library mapped to top 10 objections",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-13T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Library includes 10 objection-to-proof narratives with metric evidence slot, ICP tag, and call-ready talk track.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1252",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -102,27 +82,7 @@
       "acceptance": "Matrix defines 6+ sequence variants with trigger logic, KPI target, stop/scale rules, and attribution tags.",
       "artifact_path": null,
       "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1254",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Activation risk segmentation rubric for new enterprise trials",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-14T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Rubric defines risk tiers, detection signals, intervention actions, and weekly review cadence.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
+      "updated_at": "2026-02-28T10:07:04.306117+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -140,7 +100,7 @@
       "acceptance": "Rule update defines duplicate thresholds, review window, and remediation actions with examples.",
       "artifact_path": null,
       "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T09:07:04.410677+08:00",
+      "updated_at": "2026-02-28T10:07:04.306129+08:00",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -162,7 +122,7 @@
       "acceptance": "Rule set defines SLA miss thresholds, tag schema, triage queue behavior, and weekly cleanup procedure.",
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T09:07:04.410686+08:00",
+      "updated_at": "2026-02-28T10:07:04.306146+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -182,7 +142,7 @@
       "acceptance": "Protocol defines stale thresholds, decay score formula, recycle actions, and audit log format.",
       "artifact_path": null,
       "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
+      "updated_at": "2026-02-28T10:07:04.306151+08:00",
       "pinned": false,
       "manual_rank": null
     },
@@ -202,12 +162,52 @@
       "acceptance": "Routine defines file existence/size/timestamp checks, anomaly flags, and auto-remediation trigger criteria.",
       "artifact_path": null,
       "created_at": "2026-02-28T09:21:00+08:00",
-      "updated_at": "2026-02-28T09:21:00+08:00",
+      "updated_at": "2026-02-28T10:07:04.306156+08:00",
       "pinned": false,
       "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-1254",
+      "artifact": "Activation risk segmentation rubric for new enterprise trials",
+      "path": "office_os/artifacts/P2-PROD-1254_activation_risk_segmentation_rubric_enterprise_trials_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1250",
+      "artifact": "Closed-won narrative library mapped to top 10 objections",
+      "path": "office_os/artifacts/P1-REV-1250_closed_won_narrative_library_top10_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 10:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-977",
+      "artifact": "Command palette deep search expansion for task/monitor navigation",
+      "path": "office_os/artifacts/P0-FE-977_command_palette_deep_search_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 10:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-976",
+      "artifact": "Operator triage KPI strip (risk/action/blocked/owner counters)",
+      "path": "office_os/artifacts/P0-FE-976_operator_triage_kpi_strip_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 09:37",
       "owner": "COMMAND",
@@ -366,46 +366,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1244",
-      "artifact": "Recovery Playbook execution wiring (copy brief + launch P0 recovery triage)",
-      "path": "office_os_pixel_ui/public/index.html",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1243",
-      "artifact": "Recovery Playbook panel (3-step investor-demo runbook + command brief)",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:24",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1242",
-      "artifact": "Role clarity board upgraded with lane-level ownership confidence",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:24",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1241",
-      "artifact": "Recovery-mode orchestration hardening for investor quick actions",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 07:22",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added 10 READY tasks aligned to priority weights)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
