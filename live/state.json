@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T17:00:08.065709+00:00",
+  "now": "2026-02-28T17:10:07.023594+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,46 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1419",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Write no-decision reactivation playbook for enterprise opportunities stalled >14 days",
-      "owner": "RESEARCH",
-      "acceptance": "Playbook includes segmentation logic, 3 reactivation angles, and measurable re-engagement KPI targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-1419_no_decision_reactivation_playbook_stalled14d_2026-02-28.md",
-      "status": "READY",
-      "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T00:07:04.000609+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-1431",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build 10-account executive sponsor map for late-stage enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map includes sponsor role, influence score, current stance, and next leverage action for 10 accounts.",
-      "artifact_path": "office_os/artifacts/P1-REV-1431_executive_sponsor_map_late_stage_enterprise_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1433",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -114,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
+      "updated_at": "2026-03-01T01:07:03.544821+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -134,7 +94,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
+      "updated_at": "2026-03-01T01:07:03.544834+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -156,7 +116,7 @@
       "artifact_path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T00:07:04.000618+08:00",
+      "updated_at": "2026-03-01T01:07:03.544840+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -176,7 +136,7 @@
       "artifact_path": "office_os/artifacts/P3-CONT-1423_short_video_rebuttal_script_pack_procurement_security_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T00:07:04.000622+08:00",
+      "updated_at": "2026-03-01T01:07:03.544845+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
+      "updated_at": "2026-03-01T01:07:03.544854+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -216,7 +176,7 @@
       "artifact_path": "office_os/artifacts/P4-OPS-1424_autonomous_backlog_dedup_lint_pass_spec_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T00:07:04.000626+08:00",
+      "updated_at": "2026-03-01T01:07:03.544850+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T00:20:00+08:00",
+      "updated_at": "2026-03-01T01:07:03.544859+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -248,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 01:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 00:37",
       "owner": "COMMAND",
@@ -438,14 +406,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1395",
-      "artifact": "Enterprise champion weekly mobilization script stack (7 forwardable scripts with purpose/proof/next ask)",
-      "path": "office_os/artifacts/P1-REV-1395_enterprise_champion_weekly_mobilization_script_stack_2026-02-28.md",
       "status": "done"
     }
   ],
