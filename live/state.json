@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T09:30:09.613263+00:00",
+  "now": "2026-02-28T09:40:05.220380+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Board must include account tiering, message angle by objection, 5-day touch sequence, and win/loss KPI thresholds."
     },
     {
-      "id": "P1-REV-1352",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft procurement fast-lane checklist for security-cleared enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist must define owner SLA, required artifacts, escalation path, and sub-7-day signature target controls."
-    },
-    {
       "id": "P1-REV-1353",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -162,25 +143,6 @@
       "acceptance": "Template must classify risk by behavior signature, owner, intervention SLA, and expected uplift metric."
     },
     {
-      "id": "P2-PROD-1357",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Draft enterprise onboarding handoff QA checklist for CS-to-product loop",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist must include acceptance gates, defect severity routing, and verification timestamps."
-    },
-    {
       "id": "P4-OPS-1359",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -220,6 +182,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 17:25",
       "owner": "SOCIAL",
@@ -410,14 +380,6 @@
       "taskId": "P2-PROD-1327",
       "artifact": "Adoption regression early-warning checklist for CS and Product",
       "path": "office_os/artifacts/P2-PROD-1327_adoption_regression_early_warning_checklist_cs_product_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1323",
-      "artifact": "Late-stage deal unblock war-room cadence (top 20 opportunities)",
-      "path": "office_os/artifacts/P1-REV-1323_late_stage_deal_unblock_war_room_cadence_2026-02-28.md",
       "status": "done"
     }
   ],
