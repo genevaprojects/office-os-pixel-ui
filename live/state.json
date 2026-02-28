@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T20:30:05.959367+00:00",
+  "now": "2026-02-28T20:40:06.902341+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1603",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft executive sponsor mobilization sequence for week-3 enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence contains trigger conditions, owner SLA, sponsor message scripts, and success/fail conversion checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-1603_exec_sponsor_mobilization_sequence_week3_pilots_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-1604",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -158,26 +138,6 @@
       "urgency": 4,
       "acceptance": "Script links threshold breaches to owner action, in-product prompt, and expected lift for each persona segment.",
       "artifact_path": "office_os/artifacts/P2-PROD-1606_first7day_activation_rescue_script_persona_threshold_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-1607",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define enterprise onboarding friction triage board with owner SLA and escalation gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board template includes severity tiers, SLA timers, unblock owner path, and done verification checklist.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1607_enterprise_onboarding_friction_triage_board_2026-03-01.md",
       "created_at": "2026-03-01T04:20:00+08:00",
       "updated_at": "2026-03-01T04:20:00+08:00",
       "due_at": null,
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 04:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1607",
+      "artifact": "Delivered enterprise onboarding friction triage board template with severity tiers, SLA timers, unblock owner path, and done verification checklist",
+      "path": "office_os/artifacts/P2-PROD-1607_enterprise_onboarding_friction_triage_board_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1603",
+      "artifact": "Delivered week-3 executive sponsor mobilization sequence with trigger conditions, owner SLA matrix, sponsor scripts, and success/fail conversion checkpoints",
+      "path": "office_os/artifacts/P1-REV-1603_exec_sponsor_mobilization_sequence_week3_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 04:26",
       "owner": "SOCIAL",
@@ -430,22 +406,6 @@
       "taskId": "P1-REV-1439",
       "artifact": "Founder outbound proof-snippet rotation calendar for top 20 accounts with objection/proof/CTA/owner handoff mapping",
       "path": "office_os/artifacts/P1-REV-1439_founder_outbound_proof_snippet_rotation_calendar_top20_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1440",
-      "artifact": "Week-1 enterprise onboarding anomaly triage board with category taxonomy, SEV1-4 SLA ladder, owner-routing matrix, and verification-close loop",
-      "path": "office_os/artifacts/P2-PROD-1440_week1_enterprise_onboarding_anomaly_triage_board_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
