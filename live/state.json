@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T03:30:05.485452+00:00",
+  "now": "2026-02-28T03:40:04.766517+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-1266",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design high-velocity proposal follow-up sequence for security-cleared deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T11:20:34+08:00",
-      "updated_at": "2026-02-28T11:20:34+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes day-by-day outreach, objection branches, and stop/scale rules tied to reply and signature rates.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-1268",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -162,25 +143,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-1271",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create enterprise onboarding handoff QA checklist from sales to delivery",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T11:20:34+08:00",
-      "updated_at": "2026-02-28T11:20:34+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist enforces required context fields, acceptance gates, SLA ownership, and rollback conditions.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-1264",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -222,12 +184,28 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 11:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1271",
+      "artifact": "Enterprise onboarding handoff QA checklist (sales to delivery)",
+      "path": "office_os/artifacts/P2-PROD-1271_sales_to_delivery_onboarding_handoff_qa_checklist_2026-02-28.md",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 11:26",
       "owner": "SOCIAL",
       "taskId": "P3-CONT-1272",
       "artifact": "14-day proof-first founder content sprint board for active objections",
       "path": "office_os/artifacts/P3-CONT-1272_proof_first_founder_content_sprint_board_active_objections_2026-02-28.md",
-      "status": "done"
+      "status": "done2026-02-28 11:35"
     },
     {
       "time": "2026-02-28 11:26",
@@ -403,22 +381,6 @@
       "taskId": "P2-PROD-1253",
       "artifact": "First-call-to-onboarding friction handoff checklist",
       "path": "office_os/artifacts/P2-PROD-1253_first_call_to_onboarding_friction_handoff_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 09:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1251",
-      "artifact": "Champion-to-procurement handoff script with 72h acceleration path",
-      "path": "office_os/artifacts/P1-REV-1251_champion_to_procurement_handoff_script_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 09:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1255",
-      "artifact": "Proof-snippet to short-video conversion template pack (10 objection scripts)",
-      "path": "office_os/artifacts/P3-CONT-1255_proof_snippet_to_short_video_conversion_templates_sales_objections_2026-02-28.md",
       "status": "done"
     }
   ],
