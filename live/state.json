@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T04:30:05.786599+00:00",
+  "now": "2026-02-28T04:40:05.488801+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-1303",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create day-0 onboarding friction elimination checklist for reopened enterprise trials",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist covers top onboarding blockers, owner routing, and 48-hour verification loop with pass/fail criteria.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-1304",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -198,28 +179,33 @@
       "manual_rank": null,
       "acceptance": "Protocol sets stale thresholds, escalation routes, and recovery actions to keep READY queue execution-fresh.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-1309",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron artifact integrity spot-check routine for high-priority revenue workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T12:20:40+08:00",
-      "updated_at": "2026-02-28T12:20:40+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Routine specifies sampling cadence, checksum/trace checks, failure handling, and verification criteria for critical jobs.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-1309",
+      "artifact": "Cron artifact integrity spot-check routine for high-priority revenue workflows",
+      "path": "office_os/artifacts/P5-REL-1309_cron_artifact_integrity_spot_check_routine_high_priority_revenue_workflows_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1303",
+      "artifact": "Day-0 onboarding friction elimination checklist for reopened enterprise trials",
+      "path": "office_os/artifacts/P2-PROD-1303_day0_onboarding_friction_elimination_checklist_reopened_enterprise_trials_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 12:25",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1247",
-      "artifact": "Autonomous SLA miss auto-tagging rules for backlog governance",
-      "path": "office_os/artifacts/P4-OPS-1247_autonomous_sla_miss_auto_tagging_rules_backlog_governance_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1239",
-      "artifact": "Autonomous backlog duplicate detection rule update",
-      "path": "office_os/artifacts/P4-OPS-1239_autonomous_backlog_duplicate_detection_rule_update_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 10:16",
-      "owner": "BUILDER",
-      "taskId": "P5-REL-1257",
-      "artifact": "Cron artifact integrity quick-verify routine for hourly runs",
-      "path": "office_os/artifacts/P5-REL-1257_cron_artifact_integrity_quick_verify_routine_2026-02-28.md",
       "status": "done"
     }
   ],
