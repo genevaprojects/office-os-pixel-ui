@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T23:30:09.948712+00:00",
+  "now": "2026-02-28T23:40:05.627636+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-1735_proposal_to_redline_acceleration_checklist_sub72h_2026-03-01.md"
     },
     {
-      "id": "P1-REV-1736",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement close-room daily operating cadence for top 15 late-stage deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines daily agenda, blocker ownership, escalation windows, and conversion KPIs for top 15 late-stage procurement deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-1736_procurement_close_room_daily_operating_cadence_top15_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-1737",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -205,29 +185,17 @@
       "manual_rank": null,
       "acceptance": "Protocol defines dependency integrity checks, hidden-blocker heuristics, and correction actions before tasks are marked READY.",
       "artifact_path": "office_os/artifacts/P4-OPS-1740_autonomous_backlog_dependency_lint_protocol_hidden_blockers_2026-03-01.md"
-    },
-    {
-      "id": "P5-REL-1610",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron artifact existence watchdog with fallback regeneration protocol",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Watchdog defines check cadence, missing-artifact alert thresholds, auto-regeneration fallback, and verification steps.",
-      "artifact_path": "office_os/artifacts/P5-REL-1610_cron_artifact_existence_watchdog_fallback_protocol_2026-03-01.md",
-      "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T07:07:04.188713+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1736",
+      "artifact": "Delivered procurement close-room daily operating cadence for top 15 late-stage deals with fixed standup/escalation windows, blocker-owner model, and conversion KPI stack for cycle-time compression",
+      "path": "office_os/artifacts/P1-REV-1736_procurement_close_room_daily_operating_cadence_top15_2026-03-01.md",
+      "status": "done\\n2026-03-01 07:35"
+    },
     {
       "time": "2026-03-01 07:25",
       "owner": "SOCIAL",
@@ -418,14 +386,6 @@
       "taskId": "P0-FE-1712",
       "artifact": "Hardened Founder Desk duplicate protection with multi-fingerprint cooldown map across single and bundle queue actions to prevent replayed command bursts",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1711",
-      "artifact": "Added Live Refresh Clock rail in Overview with snapshot age, next-refresh ETA, and cadence freshness score for investor trust pacing clarity",
-      "path": "office_os_mission_control/app/page.tsx",
       "status": "done"
     }
   ],
