@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T22:00:05.328434+00:00",
+  "now": "2026-02-28T22:10:05.232799+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1701",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 7-day executive follow-up cadence for security-cleared deals at procurement edge",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence includes daily trigger conditions, stakeholder-specific script angles, proof payload slots, and recovery path for no-response by day 3.",
-      "artifact_path": "office_os/artifacts/P1-REV-1701_exec_followup_cadence_security_cleared_procurement_edge_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1704",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
+      "updated_at": "2026-03-01T06:07:03.339917+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
+      "updated_at": "2026-03-01T06:07:03.339905+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
+      "updated_at": "2026-03-01T06:07:03.339922+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -147,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1706_activation_friction_hotfix_lane_24h_ship_criteria_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1707",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create enterprise onboarding proof-of-value checkpoint map (day 0-7)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map covers day-0 to day-7 checkpoints, owner actions, proof artifacts, and escalation rules when value milestones are missed.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1707_enterprise_onboarding_pov_checkpoint_map_day0_7_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1709",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
+      "updated_at": "2026-03-01T06:07:03.339927+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -199,7 +159,7 @@
       "acceptance": "Watchdog defines check cadence, missing-artifact alert thresholds, auto-regeneration fallback, and verification steps.",
       "artifact_path": "office_os/artifacts/P5-REL-1610_cron_artifact_existence_watchdog_fallback_protocol_2026-03-01.md",
       "created_at": "2026-03-01T04:20:00+08:00",
-      "updated_at": "2026-03-01T04:20:00+08:00",
+      "updated_at": "2026-03-01T06:07:03.339933+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 05:37",
       "owner": "COMMAND",
@@ -398,14 +366,6 @@
       "taskId": "P5-REL-1518",
       "artifact": "Delivered cron run anomaly early-warning response matrix with severity bands, owner-by-severity SLA, and verification checkpoints for mission-critical hourly job continuity",
       "path": "office_os/artifacts/P5-REL-1518_cron_run_anomaly_early_warning_response_matrix_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1512",
-      "artifact": "Delivered sub-48h procurement redline turnaround fast-path checklist with legal/security/finance owner lanes, SLA triggers, blocker fallback motions, and escalation thresholds for deal-cycle compression",
-      "path": "office_os/artifacts/P1-REV-1512_procurement_redline_turnaround_fastpath_checklist_sub48h_2026-03-01.md",
       "status": "done"
     }
   ],
