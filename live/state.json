@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T07:22:06.846735+00:00",
+  "now": "2026-02-28T07:30:05.364882+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,24 +103,6 @@
       "acceptance": "Plan includes top-30 account list schema, touchpoint cadence, message angle by loss reason, and success KPI."
     },
     {
-      "id": "P1-REV-1333",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft revenue-first referral brief for niche community partners",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Brief includes partner ICP, incentive model, anti-fraud controls, and weekly conversion reporting cadence."
-    },
-    {
       "id": "P1-REV-1334",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -193,24 +175,6 @@
       "acceptance": "Checklist covers handoff data contract, Day 0-Day 7 milestones, risk flags, and SLA ownership."
     },
     {
-      "id": "P3-CONT-1338",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build proof-led short clip calendar for top 10 enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T15:20:00+08:00",
-      "updated_at": "2026-02-28T15:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Calendar contains 14 publish slots with objection mapping, proof asset type, CTA, and channel assignment."
-    },
-    {
       "id": "P4-OPS-1339",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -248,6 +212,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 15:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1338",
+      "artifact": "Proof-led short clip calendar for top 10 enterprise objections",
+      "path": "office_os/artifacts/P3-CONT-1338_proof_led_short_clip_calendar_top10_enterprise_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 15:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1333",
+      "artifact": "Revenue-first referral brief for niche community partners",
+      "path": "office_os/artifacts/P1-REV-1333_revenue_first_referral_brief_niche_community_partners_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 15:07",
       "owner": "COMMAND",
@@ -430,22 +410,6 @@
       "taskId": "P1-REV-1301",
       "artifact": "Fast-lane pilot conversion script stack for security-cleared enterprise prospects",
       "path": "office_os/artifacts/P1-REV-1301_fast_lane_pilot_conversion_script_stack_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-1309",
-      "artifact": "Cron artifact integrity spot-check routine for high-priority revenue workflows",
-      "path": "office_os/artifacts/P5-REL-1309_cron_artifact_integrity_spot_check_routine_high_priority_revenue_workflows_2026-02-28.md",
       "status": "done"
     }
   ],
