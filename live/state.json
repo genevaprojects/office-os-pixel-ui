@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T00:21:46.904725+00:00",
+  "now": "2026-02-28T00:30:56.245235+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-1243",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Closed-lost reactivation script tree for budget-freeze accounts",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": "2026-03-11T23:59:00+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Script tree covers 12 branches by loss reason, includes proof inserts, and defines stop/reroute rules.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T08:20:00+08:00",
-      "updated_at": "2026-02-28T08:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-1244",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -183,26 +163,6 @@
       "artifact_path": null,
       "created_at": "2026-02-28T08:20:00+08:00",
       "updated_at": "2026-02-28T08:20:00+08:00",
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-1238",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Objection-led founder authority post pack (7-day)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": "2026-03-11T23:59:00+08:00",
-      "acceptance": "7 post drafts with hook, proof point, contrarian angle, and distribution CTA by channel.",
-      "artifact_path": null,
-      "created_at": "2026-02-28T07:22:30+08:00",
-      "updated_at": "2026-02-28T08:07:02.092658+08:00",
-      "depends_on": [],
-      "blocked_reason": null,
       "pinned": false,
       "manual_rank": null
     },
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 08:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1238",
+      "artifact": "Objection-led founder authority post pack (7-day)",
+      "path": "office_os/artifacts/P3-CONT-1238_objection_led_founder_authority_post_pack_7_day_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 08:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1243",
+      "artifact": "Closed-lost reactivation script tree for budget-freeze accounts",
+      "path": "office_os/artifacts/P1-REV-1243_closed_lost_reactivation_script_tree_budget_freeze_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 08:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P0-FE-971",
       "artifact": "Team page clipboard resilience unification for hot-swap action commands",
       "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-970",
-      "artifact": "Pixel UI command rails click-target hardening for investor quick actions",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 06:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up (added 10 READY tasks to restore execution buffer >=10)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
