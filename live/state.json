@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T05:21:17.246925+00:00",
+  "now": "2026-02-28T05:30:05.591330+00:00",
   "workers": [
     {
       "name": "Research",
@@ -121,24 +121,6 @@
       "acceptance": "Scoreboard template tracks stage velocity, slippage flags, owner actions, and weekly recovery commitments."
     },
     {
-      "id": "P1-REV-1314",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft partner-led distribution sprint targeting 3 channels with referral-to-revenue math",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan includes channel shortlist, offer mechanics, referral funnel, and projected revenue with assumptions."
-    },
-    {
       "id": "P1-REV-1315",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -191,24 +173,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist defines handoff artifacts, D1/D7 checkpoints, escalation path, and adoption KPI targets."
-    },
-    {
-      "id": "P3-CONT-1318",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build proof-first short video narrative pack for top 10 enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Deliver 10 video scripts with hook, proof payload, CTA, and platform-specific cut guidance."
     },
     {
       "id": "P4-OPS-1319",
