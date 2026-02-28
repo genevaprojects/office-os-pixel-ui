@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T21:22:07.775042+00:00",
+  "now": "2026-02-28T21:30:06.692039+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-1702_map_rescue_template_delayed_enterprise_pilots_2026-03-01.md"
     },
     {
-      "id": "P1-REV-1703",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build champion proof packet checklist for week-2 internal buy-in meetings",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist maps executive concerns to proof assets, objection rebuttals, and CTA sequence for champion-led internal approvals.",
-      "artifact_path": "office_os/artifacts/P1-REV-1703_champion_proof_packet_checklist_week2_internal_buyin_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1704",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1707_enterprise_onboarding_pov_checkpoint_map_day0_7_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-1708",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 10-post objection-to-proof microcontent sprint board for founder channels",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T05:22:00+08:00",
-      "updated_at": "2026-03-01T05:22:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board provides hook, objection target, required proof, CTA, and posting cadence by X/LinkedIn/Telegram.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1708_objection_to_proof_microcontent_sprint_board_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1709",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -288,6 +248,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 05:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1708",
+      "artifact": "Delivered 10-post objection-to-proof microcontent sprint board with hook, objection target, required proof, CTA keyword, and X/LinkedIn/Telegram cadence",
+      "path": "office_os/artifacts/P3-CONT-1708_objection_to_proof_microcontent_sprint_board_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1703",
+      "artifact": "Delivered champion proof packet checklist mapping executive concerns to proof assets, objection rebuttals, and champion-led internal approval CTA sequence",
+      "path": "office_os/artifacts/P1-REV-1703_champion_proof_packet_checklist_week2_internal_buyin_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1712",
+      "artifact": "Hardened Founder Desk duplicate protection with multi-fingerprint cooldown map across single and bundle queue actions to prevent replayed command bursts",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 05:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1711",
+      "artifact": "Added Live Refresh Clock rail in Overview with snapshot age, next-refresh ETA, and cadence freshness score for investor trust pacing clarity",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 05:15",
       "owner": "BUILDER",
@@ -454,38 +446,6 @@
       "taskId": "P2-PROD-1503",
       "artifact": "Delivered first-14-day enterprise activation rescue playbook with day-by-day trigger thresholds, owner actions, rollback criteria, and KPI response bands",
       "path": "office_os/artifacts/P2-PROD-1503_first14day_enterprise_activation_rescue_playbook_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 03:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1501",
-      "artifact": "Founder-led 48h reactivation burst plan with segment-specific touch sequence, proof snippets, and booking targets for warm stalled enterprise accounts",
-      "path": "office_os/artifacts/P1-REV-1501_founder_led_48h_reactivation_burst_plan_warm_stalled_enterprise_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 02:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-1506",
-      "artifact": "Cron artifact integrity checklist covering existence checks, checksum validation, restore sequence, corruption fallback path, and escalation thresholds",
-      "path": "office_os/artifacts/P5-REL-1506_cron_artifact_integrity_restore_fallback_checklist_2026-03-01.md",
       "status": "done"
     }
   ],
