@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T18:22:04.839981+00:00",
+  "now": "2026-02-28T18:30:05.032042+00:00",
   "workers": [
     {
       "name": "Research",
@@ -125,46 +125,6 @@
       "manual_rank": null,
       "acceptance": "Playbook maps day-by-day triggers, owner actions, rollback criteria, and KPI thresholds for activation recovery.",
       "artifact_path": "office_os/artifacts/P2-PROD-1503_first14day_enterprise_activation_rescue_playbook_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-1441",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce objection-to-proof short clip storyboard set for enterprise buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588128+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Set includes 12 clips with hook, proof artifact slot, objection class, and CTA mapped by funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1441_objection_to_proof_short_clip_storyboard_set_enterprise_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-1504",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce 7-day founder proof-post schedule tied to live enterprise objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T02:20:00+08:00",
-      "updated_at": "2026-03-01T02:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Schedule includes 7 posts with objection tag, proof format, CTA, and distribution channel split.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1504_7day_founder_proof_post_schedule_live_enterprise_objections_2026-03-01.md"
     },
     {
       "id": "P4-OPS-1424",
