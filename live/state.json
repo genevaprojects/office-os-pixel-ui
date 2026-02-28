@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T17:30:05.102915+00:00",
+  "now": "2026-02-28T17:40:05.477266+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Template outputs one-page ROI brief with baseline, intervention, quantified delta, and procurement-ready proof references.",
       "artifact_path": "office_os/artifacts/P1-REV-1437_enterprise_pilot_roi_evidence_onepager_generator_template_2026-03-01.md"
-    },
-    {
-      "id": "P1-REV-1438",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft late-stage deal unblock sequence for security-procurement deadlocks",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 5 touches, owner triggers, escalation paths, and stop-loss criteria for stalled enterprise deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-1438_late_stage_deal_unblock_sequence_security_procurement_2026-03-01.md"
     },
     {
       "id": "P1-REV-1439",
@@ -268,6 +248,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 01:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1438",
+      "artifact": "Late-stage deal unblock sequence for security-procurement deadlocks with 5-touch cadence, escalation paths, and stop-loss gates",
+      "path": "office_os/artifacts/P1-REV-1438_late_stage_deal_unblock_sequence_security_procurement_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 01:07",
       "owner": "COMMAND",
@@ -458,14 +446,6 @@
       "taskId": "P1-REV-1394",
       "artifact": "Mutual action plan fast-track template for legal-review deals",
       "path": "office_os/artifacts/P1-REV-1394_mutual_action_plan_fast_track_template_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
