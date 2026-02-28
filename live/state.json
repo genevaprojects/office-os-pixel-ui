@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T12:21:30.778995+00:00",
+  "now": "2026-02-28T12:30:40.621388+00:00",
   "workers": [
     {
       "name": "Research",
@@ -131,22 +131,6 @@
       "acceptance": "Matrix must map top objections to proof artifacts, fallback options, and escalation path."
     },
     {
-      "id": "P1-REV-1385",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Write founder weekly pipeline narrative memo format for investors",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Format must include wins, risks, ARR movement, and next-week priorities in one page."
-    },
-    {
       "id": "P2-PROD-1386",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -177,22 +161,6 @@
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Schema must include D0/D1/D7 SLA metrics, owner fields, and breach escalation rules."
-    },
-    {
-      "id": "P3-CONT-1388",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Develop 10 proof-led short-post hooks for procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Hooks must map objection type, proof asset, CTA, and platform format."
     },
     {
       "id": "P3-CONT-1389",
@@ -228,6 +196,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 20:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1388",
+      "artifact": "10 proof-led short-post hooks for procurement objections",
+      "path": "office_os/artifacts/P3-CONT-1388_proof_led_short_post_hooks_procurement_objections_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 20:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1385",
+      "artifact": "Founder weekly pipeline narrative memo format for investors",
+      "path": "office_os/artifacts/P1-REV-1385_founder_weekly_pipeline_narrative_memo_format_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 20:20",
       "owner": "COMMAND",
@@ -410,22 +394,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up (restored >=10 READY/QUEUED/TODO tasks)",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:20",
-      "owner": "RESEARCH",
-      "taskId": "P5-REL-1360",
-      "artifact": "Degraded-mode continuity runbook for critical growth cron jobs",
-      "path": "office_os/artifacts/P5-REL-1360_degraded_mode_continuity_runbook_critical_growth_cron_jobs_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1359",
-      "artifact": "Autonomous backlog duplicate-detection SOP v2",
-      "path": "office_os/artifacts/P4-OPS-1359_autonomous_backlog_duplicate_detection_sop_v2_2026-02-28.md",
       "status": "done"
     }
   ],
