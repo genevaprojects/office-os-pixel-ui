@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T23:10:06.013546+00:00",
+  "now": "2026-02-28T23:21:38.882024+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-1720",
+      "id": "P1-REV-1733",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Define procurement stall early-warning trigger matrix with auto-owner escalation map",
-      "owner": "COMMAND",
+      "title": "Map security-review-to-procurement conversion leaks with stage-time compression interventions",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T07:07:04.188670+08:00",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,18 +83,78 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Trigger matrix defines 12 measurable stall signals, risk tiers, owner routing, and 24h intervention rules tied to close-probability recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-1720_procurement_stall_early_warning_trigger_matrix_2026-03-01.md"
+      "acceptance": "Leak map identifies 10 conversion leaks between security approval and procurement kickoff, owner actions, and target cycle-time reduction per leak.",
+      "artifact_path": "office_os/artifacts/P1-REV-1733_security_review_to_procurement_conversion_leak_map_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1722",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value proof artifact generator template for day-1 onboarding wins",
+      "id": "P1-REV-1734",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build executive multithread follow-up sequence for silent week-3 enterprise pilots",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sequence includes 7-touch multithread playbook (champion, economic buyer, legal/procurement) with proof payload slots and response-rate targets.",
+      "artifact_path": "office_os/artifacts/P1-REV-1734_exec_multithread_followup_sequence_silent_week3_pilots_2026-03-01.md"
+    },
+    {
+      "id": "P1-REV-1735",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Design proposal-to-redline acceleration checklist with sub-72h handoff SLA",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T07:07:04.188683+08:00",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines owner lane, required artifacts, handoff timestamps, and fallback path to keep proposal-to-redline transition under 72h.",
+      "artifact_path": "office_os/artifacts/P1-REV-1735_proposal_to_redline_acceleration_checklist_sub72h_2026-03-01.md"
+    },
+    {
+      "id": "P1-REV-1736",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create procurement close-room daily operating cadence for top 15 late-stage deals",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Cadence defines daily agenda, blocker ownership, escalation windows, and conversion KPIs for top 15 late-stage procurement deals.",
+      "artifact_path": "office_os/artifacts/P1-REV-1736_procurement_close_room_daily_operating_cadence_top15_2026-03-01.md"
+    },
+    {
+      "id": "P2-PROD-1737",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Draft day-0 to day-3 enterprise onboarding evidence capture checklist",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -103,8 +163,48 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template specifies required telemetry inputs, auto-generated proof sections, and pass/fail validation for day-1 value confirmation.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1722_first_value_proof_artifact_generator_template_2026-03-01.md"
+      "acceptance": "Checklist defines required evidence events, owner SLA, and pass/fail gates for first 72h onboarding proof capture.",
+      "artifact_path": "office_os/artifacts/P2-PROD-1737_day0_day3_enterprise_onboarding_evidence_capture_checklist_2026-03-01.md"
+    },
+    {
+      "id": "P2-PROD-1738",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Define activation-risk intervention ladder for accounts missing first-value milestone by 48h",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Intervention ladder maps 48h miss signals to owner actions, outreach scripts, and expected activation lift bands.",
+      "artifact_path": "office_os/artifacts/P2-PROD-1738_activation_risk_intervention_ladder_first_value_miss_48h_2026-03-01.md"
+    },
+    {
+      "id": "P3-CONT-1739",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce proof-first founder content sprint for procurement-objection rebuttals (7 assets)",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sprint board includes 7 assets with hook, objection target, proof requirement, and CTA mapped to X/LinkedIn/Telegram.",
+      "artifact_path": "office_os/artifacts/P3-CONT-1739_proof_first_founder_content_sprint_procurement_objections_2026-03-01.md"
     },
     {
       "id": "P4-OPS-1726",
@@ -127,14 +227,14 @@
       "artifact_path": "office_os/artifacts/P4-OPS-1726_autonomous_backlog_owner_load_balancer_guardrail_2026-03-01.md"
     },
     {
-      "id": "P4-OPS-1727",
+      "id": "P4-OPS-1740",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Define artifact naming consistency validator for cross-agent outputs",
+      "title": "Define autonomous backlog dependency-lint protocol for hidden blocker detection",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T07:07:04.188689+08:00",
+      "created_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T07:20:00+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -143,8 +243,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Validator defines filename schema rules, collision checks, and remediation workflow for malformed artifact paths.",
-      "artifact_path": "office_os/artifacts/P4-OPS-1727_artifact_naming_consistency_validator_2026-03-01.md"
+      "acceptance": "Protocol defines dependency integrity checks, hidden-blocker heuristics, and correction actions before tasks are marked READY.",
+      "artifact_path": "office_os/artifacts/P4-OPS-1740_autonomous_backlog_dependency_lint_protocol_hidden_blockers_2026-03-01.md"
     },
     {
       "id": "P5-REL-1610",
@@ -168,6 +268,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 07:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete tasks and owner-assigned acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 07:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-1727",
+      "artifact": "Delivered artifact naming consistency validator with strict filename schema, collision detection, and remediation workflow to prevent malformed/colliding outputs",
+      "path": "office_os/artifacts/P4-OPS-1727_artifact_naming_consistency_validator_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 07:20",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-1720",
+      "artifact": "Delivered procurement stall early-warning trigger matrix with 12 measurable stall signals, risk tiers, owner routing, and enforced 24h intervention SLA to protect close probability",
+      "path": "office_os/artifacts/P1-REV-1720_procurement_stall_early_warning_trigger_matrix_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 07:07",
       "owner": "COMMAND",
@@ -342,30 +466,6 @@
       "taskId": "P1-REV-1604",
       "artifact": "Delivered one-call ROI calculator talk track with discovery input schema, live output narrative, objection branches, and stakeholder-specific close CTA path for late-stage enterprise deals",
       "path": "office_os/artifacts/P1-REV-1604_onecall_roi_talktrack_late_stage_deals_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1601",
-      "artifact": "Delivered 14-day enterprise reactivation sprint board for 20 security-cleared stalled deals with daily outreach lanes, proof-asset mapping, win/reply targets, and rollback triggers",
-      "path": "office_os/artifacts/P1-REV-1601_enterprise_reactivation_sprint_board_security_cleared_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1605",
-      "artifact": "Delivered closed-lost resurrection trigger matrix with reason-specific signals, 30/60/90 re-entry plays, and 3-channel outreach angles with measurable reactivation targets",
-      "path": "office_os/artifacts/P1-REV-1605_closed_lost_resurrection_trigger_matrix_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 04:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1607",
-      "artifact": "Delivered enterprise onboarding friction triage board template with severity tiers, SLA timers, unblock owner path, and done verification checklist",
-      "path": "office_os/artifacts/P2-PROD-1607_enterprise_onboarding_friction_triage_board_2026-03-01.md",
       "status": "done"
     }
   ],
