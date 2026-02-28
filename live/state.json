@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T08:30:05.090922+00:00",
+  "now": "2026-02-28T08:40:11.798569+00:00",
   "workers": [
     {
       "name": "Research",
@@ -86,25 +86,6 @@
       "acceptance": "Build 7-day sprint plan with daily channel, message angle, proof asset, and reply-to-meeting KPI targets for 30 stalled champions."
     },
     {
-      "id": "P1-REV-1342",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build late-stage deal acceleration checklist with 72-hour close actions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T16:20:00+08:00",
-      "updated_at": "2026-02-28T16:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes owner, action SLA, risk flags, and go/no-go criteria for top 15 late-stage opportunities."
-    },
-    {
       "id": "P2-PROD-1343",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -141,25 +122,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix classifies friction by conversion impact, sets severity tiers, and assigns owner SLAs with escalation rules."
-    },
-    {
-      "id": "P3-CONT-1346",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build weekly narrative hijack board for AI/automation market moments",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T16:20:00+08:00",
-      "updated_at": "2026-02-28T16:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes 7 timely narrative angles, evidence requirements, and posting windows tied to engagement goals."
     },
     {
       "id": "P4-OPS-1347",
@@ -220,6 +182,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 16:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 16:36",
+      "owner": "EXECUTOR",
+      "taskId": "P3-CONT-1346",
+      "artifact": "Weekly narrative hijack board for AI/automation market moments",
+      "path": "office_os/artifacts/P3-CONT-1346_weekly_narrative_hijack_board_ai_automation_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 16:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1342",
+      "artifact": "Late-stage deal acceleration checklist with 72-hour close actions",
+      "path": "office_os/artifacts/P1-REV-1342_late_stage_deal_acceleration_checklist_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 16:25",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "P2-PROD-1316",
       "artifact": "First-week onboarding fail states mapped to rescue automations with owner SLA",
       "path": "office_os/artifacts/P2-PROD-1316_onboarding_fail_states_rescue_automations_owner_sla_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1313",
-      "artifact": "Founder weekly deal velocity scoreboard with slippage auto-flag thresholds",
-      "path": "office_os/artifacts/P1-REV-1313_founder_weekly_deal_velocity_scoreboard_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1312",
-      "artifact": "Objection-triggered ROI proof snippets for CFO/procurement follow-ups (24 snippets)",
-      "path": "office_os/artifacts/P1-REV-1312_objection_triggered_roi_proof_snippets_cfo_procurement_followups_2026-02-28.md",
       "status": "done"
     }
   ],
