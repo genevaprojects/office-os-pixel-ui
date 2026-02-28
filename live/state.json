@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T05:30:05.591330+00:00",
+  "now": "2026-02-28T05:40:06.005073+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1311",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design zero-friction enterprise pilot kickoff kit with 48h activation guarantee",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes kickoff agenda, stakeholder map, 48h activation checklist, and measurable activation KPI target."
-    },
-    {
       "id": "P1-REV-1312",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -119,24 +101,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Scoreboard template tracks stage velocity, slippage flags, owner actions, and weekly recovery commitments."
-    },
-    {
-      "id": "P1-REV-1315",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Define close-risk reversal playbook for no-decision late-stage enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook includes 5 risk signatures, intervention actions, timeline SLA, and success/abort criteria."
     },
     {
       "id": "P2-PROD-1316",
@@ -212,6 +176,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 13:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1315",
+      "artifact": "Close-risk reversal playbook for no-decision late-stage enterprise deals",
+      "path": "office_os/artifacts/P1-REV-1315_close_risk_reversal_playbook_no_decision_late_stage_deals_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 13:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1311",
+      "artifact": "Zero-friction enterprise pilot kickoff kit with 48h activation guarantee",
+      "path": "office_os/artifacts/P1-REV-1311_enterprise_pilot_kickoff_kit_48h_activation_guarantee_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 13:20",
       "owner": "COMMAND",
@@ -394,22 +374,6 @@
       "taskId": "P1-REV-1267",
       "artifact": "ROI objection-proof snippet library (30 snippets, CFO/procurement-tagged)",
       "path": "office_os/artifacts/P1-REV-1267_objection_proof_roi_snippet_library_cfo_procurement_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 11:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (restored READY/QUEUED/TODO buffer to 10 tasks)",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 11:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1263",
-      "artifact": "Backlog freshness monitor spec with decay alerts and recycle queue",
-      "path": "office_os/artifacts/P4-OPS-1263_backlog_freshness_monitor_decay_alerts_2026-02-28.md",
       "status": "done"
     }
   ],
