@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T06:00:04.829125+00:00",
+  "now": "2026-02-28T06:10:05.152767+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1312",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build objection-triggered ROI proof snippets for CFO/procurement email follow-ups",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "At least 20 ROI proof snippets mapped to objection type, buyer role, and follow-up CTA with confidence tags."
-    },
-    {
       "id": "P1-REV-1313",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -92,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
+      "updated_at": "2026-02-28T14:07:03.927921+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -110,7 +92,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
+      "updated_at": "2026-02-28T14:07:03.927934+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -128,7 +110,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
+      "updated_at": "2026-02-28T14:07:03.927939+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -146,7 +128,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
+      "updated_at": "2026-02-28T14:07:03.927944+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -164,7 +146,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T13:20:00+08:00",
+      "updated_at": "2026-02-28T14:07:03.927948+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -176,6 +158,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 14:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1312",
+      "artifact": "Objection-triggered ROI proof snippets for CFO/procurement follow-ups (24 snippets)",
+      "path": "office_os/artifacts/P1-REV-1312_objection_triggered_roi_proof_snippets_cfo_procurement_followups_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-981",
+      "artifact": "SLA watchlist keyboard-operable triage cards",
+      "path": "office_os/artifacts/P0-FE-981_sla_watchlist_keyboard_triage_accessibility_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-980",
+      "artifact": "Operator blocked-only filter + active filter chip rail",
+      "path": "office_os/artifacts/P0-FE-980_operator_blocked_only_filter_and_chip_rail_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 13:36",
       "owner": "EXECUTOR",
@@ -342,38 +356,6 @@
       "taskId": "P0-FE-978",
       "artifact": "Command Jump Rail with live risk counts + one-click section navigation",
       "path": "office_os/artifacts/P0-FE-978_command_jump_rail_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 11:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 11:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1271",
-      "artifact": "Enterprise onboarding handoff QA checklist (sales to delivery)",
-      "path": "office_os/artifacts/P2-PROD-1271_sales_to_delivery_onboarding_handoff_qa_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1272",
-      "artifact": "14-day proof-first founder content sprint board for active objections",
-      "path": "office_os/artifacts/P3-CONT-1272_proof_first_founder_content_sprint_board_active_objections_2026-02-28.md",
-      "status": "done2026-02-28 11:35"
-    },
-    {
-      "time": "2026-02-28 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1267",
-      "artifact": "ROI objection-proof snippet library (30 snippets, CFO/procurement-tagged)",
-      "path": "office_os/artifacts/P1-REV-1267_objection_proof_roi_snippet_library_cfo_procurement_2026-02-28.md",
       "status": "done"
     }
   ],
