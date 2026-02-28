@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T13:04:15.690275+00:00",
+  "now": "2026-02-28T13:10:07.418760+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,45 +74,13 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
+      "updated_at": "2026-02-28T21:07:04.083055+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
       "depends_on": [],
       "blocked_reason": null,
       "acceptance": "Template must include ROI story arc, risk rebuttals, and decision ask slide."
-    },
-    {
-      "id": "P1-REV-1383",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create late-stage deal rescue scorecard with weekly kill/scale rules",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Scorecard must define rescue metrics, thresholds, and mandatory owner actions."
-    },
-    {
-      "id": "P1-REV-1384",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft enterprise security-review objection response matrix v2",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Matrix must map top objections to proof artifacts, fallback options, and escalation path."
     },
     {
       "id": "P2-PROD-1386",
@@ -122,7 +90,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
+      "updated_at": "2026-02-28T21:07:04.083069+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -138,7 +106,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
+      "updated_at": "2026-02-28T21:07:04.083075+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +122,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T20:20:00+08:00",
-      "updated_at": "2026-02-28T20:20:00+08:00",
+      "updated_at": "2026-02-28T21:07:04.083079+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -164,6 +132,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 21:07",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1384",
+      "artifact": "Enterprise security-review objection response matrix v2",
+      "path": "office_os/artifacts/P1-REV-1384_enterprise_security_review_objection_response_matrix_v2_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 21:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1383",
+      "artifact": "Late-stage deal rescue scorecard with weekly kill/scale rules",
+      "path": "office_os/artifacts/P1-REV-1383_late_stage_deal_rescue_scorecard_weekly_kill_scale_rules_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 20:37",
       "owner": "COMMAND",
@@ -338,30 +330,6 @@
       "taskId": "P1-REV-1365",
       "artifact": "Closed-lost resurrection trigger map for Q2 pipeline",
       "path": "office_os/artifacts/P1-REV-1365_closed_lost_resurrection_trigger_map_q2_pipeline_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1361",
-      "artifact": "Objection-indexed outbound snippet retrieval matrix",
-      "path": "office_os/artifacts/P1-REV-1361_objection_indexed_outbound_snippet_retrieval_matrix_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1368",
-      "artifact": "Short-form proof rebuttal pack for top 12 objections",
-      "path": "office_os/artifacts/P3-CONT-1368_short_form_proof_rebuttal_pack_top12_objections_2026-02-28.md",
       "status": "done"
     }
   ],
