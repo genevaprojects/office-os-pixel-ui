@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T09:21:57.528609+00:00",
+  "now": "2026-02-28T09:30:09.613263+00:00",
   "workers": [
     {
       "name": "Research",
@@ -124,25 +124,6 @@
       "acceptance": "Matrix must include persona pain, proof metric, source slot, and CTA bridge for each stakeholder type."
     },
     {
-      "id": "P1-REV-1354",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design referral partner reactivation campaign with anti-fraud guardrails",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan must include incentive tiers, abuse checks, launch sequence, and weekly revenue contribution target."
-    },
-    {
       "id": "P1-REV-1355",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -200,25 +181,6 @@
       "acceptance": "Checklist must include acceptance gates, defect severity routing, and verification timestamps."
     },
     {
-      "id": "P3-CONT-1358",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Create proof-first short-form content sprint plan for top 10 objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-02-28T17:20:00+08:00",
-      "updated_at": "2026-02-28T17:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan must include hook, proof source, CTA, and posting cadence per objection cluster."
-    },
-    {
       "id": "P4-OPS-1359",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -258,6 +220,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 17:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1358",
+      "artifact": "Proof-first short-form content sprint plan for top 10 objections",
+      "path": "office_os/artifacts/P3-CONT-1358_proof_first_short_form_content_sprint_plan_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 17:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1354",
+      "artifact": "Referral partner reactivation campaign with anti-fraud guardrails",
+      "path": "office_os/artifacts/P1-REV-1354_referral_partner_reactivation_campaign_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 17:08",
       "owner": "RESEARCH",
@@ -440,22 +418,6 @@
       "taskId": "P1-REV-1323",
       "artifact": "Late-stage deal unblock war-room cadence (top 20 opportunities)",
       "path": "office_os/artifacts/P1-REV-1323_late_stage_deal_unblock_war_room_cadence_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up to maintain >=10 READY/QUEUED/TODO tasks",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 14:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1319",
-      "artifact": "Autonomous backlog freshness dashboard spec (stale-age + throughput counters)",
-      "path": "office_os/artifacts/P4-OPS-1319_autonomous_backlog_freshness_dashboard_spec_stale_age_throughput_2026-02-28.md",
       "status": "done"
     }
   ],
