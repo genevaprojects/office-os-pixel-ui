@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T16:00:06.462612+00:00",
+  "now": "2026-02-28T16:10:04.794659+00:00",
   "workers": [
     {
       "name": "Research",
@@ -76,7 +76,7 @@
       "artifact_path": "office_os/artifacts/P1-REV-1415_founder_outbound_sprint_board_top20_warm_enterprise_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000583+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -96,7 +96,7 @@
       "artifact_path": "office_os/artifacts/P1-REV-1417_champion_enablement_onepager_kit_multithread_deals_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000598+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -116,7 +116,7 @@
       "artifact_path": "office_os/artifacts/P1-REV-1418_close_risk_early_warning_rubric_legal_review_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000604+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -136,7 +136,7 @@
       "artifact_path": "office_os/artifacts/P1-REV-1419_no_decision_reactivation_playbook_stalled14d_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000609+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -156,7 +156,7 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1420_onboarding_first_value_instrumentation_gap_map_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000613+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -176,7 +176,7 @@
       "artifact_path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000618+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -196,7 +196,7 @@
       "artifact_path": "office_os/artifacts/P3-CONT-1423_short_video_rebuttal_script_pack_procurement_security_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000622+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -216,7 +216,7 @@
       "artifact_path": "office_os/artifacts/P4-OPS-1424_autonomous_backlog_dedup_lint_pass_spec_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
+      "updated_at": "2026-03-01T00:07:04.000626+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -228,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 23:37",
       "owner": "COMMAND",
@@ -418,14 +426,6 @@
       "taskId": "P3-CONT-1398",
       "artifact": "10 short-form proof hooks for late-stage enterprise objections",
       "path": "office_os/artifacts/P3-CONT-1398_short_form_proof_hooks_late_stage_enterprise_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1393",
-      "artifact": "ROI proof snippet pack v2 mapped to security/procurement/finance objections",
-      "path": "office_os/artifacts/P1-REV-1393_roi_proof_snippet_pack_v2_security_procurement_finance_2026-02-28.md",
       "status": "done"
     }
   ],
