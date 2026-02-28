@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T23:50:06.412352+00:00",
+  "now": "2026-02-28T00:01:23.496674+00:00",
   "workers": [
     {
       "name": "Research",
@@ -229,6 +229,22 @@
   ],
   "ship": [
     {
+      "time": "2026-02-28 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1244",
+      "artifact": "Recovery Playbook execution wiring (copy brief + launch P0 recovery triage)",
+      "path": "office_os_pixel_ui/public/index.html",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1243",
+      "artifact": "Recovery Playbook panel (3-step investor-demo runbook + command brief)",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-02-28 07:24",
       "owner": "BUILDER",
       "taskId": "P0-FE-1242",
@@ -410,22 +426,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 05:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1217",
-      "artifact": "Onboarding rescue sequence for day-3 inactive enterprise trials",
-      "path": "office_os/artifacts/P2-PROD-1217_onboarding_rescue_sequence_day3_inactive_enterprise_trials_2026-02-28.md",
       "status": "done"
     }
   ],
