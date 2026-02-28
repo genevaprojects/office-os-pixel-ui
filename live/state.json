@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T13:30:04.968364+00:00",
+  "now": "2026-02-28T13:40:05.142184+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,22 +83,6 @@
       "acceptance": "Sequence includes 5 messages with objection trigger, quantified proof cue, and meeting CTA."
     },
     {
-      "id": "P1-REV-1392",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build founder-led 7-day procurement unblock sprint board for top 10 active deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Board includes 10 deals, daily unblock action, owner, and expected close-stage movement."
-    },
-    {
       "id": "P1-REV-1394",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -147,22 +131,6 @@
       "acceptance": "Matrix maps 10 bottlenecks to trigger signal, owner, SLA, and remediation play."
     },
     {
-      "id": "P2-PROD-1397",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create activation-to-expansion handoff checklist for CS to product feedback loops",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T21:21:00+08:00",
-      "updated_at": "2026-02-28T21:21:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "acceptance": "Checklist includes event thresholds, handoff packet fields, and weekly review cadence."
-    },
-    {
       "id": "P3-CONT-1399",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -196,6 +164,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 21:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 21:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1397",
+      "artifact": "Activation-to-expansion handoff checklist for CS-product feedback loops",
+      "path": "office_os/artifacts/P2-PROD-1397_activation_to_expansion_handoff_checklist_cs_product_feedback_loops_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 21:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1392",
+      "artifact": "Founder-led 7-day procurement unblock sprint board for top 10 active deals",
+      "path": "office_os/artifacts/P1-REV-1392_founder_led_7_day_procurement_unblock_sprint_board_top10_active_deals_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 21:26",
       "owner": "SOCIAL",
@@ -370,30 +362,6 @@
       "taskId": "P5-REL-1380",
       "artifact": "Cron recovery smoke-test checklist for growth jobs",
       "path": "office_os/artifacts/P5-REL-1380_cron_recovery_smoke_test_checklist_growth_jobs_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1374",
-      "artifact": "Late-stage deal unblock war-room checklist",
-      "path": "office_os/artifacts/P1-REV-1374_late_stage_deal_unblock_war_room_checklist_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1378",
-      "artifact": "Proof-led objection rebuttal carousel pack (10 outlines tagged by ICP/objection/CTA type)",
-      "path": "office_os/artifacts/P3-CONT-1378_proof_led_objection_rebuttal_carousel_pack_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 19:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1373",
-      "artifact": "Founder-led credibility clip sprint board (14 clips with hooks/proof/CTA/distribution slots)",
-      "path": "office_os/artifacts/P1-REV-1373_founder_led_credibility_clip_sprint_board_2026-02-28.md",
       "status": "done"
     }
   ],
