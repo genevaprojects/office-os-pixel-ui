@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T18:00:11.389224+00:00",
+  "now": "2026-02-28T18:10:08.866742+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1437",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build enterprise pilot ROI evidence one-pager generator template",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template outputs one-page ROI brief with baseline, intervention, quantified delta, and procurement-ready proof references.",
-      "artifact_path": "office_os/artifacts/P1-REV-1437_enterprise_pilot_roi_evidence_onepager_generator_template_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1439",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T02:07:04.588102+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T02:07:04.588114+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -136,27 +116,7 @@
       "artifact_path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544840+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-1423",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Build short-video rebuttal script pack for procurement and security objections",
-      "owner": "RESEARCH",
-      "acceptance": "Pack includes 12 scripts with opening hook, proof beat, and final CTA by channel.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1423_short_video_rebuttal_script_pack_procurement_security_2026-02-28.md",
-      "status": "READY",
-      "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544845+08:00",
+      "updated_at": "2026-03-01T02:07:04.588119+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T02:07:04.588128+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -196,7 +156,7 @@
       "artifact_path": "office_os/artifacts/P4-OPS-1424_autonomous_backlog_dedup_lint_pass_spec_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544850+08:00",
+      "updated_at": "2026-03-01T02:07:04.588153+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T01:07:03.544859+08:00",
+      "updated_at": "2026-03-01T02:07:04.588124+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T01:23:00+08:00",
+      "updated_at": "2026-03-01T02:07:04.588148+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -248,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 02:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 01:36",
       "owner": "EXECUTOR",
@@ -438,14 +406,6 @@
       "taskId": "P2-PROD-1396",
       "artifact": "Day-0 to day-7 onboarding bottleneck triage matrix for reopened deals",
       "path": "office_os/artifacts/P2-PROD-1396_day0_day7_onboarding_bottleneck_triage_matrix_reopened_deals_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1394",
-      "artifact": "Mutual action plan fast-track template for legal-review deals",
-      "path": "office_os/artifacts/P1-REV-1394_mutual_action_plan_fast_track_template_2026-02-28.md",
       "status": "done"
     }
   ],
