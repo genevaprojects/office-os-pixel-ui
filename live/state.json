@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T07:00:15.951945+00:00",
+  "now": "2026-02-28T07:10:05.106495+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1321",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build founder-led outbound reactivation sequence for no-response enterprise champions",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Create 10-touch multichannel sequence with objection branches, timing windows, and reply-rate KPI targets."
-    },
-    {
       "id": "P1-REV-1322",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -92,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
+      "updated_at": "2026-02-28T15:07:05.961146+08:00",
       "impact": 5,
       "effort": 3,
       "urgency": 4,
@@ -103,24 +85,6 @@
       "acceptance": "Template includes quantified savings blocks, implementation cost framing, payback table, and redline-ready appendix."
     },
     {
-      "id": "P1-REV-1324",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Draft customer expansion trigger sheet from usage and stakeholder signals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sheet maps usage/stakeholder triggers to expansion plays with threshold and owner handoff."
-    },
-    {
       "id": "P2-PROD-1326",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -128,7 +92,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
+      "updated_at": "2026-02-28T15:07:05.961161+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 4,
@@ -146,7 +110,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
+      "updated_at": "2026-02-28T15:07:05.961167+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -164,7 +128,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
+      "updated_at": "2026-02-28T15:07:05.961176+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -182,7 +146,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-02-28T13:20:00+08:00",
-      "updated_at": "2026-02-28T14:07:03.927948+08:00",
+      "updated_at": "2026-02-28T15:07:05.961172+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -194,6 +158,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 15:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 14:37",
       "owner": "COMMAND",
@@ -384,14 +356,6 @@
       "taskId": "P5-REL-1309",
       "artifact": "Cron artifact integrity spot-check routine for high-priority revenue workflows",
       "path": "office_os/artifacts/P5-REL-1309_cron_artifact_integrity_spot_check_routine_high_priority_revenue_workflows_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1303",
-      "artifact": "Day-0 onboarding friction elimination checklist for reopened enterprise trials",
-      "path": "office_os/artifacts/P2-PROD-1303_day0_onboarding_friction_elimination_checklist_reopened_enterprise_trials_2026-02-28.md",
       "status": "done"
     }
   ],
