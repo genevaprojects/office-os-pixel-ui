@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T11:30:06.870295+00:00",
+  "now": "2026-02-28T11:40:06.651471+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,25 +105,6 @@
       "acceptance": "Template must define daily conversion metrics, owner actions, and scale/kill thresholds."
     },
     {
-      "id": "P1-REV-1374",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create late-stage deal unblock war-room checklist",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist must define blocker classes, owner SLA, and escalation path under 24h."
-    },
-    {
       "id": "P1-REV-1375",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -198,28 +179,33 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Routine must define freshness SLA checks, auto-remediation actions, and audit output format."
-    },
-    {
-      "id": "P5-REL-1380",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Build cron recovery smoke-test checklist for growth jobs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T19:20:00+08:00",
-      "updated_at": "2026-02-28T19:20:00+08:00",
-      "impact": 3,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist must define preflight checks, run verification gates, and post-run integrity assertions."
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 19:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 19:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-1380",
+      "artifact": "Cron recovery smoke-test checklist for growth jobs",
+      "path": "office_os/artifacts/P5-REL-1380_cron_recovery_smoke_test_checklist_growth_jobs_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1374",
+      "artifact": "Late-stage deal unblock war-room checklist",
+      "path": "office_os/artifacts/P1-REV-1374_late_stage_deal_unblock_war_room_checklist_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 19:26",
       "owner": "SOCIAL",
@@ -394,30 +380,6 @@
       "taskId": "P3-CONT-1358",
       "artifact": "Proof-first short-form content sprint plan for top 10 objections",
       "path": "office_os/artifacts/P3-CONT-1358_proof_first_short_form_content_sprint_plan_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 17:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1354",
-      "artifact": "Referral partner reactivation campaign with anti-fraud guardrails",
-      "path": "office_os/artifacts/P1-REV-1354_referral_partner_reactivation_campaign_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 17:08",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-1344",
-      "artifact": "Onboarding friction severity matrix with automatic escalation thresholds",
-      "path": "office_os/artifacts/P2-PROD-1344_onboarding_friction_severity_matrix_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 17:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1340",
-      "artifact": "7-day founder outbound sprint for stalled enterprise champion reactivation",
-      "path": "office_os/artifacts/P1-REV-1340_founder_outbound_reactivation_sprint_2026-02-28.md",
       "status": "done"
     }
   ],
