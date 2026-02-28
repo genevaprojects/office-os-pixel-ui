@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T15:30:05.448182+00:00",
+  "now": "2026-02-28T15:40:05.725125+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,26 +74,6 @@
       "owner": "RESEARCH",
       "acceptance": "20-account board includes channel, objection hypothesis, and next-action date for each account.",
       "artifact_path": "office_os/artifacts/P1-REV-1415_founder_outbound_sprint_board_top20_warm_enterprise_2026-02-28.md",
-      "status": "READY",
-      "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-1416",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Design procurement stall breaker sequence with proof attachments and CTA ladder",
-      "owner": "EXECUTOR",
-      "acceptance": "Sequence includes 5 steps, proof asset mapping, and stop/escalate criteria by buyer stage.",
-      "artifact_path": "office_os/artifacts/P1-REV-1416_procurement_stall_breaker_sequence_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
       "updated_at": "2026-02-28T23:20:00+08:00",
@@ -187,26 +167,6 @@
       "manual_rank": null
     },
     {
-      "id": "P2-PROD-1421",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Create first-week activation anomaly triage playbook for CS handoffs",
-      "owner": "EXECUTOR",
-      "acceptance": "Playbook includes anomaly triggers, triage decision tree, and D1/D3/D7 intervention scripts.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1421_first_week_activation_anomaly_triage_playbook_2026-02-28.md",
-      "status": "READY",
-      "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-02-28T23:20:00+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P3-CONT-1422",
       "project": "P3_GROWTH_CONTENT",
       "priority": "P3",
@@ -268,6 +228,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1421",
+      "artifact": "First-week activation anomaly triage playbook for CS handoffs",
+      "path": "office_os/artifacts/P2-PROD-1421_first_week_activation_anomaly_triage_playbook_cs_handoffs_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1416",
+      "artifact": "Procurement stall-breaker sequence with proof attachments and CTA ladder",
+      "path": "office_os/artifacts/P1-REV-1416_procurement_stall_breaker_sequence_proof_attachments_cta_ladder_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 23:20",
       "owner": "COMMAND",
@@ -442,30 +426,6 @@
       "taskId": "P1-REV-1393",
       "artifact": "ROI proof snippet pack v2 mapped to security/procurement/finance objections",
       "path": "office_os/artifacts/P1-REV-1393_roi_proof_snippet_pack_v2_security_procurement_finance_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up with 10 READY tasks aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1390",
-      "artifact": "Autonomous task acceptance linter checklist v3",
-      "path": "office_os/artifacts/P4-OPS-1390_autonomous_task_acceptance_linter_checklist_v3_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 21:21",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1389",
-      "artifact": "Weekly founder clip storyboard for close-week momentum (7 clips)",
-      "path": "office_os/artifacts/P3-CONT-1389_weekly_founder_clip_storyboard_close_week_momentum_2026-02-28.md",
       "status": "done"
     }
   ],
