@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T19:00:07.247934+00:00",
+  "now": "2026-02-28T19:10:04.782867+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1501",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Build founder-led 48h reactivation burst plan for warm stalled enterprise accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T02:20:00+08:00",
-      "updated_at": "2026-03-01T02:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan includes account segmentation, 48h touch sequence, proof snippets per segment, and measurable booking targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-1501_founder_led_48h_reactivation_burst_plan_warm_stalled_enterprise_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-1503",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T02:20:00+08:00",
-      "updated_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T03:07:03.195791+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -116,7 +96,7 @@
       "artifact_path": "office_os/artifacts/P4-OPS-1424_autonomous_backlog_dedup_lint_pass_spec_2026-02-28.md",
       "status": "READY",
       "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588153+08:00",
+      "updated_at": "2026-03-01T03:07:03.195820+08:00",
       "impact": 3,
       "effort": 3,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T00:20:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588124+08:00",
+      "updated_at": "2026-03-01T03:07:03.195804+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588148+08:00",
+      "updated_at": "2026-03-01T03:07:03.195812+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T02:20:00+08:00",
-      "updated_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T03:07:03.195827+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 03:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-1501",
+      "artifact": "Founder-led 48h reactivation burst plan with segment-specific touch sequence, proof snippets, and booking targets for warm stalled enterprise accounts",
+      "path": "office_os/artifacts/P1-REV-1501_founder_led_48h_reactivation_burst_plan_warm_stalled_enterprise_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 02:37",
       "owner": "COMMAND",
@@ -370,22 +366,6 @@
       "taskId": "P2-PROD-1406",
       "artifact": "Pilot onboarding health score v1 with rescue play triggers",
       "path": "office_os/artifacts/P2-PROD-1406_pilot_onboarding_health_score_v1_rescue_triggers_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1404",
-      "artifact": "Proof-to-close call agenda template for late-stage pilot stakeholders",
-      "path": "office_os/artifacts/P1-REV-1404_proof_to_close_call_agenda_template_late_stage_pilot_stakeholders_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 23:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
