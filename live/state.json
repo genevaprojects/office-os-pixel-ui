@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T18:10:08.866742+00:00",
+  "now": "2026-02-28T18:22:04.839981+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-1439",
+      "id": "P1-REV-1501",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
-      "title": "Create founder outbound proof-snippet rotation calendar for top 20 accounts",
-      "owner": "SOCIAL",
+      "title": "Build founder-led 48h reactivation burst plan for warm stalled enterprise accounts",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588102+08:00",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,18 +83,38 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Calendar maps 10 days of outbound touches with proof type, objection class, CTA, and owner handoff fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-1439_founder_outbound_proof_snippet_rotation_calendar_top20_2026-03-01.md"
+      "acceptance": "Plan includes account segmentation, 48h touch sequence, proof snippets per segment, and measurable booking targets.",
+      "artifact_path": "office_os/artifacts/P1-REV-1501_founder_led_48h_reactivation_burst_plan_warm_stalled_enterprise_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1440",
+      "id": "P1-REV-1502",
+      "project": "P1_REVENUE_DISTRIBUTION",
+      "priority": "P1",
+      "title": "Create procurement objection fast-response matrix with owner SLA and copy-ready replies",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix covers top 12 procurement objections with severity, owner SLA, approved reply snippets, and escalation triggers.",
+      "artifact_path": "office_os/artifacts/P1-REV-1502_procurement_objection_fast_response_matrix_owner_sla_2026-03-01.md"
+    },
+    {
+      "id": "P2-PROD-1503",
       "project": "P2_PRODUCT_DELIVERY",
       "priority": "P2",
-      "title": "Define week-1 enterprise onboarding anomaly triage board",
+      "title": "Draft first-14-day enterprise activation rescue playbook with trigger thresholds",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-01T01:23:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588114+08:00",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
       "impact": 4,
       "effort": 3,
       "urgency": 3,
@@ -103,28 +123,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Board spec includes anomaly categories, severity SLA, owner routing, and verification-close loop for first 7 days.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1440_week1_enterprise_onboarding_anomaly_triage_board_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-1422",
-      "project": "P3_GROWTH_CONTENT",
-      "priority": "P3",
-      "title": "Produce objection-led founder proof thread bank (10 threads)",
-      "owner": "SOCIAL",
-      "acceptance": "10 threads each include hook, proof asset slot, and conversion CTA mapped to one objection class.",
-      "artifact_path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
-      "status": "READY",
-      "created_at": "2026-02-28T23:20:00+08:00",
-      "updated_at": "2026-03-01T02:07:04.588119+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
+      "acceptance": "Playbook maps day-by-day triggers, owner actions, rollback criteria, and KPI thresholds for activation recovery.",
+      "artifact_path": "office_os/artifacts/P2-PROD-1503_first14day_enterprise_activation_rescue_playbook_2026-03-01.md"
     },
     {
       "id": "P3-CONT-1441",
@@ -145,6 +145,26 @@
       "manual_rank": null,
       "acceptance": "Set includes 12 clips with hook, proof artifact slot, objection class, and CTA mapped by funnel stage.",
       "artifact_path": "office_os/artifacts/P3-CONT-1441_objection_to_proof_short_clip_storyboard_set_enterprise_2026-03-01.md"
+    },
+    {
+      "id": "P3-CONT-1504",
+      "project": "P3_GROWTH_CONTENT",
+      "priority": "P3",
+      "title": "Produce 7-day founder proof-post schedule tied to live enterprise objections",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Schedule includes 7 posts with objection tag, proof format, CTA, and distribution channel split.",
+      "artifact_path": "office_os/artifacts/P3-CONT-1504_7day_founder_proof_post_schedule_live_enterprise_objections_2026-03-01.md"
     },
     {
       "id": "P4-OPS-1424",
@@ -205,9 +225,81 @@
       "manual_rank": null,
       "acceptance": "Rubric scores top-up tasks for specificity, acceptance clarity, owner fit, and duplicate risk before insertion.",
       "artifact_path": "office_os/artifacts/P4-OPS-1442_autonomous_backlog_topup_quality_scorer_rubric_v5_2026-03-01.md"
+    },
+    {
+      "id": "P4-OPS-1505",
+      "project": "P4_OPERATIONS_AUTOMATION",
+      "priority": "P4",
+      "title": "Design run-level artifact QA sampler to catch weak acceptance matches before DONE",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Spec defines sample size, pass/fail rubric, correction loop, and logging format for hourly autonomous runs.",
+      "artifact_path": "office_os/artifacts/P4-OPS-1505_run_level_artifact_qa_sampler_spec_2026-03-01.md"
+    },
+    {
+      "id": "P5-REL-1506",
+      "project": "P5_INFRA_RELIABILITY",
+      "priority": "P5",
+      "title": "Create cron artifact integrity checklist for restore and corruption fallback",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T02:20:00+08:00",
+      "updated_at": "2026-03-01T02:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 2,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist covers artifact existence checks, checksum validation, restore steps, and escalation thresholds.",
+      "artifact_path": "office_os/artifacts/P5-REL-1506_cron_artifact_integrity_restore_fallback_checklist_2026-03-01.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 02:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with weighted P1-P5 coverage and explicit acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 02:20",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1422",
+      "artifact": "Objection-led founder proof thread bank (10 threads) with hook, proof asset slots, and conversion CTAs",
+      "path": "office_os/artifacts/P3-CONT-1422_objection_led_founder_proof_thread_bank_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 02:20",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-1439",
+      "artifact": "Founder outbound proof-snippet rotation calendar for top 20 accounts with objection/proof/CTA/owner handoff mapping",
+      "path": "office_os/artifacts/P1-REV-1439_founder_outbound_proof_snippet_rotation_calendar_top20_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 02:16",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-1440",
+      "artifact": "Week-1 enterprise onboarding anomaly triage board with category taxonomy, SEV1-4 SLA ladder, owner-routing matrix, and verification-close loop",
+      "path": "office_os/artifacts/P2-PROD-1440_week1_enterprise_onboarding_anomaly_triage_board_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 02:07",
       "owner": "COMMAND",
@@ -374,38 +466,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up restored READY/QUEUED/TODO execution buffer to >=10",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1400",
-      "artifact": "Autonomous backlog freshness sweep SOP for hourly runs",
-      "path": "office_os/artifacts/P4-OPS-1400_autonomous_backlog_freshness_sweep_sop_hourly_runs_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1399",
-      "artifact": "Founder POV thread pack on why pilots stall with conversion CTAs",
-      "path": "office_os/artifacts/P3-CONT-1399_founder_pov_threads_why_pilots_stall_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 22:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-1396",
-      "artifact": "Day-0 to day-7 onboarding bottleneck triage matrix for reopened deals",
-      "path": "office_os/artifacts/P2-PROD-1396_day0_day7_onboarding_bottleneck_triage_matrix_reopened_deals_2026-02-28.md",
       "status": "done"
     }
   ],
