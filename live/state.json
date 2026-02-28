@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T06:30:04.921670+00:00",
+  "now": "2026-02-28T06:40:07.827983+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,24 +103,6 @@
       "acceptance": "Template includes quantified savings blocks, implementation cost framing, payback table, and redline-ready appendix."
     },
     {
-      "id": "P1-REV-1323",
-      "project": "P1_REVENUE_DISTRIBUTION",
-      "priority": "P1",
-      "title": "Create late-stage deal unblock war-room cadence for top 20 opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 5,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines daily agenda, owner SLA, risk tags, and close-date recovery protocol."
-    },
-    {
       "id": "P1-REV-1324",
       "project": "P1_REVENUE_DISTRIBUTION",
       "priority": "P1",
@@ -155,24 +137,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Swimlane maps day-by-day interventions, channel, owner, and success criteria by persona."
-    },
-    {
-      "id": "P2-PROD-1327",
-      "project": "P2_PRODUCT_DELIVERY",
-      "priority": "P2",
-      "title": "Define adoption regression early-warning checklist for CS and Product",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-02-28T14:20:26+08:00",
-      "updated_at": "2026-02-28T14:20:26+08:00",
-      "impact": 4,
-      "effort": 3,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes trigger thresholds, triage ownership, response SLA, and post-fix verification."
     },
     {
       "id": "P3-CONT-1329",
@@ -230,6 +194,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-02-28 14:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 14:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-1327",
+      "artifact": "Adoption regression early-warning checklist for CS and Product",
+      "path": "office_os/artifacts/P2-PROD-1327_adoption_regression_early_warning_checklist_cs_product_2026-02-28.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-02-28 14:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-1323",
+      "artifact": "Late-stage deal unblock war-room cadence (top 20 opportunities)",
+      "path": "office_os/artifacts/P1-REV-1323_late_stage_deal_unblock_war_room_cadence_2026-02-28.md",
+      "status": "done"
+    },
     {
       "time": "2026-02-28 14:20",
       "owner": "COMMAND",
@@ -404,30 +392,6 @@
       "taskId": "P2-PROD-1303",
       "artifact": "Day-0 onboarding friction elimination checklist for reopened enterprise trials",
       "path": "office_os/artifacts/P2-PROD-1303_day0_onboarding_friction_elimination_checklist_reopened_enterprise_trials_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1305",
-      "artifact": "Proof-first founder short video sequence (10 clips) for procurement/security objection windows",
-      "path": "office_os/artifacts/P3-CONT-1305_proof_first_founder_short_video_sequence_procurement_objections_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1310",
-      "artifact": "Founder-led deal unblock standup template with quantified commitments + close-risk delta tracking",
-      "path": "office_os/artifacts/P1-REV-1310_founder_deal_unblock_standup_template_2026-02-28.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-02-28 12:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up (added READY tasks to restore execution buffer >=10)",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
