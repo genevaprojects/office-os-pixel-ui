@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T03:30:06.226595+00:00",
+  "now": "2026-03-01T03:40:05.775835+00:00",
   "workers": [
     {
       "name": "Research",
@@ -104,26 +104,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Template defines redline cycle timers, owner handoffs, blocker taxonomy, and escalation windows to keep turnaround under 72h.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-3004",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft silent-deal reactivation call brief for week-3 to week-6 enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Brief defines trigger conditions, call agenda, rescue offers, and expected reactivation/reply targets by deal tier.",
       "artifact_path": null
     },
     {
@@ -245,29 +225,25 @@
       "manual_rank": null,
       "acceptance": "Checklist defines required handoff fields, checksum validation, and correction protocol before next run execution.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3010",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron artifact freshness sentinel thresholds for top revenue-critical workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sentinel defines freshness thresholds, anomaly detection, fallback procedure, and verification loop for critical cron artifacts.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-3010",
+      "artifact": "Delivered cron artifact freshness sentinel threshold spec for revenue-critical workflows with anomaly fingerprints, deterministic fallback levels, and auto-recovery verification loop",
+      "path": "office_os/artifacts/P5-REL-3010_cron_artifact_freshness_sentinel_thresholds_revenue_critical_workflows_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-3004",
+      "artifact": "Delivered silent-deal reactivation call brief for week-3 to week-6 enterprise pilots with trigger conditions, tiered agenda/scripts, rescue-offer matrix, and 72h recovery KPI targets",
+      "path": "office_os/artifacts/P1-REV-3004_silent_deal_reactivation_call_brief_week3_week6_enterprise_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 11:25",
       "owner": "SOCIAL",
@@ -451,22 +427,6 @@
       "artifact": "Delivered define first-value sla breach auto-triage playbook for day-0 to day-2 onboarding with explicit triggers, owner routing, escalation windows, and verification gates aligned to acceptance criteria",
       "path": "office_os/artifacts/P2-PROD-1700_define_first_value_sla_breach_auto_triage_playbook_for_day_0_to_day_2_onboarding_2026-03-01.md",
       "status": "done\\n2026-03-01 08:36"
-    },
-    {
-      "time": "2026-03-01 08:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1700",
-      "artifact": "Delivered viral proof-loop campaign board with 10 procurement-objection micro-content plays including channel fit, loop mechanics, and CTA instrumentation",
-      "path": "office_os/artifacts/P3-CONT-1700_viral_proof_loop_campaign_board_procurement_objection_microcontent_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 08:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1701",
-      "artifact": "Delivered founder POV controversy-to-conversion clip matrix for top 12 objections with contrarian hooks, proof anchors, and keyword CTAs mapped for channel deployment",
-      "path": "office_os/artifacts/P3-CONT-1701_founder_pov_controversy_to_conversion_clip_matrix_top12_objections_2026-03-01.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
