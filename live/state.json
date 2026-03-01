@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T20:30:05.116846+00:00",
+  "now": "2026-03-01T20:40:05.609358+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4047",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-procurement handoff SLA breach rescue brief for >48h stuck deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Brief maps >48h stall signatures to owner actions, fallback clauses, escalation sequence, and close-verification checklist.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4049",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -144,26 +124,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Spec defines required onboarding confidence metrics, threshold bands, owner routing, and verification gates for first-value reliability.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-4051",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft first-value miss prevention checklist for CSM kickoff calls",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes pre-kickoff risk checks, mandatory instrumentation confirmations, escalation triggers, and closeout validation steps.",
       "artifact_path": null
     },
     {
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 04:25",
       "owner": "SOCIAL",
@@ -419,14 +387,6 @@
       "artifact": "Delivered ship-log duplicate milestone fingerprint checker spec covering canonical fingerprint fields, malformed-line rejection rules, correction/quarantine actions, and weekly integrity audit format",
       "path": "office_os/artifacts/P4-OPS-4017_ship_log_duplicate_milestone_fingerprint_checker_spec_2026-03-02.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-02 01:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-4014",
-      "artifact": "Delivered day0-day5 onboarding telemetry integrity checklist with required event spine, missing-signal detection rules, patch ownership matrix, and pass/fail verification gates",
-      "path": "office_os/artifacts/P2-PROD-4014_day0_day5_onboarding_telemetry_integrity_checklist_enterprise_trials_2026-03-02.md",
-      "status": "done2026-03-02 01:07"
     }
   ],
   "alertCount": 2,
