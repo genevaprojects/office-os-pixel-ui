@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T04:00:06.958129+00:00",
+  "now": "2026-03-01T04:10:06.473633+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3001",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 10-account rescue sequence for procurement-stalled late-stage deals (>10 days no movement)",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps account tier, 5-touch multithread outreach, proof payload per persona, and 14-day recovery KPI targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3002",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
+      "updated_at": "2026-03-01T12:07:03.222239+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
+      "updated_at": "2026-03-01T12:07:03.222226+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
+      "updated_at": "2026-03-01T12:07:03.222245+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -147,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-3007",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create onboarding blocker auto-triage swimlane for high-ARR trial accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Swimlane maps blocker severity to owner action windows, escalation path, and success criteria for high-ARR trial activation continuity.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-1701",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T11:07:07.973090+08:00",
+      "updated_at": "2026-03-01T12:07:03.222258+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T11:07:07.973100+08:00",
+      "updated_at": "2026-03-01T12:07:03.222263+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T11:20:50+08:00",
-      "updated_at": "2026-03-01T11:20:50+08:00",
+      "updated_at": "2026-03-01T12:07:03.222251+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 12:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 12:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-3007",
+      "artifact": "Delivered high-ARR trial onboarding blocker auto-triage swimlane with severity-based owner windows, escalation ladder, SLA targets, and automation event schema",
+      "path": "office_os/artifacts/P2-PROD-3007_onboarding_blocker_auto_triage_swimlane_high_arr_trials_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 12:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3001",
+      "artifact": "Delivered 10-account procurement-stall rescue sequence with tiered prioritization, 5-touch multithread cadence, persona proof payload matrix, and 14-day recovery KPI targets",
+      "path": "office_os/artifacts/P1-REV-3001_procurement_stalled_late_stage_deal_rescue_sequence_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 11:35",
       "owner": "EXECUTOR",
@@ -403,30 +387,6 @@
       "artifact": "Delivered security-approved onboarding fast-lane checklist with prerequisite doc pack, owner SLA matrix, fast-lane gates, blocker triage rules, and expansion-readiness exit criteria",
       "path": "office_os/artifacts/P2-PROD-1701_security_approved_onboarding_fast_lane_checklist_enterprise_trial_expansion_2026-03-01.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-1706",
-      "artifact": "Delivered executive multithread meeting brief generator template with stakeholder map, objection status board, proof payload slots, and per-thread next-step CTA tracker for late-stage enterprise deal calls",
-      "path": "office_os/artifacts/P1-REV-1706_executive_multithread_meeting_brief_generator_late_stage_enterprise_deals_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 08:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1700",
-      "artifact": "Delivered define first-value sla breach auto-triage playbook for day-0 to day-2 onboarding with explicit triggers, owner routing, escalation windows, and verification gates aligned to acceptance criteria",
-      "path": "office_os/artifacts/P2-PROD-1700_define_first_value_sla_breach_auto_triage_playbook_for_day_0_to_day_2_onboarding_2026-03-01.md",
-      "status": "done\\n2026-03-01 08:36"
     }
   ],
   "alertCount": 2,
