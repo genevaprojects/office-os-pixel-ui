@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T16:50:05.226555+00:00",
+  "now": "2026-03-01T17:00:04.519587+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-02 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1775",
+      "artifact": "Added Backup Swap Simulator in Team view to stress-test lane continuity, project post-failure readiness by backup candidate, and generate copy-ready founder swap commands/briefs",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1774",
+      "artifact": "Added Decision Deadline Wave in Founder Desk with 0-2h/2-6h/6-12h/12-24h due-window pressure scoring, copy-ready brief, and one-click queue patch command to prevent decision-SLA pileups during demos",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-02 00:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P4-OPS-3710",
       "artifact": "Delivered autonomous backlog freshness enforcement runbook with age-based decay SLAs, deterministic split/merge/re-scope/archive correction workflow, and weekly freshness audit output format",
       "path": "office_os/artifacts/P4-OPS-3710_autonomous_backlog_freshness_enforcement_runbook_decay_slas_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-3904",
-      "artifact": "Delivered 72h activation-miss first-value recovery command sheet with miss signatures, owner escalation matrix, 24h remediation actions, and verification metrics for enterprise recovery control",
-      "path": "office_os/artifacts/P2-PROD-3904_first_value_recovery_command_sheet_activation_miss_72h_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-3902",
-      "artifact": "Delivered CFO signoff risk-reversal offer ladder mapping objection severity to reversible offer structures, approval-trigger gates, and margin-protection guardrails to accelerate signoff without leakage",
-      "path": "office_os/artifacts/P1-REV-3902_cfo_signoff_risk_reversal_offer_ladder_guardrails_2026-03-01.md",
       "status": "done"
     }
   ],
