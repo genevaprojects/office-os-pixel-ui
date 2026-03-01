@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T21:00:06.841111+00:00",
+  "now": "2026-03-01T21:10:04.604204+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4046",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build CFO committee one-page decision scorecard with approve/defer binary framing",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scorecard includes binary approve/defer framing, quantified delay-cost panel, risk-reversal options, and 24h follow-up trigger rules.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4049",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
+      "updated_at": "2026-03-02T05:07:01.788015+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 5,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-4050",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 onboarding confidence dashboard spec for enterprise pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines required onboarding confidence metrics, threshold bands, owner routing, and verification gates for first-value reliability.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-4029",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -134,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T04:07:01.957222+08:00",
+      "updated_at": "2026-03-02T05:07:01.788040+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T04:07:01.957213+08:00",
+      "updated_at": "2026-03-02T05:07:01.788035+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
+      "updated_at": "2026-03-02T05:07:01.788030+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 04:37",
       "owner": "COMMAND",
@@ -378,14 +346,6 @@
       "taskId": "P4-OPS-4016",
       "artifact": "Delivered autonomous stale-task split trigger policy with numeric split thresholds, parent-child naming/linkage conventions, owner WIP-safe handling rules, and throughput validation metrics",
       "path": "office_os/artifacts/P4-OPS-4016_autonomous_stale_task_split_trigger_policy_acceptance_narrowing_rules_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 01:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4017",
-      "artifact": "Delivered ship-log duplicate milestone fingerprint checker spec covering canonical fingerprint fields, malformed-line rejection rules, correction/quarantine actions, and weekly integrity audit format",
-      "path": "office_os/artifacts/P4-OPS-4017_ship_log_duplicate_milestone_fingerprint_checker_spec_2026-03-02.md",
       "status": "done"
     }
   ],
