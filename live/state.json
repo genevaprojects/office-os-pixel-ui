@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T18:30:04.922498+00:00",
+  "now": "2026-03-01T18:40:04.760264+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4033",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design close-risk daily standup board with intervention trigger bands for top 20 deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T02:20:27+08:00",
-      "updated_at": "2026-03-02T02:20:27+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes risk scoring dimensions, intervention trigger bands, owner SLA clocks, and daily operating cadence.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4034",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -228,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 02:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 02:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4033",
+      "artifact": "Delivered close-risk daily standup board for top 20 deals with weighted scoring dimensions, intervention trigger bands, owner SLA clocks, and daily operating cadence for cycle-time compression",
+      "path": "office_os/artifacts/P1-REV-4033_close_risk_daily_standup_board_intervention_trigger_bands_top20_deals_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 02:21",
       "owner": "BUILDER",
@@ -410,22 +406,6 @@
       "taskId": "P2-PROD-4006",
       "artifact": "Delivered Day0-Day5 onboarding milestone integrity audit for high-ARR trials with milestone-by-day pass model, severity ladder, owner escalation paths, and recovery SLA targets",
       "path": "office_os/artifacts/P2-PROD-4006_day0_day5_onboarding_milestone_integrity_audit_high_arr_trials_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4001",
-      "artifact": "Delivered 14-day procurement reactivation scoreboard for silent enterprise deals with ARR-weighted scoring, daily intervention cadence, escalation triggers, and KPI targets to restore close momentum",
-      "path": "office_os/artifacts/P1-REV-4001_procurement_reactivation_scoreboard_silent_enterprise_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:03",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1771",
-      "artifact": "Added Queue Load Shedding Sentinel in operator mode with owner pressure hotspot ranking, rebalance sink recommendation, and copy-ready load-shedding handoff brief for continuity control",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
