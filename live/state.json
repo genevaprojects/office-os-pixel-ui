@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T14:00:04.670764+00:00",
+  "now": "2026-03-01T14:10:04.961506+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3801",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design redline aging heatmap with 24h intervention SLA for top-ARR deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap defines redline age buckets, ARR-weighted priority tiers, 24h intervention rules, and weekly recovery KPI rollup.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3802",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
+      "updated_at": "2026-03-01T22:07:03.555061+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3805",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define stalled-procurement reactivation trigger matrix for week2-week6 pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps stall signals to owner actions, escalation windows, and expected recovery outcomes by pilot age bucket.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3806",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
+      "updated_at": "2026-03-01T22:07:03.555078+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -154,7 +114,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
+      "updated_at": "2026-03-01T22:07:03.555083+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T21:07:02.077259+08:00",
+      "updated_at": "2026-03-01T22:07:03.555088+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T21:07:02.077264+08:00",
+      "updated_at": "2026-03-01T22:07:03.555092+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T21:07:02.077268+08:00",
+      "updated_at": "2026-03-01T22:07:03.555097+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
+      "updated_at": "2026-03-01T22:07:03.555101+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -248,6 +208,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3805",
+      "artifact": "Delivered stalled-procurement reactivation trigger matrix for week2-week6 pilots with severity-coded triggers, owner SLAs, escalation path, and recovery KPI targets",
+      "path": "office_os/artifacts/P1-REV-3805_stalled_procurement_reactivation_trigger_matrix_week2_week6_pilots_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3801",
+      "artifact": "Delivered redline aging heatmap with risk-band scoring, 24h intervention SLA trigger/action ladder, and top-ARR escalation routing for late-stage deal recovery",
+      "path": "office_os/artifacts/P1-REV-3801_redline_aging_heatmap_24h_intervention_sla_top_arr_deals_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1761",
+      "artifact": "Added Live Data Recovery Sentinel with lane-void detection across monitors/backlog/decisions/ship feed, force-refresh + traceability actions, and copy-ready recovery brief for explicit degraded-state handling",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1760",
+      "artifact": "Added Interaction Latency Sentinel with current/avg/p95 latency posture, stress scoring, one-click lean interaction profile hardening, and copy-ready latency audit brief for premium responsiveness assurance",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 21:37",
       "owner": "COMMAND",
@@ -406,46 +406,6 @@
       "taskId": "P1-REV-3605",
       "artifact": "Delivered enterprise close-velocity control tower spec with weighted velocity scoring, ARR-prioritized intervention queue logic, owner SLA routing, and daily review protocol for faster late-stage recovery",
       "path": "office_os/artifacts/P1-REV-3605_enterprise_close_velocity_control_tower_daily_intervention_queue_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-3607",
-      "artifact": "Delivered onboarding proof-pack auto-assembler template specifying required evidence blocks, deterministic assembly structure, owner input schema, and day0-day5 pass/fail gates",
-      "path": "office_os/artifacts/P2-PROD-3607_onboarding_proof_pack_auto_assembler_day0_day5_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-3602",
-      "artifact": "Delivered proposal friction kill-sheet defining top legal friction patterns, fallback clause boundaries, owner SLA clocks, and escalation triggers to sustain sub-48h enterprise legal turns",
-      "path": "office_os/artifacts/P1-REV-3602_proposal_friction_kill_sheet_sub48h_enterprise_legal_turns_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:07",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3606",
-      "artifact": "Delivered first-week activation anomaly taxonomy with ARR-tiered severity mapping, response SLAs, and recovery verification gates for deterministic onboarding incident handling",
-      "path": "office_os/artifacts/P2-PROD-3606_first_week_activation_anomaly_taxonomy_arr_tiered_onboarding_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3601",
-      "artifact": "Delivered top-15 renewal-risk rescue board with risk-signal taxonomy, 7-day save sequence, progressive offer ladder, and daily recovery KPI targets for renewal retention acceleration",
-      "path": "office_os/artifacts/P1-REV-3601_top15_renewal_risk_rescue_board_7day_save_sequence_2026-03-01.md",
       "status": "done"
     }
   ],
