@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T20:21:55.585881+00:00",
+  "now": "2026-03-01T20:30:05.116846+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4048",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft champion-to-CFO internal forward memo templates for late-stage approvals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template set includes 5 internal forward memos with objection mapping, proof inserts, and meeting CTA progression.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4049",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist includes pre-kickoff risk checks, mandatory instrumentation confirmations, escalation triggers, and closeout validation steps.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-4052",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 hook-to-proof short post prompts for security-approved but budget-stalled buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T04:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Prompt pack includes 10 hook/proof/CTA units mapped to budget-freeze objections with channel tags and tracking keywords.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 04:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4052",
+      "artifact": "Delivered 10 hook-to-proof short post prompts for security-approved budget-stalled buyers with channel tags, CTA tracking keywords, and 7-day distribution cadence",
+      "path": "office_os/artifacts/P3-CONT-4052_hook_to_proof_short_post_prompts_security_approved_budget_stalled_buyers_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 04:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-4048",
+      "artifact": "Delivered 5 champion-to-CFO internal forward memo templates for late-stage approvals with objection mapping, proof insert slots, and binary meeting CTA progression",
+      "path": "office_os/artifacts/P1-REV-4048_champion_to_cfo_internal_forward_memo_templates_late_stage_approvals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 04:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1794",
+      "artifact": "Added Continuity Ownership Ledger in Team view with lane pressure ranking (owner/backup/readiness) plus copy-ready ownership ledger and top-command actions for faster continuity dispatch",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 04:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1793",
+      "artifact": "Added Investor Objection Radar in Overview with live-ranked risk questions, response lines, and one-click objection brief copy to tighten investor trust handling under pressure",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 04:07",
       "owner": "COMMAND",
@@ -435,38 +427,6 @@
       "artifact": "Delivered day0-day5 onboarding telemetry integrity checklist with required event spine, missing-signal detection rules, patch ownership matrix, and pass/fail verification gates",
       "path": "office_os/artifacts/P2-PROD-4014_day0_day5_onboarding_telemetry_integrity_checklist_enterprise_trials_2026-03-02.md",
       "status": "done2026-03-02 01:07"
-    },
-    {
-      "time": "2026-03-02 01:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4010",
-      "artifact": "Delivered 10-account procurement stall rescue priority stack with ARR-weighted ranking, 14-day intervention cadence, daily conversion wagers, owner SLAs, and measurable recovery KPIs",
-      "path": "office_os/artifacts/P1-REV-4010_procurement_stall_rescue_priority_stack_10_accounts_daily_conversion_wagers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1775",
-      "artifact": "Added Backup Swap Simulator in Team view to stress-test lane continuity, project post-failure readiness by backup candidate, and generate copy-ready founder swap commands/briefs",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1774",
-      "artifact": "Added Decision Deadline Wave in Founder Desk with 0-2h/2-6h/6-12h/12-24h due-window pressure scoring, copy-ready brief, and one-click queue patch command to prevent decision-SLA pileups during demos",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
