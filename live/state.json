@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T00:21:46.532591+00:00",
+  "now": "2026-03-01T00:30:29.457757+00:00",
   "workers": [
     {
       "name": "Research",
@@ -167,46 +167,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-1700",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce viral proof-loop campaign board for procurement-objection micro-content",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes 10 proof-loop content ideas with objection mapping, format/channel fit, and growth CTA instrumentation.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-1701",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create founder POV controversy-to-conversion clip matrix for top 12 objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix provides 12 clip concepts with contrarian hook, proof anchor, objection target, and conversion CTA.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-1700",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1700",
+      "artifact": "Delivered viral proof-loop campaign board with 10 procurement-objection micro-content plays including channel fit, loop mechanics, and CTA instrumentation",
+      "path": "office_os/artifacts/P3-CONT-1700_viral_proof_loop_campaign_board_procurement_objection_microcontent_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-1701",
+      "artifact": "Delivered founder POV controversy-to-conversion clip matrix for top 12 objections with contrarian hooks, proof anchors, and keyword CTAs mapped for channel deployment",
+      "path": "office_os/artifacts/P3-CONT-1701_founder_pov_controversy_to_conversion_clip_matrix_top12_objections_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 08:12",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P5-REL-1710",
       "artifact": "Delivered dependency freshness matrix defining TTL, stale thresholds, fallback source strategy, and verification cadence for hourly cron-critical artifacts",
       "path": "office_os/artifacts/P5-REL-1710_dependency_freshness_matrix_hourly_cron_artifacts_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1702",
-      "artifact": "Delivered mutual-action-plan rescue template with owner SLA, 5 milestone sequence, blocker taxonomy, and R/Y/G conversion checkpoints for delayed enterprise pilots",
-      "path": "office_os/artifacts/P1-REV-1702_map_rescue_template_delayed_enterprise_pilots_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1708",
-      "artifact": "Delivered 10-post objection-to-proof microcontent sprint board with hook, objection target, required proof, CTA keyword, and X/LinkedIn/Telegram cadence",
-      "path": "office_os/artifacts/P3-CONT-1708_objection_to_proof_microcontent_sprint_board_2026-03-01.md",
       "status": "done"
     }
   ],
