@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T00:01:01.536447+00:00",
+  "now": "2026-03-01T00:10:09.650582+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-1733",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Map security-review-to-procurement conversion leaks with stage-time compression interventions",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Leak map identifies 10 conversion leaks between security approval and procurement kickoff, owner actions, and target cycle-time reduction per leak.",
-      "artifact_path": "office_os/artifacts/P1-REV-1733_security_review_to_procurement_conversion_leak_map_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-1735",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T08:07:04.083318+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T08:07:04.083331+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-1737_day0_day3_enterprise_onboarding_evidence_capture_checklist_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-1738",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define activation-risk intervention ladder for accounts missing first-value milestone by 48h",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Intervention ladder maps 48h miss signals to owner actions, outreach scripts, and expected activation lift bands.",
-      "artifact_path": "office_os/artifacts/P2-PROD-1738_activation_risk_intervention_ladder_first_value_miss_48h_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-1726",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T06:21:27+08:00",
-      "updated_at": "2026-03-01T07:07:04.188694+08:00",
+      "updated_at": "2026-03-01T08:07:04.083341+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T07:20:00+08:00",
-      "updated_at": "2026-03-01T07:20:00+08:00",
+      "updated_at": "2026-03-01T08:07:04.083337+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 07:35",
       "owner": "EXECUTOR",
@@ -378,14 +346,6 @@
       "taskId": "P1-REV-1703",
       "artifact": "Delivered champion proof packet checklist mapping executive concerns to proof assets, objection rebuttals, and champion-led internal approval CTA sequence",
       "path": "office_os/artifacts/P1-REV-1703_champion_proof_packet_checklist_week2_internal_buyin_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1712",
-      "artifact": "Hardened Founder Desk duplicate protection with multi-fingerprint cooldown map across single and bundle queue actions to prevent replayed command bursts",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
