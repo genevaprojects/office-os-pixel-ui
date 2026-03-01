@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T17:00:04.519587+00:00",
+  "now": "2026-03-01T17:10:04.747876+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4010",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 10-account procurement stall rescue priority stack with daily conversion wagers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Stack ranks 10 stalled enterprise accounts by recoverable ARR, defines day-by-day interventions, owner actions, and 14-day recovery KPI targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4011",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
+      "updated_at": "2026-03-02T01:07:02.063915+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-4014",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day5 onboarding telemetry integrity checklist for enterprise trials",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines required events, missing-signal detection rules, patch ownership, and pass/fail verification gates.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-4009",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -134,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-02T00:07:03.634287+08:00",
+      "updated_at": "2026-03-02T01:07:02.063941+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
+      "updated_at": "2026-03-02T01:07:02.063936+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
+      "updated_at": "2026-03-02T01:07:02.063929+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +148,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 01:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-4014",
+      "artifact": "Delivered day0-day5 onboarding telemetry integrity checklist with required event spine, missing-signal detection rules, patch ownership matrix, and pass/fail verification gates",
+      "path": "office_os/artifacts/P2-PROD-4014_day0_day5_onboarding_telemetry_integrity_checklist_enterprise_trials_2026-03-02.md",
+      "status": "done2026-03-02 01:07"
+    },
+    {
+      "time": "2026-03-02 01:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4010",
+      "artifact": "Delivered 10-account procurement stall rescue priority stack with ARR-weighted ranking, 14-day intervention cadence, daily conversion wagers, owner SLAs, and measurable recovery KPIs",
+      "path": "office_os/artifacts/P1-REV-4010_procurement_stall_rescue_priority_stack_10_accounts_daily_conversion_wagers_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 00:50",
       "owner": "BUILDER",
@@ -370,22 +346,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete tasks and owner-assigned acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-3809",
-      "artifact": "Delivered autonomous priority drift detector spec with weighted lane thresholds, soft/hard/critical triggers, and correction protocols to preserve revenue-aligned backlog mix",
-      "path": "office_os/artifacts/P4-OPS-3809_autonomous_backlog_priority_drift_detector_correction_triggers_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-3710",
-      "artifact": "Delivered autonomous backlog freshness enforcement runbook with age-based decay SLAs, deterministic split/merge/re-scope/archive correction workflow, and weekly freshness audit output format",
-      "path": "office_os/artifacts/P4-OPS-3710_autonomous_backlog_freshness_enforcement_runbook_decay_slas_2026-03-01.md",
       "status": "done"
     }
   ],
