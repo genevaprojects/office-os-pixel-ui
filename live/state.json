@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T12:21:38.887589+00:00",
+  "now": "2026-03-01T12:30:35.134039+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3703",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create CFO risk-reversal narrative pack for budget committee deadlocks",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes objection-specific narratives, quantified proof inserts, and CTA variants for budget-signoff acceleration.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3704",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -227,26 +207,6 @@
       "artifact_path": "office_os/artifacts/P3-CONT-3609_founder_authority_narrative_map_win_story_evidence_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-3708",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce proof-led short-form content matrix for top 12 procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix includes hook, proof anchor, objection target, channel cadence, and CTA instrumentation fields for 12 assets.",
-      "artifact_path": null
-    },
-    {
       "id": "P3-CONT-3709",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -329,12 +289,20 @@
   ],
   "ship": [
     {
+      "time": "2026-03-01 20:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3708",
+      "artifact": "Delivered proof-led short-form content matrix for top 12 procurement objections with hook-proof-CTA mapping, 7-day cadence, and keyword-based conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-3708_proof_led_short_form_content_matrix_top12_procurement_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-01 20:21",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete owner-assigned acceptance criteria aligned to priority weights",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-01 20:25"
     },
     {
       "time": "2026-03-01 20:21",
@@ -518,14 +486,6 @@
       "taskId": "P1-REV-3502",
       "artifact": "Delivered late-stage deal rescue sequencing board with 5-day daily sequence, lane-trigger SLAs, escalation ladder, and ARR-weighted priority scoring for legal-procurement-finance multi-thread stalls",
       "path": "office_os/artifacts/P1-REV-3502_late_stage_deal_rescue_sequencing_board_legal_procurement_finance_multithread_stalls_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-3507",
-      "artifact": "Delivered founder proof-clip conversion map for top 12 procurement objections with quantified proof anchors, 7-day platform cadence, and CTA keyword instrumentation",
-      "path": "office_os/artifacts/P3-CONT-3507_founder_proof_clip_conversion_map_top12_procurement_objections_2026-03-01.md",
       "status": "done"
     }
   ],
