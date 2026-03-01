@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T02:10:05.833447+00:00",
+  "now": "2026-03-01T02:21:17.067302+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,28 +54,6 @@
   ],
   "backlog": [
     {
-      "id": "P0-FE-1749",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Add keyboard focus coverage sentinel to expose unreachable controls and tab-order gaps in operator mode",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-03-01T10:00:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654909+08:00",
-      "impact": 5,
-      "effort": 1,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [
-        "P0-FE-1748"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Sentinel reports focusable-control coverage by panel, flags unreachable actions, and provides a copy-ready a11y remediation brief.",
-      "artifact_path": null
-    },
-    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -89,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-2002",
+      "id": "P1-REV-2011",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create enterprise mutual-action-plan compression template for sub-10-day close windows",
-      "owner": "BUILDER",
+      "title": "Build 30-day champion multithread scoreboard with weekly rescue triggers",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654921+08:00",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -105,18 +83,18 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template includes owner-by-owner commitments, timeboxed milestones, blocker fallback paths, and close-date confidence scoring.",
+      "acceptance": "Scoreboard defines champion/economic/procurement thread health signals, weekly trigger thresholds, and owner rescue plays tied to stage-conversion recovery.",
       "artifact_path": null
     },
     {
-      "id": "P1-REV-2005",
+      "id": "P1-REV-2012",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Define deal slippage prevention checkpoint sheet with 24h intervention SLA",
-      "owner": "COMMAND",
+      "title": "Design fast-track security-to-redline handoff kit for sub-5-day transition",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654928+08:00",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -125,7 +103,47 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checkpoint sheet specifies stage-risk flags, owner accountability clocks, and intervention rules to prevent silent stall drift.",
+      "acceptance": "Kit includes required artifacts, owner handoffs, SLA timers, and fallback escalation to keep security-cleared deals moving to redline within 5 days.",
+      "artifact_path": null
+    },
+    {
+      "id": "P1-REV-2013",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create procurement objection proof-snippet deployment playbook for live calls",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Playbook maps top objections to copy-ready proof snippets, quant evidence prompts, and next-step CTAs for live deal acceleration.",
+      "artifact_path": null
+    },
+    {
+      "id": "P1-REV-2014",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Define enterprise no-decision revival trigger matrix with 72h action lanes",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix defines no-decision risk patterns, 72h response lanes, ownership routing, and measurable reactivation targets.",
       "artifact_path": null
     },
     {
@@ -146,6 +164,46 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Queue spec defines severity tiers, 24h patch acceptance gates, rollback criteria, and owner SLA routing.",
+      "artifact_path": null
+    },
+    {
+      "id": "P2-PROD-2015",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Draft first-week activation regression guardrail checklist for enterprise trials",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines activation guard metrics, regression thresholds, rollback steps, and owner SLAs for first-week trial stability.",
+      "artifact_path": null
+    },
+    {
+      "id": "P3-CONT-2016",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 7-asset proof-to-procurement microcontent sequence for founder channels",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sequence includes 7 assets mapped to procurement objections, proof artifacts, channel format, cadence, and conversion CTA instrumentation.",
       "artifact_path": null
     },
     {
@@ -189,14 +247,14 @@
       "artifact_path": null
     },
     {
-      "id": "P4-OPS-2009",
+      "id": "P4-OPS-2017",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Define autonomous backlog stale-task merge/split decision tree",
+      "title": "Create autonomous READY-aging sweep routine with stale-to-action auto-routing",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654937+08:00",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -205,11 +263,55 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Decision tree defines stale-age thresholds, split-vs-merge rules, owner actions, and throughput recovery validation checks.",
+      "acceptance": "Routine defines age buckets, auto-routing actions, and verification checks that convert stale READY tasks into actionable state transitions.",
+      "artifact_path": null
+    },
+    {
+      "id": "P5-REL-2018",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Define hourly artifact checksum sentinel for mission-critical growth docs",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T10:21:01+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sentinel specifies checksum cadence, drift detection thresholds, auto-regeneration path, and verification loop for critical artifact integrity.",
       "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 10:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner-assigned acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 10:21",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-2009",
+      "artifact": "Delivered stale-task merge/split decision tree with freshness thresholds, consolidation/split rules, and throughput recovery validation checks",
+      "path": "office_os/artifacts/P4-OPS-2009_autonomous_backlog_stale_task_merge_split_decision_tree_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 10:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-2005",
+      "artifact": "Delivered deal slippage prevention checkpoint sheet with stage-risk scoring, 24h owner clocks, and trigger-based intervention rules to prevent silent stall drift",
+      "path": "office_os/artifacts/P1-REV-2005_deal_slippage_prevention_checkpoint_sheet_24h_intervention_sla_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 10:07",
       "owner": "COMMAND",
@@ -384,30 +486,6 @@
       "taskId": "P1-REV-1734",
       "artifact": "Delivered 7-touch executive multithread follow-up playbook across champion/economic buyer/legal-procurement with proof payload slots, channel templates, sequencing rules, and reply-rate targets for silent week-3 pilots",
       "path": "office_os/artifacts/P1-REV-1734_exec_multithread_followup_sequence_silent_week3_pilots_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete tasks and owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-1727",
-      "artifact": "Delivered artifact naming consistency validator with strict filename schema, collision detection, and remediation workflow to prevent malformed/colliding outputs",
-      "path": "office_os/artifacts/P4-OPS-1727_artifact_naming_consistency_validator_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-1720",
-      "artifact": "Delivered procurement stall early-warning trigger matrix with 12 measurable stall signals, risk tiers, owner routing, and enforced 24h intervention SLA to protect close probability",
-      "path": "office_os/artifacts/P1-REV-1720_procurement_stall_early_warning_trigger_matrix_2026-03-01.md",
       "status": "done"
     }
   ],
