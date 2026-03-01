@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T07:00:06.770690+00:00",
+  "now": "2026-03-01T07:10:05.723659+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3119",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build procurement-delay risk reversal offer matrix for week-2 to week-6 enterprise pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps top delay causes to reversible offer structures, owner triggers, and close-probability lift targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3122",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
+      "updated_at": "2026-03-01T15:07:03.504445+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
+      "updated_at": "2026-03-01T15:07:03.504461+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-3124",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day-0 to day-2 onboarding rescue playbook for high-ARR trials missing first-value events",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook maps missing-event signatures to owner actions, response SLA, and verification steps to restore activation trajectory.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3125",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
+      "updated_at": "2026-03-01T15:07:03.504466+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T14:07:03.069667+08:00",
+      "updated_at": "2026-03-01T15:07:03.504471+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T14:07:03.069672+08:00",
+      "updated_at": "2026-03-01T15:07:03.504477+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
+      "updated_at": "2026-03-01T15:07:03.504482+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 15:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 14:37",
       "owner": "COMMAND",
@@ -418,14 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 12:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3007",
-      "artifact": "Delivered high-ARR trial onboarding blocker auto-triage swimlane with severity-based owner windows, escalation ladder, SLA targets, and automation event schema",
-      "path": "office_os/artifacts/P2-PROD-3007_onboarding_blocker_auto_triage_swimlane_high_arr_trials_2026-03-01.md",
       "status": "done"
     }
   ],
