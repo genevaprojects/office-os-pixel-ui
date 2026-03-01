@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T16:30:09.678638+00:00",
+  "now": "2026-03-01T16:40:07.526896+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-4013",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define first-value breach response matrix for ARR-tiered onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps breach signatures to owner response windows, escalation paths, and resolution verification criteria by ARR band.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4014",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -205,29 +185,17 @@
       "manual_rank": null,
       "acceptance": "Spec defines duplicate fingerprint fields, malformed line detection, correction actions, and weekly audit reporting format.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-4018",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron artifact freshness breach drill for revenue-critical workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Drill includes freshness thresholds, breach response sequence, fallback path, and post-fix verification checklist.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 00:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 00:20",
       "owner": "COMMAND",
@@ -418,14 +386,6 @@
       "taskId": "P1-REV-3902",
       "artifact": "Delivered CFO signoff risk-reversal offer ladder mapping objection severity to reversible offer structures, approval-trigger gates, and margin-protection guardrails to accelerate signoff without leakage",
       "path": "office_os/artifacts/P1-REV-3902_cfo_signoff_risk_reversal_offer_ladder_guardrails_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
