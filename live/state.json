@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T18:21:48.124129+00:00",
+  "now": "2026-03-01T18:30:04.922498+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4032",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive sponsor reconvergence script pack for week-3 no-decision pilots",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T02:20:27+08:00",
-      "updated_at": "2026-03-02T02:20:27+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 6 scripts mapped to sponsor persona objections, quantified proof inserts, CTA progression, and reply-rate targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4033",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Template includes anomaly signatures, ARR-tiered routing, rollback criteria, and post-fix verification checklist.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-4028",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 14-asset proof-led content queue for procurement-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T02:07:02.309745+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Queue contains 14 assets with objection mapping, proof requirements, cadence, and CTA tracking schema.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 02:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1783",
+      "artifact": "Added Preventive Dispatch Console in Team view with ranked preventive continuity command and one-click 3-command bundle copy to accelerate founder dispatch decisions",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 02:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1782",
+      "artifact": "Added Investor Rehearsal Timer rail in Overview with live 90-second posture/proof/close pacing, progress bar, and copy-ready live cue brief for tighter investor-demo narration control",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 02:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P0-FE-1771",
       "artifact": "Added Queue Load Shedding Sentinel in operator mode with owner pressure hotspot ranking, rebalance sink recommendation, and copy-ready load-shedding handoff brief for continuity control",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1770",
-      "artifact": "Added Execution Confidence Bands rail with weighted lane scoring (monitors/P0 queue/decision flow/sync integrity), weakest-link focus action, and copy-ready confidence brief for executive recovery prioritization",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1769",
-      "artifact": "Added Team Continuity Queue Stack with lane pressure ranking from depth/readiness and one-click lane patch command copy for backup coverage recovery",
-      "path": "office_os_mission_control/app/team/page.tsx",
       "status": "done"
     }
   ],
