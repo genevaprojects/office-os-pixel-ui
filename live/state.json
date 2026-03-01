@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T08:21:35.318743+00:00",
+  "now": "2026-03-01T08:30:08.869381+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3301_executive_legal_fastlane_preclear_packet_sub48h_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3302",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create champion silence breaker sequence for week-5 enterprise pilots",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 5-touch multithread scripts, proof payload slots, and reactivation KPIs for week-5 silence recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-3302_champion_silence_breaker_sequence_week5_enterprise_pilots_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-3303",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -185,26 +165,6 @@
       "manual_rank": null,
       "acceptance": "Library contains 15 objection hooks with evidence anchors, narrative angle variants, and conversion CTA tags by channel.",
       "artifact_path": "office_os/artifacts/P3-CONT-3210_viral_founder_rebuttal_hook_library_top15_enterprise_buying_objections_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-3306",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create viral proof-loop angle bank for procurement risk-reversal narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Bank provides 15 angles with hook-proof-CTA mapping and channel deployment cadence for conversion lift.",
-      "artifact_path": "office_os/artifacts/P3-CONT-3306_viral_proof_loop_angle_bank_procurement_risk_reversal_2026-03-01.md"
     },
     {
       "id": "P4-OPS-2017",
