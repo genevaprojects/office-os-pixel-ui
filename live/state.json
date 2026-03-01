@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T14:22:04.139020+00:00",
+  "now": "2026-03-01T14:30:05.589399+00:00",
   "workers": [
     {
       "name": "Research",
@@ -167,26 +167,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-3905",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 7-post founder proof-to-procurement content sprint with CTA instrumentation",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint includes 7 posts mapped to procurement objections, proof inserts, channel cadence, and measurable CTA tags for conversion tracking.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-3710",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +248,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 22:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3905",
+      "artifact": "Delivered 7-post founder proof-to-procurement content sprint with objection-level hooks, quantified proof blocks, multi-channel cadence, and CTA keyword instrumentation for conversion routing",
+      "path": "office_os/artifacts/P3-CONT-3905_founder_proof_to_procurement_content_sprint_7_posts_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1763",
+      "artifact": "Added Ownership Continuity Sentinel with owner-overload/blocked-lane risk scoring, top-lane exposure surfacing, and copy-ready continuity brief to strengthen command reliability and role clarity",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1762",
+      "artifact": "Added Decision Velocity Sentinel with open/overdue/due-soon pressure scoring, 24h resolution velocity signal, and copy-ready decision audit brief for investor demo decision trust clarity",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 22:24",
       "owner": "COMMAND",
@@ -442,30 +446,6 @@
       "taskId": "P2-PROD-3707",
       "artifact": "Delivered high-ARR onboarding blocker triage ladder with severity-to-owner routing, 6h/24h response tiers by ARR segment, escalation triggers, and closure verification gates",
       "path": "office_os/artifacts/P2-PROD-3707_high_arr_onboarding_blocker_triage_ladder_6h_24h_response_tiers_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3702",
-      "artifact": "Delivered 5-touch legal-thread unblock sequence for enterprise deals stalled >7 days with lane-specific scripts, proof payload stack, and 10-day reactivation targets",
-      "path": "office_os/artifacts/P1-REV-3702_legal_thread_unblock_sequence_stalled_enterprise_deals_gt7d_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-3711",
-      "artifact": "Delivered cron artifact drift sentinel spec for revenue-critical workflows with freshness/schema/semantic thresholds, fingerprint dedup, 3-step auto-remediation ladder, and pending-verify resolution loop",
-      "path": "office_os/artifacts/P5-REL-3711_cron_artifact_drift_sentinel_revenue_critical_workflow_integrity_2026-03-01.md",
       "status": "done"
     }
   ],
