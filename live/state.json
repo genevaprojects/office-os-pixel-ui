@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T03:00:05.425161+00:00",
+  "now": "2026-03-01T03:10:05.587186+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-2011",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 30-day champion multithread scoreboard with weekly rescue triggers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard defines champion/economic/procurement thread health signals, weekly trigger thresholds, and owner rescue plays tied to stage-conversion recovery.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-2012",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T11:07:07.973068+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654932+08:00",
+      "updated_at": "2026-03-01T11:07:07.973080+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T11:07:07.973086+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654946+08:00",
+      "updated_at": "2026-03-01T11:07:07.973095+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T10:07:05.654942+08:00",
+      "updated_at": "2026-03-01T11:07:07.973090+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
+      "updated_at": "2026-03-01T11:07:07.973100+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 11:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 10:37",
       "owner": "COMMAND",
@@ -399,14 +387,6 @@
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-1736",
-      "artifact": "Delivered procurement close-room daily operating cadence for top 15 late-stage deals with fixed standup/escalation windows, blocker-owner model, and conversion KPI stack for cycle-time compression",
-      "path": "office_os/artifacts/P1-REV-1736_procurement_close_room_daily_operating_cadence_top15_2026-03-01.md",
-      "status": "done\\n2026-03-01 07:35"
     }
   ],
   "alertCount": 2,
