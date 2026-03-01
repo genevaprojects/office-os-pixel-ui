@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T02:00:06.142114+00:00",
+  "now": "2026-03-01T02:10:05.833447+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,6 +54,28 @@
   ],
   "backlog": [
     {
+      "id": "P0-FE-1749",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Add keyboard focus coverage sentinel to expose unreachable controls and tab-order gaps in operator mode",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-01T10:00:00+08:00",
+      "updated_at": "2026-03-01T10:07:05.654909+08:00",
+      "impact": 5,
+      "effort": 1,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-1748"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "Sentinel reports focusable-control coverage by panel, flags unreachable actions, and provides a copy-ready a11y remediation brief.",
+      "artifact_path": null
+    },
+    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -67,26 +89,6 @@
       ]
     },
     {
-      "id": "P1-REV-2001",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 14-day procurement unblock war-room script stack for top 12 at-risk deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "War-room pack defines daily scripts by stakeholder lane, trigger-based escalation, and measurable conversion recovery targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-2002",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +96,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
+      "updated_at": "2026-03-01T10:07:05.654921+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +116,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
+      "updated_at": "2026-03-01T10:07:05.654928+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +129,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-2006",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day-0 to day-5 first-value telemetry gap audit checklist",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines required telemetry events, missing-signal detection rules, owner remediation path, and verification criteria.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-2007",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +136,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
+      "updated_at": "2026-03-01T10:07:05.654932+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -174,7 +156,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T09:07:03.292089+08:00",
+      "updated_at": "2026-03-01T10:07:05.654946+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +176,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T09:07:03.292085+08:00",
+      "updated_at": "2026-03-01T10:07:05.654942+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +196,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
+      "updated_at": "2026-03-01T10:07:05.654937+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -228,6 +210,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 10:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-2006",
+      "artifact": "Delivered day0-day5 first-value telemetry gap audit checklist with required event coverage, missing-signal detection rules, owner remediation SLAs, and verification closure gates",
+      "path": "office_os/artifacts/P2-PROD-2006_day0_day5_first_value_telemetry_gap_audit_checklist_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 10:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-2001",
+      "artifact": "Delivered 14-day procurement unblock war-room script stack for top 12 at-risk deals with lane-specific scripts, trigger-based escalation matrix, daily operating cadence, and measurable conversion recovery targets",
+      "path": "office_os/artifacts/P1-REV-2001_14day_procurement_unblock_war_room_script_stack_top12_at_risk_deals_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 09:37",
       "owner": "COMMAND",
@@ -402,30 +408,6 @@
       "taskId": "P1-REV-1720",
       "artifact": "Delivered procurement stall early-warning trigger matrix with 12 measurable stall signals, risk tiers, owner routing, and enforced 24h intervention SLA to protect close probability",
       "path": "office_os/artifacts/P1-REV-1720_procurement_stall_early_warning_trigger_matrix_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-1721",
-      "artifact": "Delivered enterprise champion decay detector checklist for week 2-6 pilots with measurable inactivity signals, internal-thread health checks, and reactivation playbooks/targets",
-      "path": "office_os/artifacts/P1-REV-1721_enterprise_champion_decay_detector_checklist_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
