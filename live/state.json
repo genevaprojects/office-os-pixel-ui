@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T06:00:06.595569+00:00",
+  "now": "2026-03-01T06:10:05.333334+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3113",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design CFO signoff acceleration brief template with quantified risk-reversal offers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template maps CFO objection classes to quantified ROI/risk-reversal proof blocks, concession boundaries, and 48h signoff follow-up path.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3115",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
+      "updated_at": "2026-03-01T14:07:03.069648+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
+      "updated_at": "2026-03-01T14:07:03.069662+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T13:07:02.740220+08:00",
+      "updated_at": "2026-03-01T14:07:03.069667+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T13:07:02.740224+08:00",
+      "updated_at": "2026-03-01T14:07:03.069672+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
+      "updated_at": "2026-03-01T14:07:03.069677+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 14:10",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1753",
+      "artifact": "Added Traceability Coverage Sentinel auditing source endpoint integrity, monitor/backlog/decision data coverage, and copy-ready traceability brief for executive trust assurance",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 14:10",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1752",
+      "artifact": "Added Touch Target Sentinel with 44px hit-area audit, undersized-control risk scoring, and copy-ready remediation brief for mobile tap reliability hardening",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 13:37",
       "owner": "COMMAND",
@@ -362,30 +366,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 10:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-2018",
-      "artifact": "Delivered hourly artifact checksum sentinel spec with SHA-256 cadence, drift-class thresholds, auto-regeneration decision path, and two-cycle verification loop for critical growth-doc integrity",
-      "path": "office_os/artifacts/P5-REL-2018_hourly_artifact_checksum_sentinel_mission_critical_growth_docs_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 10:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-01 10:36"
-    },
-    {
-      "time": "2026-03-01 10:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-2009",
-      "artifact": "Delivered stale-task merge/split decision tree with freshness thresholds, consolidation/split rules, and throughput recovery validation checks",
-      "path": "office_os/artifacts/P4-OPS-2009_autonomous_backlog_stale_task_merge_split_decision_tree_2026-03-01.md",
       "status": "done"
     }
   ],
