@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T20:00:04.549496+00:00",
+  "now": "2026-03-01T20:10:06.030022+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4037",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 5-day CFO risk-reversal followup ladder for post-procurement silence windows",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder defines day-by-day multithread actions, quantified proof payloads, and reply-to-meeting conversion targets for stalled CFO threads.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4038",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
+      "updated_at": "2026-03-02T04:07:01.957186+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
+      "updated_at": "2026-03-02T04:07:01.957203+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4041",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce close-plan compression template for deals blocked at security-cleared stage",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes day-by-day milestones, blocker owner mapping, and measurable cycle-time compression targets for security-cleared deals.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4042",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
+      "updated_at": "2026-03-02T04:07:01.957208+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
+      "updated_at": "2026-03-02T04:07:01.957217+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T03:07:03.570847+08:00",
+      "updated_at": "2026-03-02T04:07:01.957222+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
+      "updated_at": "2026-03-02T04:07:01.957213+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 04:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4037",
+      "artifact": "Delivered design 5-day cfo risk-reversal followup ladder for post-procurement silence windows with day-by-day operating flow, owner mapping, quantified targets, and copy-ready execution prompts",
+      "path": "office_os/artifacts/P1-REV-4037_cfo_risk_reversal_followup_ladder_5day_post_procurement_silence_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 04:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4041",
+      "artifact": "Delivered produce close-plan compression template for deals blocked at security-cleared stage with day-by-day operating flow, owner mapping, quantified targets, and copy-ready execution prompts",
+      "path": "office_os/artifacts/P1-REV-4041_close_plan_compression_template_security_cleared_stage_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 03:37",
       "owner": "COMMAND",
@@ -402,30 +386,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up added concrete READY tasks to restore unblocked queue depth to >=10 with owner-assigned acceptance criteria aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-3906",
-      "artifact": "Delivered autonomous backlog SLA watchdog spec with stale-age bands, owner pressure scoring, corrective action ladder, and weekly hygiene loop for READY queue anti-entropy",
-      "path": "office_os/artifacts/P4-OPS-3906_autonomous_backlog_sla_watchdog_stale_ready_tasks_owner_alerts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-4004",
-      "artifact": "Delivered late-stage deal slippage early-warning trigger lattice with owner SLA clocks, intervention ladders, risk scoring bands, and daily operating cadence for pre-emptive close acceleration",
-      "path": "office_os/artifacts/P1-REV-4004_late_stage_deal_slippage_early_warning_triggers_owner_sla_actions_2026-03-02.md",
       "status": "done"
     }
   ],
