@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T07:30:10.691425+00:00",
+  "now": "2026-03-01T07:40:06.564913+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Scorecard defines required packet components, weighted completeness scoring, and owner routing rules to prioritize fastest-close deals.",
       "artifact_path": "office_os/artifacts/P1-REV-3203_procurement_packet_completeness_scorecard_auto_priority_routing_2026-03-01.md"
-    },
-    {
-      "id": "P1-REV-3205",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define 72h redline escalation playbook for legal queue bottlenecks",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T15:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook maps 24h/48h/72h redline escalation triggers, owner actions, fallback clauses, and verification checks for cycle compression.",
-      "artifact_path": "office_os/artifacts/P1-REV-3205_redline_escalation_playbook_72h_legal_queue_bottlenecks_2026-03-01.md"
     },
     {
       "id": "P1-REV-3206",
@@ -268,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 15:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-3205",
+      "artifact": "Delivered 72h redline escalation playbook with 24h/48h/72h trigger ladder, owner action matrix, fallback clause options, and verification/KPI checks to compress legal queue bottlenecks",
+      "path": "office_os/artifacts/P1-REV-3205_redline_escalation_playbook_72h_legal_queue_bottlenecks_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 15:26",
       "owner": "SOCIAL",
@@ -450,22 +446,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 13:05",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3107",
-      "artifact": "Delivered first-value miss root-cause taxonomy with signal thresholds, severity bands, and 72h remediation play paths mapped to owner lanes",
-      "path": "office_os/artifacts/P2-PROD-3107_first_value_miss_root_cause_taxonomy_remediation_play_paths_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 13:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3101",
-      "artifact": "Delivered top-15 late-stage deal intervention sequencer with daily owner-of-day assignment, blocker-to-owner routing, capacity guardrails, and 10-business-day close acceleration cadence",
-      "path": "office_os/artifacts/P1-REV-3101_top15_late_stage_deal_intervention_sequencer_daily_owner_assignment_logic_2026-03-01.md",
       "status": "done"
     }
   ],
