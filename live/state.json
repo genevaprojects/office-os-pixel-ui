@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T04:30:04.986831+00:00",
+  "now": "2026-03-01T04:40:06.736525+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3104",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft redline delay recovery operating cadence for legal bottleneck accounts",
-      "owner": "EXECUTOR",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Cadence defines daily legal/procurement checkpoints, escalation windows, and turnaround KPIs to reduce redline cycle time below 72h median.",
-      "status": "READY",
-      "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3105",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -144,6 +124,26 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
+      "artifact_path": null
+    },
+    {
+      "id": "P1-REV-3110",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build legal bottleneck clause pre-approval fallback library for top 15 enterprise redline objections",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T12:37:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Fallback library defines pre-approved give/get options, risk guardrails, and usage triggers to cut legal deadlock resolution time under 24h.",
       "artifact_path": null
     },
     {
@@ -187,6 +187,26 @@
       "artifact_path": null
     },
     {
+      "id": "P2-PROD-3111",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create redline stage handoff QA checklist between AE, Legal, and Procurement ops",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T12:37:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines mandatory handoff fields, owner acceptance gates, and same-day defect loop to prevent redline context loss.",
+      "artifact_path": null
+    },
+    {
       "id": "P4-OPS-1701",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -225,9 +245,37 @@
       "manual_rank": null,
       "acceptance": "Routine defines age buckets, auto-routing actions, and verification checks that convert stale READY tasks into actionable state transitions.",
       "artifact_path": null
+    },
+    {
+      "id": "P5-REL-3112",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Draft redline workflow latency monitor spec with daily stall anomaly alerts",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T12:37:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Spec defines cycle-time telemetry events, stall alert thresholds, and remediation routing to protect <72h median turnaround target.",
+      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 12:25",
       "owner": "SOCIAL",
@@ -418,14 +466,6 @@
       "taskId": "P1-REV-2004",
       "artifact": "Delivered executive sponsor reactivation sequence for silent week-4 pilots with trigger conditions, 7-touch cadence, stakeholder lane scripts, and recovery KPIs",
       "path": "office_os/artifacts/P1-REV-2004_executive_sponsor_reactivation_sequence_silent_week4_pilots_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-2008",
-      "artifact": "Delivered 10-asset proof-first microcontent sprint board for procurement-objection recovery with objection mapping, proof requirements, 7-day cadence, and CTA instrumentation",
-      "path": "office_os/artifacts/P3-CONT-2008_proof_first_microcontent_sprint_procurement_objection_recovery_2026-03-01.md",
       "status": "done"
     }
   ],
