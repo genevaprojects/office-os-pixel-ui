@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T22:00:06.037731+00:00",
+  "now": "2026-03-01T22:10:05.880209+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4054",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 CFO silence recovery command board with ARR-weighted intervention sequencing",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 15 silent CFO threads by recoverable ARR and defines daily command sequence, owner SLAs, and 10-day meeting conversion targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4055",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
+      "updated_at": "2026-03-02T06:07:03.687534+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4058",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce champion-to-procurement multithread map template for late-stage no-decision risk",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template maps champion/legal/procurement/finance threads with engagement health scoring and intervention triggers.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4059",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
+      "updated_at": "2026-03-02T06:07:03.687547+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T04:20:00+08:00",
-      "updated_at": "2026-03-02T05:07:01.788030+08:00",
+      "updated_at": "2026-03-02T06:07:03.687553+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
+      "updated_at": "2026-03-02T06:07:03.687557+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
+      "updated_at": "2026-03-02T06:07:03.687563+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 06:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4058",
+      "artifact": "Delivered champion-to-procurement multithread map template for late-stage no-decision risk with thread coverage grid, trigger-to-action rules, 7-day expansion sequence, procurement confidence scoring, and copy-ready internal-forward scripts",
+      "path": "office_os/artifacts/P1-REV-4058_champion_to_procurement_multithread_map_template_late_stage_no_decision_risk_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 06:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4054",
+      "artifact": "Delivered top-15 CFO silence recovery command board with ARR-weighted scoring model, intervention-track sequencing (A-D), owner SLA clocks, day-by-day 5-day execution cadence, and 14-day reactivation KPI targets",
+      "path": "office_os/artifacts/P1-REV-4054_top15_cfo_silence_recovery_command_board_arr_weighted_intervention_sequencing_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 05:36",
       "owner": "EXECUTOR",
@@ -382,30 +366,6 @@
       "taskId": "P0-FE-1783",
       "artifact": "Added Preventive Dispatch Console in Team view with ranked preventive continuity command and one-click 3-command bundle copy to accelerate founder dispatch decisions",
       "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 02:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1782",
-      "artifact": "Added Investor Rehearsal Timer rail in Overview with live 90-second posture/proof/close pacing, progress bar, and copy-ready live cue brief for tighter investor-demo narration control",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 02:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 02:20",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-4027",
-      "artifact": "Delivered first-value instrumentation drift scorecard with event integrity checks, severity thresholds, hard rollback triggers, owner SLA routing, and post-fix verification gates",
-      "path": "office_os/artifacts/P2-PROD-4027_first_value_instrumentation_drift_scorecard_rollback_triggers_2026-03-02.md",
       "status": "done"
     }
   ],
