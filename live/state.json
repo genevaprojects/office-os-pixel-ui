@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T08:10:05.197543+00:00",
+  "now": "2026-03-01T08:21:35.318743+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,34 @@
       ]
     },
     {
-      "id": "P1-REV-3203",
+      "id": "P1-REV-3301",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create procurement packet completeness scorecard with auto-priority routing",
-      "owner": "BUILDER",
+      "title": "Design executive legal-fastlane pre-clear packet for sub-48h procurement handoff",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704177+08:00",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Packet defines pre-clear artifact set, owner map, and 48h handoff SLA with fallback path for stalled legal review.",
+      "artifact_path": "office_os/artifacts/P1-REV-3301_executive_legal_fastlane_preclear_packet_sub48h_2026-03-01.md"
+    },
+    {
+      "id": "P1-REV-3302",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create champion silence breaker sequence for week-5 enterprise pilots",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,18 +103,18 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Scorecard defines required packet components, weighted completeness scoring, and owner routing rules to prioritize fastest-close deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-3203_procurement_packet_completeness_scorecard_auto_priority_routing_2026-03-01.md"
+      "acceptance": "Sequence includes 5-touch multithread scripts, proof payload slots, and reactivation KPIs for week-5 silence recovery.",
+      "artifact_path": "office_os/artifacts/P1-REV-3302_champion_silence_breaker_sequence_week5_enterprise_pilots_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3206",
+      "id": "P1-REV-3303",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Draft close-probability rebound board for week-over-week stalled late-stage deals",
+      "title": "Build procurement blocker monetization map linking delay causes to ARR-at-risk",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704160+08:00",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -103,18 +123,38 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Board defines rebound indicators, intervention priority ranking, owner SLA clocks, and weekly review protocol for late-stage recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-3206_close_probability_rebound_board_stalled_late_stage_deals_2026-03-01.md"
+      "acceptance": "Map links blocker classes to ARR-at-risk, intervention priority, and owner SLA timers for revenue protection.",
+      "artifact_path": "office_os/artifacts/P1-REV-3303_procurement_blocker_monetization_map_arr_risk_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-3207",
+      "id": "P1-REV-3304",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Draft CFO confidence recovery memo template for post-redline uncertainty windows",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template includes quantified risk controls, timeline commitments, and decision CTA variants for CFO signoff recovery.",
+      "artifact_path": "office_os/artifacts/P1-REV-3304_cfo_confidence_recovery_memo_template_post_redline_2026-03-01.md"
+    },
+    {
+      "id": "P2-PROD-3305",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Design first-value event integrity validator for day0-day3 enterprise onboarding",
+      "title": "Define first-value outage hotfix playcard for day0-day2 onboarding telemetry gaps",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704183+08:00",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -123,8 +163,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Validator specifies required onboarding events, validation rules, owner alerts, and pass/fail gates for first-value visibility.",
-      "artifact_path": "office_os/artifacts/P2-PROD-3207_first_value_event_integrity_validator_day0_day3_enterprise_onboarding_2026-03-01.md"
+      "acceptance": "Playcard maps telemetry outage signatures to hotfix owners, SLA windows, and verification checklist.",
+      "artifact_path": "office_os/artifacts/P2-PROD-3305_first_value_outage_hotfix_playcard_day0_day2_2026-03-01.md"
     },
     {
       "id": "P3-CONT-3210",
@@ -145,6 +185,26 @@
       "manual_rank": null,
       "acceptance": "Library contains 15 objection hooks with evidence anchors, narrative angle variants, and conversion CTA tags by channel.",
       "artifact_path": "office_os/artifacts/P3-CONT-3210_viral_founder_rebuttal_hook_library_top15_enterprise_buying_objections_2026-03-01.md"
+    },
+    {
+      "id": "P3-CONT-3306",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Create viral proof-loop angle bank for procurement risk-reversal narratives",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Bank provides 15 angles with hook-proof-CTA mapping and channel deployment cadence for conversion lift.",
+      "artifact_path": "office_os/artifacts/P3-CONT-3306_viral_proof_loop_angle_bank_procurement_risk_reversal_2026-03-01.md"
     },
     {
       "id": "P4-OPS-2017",
@@ -187,14 +247,14 @@
       "artifact_path": null
     },
     {
-      "id": "P4-OPS-3211",
+      "id": "P4-OPS-3307",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Create autonomous backlog entropy monitor with weekly decay thresholds",
+      "title": "Design autonomous stale-dependency auto-repair routine for backlog hygiene",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704188+08:00",
+      "created_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T16:21:15.848973+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -203,11 +263,35 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Monitor defines entropy metrics, decay thresholds, corrective trigger rules, and weekly hygiene reporting format for sustained flow quality.",
-      "artifact_path": "office_os/artifacts/P4-OPS-3211_autonomous_backlog_entropy_monitor_weekly_decay_thresholds_2026-03-01.md"
+      "acceptance": "Routine defines stale dependency detection, auto-repair rules, and safe-fail logging for flow continuity.",
+      "artifact_path": "office_os/artifacts/P4-OPS-3307_autonomous_stale_dependency_auto_repair_routine_2026-03-01.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 16:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with owner-assigned acceptance criteria aligned to priority weights",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 16:21",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-3211",
+      "artifact": "Delivered autonomous backlog entropy monitor with composite decay index, threshold bands, corrective triggers, and weekly hygiene reporting format",
+      "path": "office_os/artifacts/P4-OPS-3211_autonomous_backlog_entropy_monitor_weekly_decay_thresholds_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 16:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-3206",
+      "artifact": "Delivered close-probability rebound board with indicator model, intervention ranking, owner SLA clocks, and weekly recovery review protocol for stalled late-stage deals",
+      "path": "office_os/artifacts/P1-REV-3206_close_probability_rebound_board_stalled_late_stage_deals_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 16:07",
       "owner": "COMMAND",
@@ -382,30 +466,6 @@
       "taskId": "P0-FE-1753",
       "artifact": "Added Traceability Coverage Sentinel auditing source endpoint integrity, monitor/backlog/decision data coverage, and copy-ready traceability brief for executive trust assurance",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 14:10",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1752",
-      "artifact": "Added Touch Target Sentinel with 44px hit-area audit, undersized-control risk scoring, and copy-ready remediation brief for mobile tap reliability hardening",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 13:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 13:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up added 6 concrete READY tasks (P1-P4 weighted) with owner assignment and acceptance criteria to restore autonomous queue depth >=10",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
