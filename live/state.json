@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T05:30:05.389528+00:00",
+  "now": "2026-03-01T05:40:05.497248+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-3111",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create redline stage handoff QA checklist between AE, Legal, and Procurement ops",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T12:37:00+08:00",
-      "updated_at": "2026-03-01T13:07:02.740216+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines mandatory handoff fields, owner acceptance gates, and same-day defect loop to prevent redline context loss.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3116",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -205,29 +185,17 @@
       "manual_rank": null,
       "acceptance": "Watchdog spec sets aging thresholds, priority-sensitive intervention suggestions, and verification loop for stale-task recovery.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3112",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft redline workflow latency monitor spec with daily stall anomaly alerts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T12:37:00+08:00",
-      "updated_at": "2026-03-01T13:07:02.740230+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines cycle-time telemetry events, stall alert thresholds, and remediation routing to protect <72h median turnaround target.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 13:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 13:20",
       "owner": "COMMAND",
@@ -418,14 +386,6 @@
       "taskId": "P4-OPS-2009",
       "artifact": "Delivered stale-task merge/split decision tree with freshness thresholds, consolidation/split rules, and throughput recovery validation checks",
       "path": "office_os/artifacts/P4-OPS-2009_autonomous_backlog_stale_task_merge_split_decision_tree_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 10:21",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-2005",
-      "artifact": "Delivered deal slippage prevention checkpoint sheet with stage-risk scoring, 24h owner clocks, and trigger-based intervention rules to prevent silent stall drift",
-      "path": "office_os/artifacts/P1-REV-2005_deal_slippage_prevention_checkpoint_sheet_24h_intervention_sla_2026-03-01.md",
       "status": "done"
     }
   ],
