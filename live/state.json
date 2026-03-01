@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T23:00:06.384193+00:00",
+  "now": "2026-03-01T23:10:10.436249+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4064",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 expansion-ready account rescue board with ARR-weighted next-best action sequence",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top 15 expansion-ready accounts by recoverable ARR, maps next-best action by blocker type, and defines 7-day owner SLA + conversion target.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4066",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
+      "updated_at": "2026-03-02T07:07:03.404272+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4068",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce no-decision resurrection memo kit for CFO committees with binary approve/defer framing",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes 4 memo variants, quantified delay-cost modules, objection-response blocks, and a 24-hour follow-up trigger protocol.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4069",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
+      "updated_at": "2026-03-02T07:07:03.404285+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
+      "updated_at": "2026-03-02T07:07:03.404295+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T06:07:03.687563+08:00",
+      "updated_at": "2026-03-02T07:07:03.404291+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
+      "updated_at": "2026-03-02T07:07:03.404300+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4068",
+      "artifact": "Delivered no-decision resurrection memo kit for CFO committees with 4 binary approve/defer memo variants, quantified delay-cost modules, objection-response blocks, and 24-hour follow-up trigger protocol",
+      "path": "office_os/artifacts/P1-REV-4068_no_decision_resurrection_memo_kit_cfo_committees_binary_approve_defer_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 07:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4064",
+      "artifact": "Delivered top-15 expansion-ready account rescue board with ARR-weighted prioritization, blocker-specific next-best actions, owner SLAs, and 7-day conversion targets for rapid expansion recovery",
+      "path": "office_os/artifacts/P1-REV-4064_top15_expansion_ready_account_rescue_board_arr_weighted_next_best_actions_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 06:37",
       "owner": "COMMAND",
@@ -382,30 +366,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 04:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4037",
-      "artifact": "Delivered design 5-day cfo risk-reversal followup ladder for post-procurement silence windows with day-by-day operating flow, owner mapping, quantified targets, and copy-ready execution prompts",
-      "path": "office_os/artifacts/P1-REV-4037_cfo_risk_reversal_followup_ladder_5day_post_procurement_silence_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 04:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4041",
-      "artifact": "Delivered produce close-plan compression template for deals blocked at security-cleared stage with day-by-day operating flow, owner mapping, quantified targets, and copy-ready execution prompts",
-      "path": "office_os/artifacts/P1-REV-4041_close_plan_compression_template_security_cleared_stage_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 03:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
