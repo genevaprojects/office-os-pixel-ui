@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T22:30:05.191630+00:00",
+  "now": "2026-03-01T22:40:06.325409+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4067",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72-hour multi-thread close sprint plan for security-cleared procurement-stage opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan defines 72-hour timeline, stakeholder-by-stakeholder actions, fallback paths, and daily KPI targets for close probability lift.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4068",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -164,26 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix maps confidence breach signatures to owner actions, SLA windows, escalation paths, and verification gates by severity.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-4070",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft first-value recovery war-room checklist for CSM and product joint response",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes trigger thresholds, role responsibilities, communication templates, and closeout verification criteria for day0-day7 incidents.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 06:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 06:20",
       "owner": "COMMAND",
@@ -458,14 +426,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 03:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with owner-assigned acceptance criteria aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
