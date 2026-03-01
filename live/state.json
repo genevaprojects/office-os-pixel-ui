@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T19:30:05.716708+00:00",
+  "now": "2026-03-01T19:40:06.707845+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4040",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build redline stall rescue sequence with 24h/48h/72h owner escalation map",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps stall signatures to owner/backup escalations, fallback clause moves, and closure verification for sub-72h redline turnaround.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4041",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist defines drift signals, severity bands, owner routing, and pass/fail verification gates across day0-day14 onboarding.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-4043",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Design first-value rollback communication kit for CSM-to-product incident handoff",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T03:20:00+08:00",
-      "updated_at": "2026-03-02T03:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes rollback triggers, stakeholder notification templates, owner SLA clocks, and post-fix validation checklist.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 03:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 03:20",
       "owner": "COMMAND",
@@ -458,14 +426,6 @@
       "taskId": "P1-REV-4004",
       "artifact": "Delivered late-stage deal slippage early-warning trigger lattice with owner SLA clocks, intervention ladders, risk scoring bands, and daily operating cadence for pre-emptive close acceleration",
       "path": "office_os/artifacts/P1-REV-4004_late_stage_deal_slippage_early_warning_triggers_owner_sla_actions_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 00:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-4007",
-      "artifact": "Delivered first-value rescue command template with severity tiers, CSM→Product escalation payload schema, and closure verification checklist for onboarding incident recovery",
-      "path": "office_os/artifacts/P2-PROD-4007_first_value_rescue_command_template_csm_to_product_escalation_2026-03-02.md",
       "status": "done"
     }
   ],
