@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T23:21:26.946394+00:00",
+  "now": "2026-03-01T23:30:04.619308+00:00",
   "workers": [
     {
       "name": "Research",
@@ -145,46 +145,6 @@
       "manual_rank": null,
       "acceptance": "Script maps miss signatures to immediate commands, escalation thresholds, and same-day verification tasks for CSM-led standups.",
       "artifact_path": "office_os/artifacts/P2-PROD-4077_first_value_miss_triage_command_script_csm_standups_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4078",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 7-post executive-proof content pack for procurement objection week",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T07:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 7 post drafts with hook-proof-CTA format, objection tags, channel mapping, and KPI keywords for tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4078_executive_proof_content_pack_7post_procurement_objection_week_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4079",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Generate rebuttal-ready short video storyboard set for CFO hesitation narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T07:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Storyboard set contains 10 scripts with 20-40s timing, quantified proof blocks, and conversion CTA lines aligned to CFO hesitation objections.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4079_rebuttal_ready_short_video_storyboard_set_cfo_hesitation_narratives_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4080",
