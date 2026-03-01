@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T06:30:05.037867+00:00",
+  "now": "2026-03-01T06:40:06.330072+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,26 +84,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix maps top delay causes to reversible offer structures, owner triggers, and close-probability lift targets.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-3121",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement blocker escalation ladder with legal-finance synchronized response windows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder defines blocker tiers, owner handoff windows, and SLA clocks that keep procurement stalls under 72h.",
       "artifact_path": null
     },
     {
@@ -245,29 +225,33 @@
       "manual_rank": null,
       "acceptance": "Taxonomy defines exception classes, auto-handling defaults, escalation boundary, and verification loop for next cycle resilience.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3128",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create critical cron output checksum audit protocol for revenue-impacting workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Protocol specifies checksum schedule, anomaly thresholds, rollback trigger, and post-fix verification cycle.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 14:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 14:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-3128",
+      "artifact": "Delivered critical cron output checksum audit protocol covering per-run hash schedule, anomaly thresholds, rollback triggers, and post-fix verification cycle for revenue-impacting workflows",
+      "path": "office_os/artifacts/P5-REL-3128_critical_cron_output_checksum_audit_protocol_revenue_impacting_workflows_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 14:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-3121",
+      "artifact": "Delivered procurement blocker escalation ladder with tiered severity model, synchronized legal-finance response windows, owner handoff protocol, and SLA clock enforcement to keep stalls under 72h",
+      "path": "office_os/artifacts/P1-REV-3121_procurement_blocker_escalation_ladder_legal_finance_sync_windows_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 14:20",
       "owner": "COMMAND",
@@ -442,30 +426,6 @@
       "taskId": "P2-PROD-3007",
       "artifact": "Delivered high-ARR trial onboarding blocker auto-triage swimlane with severity-based owner windows, escalation ladder, SLA targets, and automation event schema",
       "path": "office_os/artifacts/P2-PROD-3007_onboarding_blocker_auto_triage_swimlane_high_arr_trials_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 12:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3001",
-      "artifact": "Delivered 10-account procurement-stall rescue sequence with tiered prioritization, 5-touch multithread cadence, persona proof payload matrix, and 14-day recovery KPI targets",
-      "path": "office_os/artifacts/P1-REV-3001_procurement_stalled_late_stage_deal_rescue_sequence_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 11:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-3010",
-      "artifact": "Delivered cron artifact freshness sentinel threshold spec for revenue-critical workflows with anomaly fingerprints, deterministic fallback levels, and auto-recovery verification loop",
-      "path": "office_os/artifacts/P5-REL-3010_cron_artifact_freshness_sentinel_thresholds_revenue_critical_workflows_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 11:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-3004",
-      "artifact": "Delivered silent-deal reactivation call brief for week-3 to week-6 enterprise pilots with trigger conditions, tiered agenda/scripts, rescue-offer matrix, and 72h recovery KPI targets",
-      "path": "office_os/artifacts/P1-REV-3004_silent_deal_reactivation_call_brief_week3_week6_enterprise_pilots_2026-03-01.md",
       "status": "done"
     }
   ],
