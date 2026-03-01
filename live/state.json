@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T09:00:04.486566+00:00",
+  "now": "2026-03-01T09:10:05.765374+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3301",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design executive legal-fastlane pre-clear packet for sub-48h procurement handoff",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Packet defines pre-clear artifact set, owner map, and 48h handoff SLA with fallback path for stalled legal review.",
-      "artifact_path": "office_os/artifacts/P1-REV-3301_executive_legal_fastlane_preclear_packet_sub48h_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-3303",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T17:07:03.761550+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T17:07:03.761566+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-3305_first_value_outage_hotfix_playcard_day0_day2_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-3210",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Draft viral founder rebuttal hook library for top 15 enterprise buying objections",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704192+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Library contains 15 objection hooks with evidence anchors, narrative angle variants, and conversion CTA tags by channel.",
-      "artifact_path": "office_os/artifacts/P3-CONT-3210_viral_founder_rebuttal_hook_library_top15_enterprise_buying_objections_2026-03-01.md"
-    },
-    {
       "id": "P4-OPS-2017",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T16:07:04.704197+08:00",
+      "updated_at": "2026-03-01T17:07:03.761571+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T16:07:04.704203+08:00",
+      "updated_at": "2026-03-01T17:07:03.761576+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
+      "updated_at": "2026-03-01T17:07:03.761581+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 17:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 16:37",
       "owner": "COMMAND",
@@ -398,14 +366,6 @@
       "taskId": "P2-PROD-3116",
       "artifact": "Delivered first-14-day enterprise onboarding intervention map linking risk signals to owner actions, SLA response windows, and day-14 expansion-readiness exit criteria with escalation ladder and evidence requirements",
       "path": "office_os/artifacts/P2-PROD-3116_first14day_enterprise_onboarding_intervention_map_expansion_readiness_signals_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
