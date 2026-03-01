@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T21:21:39.482010+00:00",
+  "now": "2026-03-01T21:30:06.021368+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4056",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 8-message executive committee reconvergence sequence for stalled security-cleared deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 8 role-targeted messages with proof modules, CTA ladder, and response-rate tracking tags for reactivation.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4057",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -204,26 +184,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Runbook includes missing-event triage, patch ownership SLAs, verification tests, and rollback boundaries.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-4061",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 12-post objection-to-proof viral content sprint for procurement-stage buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint pack provides 12 post outlines with hook-proof-CTA mapping, channel cadence, and conversion keyword instrumentation.",
       "artifact_path": null
     },
     {
