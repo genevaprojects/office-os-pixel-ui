@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T05:00:05.206581+00:00",
+  "now": "2026-03-01T05:10:04.765787+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3101",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create top-15 late-stage deal intervention sequencer with daily owner assignment logic",
-      "owner": "RESEARCH",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequencer maps top-15 late-stage deals to daily intervention slots, owner assignments, and expected close-probability delta by action.",
-      "status": "READY",
-      "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3102",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,7 +78,7 @@
       "acceptance": "Template includes CFO, legal, and procurement variants with required proof blocks, risk answers, and CTA paths for sub-72h response loops.",
       "status": "READY",
       "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740186+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -118,7 +98,7 @@
       "acceptance": "Scoreboard defines top close-week metrics, alert thresholds, and intervention routing rules for daily founder review and action dispatch.",
       "status": "READY",
       "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740201+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -134,7 +114,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-01T12:37:00+08:00",
-      "updated_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740206+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -158,27 +138,7 @@
       "acceptance": "Heatmap defines risk signals by onboarding day, owner actions, SLA windows, and pass/fail verification gates for first-value continuity.",
       "status": "READY",
       "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-3107",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Map first-value miss root-cause taxonomy with remediation play paths",
-      "owner": "RESEARCH",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Taxonomy maps top miss causes to owner remediation paths, expected activation lift ranges, and verification criteria.",
-      "status": "READY",
-      "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740211+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -194,7 +154,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-01T12:37:00+08:00",
-      "updated_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740216+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T12:07:03.222258+08:00",
+      "updated_at": "2026-03-01T13:07:02.740220+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T12:07:03.222263+08:00",
+      "updated_at": "2026-03-01T13:07:02.740224+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -254,7 +214,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-01T12:37:00+08:00",
-      "updated_at": "2026-03-01T12:37:00+08:00",
+      "updated_at": "2026-03-01T13:07:02.740230+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -268,6 +228,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-3107",
+      "artifact": "Delivered first-value miss root-cause taxonomy with signal thresholds, severity bands, and 72h remediation play paths mapped to owner lanes",
+      "path": "office_os/artifacts/P2-PROD-3107_first_value_miss_root_cause_taxonomy_remediation_play_paths_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3101",
+      "artifact": "Delivered top-15 late-stage deal intervention sequencer with daily owner-of-day assignment, blocker-to-owner routing, capacity guardrails, and 10-business-day close acceleration cadence",
+      "path": "office_os/artifacts/P1-REV-3101_top15_late_stage_deal_intervention_sequencer_daily_owner_assignment_logic_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 12:37",
       "owner": "COMMAND",
@@ -442,30 +426,6 @@
       "taskId": "P1-REV-2001",
       "artifact": "Delivered 14-day procurement unblock war-room script stack for top 12 at-risk deals with lane-specific scripts, trigger-based escalation matrix, daily operating cadence, and measurable conversion recovery targets",
       "path": "office_os/artifacts/P1-REV-2001_14day_procurement_unblock_war_room_script_stack_top12_at_risk_deals_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-2010",
-      "artifact": "Delivered hourly cron artifact integrity smoke-test protocol with freshness thresholds, failure fingerprints, and 3-step auto-remediation verification loop",
-      "path": "office_os/artifacts/P5-REL-2010_hourly_cron_artifact_integrity_smoke_test_protocol_critical_growth_workflows_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-2004",
-      "artifact": "Delivered executive sponsor reactivation sequence for silent week-4 pilots with trigger conditions, 7-touch cadence, stakeholder lane scripts, and recovery KPIs",
-      "path": "office_os/artifacts/P1-REV-2004_executive_sponsor_reactivation_sequence_silent_week4_pilots_2026-03-01.md",
       "status": "done"
     }
   ],
