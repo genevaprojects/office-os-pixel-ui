@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T09:21:36.863599+00:00",
+  "now": "2026-03-01T09:30:10.548695+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3403_legal_redline_clause_fallback_library_sub48h_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3404",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build executive buyer objection-to-proof voice-note script pack",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T17:21:05+08:00",
-      "updated_at": "2026-03-01T17:21:05+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 objection scripts, proof inserts, CTA paths, and channel-specific delivery cadence for decision compression.",
-      "artifact_path": "office_os/artifacts/P1-REV-3404_exec_buyer_objection_proof_voicenote_script_pack_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-3405",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -185,26 +165,6 @@
       "manual_rank": null,
       "acceptance": "Deck defines rescue triggers, CSM-to-product escalation paths, SLA clocks, and closure checks for high-ARR onboarding incidents.",
       "artifact_path": "office_os/artifacts/P2-PROD-3406_enterprise_onboarding_rescue_command_deck_csm_handoffs_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-3407",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 14-hook founder POV board for procurement delay reversals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T17:21:05+08:00",
-      "updated_at": "2026-03-01T17:21:05+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes 14 hooks with proof angle, objection target, CTA keyword, and publishing cadence across X/LinkedIn/Telegram.",
-      "artifact_path": "office_os/artifacts/P3-CONT-3407_founder_pov_board_procurement_delay_reversals_2026-03-01.md"
     },
     {
       "id": "P4-OPS-3127",
