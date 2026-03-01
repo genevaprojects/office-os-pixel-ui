@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T01:21:30.373664+00:00",
+  "now": "2026-03-01T01:30:05.573555+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-2003",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build ROI proof rebuttal matrix for legal/procurement late-stage objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps top objections to quant proof blocks, rebuttal angle variants, and conversion CTA by channel.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-2004",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -204,26 +184,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Queue spec defines severity tiers, 24h patch acceptance gates, rollback criteria, and owner SLA routing.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-2008",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10-asset proof-first microcontent sprint for procurement-objection recovery",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint board includes 10 assets with objection mapping, proof requirement, publishing cadence, and CTA instrumentation.",
       "artifact_path": null
     },
     {
@@ -308,6 +268,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 09:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-2008",
+      "artifact": "Delivered 10-asset proof-first microcontent sprint board for procurement-objection recovery with objection mapping, proof requirements, 7-day cadence, and CTA instrumentation",
+      "path": "office_os/artifacts/P3-CONT-2008_proof_first_microcontent_sprint_procurement_objection_recovery_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 09:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-2003",
+      "artifact": "Delivered ROI-proof rebuttal matrix mapping top legal/procurement objections to quantified proof blocks, channel-specific rebuttal angles, and conversion CTAs",
+      "path": "office_os/artifacts/P1-REV-2003_roi_proof_rebuttal_matrix_legal_procurement_objections_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 09:20",
       "owner": "COMMAND",
@@ -490,22 +466,6 @@
       "taskId": "P3-CONT-1724",
       "artifact": "Delivered objection-triggered proof clip publishing cadence with 10 procurement-stage clip slots, proof evidence gates, and X/LinkedIn/Telegram CTA routing",
       "path": "office_os/artifacts/P3-CONT-1724_objection_triggered_proof_clip_publishing_cadence_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1725",
-      "artifact": "Delivered founder authority rebuttal thread kit covering 8 enterprise risk objections with hook-proof-rebuttal-CTA structure and channel adaptation notes",
-      "path": "office_os/artifacts/P3-CONT-1725_founder_authority_rebuttal_thread_kit_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete owner-assigned acceptance criteria aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
