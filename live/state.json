@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T17:30:05.228869+00:00",
+  "now": "2026-03-01T17:40:06.253061+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4024",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design mutual action plan compression sprint for security-cleared enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint defines daily owner commitments, blocker fallback actions, and close-date confidence checkpoints for 10-day windows.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4025",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -268,6 +248,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 01:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4024",
+      "artifact": "Delivered 10-day mutual action plan compression sprint for security-cleared enterprise pilots with daily owner commitments, blocker fallback matrix, and D3/D6/D9 close-confidence decision checkpoints",
+      "path": "office_os/artifacts/P1-REV-4024_mutual_action_plan_compression_sprint_security_cleared_enterprise_pilots_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 01:20",
       "owner": "COMMAND",
@@ -458,14 +446,6 @@
       "taskId": "P3-CONT-4008",
       "artifact": "Delivered 10-asset proof-led procurement-delay microcontent sprint board with objection mapping, evidence requirements, 7-day cadence, and CTA instrumentation schema for conversion tracking",
       "path": "office_os/artifacts/P3-CONT-4008_proof_led_objection_microcontent_sprint_board_procurement_delays_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4003",
-      "artifact": "Delivered CFO no-decision reversal script pack with objection-class talk tracks, quantified delay-cost/risk-offset frameworks, and binary CTA branches to move finance-stage stalls to signoff",
-      "path": "office_os/artifacts/P1-REV-4003_cfo_no_decision_reversal_script_pack_quantified_risk_offsets_2026-03-01.md",
       "status": "done"
     }
   ],
