@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T01:30:05.573555+00:00",
+  "now": "2026-03-01T01:40:08.694887+00:00",
   "workers": [
     {
       "name": "Research",
@@ -104,26 +104,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Template includes owner-by-owner commitments, timeboxed milestones, blocker fallback paths, and close-date confidence scoring.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-2004",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft executive sponsor reactivation sequence for silent week-4 pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines trigger conditions, 7-touch outreach cadence, and recovery KPIs for sponsor-level re-engagement.",
       "artifact_path": null
     },
     {
@@ -245,29 +225,33 @@
       "manual_rank": null,
       "acceptance": "Decision tree defines stale-age thresholds, split-vs-merge rules, owner actions, and throughput recovery validation checks.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-2010",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create hourly cron artifact integrity smoke-test protocol for critical growth workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T09:20:00+08:00",
-      "updated_at": "2026-03-01T09:20:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Protocol specifies artifact checks, freshness thresholds, failure fingerprints, and auto-remediation verification loop.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 09:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-2010",
+      "artifact": "Delivered hourly cron artifact integrity smoke-test protocol with freshness thresholds, failure fingerprints, and 3-step auto-remediation verification loop",
+      "path": "office_os/artifacts/P5-REL-2010_hourly_cron_artifact_integrity_smoke_test_protocol_critical_growth_workflows_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-2004",
+      "artifact": "Delivered executive sponsor reactivation sequence for silent week-4 pilots with trigger conditions, 7-touch cadence, stakeholder lane scripts, and recovery KPIs",
+      "path": "office_os/artifacts/P1-REV-2004_executive_sponsor_reactivation_sequence_silent_week4_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 09:26",
       "owner": "SOCIAL",
@@ -442,30 +426,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-1728",
-      "artifact": "Delivered cron runtime regression sentinel spec with p95 guardrails, anomaly thresholds, rollback triggers, and post-fix verification checks for critical jobs",
-      "path": "office_os/artifacts/P5-REL-1728_cron_runtime_regression_sentinel_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-1723",
-      "artifact": "Delivered 48h enterprise onboarding blocker strike-team protocol with severity triggers, SLA escalation ladder, and verification criteria for blocker resolution",
-      "path": "office_os/artifacts/P2-PROD-1723_enterprise_onboarding_blocker_striketeam_protocol_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 06:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1724",
-      "artifact": "Delivered objection-triggered proof clip publishing cadence with 10 procurement-stage clip slots, proof evidence gates, and X/LinkedIn/Telegram CTA routing",
-      "path": "office_os/artifacts/P3-CONT-1724_objection_triggered_proof_clip_publishing_cadence_2026-03-01.md",
       "status": "done"
     }
   ],
