@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T15:50:04.894249+00:00",
+  "now": "2026-03-01T16:00:05.344516+00:00",
   "workers": [
     {
       "name": "Research",
@@ -209,6 +209,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-01 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1769",
+      "artifact": "Added Team Continuity Queue Stack with lane pressure ranking from depth/readiness and one-click lane patch command copy for backup coverage recovery",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 23:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1768",
+      "artifact": "Added Founder Desk Decision Owner SLA Heatmap with pressure scoring, per-owner recovery commands, and direct queue actions for overdue/due-soon decision compression",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-01 23:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -390,22 +406,6 @@
       "taskId": "P3-CONT-3609",
       "artifact": "Delivered founder authority narrative map linking win-story evidence to POV angles, audience segments, and channel-specific CTA tags for conversion-oriented distribution",
       "path": "office_os/artifacts/P3-CONT-3609_founder_authority_narrative_map_win_story_evidence_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:21",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3807",
-      "artifact": "Delivered onboarding-to-expansion readiness checklist with telemetry pass gates, owner validation workflow, and hard go/no-go criteria to prevent premature expansion motion",
-      "path": "office_os/artifacts/P2-PROD-3807_onboarding_to_expansion_readiness_checklist_telemetry_pass_gates_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-3806",
-      "artifact": "Delivered Day0-Day4 first-value miss triage board with weighted severity model, trigger-based escalation ladder, owner routing rules, and verification closure protocol for enterprise onboarding continuity",
-      "path": "office_os/artifacts/P2-PROD-3806_first_value_event_miss_triage_board_day0_day4_enterprise_onboarding_2026-03-01.md",
       "status": "done"
     }
   ],
