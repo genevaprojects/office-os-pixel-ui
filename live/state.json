@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T13:21:51.383490+00:00",
+  "now": "2026-03-01T13:30:08.518458+00:00",
   "workers": [
     {
       "name": "Research",
@@ -104,26 +104,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist maps top objection classes to required proof blocks, owner SLAs, and pass/fail completeness gates before procurement submission.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-3803",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft CFO no-decision rescue sequence with risk-reversal offer branches",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines 5-day outreach steps, quantified risk-reversal branches, trigger conditions, and conversion KPI targets for stalled CFO signoff.",
       "artifact_path": null
     },
     {
@@ -247,26 +227,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-3808",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce founder proof-story repurposing matrix for X/LinkedIn/Telegram",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix includes 12 proof stories mapped to platform-native formats, objection targets, CTA tags, and 7-day publishing cadence.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-3710",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -328,6 +288,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 21:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3808",
+      "artifact": "Delivered 12-story founder proof repurposing matrix mapped to X/LinkedIn/Telegram native formats, objection targets, CTA tags, and 7-day publishing cadence",
+      "path": "office_os/artifacts/P3-CONT-3808_founder_proof_story_repurposing_matrix_x_linkedin_telegram_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 21:27",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-3803",
+      "artifact": "Delivered 5-day CFO no-decision rescue sequence with quantified risk-reversal branches, trigger-based escalation logic, and conversion KPI targets for stalled signoff recovery",
+      "path": "office_os/artifacts/P1-REV-3803_cfo_no_decision_rescue_sequence_risk_reversal_offer_branches_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 21:21",
       "owner": "COMMAND",
@@ -510,22 +486,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-3604",
-      "artifact": "Delivered 5-day stalled-redline wakeup cadence with day-by-day multi-thread stakeholder outreach, legal/procurement escalation gates, and closure KPI stack to recover close velocity",
-      "path": "office_os/artifacts/P1-REV-3604_stalled_redline_wakeup_cadence_multithread_escalation_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-3608",
-      "artifact": "Delivered 10-asset executive proof reel plan for procurement objections with hook-proof-CTA mapping, 7-day cadence, and keyword-based conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-3608_executive_proof_reel_plan_procurement_objections_2026-03-01.md",
       "status": "done"
     }
   ],
