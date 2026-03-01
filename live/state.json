@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T15:00:09.085399+00:00",
+  "now": "2026-03-01T15:10:05.311206+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3901",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build procurement-stall rescue scoreboard for top 15 late-stage deals with daily recovery targets",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard defines stall-age bands, ARR-weighted rescue priority, owner actions, and daily recovery KPI targets for top 15 late-stage deals.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3902",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
+      "updated_at": "2026-03-01T23:07:03.242902+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
+      "updated_at": "2026-03-01T23:07:03.242917+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-3709",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build founder win-story extraction template bank for conversion content loops",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T22:07:03.555092+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template bank defines interview prompts, proof extraction schema, and repurposing map to short-form and long-form channels.",
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-3710",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T22:07:03.555097+08:00",
+      "updated_at": "2026-03-01T23:07:03.242924+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T22:07:03.555101+08:00",
+      "updated_at": "2026-03-01T23:07:03.242928+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
+      "updated_at": "2026-03-01T23:07:03.242933+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 23:07",
+      "owner": "RESEARCH",
+      "taskId": "P3-CONT-3709",
+      "artifact": "Delivered founder win-story extraction template bank with structured interview prompts, proof extraction schema, and repurposing map across short-form and long-form conversion loops",
+      "path": "office_os/artifacts/P3-CONT-3709_founder_win_story_extraction_template_bank_conversion_content_loops_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 23:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3901",
+      "artifact": "Delivered procurement-stall rescue scoreboard for top 15 late-stage deals with stall-age bands, ARR-weighted rescue scoring, owner action matrix, and daily recovery KPI targets",
+      "path": "office_os/artifacts/P1-REV-3901_procurement_stall_rescue_scoreboard_top15_late_stage_deals_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 22:50",
       "owner": "BUILDER",
@@ -382,30 +366,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up added 10 concrete READY tasks aligned to P1-P5 priority weights with owner assignment and acceptance criteria to restore execution depth",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-3508",
-      "artifact": "Delivered acceptance-criteria clarity linter spec with ambiguity fail conditions, correction codes, scoring thresholds, and JSONL logging schema for READY-gate quality control",
-      "path": "office_os/artifacts/P4-OPS-3508_autonomous_acceptance_criteria_clarity_linter_ready_task_quality_control_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-3701",
-      "artifact": "Delivered procurement-stall recovery scoreboard with ARR-weighted risk formula, tiered intervention triggers, owner SLA actions, and weekly recovery KPI cadence",
-      "path": "office_os/artifacts/P1-REV-3701_procurement_stall_recovery_scoreboard_arr_weighted_intervention_triggers_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-3706",
-      "artifact": "Delivered Day0-Day5 first-value telemetry trust dashboard spec with critical event chain, freshness thresholds, anomaly fingerprint rules, and severity-based owner SLA routing for onboarding signal reliability",
-      "path": "office_os/artifacts/P2-PROD-3706_first_value_telemetry_trust_dashboard_spec_day0_day5_onboarding_2026-03-01.md",
       "status": "done"
     }
   ],
