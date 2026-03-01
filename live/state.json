@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T02:30:11.857183+00:00",
+  "now": "2026-03-01T02:40:04.328515+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-2014",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define enterprise no-decision revival trigger matrix with 72h action lanes",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix defines no-decision risk patterns, 72h response lanes, ownership routing, and measurable reactivation targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-2007",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -225,36 +205,32 @@
       "manual_rank": null,
       "acceptance": "Routine defines age buckets, auto-routing actions, and verification checks that convert stale READY tasks into actionable state transitions.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-2018",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Define hourly artifact checksum sentinel for mission-critical growth docs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sentinel specifies checksum cadence, drift detection thresholds, auto-regeneration path, and verification loop for critical artifact integrity.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 10:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 10:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-2018",
+      "artifact": "Delivered hourly artifact checksum sentinel spec with SHA-256 cadence, drift-class thresholds, auto-regeneration decision path, and two-cycle verification loop for critical growth-doc integrity",
+      "path": "office_os/artifacts/P5-REL-2018_hourly_artifact_checksum_sentinel_mission_critical_growth_docs_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 10:21",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner-assigned acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-01 10:36"
     },
     {
       "time": "2026-03-01 10:21",
@@ -431,22 +407,6 @@
       "artifact": "Delivered procurement close-room daily operating cadence for top 15 late-stage deals with fixed standup/escalation windows, blocker-owner model, and conversion KPI stack for cycle-time compression",
       "path": "office_os/artifacts/P1-REV-1736_procurement_close_room_daily_operating_cadence_top15_2026-03-01.md",
       "status": "done\\n2026-03-01 07:35"
-    },
-    {
-      "time": "2026-03-01 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-1739",
-      "artifact": "Delivered 7-asset proof-first founder content sprint board mapping procurement objections to channel-specific hooks, required proof blocks, CTA keywords, routing map, and conversion targets",
-      "path": "office_os/artifacts/P3-CONT-1739_proof_first_founder_content_sprint_procurement_objections_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-1734",
-      "artifact": "Delivered 7-touch executive multithread follow-up playbook across champion/economic buyer/legal-procurement with proof payload slots, channel templates, sequencing rules, and reply-rate targets for silent week-3 pilots",
-      "path": "office_os/artifacts/P1-REV-1734_exec_multithread_followup_sequence_silent_week3_pilots_2026-03-01.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
