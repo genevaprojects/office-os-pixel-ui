@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T11:21:54.248619+00:00",
+  "now": "2026-03-01T11:30:04.907777+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3602_proposal_friction_kill_sheet_sub48h_enterprise_legal_turns_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3603",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce CFO objection reversal script stack for final-signoff calls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script stack maps CFO objection classes to quantified proof blocks, risk-reversal options, and close CTA progressions for final-signoff compression.",
-      "artifact_path": "office_os/artifacts/P1-REV-3603_cfo_objection_reversal_script_stack_final_signoff_calls_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-3604",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": "office_os/artifacts/P2-PROD-3607_onboarding_proof_pack_auto_assembler_day0_day5_2026-03-01.md"
     },
     {
-      "id": "P3-CONT-3608",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 10-asset executive proof reel plan for procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Plan includes 10 assets with objection mapping, proof requirements, channel cadence, and CTA instrumentation for conversion.",
-      "artifact_path": "office_os/artifacts/P3-CONT-3608_executive_proof_reel_plan_procurement_objections_2026-03-01.md"
-    },
-    {
       "id": "P3-CONT-3609",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3608",
+      "artifact": "Delivered 10-asset executive proof reel plan for procurement objections with hook-proof-CTA mapping, 7-day cadence, and keyword-based conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-3608_executive_proof_reel_plan_procurement_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 19:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-3603",
+      "artifact": "Delivered CFO final-signoff objection reversal script stack with quantified proof inserts, risk-control close CTAs, and 24h follow-up instrumentation for cycle-time compression",
+      "path": "office_os/artifacts/P1-REV-3603_cfo_objection_reversal_script_stack_final_signoff_calls_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 19:20",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 16:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with owner-assigned acceptance criteria aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 16:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-3211",
-      "artifact": "Delivered autonomous backlog entropy monitor with composite decay index, threshold bands, corrective triggers, and weekly hygiene reporting format",
-      "path": "office_os/artifacts/P4-OPS-3211_autonomous_backlog_entropy_monitor_weekly_decay_thresholds_2026-03-01.md",
       "status": "done"
     }
   ],
