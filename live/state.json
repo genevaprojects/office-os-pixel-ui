@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T10:21:42.074049+00:00",
+  "now": "2026-03-01T10:30:05.016359+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3503",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft quantified risk-reversal offer menu for procurement-cycle compression",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Menu defines objection-class offers, guardrails, pricing protection logic, and CTA routing for faster procurement conversion.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3504",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist specifies telemetry gate criteria, rollback-safe thresholds, owner controls, and verification path after remediation.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-3507",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce founder proof-clip conversion map for top 12 procurement objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map includes 12 objection-led clip concepts, quantified proof anchors, platform cadence, and CTA instrumentation.",
       "artifact_path": null
     },
     {
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3507",
+      "artifact": "Delivered founder proof-clip conversion map for top 12 procurement objections with quantified proof anchors, 7-day platform cadence, and CTA keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-3507_founder_proof_clip_conversion_map_top12_procurement_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 18:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-3503",
+      "artifact": "Delivered quantified risk-reversal offer menu mapping procurement objections to guarded concessions, pricing-protection logic, and stage-specific CTA routing for cycle-time compression",
+      "path": "office_os/artifacts/P1-REV-3503_quantified_risk_reversal_offer_menu_procurement_cycle_compression_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 18:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P4-OPS-1701",
       "artifact": "Delivered backlog aging heatmap protocol with aging bands, stale-task auto-split triggers, stale-to-action routing, and throughput recovery targets",
       "path": "office_os/artifacts/P4-OPS-1701_backlog_aging_heatmap_protocol_auto_split_recommendations_stale_tasks_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 15:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-3123",
-      "artifact": "Delivered objection-to-proof rapid response sheet for CFO/procurement signoff calls with objection mapping, quantified proof blocks, risk-reversal options, and owner-SLA CTA paths",
-      "path": "office_os/artifacts/P1-REV-3123_objection_to_proof_rapid_response_sheet_cfo_procurement_signoff_calls_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 15:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-3125",
-      "artifact": "Delivered enterprise onboarding friction telemetry patch queue with 24h fix ownership matrix, severity SLA rules, blocked-state protocol, validation gates, and KPI targets for first-value visibility recovery",
-      "path": "office_os/artifacts/P2-PROD-3125_enterprise_onboarding_friction_telemetry_patch_queue_24h_fix_ownership_matrix_2026-03-01.md",
       "status": "done"
     }
   ],
