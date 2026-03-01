@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T04:21:36.903526+00:00",
+  "now": "2026-03-01T04:30:04.986831+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3103",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led no-response escalation thread scripts for week-2 pilots",
-      "owner": "SOCIAL",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Script stack provides 7-touch multithread escalation paths with objection-specific proof inserts and measurable response-rate targets.",
-      "status": "READY",
-      "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3104",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-3108",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10-asset proof-first objection narrative sprint for founder channels",
-      "owner": "SOCIAL",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sprint includes 10 assets with objection mapping, proof requirements, channel adaptation notes, and conversion CTA instrumentation.",
-      "status": "READY",
-      "created_at": "2026-03-01T12:20:00+08:00",
-      "updated_at": "2026-03-01T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "artifact_path": null
-    },
-    {
       "id": "P4-OPS-1701",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3108",
+      "artifact": "Delivered 10-asset proof-first objection narrative sprint for founder channels with objection-format mapping, 7-day cadence, CTA keyword instrumentation, and conversion benchmarks",
+      "path": "office_os/artifacts/P3-CONT-3108_proof_first_objection_narrative_sprint_founder_channels_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-3103",
+      "artifact": "Delivered founder-led no-response escalation thread scripts for week-2 pilots with 5-stage multithread escalation logic, copy-ready templates, objection inserts, and recovery instrumentation targets",
+      "path": "office_os/artifacts/P1-REV-3103_founder_led_no_response_escalation_thread_scripts_week2_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 12:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P3-CONT-2008",
       "artifact": "Delivered 10-asset proof-first microcontent sprint board for procurement-objection recovery with objection mapping, proof requirements, 7-day cadence, and CTA instrumentation",
       "path": "office_os/artifacts/P3-CONT-2008_proof_first_microcontent_sprint_procurement_objection_recovery_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-2003",
-      "artifact": "Delivered ROI-proof rebuttal matrix mapping top legal/procurement objections to quantified proof blocks, channel-specific rebuttal angles, and conversion CTAs",
-      "path": "office_os/artifacts/P1-REV-2003_roi_proof_rebuttal_matrix_legal_procurement_objections_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 09:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
