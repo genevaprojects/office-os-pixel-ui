@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T15:30:04.992100+00:00",
+  "now": "2026-03-01T15:40:04.369551+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4005",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create security-to-procurement handoff quality gate checklist for rapid transitions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines mandatory handoff artifacts, owner checkpoints, and verification gates to keep transition time under 72 hours.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4006",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -225,29 +205,33 @@
       "manual_rank": null,
       "acceptance": "Protocol defines WIP pressure thresholds, rebalance actions, and queue handoff rules while preserving owner accountability.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-4010",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron-to-artifact freshness verification checklist for revenue-critical outputs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist specifies freshness thresholds, integrity checks, and fallback actions for revenue-critical cron artifacts.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 23:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-4010",
+      "artifact": "Delivered cron-to-artifact freshness verification checklist with age thresholds, integrity/consistency checks, severity-tier response ladder, and failover actions for revenue-critical outputs",
+      "path": "office_os/artifacts/P5-REL-4010_cron_to_artifact_freshness_verification_checklist_revenue_critical_outputs_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 23:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4005",
+      "artifact": "Delivered security-to-procurement handoff quality gate checklist with mandatory artifact pack, owner checkpoint ladder, verification scoring, and 72h transition SLA controls",
+      "path": "office_os/artifacts/P1-REV-4005_security_to_procurement_handoff_quality_gate_checklist_rapid_transitions_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 23:26",
       "owner": "SOCIAL",
@@ -422,30 +406,6 @@
       "taskId": "P2-PROD-3806",
       "artifact": "Delivered Day0-Day4 first-value miss triage board with weighted severity model, trigger-based escalation ladder, owner routing rules, and verification closure protocol for enterprise onboarding continuity",
       "path": "office_os/artifacts/P2-PROD-3806_first_value_event_miss_triage_board_day0_day4_enterprise_onboarding_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-3802",
-      "artifact": "Delivered procurement objection proof-pack assembly checklist with mandatory evidence components, objection taxonomy mapping, owner-routed 24h SLA workflow, and pass/fail quality gate for AE handoff speed",
-      "path": "office_os/artifacts/P1-REV-3802_procurement_objection_proof_pack_assembly_checklist_ae_handoff_speed_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3805",
-      "artifact": "Delivered stalled-procurement reactivation trigger matrix for week2-week6 pilots with severity-coded triggers, owner SLAs, escalation path, and recovery KPI targets",
-      "path": "office_os/artifacts/P1-REV-3805_stalled_procurement_reactivation_trigger_matrix_week2_week6_pilots_2026-03-01.md",
       "status": "done"
     }
   ],
