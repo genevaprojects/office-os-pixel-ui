@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T13:02:23.618890+00:00",
+  "now": "2026-03-01T13:10:05.716603+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
+      "updated_at": "2026-03-01T21:07:02.077229+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 5,
@@ -87,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3702",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 5-touch legal-thread unblock sequence for enterprise deals stalled >7 days",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps touch timing, stakeholder lane scripts, proof payloads, and 10-day reactivation targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3704",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -114,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
+      "updated_at": "2026-03-01T21:07:02.077243+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
+      "updated_at": "2026-03-01T21:07:02.077249+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -147,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-3707",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft high-ARR onboarding blocker triage ladder with 6h/24h response tiers",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder maps blocker severity to owner response windows, escalation paths, and verification criteria by ARR segment.",
-      "artifact_path": null
-    },
-    {
       "id": "P3-CONT-3609",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -174,7 +134,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T20:07:02.832214+08:00",
+      "updated_at": "2026-03-01T21:07:02.077259+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
+      "updated_at": "2026-03-01T21:07:02.077264+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T20:07:02.832209+08:00",
+      "updated_at": "2026-03-01T21:07:02.077255+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
+      "updated_at": "2026-03-01T21:07:02.077268+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 21:08",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-3707",
+      "artifact": "Delivered high-ARR onboarding blocker triage ladder with severity-to-owner routing, 6h/24h response tiers by ARR segment, escalation triggers, and closure verification gates",
+      "path": "office_os/artifacts/P2-PROD-3707_high_arr_onboarding_blocker_triage_ladder_6h_24h_response_tiers_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 21:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3702",
+      "artifact": "Delivered 5-touch legal-thread unblock sequence for enterprise deals stalled >7 days with lane-specific scripts, proof payload stack, and 10-day reactivation targets",
+      "path": "office_os/artifacts/P1-REV-3702_legal_thread_unblock_sequence_stalled_enterprise_deals_gt7d_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 20:37",
       "owner": "COMMAND",
@@ -422,30 +406,6 @@
       "taskId": "P2-PROD-3506",
       "artifact": "Delivered enterprise onboarding telemetry trust checklist with six rollback-safe trust gates, trigger matrix thresholds, decision-hold logic, and owner SLA map for Day0-Day7 data integrity control",
       "path": "office_os/artifacts/P2-PROD-3506_enterprise_onboarding_telemetry_trust_checklist_rollback_safe_gates_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-3504",
-      "artifact": "Delivered executive no-decision revival trigger matrix for week4-week8 enterprise pilots with trigger taxonomy, intervention routing, owner SLAs, and recovery cadence for stalled committee decisions",
-      "path": "office_os/artifacts/P1-REV-3504_exec_no_decision_revival_trigger_matrix_week4_week8_enterprise_pilots_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3505",
-      "artifact": "Delivered onboarding first-value breach heatmap with ARR-aware risk states and E0-E3 owner escalation ladders for day0-day3 recovery control",
-      "path": "office_os/artifacts/P2-PROD-3505_onboarding_first_value_breach_heatmap_owner_escalation_ladders_2026-03-01.md",
       "status": "done"
     }
   ],
