@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T18:00:07.119624+00:00",
+  "now": "2026-03-01T18:10:04.405472+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4021",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build late-stage procurement unblock command board for top 15 active deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks active procurement stalls by recoverable ARR, maps owner-by-owner unblock moves, and defines 48h intervention KPIs.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4022",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309702+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309714+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4025",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce proposal-to-close risk reversal offer stack for procurement-stage objections",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Offer stack maps top procurement objections to quantified risk-reversal options, guardrails, and conversion success thresholds.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4026",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309731+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -174,7 +134,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309736+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309745+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-02T01:07:02.063941+08:00",
+      "updated_at": "2026-03-02T02:07:02.309740+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T01:20:00+08:00",
-      "updated_at": "2026-03-02T01:20:00+08:00",
+      "updated_at": "2026-03-02T02:07:02.309750+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1781",
+      "artifact": "Added Control State Integrity Sentinel to audit runtime toggle state vs aria/persisted profile parity, with reconcile action and copy-ready integrity brief for state-behavior trust",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1780",
+      "artifact": "Added Viewport Stability Sentinel with visual viewport drift/orientation risk detection, copy-ready viewport audit, and one-click mobile stability profile to harden demo reliability on compact screens",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 01:35",
       "owner": "EXECUTOR",
@@ -430,22 +406,6 @@
       "taskId": "P5-REL-4010",
       "artifact": "Delivered cron-to-artifact freshness verification checklist with age thresholds, integrity/consistency checks, severity-tier response ladder, and failover actions for revenue-critical outputs",
       "path": "office_os/artifacts/P5-REL-4010_cron_to_artifact_freshness_verification_checklist_revenue_critical_outputs_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4005",
-      "artifact": "Delivered security-to-procurement handoff quality gate checklist with mandatory artifact pack, owner checkpoint ladder, verification scoring, and 72h transition SLA controls",
-      "path": "office_os/artifacts/P1-REV-4005_security_to_procurement_handoff_quality_gate_checklist_rapid_transitions_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 23:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4008",
-      "artifact": "Delivered 10-asset proof-led procurement-delay microcontent sprint board with objection mapping, evidence requirements, 7-day cadence, and CTA instrumentation schema for conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-4008_proof_led_objection_microcontent_sprint_board_procurement_delays_2026-03-01.md",
       "status": "done"
     }
   ],
