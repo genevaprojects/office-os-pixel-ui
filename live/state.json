@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T16:22:07.514177+00:00",
+  "now": "2026-03-01T16:30:09.678638+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4012",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-touch CFO no-decision reactivation sequence with quantified proof inserts",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence provides 7 touches with persona-targeted proof modules, CTA progression, and measurable reply/reactivation targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4013",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -164,26 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist defines required events, missing-signal detection rules, patch ownership, and pass/fail verification gates.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-4015",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12-asset proof-led objection microcontent board for procurement-stage buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T00:20:00+08:00",
-      "updated_at": "2026-03-02T00:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board includes 12 assets with objection mapping, proof requirements, channel cadence, and CTA tracking schema.",
       "artifact_path": null
     },
     {
