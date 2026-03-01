@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T02:21:17.067302+00:00",
+  "now": "2026-03-01T02:30:11.857183+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-2013",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement objection proof-snippet deployment playbook for live calls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook maps top objections to copy-ready proof snippets, quant evidence prompts, and next-step CTAs for live deal acceleration.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-2014",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -184,26 +164,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist defines activation guard metrics, regression thresholds, rollback steps, and owner SLAs for first-week trial stability.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-2016",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 7-asset proof-to-procurement microcontent sequence for founder channels",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T10:21:01+08:00",
-      "updated_at": "2026-03-01T10:21:01+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes 7 assets mapped to procurement objections, proof artifacts, channel format, cadence, and conversion CTA instrumentation.",
       "artifact_path": null
     },
     {
