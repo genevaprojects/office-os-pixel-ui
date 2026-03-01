@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T12:00:05.560835+00:00",
+  "now": "2026-03-01T12:10:06.603278+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3601",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 renewal-risk rescue board with 7-day save sequence",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps renewal-risk signals to owner actions, save-offer ladders, and daily recovery KPI targets for top-15 at-risk renewals.",
-      "artifact_path": "office_os/artifacts/P1-REV-3601_top15_renewal_risk_rescue_board_7day_save_sequence_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-3602",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
+      "updated_at": "2026-03-01T20:07:02.832182+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
+      "updated_at": "2026-03-01T20:07:02.832196+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3605_enterprise_close_velocity_control_tower_daily_intervention_queue_2026-03-01.md"
     },
     {
-      "id": "P2-PROD-3606",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define first-week activation anomaly taxonomy for ARR-tiered onboarding",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Taxonomy maps activation anomalies by ARR tier to severity levels, response SLAs, and verification criteria for recovery.",
-      "artifact_path": "office_os/artifacts/P2-PROD-3606_first_week_activation_anomaly_taxonomy_arr_tiered_onboarding_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-3607",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
+      "updated_at": "2026-03-01T20:07:02.832202+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -174,7 +134,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
+      "updated_at": "2026-03-01T20:07:02.832214+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T19:07:05.200523+08:00",
+      "updated_at": "2026-03-01T20:07:02.832209+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T19:20:00+08:00",
-      "updated_at": "2026-03-01T19:20:00+08:00",
+      "updated_at": "2026-03-01T20:07:02.832220+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -228,6 +188,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:07",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-3606",
+      "artifact": "Delivered first-week activation anomaly taxonomy with ARR-tiered severity mapping, response SLAs, and recovery verification gates for deterministic onboarding incident handling",
+      "path": "office_os/artifacts/P2-PROD-3606_first_week_activation_anomaly_taxonomy_arr_tiered_onboarding_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3601",
+      "artifact": "Delivered top-15 renewal-risk rescue board with risk-signal taxonomy, 7-day save sequence, progressive offer ladder, and daily recovery KPI targets for renewal retention acceleration",
+      "path": "office_os/artifacts/P1-REV-3601_top15_renewal_risk_rescue_board_7day_save_sequence_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1759",
+      "artifact": "Added Cadence Transparency Sentinel with refresh punctuality scoring, next-update ETA trust signal, source freshness posture visibility, one-click cadence stabilization, and copy-ready transparency audit for live-data narration confidence",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1758",
+      "artifact": "Added Mode Parity Sentinel with executive/operator anchor coverage checks, mode-switch continuity validation, task-context retention guard, one-click parity sweep, and copy-ready parity audit for reliable role switching under pressure",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 19:37",
       "owner": "COMMAND",
@@ -386,46 +386,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up",
       "path": "office_os/TOPUP_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 18:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 17:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 17:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete owner-assigned acceptance criteria aligned to priority weights",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 17:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-2017",
-      "artifact": "Delivered autonomous READY-aging sweep routine with stale-age bands, auto-routing actions, metadata checks, and throughput guardrails for stale-to-action recovery",
-      "path": "office_os/artifacts/P4-OPS-2017_autonomous_ready_aging_sweep_routine_stale_to_action_autorouting_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 17:21",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-3303",
-      "artifact": "Delivered procurement blocker monetization map with delay-cause ARR-at-risk multipliers, revenue-priority intervention ladder, owner SLA routing, and weekly recovery KPI stack",
-      "path": "office_os/artifacts/P1-REV-3303_procurement_blocker_monetization_map_arr_at_risk_2026-03-01.md",
       "status": "done"
     }
   ],
