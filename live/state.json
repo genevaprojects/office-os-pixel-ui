@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T07:21:42.859430+00:00",
+  "now": "2026-03-01T07:30:10.691425+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3203_procurement_packet_completeness_scorecard_auto_priority_routing_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3204",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build executive proof narrative script bank for finance-committee signoff meetings",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T15:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script bank includes objection-class variants, quantified proof inserts, and CTA paths for finance committee decision compression.",
-      "artifact_path": "office_os/artifacts/P1-REV-3204_executive_proof_narrative_script_bank_finance_committee_signoff_2026-03-01.md"
-    },
-    {
       "id": "P1-REV-3205",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -205,26 +185,6 @@
       "manual_rank": null,
       "acceptance": "Matrix maps severity tiers and ARR bands to response windows, escalation paths, and success criteria for blocker resolution.",
       "artifact_path": "office_os/artifacts/P2-PROD-3208_onboarding_blocker_severity_response_sla_matrix_arr_tiers_2026-03-01.md"
-    },
-    {
-      "id": "P3-CONT-3209",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10-post proof-led microcontent queue targeting procurement-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T15:20:00+08:00",
-      "updated_at": "2026-03-01T15:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Queue includes 10 assets with objection mapping, proof requirements, channel cadence, and CTA instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-3209_proof_led_microcontent_queue_procurement_delay_objections_2026-03-01.md"
     },
     {
       "id": "P3-CONT-3210",
@@ -308,6 +268,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 15:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-3209",
+      "artifact": "Delivered 10-post proof-led microcontent queue targeting procurement-delay objections with objection mapping, proof requirements, channel cadence, and conversion tracking tags",
+      "path": "office_os/artifacts/P3-CONT-3209_proof_led_microcontent_queue_procurement_delay_objections_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 15:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-3204",
+      "artifact": "Delivered executive proof narrative script bank for finance-committee signoff with 7 objection-class variants, quantified proof inserts, and CTA instrumentation to compress decision latency",
+      "path": "office_os/artifacts/P1-REV-3204_executive_proof_narrative_script_bank_finance_committee_signoff_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 15:20",
       "owner": "COMMAND",
@@ -490,22 +466,6 @@
       "taskId": "P1-REV-3101",
       "artifact": "Delivered top-15 late-stage deal intervention sequencer with daily owner-of-day assignment, blocker-to-owner routing, capacity guardrails, and 10-business-day close acceleration cadence",
       "path": "office_os/artifacts/P1-REV-3101_top15_late_stage_deal_intervention_sequencer_daily_owner_assignment_logic_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 12:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 12:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-3108",
-      "artifact": "Delivered 10-asset proof-first objection narrative sprint for founder channels with objection-format mapping, 7-day cadence, CTA keyword instrumentation, and conversion benchmarks",
-      "path": "office_os/artifacts/P3-CONT-3108_proof_first_objection_narrative_sprint_founder_channels_2026-03-01.md",
       "status": "done"
     }
   ],
