@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T16:00:05.344516+00:00",
+  "now": "2026-03-01T16:10:05.921522+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4001",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 14-day procurement reactivation scoreboard for silent enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard defines daily reactivation signals, owner actions, and conversion checkpoints for stalled procurement-stage deals.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4002",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
+      "updated_at": "2026-03-02T00:07:03.634254+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
+      "updated_at": "2026-03-02T00:07:03.634267+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -127,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-4006",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft day0-day5 onboarding milestone integrity audit for high-ARR trials",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Audit defines required milestone events, failure signatures, and remediation routing to protect first-value timelines.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4007",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -154,7 +114,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
+      "updated_at": "2026-03-02T00:07:03.634278+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T23:07:03.242933+08:00",
+      "updated_at": "2026-03-02T00:07:03.634283+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T23:21:00+08:00",
-      "updated_at": "2026-03-01T23:21:00+08:00",
+      "updated_at": "2026-03-02T00:07:03.634287+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 00:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-4006",
+      "artifact": "Delivered Day0-Day5 onboarding milestone integrity audit for high-ARR trials with milestone-by-day pass model, severity ladder, owner escalation paths, and recovery SLA targets",
+      "path": "office_os/artifacts/P2-PROD-4006_day0_day5_onboarding_milestone_integrity_audit_high_arr_trials_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 00:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4001",
+      "artifact": "Delivered 14-day procurement reactivation scoreboard for silent enterprise deals with ARR-weighted scoring, daily intervention cadence, escalation triggers, and KPI targets to restore close momentum",
+      "path": "office_os/artifacts/P1-REV-4001_procurement_reactivation_scoreboard_silent_enterprise_deals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 00:03",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1771",
+      "artifact": "Added Queue Load Shedding Sentinel in operator mode with owner pressure hotspot ranking, rebalance sink recommendation, and copy-ready load-shedding handoff brief for continuity control",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 00:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1770",
+      "artifact": "Added Execution Confidence Bands rail with weighted lane scoring (monitors/P0 queue/decision flow/sync integrity), weakest-link focus action, and copy-ready confidence brief for executive recovery prioritization",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 23:50",
       "owner": "BUILDER",
@@ -366,46 +366,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-3905",
-      "artifact": "Delivered 7-post founder proof-to-procurement content sprint with objection-level hooks, quantified proof blocks, multi-channel cadence, and CTA keyword instrumentation for conversion routing",
-      "path": "office_os/artifacts/P3-CONT-3905_founder_proof_to_procurement_content_sprint_7_posts_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1763",
-      "artifact": "Added Ownership Continuity Sentinel with owner-overload/blocked-lane risk scoring, top-lane exposure surfacing, and copy-ready continuity brief to strengthen command reliability and role clarity",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1762",
-      "artifact": "Added Decision Velocity Sentinel with open/overdue/due-soon pressure scoring, 24h resolution velocity signal, and copy-ready decision audit brief for investor demo decision trust clarity",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:24",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up added 7 concrete READY tasks (P1-P5 weighted) to restore executable queue depth >=10 with owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 22:23",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-3609",
-      "artifact": "Delivered founder authority narrative map linking win-story evidence to POV angles, audience segments, and channel-specific CTA tags for conversion-oriented distribution",
-      "path": "office_os/artifacts/P3-CONT-3609_founder_authority_narrative_map_win_story_evidence_2026-03-01.md",
       "status": "done"
     }
   ],
