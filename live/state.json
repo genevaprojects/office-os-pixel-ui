@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T11:00:07.302261+00:00",
+  "now": "2026-03-01T11:10:04.921344+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-3501",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion-to-procurement risk handoff tracker with 48h conversion SLA",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Tracker maps champion risk signals to procurement handoff actions, SLA clocks, fallback owners, and conversion recovery targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3504",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
+      "updated_at": "2026-03-01T19:07:05.200494+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P2-PROD-3505",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define onboarding-first-value breach heatmap with owner escalation ladders",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap maps breach signatures to severity tiers, owner escalations, and resolution SLAs for day0-day3 onboarding continuity.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3506",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -134,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
+      "updated_at": "2026-03-01T19:07:05.200508+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 4,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T18:07:03.823844+08:00",
+      "updated_at": "2026-03-01T19:07:05.200514+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T17:21:05+08:00",
-      "updated_at": "2026-03-01T18:07:03.823849+08:00",
+      "updated_at": "2026-03-01T19:07:05.200518+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T18:20:00+08:00",
-      "updated_at": "2026-03-01T18:20:00+08:00",
+      "updated_at": "2026-03-01T19:07:05.200523+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-3505",
+      "artifact": "Delivered onboarding first-value breach heatmap with ARR-aware risk states and E0-E3 owner escalation ladders for day0-day3 recovery control",
+      "path": "office_os/artifacts/P2-PROD-3505_onboarding_first_value_breach_heatmap_owner_escalation_ladders_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-3501",
+      "artifact": "Delivered champion-to-procurement risk handoff tracker with 48h conversion SLA, weighted risk scoring, and L0-L3 escalation ladder to reduce post-champion stall",
+      "path": "office_os/artifacts/P1-REV-3501_champion_to_procurement_risk_handoff_tracker_48h_conversion_sla_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 18:37",
       "owner": "COMMAND",
@@ -382,30 +366,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 15:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-3205",
-      "artifact": "Delivered 72h redline escalation playbook with 24h/48h/72h trigger ladder, owner action matrix, fallback clause options, and verification/KPI checks to compress legal queue bottlenecks",
-      "path": "office_os/artifacts/P1-REV-3205_redline_escalation_playbook_72h_legal_queue_bottlenecks_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 15:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-3209",
-      "artifact": "Delivered 10-post proof-led microcontent queue targeting procurement-delay objections with objection mapping, proof requirements, channel cadence, and conversion tracking tags",
-      "path": "office_os/artifacts/P3-CONT-3209_proof_led_microcontent_queue_procurement_delay_objections_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 15:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-3204",
-      "artifact": "Delivered executive proof narrative script bank for finance-committee signoff with 7 objection-class variants, quantified proof inserts, and CTA instrumentation to compress decision latency",
-      "path": "office_os/artifacts/P1-REV-3204_executive_proof_narrative_script_bank_finance_committee_signoff_2026-03-01.md",
       "status": "done"
     }
   ],
