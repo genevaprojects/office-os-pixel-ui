@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T14:50:05.691527+00:00",
+  "now": "2026-03-01T15:00:09.085399+00:00",
   "workers": [
     {
       "name": "Research",
@@ -209,6 +209,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-01 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1765",
+      "artifact": "Added Decision Throughput Sentinel in Founder Desk with 24h throughput score, resolved-vs-open pressure signal, and one-click throughput recovery command queue action",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1764",
+      "artifact": "Added Trust Breach Sentinel in Overview with weighted 60-minute risk forecasting, explicit tripwire disclosure, and copy-ready mitigation brief to protect investor-demo trust narrative",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-01 22:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -390,22 +406,6 @@
       "taskId": "P2-PROD-3706",
       "artifact": "Delivered Day0-Day5 first-value telemetry trust dashboard spec with critical event chain, freshness thresholds, anomaly fingerprint rules, and severity-based owner SLA routing for onboarding signal reliability",
       "path": "office_os/artifacts/P2-PROD-3706_first_value_telemetry_trust_dashboard_spec_day0_day5_onboarding_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-3704",
-      "artifact": "Delivered redline cycle compression checklist with stage-by-stage 24h handoff gates, mandatory artifact packets, breach escalation ladder, and verification criteria for sub-72h legal/procurement closure",
-      "path": "office_os/artifacts/P1-REV-3704_redline_cycle_compression_checklist_24h_handoff_gates_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
