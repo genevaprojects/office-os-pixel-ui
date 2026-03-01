@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T06:22:01.217501+00:00",
+  "now": "2026-03-01T06:30:05.037867+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,26 +84,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Matrix maps top delay causes to reversible offer structures, owner triggers, and close-probability lift targets.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-3120",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 5-day executive buyer reconvergence script for multi-thread stalled late-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script stack includes stakeholder-specific prompts, proof inserts, and CTA progression to restore decision momentum.",
       "artifact_path": null
     },
     {
@@ -204,26 +184,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Patch queue lists telemetry gaps, owner SLA, rollout sequencing, and pass/fail verification criteria.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-3126",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 7-asset founder proof narrative sequence targeting procurement-objection audiences",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T14:20:00+08:00",
-      "updated_at": "2026-03-01T14:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes hook, proof anchor, objection target, publishing cadence, and conversion CTA tracking.",
       "artifact_path": null
     },
     {
