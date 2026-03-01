@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T14:30:05.589399+00:00",
+  "now": "2026-03-01T14:40:06.095975+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3903",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft executive multithread revival sequence for silent week-5 enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes role-specific outreach by champion/economic/legal threads, proof payload slots, and 5-day response-rate recovery targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3904",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -225,29 +205,17 @@
       "manual_rank": null,
       "acceptance": "Watchdog defines stale thresholds for READY tasks, alert routing by owner, and corrective actions to preserve task flow quality.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3907",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft critical artifact restore drill checklist for revenue workflow continuity",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T22:24:00+08:00",
-      "updated_at": "2026-03-01T22:24:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines backup source validation, restore timing targets, verification gates, and post-incident logging for critical revenue artifacts.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 22:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 22:26",
       "owner": "SOCIAL",
@@ -438,14 +406,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 21:08",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-3707",
-      "artifact": "Delivered high-ARR onboarding blocker triage ladder with severity-to-owner routing, 6h/24h response tiers by ARR segment, escalation triggers, and closure verification gates",
-      "path": "office_os/artifacts/P2-PROD-3707_high_arr_onboarding_blocker_triage_ladder_6h_24h_response_tiers_2026-03-01.md",
       "status": "done"
     }
   ],
