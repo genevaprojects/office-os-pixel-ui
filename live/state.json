@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T21:30:06.021368+00:00",
+  "now": "2026-03-01T21:40:06.525596+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-4057",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72-hour redline rescue war-room operating cadence for top 10 enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines 24h/48h/72h checkpoints, owner backup map, escalation triggers, and closure verification criteria.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-4058",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -164,26 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Playbook defines confidence drop signatures, owner-routed interventions, and checkpoint gates to restore first-value momentum.",
-      "artifact_path": null
-    },
-    {
-      "id": "P2-PROD-4060",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft onboarding instrumentation gap closure runbook for CSM and product incident lanes",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T05:20:00+08:00",
-      "updated_at": "2026-03-02T05:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Runbook includes missing-event triage, patch ownership SLAs, verification tests, and rollback boundaries.",
       "artifact_path": null
     },
     {
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4060",
+      "artifact": "Delivered onboarding instrumentation gap closure runbook for CSM and product incident lanes with missing-event triage, patch ownership SLAs, verification test pack, and rollback boundaries",
+      "path": "office_os/artifacts/P2-PROD-4060_onboarding_instrumentation_gap_closure_runbook_csm_product_incident_lanes_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4057",
+      "artifact": "Delivered 72-hour redline rescue war-room operating cadence for top 10 enterprise deals with 24h/48h/72h checkpoints, owner+backup map, escalation trigger matrix, and close/defer verification gates",
+      "path": "office_os/artifacts/P1-REV-4057_72h_redline_rescue_war_room_operating_cadence_top10_enterprise_deals_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 05:22",
       "owner": "COMMAND",
@@ -430,22 +406,6 @@
       "taskId": "P2-PROD-4027",
       "artifact": "Delivered first-value instrumentation drift scorecard with event integrity checks, severity thresholds, hard rollback triggers, owner SLA routing, and post-fix verification gates",
       "path": "office_os/artifacts/P2-PROD-4027_first_value_instrumentation_drift_scorecard_rollback_triggers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 02:20",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4023",
-      "artifact": "Delivered 5-touch CFO signoff confidence rebuild sequence for no-decision week-2 pilots with quantified proof modules, objection handling matrix, CTA progression, and reactivation KPI targets",
-      "path": "office_os/artifacts/P1-REV-4023_cfo_signoff_confidence_rebuild_sequence_nodecision_week2_pilots_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1781",
-      "artifact": "Added Control State Integrity Sentinel to audit runtime toggle state vs aria/persisted profile parity, with reconcile action and copy-ready integrity brief for state-behavior trust",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
