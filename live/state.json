@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T05:22:07.891672+00:00",
+  "now": "2026-03-01T05:30:05.389528+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3114",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build multi-thread silent stakeholder wake-up sequence for redline week stalls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines 5-touch outreach across champion/economic/legal lanes with proof payload slots and reply-rate recovery targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P1-REV-3115",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -164,26 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Map links onboarding risk signals to owner actions, response SLAs, and expansion-readiness exit criteria for day-14 handoff.",
-      "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-3117",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce procurement-objection proof snippet carousel kit for founder social channels",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-01T13:20:00+08:00",
-      "updated_at": "2026-03-01T13:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit includes 10 objection-to-proof carousel concepts with channel formatting, CTA intent tags, and publishing cadence.",
       "artifact_path": null
     },
     {
