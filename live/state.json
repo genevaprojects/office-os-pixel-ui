@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T12:30:35.134039+00:00",
+  "now": "2026-03-01T12:40:04.692820+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "artifact_path": null
     },
     {
-      "id": "P1-REV-3705",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create no-decision resurrection cadence for week-4 to week-8 enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence specifies day-by-day multi-thread actions, rescue offers, and response-rate recovery targets.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-3706",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -265,29 +245,33 @@
       "manual_rank": null,
       "acceptance": "Runbook defines stale thresholds, archive/escalate decisions, correction workflow, and weekly freshness audit output.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3711",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron artifact drift sentinel for revenue-critical workflow integrity",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T20:21:16+08:00",
-      "updated_at": "2026-03-01T20:21:16+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sentinel defines drift fingerprints, alert tiers, auto-remediation attempts, and post-fix verification loop.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 20:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-3711",
+      "artifact": "Delivered cron artifact drift sentinel spec for revenue-critical workflows with freshness/schema/semantic thresholds, fingerprint dedup, 3-step auto-remediation ladder, and pending-verify resolution loop",
+      "path": "office_os/artifacts/P5-REL-3711_cron_artifact_drift_sentinel_revenue_critical_workflow_integrity_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 20:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-3705",
+      "artifact": "Delivered week-4 to week-8 no-decision resurrection cadence with 5-day reactivation sequence, stall-type intervention playbooks, SLA clocks, and measurable decision-date recovery targets",
+      "path": "office_os/artifacts/P1-REV-3705_no_decision_resurrection_cadence_week4_week8_enterprise_pilots_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 20:26",
       "owner": "SOCIAL",
@@ -462,30 +446,6 @@
       "taskId": "P2-PROD-3505",
       "artifact": "Delivered onboarding first-value breach heatmap with ARR-aware risk states and E0-E3 owner escalation ladders for day0-day3 recovery control",
       "path": "office_os/artifacts/P2-PROD-3505_onboarding_first_value_breach_heatmap_owner_escalation_ladders_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-3501",
-      "artifact": "Delivered champion-to-procurement risk handoff tracker with 48h conversion SLA, weighted risk scoring, and L0-L3 escalation ladder to reduce post-champion stall",
-      "path": "office_os/artifacts/P1-REV-3501_champion_to_procurement_risk_handoff_tracker_48h_conversion_sla_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 18:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-3502",
-      "artifact": "Delivered late-stage deal rescue sequencing board with 5-day daily sequence, lane-trigger SLAs, escalation ladder, and ARR-weighted priority scoring for legal-procurement-finance multi-thread stalls",
-      "path": "office_os/artifacts/P1-REV-3502_late_stage_deal_rescue_sequencing_board_legal_procurement_finance_multithread_stalls_2026-03-01.md",
       "status": "done"
     }
   ],
