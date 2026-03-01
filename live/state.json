@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T13:30:08.518458+00:00",
+  "now": "2026-03-01T13:40:06.853628+00:00",
   "workers": [
     {
       "name": "Research",
@@ -104,26 +104,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Checklist maps top objection classes to required proof blocks, owner SLAs, and pass/fail completeness gates before procurement submission.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-3804",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build executive multithread weekly deal rescue standup template",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes champion/economic/legal lane updates, blocker SLA clocks, intervention queue, and close-probability delta tracking.",
       "artifact_path": null
     },
     {
@@ -265,29 +245,33 @@
       "manual_rank": null,
       "acceptance": "Detector spec defines priority distribution thresholds, drift alerts, correction actions, and weekly audit output format.",
       "artifact_path": null
-    },
-    {
-      "id": "P5-REL-3810",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron artifact stale-read fallback checklist for growth-critical outputs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T21:20:40+08:00",
-      "updated_at": "2026-03-01T21:20:40+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines stale detection thresholds, fallback read order, owner alerts, and post-fallback verification loop for cron artifacts.",
-      "artifact_path": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 21:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 21:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-3810",
+      "artifact": "Delivered cron artifact stale-read fallback checklist with stale detection thresholds, strict fallback read order, owner alert matrix, and post-fallback verification loop for growth-critical outputs",
+      "path": "office_os/artifacts/P5-REL-3810_cron_artifact_stale_read_fallback_checklist_growth_critical_outputs_2026-03-01.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-01 21:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-3804",
+      "artifact": "Delivered executive multithread weekly deal rescue standup template with champion/economic/legal/procurement lane updates, blocker SLA clock board, ranked intervention queue, and close-probability delta tracker",
+      "path": "office_os/artifacts/P1-REV-3804_executive_multithread_weekly_deal_rescue_standup_template_2026-03-01.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 21:27",
       "owner": "SOCIAL",
@@ -462,30 +446,6 @@
       "taskId": "P1-REV-3601",
       "artifact": "Delivered top-15 renewal-risk rescue board with risk-signal taxonomy, 7-day save sequence, progressive offer ladder, and daily recovery KPI targets for renewal retention acceleration",
       "path": "office_os/artifacts/P1-REV-3601_top15_renewal_risk_rescue_board_7day_save_sequence_2026-03-01.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:01",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1759",
-      "artifact": "Added Cadence Transparency Sentinel with refresh punctuality scoring, next-update ETA trust signal, source freshness posture visibility, one-click cadence stabilization, and copy-ready transparency audit for live-data narration confidence",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 20:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1758",
-      "artifact": "Added Mode Parity Sentinel with executive/operator anchor coverage checks, mode-switch continuity validation, task-context retention guard, one-click parity sweep, and copy-ready parity audit for reliable role switching under pressure",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 19:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
