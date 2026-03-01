@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T01:06:44.312925+00:00",
+  "now": "2026-03-01T01:10:04.936912+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292076+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -94,7 +94,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292071+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +114,7 @@
       "owner": "RESEARCH",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292058+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -134,7 +134,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292081+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292089+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-01T08:20:00+08:00",
-      "updated_at": "2026-03-01T08:20:00+08:00",
+      "updated_at": "2026-03-01T09:07:03.292085+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -188,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 09:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 08:36",
       "owner": "EXECUTOR",
@@ -378,14 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 05:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
