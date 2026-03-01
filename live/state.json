@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T08:30:08.869381+00:00",
+  "now": "2026-03-01T08:40:12.130759+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-3303_procurement_blocker_monetization_map_arr_risk_2026-03-01.md"
     },
     {
-      "id": "P1-REV-3304",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft CFO confidence recovery memo template for post-redline uncertainty windows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-01T16:21:15.848973+08:00",
-      "updated_at": "2026-03-01T16:21:15.848973+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes quantified risk controls, timeline commitments, and decision CTA variants for CFO signoff recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-3304_cfo_confidence_recovery_memo_template_post_redline_2026-03-01.md"
-    },
-    {
       "id": "P2-PROD-3305",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -228,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-01 16:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-01 16:21",
       "owner": "COMMAND",
@@ -418,14 +406,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-01 14:10",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1753",
-      "artifact": "Added Traceability Coverage Sentinel auditing source endpoint integrity, monitor/backlog/decision data coverage, and copy-ready traceability brief for executive trust assurance",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
