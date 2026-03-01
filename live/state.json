@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T23:30:04.619308+00:00",
+  "now": "2026-03-01T23:40:04.578925+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4075_procurement_cycle_compression_kpi_scoreboard_template_weekly_exec_reviews_2026-03-02.md"
     },
     {
-      "id": "P2-PROD-4076",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft day0-day3 onboarding proof packet checklist for enterprise pilot handoff calls",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T07:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines mandatory proof artifacts, telemetry checks, owner signatures, and pass/fail readiness gate before handoff closeout.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4076_day0_day3_onboarding_proof_packet_checklist_enterprise_pilot_handoff_calls_2026-03-02.md"
-    },
-    {
       "id": "P2-PROD-4077",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -187,26 +167,6 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4081_artifact_acceptance_drift_detector_checklist_autonomous_workers_2026-03-02.md"
     },
     {
-      "id": "P5-REL-4073",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create critical cron dependency smoke-test checklist for pre-run reliability assurance",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T07:07:03.404300+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines dependency probes, pass/fail thresholds, fallback actions, and post-run verification steps for revenue-critical schedules.",
-      "artifact_path": null
-    },
-    {
       "id": "P5-REL-4082",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-4073",
+      "artifact": "Delivered critical cron dependency smoke-test checklist defining pre-run probes, pass/fail thresholds, fallback actions, and post-run verification steps for revenue-critical schedule reliability",
+      "path": "office_os/artifacts/P5-REL-4073_critical_cron_dependency_smoketest_checklist_prerun_reliability_assurance_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4076",
+      "artifact": "Delivered day0-day3 onboarding proof packet checklist for enterprise pilot handoff calls with mandatory artifact set, telemetry pass/fail checks, owner signatures, and binary readiness gate for closeout control",
+      "path": "office_os/artifacts/P2-PROD-4076_day0_day3_onboarding_proof_packet_checklist_enterprise_pilot_handoff_calls_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 07:20",
       "owner": "COMMAND",
@@ -430,22 +406,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 04:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4052",
-      "artifact": "Delivered 10 hook-to-proof short post prompts for security-approved budget-stalled buyers with channel tags, CTA tracking keywords, and 7-day distribution cadence",
-      "path": "office_os/artifacts/P3-CONT-4052_hook_to_proof_short_post_prompts_security_approved_budget_stalled_buyers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 04:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4048",
-      "artifact": "Delivered 5 champion-to-CFO internal forward memo templates for late-stage approvals with objection mapping, proof insert slots, and binary meeting CTA progression",
-      "path": "office_os/artifacts/P1-REV-4048_champion_to_cfo_internal_forward_memo_templates_late_stage_approvals_2026-03-02.md",
       "status": "done"
     }
   ],
