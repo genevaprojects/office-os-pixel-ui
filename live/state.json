@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-01T22:21:30.820125+00:00",
+  "now": "2026-03-01T22:30:05.191630+00:00",
   "workers": [
     {
       "name": "Research",
@@ -84,26 +84,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board ranks top 15 expansion-ready accounts by recoverable ARR, maps next-best action by blocker type, and defines 7-day owner SLA + conversion target.",
-      "artifact_path": null
-    },
-    {
-      "id": "P1-REV-4065",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive champion reactivation call script tree for week-4 stalled enterprise pilots",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script tree includes 5 stall signatures, objection-specific proof inserts, CTA progression, and measurable reply-to-meeting goals.",
       "artifact_path": null
     },
     {
@@ -207,24 +187,24 @@
       "artifact_path": null
     },
     {
-      "id": "P3-CONT-4071",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 10-piece proof-first short content sprint targeting procurement freeze objections",
-      "owner": "SOCIAL",
+      "id": "P4-OPS-1805",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P4",
+      "title": "Bootstrap non-interactive ESLint config for mission_control to enable unattended lint validation in cron runs",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-02T06:20:00+08:00",
-      "updated_at": "2026-03-02T06:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
+      "created_at": "2026-03-02T06:21:00+08:00",
+      "updated_at": "2026-03-02T06:21:00+08:00",
+      "impact": 3,
+      "effort": 1,
       "urgency": 3,
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Sprint board contains 10 hook-proof-CTA units mapped to freeze objections, channel tags, and performance keyword tracking.",
-      "artifact_path": null
+      "acceptance": "Running `npm run lint` in office_os_mission_control executes without interactive prompts and returns pass/fail output suitable for cron automation.",
+      "artifact_path": "office_os_mission_control/.eslintrc.json"
     },
     {
       "id": "P4-OPS-4072",
