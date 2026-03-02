@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T15:30:05.453294+00:00",
+  "now": "2026-03-02T15:40:06.979936+00:00",
   "workers": [
     {
       "name": "Research",
@@ -98,46 +98,6 @@
       "urgency": 4,
       "acceptance": "Library contains 12 objection-mapped clause options, margin guardrails by tier, fallback sequencing, and same-call CTA recommendations.",
       "artifact_path": "office_os/artifacts/P1-REV-4319_redline_risk_reversal_clause_library_margin_safe_fallback_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-4320",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 72h procurement escalation war-map for top 8 no-decision legal-cleared deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "War-map defines 24h/48h/72h owner+backup actions, blocker fingerprints, and binary closure verification by day3.",
-      "artifact_path": "office_os/artifacts/P1-REV-4320_procurement_escalation_warmap_top8_legal_cleared_nodecision_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-4321",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value evidence continuity matrix for onboarding with telemetry-loss fallback",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps telemetry-loss signatures to fallback evidence paths, owner SLAs, and day7 pass/fail confidence closure.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4321_day0_day7_first_value_evidence_continuity_matrix_telemetry_loss_2026-03-02.md",
       "created_at": "2026-03-02T23:21:44+08:00",
       "updated_at": "2026-03-02T23:21:44+08:00",
       "due_at": null,
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4321",
+      "artifact": "Delivered day0-day7 first-value evidence continuity matrix for telemetry-loss incidents with fallback evidence hierarchy, owner SLA escalation rules, and Day7 pass/fail confidence closure criteria",
+      "path": "office_os/artifacts/P2-PROD-4321_day0_day7_first_value_evidence_continuity_matrix_telemetry_loss_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 23:21",
       "owner": "COMMAND",
@@ -430,22 +406,6 @@
       "taskId": "P2-PROD-4293",
       "artifact": "Delivered first-week activation drift escalation matrix with green/amber/red thresholds, escalation lanes, persona-specific reassurance scripts, and day-7 pass/fail closure criteria",
       "path": "office_os/artifacts/P2-PROD-4293_first_week_activation_drift_escalation_matrix_reassurance_scripts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4288",
-      "artifact": "Delivered CFO legal-risk objection counter deck with 8 objection rebuttal modules, proof-slot checklist, same-call CTA ladder, and day-7 conversion checkpoints for security-review to procurement handoffs",
-      "path": "office_os/artifacts/P1-REV-4288_cfo_legal_risk_objection_counter_deck_securityreview_to_procurement_handoffs_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 20:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Added 8 concrete READY tasks (P1/P2/P3/P4 mix) to restore autonomous pull-loop capacity to >=10 unblocked tasks with owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
