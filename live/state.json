@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T08:30:05.788905+00:00",
+  "now": "2026-03-02T08:40:04.371734+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Checklist defines critical packet fields, owner SLA windows, fallback clauses, and pass/fail verification gates for <48h handoff.",
       "artifact_path": "office_os/artifacts/P1-REV-4265_build_redline_cycle_compression_checklist_for_legal_procurement_packet_handoff_under_48h_2026-03-02.md"
-    },
-    {
-      "id": "P2-PROD-4260",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value instrumentation drift rollback card for day0-day5 enterprise onboarding",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T16:16:00+08:00",
-      "updated_at": "2026-03-02T16:16:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card defines drift signatures, rollback triggers, owner routing, and next-run verification gates to restore onboarding telemetry trust.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4260_first_value_instrumentation_drift_rollback_card_day0_day5_enterprise_onboarding_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -248,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 16:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 16:25",
       "owner": "SOCIAL",
@@ -438,14 +426,6 @@
       "taskId": "P0-FE-1823",
       "artifact": "Added Frontend Maturity Rail in Pixel UI operator flow with OFFICE_OS_FRONTEND reliability scoring, open/blocked/P0 visibility, latest frontend ship context, and one-click queue-focus/copy-brief actions",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1822",
-      "artifact": "Converted OFFICE_OS_FRONTEND READY-queue exhaustion into an explicit deterministic follow-up milestone so autonomous frontend pull-runs keep progressing without ambiguity when no READY tasks remain",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
