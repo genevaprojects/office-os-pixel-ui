@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T22:22:08.605833+00:00",
+  "now": "2026-03-02T22:30:06.268908+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5234",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder-led trust-rebuild content ladder for procurement and legal delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder provides 7 post angles, proof assets, CTA variants, and channel sequencing for week-long trust recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-5234_founder_trust_rebuild_content_ladder_2026-03-03.md",
-      "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5235",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5238",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short-form proof scripts for no-decision and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts with objection tags, channel map, and conversion keywords.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5238_shortform_proof_scripts_nodecision_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-5239",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 06:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5238",
+      "artifact": "Delivered 10 short-form hook-proof-CTA scripts for no-decision and budget-freeze objections with objection tags, channel map, and conversion keywords for rapid publishing and pipeline reactivation",
+      "path": "office_os/artifacts/P3-CONT-5238_shortform_proof_scripts_nodecision_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5234",
+      "artifact": "Delivered founder-led 7-post trust-rebuild content ladder for procurement/legal delay objections with proof asset bank, CTA variants, conversion keywords, and week-long channel sequencing for trust recovery",
+      "path": "office_os/artifacts/P1-REV-5234_founder_trust_rebuild_content_ladder_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 06:18",
       "owner": "BUILDER",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-5205",
       "artifact": "Delivered sub-72h redline turnaround accelerator checklist with clause triage classes, 0-72h execution sprints, escalation ladder, and hard verification gates for procurement closure discipline",
       "path": "office_os/artifacts/P1-REV-5205_redline_turnaround_accelerator_checklist_sub72h_procurement_closure_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5201",
-      "artifact": "Delivered 14-day executive follow-up strike map for top 12 no-decision enterprise accounts with deterministic ARR-weighted ranking, role-specific command prompts, intervention triggers, and Day3/Day7/Day14 binary outcome gates",
-      "path": "office_os/artifacts/P1-REV-5201_14day_exec_followup_strike_map_top12_nodecision_accounts_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1861",
-      "artifact": "Added command palette demo gate lock/unlock action to mirror sticky gate control and provide deterministic keyboard-driven posture toggling during live recovery flow",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
