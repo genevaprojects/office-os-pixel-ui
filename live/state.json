@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T04:30:07.420013+00:00",
+  "now": "2026-03-02T04:40:05.852506+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,26 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P2-PROD-4222",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft day0-day5 first-value rescue command matrix for onboarding cohorts with missing proof events",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T12:15:00+08:00",
-      "updated_at": "2026-03-02T12:15:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps event-miss signatures to owner actions, SLA response windows, escalation tiers, and verification checkpoints.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4222_day0_day5_first_value_rescue_command_matrix_missing_proof_events_2026-03-02.md"
     },
     {
       "id": "P2-PROD-4227",
@@ -223,26 +203,6 @@
       "manual_rank": null,
       "acceptance": "Checklist includes runtime variance thresholds, anomaly signatures, first-response actions, and verification steps.",
       "artifact_path": "office_os/artifacts/P5-REL-4086_cron_execution_variance_early_warning_checklist_revenue_critical_automations_2026-03-02.md"
-    },
-    {
-      "id": "P5-REL-4225",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron recovery verification card for repeated failure jobs in pending_verify state",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "created_at": "2026-03-02T12:15:00+08:00",
-      "updated_at": "2026-03-02T12:15:00+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card includes next-run pass criteria, stale counter reset rules, and evidence fields for resolved vs still-failing classification.",
-      "artifact_path": "office_os/artifacts/P5-REL-4225_cron_recovery_verification_card_repeated_failure_jobs_pending_verify_2026-03-02.md"
     }
   ],
   "ship": [
