@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T06:21:26.420716+00:00",
+  "now": "2026-03-02T06:30:07.231374+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Template captures day0-day3 proof events, unresolved risks, owner SLAs, and executive-ready summary for procurement confidence.",
       "artifact_path": "office_os/artifacts/P2-PROD-4245_first_value_evidence_handoff_template_csm_to_procurement_facing_champions_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4241",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 8 proof-first CFO objection post prompts for procurement-delay narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T14:16:30+08:00",
-      "updated_at": "2026-03-02T14:16:30+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 8 hook-proof-CTA prompts with objection tags, channel mapping, and keyword tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4241_proof_first_cfo_objection_post_prompts_procurement_delay_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -268,6 +248,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 14:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4241",
+      "artifact": "Delivered 8 proof-first CFO procurement-delay post prompts with objection tags, channel mapping, hook-proof-CTA structure, and keyword tracking tokens for conversion instrumentation",
+      "path": "office_os/artifacts/P3-CONT-4241_proof_first_cfo_objection_post_prompts_procurement_delay_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 14:20",
       "owner": "COMMAND",
@@ -458,14 +446,6 @@
       "taskId": "P3-CONT-4209",
       "artifact": "Delivered 8-script founder voice-note bank for budget-freeze counter-narratives with tactical-empathy phrasing, stakeholder-specific rebuttal paths, and CTA progression from soft reply to working session",
       "path": "office_os/artifacts/P3-CONT-4209_founder_voice_note_script_bank_budget_freeze_counter_narratives_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4208",
-      "artifact": "Delivered 10 proof-led short post prompts for procurement-freeze reversal narratives with objection mapping, channel tags (LinkedIn/X/Telegram), and keyword instrumentation for conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-4208_proof_led_short_post_prompts_procurement_freeze_reversal_2026-03-02.md",
       "status": "done"
     }
   ],
