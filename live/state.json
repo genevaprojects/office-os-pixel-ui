@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T14:00:08.488312+00:00",
+  "now": "2026-03-02T14:10:05.734106+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4303",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create 7-day procurement committee decision sprint board for top 10 no-decision enterprise accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks top 10 no-decision accounts by recoverable ARR, defines day-by-day stakeholder commands, and sets day3/day7 binary decision checkpoints with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-4303_procurement_committee_decision_sprint_board_top10_nodecision_accounts_2026-03-02.md",
-      "created_at": "2026-03-02T21:20:00+08:00",
-      "updated_at": "2026-03-02T21:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-4297",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -99,7 +79,7 @@
       "acceptance": "Playbook maps proof-gap signatures to owner actions, confidence scripts, SLA windows, and verification gates through day14.",
       "artifact_path": "office_os/artifacts/P2-PROD-4297_day0_day14_enterprise_pilot_confidence_restoration_playbook_2026-03-02.md",
       "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-02T21:15:00+08:00",
+      "updated_at": "2026-03-02T22:07:05.919852+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Map defines regression severity tiers, owner routing, intervention scripts, and verification checkpoints through day10 with pass/fail closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-4304_day0_day10_pilot_trust_recovery_lane_map_confidence_regression_2026-03-02.md",
       "created_at": "2026-03-02T21:20:00+08:00",
-      "updated_at": "2026-03-02T21:20:00+08:00",
+      "updated_at": "2026-03-02T22:07:05.919835+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T21:07:05.918886+08:00",
+      "updated_at": "2026-03-02T22:07:05.919878+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T21:07:05.918881+08:00",
+      "updated_at": "2026-03-02T22:07:05.919874+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -179,7 +159,7 @@
       "acceptance": "Spec defines KPIs, thresholds, and alert states for stale-task drift, duplicate reject rates, and owner-balance breaches.",
       "artifact_path": "office_os/artifacts/P4-OPS-4295_hourly_backlog_freshness_duplicate_drift_dashboard_spec_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T21:07:05.918876+08:00",
+      "updated_at": "2026-03-02T22:07:05.919868+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +179,7 @@
       "acceptance": "Spec defines freshness decay bands, owner-balance thresholds, auto-correction rules, and reject/repair workflow.",
       "artifact_path": "office_os/artifacts/P4-OPS-4301_autonomous_backlog_topup_freshness_decay_guard_owner_balance_2026-03-02.md",
       "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-02T21:15:00+08:00",
+      "updated_at": "2026-03-02T22:07:05.919863+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -219,7 +199,7 @@
       "acceptance": "Spec defines stale age bands, recycle/retain decision rules, owner rebalance constraints, and audit logging expectations for hourly runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4306_autonomous_stale_ready_task_recycler_age_threshold_owner_rebalance_2026-03-02.md",
       "created_at": "2026-03-02T21:20:00+08:00",
-      "updated_at": "2026-03-02T21:20:00+08:00",
+      "updated_at": "2026-03-02T22:07:05.919858+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -228,6 +208,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4303",
+      "artifact": "Delivered 7-day procurement committee decision sprint board for top 10 no-decision enterprise accounts with ARR-weighted ranking, day-by-day stakeholder commands, and mandatory day3/day7 binary decision checkpoints",
+      "path": "office_os/artifacts/P1-REV-4303_procurement_committee_decision_sprint_board_top10_nodecision_accounts_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:08",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1830",
+      "artifact": "Upgraded Pixel UI frontend triage with oldest-update sort option, deterministic aging-focus behavior, and one-click Select next frontend task from Frontend Maturity Rail into Task Detail",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:04",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1829",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-queue exhaustion into explicit deterministic follow-up milestone and resumed pull-loop execution to next unblocked frontend improvement in the same run",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 21:26",
       "owner": "SOCIAL",
@@ -394,38 +406,6 @@
       "taskId": "P2-PROD-4278",
       "artifact": "Delivered onboarding trust restoration playbook for telemetry-drift incidents with severity tiers, rollback/patch command sequence, owner routing matrix, and next-run verification gates for safe closure",
       "path": "office_os/artifacts/P2-PROD-4278_onboarding_trust_restoration_playbook_telemetry_drift_incidents_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4272",
-      "artifact": "Delivered security-cleared procurement stall daily command wall for top 15 active deals with recoverable-ARR ranking model, day-by-day owner command cadence, escalation rules, and mandatory day-3/day-7 conversion checkpoints",
-      "path": "office_os/artifacts/P1-REV-4272_security_cleared_procurement_stall_daily_command_wall_top15_active_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up added 11 concrete READY tasks across P1-P5 priority mix with owner assignment and measurable acceptance criteria to restore autonomous pull-loop depth above threshold",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4242",
-      "artifact": "Delivered autonomous backlog freshness sweep checklist with stale thresholds, prune/refresh actions, verification gates, and evidence logging rules for hourly hygiene control",
-      "path": "office_os/artifacts/P4-OPS-4242_autonomous_backlog_freshness_sweep_checklist_hourly_worker_loops_2026-03-02.md",
       "status": "done"
     }
   ],
