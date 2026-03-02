@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T09:30:05.860616+00:00",
+  "now": "2026-03-02T09:40:07.105851+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4267_procurement_redline_objection_to_proof_router_exec_escalation_2026-03-02.md"
     },
     {
-      "id": "P2-PROD-4269",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 activation trust breach triage board for enterprise onboarding",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines breach signatures, response owners, SLA windows, and verification gates to restore first-value confidence.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4269_day0_day7_activation_trust_breach_triage_board_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4234",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -228,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 17:20",
       "owner": "COMMAND",
@@ -418,14 +406,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up added 2 concrete READY tasks (P1 revenue + P2 product) to restore autonomous pull-loop floor (>=10 READY/QUEUED/TODO) with owner-assigned acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:20",
-      "owner": "COMMAND",
-      "taskId": "P2-PROD-4240",
-      "artifact": "Delivered day0-day3 first-value proof audit checklist for enterprise onboarding cohorts with must-have proof events, failure signatures, owner routing matrix, and severity-based recovery SLAs",
-      "path": "office_os/artifacts/P2-PROD-4240_day0_day3_first_value_proof_audit_checklist_enterprise_onboarding_2026-03-02.md",
       "status": "done"
     }
   ],
