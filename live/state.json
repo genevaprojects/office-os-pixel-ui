@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T20:30:06.337587+00:00",
+  "now": "2026-03-02T20:40:04.735375+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5213",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h no-decision recovery sprint for top 10 stalled late-stage deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint maps H24/H48/H72 actions by owner, includes binary reopen/closeout gates, and recoverable ARR ranking.",
-      "artifact_path": "office_os/artifacts/P1-REV-5213_72h_nodecision_recovery_sprint_top10_2026-03-03.md",
-      "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5220",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Pack includes champion influence map, objection-response ladder, and 5-day command cadence with close probability deltas.",
       "artifact_path": "office_os/artifacts/P1-REV-5220_decision_champion_mobilization_pack_security_cleared_deals_2026-03-03.md",
-      "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5214",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day5 activation confidence rescue checklist for telemetry partial-loss pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Checklist maps top telemetry-loss signatures to owner actions, fallback proof paths, and Day5 pass/fail criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5214_day0_day5_activation_confidence_rescue_checklist_2026-03-03.md",
       "created_at": "2026-03-03T04:20:00+08:00",
       "updated_at": "2026-03-03T04:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5214",
+      "artifact": "Delivered Day0-Day5 activation confidence rescue checklist for telemetry partial-loss pilots with signature-to-owner action map, fallback proof paths, escalation ladder, and objective Day5 pass/fail criteria",
+      "path": "office_os/artifacts/P2-PROD-5214_day0_day5_activation_confidence_rescue_checklist_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 04:26",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "P2-PROD-5106",
       "artifact": "Delivered Day0-Day5 activation proof-gap triage matrix mapping 12 signature failures to primary/backup owners, SLA timers, escalation thresholds, and Day5 pass/fail closure checks for enterprise pilot confidence control",
       "path": "office_os/artifacts/P2-PROD-5106_activation_proof_gap_triage_matrix_day0_day5_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 02:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5103",
-      "artifact": "Delivered no-decision deal resurrection command ladder ranking top 10 dormant deals by recoverable ARR with deterministic scoring and 24h/48h/72h binary reopen-or-exit gates for rapid pipeline recovery",
-      "path": "office_os/artifacts/P1-REV-5103_nodecision_resurrection_command_ladder_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 02:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5108",
-      "artifact": "Delivered 10 founder proof clips for procurement hesitation objections with hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation for short-form deployment",
-      "path": "office_os/artifacts/P3-CONT-5108_founder_proof_clips_procurement_hesitation_2026-03-03.md",
       "status": "done"
     }
   ],
