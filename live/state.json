@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T14:30:07.096385+00:00",
+  "now": "2026-03-02T14:40:06.456286+00:00",
   "workers": [
     {
       "name": "Research",
@@ -98,46 +98,6 @@
       "urgency": 4,
       "acceptance": "Map covers at least 7 concession scenarios, explicit margin guardrails by tier, trigger conditions, and reply-path CTA options for same-week close recovery.",
       "artifact_path": "office_os/artifacts/P1-REV-4312_procurement_committee_risk_reversal_concession_map_quarter_end_closes_2026-03-02.md",
-      "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-4316",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-to-procurement 72h unblock command matrix for top 6 redline-stalled enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Matrix ranks 6 redline stalls by recoverable ARR, defines 24h/48h/72h owner+backup actions, and includes day3 binary close-state verification.",
-      "artifact_path": "office_os/artifacts/P1-REV-4316_legal_to_procurement_72h_unblock_command_matrix_top6_redline_stalls_2026-03-02.md",
-      "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-4313",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 first-value proof integrity rescue board for missing telemetry in enterprise pilots",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board maps telemetry failure signatures to owner SLA actions, fallback proof paths, and day7 verification closure criteria with pass/fail outputs.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4313_day0_day7_first_value_proof_integrity_rescue_board_2026-03-02.md",
       "created_at": "2026-03-02T22:20:00+08:00",
       "updated_at": "2026-03-02T22:20:00+08:00",
       "due_at": null,
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 22:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4313",
+      "artifact": "Delivered day0-day7 first-value proof integrity rescue board mapping telemetry failure signatures to owner SLA actions, fallback proof paths, and day7 verification closure criteria with explicit pass/fail outputs",
+      "path": "office_os/artifacts/P2-PROD-4313_day0_day7_first_value_proof_integrity_rescue_board_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4316",
+      "artifact": "Delivered legal-to-procurement 72h unblock command matrix for top 6 redline-stalled enterprise deals with recoverable-ARR ranking, 24h/48h/72h owner+backup actions, and day3 binary close-state verification gates",
+      "path": "office_os/artifacts/P1-REV-4316_legal_to_procurement_72h_unblock_command_matrix_top6_redline_stalls_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 22:21",
       "owner": "BUILDER",
@@ -422,30 +406,6 @@
       "taskId": "P5-REL-4282",
       "artifact": "Delivered cron artifact freshness exception handoff checklist for revenue-critical workflows with stale trigger rules, escalation route, remediation sequence, evidence capture, and next-run closure verification gate",
       "path": "office_os/artifacts/P5-REL-4282_cron_artifact_freshness_exception_handoff_checklist_revenue_critical_workflows_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4284",
-      "artifact": "Delivered top-10 legal stall recovery command matrix with rank-ordered recoverable ARR lanes, 24h/48h/72h primary+backup owner actions, and day3/day7 close-probability uplift checkpoints",
-      "path": "office_os/artifacts/P1-REV-4284_top10_legal_stall_recovery_command_matrix_24h_owner_actions_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4287",
-      "artifact": "Delivered 14-day founder proof-content sprint for procurement freeze and budget hold narratives with daily hook-proof-CTA posts, channel map, objection tags, and conversion keyword tracking",
-      "path": "office_os/artifacts/P3-CONT-4287_14day_founder_proof_content_sprint_procurement_freeze_budget_hold_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4285",
-      "artifact": "Delivered champion-to-CFO objection bridge script pack for late-stage no-decision accounts with 8 objection lanes, CFO outcome framing, CTA variants, and reply-path keyword instrumentation for conversion tracking",
-      "path": "office_os/artifacts/P1-REV-4285_champion_to_cfo_objection_bridge_script_pack_late_stage_nodecision_2026-03-02.md",
       "status": "done"
     }
   ],
