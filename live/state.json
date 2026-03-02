@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T14:21:50.903821+00:00",
+  "now": "2026-03-02T14:30:07.096385+00:00",
   "workers": [
     {
       "name": "Research",
@@ -147,26 +147,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-4314",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 founder proof-led rebuttal scripts for security-review delay objections in short video format",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts tagged by objection class, channel, and conversion keyword instrumentation for weekly publishing.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4314_founder_proof_led_rebuttal_scripts_security_review_delay_2026-03-02.md",
-      "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-4295",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1832",
+      "artifact": "Hardened Frontend Maturity Rail with deterministic next-two execution chain and one-click oldest-task selection to enforce stale-first frontend triage during investor-demo preparation",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1831",
+      "artifact": "Upgraded Command Outcome Radar with 60-minute burn projection, explicit P0/unassigned pressure visibility, and one-click triage pivots to risk-owner, P0, and unassigned lanes for faster operator recovery moves",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 22:20",
       "owner": "COMMAND",
@@ -450,22 +446,6 @@
       "taskId": "P1-REV-4285",
       "artifact": "Delivered champion-to-CFO objection bridge script pack for late-stage no-decision accounts with 8 objection lanes, CFO outcome framing, CTA variants, and reply-path keyword instrumentation for conversion tracking",
       "path": "office_os/artifacts/P1-REV-4285_champion_to_cfo_objection_bridge_script_pack_late_stage_nodecision_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up added concrete READY tasks to restore READY/QUEUED/TODO coverage >=10 with priority-weighted owner assignment and acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4280",
-      "artifact": "Delivered founder outbound micro-video prompt board for CFO hesitation narratives with 10 prompts, proof beats, CTA variants, and 7-day publish cadence",
-      "path": "office_os/artifacts/P3-CONT-4280_founder_outbound_micro_video_prompt_board_cfo_hesitation_narratives_2026-03-02.md",
       "status": "done"
     }
   ],
