@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T21:21:29.936860+00:00",
+  "now": "2026-03-02T21:30:04.702950+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5224",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce procurement-delay objection email ladder for CFO legal and security stakeholders",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Ladder includes 9 objection branches with quantified proof prompts, CTA variants, and reply-path tracking tags.",
-      "artifact_path": "office_os/artifacts/P1-REV-5224_procurement_delay_objection_email_ladder_2026-03-03.md",
-      "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5225",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5228",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 founder proof-led short scripts for procurement freeze comeback narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts with objection tags, channel mapping, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5228_founder_proof_short_scripts_procurement_freeze_comeback_2026-03-03.md",
-      "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P3-CONT-5229",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 05:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5228",
+      "artifact": "Delivered 10 founder proof-led procurement-freeze comeback scripts with hook-proof-CTA structure, objection tagging, channel mapping, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5228_founder_proof_short_scripts_procurement_freeze_comeback_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 05:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5224",
+      "artifact": "Delivered procurement-delay objection email ladder with 9 CFO/legal/security branches, quantified proof prompts, CTA variants, and reply-path tracking tags for deterministic late-stage follow-up",
+      "path": "office_os/artifacts/P1-REV-5224_procurement_delay_objection_email_ladder_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 05:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P5-REL-5008",
       "artifact": "Delivered cron artifact anomaly triage card with fingerprint taxonomy, 5-minute triage flow, fallback restore paths, and pending_verify closure gates for reliability recovery",
       "path": "office_os/artifacts/P5-REL-5008_cron_artifact_anomaly_triage_card_fast_fallback_restore_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5109",
-      "artifact": "Delivered stale-READY sweep protocol with age bands, owner-safe correction rules, deterministic boost ordering, and run-audit output schema for autonomous backlog hygiene",
-      "path": "office_os/artifacts/P4-OPS-5109_stale_ready_sweep_protocol_owner_safe_corrections_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5107",
-      "artifact": "Delivered telemetry-loss first-value confidence recovery playbook with incident fingerprints, fallback evidence paths, owner/SLA routing, and strict next-run verification gates",
-      "path": "office_os/artifacts/P2-PROD-5107_first_value_confidence_recovery_playbook_telemetry_loss_2026-03-03.md",
       "status": "done"
     }
   ],
