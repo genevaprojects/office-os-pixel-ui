@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T12:22:01.084042+00:00",
+  "now": "2026-03-02T12:30:34.720933+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-4289",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create late-stage budget-freeze rescue offer tree with guardrailed concession bands",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Offer tree maps 6 freeze scenarios to concession bands A/B/C, risk-reversal language, and reply-path CTAs with keyword tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-4289_late_stage_budget_freeze_rescue_offer_tree_guardrailed_concession_bands_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-4290",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -178,26 +158,6 @@
       "urgency": 3,
       "acceptance": "Matrix defines drift thresholds, escalation lanes, reassurance scripts per persona, and pass/fail closure criteria by day 7.",
       "artifact_path": "office_os/artifacts/P2-PROD-4293_first_week_activation_drift_escalation_matrix_reassurance_scripts_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-4294",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 proof-led founder clips for legal-delay objection windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 10 clip scripts with hook-proof-CTA structure, objection tags, channel mapping, and conversion keywords.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4294_proof_led_founder_clips_legal_delay_objection_windows_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
       "updated_at": "2026-03-02T20:21:20+08:00",
       "due_at": null,
