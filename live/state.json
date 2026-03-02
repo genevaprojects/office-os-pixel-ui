@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T04:10:05.268984+00:00",
+  "now": "2026-03-02T04:21:29.555040+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,12 @@
       ]
     },
     {
-      "id": "P1-REV-4205",
+      "id": "P1-REV-4226",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Produce 14-day freeze-revival operating cadence with daily owner SLA checkpoints",
-      "owner": "BUILDER",
+      "title": "Build 5-touch CFO reopen sequence for counterfactual briefs with meeting-conversion triggers",
+      "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T12:07:02.892834+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,8 +81,66 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Cadence defines day-by-day freeze-revival actions, owner SLAs, escalation checkpoints, and measurable reopen KPIs for 14 days.",
-      "artifact_path": "office_os/artifacts/P1-REV-4205_14day_freeze_revival_operating_cadence_daily_owner_sla_checkpoints_2026-03-02.md"
+      "acceptance": "Sequence defines 5 timed touches, objection-specific proof inserts, and reply-to-meeting conversion triggers for frozen late-stage deals.",
+      "artifact_path": null
+    },
+    {
+      "id": "P2-PROD-4222",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Draft day0-day5 first-value rescue command matrix for onboarding cohorts with missing proof events",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T12:15:00+08:00",
+      "updated_at": "2026-03-02T12:15:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix maps event-miss signatures to owner actions, SLA response windows, escalation tiers, and verification checkpoints.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4222_day0_day5_first_value_rescue_command_matrix_missing_proof_events_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4227",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create day7 first-value confidence proof pack template for procurement-sensitive pilots",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template includes mandatory proof metrics, owner routing, and pass/fail gates for day7 first-value confidence signoff.",
+      "artifact_path": null
+    },
+    {
+      "id": "P3-CONT-4223",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 8 proof-first founder post prompts for budget-freeze objections with CTA variants",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T12:15:00+08:00",
+      "updated_at": "2026-03-02T12:15:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes 8 hook-proof-CTA units, objection mapping, channel tags, and keyword instrumentation for conversion tracking.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4223_proof_first_founder_post_prompts_budget_freeze_objections_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -167,6 +223,26 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4210_freeze_revival_pipeline_hygiene_checklist_sla_alerts_2026-03-02.md"
     },
     {
+      "id": "P4-OPS-4224",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Design autonomous backlog freshness audit mini-checklist for hourly worker runs",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-02T12:15:00+08:00",
+      "updated_at": "2026-03-02T12:15:00+08:00",
+      "impact": 3,
+      "effort": 1,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines stale thresholds, duplicate guard checks, and corrective actions for hourly backlog hygiene enforcement.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4224_autonomous_backlog_freshness_audit_mini_checklist_hourly_runs_2026-03-02.md"
+    },
+    {
       "id": "P5-REL-4086",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -185,9 +261,69 @@
       "manual_rank": null,
       "acceptance": "Checklist includes runtime variance thresholds, anomaly signatures, first-response actions, and verification steps.",
       "artifact_path": "office_os/artifacts/P5-REL-4086_cron_execution_variance_early_warning_checklist_revenue_critical_automations_2026-03-02.md"
+    },
+    {
+      "id": "P5-REL-4225",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Create cron recovery verification card for repeated failure jobs in pending_verify state",
+      "owner": "EXECUTOR",
+      "status": "TODO",
+      "created_at": "2026-03-02T12:15:00+08:00",
+      "updated_at": "2026-03-02T12:15:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Card includes next-run pass criteria, stale counter reset rules, and evidence fields for resolved vs still-failing classification.",
+      "artifact_path": "office_os/artifacts/P5-REL-4225_cron_recovery_verification_card_repeated_failure_jobs_pending_verify_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 12:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to keep READY/QUEUED/TODO inventory at or above 10 with concrete priority-weighted owner-assigned tasks",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 12:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-4221",
+      "artifact": "Delivered legal-procurement fastlane evidence packet checklist for security-cleared accounts with mandatory packet gates, fallback clause ladder, and T+0/T+24/T+48/T+72 SLA clock for sub-72h progression",
+      "path": "office_os/artifacts/P1-REV-4221_legal_procurement_fastlane_evidence_packet_checklist_security_cleared_accounts_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 12:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-4220",
+      "artifact": "Delivered CFO re-approval counterfactual brief template for frozen late-stage deals with approve-vs-delay framing, delay-cost decision math, objection-proof mapping, and 24h binary decision sequence",
+      "path": "office_os/artifacts/P1-REV-4220_cfo_reapproval_counterfactual_brief_template_frozen_late_stage_deals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 12:15",
+      "owner": "BUILDER",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up restored READY/QUEUED/TODO depth to >=10 by adding six concrete owner-assigned tasks with acceptance criteria across P1-P5 priorities",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 12:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4205",
+      "artifact": "Delivered 14-day freeze-revival operating cadence with day-by-day actions, owner SLA checkpoints, escalation triggers, and reopen KPI targets for frozen late-stage enterprise deals",
+      "path": "office_os/artifacts/P1-REV-4205_14day_freeze_revival_operating_cadence_daily_owner_sla_checkpoints_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 12:07",
       "owner": "COMMAND",
@@ -346,46 +482,6 @@
       "taskId": "P1-REV-4093",
       "artifact": "Delivered champion handoff brief template that transfers urgency from operator users to executive buyers with narrative slots, quantified proof inserts, objection preemption blocks, and staged executive CTA progression",
       "path": "office_os/artifacts/P1-REV-4093_champion_handoff_brief_template_operator_to_executive_buyer_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 09:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore READY",
-      "path": "QUEUED",
-      "status": "TODO coverage to >=10 with priority-weighted owner-assigned tasks and concrete acceptance criteria for continued autonomous throughput"
-    },
-    {
-      "time": "2026-03-02 09:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4080",
-      "artifact": "Delivered autonomous READY-queue freshness dashboard spec defining freshness metrics, age thresholds, queue-health scoring, dashboard sections, and automatic fail-state actions for hourly command hygiene",
-      "path": "office_os/artifacts/P4-OPS-4080_autonomous_ready_queue_freshness_dashboard_spec_hourly_command_runs_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 09:20",
-      "owner": "COMMAND",
-      "taskId": "P2-PROD-4088",
-      "artifact": "Delivered enterprise onboarding risk-to-playbook lookup matrix for CSM daily standups with trigger thresholds, command mapping, owner routing, and same-day verification checks to compress risk-to-action latency",
-      "path": "office_os/artifacts/P2-PROD-4088_enterprise_onboarding_risk_to_playbook_lookup_matrix_csm_daily_standups_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-4082",
-      "artifact": "Delivered cron credential-expiry early warning checklist for critical automations with expiry threshold bands, warning cadence, owner-routing escalation, pre-expiry validation, rotation execution controls, and post-rotation verification card",
-      "path": "office_os/artifacts/P5-REL-4082_cron_credential_expiry_early_warning_checklist_critical_automations_2026-03-02.md",
       "status": "done"
     }
   ],
