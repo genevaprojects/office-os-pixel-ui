@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T04:00:05.554180+00:00",
+  "now": "2026-03-02T04:10:05.268984+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T11:15:00+08:00",
+      "updated_at": "2026-03-02T12:07:02.892834+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -87,46 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4205_14day_freeze_revival_operating_cadence_daily_owner_sla_checkpoints_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4211",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create freeze-revival multithread stakeholder map template for procurement-stage enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T11:16:00+08:00",
-      "updated_at": "2026-03-02T11:16:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template maps stakeholder role, influence score, freeze objection ownership, outreach channel, and next-step CTA for multithread reopening.",
-      "artifact_path": "office_os/artifacts/P1-REV-4211_freeze_revival_multithread_stakeholder_map_template_procurement_stage_deals_2026-03-02.md"
-    },
-    {
-      "id": "P2-PROD-4206",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value assurance insert for freeze-revival proposals in enterprise pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T11:15:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Insert template includes first-value milestones, telemetry proof requirements, and intervention promises tied to freeze-risk objections.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4206_first_value_assurance_insert_freeze_revival_proposals_enterprise_pilots_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4090",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -134,7 +94,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T10:07:04.414519+08:00",
+      "updated_at": "2026-03-02T12:07:02.892846+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T10:07:04.414523+08:00",
+      "updated_at": "2026-03-02T12:07:02.892853+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
+      "updated_at": "2026-03-02T12:07:02.892858+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T11:15:00+08:00",
+      "updated_at": "2026-03-02T12:07:02.892862+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "EXECUTOR",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T10:07:04.414513+08:00",
+      "updated_at": "2026-03-02T12:07:02.892867+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 12:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 11:35",
       "owner": "EXECUTOR",
@@ -418,14 +386,6 @@
       "taskId": "P5-REL-4082",
       "artifact": "Delivered cron credential-expiry early warning checklist for critical automations with expiry threshold bands, warning cadence, owner-routing escalation, pre-expiry validation, rotation execution controls, and post-rotation verification card",
       "path": "office_os/artifacts/P5-REL-4082_cron_credential_expiry_early_warning_checklist_critical_automations_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-4083",
-      "artifact": "Delivered first-value instrumentation breach postmortem template for enterprise onboarding incidents with incident timeline, signal-loss root-cause workflow, ownership SLA handoff grid, preventive control registry, and closure verification gates",
-      "path": "office_os/artifacts/P2-PROD-4083_first_value_instrumentation_breach_postmortem_template_enterprise_onboarding_incidents_2026-03-02.md",
       "status": "done"
     }
   ],
