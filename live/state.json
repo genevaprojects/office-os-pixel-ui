@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T00:10:05.430432+00:00",
+  "now": "2026-03-02T00:21:14.606627+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,84 @@
       ]
     },
     {
-      "id": "P1-REV-4075",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build procurement-cycle compression KPI scoreboard template for weekly exec reviews",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T08:07:03.212467+08:00",
-      "impact": 5,
+      "id": "P2-PROD-4083",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create first-value instrumentation breach postmortem template for enterprise onboarding incidents",
+      "owner": "EXECUTOR",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 4,
       "effort": 2,
-      "urgency": 4,
+      "urgency": 3,
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template includes stage-time baselines, week-over-week deltas, at-risk deal alerts, and owner-level intervention prompts for immediate action.",
-      "artifact_path": "office_os/artifacts/P1-REV-4075_procurement_cycle_compression_kpi_scoreboard_template_weekly_exec_reviews_2026-03-02.md"
+      "acceptance": "Template includes breach timeline, signal-loss root causes, ownership timeline, and preventive controls with verification gates.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4083_first_value_instrumentation_breach_postmortem_template_enterprise_onboarding_incidents_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4088",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create enterprise onboarding risk-to-playbook lookup matrix for CSM daily standups",
+      "owner": "RESEARCH",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix maps risk signatures to playbook commands, owner responsibilities, and same-day verification checks.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4088_enterprise_onboarding_risk_to_playbook_lookup_matrix_csm_daily_standups_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4084",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce objection-to-proof newsletter block library for stalled procurement narratives",
+      "owner": "SOCIAL",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Library includes 12 reusable objection-proof blocks with CTA intents, tone variants, and campaign tagging schema.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4084_objection_to_proof_newsletter_block_library_stalled_procurement_narratives_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4089",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Draft proof-led executive social post cadence around procurement-cycle wins",
+      "owner": "SOCIAL",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Cadence includes weekly narrative themes, proof anchors, CTA ladder, and KPI tracking tags.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4089_proof_led_executive_social_post_cadence_procurement_cycle_wins_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4080",
@@ -127,6 +187,46 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4081_artifact_acceptance_drift_detector_checklist_autonomous_workers_2026-03-02.md"
     },
     {
+      "id": "P4-OPS-4085",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Draft weekly backlog freshness burn-down dashboard spec with owner SLA alerts",
+      "owner": "COMMAND",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Spec defines freshness metrics, stale-age thresholds, owner routing logic, and weekly review format.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4085_weekly_backlog_freshness_burndown_dashboard_spec_owner_sla_alerts_2026-03-02.md"
+    },
+    {
+      "id": "P4-OPS-4090",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous ship-log milestone quality checker v2 for duplicate suppression",
+      "owner": "COMMAND",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checker spec includes duplicate fingerprint schema, malformed milestone detection, and correction flow.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md"
+    },
+    {
       "id": "P5-REL-4082",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -165,9 +265,69 @@
       "manual_rank": null,
       "acceptance": "Verification card provides next-run success gates, error-reset checks, and closure criteria to move jobs from pending_verify to resolved.",
       "artifact_path": "office_os/artifacts/P5-REL-4083_post_restore_verification_card_cron_jobs_pending_verify_2026-03-02.md"
+    },
+    {
+      "id": "P5-REL-4086",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Create cron execution variance early-warning checklist for revenue-critical automations",
+      "owner": "EXECUTOR",
+      "status": "TODO",
+      "created_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T08:15:45+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 2,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist includes runtime variance thresholds, anomaly signatures, first-response actions, and verification steps.",
+      "artifact_path": "office_os/artifacts/P5-REL-4086_cron_execution_variance_early_warning_checklist_revenue_critical_automations_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 08:20",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4087",
+      "artifact": "Delivered late-stage procurement stakeholder response-time heatmap template with role-based latency matrix, ARR-weighted impact scoring, and trigger-based intervention rules for deal-stall prevention",
+      "path": "office_os/artifacts/P1-REV-4087_late_stage_procurement_stakeholder_response_time_heatmap_template_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4082",
+      "artifact": "Delivered CFO decision-deadline escalation brief template with deadline bands, quantified delay-impact model, stakeholder intervention map, and branch-based escalation scripts for quarter-end at-risk deals",
+      "path": "office_os/artifacts/P1-REV-4082_cfo_decision_deadline_escalation_brief_template_at_risk_quarter_end_deals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4081",
+      "artifact": "Delivered procurement bottleneck root-cause codex template with quantified bottleneck signatures, owner accountability grid, and 7-day corrective experiment thresholds for weekly deal-desk retros",
+      "path": "office_os/artifacts/P1-REV-4081_procurement_bottleneck_root_cause_codex_template_weekly_deal_desk_retros_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:16",
+      "owner": "BUILDER",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Refilled backlog when runnable queue dropped below threshold by adding 10 concrete owner-assigned tasks with acceptance criteria to restore autonomous pull-loop continuity",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4075",
+      "artifact": "Delivered weekly procurement-cycle compression KPI scoreboard template with stage-time baselines, WoW delta tracking, at-risk deal alerts, and owner-level intervention prompts for exec actioning",
+      "path": "office_os/artifacts/P1-REV-4075_procurement_cycle_compression_kpi_scoreboard_template_weekly_exec_reviews_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 08:07",
       "owner": "COMMAND",
@@ -326,46 +486,6 @@
       "taskId": "P1-REV-4057",
       "artifact": "Delivered 72-hour redline rescue war-room operating cadence for top 10 enterprise deals with 24h/48h/72h checkpoints, owner+backup map, escalation trigger matrix, and close/defer verification gates",
       "path": "office_os/artifacts/P1-REV-4057_72h_redline_rescue_war_room_operating_cadence_top10_enterprise_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:22",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete priority-weighted owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4045",
-      "artifact": "Delivered autonomous blocked-task aging triage protocol with threshold bands, dependency unstick playbooks, strict escalation boundaries, and blocked-state verification loop",
-      "path": "office_os/artifacts/P4-OPS-4045_autonomous_blocked_task_aging_triage_protocol_dependency_unstick_actions_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4029",
-      "artifact": "Delivered autonomous queue aging pressure watchdog spec with priority thresholds, pressure bands, intervention actions, duplicate guardrails, and weekly drift report format",
-      "path": "office_os/artifacts/P4-OPS-4029_autonomous_queue_aging_pressure_watchdog_spec_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4049",
-      "artifact": "Delivered procurement no-decision recovery sprint board for top 12 ARR-weighted accounts with ranked recoverable ARR stack, day-by-day interventions, owner/backup SLA grid, and 14-day conversion goals",
-      "path": "office_os/artifacts/P1-REV-4049_procurement_no_decision_recovery_sprint_board_top12_arr_weighted_accounts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
