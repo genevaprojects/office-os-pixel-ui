@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T12:30:34.720933+00:00",
+  "now": "2026-03-02T12:40:04.839024+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-4290",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion-to-procurement multithread daily command cadence for top 12 stalled deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Cadence ranks top 12 stalls by recoverable ARR, assigns day-by-day owner actions, and defines day3/day7 close-probability checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4290_champion_to_procurement_multithread_daily_command_cadence_top12_stalls_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-4291",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -118,26 +98,6 @@
       "urgency": 4,
       "acceptance": "Kit includes 5 one-page memos with quantified ROI and risk-reversal blocks, objection routing, and decision CTA variants.",
       "artifact_path": "office_os/artifacts/P1-REV-4291_procurement_committee_onepage_risk_reversal_memo_kit_nodecision_accounts_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-4292",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 onboarding trust recovery command board for missing proof-event incidents",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board maps missing proof-event signatures to owner response SLAs, rollback commands, and next-run verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4292_day0_day7_onboarding_trust_recovery_command_board_missing_proof_events_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
       "updated_at": "2026-03-02T20:21:20+08:00",
       "due_at": null,
