@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T13:22:05.090838+00:00",
+  "now": "2026-03-02T13:30:06.649488+00:00",
   "workers": [
     {
       "name": "Research",
@@ -118,46 +118,6 @@
       "urgency": 3,
       "acceptance": "Map defines regression severity tiers, owner routing, intervention scripts, and verification checkpoints through day10 with pass/fail closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-4304_day0_day10_pilot_trust_recovery_lane_map_confidence_regression_2026-03-02.md",
-      "created_at": "2026-03-02T21:20:00+08:00",
-      "updated_at": "2026-03-02T21:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-4300",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 procurement-objection proof snippets optimized for founder voice notes and short clips",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 12 hook-proof-CTA snippets with objection tags, channel mapping, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4300_procurement_objection_proof_snippets_founder_voice_notes_short_clips_2026-03-02.md",
-      "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-02T21:15:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-4305",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 founder objection-reversal short scripts for procurement no-decision windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts tagged by objection class and channel with conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4305_founder_objection_reversal_short_scripts_procurement_nodecision_windows_2026-03-02.md",
       "created_at": "2026-03-02T21:20:00+08:00",
       "updated_at": "2026-03-02T21:20:00+08:00",
       "due_at": null,
@@ -309,12 +269,20 @@
   ],
   "ship": [
     {
+      "time": "2026-03-02 21:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4300",
+      "artifact": "Delivered 12 procurement-objection proof snippets optimized for founder voice notes and short clips with objection tags, CTA routing, and keyword-based conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-4300_procurement_objection_proof_snippets_founder_voice_notes_short_clips_2026-03-02.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-02 21:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete priority-weighted owner-assigned acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-02 21:25"
     },
     {
       "time": "2026-03-02 21:20",
@@ -498,14 +466,6 @@
       "taskId": "P4-OPS-4242",
       "artifact": "Delivered autonomous backlog freshness sweep checklist with stale thresholds, prune/refresh actions, verification gates, and evidence logging rules for hourly hygiene control",
       "path": "office_os/artifacts/P4-OPS-4242_autonomous_backlog_freshness_sweep_checklist_hourly_worker_loops_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4234",
-      "artifact": "Delivered backlog top-up QA mini-checklist defining owner-balance guardrails, acceptance-quality lint checks, reject criteria, and repair loop for higher-signal hourly task injection",
-      "path": "office_os/artifacts/P4-OPS-4234_backlog_topup_qa_minichecklist_owner_balance_acceptance_lint_2026-03-02.md",
       "status": "done"
     }
   ],
