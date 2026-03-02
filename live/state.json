@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T08:10:05.441079+00:00",
+  "now": "2026-03-02T08:22:07.940444+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,54 @@
       ]
     },
     {
-      "id": "P2-PROD-4255",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day5 first-value confidence breach triage map for enterprise onboarding",
+      "id": "P1-REV-4264",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Draft procurement-freeze executive rebuttal matrix for top 6 CFO objections in committee reviews",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-02T16:21:37+08:00",
+      "updated_at": "2026-03-02T16:21:37+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix maps 6 CFO objections to quantified rebuttals, proof inserts, owner routing, and 7-day conversion checkpoints.",
+      "artifact_path": "office_os/artifacts/P1-REV-4264_draft_procurement_freeze_executive_rebuttal_matrix_for_top_6_cfo_objections_in_committee_reviews_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4265",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build redline-cycle compression checklist for legal+procurement packet handoff under 48h",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T16:07:03.855432+08:00",
+      "created_at": "2026-03-02T16:21:37+08:00",
+      "updated_at": "2026-03-02T16:21:37+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines critical packet fields, owner SLA windows, fallback clauses, and pass/fail verification gates for <48h handoff.",
+      "artifact_path": "office_os/artifacts/P1-REV-4265_build_redline_cycle_compression_checklist_for_legal_procurement_packet_handoff_under_48h_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4260",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create first-value instrumentation drift rollback card for day0-day5 enterprise onboarding",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T16:16:00+08:00",
+      "updated_at": "2026-03-02T16:16:00+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -83,8 +123,28 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Map defines confidence breach signatures, owner routing, intervention commands, SLA windows, and pass/fail verification criteria for recovery.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4255_day0_day5_first_value_confidence_breach_triage_map_enterprise_onboarding_2026-03-02.md"
+      "acceptance": "Card defines drift signatures, rollback triggers, owner routing, and next-run verification gates to restore onboarding telemetry trust.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4260_first_value_instrumentation_drift_rollback_card_day0_day5_enterprise_onboarding_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4261",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 8 proof-to-procurement micro scripts for late-stage objection replies",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T16:16:00+08:00",
+      "updated_at": "2026-03-02T16:16:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes 8 objection-mapped scripts with hook-proof-CTA format, channel tags, and conversion keyword instrumentation.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4261_proof_to_procurement_micro_scripts_late_stage_objection_replies_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -185,9 +245,61 @@
       "manual_rank": null,
       "acceptance": "Validator spec defines acceptance-quality lint rules, duplicate title thresholds, owner-balance checks, and reject/repair flow.",
       "artifact_path": "office_os/artifacts/P4-OPS-4257_hourly_autonomous_backlog_topup_validator_acceptance_duplicate_guard_2026-03-02.md"
+    },
+    {
+      "id": "P4-OPS-4262",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define backlog top-up freshness watchdog for duplicate avoidance and owner balance",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-02T16:16:00+08:00",
+      "updated_at": "2026-03-02T16:16:00+08:00",
+      "impact": 3,
+      "effort": 1,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Watchdog spec defines duplicate fingerprint thresholds, owner-balance checks, freshness windows, and reject/repair loops for autonomous top-up runs.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4262_backlog_topup_freshness_watchdog_duplicate_avoidance_owner_balance_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 16:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-4259",
+      "artifact": "Delivered Design legal-procurement multithread rescue briefing template for day-3 redline stalls with execution-ready framework satisfying acceptance criteria",
+      "path": "office_os/artifacts/P1-REV-4259_legal_procurement_multithread_rescue_briefing_template_day3_redline_stalls_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 16:21",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-4263",
+      "artifact": "Delivered Draft executive escalation ladder for procurement freeze accounts with ARR-weighted trigger bands with execution-ready framework satisfying acceptance criteria",
+      "path": "office_os/artifacts/P1-REV-4263_executive_escalation_ladder_procurement_freeze_arr_weighted_trigger_bands_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 16:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4258",
+      "artifact": "Delivered procurement objection live deal diagnostic scorecard with weighted scoring model, objection-to-command routing, SLA bands, and live-call operating template for redline-stage stall compression",
+      "path": "office_os/artifacts/P1-REV-4258_procurement_objection_live_deal_diagnostic_scorecard_enterprise_redline_stage_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 16:15",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-4255",
+      "artifact": "Delivered day0-day5 first-value confidence breach triage map with breach signatures, owner routing commands, SLA windows, and pass/fail verification gates for enterprise onboarding recovery control",
+      "path": "office_os/artifacts/P2-PROD-4255_day0_day5_first_value_confidence_breach_triage_map_enterprise_onboarding_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 16:07",
       "owner": "COMMAND",
@@ -354,38 +466,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 13:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up added 4 concrete READY tasks (P1x2/P2x1/P3x1) to restore autonomous queue depth to >=10 actionable items with owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 13:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4210",
-      "artifact": "Delivered freeze-revival pipeline hygiene checklist with required fields, SLA breach rules, owner escalation ladder, and weekly audit output format for anti-drift enforcement",
-      "path": "office_os/artifacts/P4-OPS-4210_freeze_revival_pipeline_hygiene_checklist_sla_alerts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 13:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4233",
-      "artifact": "Delivered no-decision rescue objection stack for top 10 procurement-frozen accounts with tiered scripts, proof inserts, day-by-day action ladder, and conversion targets for 14-day stage reactivation",
-      "path": "office_os/artifacts/P1-REV-4233_no_decision_rescue_objection_stack_top10_procurement_frozen_accounts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 13:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
