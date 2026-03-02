@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T20:50:13.550760+00:00",
+  "now": "2026-03-02T21:00:05.788998+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-03 04:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1865",
+      "artifact": "Added full deadline-wave bundle queue action in Founder Desk to dispatch wave patch + due-soon sweep + aged-decision cleanup as one deterministic command under existing safety lock constraints",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 04:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1864",
+      "artifact": "Added investor interruption handoff bundle export in Overview to one-copy gate verdict + interruption script + narration consistency + primary action for interruption-time boardroom recovery",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-03 04:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P1-REV-5105",
       "artifact": "Delivered legal-signoff acceleration checklist for enterprise procurement handoffs with packet completeness gates, owner SLA windows, fallback clause order, and signoff-ready output criteria",
       "path": "office_os/artifacts/P1-REV-5105_legal_signoff_acceleration_checklist_procurement_handoffs_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 02:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 02:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5106",
-      "artifact": "Delivered Day0-Day5 activation proof-gap triage matrix mapping 12 signature failures to primary/backup owners, SLA timers, escalation thresholds, and Day5 pass/fail closure checks for enterprise pilot confidence control",
-      "path": "office_os/artifacts/P2-PROD-5106_activation_proof_gap_triage_matrix_day0_day5_2026-03-03.md",
       "status": "done"
     }
   ],
