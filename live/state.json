@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T03:00:06.799129+00:00",
+  "now": "2026-03-02T03:10:04.917191+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,26 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-4101",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 14-day CFO decision acceleration scoreboard for top 10 late-stage opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks 10 opportunities by ARR/time-to-close risk and defines daily intervention triggers, owner actions, and measurable close-probability lift targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-4101_cfo_decision_acceleration_scoreboard_top10_late_stage_opportunities_2026-03-02.md"
     },
     {
       "id": "P1-REV-4102",
