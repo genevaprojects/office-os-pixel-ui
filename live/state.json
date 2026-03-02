@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T21:00:05.788998+00:00",
+  "now": "2026-03-02T21:10:05.912220+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5211",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 expansion pipeline trigger board for existing customers with 7-day upsell windows",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks 12 accounts by expansion ARR potential and defines trigger-based owner commands with Day3/Day7 conversion gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5211_expansion_pipeline_trigger_board_top12_2026-03-03.md",
-      "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5212",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Script includes 8 objection branches, quantified proof blocks, concession guardrails, and same-call CTA routes.",
       "artifact_path": "office_os/artifacts/P1-REV-5212_exec_procurement_objection_reversal_call_script_2026-03-03.md",
       "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5220",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build decision-champion mobilization pack for security-cleared procurement-stage deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Pack includes champion influence map, objection-response ladder, and 5-day command cadence with close probability deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-5220_decision_champion_mobilization_pack_security_cleared_deals_2026-03-03.md",
-      "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
+      "updated_at": "2026-03-03T05:07:05.079944+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Matrix defines severity tiers, owner routing, SLA timers, and next-run verification closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5215_first_value_trust_recovery_escalation_matrix_2026-03-03.md",
       "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
+      "updated_at": "2026-03-03T05:07:05.079960+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Protocol defines age bands, rebalance actions, WIP-safe constraints, and hourly audit output fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-5218_backlog_aging_pressure_rebalance_protocol_2026-03-03.md",
       "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
+      "updated_at": "2026-03-03T05:07:05.079970+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines fallback output schema checks, stale thresholds, and post-recovery verification gates.",
       "artifact_path": "office_os/artifacts/P5-REL-5219_cron_fallback_output_integrity_card_growth_campaigns_2026-03-03.md",
       "created_at": "2026-03-03T04:20:00+08:00",
-      "updated_at": "2026-03-03T04:20:00+08:00",
+      "updated_at": "2026-03-03T05:07:05.079966+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 04:50",
       "owner": "BUILDER",
@@ -378,14 +346,6 @@
       "taskId": "P1-REV-5101",
       "artifact": "Delivered founder-led 7-day warm-intro conversion sprint for top 15 pipeline accounts with ARR-weighted ranking, intro-source mapping, daily outreach scripts, and Day3/Day7 meeting-booked targets",
       "path": "office_os/artifacts/P1-REV-5101_founder_led_warm_intro_conversion_sprint_top15_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5105",
-      "artifact": "Delivered legal-signoff acceleration checklist for enterprise procurement handoffs with packet completeness gates, owner SLA windows, fallback clause order, and signoff-ready output criteria",
-      "path": "office_os/artifacts/P1-REV-5105_legal_signoff_acceleration_checklist_procurement_handoffs_2026-03-03.md",
       "status": "done"
     }
   ],
