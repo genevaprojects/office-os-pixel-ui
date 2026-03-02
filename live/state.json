@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T10:00:06.545038+00:00",
+  "now": "2026-03-02T10:10:05.802812+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4266",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create no-decision deal rescue scoreboard for top 12 ARR opportunities with 7-day close commands",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks 12 no-decision opportunities by recoverable ARR, maps daily owner commands, and includes day-3/day7 conversion checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4266_no_decision_deal_rescue_scoreboard_top12_arr_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4267",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T18:07:01.879856+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T13:15:00+08:00",
-      "updated_at": "2026-03-02T17:07:03.882647+08:00",
+      "updated_at": "2026-03-02T18:07:01.879879+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T14:16:30+08:00",
-      "updated_at": "2026-03-02T17:07:03.882660+08:00",
+      "updated_at": "2026-03-02T18:07:01.879888+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T17:07:03.882643+08:00",
+      "updated_at": "2026-03-02T18:07:01.879874+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T16:16:00+08:00",
-      "updated_at": "2026-03-02T17:07:03.882638+08:00",
+      "updated_at": "2026-03-02T18:07:01.879869+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T18:07:01.879884+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 18:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 18:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1828",
+      "artifact": "Hardened keyboard-only triage with Shift+j/k accelerated traversal, Home/End queue-bound jumps, and hotkey panel parity to keep operator navigation fast, explicit, and discoverable under pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 18:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1827",
+      "artifact": "Upgraded Task Detail rail with filtered-queue position telemetry and deterministic jump controls (next blocked / next P0 action) so operators can cut directly to highest-risk items without losing selected-task or filter context",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 17:37",
       "owner": "COMMAND",
@@ -382,30 +386,6 @@
       "taskId": "P1-REV-4244",
       "artifact": "Delivered CFO follow-up decision-commitment tracker for deferred procurement-stage deals with commit-date ownership, defer-reason accountability, quantified 0-100 risk scoring, and Day1/Day3/Day5 checkpoint outcomes to force decision clarity and escalation discipline",
       "path": "office_os/artifacts/P1-REV-4244_cfo_followup_decision_commitment_tracker_deferred_procurement_stage_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4241",
-      "artifact": "Delivered 8 proof-first CFO procurement-delay post prompts with objection tags, channel mapping, hook-proof-CTA structure, and keyword tracking tokens for conversion instrumentation",
-      "path": "office_os/artifacts/P3-CONT-4241_proof_first_cfo_objection_post_prompts_procurement_delay_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up added 2 concrete READY tasks (P1 revenue + P2 product) to restore autonomous pull-loop floor (>=10 READY/QUEUED/TODO) with owner-assigned acceptance criteria",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
