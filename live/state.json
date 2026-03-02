@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T15:00:07.931496+00:00",
+  "now": "2026-03-02T15:10:06.678312+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4311",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create 5-day late-stage no-decision breaker sprint with daily executive command prompts for top 8 ARR stalls",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines day-by-day command prompts for top 8 ARR stalls, maps objection signatures to owner actions, and includes day3/day5 binary outcome gates with close-probability deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-4311_late_stage_nodecision_breaker_sprint_top8_arr_stalls_2026-03-02.md",
-      "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-4312",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Map covers at least 7 concession scenarios, explicit margin guardrails by tier, trigger conditions, and reply-path CTA options for same-week close recovery.",
       "artifact_path": "office_os/artifacts/P1-REV-4312_procurement_committee_risk_reversal_concession_map_quarter_end_closes_2026-03-02.md",
       "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
+      "updated_at": "2026-03-02T23:07:04.878791+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Spec defines KPIs, thresholds, and alert states for stale-task drift, duplicate reject rates, and owner-balance breaches.",
       "artifact_path": "office_os/artifacts/P4-OPS-4295_hourly_backlog_freshness_duplicate_drift_dashboard_spec_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T22:07:05.919868+08:00",
+      "updated_at": "2026-03-02T23:07:04.878832+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Spec defines freshness decay bands, owner-balance thresholds, auto-correction rules, and reject/repair workflow.",
       "artifact_path": "office_os/artifacts/P4-OPS-4301_autonomous_backlog_topup_freshness_decay_guard_owner_balance_2026-03-02.md",
       "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-02T22:07:05.919863+08:00",
+      "updated_at": "2026-03-02T23:07:04.878828+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Spec defines stale age bands, recycle/retain decision rules, owner rebalance constraints, and audit logging expectations for hourly runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4306_autonomous_stale_ready_task_recycler_age_threshold_owner_rebalance_2026-03-02.md",
       "created_at": "2026-03-02T21:20:00+08:00",
-      "updated_at": "2026-03-02T22:07:05.919858+08:00",
+      "updated_at": "2026-03-02T23:07:04.878823+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Spec defines lane-weight minimums, drift detection thresholds, correction actions, and audit outputs for hourly top-up runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4315_autonomous_backlog_topup_priority_mix_enforcer_2026-03-02.md",
       "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
+      "updated_at": "2026-03-02T23:07:04.878815+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +179,7 @@
       "acceptance": "Checklist defines stale-output thresholds, quarantine actions, fallback artifact routing, and next-run verification criteria for release from quarantine.",
       "artifact_path": "office_os/artifacts/P5-REL-4317_cron_stale_output_auto_quarantine_checklist_revenue_critical_daily_automations_2026-03-02.md",
       "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T22:20:00+08:00",
+      "updated_at": "2026-03-02T23:07:04.878836+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 22:50",
       "owner": "BUILDER",
@@ -398,14 +386,6 @@
       "taskId": "P4-OPS-4257",
       "artifact": "Delivered hourly autonomous backlog top-up validator spec with acceptance-quality lint, duplicate similarity thresholds, owner-balance gates, priority-mix controls, and reject/repair logging contract",
       "path": "office_os/artifacts/P4-OPS-4257_hourly_autonomous_backlog_topup_validator_acceptance_duplicate_guard_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 20:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
