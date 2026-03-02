@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T02:30:06.524339+00:00",
+  "now": "2026-03-02T02:40:11.617130+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4102_procurement_freeze_reversal_offer_ladder_guardrailed_concession_bands_2026-03-02.md"
     },
     {
-      "id": "P2-PROD-4104",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Design first-value rescue command board for day0-day5 onboarding stalls",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board classifies stall signatures, owner routing, SLA clocks, and verification gates that recover first-value within 48h for at-risk cohorts.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4104_first_value_rescue_command_board_day0_day5_onboarding_stalls_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4090",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -205,26 +185,6 @@
       "manual_rank": null,
       "acceptance": "Checklist includes runtime variance thresholds, anomaly signatures, first-response actions, and verification steps.",
       "artifact_path": "office_os/artifacts/P5-REL-4086_cron_execution_variance_early_warning_checklist_revenue_critical_automations_2026-03-02.md"
-    },
-    {
-      "id": "P5-REL-4107",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron run-output integrity verification checklist for revenue-critical jobs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 2,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist validates schedule adherence, artifact freshness, failure fingerprints, and post-recovery verification for critical cron workflows.",
-      "artifact_path": "office_os/artifacts/P5-REL-4107_cron_run_output_integrity_verification_checklist_revenue_critical_jobs_2026-03-02.md"
     }
   ],
   "ship": [
