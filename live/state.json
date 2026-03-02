@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T16:10:06.623489+00:00",
+  "now": "2026-03-02T20:14:03.314626+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,19 +67,19 @@
       ]
     },
     {
-      "id": "P1-REV-4319",
+      "id": "P1-REV-5202",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create redline risk-reversal clause library with margin-safe fallback routes for stalled enterprise negotiations",
+      "title": "Create procurement objection rebuttal battlecards for CFO, legal, and security reviewers",
       "owner": "BUILDER",
       "status": "READY",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
-      "acceptance": "Library contains 12 objection-mapped clause options, margin guardrails by tier, fallback sequencing, and same-call CTA recommendations.",
-      "artifact_path": "office_os/artifacts/P1-REV-4319_redline_risk_reversal_clause_library_margin_safe_fallback_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-03T00:07:03.730925+08:00",
+      "acceptance": "Deliver 9 battlecards with objection fingerprint, quantified proof block, concession guardrail, and same-call CTA ladder.",
+      "artifact_path": "office_os/artifacts/P1-REV-5202_procurement_objection_battlecards_cfo_legal_security_2026-03-03.md",
+      "created_at": "2026-03-03T03:20:00+08:00",
+      "updated_at": "2026-03-03T04:07:03.208077+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -87,19 +87,19 @@
       "manual_rank": null
     },
     {
-      "id": "P2-PROD-4322",
+      "id": "P2-PROD-5206",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Design activation friction kill-list with owner routing and 48h verification gates for enterprise trials",
+      "title": "Create day0-day7 onboarding confidence rescue matrix for telemetry blind spots",
       "owner": "BUILDER",
       "status": "READY",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
-      "acceptance": "Kill-list includes top 15 friction causes, intervention scripts, owner routing, and 48h verification checkpoints.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4322_activation_friction_kill_list_owner_routing_48h_verification_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-03T00:07:03.730938+08:00",
+      "acceptance": "Matrix maps 12 blind-spot signatures to owner actions, fallback evidence paths, and Day7 pass/fail closure criteria.",
+      "artifact_path": "office_os/artifacts/P2-PROD-5206_onboarding_confidence_rescue_matrix_telemetry_blindspots_2026-03-03.md",
+      "created_at": "2026-03-03T03:20:00+08:00",
+      "updated_at": "2026-03-03T04:07:03.208091+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -107,19 +107,19 @@
       "manual_rank": null
     },
     {
-      "id": "P4-OPS-4295",
+      "id": "P4-OPS-5209",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Define hourly backlog freshness + duplicate drift dashboard spec for autonomous runs",
+      "title": "Define autonomous ship-log duplicate entry detector with safe correction protocol",
       "owner": "COMMAND",
       "status": "READY",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
-      "acceptance": "Spec defines KPIs, thresholds, and alert states for stale-task drift, duplicate reject rates, and owner-balance breaches.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4295_hourly_backlog_freshness_duplicate_drift_dashboard_spec_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-03T00:07:03.730953+08:00",
+      "acceptance": "Spec defines duplicate fingerprints, suppression rules, correction actions, and audit output for hourly run integrity.",
+      "artifact_path": "office_os/artifacts/P4-OPS-5209_ship_log_duplicate_detector_safe_corrections_2026-03-03.md",
+      "created_at": "2026-03-03T03:20:00+08:00",
+      "updated_at": "2026-03-03T04:07:03.208096+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -127,59 +127,19 @@
       "manual_rank": null
     },
     {
-      "id": "P4-OPS-4301",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Define autonomous backlog top-up freshness decay guard with owner-balance auto-correction thresholds",
-      "owner": "COMMAND",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Spec defines freshness decay bands, owner-balance thresholds, auto-correction rules, and reject/repair workflow.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4301_autonomous_backlog_topup_freshness_decay_guard_owner_balance_2026-03-02.md",
-      "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-03T00:07:03.730948+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P4-OPS-4324",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Define autonomous backlog lane starvation detector with corrective dispatch rules",
-      "owner": "COMMAND",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Spec defines starvation thresholds, corrective task generation actions, and audit fields for hourly validation.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4324_autonomous_backlog_lane_starvation_detector_corrective_dispatch_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-03T00:07:03.730944+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P5-REL-4317",
+      "id": "P5-REL-5210",
       "project": "P5_RELIABILITY",
       "priority": "P5",
-      "title": "Create cron stale-output auto-quarantine checklist for revenue-critical daily automations",
+      "title": "Create cron run latency anomaly card for growth-critical automations",
       "owner": "EXECUTOR",
       "status": "READY",
       "impact": 3,
       "effort": 1,
       "urgency": 2,
-      "acceptance": "Checklist defines stale-output thresholds, quarantine actions, fallback artifact routing, and next-run verification criteria for release from quarantine.",
-      "artifact_path": "office_os/artifacts/P5-REL-4317_cron_stale_output_auto_quarantine_checklist_revenue_critical_daily_automations_2026-03-02.md",
-      "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-03T00:07:03.730957+08:00",
+      "acceptance": "Card defines latency thresholds, triage fingerprints, fallback handling, and next-run verification closure gates.",
+      "artifact_path": "office_os/artifacts/P5-REL-5210_cron_run_latency_anomaly_card_growth_critical_2026-03-03.md",
+      "created_at": "2026-03-03T03:20:00+08:00",
+      "updated_at": "2026-03-03T04:07:03.208101+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -189,7 +149,7 @@
   ],
   "ship": [
     {
-      "time": "2026-03-03 00:07",
+      "time": "2026-03-03 04:07",
       "owner": "COMMAND",
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
@@ -197,195 +157,195 @@
       "status": "done"
     },
     {
-      "time": "2026-03-03 00:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1840",
-      "artifact": "Added Shift+F crisis hotkey to jump into OFFICE_OS_FRONTEND stale-focus mode with oldest actionable task auto-selected and keyboard shortcut documentation updated for high-pressure triage speed",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 00:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1839",
-      "artifact": "Added Frontend Readiness Proof Capsule with deterministic pass/fail gates (live lock, blocked P0, open queue pressure, ship freshness), plus copy-ready proof brief and one-click recovery pivots for operator readiness audits",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 23:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 23:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-4321",
-      "artifact": "Delivered day0-day7 first-value evidence continuity matrix for telemetry-loss incidents with fallback evidence hierarchy, owner SLA escalation rules, and Day7 pass/fail confidence closure criteria",
-      "path": "office_os/artifacts/P2-PROD-4321_day0_day7_first_value_evidence_continuity_matrix_telemetry_loss_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 23:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4315",
-      "artifact": "Delivered autonomous backlog top-up priority-mix enforcer spec with lane-weight floors, drift severity bands, correction actions, and run-level audit outputs for hourly top-up control",
-      "path": "office_os/artifacts/P4-OPS-4315_autonomous_backlog_topup_priority_mix_enforcer_2026-03-02.md",
-      "status": "done\\n2026-03-02 23:21"
-    },
-    {
-      "time": "2026-03-02 23:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4312",
-      "artifact": "Delivered procurement committee risk-reversal concession map with 8 scenario-specific moves, tiered margin guardrails, trigger logic, and same-week reply-path CTAs for quarter-end close recovery",
-      "path": "office_os/artifacts/P1-REV-4312_procurement_committee_risk_reversal_concession_map_quarter_end_closes_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 23:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1834",
-      "artifact": "Added Investor Trust Capsule with single-line demo verdict, ETA-to-green, trust blocker summary, and one-click actions to open demo gate checks or select the primary operator move",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1833",
-      "artifact": "Upgraded Command Outcome Radar with one-click top-risk task selection so operators can jump straight into the highest-risk actionable item and open Task Detail without manual filter hunting",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-4313",
-      "artifact": "Delivered day0-day7 first-value proof integrity rescue board mapping telemetry failure signatures to owner SLA actions, fallback proof paths, and day7 verification closure criteria with explicit pass/fail outputs",
-      "path": "office_os/artifacts/P2-PROD-4313_day0_day7_first_value_proof_integrity_rescue_board_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4316",
-      "artifact": "Delivered legal-to-procurement 72h unblock command matrix for top 6 redline-stalled enterprise deals with recoverable-ARR ranking, 24h/48h/72h owner+backup actions, and day3 binary close-state verification gates",
-      "path": "office_os/artifacts/P1-REV-4316_legal_to_procurement_72h_unblock_command_matrix_top6_redline_stalls_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1832",
-      "artifact": "Hardened Frontend Maturity Rail with deterministic next-two execution chain and one-click oldest-task selection to enforce stale-first frontend triage during investor-demo preparation",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1831",
-      "artifact": "Upgraded Command Outcome Radar with 60-minute burn projection, explicit P0/unassigned pressure visibility, and one-click triage pivots to risk-owner, P0, and unassigned lanes for faster operator recovery moves",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner-assigned acceptance criteria and immediate executability",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4281",
-      "artifact": "Delivered duplicate fingerprint tuning card with threshold bands, false-positive handling, reject/repair loop, and hourly tuning metrics for top-up anti-duplication reliability",
-      "path": "office_os/artifacts/P4-OPS-4281_autonomous_backlog_topup_duplicate_fingerprint_tuning_card_hourly_runs_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4271",
-      "artifact": "Delivered autonomous backlog top-up dedup preflight card with fingerprint checks, acceptance lint gates, owner-balance guardrails, and reject/repair audit contract for hourly insertion control",
-      "path": "office_os/artifacts/P4-OPS-4271_autonomous_backlog_topup_dedup_preflight_card_owner_balance_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 22:05",
+      "time": "2026-03-03 04:06",
       "owner": "RESEARCH",
-      "taskId": "P1-REV-4303",
-      "artifact": "Delivered 7-day procurement committee decision sprint board for top 10 no-decision enterprise accounts with ARR-weighted ranking, day-by-day stakeholder commands, and mandatory day3/day7 binary decision checkpoints",
-      "path": "office_os/artifacts/P1-REV-4303_procurement_committee_decision_sprint_board_top10_nodecision_accounts_2026-03-02.md",
+      "taskId": "P1-REV-5205",
+      "artifact": "Delivered sub-72h redline turnaround accelerator checklist with clause triage classes, 0-72h execution sprints, escalation ladder, and hard verification gates for procurement closure discipline",
+      "path": "office_os/artifacts/P1-REV-5205_redline_turnaround_accelerator_checklist_sub72h_procurement_closure_2026-03-03.md",
       "status": "done"
     },
     {
-      "time": "2026-03-02 22:08",
+      "time": "2026-03-03 04:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5201",
+      "artifact": "Delivered 14-day executive follow-up strike map for top 12 no-decision enterprise accounts with deterministic ARR-weighted ranking, role-specific command prompts, intervention triggers, and Day3/Day7/Day14 binary outcome gates",
+      "path": "office_os/artifacts/P1-REV-5201_14day_exec_followup_strike_map_top12_nodecision_accounts_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 04:00",
       "owner": "BUILDER",
-      "taskId": "P0-FE-1830",
-      "artifact": "Upgraded Pixel UI frontend triage with oldest-update sort option, deterministic aging-focus behavior, and one-click Select next frontend task from Frontend Maturity Rail into Task Detail",
+      "taskId": "P0-FE-1861",
+      "artifact": "Added command palette demo gate lock/unlock action to mirror sticky gate control and provide deterministic keyboard-driven posture toggling during live recovery flow",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1860",
+      "artifact": "Added Shift+L interruption hotkey to instantly lock/unlock demo gate posture (editable-safe) and updated shortcut docs so operators can freeze or release boardroom gate state without navigation latency",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1859",
+      "artifact": "Added one-click boardroom escalation bundle export (investor update + incident brief + operator handoff) via Shift+E hotkey and sticky Escalation pack action for interruption-time command continuity",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     },
     {
-      "time": "2026-03-02 22:04",
+      "time": "2026-03-03 03:50",
       "owner": "BUILDER",
-      "taskId": "P0-FE-1829",
-      "artifact": "Converted OFFICE_OS_FRONTEND READY-queue exhaustion into explicit deterministic follow-up milestone and resumed pull-loop execution to next unblocked frontend improvement in the same run",
-      "path": "office_os/BACKLOG.json",
+      "taskId": "P0-FE-1858",
+      "artifact": "Hardened sticky action bar with live LOCKED sync posture overlay (Offline/Degraded + GO/RECOVER telemetry) so operators can detect dispatch-safety lock state instantly during boardroom interruption flow",
+      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     },
     {
-      "time": "2026-03-02 21:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4300",
-      "artifact": "Delivered 12 procurement-objection proof snippets optimized for founder voice notes and short clips with objection tags, CTA routing, and keyword-based conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-4300_procurement_objection_proof_snippets_founder_voice_notes_short_clips_2026-03-02.md",
+      "time": "2026-03-03 03:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     },
     {
-      "time": "2026-03-02 21:20",
+      "time": "2026-03-03 03:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5207",
+      "artifact": "Delivered first-value escalation board for procurement-sensitive pilot cohorts with severity tiers, escalation commands, owner/backup routing, and strict 48h recovered/partial/failed verification checkpoints",
+      "path": "office_os/artifacts/P2-PROD-5207_first_value_escalation_board_procurement_sensitive_pilots_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5203",
+      "artifact": "Delivered champion-to-economic-buyer conversion cadence for 10 deals with deterministic H24/H48/H72 command lanes, named owner/backup routing, and explicit reopen/progress/fail closure outcomes to force 72h decision-state clarity",
+      "path": "office_os/artifacts/P1-REV-5203_champion_to_economic_buyer_conversion_cadence_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete priority-weighted owner-assigned acceptance criteria",
+      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignments and concrete acceptance criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-02 21:25"
+      "status": "done"
     },
     {
-      "time": "2026-03-02 21:20",
+      "time": "2026-03-03 03:20",
       "owner": "COMMAND",
-      "taskId": "P2-PROD-4299",
-      "artifact": "Delivered first-week activation risk scoreboard with confidence deterioration alerts, deterministic CSM-to-product handoff commands, and day7 verification closure criteria",
-      "path": "office_os/artifacts/P2-PROD-4299_first_week_activation_risk_scoreboard_confidence_alerts_2026-03-02.md",
+      "taskId": "P5-REL-5008",
+      "artifact": "Delivered cron artifact anomaly triage card with fingerprint taxonomy, 5-minute triage flow, fallback restore paths, and pending_verify closure gates for reliability recovery",
+      "path": "office_os/artifacts/P5-REL-5008_cron_artifact_anomaly_triage_card_fast_fallback_restore_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-5109",
+      "artifact": "Delivered stale-READY sweep protocol with age bands, owner-safe correction rules, deterministic boost ordering, and run-audit output schema for autonomous backlog hygiene",
+      "path": "office_os/artifacts/P4-OPS-5109_stale_ready_sweep_protocol_owner_safe_corrections_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:16",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-5107",
+      "artifact": "Delivered telemetry-loss first-value confidence recovery playbook with incident fingerprints, fallback evidence paths, owner/SLA routing, and strict next-run verification gates",
+      "path": "office_os/artifacts/P2-PROD-5107_first_value_confidence_recovery_playbook_telemetry_loss_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-5102",
+      "artifact": "Delivered 6 one-pager procurement-delay rebuttal pack for CFO/legal with objection-specific proof blocks, concession guardrails, and same-call CTA ladders for deterministic close recovery",
+      "path": "office_os/artifacts/P1-REV-5102_procurement_delay_rebuttal_onepager_pack_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5101",
+      "artifact": "Delivered founder-led 7-day warm-intro conversion sprint for top 15 pipeline accounts with ARR-weighted ranking, intro-source mapping, daily outreach scripts, and Day3/Day7 meeting-booked targets",
+      "path": "office_os/artifacts/P1-REV-5101_founder_led_warm_intro_conversion_sprint_top15_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 03:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5105",
+      "artifact": "Delivered legal-signoff acceleration checklist for enterprise procurement handoffs with packet completeness gates, owner SLA windows, fallback clause order, and signoff-ready output criteria",
+      "path": "office_os/artifacts/P1-REV-5105_legal_signoff_acceleration_checklist_procurement_handoffs_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5106",
+      "artifact": "Delivered Day0-Day5 activation proof-gap triage matrix mapping 12 signature failures to primary/backup owners, SLA timers, escalation thresholds, and Day5 pass/fail closure checks for enterprise pilot confidence control",
+      "path": "office_os/artifacts/P2-PROD-5106_activation_proof_gap_triage_matrix_day0_day5_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5103",
+      "artifact": "Delivered no-decision deal resurrection command ladder ranking top 10 dormant deals by recoverable ARR with deterministic scoring and 24h/48h/72h binary reopen-or-exit gates for rapid pipeline recovery",
+      "path": "office_os/artifacts/P1-REV-5103_nodecision_resurrection_command_ladder_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5108",
+      "artifact": "Delivered 10 founder proof clips for procurement hesitation objections with hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation for short-form deployment",
+      "path": "office_os/artifacts/P3-CONT-5108_founder_proof_clips_procurement_hesitation_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5104",
+      "artifact": "Delivered executive close-risk daily scorecard template with deterministic risk bands, trigger prompts, owner routing matrix, and close-probability delta tracking for founder-led intervention cadence",
+      "path": "office_os/artifacts/P1-REV-5104_exec_close_risk_daily_scorecard_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1853",
+      "artifact": "Added Shift+B hotkey to jump to Boardroom Interruption Workbench and auto-copy live recovery command, plus updated hotkey documentation to reduce response latency during investor interruptions",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 02:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1852",
+      "artifact": "Upgraded Boardroom Interruption Workbench with a deterministic copy-ready recovery command generator (GO/RECOVER-aware, ETA-to-green, blocker counts, primary owner/task, and next checkpoint) for immediate founder dispatch under interruption pressure",
+      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
