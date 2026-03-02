@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T11:00:05.029065+00:00",
+  "now": "2026-03-02T11:10:06.104017+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4272",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build security-cleared procurement stall daily command wall for top 15 active deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Command wall ranks 15 active stalls by recoverable ARR, maps day-by-day owner actions, and includes day3/day7 conversion checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4272_security_cleared_procurement_stall_daily_command_wall_top15_active_deals_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4276",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
+      "updated_at": "2026-03-02T19:07:02.389478+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -107,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4276_procurement_packet_completeness_failfast_checklist_live_close_calls_2026-03-02.md"
     },
     {
-      "id": "P2-PROD-4278",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Design onboarding trust restoration playbook for telemetry-drift incidents",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Playbook defines telemetry-drift severity tiers, rollback/patch commands, owner routing, and next-run trust verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4278_onboarding_trust_restoration_playbook_telemetry_drift_incidents_2026-03-02.md"
-    },
-    {
       "id": "P3-CONT-4279",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -134,7 +94,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
+      "updated_at": "2026-03-02T19:07:02.389496+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "SOCIAL",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
+      "updated_at": "2026-03-02T19:07:02.389490+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T18:07:01.879874+08:00",
+      "updated_at": "2026-03-02T19:07:02.389508+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -194,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T16:16:00+08:00",
-      "updated_at": "2026-03-02T18:07:01.879869+08:00",
+      "updated_at": "2026-03-02T19:07:02.389504+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -214,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T18:07:01.879884+08:00",
+      "updated_at": "2026-03-02T19:07:02.389514+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -234,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
+      "updated_at": "2026-03-02T19:07:02.389500+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -254,7 +214,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
+      "updated_at": "2026-03-02T19:07:02.389519+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 2,
@@ -268,6 +228,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-4278",
+      "artifact": "Delivered onboarding trust restoration playbook for telemetry-drift incidents with severity tiers, rollback/patch command sequence, owner routing matrix, and next-run verification gates for safe closure",
+      "path": "office_os/artifacts/P2-PROD-4278_onboarding_trust_restoration_playbook_telemetry_drift_incidents_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4272",
+      "artifact": "Delivered security-cleared procurement stall daily command wall for top 15 active deals with recoverable-ARR ranking model, day-by-day owner command cadence, escalation rules, and mandatory day-3/day-7 conversion checkpoints",
+      "path": "office_os/artifacts/P1-REV-4272_security_cleared_procurement_stall_daily_command_wall_top15_active_deals_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 18:37",
       "owner": "COMMAND",
@@ -442,30 +426,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 15:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 15:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4254",
-      "artifact": "Delivered legal-to-procurement stall rescue SLA board for sub-72h redline recovery with 24h/48h/72h stall signatures, owner+backup escalation map, fallback clause action ladder, and objective closure verification gates",
-      "path": "office_os/artifacts/P1-REV-4254_legal_to_procurement_stall_rescue_sla_board_sub72h_redline_recovery_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 15:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4256",
-      "artifact": "Delivered 12 proof-first short post prompts for procurement-delay objections with hook-proof-CTA units, objection/channel tagging, and keyword instrumentation for conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-4256_proof_first_short_post_prompts_procurement_delay_objection_windows_2026-03-02.md",
       "status": "done"
     }
   ],
