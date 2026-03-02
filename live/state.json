@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T01:22:13.841728+00:00",
+  "now": "2026-03-02T01:30:05.909161+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4092_multithread_stakeholder_wakeup_sequence_legal_approved_finance_stalled_deals_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4093",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft champion handoff brief template to transfer urgency from operator users to executive buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T09:21:20+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes champion narrative slots, quantified proof inserts, objection preemption blocks, and executive CTA progression.",
-      "artifact_path": "office_os/artifacts/P1-REV-4093_champion_handoff_brief_template_operator_to_executive_buyer_2026-03-02.md"
-    },
-    {
       "id": "P2-PROD-4094",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -145,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Decision tree maps telemetry signatures to intervention paths, owner routing, and verification gates with rollback options.",
       "artifact_path": "office_os/artifacts/P2-PROD-4094_first_week_onboarding_intervention_decision_tree_low_adoption_enterprise_cohorts_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4095",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce objection-to-proof founder micro-content kit for procurement freeze narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T09:21:20+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Kit provides 10 concise hook-proof-CTA units with channel tags, posting cadence, and tracking keywords.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4095_objection_to_proof_founder_micro_content_kit_procurement_freeze_narratives_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4081",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 09:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4095",
+      "artifact": "Delivered procurement-freeze objection-to-proof founder micro-content kit with 10 concise hook-proof-CTA units, channel tags, 7-day posting cadence, and tracking keyword schema for distribution analytics",
+      "path": "office_os/artifacts/P3-CONT-4095_objection_to_proof_founder_micro_content_kit_procurement_freeze_narratives_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 09:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-4093",
+      "artifact": "Delivered champion handoff brief template that transfers urgency from operator users to executive buyers with narrative slots, quantified proof inserts, objection preemption blocks, and staged executive CTA progression",
+      "path": "office_os/artifacts/P1-REV-4093_champion_handoff_brief_template_operator_to_executive_buyer_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 09:21",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up added 10 concrete priority-weighted READY tasks (P1-P5) with owners and executable acceptance criteria to restore autonomous pull-loop depth >=10",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4062",
-      "artifact": "Delivered autonomous artifact acceptance drift monitor with signal thresholds, hourly/daily/weekly sampling cadence, and correction loop for quality recovery under drift",
-      "path": "office_os/artifacts/P4-OPS-4062_autonomous_artifact_acceptance_drift_monitor_weekly_correction_loop_2026-03-02.md",
       "status": "done"
     }
   ],
