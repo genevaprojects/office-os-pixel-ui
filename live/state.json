@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T06:10:04.993864+00:00",
+  "now": "2026-03-02T06:21:26.420716+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-4236",
+      "id": "P1-REV-4244",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Build CFO binary decision packet template with delay-cost scoreboard and same-week close CTA",
-      "owner": "BUILDER",
+      "title": "Create CFO follow-up decision-commitment tracker for deferred procurement-stage deals",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-02T13:20:00+08:00",
-      "updated_at": "2026-03-02T14:07:03.358698+08:00",
+      "created_at": "2026-03-02T14:20:55+08:00",
+      "updated_at": "2026-03-02T14:20:55+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,8 +83,48 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Template provides approve/defer framing, quantified delay-cost table, risk-reversal options, and CTA ladder for same-week decision movement.",
-      "artifact_path": "office_os/artifacts/P1-REV-4236_cfo_binary_decision_packet_template_delay_cost_scoreboard_2026-03-02.md"
+      "acceptance": "Tracker defines commit date, owner, defer reason, quantified risk, and 5-day checkpoint outcomes for top deferred deals.",
+      "artifact_path": "office_os/artifacts/P1-REV-4244_cfo_followup_decision_commitment_tracker_deferred_procurement_stage_deals_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4245",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Design first-value evidence handoff template from CSM to procurement-facing champions",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T14:20:55+08:00",
+      "updated_at": "2026-03-02T14:20:55+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template captures day0-day3 proof events, unresolved risks, owner SLAs, and executive-ready summary for procurement confidence.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4245_first_value_evidence_handoff_template_csm_to_procurement_facing_champions_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4241",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 8 proof-first CFO objection post prompts for procurement-delay narratives",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T14:16:30+08:00",
+      "updated_at": "2026-03-02T14:16:30+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes 8 hook-proof-CTA prompts with objection tags, channel mapping, and keyword tracking.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4241_proof_first_cfo_objection_post_prompts_procurement_delay_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -185,9 +225,81 @@
       "manual_rank": null,
       "acceptance": "Checklist defines owner mix guardrails, acceptance lint checks, and reject criteria for weak top-up tasks in hourly runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4234_backlog_topup_qa_minichecklist_owner_balance_acceptance_lint_2026-03-02.md"
+    },
+    {
+      "id": "P4-OPS-4242",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Create autonomous backlog freshness sweep checklist for hourly worker loops",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-02T14:16:30+08:00",
+      "updated_at": "2026-03-02T14:16:30+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines stale thresholds, prune/refresh actions, and verification gates for hourly backlog hygiene.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4242_autonomous_backlog_freshness_sweep_checklist_hourly_worker_loops_2026-03-02.md"
+    },
+    {
+      "id": "P5-REL-4243",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Draft cron artifact staleness canary card for revenue-critical jobs",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T14:16:30+08:00",
+      "updated_at": "2026-03-02T14:16:30+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 2,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Card includes stale detection thresholds, primary/secondary remediation actions, and next-run verification criteria.",
+      "artifact_path": "office_os/artifacts/P5-REL-4243_cron_artifact_staleness_canary_card_revenue_critical_jobs_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 14:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up added 2 concrete READY tasks (P1 revenue + P2 product) to restore autonomous pull-loop floor (>=10 READY/QUEUED/TODO) with owner-assigned acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:20",
+      "owner": "COMMAND",
+      "taskId": "P2-PROD-4240",
+      "artifact": "Delivered day0-day3 first-value proof audit checklist for enterprise onboarding cohorts with must-have proof events, failure signatures, owner routing matrix, and severity-based recovery SLAs",
+      "path": "office_os/artifacts/P2-PROD-4240_day0_day3_first_value_proof_audit_checklist_enterprise_onboarding_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:20",
+      "owner": "COMMAND",
+      "taskId": "P1-REV-4239",
+      "artifact": "Delivered procurement defer-to-decision recovery worksheet for CFO follow-up calls with defer-reason triage, quantified recovery actions, owner assignment matrix, and 5-day decision checkpoint plan",
+      "path": "office_os/artifacts/P1-REV-4239_procurement_defer_to_decision_recovery_worksheet_cfo_followup_calls_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:17",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1824",
+      "artifact": "Delivered Mission Control copy deck template for Founder Desk snapshots with 20s opener, 2m narrative scaffold, explicit risk callout, and immediate next-command verification block",
+      "path": "office_os/artifacts/P0-FE-1824_mission_control_copy_deck_template_founder_desk_command_snapshots_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 14:07",
       "owner": "COMMAND",
@@ -354,38 +466,6 @@
       "taskId": "P3-CONT-4208",
       "artifact": "Delivered 10 proof-led short post prompts for procurement-freeze reversal narratives with objection mapping, channel tags (LinkedIn/X/Telegram), and keyword instrumentation for conversion tracking",
       "path": "office_os/artifacts/P3-CONT-4208_proof_led_short_post_prompts_procurement_freeze_reversal_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4203",
-      "artifact": "Delivered CFO freeze-risk scoreboard spec with weighted reopen-probability model, ARR-priority index, thresholded intervention triggers, and owner SLA routing for top late-stage freeze accounts",
-      "path": "office_os/artifacts/P1-REV-4203_cfo_freeze_risk_scoreboard_weighted_reopen_probability_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4102",
-      "artifact": "Delivered procurement freeze reversal offer ladder mapping top freeze objections to reversible concession bands, margin guardrails, trigger logic, and 7-day execution cadence for controlled reopen attempts",
-      "path": "office_os/artifacts/P1-REV-4102_procurement_freeze_reversal_offer_ladder_guardrailed_concession_bands_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4105",
-      "artifact": "Delivered 12 objection-led proof microcontent prompts for budget-constrained enterprise buyers with hook-proof-CTA structure, channel tags, objection mapping, and conversion keyword instrumentation",
-      "path": "office_os/artifacts/P3-CONT-4105_objection_led_proof_microcontent_prompts_budget_constrained_enterprise_buyers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4103",
-      "artifact": "Delivered 9-script multi-thread reactivation pack (champion/legal/procurement across nudge→reframe→decision stages) with quantified proof prompts, CTA progression ladder, and reply-rate tracking tags for stalled enterprise threads",
-      "path": "office_os/artifacts/P1-REV-4103_multithread_reactivation_script_pack_stalled_champion_legal_procurement_2026-03-02.md",
       "status": "done"
     }
   ],
