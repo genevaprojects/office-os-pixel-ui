@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T23:21:23.138708+00:00",
+  "now": "2026-03-02T23:30:07.033559+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5244",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder trust-rebuild narrative ladder for legal/security procurement objections across 7 days",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder includes daily angle, proof asset slot, CTA variant, and channel sequencing with conversion keyword map.",
-      "artifact_path": "office_os/artifacts/P1-REV-5244_founder_trust_rebuild_narrative_ladder_7day_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5245",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Pack defines severity lanes, escalation scripts, owner routing, and next-run pass/fail verification requirements.",
       "artifact_path": "office_os/artifacts/P2-PROD-5247_onboarding_confidence_breach_escalation_script_pack_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5248",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof scripts targeting no-decision and committee-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, objection tags, channel map, and conversion keywords for deployment tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5248_shortform_proof_scripts_nodecision_committee_delay_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
       "updated_at": "2026-03-03T07:20:00+08:00",
       "due_at": null,
