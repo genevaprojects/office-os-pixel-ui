@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T10:30:06.532952+00:00",
+  "now": "2026-03-02T10:40:05.391211+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4272_security_cleared_procurement_stall_daily_command_wall_top15_active_deals_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4274",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design legal-procurement redline unblock sprint board for sub-72h closure",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines 24h/48h/72h unblock commands, owner-backup escalation lanes, and objective close-verification gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-4274_legal_procurement_redline_unblock_sprint_board_sub72h_closure_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4276",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -125,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Checklist defines required packet fields, fail-fast reject conditions, fallback clause routing, and pass/fail close-call gates.",
       "artifact_path": "office_os/artifacts/P1-REV-4276_procurement_packet_completeness_failfast_checklist_live_close_calls_2026-03-02.md"
-    },
-    {
-      "id": "P2-PROD-4277",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day5 first-value evidence gap triage board for enterprise onboarding",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps missing evidence signatures to owner actions, SLA windows, and verification checkpoints for confidence recovery.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4277_day0_day5_first_value_evidence_gap_triage_board_enterprise_onboarding_2026-03-02.md"
     },
     {
       "id": "P2-PROD-4278",
@@ -308,6 +268,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 18:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 18:20",
       "owner": "COMMAND",
@@ -498,14 +466,6 @@
       "taskId": "P3-CONT-4256",
       "artifact": "Delivered 12 proof-first short post prompts for procurement-delay objections with hook-proof-CTA units, objection/channel tagging, and keyword instrumentation for conversion tracking",
       "path": "office_os/artifacts/P3-CONT-4256_proof_first_short_post_prompts_procurement_delay_objection_windows_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 15:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4253",
-      "artifact": "Delivered CFO decision compression rebuttal pack with 8 budget-freeze objection blocks, quantified proof prompts, risk-reversal CTA variants, and meeting-conversion keyword instrumentation",
-      "path": "office_os/artifacts/P1-REV-4253_cfo_decision_compression_rebuttal_pack_budget_freeze_late_stage_deals_2026-03-02.md",
       "status": "done"
     }
   ],
