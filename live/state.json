@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T09:22:01.851895+00:00",
+  "now": "2026-03-02T09:30:05.860616+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4267_procurement_redline_objection_to_proof_router_exec_escalation_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4268",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build late-stage champion reactivation strike plan for security-cleared stalled deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Strike plan provides 5-touch outreach sequence, quantified proof inserts, and meeting-booked KPI targets for week-one recovery.",
-      "artifact_path": "office_os/artifacts/P1-REV-4268_late_stage_champion_reactivation_strike_plan_security_cleared_stalls_2026-03-02.md"
-    },
-    {
       "id": "P2-PROD-4269",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -145,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Board defines breach signatures, response owners, SLA windows, and verification gates to restore first-value confidence.",
       "artifact_path": "office_os/artifacts/P2-PROD-4269_day0_day7_activation_trust_breach_triage_board_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4270",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 proof-first procurement objection short scripts for founder outbound",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T17:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack contains 10 hook-proof-CTA scripts with objection tags, channel mapping, and keyword instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4270_proof_first_procurement_objection_short_scripts_founder_outbound_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4234",
