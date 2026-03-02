@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T10:21:43.579502+00:00",
+  "now": "2026-03-02T10:30:06.532952+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4272_security_cleared_procurement_stall_daily_command_wall_top15_active_deals_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4273",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create CFO no-decision reversal brief pack for budget-hold committees in late-stage cycles",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 8 committee-ready rebuttal briefs with quantified proof inserts, risk-reversal CTA options, and reply-path tracking keywords.",
-      "artifact_path": "office_os/artifacts/P1-REV-4273_cfo_no_decision_reversal_brief_pack_budget_hold_committees_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4274",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -125,26 +105,6 @@
       "manual_rank": null,
       "acceptance": "Board defines 24h/48h/72h unblock commands, owner-backup escalation lanes, and objective close-verification gates.",
       "artifact_path": "office_os/artifacts/P1-REV-4274_legal_procurement_redline_unblock_sprint_board_sub72h_closure_2026-03-02.md"
-    },
-    {
-      "id": "P1-REV-4275",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft executive champion rescue script ladder for week-2 silent enterprise opportunities",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T18:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder maps silence signatures to 5-touch script branches, proof-trigger inserts, and meeting-booked KPI targets by day7.",
-      "artifact_path": "office_os/artifacts/P1-REV-4275_executive_champion_rescue_script_ladder_week2_silent_enterprise_opportunities_2026-03-02.md"
     },
     {
       "id": "P1-REV-4276",
