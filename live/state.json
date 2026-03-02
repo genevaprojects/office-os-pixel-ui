@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T13:04:06.632619+00:00",
+  "now": "2026-03-02T13:10:05.150036+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4288",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build CFO legal-risk objection counter deck for security review to procurement handoff calls",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deck includes top 8 legal-risk objections, quantified counterpoints, proof slot checklist, and same-call CTA ladder with day-7 conversion checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4288_cfo_legal_risk_objection_counter_deck_securityreview_to_procurement_handoffs_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-4291",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Kit includes 5 one-page memos with quantified ROI and risk-reversal blocks, objection routing, and decision CTA variants.",
       "artifact_path": "office_os/artifacts/P1-REV-4291_procurement_committee_onepage_risk_reversal_memo_kit_nodecision_accounts_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-4293",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-week activation drift escalation matrix with customer-facing reassurance scripts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix defines drift thresholds, escalation lanes, reassurance scripts per persona, and pass/fail closure criteria by day 7.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4293_first_week_activation_drift_escalation_matrix_reassurance_scripts_2026-03-02.md",
-      "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
+      "updated_at": "2026-03-02T21:07:05.918861+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -134,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T20:07:03.527103+08:00",
+      "updated_at": "2026-03-02T21:07:05.918886+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T20:07:03.527077+08:00",
+      "updated_at": "2026-03-02T21:07:05.918881+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -179,7 +139,7 @@
       "acceptance": "Spec defines KPIs, thresholds, and alert states for stale-task drift, duplicate reject rates, and owner-balance breaches.",
       "artifact_path": "office_os/artifacts/P4-OPS-4295_hourly_backlog_freshness_duplicate_drift_dashboard_spec_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T20:21:20+08:00",
+      "updated_at": "2026-03-02T21:07:05.918876+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 21:06",
+      "owner": "RESEARCH",
+      "taskId": "P2-PROD-4293",
+      "artifact": "Delivered first-week activation drift escalation matrix with green/amber/red thresholds, escalation lanes, persona-specific reassurance scripts, and day-7 pass/fail closure criteria",
+      "path": "office_os/artifacts/P2-PROD-4293_first_week_activation_drift_escalation_matrix_reassurance_scripts_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 21:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4288",
+      "artifact": "Delivered CFO legal-risk objection counter deck with 8 objection rebuttal modules, proof-slot checklist, same-call CTA ladder, and day-7 conversion checkpoints for security-review to procurement handoffs",
+      "path": "office_os/artifacts/P1-REV-4288_cfo_legal_risk_objection_counter_deck_securityreview_to_procurement_handoffs_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 20:21",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1828",
-      "artifact": "Hardened keyboard-only triage with Shift+j/k accelerated traversal, Home/End queue-bound jumps, and hotkey panel parity to keep operator navigation fast, explicit, and discoverable under pressure",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 18:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1827",
-      "artifact": "Upgraded Task Detail rail with filtered-queue position telemetry and deterministic jump controls (next blocked / next P0 action) so operators can cut directly to highest-risk items without losing selected-task or filter context",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 17:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
