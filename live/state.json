@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T00:21:14.606627+00:00",
+  "now": "2026-03-02T00:30:58.725202+00:00",
   "workers": [
     {
       "name": "Research",
@@ -105,46 +105,6 @@
       "manual_rank": null,
       "acceptance": "Matrix maps risk signatures to playbook commands, owner responsibilities, and same-day verification checks.",
       "artifact_path": "office_os/artifacts/P2-PROD-4088_enterprise_onboarding_risk_to_playbook_lookup_matrix_csm_daily_standups_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4084",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce objection-to-proof newsletter block library for stalled procurement narratives",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Library includes 12 reusable objection-proof blocks with CTA intents, tone variants, and campaign tagging schema.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4084_objection_to_proof_newsletter_block_library_stalled_procurement_narratives_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4089",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Draft proof-led executive social post cadence around procurement-cycle wins",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence includes weekly narrative themes, proof anchors, CTA ladder, and KPI tracking tags.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4089_proof_led_executive_social_post_cadence_procurement_cycle_wins_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4080",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4089",
+      "artifact": "Delivered 6-week proof-led executive social cadence around procurement-cycle wins with weekly narrative themes, proof anchors, CTA ladder, and KPI tagging framework for pipeline-attribution tracking",
+      "path": "office_os/artifacts/P3-CONT-4089_proof_led_executive_social_post_cadence_procurement_cycle_wins_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4084",
+      "artifact": "Delivered 12-block objection-to-proof newsletter library for stalled procurement narratives with CTA intents, boardroom/operator/urgent tone variants, and reusable campaign tagging schema for rapid executive deployment",
+      "path": "office_os/artifacts/P3-CONT-4084_objection_to_proof_newsletter_block_library_stalled_procurement_narratives_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 08:20",
       "owner": "BUILDER",
@@ -470,22 +446,6 @@
       "taskId": "P1-REV-4054",
       "artifact": "Delivered top-15 CFO silence recovery command board with ARR-weighted scoring model, intervention-track sequencing (A-D), owner SLA clocks, day-by-day 5-day execution cadence, and 14-day reactivation KPI targets",
       "path": "office_os/artifacts/P1-REV-4054_top15_cfo_silence_recovery_command_board_arr_weighted_intervention_sequencing_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-4060",
-      "artifact": "Delivered onboarding instrumentation gap closure runbook for CSM and product incident lanes with missing-event triage, patch ownership SLAs, verification test pack, and rollback boundaries",
-      "path": "office_os/artifacts/P2-PROD-4060_onboarding_instrumentation_gap_closure_runbook_csm_product_incident_lanes_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 05:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4057",
-      "artifact": "Delivered 72-hour redline rescue war-room operating cadence for top 10 enterprise deals with 24h/48h/72h checkpoints, owner+backup map, escalation trigger matrix, and close/defer verification gates",
-      "path": "office_os/artifacts/P1-REV-4057_72h_redline_rescue_war_room_operating_cadence_top10_enterprise_deals_2026-03-02.md",
       "status": "done"
     }
   ],
