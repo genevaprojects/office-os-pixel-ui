@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T07:00:05.403053+00:00",
+  "now": "2026-03-02T07:10:05.128888+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4244",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create CFO follow-up decision-commitment tracker for deferred procurement-stage deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T14:20:55+08:00",
-      "updated_at": "2026-03-02T14:20:55+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Tracker defines commit date, owner, defer reason, quantified risk, and 5-day checkpoint outcomes for top deferred deals.",
-      "artifact_path": "office_os/artifacts/P1-REV-4244_cfo_followup_decision_commitment_tracker_deferred_procurement_stage_deals_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4090",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -94,7 +74,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T14:07:03.358720+08:00",
+      "updated_at": "2026-03-02T15:07:06.885545+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T14:07:03.358726+08:00",
+      "updated_at": "2026-03-02T15:07:06.885550+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T14:07:03.358730+08:00",
+      "updated_at": "2026-03-02T15:07:06.885554+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T12:15:00+08:00",
-      "updated_at": "2026-03-02T14:07:03.358710+08:00",
+      "updated_at": "2026-03-02T15:07:06.885526+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T13:15:00+08:00",
-      "updated_at": "2026-03-02T14:07:03.358716+08:00",
+      "updated_at": "2026-03-02T15:07:06.885540+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T14:16:30+08:00",
-      "updated_at": "2026-03-02T14:16:30+08:00",
+      "updated_at": "2026-03-02T15:07:06.885559+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -208,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 15:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 15:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4244",
+      "artifact": "Delivered CFO follow-up decision-commitment tracker for deferred procurement-stage deals with commit-date ownership, defer-reason accountability, quantified 0-100 risk scoring, and Day1/Day3/Day5 checkpoint outcomes to force decision clarity and escalation discipline",
+      "path": "office_os/artifacts/P1-REV-4244_cfo_followup_decision_commitment_tracker_deferred_procurement_stage_deals_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 14:37",
       "owner": "COMMAND",
@@ -390,22 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-4207",
-      "artifact": "Delivered onboarding confidence guarantee framework for procurement-frozen enterprise opportunities with guarantee scope boundaries, eligibility gates, owner accountability model, escalation ladder, and day0-day14 verification checkpoints",
-      "path": "office_os/artifacts/P2-PROD-4207_onboarding_confidence_guarantee_framework_procurement_frozen_enterprise_opps_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-4204",
-      "artifact": "Delivered legal-safe concession clause menu for procurement-freeze recovery with scenario-mapped clause options, prohibited term guardrails, approval-gate matrix, and fallback language library to preserve term-sheet integrity while accelerating close progression",
-      "path": "office_os/artifacts/P1-REV-4204_legal_safe_concession_clause_menu_freeze_recovery_2026-03-02.md",
       "status": "done"
     }
   ],
