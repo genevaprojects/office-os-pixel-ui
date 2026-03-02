@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T09:00:04.853253+00:00",
+  "now": "2026-03-02T09:10:08.011344+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4264",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft procurement-freeze executive rebuttal matrix for top 6 CFO objections in committee reviews",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T16:21:37+08:00",
-      "updated_at": "2026-03-02T16:21:37+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps 6 CFO objections to quantified rebuttals, proof inserts, owner routing, and 7-day conversion checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4264_draft_procurement_freeze_executive_rebuttal_matrix_for_top_6_cfo_objections_in_committee_reviews_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4265",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T16:21:37+08:00",
-      "updated_at": "2026-03-02T16:21:37+08:00",
+      "updated_at": "2026-03-02T17:07:03.882625+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T16:07:03.855458+08:00",
+      "updated_at": "2026-03-02T17:07:03.882652+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T16:07:03.855462+08:00",
+      "updated_at": "2026-03-02T17:07:03.882656+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T13:15:00+08:00",
-      "updated_at": "2026-03-02T16:07:03.855452+08:00",
+      "updated_at": "2026-03-02T17:07:03.882647+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T14:16:30+08:00",
-      "updated_at": "2026-03-02T16:07:03.855466+08:00",
+      "updated_at": "2026-03-02T17:07:03.882660+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T16:07:03.855446+08:00",
+      "updated_at": "2026-03-02T17:07:03.882643+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -214,7 +194,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T16:16:00+08:00",
-      "updated_at": "2026-03-02T16:16:00+08:00",
+      "updated_at": "2026-03-02T17:07:03.882638+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -228,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 17:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 16:37",
       "owner": "COMMAND",
@@ -418,14 +406,6 @@
       "taskId": "P1-REV-4235",
       "artifact": "Delivered 72-hour procurement restart war-room script for top 6 ARR-frozen deals with hour-by-hour execution agenda, stakeholder speaking points, objection-to-proof routing, command templates, and measurable restart KPI dashboard",
       "path": "office_os/artifacts/P1-REV-4235_procurement_restart_war_room_script_top6_arr_frozen_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1823",
-      "artifact": "Added Frontend Maturity Rail in Pixel UI operator flow with OFFICE_OS_FRONTEND reliability scoring, open/blocked/P0 visibility, latest frontend ship context, and one-click queue-focus/copy-brief actions",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
