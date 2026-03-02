@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T23:30:07.033559+00:00",
+  "now": "2026-03-02T23:40:05.156065+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5243",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design no-decision forced-outcome operating cadence for top 15 dormant opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Cadence defines 24h/48h/72h moves, owner backups, binary reopen/closeout gates, and recoverable ARR ranking.",
-      "artifact_path": "office_os/artifacts/P1-REV-5243_nodecision_forced_outcome_operating_cadence_top15_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5245",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Template contains risk signatures, intervention triggers, stakeholder-specific scripts, and save-threshold probability deltas by week.",
       "artifact_path": "office_os/artifacts/P1-REV-5245_enterprise_pilot_saveplan_template_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5246",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day14 activation proof continuity map for partial telemetry-loss cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Map links telemetry-loss signatures to owner actions, SLA timers, fallback evidence paths, and closure verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5246_activation_proof_continuity_map_day0_day14_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
       "updated_at": "2026-03-03T07:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 07:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5246",
+      "artifact": "Delivered day0-day14 activation proof continuity map for partial telemetry-loss cohorts with signature-based routing, SLA owner actions, fallback evidence paths, and closure verification gates",
+      "path": "office_os/artifacts/P2-PROD-5246_activation_proof_continuity_map_day0_day14_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5243",
+      "artifact": "Delivered no-decision forced-outcome operating cadence for top 15 dormant opportunities with deterministic recoverable-ARR ranking, 24h/48h/72h owner-backup execution lanes, and mandatory binary reopen/closeout gates",
+      "path": "office_os/artifacts/P1-REV-5243_nodecision_forced_outcome_operating_cadence_top15_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 07:20",
       "owner": "COMMAND",
@@ -402,30 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1865",
-      "artifact": "Added full deadline-wave bundle queue action in Founder Desk to dispatch wave patch + due-soon sweep + aged-decision cleanup as one deterministic command under existing safety lock constraints",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1864",
-      "artifact": "Added investor interruption handoff bundle export in Overview to one-copy gate verdict + interruption script + narration consistency + primary action for interruption-time boardroom recovery",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
