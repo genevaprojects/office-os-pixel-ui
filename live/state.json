@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T07:21:50.524044+00:00",
+  "now": "2026-03-02T07:30:05.569106+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4252_procurement_freeze_revival_command_board_top10_arr_weighted_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4253",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft CFO decision compression rebuttal pack for budget-freeze objections in late-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T15:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 8 objection-specific rebuttal blocks with quantified proof prompts, risk-reversal CTA variants, and meeting-conversion keywords.",
-      "artifact_path": "office_os/artifacts/P1-REV-4253_cfo_decision_compression_rebuttal_pack_budget_freeze_late_stage_deals_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4254",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -145,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Map defines confidence breach signatures, owner routing, intervention commands, SLA windows, and pass/fail verification criteria for recovery.",
       "artifact_path": "office_os/artifacts/P2-PROD-4255_day0_day5_first_value_confidence_breach_triage_map_enterprise_onboarding_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4256",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first short post prompts for procurement-delay objection windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T15:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Prompt pack contains 12 hook-proof-CTA units tagged by objection type/channel with keyword instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4256_proof_first_short_post_prompts_procurement_delay_objection_windows_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 15:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4256",
+      "artifact": "Delivered 12 proof-first short post prompts for procurement-delay objections with hook-proof-CTA units, objection/channel tagging, and keyword instrumentation for conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-4256_proof_first_short_post_prompts_procurement_delay_objection_windows_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 15:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-4253",
+      "artifact": "Delivered CFO decision compression rebuttal pack with 8 budget-freeze objection blocks, quantified proof prompts, risk-reversal CTA variants, and meeting-conversion keyword instrumentation",
+      "path": "office_os/artifacts/P1-REV-4253_cfo_decision_compression_rebuttal_pack_budget_freeze_late_stage_deals_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 15:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up to keep READY/QUEUED/TODO inventory at or above 10 with concrete priority-weighted owner-assigned tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 12:21",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-4221",
-      "artifact": "Delivered legal-procurement fastlane evidence packet checklist for security-cleared accounts with mandatory packet gates, fallback clause ladder, and T+0/T+24/T+48/T+72 SLA clock for sub-72h progression",
-      "path": "office_os/artifacts/P1-REV-4221_legal_procurement_fastlane_evidence_packet_checklist_security_cleared_accounts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 12:21",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-4220",
-      "artifact": "Delivered CFO re-approval counterfactual brief template for frozen late-stage deals with approve-vs-delay framing, delay-cost decision math, objection-proof mapping, and 24h binary decision sequence",
-      "path": "office_os/artifacts/P1-REV-4220_cfo_reapproval_counterfactual_brief_template_frozen_late_stage_deals_2026-03-02.md",
       "status": "done"
     }
   ],
