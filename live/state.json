@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T21:50:04.992193+00:00",
+  "now": "2026-03-02T22:00:07.293111+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-03 05:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1869",
+      "artifact": "Added Continuity Failure Drill Pack in Team view with failover ETA and one-click copy for drill-only or drill+boardroom bundle to harden interruption-time staffing response",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 05:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1868",
+      "artifact": "Added Confidence Delta Strip in Mission Control Overview with snapshot-to-snapshot confidence/trust/speed deltas and copy-ready brief to tighten investor drift narration under pressure",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-03 05:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P2-PROD-5207",
       "artifact": "Delivered first-value escalation board for procurement-sensitive pilot cohorts with severity tiers, escalation commands, owner/backup routing, and strict 48h recovered/partial/failed verification checkpoints",
       "path": "office_os/artifacts/P2-PROD-5207_first_value_escalation_board_procurement_sensitive_pilots_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5203",
-      "artifact": "Delivered champion-to-economic-buyer conversion cadence for 10 deals with deterministic H24/H48/H72 command lanes, named owner/backup routing, and explicit reopen/progress/fail closure outcomes to force 72h decision-state clarity",
-      "path": "office_os/artifacts/P1-REV-5203_champion_to_economic_buyer_conversion_cadence_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignments and concrete acceptance criteria",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
