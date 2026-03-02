@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T14:50:04.986105+00:00",
+  "now": "2026-03-02T15:00:07.931496+00:00",
   "workers": [
     {
       "name": "Research",
@@ -209,6 +209,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-02 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1834",
+      "artifact": "Added Investor Trust Capsule with single-line demo verdict, ETA-to-green, trust blocker summary, and one-click actions to open demo gate checks or select the primary operator move",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1833",
+      "artifact": "Upgraded Command Outcome Radar with one-click top-risk task selection so operators can jump straight into the highest-risk actionable item and open Task Detail without manual filter hunting",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-02 22:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -390,22 +406,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 20:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4283",
-      "artifact": "Delivered one-page procurement committee ROI defense card with 6 objection counters, quantified ROI field model, risk-reversal options, and same-call close CTA ladder for quarter-freeze objections",
-      "path": "office_os/artifacts/P1-REV-4283_procurement_committee_onepage_roi_defense_card_quarter_freeze_objections_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-4282",
-      "artifact": "Delivered cron artifact freshness exception handoff checklist for revenue-critical workflows with stale trigger rules, escalation route, remediation sequence, evidence capture, and next-run closure verification gate",
-      "path": "office_os/artifacts/P5-REL-4282_cron_artifact_freshness_exception_handoff_checklist_revenue_critical_workflows_2026-03-02.md",
       "status": "done"
     }
   ],
