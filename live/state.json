@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T02:21:38.945117+00:00",
+  "now": "2026-03-02T02:30:06.524339+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4102_procurement_freeze_reversal_offer_ladder_guardrailed_concession_bands_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4103",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft multi-thread reactivation script pack for stalled champion/legal/procurement threads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes at least 9 scripts (3 personas x 3 stages) with quantified proof prompts, CTA progression, and reply-rate tracking tags.",
-      "artifact_path": "office_os/artifacts/P1-REV-4103_multithread_reactivation_script_pack_stalled_champion_legal_procurement_2026-03-02.md"
-    },
-    {
       "id": "P2-PROD-4104",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -145,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Board classifies stall signatures, owner routing, SLA clocks, and verification gates that recover first-value within 48h for at-risk cohorts.",
       "artifact_path": "office_os/artifacts/P2-PROD-4104_first_value_rescue_command_board_day0_day5_onboarding_stalls_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4105",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 objection-led proof microcontent prompts for budget-constrained enterprise buyers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T10:20:52+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Prompt set delivers 12 hook-proof-CTA units with channel tags, objection mapping, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4105_objection_led_proof_microcontent_prompts_budget_constrained_enterprise_buyers_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4105",
+      "artifact": "Delivered 12 objection-led proof microcontent prompts for budget-constrained enterprise buyers with hook-proof-CTA structure, channel tags, objection mapping, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-4105_objection_led_proof_microcontent_prompts_budget_constrained_enterprise_buyers_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-4103",
+      "artifact": "Delivered 9-script multi-thread reactivation pack (champion/legal/procurement across nudge→reframe→decision stages) with quantified proof prompts, CTA progression ladder, and reply-rate tracking tags for stalled enterprise threads",
+      "path": "office_os/artifacts/P1-REV-4103_multithread_reactivation_script_pack_stalled_champion_legal_procurement_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 10:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Refilled backlog when runnable queue dropped below threshold by adding 10 concrete owner-assigned tasks with acceptance criteria to restore autonomous pull-loop continuity",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4075",
-      "artifact": "Delivered weekly procurement-cycle compression KPI scoreboard template with stage-time baselines, WoW delta tracking, at-risk deal alerts, and owner-level intervention prompts for exec actioning",
-      "path": "office_os/artifacts/P1-REV-4075_procurement_cycle_compression_kpi_scoreboard_template_weekly_exec_reviews_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
