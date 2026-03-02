@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T03:30:05.271062+00:00",
+  "now": "2026-03-02T03:40:04.711575+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4204",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft legal-safe concession clause menu for freeze recovery without term-sheet erosion",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T11:15:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Menu maps freeze scenarios to legal-safe concession clauses with prohibited terms list, approval gates, and fallback language.",
-      "artifact_path": "office_os/artifacts/P1-REV-4204_legal_safe_concession_clause_menu_freeze_recovery_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4205",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -145,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Insert template includes first-value milestones, telemetry proof requirements, and intervention promises tied to freeze-risk objections.",
       "artifact_path": "office_os/artifacts/P2-PROD-4206_first_value_assurance_insert_freeze_revival_proposals_enterprise_pilots_2026-03-02.md"
-    },
-    {
-      "id": "P2-PROD-4207",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft onboarding confidence guarantee framework for procurement-frozen enterprise opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T11:15:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Framework defines confidence guarantee scope, eligibility gates, owner responsibilities, and verification checkpoints for frozen opportunities.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4207_onboarding_confidence_guarantee_framework_procurement_frozen_enterprise_opps_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4207",
+      "artifact": "Delivered onboarding confidence guarantee framework for procurement-frozen enterprise opportunities with guarantee scope boundaries, eligibility gates, owner accountability model, escalation ladder, and day0-day14 verification checkpoints",
+      "path": "office_os/artifacts/P2-PROD-4207_onboarding_confidence_guarantee_framework_procurement_frozen_enterprise_opps_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4204",
+      "artifact": "Delivered legal-safe concession clause menu for procurement-freeze recovery with scenario-mapped clause options, prohibited term guardrails, approval-gate matrix, and fallback language library to preserve term-sheet integrity while accelerating close progression",
+      "path": "office_os/artifacts/P1-REV-4204_legal_safe_concession_clause_menu_freeze_recovery_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 11:26",
       "owner": "SOCIAL",
@@ -450,22 +426,6 @@
       "taskId": "P2-PROD-4083",
       "artifact": "Delivered first-value instrumentation breach postmortem template for enterprise onboarding incidents with incident timeline, signal-loss root-cause workflow, ownership SLA handoff grid, preventive control registry, and closure verification gates",
       "path": "office_os/artifacts/P2-PROD-4083_first_value_instrumentation_breach_postmortem_template_enterprise_onboarding_incidents_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4089",
-      "artifact": "Delivered 6-week proof-led executive social cadence around procurement-cycle wins with weekly narrative themes, proof anchors, CTA ladder, and KPI tagging framework for pipeline-attribution tracking",
-      "path": "office_os/artifacts/P3-CONT-4089_proof_led_executive_social_post_cadence_procurement_cycle_wins_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 08:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4084",
-      "artifact": "Delivered 12-block objection-to-proof newsletter library for stalled procurement narratives with CTA intents, boardroom/operator/urgent tone variants, and reusable campaign tagging schema for rapid executive deployment",
-      "path": "office_os/artifacts/P3-CONT-4084_objection_to_proof_newsletter_block_library_stalled_procurement_narratives_2026-03-02.md",
       "status": "done"
     }
   ],
