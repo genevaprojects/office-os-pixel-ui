@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T06:00:07.341502+00:00",
+  "now": "2026-03-02T06:10:04.993864+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4235",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create 72-hour procurement restart war-room script for top 6 ARR-frozen deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T13:20:00+08:00",
-      "updated_at": "2026-03-02T13:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Script includes hour-by-hour agenda, stakeholder speaking points, objection-to-proof mapping, and measurable restart KPIs for 72h execution.",
-      "artifact_path": "office_os/artifacts/P1-REV-4235_procurement_restart_war_room_script_top6_arr_frozen_deals_2026-03-02.md"
-    },
-    {
       "id": "P1-REV-4236",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T13:20:00+08:00",
-      "updated_at": "2026-03-02T13:20:00+08:00",
+      "updated_at": "2026-03-02T14:07:03.358698+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T13:07:03.209407+08:00",
+      "updated_at": "2026-03-02T14:07:03.358720+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T13:07:03.209414+08:00",
+      "updated_at": "2026-03-02T14:07:03.358726+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T13:07:03.209419+08:00",
+      "updated_at": "2026-03-02T14:07:03.358730+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T12:15:00+08:00",
-      "updated_at": "2026-03-02T13:07:03.209392+08:00",
+      "updated_at": "2026-03-02T14:07:03.358710+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T13:15:00+08:00",
-      "updated_at": "2026-03-02T13:15:00+08:00",
+      "updated_at": "2026-03-02T14:07:03.358716+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -208,6 +188,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4235",
+      "artifact": "Delivered 72-hour procurement restart war-room script for top 6 ARR-frozen deals with hour-by-hour execution agenda, stakeholder speaking points, objection-to-proof routing, command templates, and measurable restart KPI dashboard",
+      "path": "office_os/artifacts/P1-REV-4235_procurement_restart_war_room_script_top6_arr_frozen_deals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1823",
+      "artifact": "Added Frontend Maturity Rail in Pixel UI operator flow with OFFICE_OS_FRONTEND reliability scoring, open/blocked/P0 visibility, latest frontend ship context, and one-click queue-focus/copy-brief actions",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 14:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1822",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-queue exhaustion into an explicit deterministic follow-up milestone so autonomous frontend pull-runs keep progressing without ambiguity when no READY tasks remain",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 13:37",
       "owner": "COMMAND",
@@ -374,38 +386,6 @@
       "taskId": "P1-REV-4103",
       "artifact": "Delivered 9-script multi-thread reactivation pack (champion/legal/procurement across nudge→reframe→decision stages) with quantified proof prompts, CTA progression ladder, and reply-rate tracking tags for stalled enterprise threads",
       "path": "office_os/artifacts/P1-REV-4103_multithread_reactivation_script_pack_stalled_champion_legal_procurement_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete priority-weighted, owner-assigned acceptance criteria for continued autonomous pull-loop execution",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4085",
-      "artifact": "Delivered weekly backlog freshness burn-down dashboard spec with stale-age thresholds, owner SLA routing logic, alert bands, and recovery queue contract for faster queue decongestion",
-      "path": "office_os/artifacts/P4-OPS-4085_weekly_backlog_freshness_burndown_dashboard_spec_owner_sla_alerts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4081",
-      "artifact": "Delivered artifact acceptance drift detector checklist with sampling rules, pass/fail gates, and remediation loop to catch run-to-run quality regression before backlog contamination",
-      "path": "office_os/artifacts/P4-OPS-4081_artifact_acceptance_drift_detector_checklist_autonomous_workers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4091",
-      "artifact": "Delivered procurement delay ROI rebuttal calculator script with live input schema, delay-cost formulas, objection-to-counter mapping, and a call-ready 90-second CFO close narrative template for binary decision framing",
-      "path": "office_os/artifacts/P1-REV-4091_procurement_delay_roi_rebuttal_calculator_script_live_cfo_calls_2026-03-02.md",
       "status": "done"
     }
   ],
