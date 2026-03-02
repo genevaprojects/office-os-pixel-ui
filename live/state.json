@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T05:30:06.892401+00:00",
+  "now": "2026-03-02T05:40:04.937359+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4236_cfo_binary_decision_packet_template_delay_cost_scoreboard_2026-03-02.md"
     },
     {
-      "id": "P2-PROD-4237",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft day0-day5 pilot confidence rescue checklist for procurement-sensitive enterprise onboarding",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T13:20:00+08:00",
-      "updated_at": "2026-03-02T13:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines confidence signals, owner actions, escalation windows, and pass/fail verification gates for day0-day5 first-value assurance.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4237_day0_day5_pilot_confidence_rescue_checklist_procurement_sensitive_enterprise_onboarding_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4090",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -225,29 +205,17 @@
       "manual_rank": null,
       "acceptance": "Checklist defines owner mix guardrails, acceptance lint checks, and reject criteria for weak top-up tasks in hourly runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4234_backlog_topup_qa_minichecklist_owner_balance_acceptance_lint_2026-03-02.md"
-    },
-    {
-      "id": "P5-REL-4086",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron execution variance early-warning checklist for revenue-critical automations",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T13:07:03.209429+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 2,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist includes runtime variance thresholds, anomaly signatures, first-response actions, and verification steps.",
-      "artifact_path": "office_os/artifacts/P5-REL-4086_cron_execution_variance_early_warning_checklist_revenue_critical_automations_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 13:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 13:20",
       "owner": "COMMAND",
@@ -438,14 +406,6 @@
       "taskId": "P1-REV-4091",
       "artifact": "Delivered procurement delay ROI rebuttal calculator script with live input schema, delay-cost formulas, objection-to-counter mapping, and a call-ready 90-second CFO close narrative template for binary decision framing",
       "path": "office_os/artifacts/P1-REV-4091_procurement_delay_roi_rebuttal_calculator_script_live_cfo_calls_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
