@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T22:00:07.293111+00:00",
+  "now": "2026-03-02T22:10:07.565929+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5221",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 5-day CFO committee conversion strike plan for top 10 procurement-frozen deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Plan defines day-by-day owner commands, proof inserts, and Day3/Day5 conversion gates with recoverable ARR ordering.",
-      "artifact_path": "office_os/artifacts/P1-REV-5221_cfo_committee_conversion_strike_plan_2026-03-03.md",
-      "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5222",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Library contains 12 rebuttal blocks mapped to redline signatures with concession guardrails and same-call CTA routes.",
       "artifact_path": "office_os/artifacts/P1-REV-5222_legal_redline_fastturn_rebuttal_block_library_2026-03-03.md",
       "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5225",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft no-decision deal rescue scoreboard with 7-day forced-outcome cadence",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Scoreboard prioritizes top 12 stalled deals, assigns owner actions by day, and enforces Day3/Day7 close-state verification.",
-      "artifact_path": "office_os/artifacts/P1-REV-5225_nodecision_rescue_scoreboard_forced_outcome_2026-03-03.md",
-      "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
+      "updated_at": "2026-03-03T06:07:05.731937+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Playbook defines severity tiers, intervention scripts, owner routing, and 24h/48h verification closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5227_onboarding_confidence_sla_breach_triage_playbook_2026-03-03.md",
       "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
+      "updated_at": "2026-03-03T06:07:05.731949+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Calendar provides daily angle, proof asset requirement, CTA variant, and distribution sequence by channel.",
       "artifact_path": "office_os/artifacts/P3-CONT-5229_exec_narrative_calendar_nodecision_recovery_week_2026-03-03.md",
       "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
+      "updated_at": "2026-03-03T06:07:05.731954+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Watchdog spec sets freshness thresholds, corrective nudges, WIP-safe constraints, and hourly audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-5230_ready_lane_freshness_watchdog_owner_safe_nudges_2026-03-03.md",
       "created_at": "2026-03-03T05:20:00+08:00",
-      "updated_at": "2026-03-03T05:20:00+08:00",
+      "updated_at": "2026-03-03T06:07:05.731959+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 06:08",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1871",
+      "artifact": "Added Demo Validation Console with deterministic render/readability/responsiveness/control-state checks, one-click hardening, and copy-ready QA report for fast boardroom readiness proof",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1870",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane exhaustion into explicit autonomous continuity milestone and immediately resumed same-run frontend execution without prompting",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 05:50",
       "owner": "BUILDER",
@@ -362,30 +346,6 @@
       "taskId": "P0-FE-1859",
       "artifact": "Added one-click boardroom escalation bundle export (investor update + incident brief + operator handoff) via Shift+E hotkey and sticky Escalation pack action for interruption-time command continuity",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1858",
-      "artifact": "Hardened sticky action bar with live LOCKED sync posture overlay (Offline/Degraded + GO/RECOVER telemetry) so operators can detect dispatch-safety lock state instantly during boardroom interruption flow",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 03:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5207",
-      "artifact": "Delivered first-value escalation board for procurement-sensitive pilot cohorts with severity tiers, escalation commands, owner/backup routing, and strict 48h recovered/partial/failed verification checkpoints",
-      "path": "office_os/artifacts/P2-PROD-5207_first_value_escalation_board_procurement_sensitive_pilots_2026-03-03.md",
       "status": "done"
     }
   ],
