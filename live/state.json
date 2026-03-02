@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T05:21:45.413577+00:00",
+  "now": "2026-03-02T05:30:06.892401+00:00",
   "workers": [
     {
       "name": "Research",
@@ -125,26 +125,6 @@
       "manual_rank": null,
       "acceptance": "Checklist defines confidence signals, owner actions, escalation windows, and pass/fail verification gates for day0-day5 first-value assurance.",
       "artifact_path": "office_os/artifacts/P2-PROD-4237_day0_day5_pilot_confidence_rescue_checklist_procurement_sensitive_enterprise_onboarding_2026-03-02.md"
-    },
-    {
-      "id": "P3-CONT-4238",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first micro-post hooks targeting procurement freeze objections and budget stall narratives",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T13:20:00+08:00",
-      "updated_at": "2026-03-02T13:20:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack contains 12 hook-proof-CTA units with channel tags, objection mapping, and KPI keywords for rapid publishing.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4238_proof_first_micro_post_hooks_procurement_freeze_budget_stall_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
