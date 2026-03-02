@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T23:00:06.052095+00:00",
+  "now": "2026-03-02T23:10:04.758839+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5231",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 expansion trigger radar for championed accounts entering budget reallocation windows",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Radar ranks accounts by expansion ARR probability and defines Day2/Day5 owner commands with reopen and meeting-booked gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5231_expansion_trigger_radar_budget_reallocation_windows_2026-03-03.md",
-      "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5232",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Battlecards include 9 objection branches, quantified proof slots, concession guardrails, and same-call CTA paths.",
       "artifact_path": "office_os/artifacts/P1-REV-5232_procurement_objection_rebuttal_battlecards_2026-03-03.md",
       "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5235",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce enterprise pilot renewal risk heatmap with intervention triggers by week and stakeholder",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap identifies top churn-risk pilots, owner interventions, and week-by-week save thresholds with renewal probability deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-5235_pilot_renewal_risk_heatmap_intervention_triggers_2026-03-03.md",
-      "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
+      "updated_at": "2026-03-03T07:07:03.614918+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Checklist maps evidence-gap signatures to owner actions, SLA timers, fallback proof paths, and next-run closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5236_first_value_evidence_gap_closure_checklist_2026-03-03.md",
       "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
+      "updated_at": "2026-03-03T07:07:03.614932+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Linter defines stale thresholds, anomaly fingerprints, correction recommendations, and hourly audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-5239_task_age_anomaly_linter_backlog_freshness_2026-03-03.md",
       "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
+      "updated_at": "2026-03-03T07:07:03.614943+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines freshness thresholds, schema checks, remediation sequence, and pending_verify to resolved closure gates.",
       "artifact_path": "office_os/artifacts/P5-REL-5240_cron_artifact_freshness_verification_card_2026-03-03.md",
       "created_at": "2026-03-03T06:21:20+08:00",
-      "updated_at": "2026-03-03T06:21:20+08:00",
+      "updated_at": "2026-03-03T07:07:03.614938+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 06:35",
       "owner": "EXECUTOR",
@@ -378,14 +346,6 @@
       "taskId": "P2-PROD-5206",
       "artifact": "Delivered Day0-Day7 onboarding confidence rescue matrix mapping 12 telemetry blind-spot signatures to owner actions, fallback evidence paths, and objective closure gates",
       "path": "office_os/artifacts/P2-PROD-5206_onboarding_confidence_rescue_matrix_telemetry_blindspots_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 04:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5202",
-      "artifact": "Delivered 9 procurement objection rebuttal battlecards for CFO/legal/security with objection fingerprints, quantified proof placeholders, concession guardrails, and same-call CTA ladders",
-      "path": "office_os/artifacts/P1-REV-5202_procurement_objection_battlecards_cfo_legal_security_2026-03-03.md",
       "status": "done"
     }
   ],
