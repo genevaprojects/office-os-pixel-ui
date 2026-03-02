@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T04:21:29.555040+00:00",
+  "now": "2026-03-02T04:30:07.420013+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4226",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 5-touch CFO reopen sequence for counterfactual briefs with meeting-conversion triggers",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines 5 timed touches, objection-specific proof inserts, and reply-to-meeting conversion triggers for frozen late-stage deals.",
-      "artifact_path": null
-    },
-    {
       "id": "P2-PROD-4222",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -121,26 +103,6 @@
       "manual_rank": null,
       "acceptance": "Template includes mandatory proof metrics, owner routing, and pass/fail gates for day7 first-value confidence signoff.",
       "artifact_path": null
-    },
-    {
-      "id": "P3-CONT-4223",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 8 proof-first founder post prompts for budget-freeze objections with CTA variants",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-02T12:15:00+08:00",
-      "updated_at": "2026-03-02T12:15:00+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 8 hook-proof-CTA units, objection mapping, channel tags, and keyword instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4223_proof_first_founder_post_prompts_budget_freeze_objections_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -284,6 +246,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4223",
+      "artifact": "Delivered 8 proof-first founder post prompts for budget-freeze objections with hook-proof-CTA units, channel tags, and keyword instrumentation for conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-4223_proof_first_founder_post_prompts_budget_freeze_objections_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-4226",
+      "artifact": "Delivered 5-touch CFO reopen sequence for counterfactual briefs with timed outreach, objection-specific proof inserts, and reply-to-meeting conversion triggers for frozen late-stage deals",
+      "path": "office_os/artifacts/P1-REV-4226_cfo_reopen_sequence_counterfactual_briefs_meeting_conversion_triggers_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 12:21",
       "owner": "COMMAND",
@@ -466,22 +444,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 09:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4095",
-      "artifact": "Delivered procurement-freeze objection-to-proof founder micro-content kit with 10 concise hook-proof-CTA units, channel tags, 7-day posting cadence, and tracking keyword schema for distribution analytics",
-      "path": "office_os/artifacts/P3-CONT-4095_objection_to_proof_founder_micro_content_kit_procurement_freeze_narratives_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 09:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4093",
-      "artifact": "Delivered champion handoff brief template that transfers urgency from operator users to executive buyers with narrative slots, quantified proof inserts, objection preemption blocks, and staged executive CTA progression",
-      "path": "office_os/artifacts/P1-REV-4093_champion_handoff_brief_template_operator_to_executive_buyer_2026-03-02.md",
       "status": "done"
     }
   ],
