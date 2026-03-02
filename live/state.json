@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T09:10:08.011344+00:00",
+  "now": "2026-03-02T09:22:01.851895+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-4265",
+      "id": "P1-REV-4266",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Build redline-cycle compression checklist for legal+procurement packet handoff under 48h",
-      "owner": "BUILDER",
+      "title": "Create no-decision deal rescue scoreboard for top 12 ARR opportunities with 7-day close commands",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-02T16:21:37+08:00",
-      "updated_at": "2026-03-02T17:07:03.882625+08:00",
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,39 +83,59 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist defines critical packet fields, owner SLA windows, fallback clauses, and pass/fail verification gates for <48h handoff.",
-      "artifact_path": "office_os/artifacts/P1-REV-4265_build_redline_cycle_compression_checklist_for_legal_procurement_packet_handoff_under_48h_2026-03-02.md"
+      "acceptance": "Scoreboard ranks 12 no-decision opportunities by recoverable ARR, maps daily owner commands, and includes day-3/day7 conversion checkpoints.",
+      "artifact_path": "office_os/artifacts/P1-REV-4266_no_decision_deal_rescue_scoreboard_top12_arr_2026-03-02.md"
     },
     {
-      "id": "P4-OPS-4090",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Define autonomous ship-log milestone quality checker v2 for duplicate suppression",
-      "owner": "COMMAND",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T17:07:03.882652+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checker spec includes duplicate fingerprint schema, malformed milestone detection, and correction flow.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md"
-    },
-    {
-      "id": "P4-OPS-4106",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create autonomous task state transition sanity checklist to reduce malformed status flips",
-      "owner": "COMMAND",
+      "id": "P1-REV-4267",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Design procurement redline objection-to-proof router for executive escalation calls",
+      "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-02T10:20:52+08:00",
-      "updated_at": "2026-03-02T17:07:03.882656+08:00",
-      "impact": 3,
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Router maps top objection classes to proof assets, owner sequence, and sub-48h escalation actions with pass/fail close criteria.",
+      "artifact_path": "office_os/artifacts/P1-REV-4267_procurement_redline_objection_to_proof_router_exec_escalation_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4268",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build late-stage champion reactivation strike plan for security-cleared stalled deals",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Strike plan provides 5-touch outreach sequence, quantified proof inserts, and meeting-booked KPI targets for week-one recovery.",
+      "artifact_path": "office_os/artifacts/P1-REV-4268_late_stage_champion_reactivation_strike_plan_security_cleared_stalls_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4269",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Create day0-day7 activation trust breach triage board for enterprise onboarding",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
+      "impact": 4,
       "effort": 2,
       "urgency": 3,
       "due_at": null,
@@ -123,8 +143,28 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist defines valid status transitions, anti-pattern detection, and correction actions for inconsistent READY/IN_PROGRESS/DONE updates.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4106_autonomous_task_state_transition_sanity_checklist_2026-03-02.md"
+      "acceptance": "Board defines breach signatures, response owners, SLA windows, and verification gates to restore first-value confidence.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4269_day0_day7_activation_trust_breach_triage_board_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4270",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 10 proof-first procurement objection short scripts for founder outbound",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack contains 10 hook-proof-CTA scripts with objection tags, channel mapping, and keyword instrumentation for conversion tracking.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4270_proof_first_procurement_objection_short_scripts_founder_outbound_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4234",
@@ -205,9 +245,61 @@
       "manual_rank": null,
       "acceptance": "Watchdog spec defines duplicate fingerprint thresholds, owner-balance checks, freshness windows, and reject/repair loops for autonomous top-up runs.",
       "artifact_path": "office_os/artifacts/P4-OPS-4262_backlog_topup_freshness_watchdog_duplicate_avoidance_owner_balance_2026-03-02.md"
+    },
+    {
+      "id": "P4-OPS-4271",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous backlog top-up dedup preflight card with owner-balance guardrails",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-02T17:20:00+08:00",
+      "updated_at": "2026-03-02T17:20:00+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Preflight card defines dedup checks, owner-balance thresholds, acceptance lint rules, and reject/repair workflow for top-up runs.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4271_autonomous_backlog_topup_dedup_preflight_card_owner_balance_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 17:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore >=10 READY/QUEUED/TODO tasks with concrete priority-weighted owner-assigned acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 17:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-4106",
+      "artifact": "Delivered autonomous task state transition sanity checklist with canonical transition matrix, anti-pattern detection, and corrective actions for malformed status flips",
+      "path": "office_os/artifacts/P4-OPS-4106_autonomous_task_state_transition_sanity_checklist_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 17:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-4090",
+      "artifact": "Delivered autonomous ship-log milestone quality checker v2 with duplicate fingerprint schema, malformed-line rejection rules, and correction flow to suppress redundant milestone logging",
+      "path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 17:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-4265",
+      "artifact": "Delivered redline-cycle compression checklist with mandatory packet fields, owner SLA windows, fallback clause ladder, and pass/fail verification gates to enforce legal→procurement handoff under 48h",
+      "path": "office_os/artifacts/P1-REV-4265_build_redline_cycle_compression_checklist_for_legal_procurement_packet_handoff_under_48h_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 17:07",
       "owner": "COMMAND",
@@ -374,38 +466,6 @@
       "taskId": "P2-PROD-4240",
       "artifact": "Delivered day0-day3 first-value proof audit checklist for enterprise onboarding cohorts with must-have proof events, failure signatures, owner routing matrix, and severity-based recovery SLAs",
       "path": "office_os/artifacts/P2-PROD-4240_day0_day3_first_value_proof_audit_checklist_enterprise_onboarding_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-4239",
-      "artifact": "Delivered procurement defer-to-decision recovery worksheet for CFO follow-up calls with defer-reason triage, quantified recovery actions, owner assignment matrix, and 5-day decision checkpoint plan",
-      "path": "office_os/artifacts/P1-REV-4239_procurement_defer_to_decision_recovery_worksheet_cfo_followup_calls_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:17",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1824",
-      "artifact": "Delivered Mission Control copy deck template for Founder Desk snapshots with 20s opener, 2m narrative scaffold, explicit risk callout, and immediate next-command verification block",
-      "path": "office_os/artifacts/P0-FE-1824_mission_control_copy_deck_template_founder_desk_command_snapshots_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 14:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4235",
-      "artifact": "Delivered 72-hour procurement restart war-room script for top 6 ARR-frozen deals with hour-by-hour execution agenda, stakeholder speaking points, objection-to-proof routing, command templates, and measurable restart KPI dashboard",
-      "path": "office_os/artifacts/P1-REV-4235_procurement_restart_war_room_script_top6_arr_frozen_deals_2026-03-02.md",
       "status": "done"
     }
   ],
