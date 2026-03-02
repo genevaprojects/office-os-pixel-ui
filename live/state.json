@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T11:10:06.104017+00:00",
+  "now": "2026-03-02T11:21:34.122413+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "id": "P1-REV-4276",
+      "id": "P1-REV-4283",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Build procurement packet completeness fail-fast checklist for live close calls",
-      "owner": "BUILDER",
+      "title": "Create procurement committee one-page ROI defense card for quarter-freeze objections",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389478+08:00",
+      "created_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T19:20:00+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 4,
@@ -83,18 +83,58 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checklist defines required packet fields, fail-fast reject conditions, fallback clause routing, and pass/fail close-call gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-4276_procurement_packet_completeness_failfast_checklist_live_close_calls_2026-03-02.md"
+      "acceptance": "Card includes 6 CFO/procurement objection counters, quantified ROI fields, risk-reversal options, and a same-call close CTA decision ladder.",
+      "artifact_path": "office_os/artifacts/P1-REV-4283_procurement_committee_onepage_roi_defense_card_quarter_freeze_objections_2026-03-02.md"
     },
     {
-      "id": "P3-CONT-4279",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 objection-to-proof short post hooks for procurement freeze windows",
+      "id": "P1-REV-4284",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build top-10 legal stall recovery command matrix with 24h owner actions and close probability uplift targets",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T19:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Matrix ranks 10 active stalls by recoverable ARR, defines 24h/48h/72h owner+backup actions, and includes day3/day7 close-probability checkpoints.",
+      "artifact_path": "office_os/artifacts/P1-REV-4284_top10_legal_stall_recovery_command_matrix_24h_owner_actions_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4285",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Draft champion-to-CFO objection bridge script pack for late-stage no-decision accounts",
       "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389496+08:00",
+      "created_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T19:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack contains 8 bridge scripts mapping champion proof to CFO outcomes, CTA variants, and keyword instrumentation for reply-path conversion tracking.",
+      "artifact_path": "office_os/artifacts/P1-REV-4285_champion_to_cfo_objection_bridge_script_pack_late_stage_nodecision_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4286",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Design day0-day7 evidence integrity checklist for enterprise onboarding signal loss incidents",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T19:20:00+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -103,18 +143,18 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Pack contains 12 hook-proof-CTA units with objection tags, channel mapping, and keyword instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4279_objection_to_proof_short_post_hooks_procurement_freeze_windows_2026-03-02.md"
+      "acceptance": "Checklist maps signal-loss signatures to owner response SLAs, rollback actions, and next-run verification criteria for trust restoration.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4286_day0_day7_evidence_integrity_checklist_enterprise_onboarding_signal_loss_2026-03-02.md"
     },
     {
-      "id": "P3-CONT-4280",
+      "id": "P3-CONT-4287",
       "project": "P3_CONTENT",
       "priority": "P3",
-      "title": "Create founder outbound micro-video prompt board for CFO hesitation narratives",
+      "title": "Produce 14-day founder proof-content sprint for procurement freeze and budget hold narratives",
       "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389490+08:00",
+      "created_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T19:20:00+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -123,8 +163,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Board includes 10 micro-video prompts with proof beats, CTA variants, and publish cadence aligned to late-stage hesitation triggers.",
-      "artifact_path": "office_os/artifacts/P3-CONT-4280_founder_outbound_micro_video_prompt_board_cfo_hesitation_narratives_2026-03-02.md"
+      "acceptance": "Sprint board includes 14 daily hook-proof-CTA posts, channel mapping, objection tags, and conversion keyword tracking.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4287_14day_founder_proof_content_sprint_procurement_freeze_budget_hold_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4257",
@@ -228,6 +268,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 19:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up added concrete READY tasks to restore READY/QUEUED/TODO coverage >=10 with priority-weighted owner assignment and acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 19:20",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4280",
+      "artifact": "Delivered founder outbound micro-video prompt board for CFO hesitation narratives with 10 prompts, proof beats, CTA variants, and 7-day publish cadence",
+      "path": "office_os/artifacts/P3-CONT-4280_founder_outbound_micro_video_prompt_board_cfo_hesitation_narratives_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 19:20",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-4279",
+      "artifact": "Delivered 12 objection-to-proof short post hooks for procurement freeze windows with hook-proof-CTA units, objection tags, channel mapping, and keyword instrumentation for conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-4279_objection_to_proof_short_post_hooks_procurement_freeze_windows_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 19:07",
       "owner": "COMMAND",
@@ -402,30 +466,6 @@
       "taskId": "P1-REV-4263",
       "artifact": "Delivered Draft executive escalation ladder for procurement freeze accounts with ARR-weighted trigger bands with execution-ready framework satisfying acceptance criteria",
       "path": "office_os/artifacts/P1-REV-4263_executive_escalation_ladder_procurement_freeze_arr_weighted_trigger_bands_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 16:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4258",
-      "artifact": "Delivered procurement objection live deal diagnostic scorecard with weighted scoring model, objection-to-command routing, SLA bands, and live-call operating template for redline-stage stall compression",
-      "path": "office_os/artifacts/P1-REV-4258_procurement_objection_live_deal_diagnostic_scorecard_enterprise_redline_stage_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 16:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-4255",
-      "artifact": "Delivered day0-day5 first-value confidence breach triage map with breach signatures, owner routing commands, SLA windows, and pass/fail verification gates for enterprise onboarding recovery control",
-      "path": "office_os/artifacts/P2-PROD-4255_day0_day5_first_value_confidence_breach_triage_map_enterprise_onboarding_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 16:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
