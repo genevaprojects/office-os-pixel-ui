@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T12:00:05.569485+00:00",
+  "now": "2026-03-02T12:10:06.627191+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4283",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement committee one-page ROI defense card for quarter-freeze objections",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T19:20:00+08:00",
-      "updated_at": "2026-03-02T19:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card includes 6 CFO/procurement objection counters, quantified ROI fields, risk-reversal options, and a same-call close CTA decision ladder.",
-      "artifact_path": "office_os/artifacts/P1-REV-4283_procurement_committee_onepage_roi_defense_card_quarter_freeze_objections_2026-03-02.md"
-    },
-    {
       "id": "P2-PROD-4286",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -94,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T19:20:00+08:00",
-      "updated_at": "2026-03-02T19:20:00+08:00",
+      "updated_at": "2026-03-02T20:07:03.527065+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389508+08:00",
+      "updated_at": "2026-03-02T20:07:03.527087+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T16:16:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389504+08:00",
+      "updated_at": "2026-03-02T20:07:03.527082+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T17:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389514+08:00",
+      "updated_at": "2026-03-02T20:07:03.527103+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389500+08:00",
+      "updated_at": "2026-03-02T20:07:03.527077+08:00",
       "impact": 3,
       "effort": 1,
       "urgency": 3,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 20:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4283",
+      "artifact": "Delivered one-page procurement committee ROI defense card with 6 objection counters, quantified ROI field model, risk-reversal options, and same-call close CTA ladder for quarter-freeze objections",
+      "path": "office_os/artifacts/P1-REV-4283_procurement_committee_onepage_roi_defense_card_quarter_freeze_objections_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 19:35",
       "owner": "EXECUTOR",
@@ -370,22 +366,6 @@
       "taskId": "P4-OPS-4090",
       "artifact": "Delivered autonomous ship-log milestone quality checker v2 with duplicate fingerprint schema, malformed-line rejection rules, and correction flow to suppress redundant milestone logging",
       "path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 17:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4265",
-      "artifact": "Delivered redline-cycle compression checklist with mandatory packet fields, owner SLA windows, fallback clause ladder, and pass/fail verification gates to enforce legal→procurement handoff under 48h",
-      "path": "office_os/artifacts/P1-REV-4265_build_redline_cycle_compression_checklist_for_legal_procurement_packet_handoff_under_48h_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 17:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
