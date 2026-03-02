@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T02:00:07.101801+00:00",
+  "now": "2026-03-02T02:10:05.354520+00:00",
   "workers": [
     {
       "name": "Research",
@@ -74,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T10:07:04.414488+08:00",
       "impact": 5,
       "effort": 2,
       "urgency": 5,
@@ -87,26 +87,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-4091_procurement_delay_roi_rebuttal_calculator_script_live_cfo_calls_2026-03-02.md"
     },
     {
-      "id": "P1-REV-4092",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create multi-thread stakeholder wake-up sequence for legal-approved but finance-stalled deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T09:21:20+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence defines day-by-day touches, stakeholder-specific proof payloads, and conversion targets for meeting-booked and decision-committed outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-4092_multithread_stakeholder_wakeup_sequence_legal_approved_finance_stalled_deals_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4081",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -114,7 +94,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T08:07:03.212486+08:00",
+      "updated_at": "2026-03-02T10:07:04.414502+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -134,7 +114,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T10:07:04.414509+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -154,7 +134,7 @@
       "owner": "COMMAND",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T10:07:04.414519+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -174,7 +154,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-02T09:21:20+08:00",
-      "updated_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T10:07:04.414523+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 3,
@@ -194,7 +174,7 @@
       "owner": "EXECUTOR",
       "status": "TODO",
       "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
+      "updated_at": "2026-03-02T10:07:04.414513+08:00",
       "impact": 3,
       "effort": 2,
       "urgency": 2,
@@ -208,6 +188,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4092",
+      "artifact": "Delivered 5-day multi-thread stakeholder wake-up sequence for legal-approved finance-stalled deals with lane-specific proof payloads (Champion/CFO/Procurement/Exec), objection-closure cadence, and explicit meeting-booked/decision-committed conversion targets",
+      "path": "office_os/artifacts/P1-REV-4092_multithread_stakeholder_wakeup_sequence_legal_approved_finance_stalled_deals_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 10:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1817",
+      "artifact": "Implemented live Today\\'s Upgrades board using shipped milestones grouped by owner, plus explicit empty-state recovery actions (refresh + jump to completed work) to eliminate dead panel behavior",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 10:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1816",
+      "artifact": "Activated Task Board quick presets (P0 needs action / owner queue) with deterministic filter-state application, auto mode switch to operator, and immediate backlog re-render for faster triage under pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 09:37",
       "owner": "COMMAND",
@@ -374,38 +386,6 @@
       "taskId": "P5-REL-4063",
       "artifact": "Delivered cron run integrity quick-restore protocol with 15-minute containment/recovery/verify flow, fallback artifact standard, and pending_verify closure gates for revenue-critical automation resilience",
       "path": "office_os/artifacts/P5-REL-4063_cron_run_integrity_quick_restore_protocol_revenue_critical_automations_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 07:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4072",
-      "artifact": "Delivered autonomous backlog freshness aging alarm protocol with severity scoring, stale-task auto-split suggestion rules, and acceptance-narrowing actions to reduce cycle-time decay",
-      "path": "office_os/artifacts/P4-OPS-4072_autonomous_backlog_freshness_aging_alarm_stale_task_auto_split_suggestions_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 07:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4068",
-      "artifact": "Delivered no-decision resurrection memo kit for CFO committees with 4 binary approve/defer memo variants, quantified delay-cost modules, objection-response blocks, and 24-hour follow-up trigger protocol",
-      "path": "office_os/artifacts/P1-REV-4068_no_decision_resurrection_memo_kit_cfo_committees_binary_approve_defer_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4064",
-      "artifact": "Delivered top-15 expansion-ready account rescue board with ARR-weighted prioritization, blocker-specific next-best actions, owner SLAs, and 7-day conversion targets for rapid expansion recovery",
-      "path": "office_os/artifacts/P1-REV-4064_top15_expansion_ready_account_rescue_board_arr_weighted_next_best_actions_2026-03-02.md",
       "status": "done"
     }
   ],
