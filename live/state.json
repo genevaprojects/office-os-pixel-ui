@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T00:30:58.725202+00:00",
+  "now": "2026-03-02T00:40:05.669503+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,26 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P2-PROD-4083",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value instrumentation breach postmortem template for enterprise onboarding incidents",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template includes breach timeline, signal-loss root causes, ownership timeline, and preventive controls with verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4083_first_value_instrumentation_breach_postmortem_template_enterprise_onboarding_incidents_2026-03-02.md"
     },
     {
       "id": "P2-PROD-4088",
@@ -187,26 +167,6 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md"
     },
     {
-      "id": "P5-REL-4082",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron credential-expiry early warning checklist for critical automations",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T08:07:03.212492+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines credential age thresholds, warning cadence, owner-routing, and pre-expiry validation steps for critical jobs.",
-      "artifact_path": "office_os/artifacts/P5-REL-4082_cron_credential_expiry_early_warning_checklist_critical_automations_2026-03-02.md"
-    },
-    {
       "id": "P5-REL-4083",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 08:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-4082",
+      "artifact": "Delivered cron credential-expiry early warning checklist for critical automations with expiry threshold bands, warning cadence, owner-routing escalation, pre-expiry validation, rotation execution controls, and post-rotation verification card",
+      "path": "office_os/artifacts/P5-REL-4082_cron_credential_expiry_early_warning_checklist_critical_automations_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 08:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-4083",
+      "artifact": "Delivered first-value instrumentation breach postmortem template for enterprise onboarding incidents with incident timeline, signal-loss root-cause workflow, ownership SLA handoff grid, preventive control registry, and closure verification gates",
+      "path": "office_os/artifacts/P2-PROD-4083_first_value_instrumentation_breach_postmortem_template_enterprise_onboarding_incidents_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 08:25",
       "owner": "SOCIAL",
@@ -422,30 +406,6 @@
       "taskId": "P1-REV-4055",
       "artifact": "Delivered procurement delay cost calculator one-pager with weekly/total delay-cost formulas, objection-triggered input map, and call-ready same-week urgency script for live escalation calls",
       "path": "office_os/artifacts/P1-REV-4055_procurement_delay_cost_calculator_onepager_live_deal_escalation_calls_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4058",
-      "artifact": "Delivered champion-to-procurement multithread map template for late-stage no-decision risk with thread coverage grid, trigger-to-action rules, 7-day expansion sequence, procurement confidence scoring, and copy-ready internal-forward scripts",
-      "path": "office_os/artifacts/P1-REV-4058_champion_to_procurement_multithread_map_template_late_stage_no_decision_risk_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4054",
-      "artifact": "Delivered top-15 CFO silence recovery command board with ARR-weighted scoring model, intervention-track sequencing (A-D), owner SLA clocks, day-by-day 5-day execution cadence, and 14-day reactivation KPI targets",
-      "path": "office_os/artifacts/P1-REV-4054_top15_cfo_silence_recovery_command_board_arr_weighted_intervention_sequencing_2026-03-02.md",
       "status": "done"
     }
   ],
