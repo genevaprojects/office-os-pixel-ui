@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T11:30:09.638521+00:00",
+  "now": "2026-03-02T11:40:05.857718+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Card includes 6 CFO/procurement objection counters, quantified ROI fields, risk-reversal options, and a same-call close CTA decision ladder.",
       "artifact_path": "office_os/artifacts/P1-REV-4283_procurement_committee_onepage_roi_defense_card_quarter_freeze_objections_2026-03-02.md"
-    },
-    {
-      "id": "P1-REV-4284",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 legal stall recovery command matrix with 24h owner actions and close probability uplift targets",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T19:20:00+08:00",
-      "updated_at": "2026-03-02T19:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix ranks 10 active stalls by recoverable ARR, defines 24h/48h/72h owner+backup actions, and includes day3/day7 close-probability checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-4284_top10_legal_stall_recovery_command_matrix_24h_owner_actions_2026-03-02.md"
     },
     {
       "id": "P2-PROD-4286",
@@ -205,29 +185,25 @@
       "manual_rank": null,
       "acceptance": "Card defines fingerprint threshold bands, false-positive handling, and reject/repair loop criteria for hourly top-up validation.",
       "artifact_path": "office_os/artifacts/P4-OPS-4281_autonomous_backlog_topup_duplicate_fingerprint_tuning_card_hourly_runs_2026-03-02.md"
-    },
-    {
-      "id": "P5-REL-4282",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron artifact freshness exception handoff checklist for revenue-critical workflows",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T18:20:00+08:00",
-      "updated_at": "2026-03-02T19:07:02.389519+08:00",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines stale artifact exception triggers, owner escalation route, remediation sequence, and next-run closure verification.",
-      "artifact_path": "office_os/artifacts/P5-REL-4282_cron_artifact_freshness_exception_handoff_checklist_revenue_critical_workflows_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-4282",
+      "artifact": "Delivered cron artifact freshness exception handoff checklist for revenue-critical workflows with stale trigger rules, escalation route, remediation sequence, evidence capture, and next-run closure verification gate",
+      "path": "office_os/artifacts/P5-REL-4282_cron_artifact_freshness_exception_handoff_checklist_revenue_critical_workflows_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4284",
+      "artifact": "Delivered top-10 legal stall recovery command matrix with rank-ordered recoverable ARR lanes, 24h/48h/72h primary+backup owner actions, and day3/day7 close-probability uplift checkpoints",
+      "path": "office_os/artifacts/P1-REV-4284_top10_legal_stall_recovery_command_matrix_24h_owner_actions_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 19:26",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 16:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 16:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4261",
-      "artifact": "Delivered 8 proof-to-procurement late-stage objection micro scripts with hook-proof-CTA structure, channel tags, and conversion keyword instrumentation for rapid objection-response deployment",
-      "path": "office_os/artifacts/P3-CONT-4261_proof_to_procurement_micro_scripts_late_stage_objection_replies_2026-03-02.md",
       "status": "done"
     }
   ],
