@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T05:10:06.308234+00:00",
+  "now": "2026-03-02T05:21:45.413577+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,6 +67,86 @@
       ]
     },
     {
+      "id": "P1-REV-4235",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create 72-hour procurement restart war-room script for top 6 ARR-frozen deals",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-02T13:20:00+08:00",
+      "updated_at": "2026-03-02T13:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Script includes hour-by-hour agenda, stakeholder speaking points, objection-to-proof mapping, and measurable restart KPIs for 72h execution.",
+      "artifact_path": "office_os/artifacts/P1-REV-4235_procurement_restart_war_room_script_top6_arr_frozen_deals_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4236",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build CFO binary decision packet template with delay-cost scoreboard and same-week close CTA",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-02T13:20:00+08:00",
+      "updated_at": "2026-03-02T13:20:00+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template provides approve/defer framing, quantified delay-cost table, risk-reversal options, and CTA ladder for same-week decision movement.",
+      "artifact_path": "office_os/artifacts/P1-REV-4236_cfo_binary_decision_packet_template_delay_cost_scoreboard_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4237",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Draft day0-day5 pilot confidence rescue checklist for procurement-sensitive enterprise onboarding",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T13:20:00+08:00",
+      "updated_at": "2026-03-02T13:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines confidence signals, owner actions, escalation windows, and pass/fail verification gates for day0-day5 first-value assurance.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4237_day0_day5_pilot_confidence_rescue_checklist_procurement_sensitive_enterprise_onboarding_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4238",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 12 proof-first micro-post hooks targeting procurement freeze objections and budget stall narratives",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T13:20:00+08:00",
+      "updated_at": "2026-03-02T13:20:00+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack contains 12 hook-proof-CTA units with channel tags, objection mapping, and KPI keywords for rapid publishing.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4238_proof_first_micro_post_hooks_procurement_freeze_budget_stall_2026-03-02.md"
+    },
+    {
       "id": "P4-OPS-4090",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -127,26 +207,6 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4106_autonomous_task_state_transition_sanity_checklist_2026-03-02.md"
     },
     {
-      "id": "P4-OPS-4210",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Define freeze-revival pipeline hygiene checklist with SLA breach alerts and owner escalation",
-      "owner": "COMMAND",
-      "status": "READY",
-      "created_at": "2026-03-02T11:15:00+08:00",
-      "updated_at": "2026-03-02T13:07:03.209424+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Checklist defines freeze-revival pipeline fields, SLA breach rules, escalation paths, and weekly audit outputs.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4210_freeze_revival_pipeline_hygiene_checklist_sla_alerts_2026-03-02.md"
-    },
-    {
       "id": "P4-OPS-4224",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -165,6 +225,26 @@
       "manual_rank": null,
       "acceptance": "Checklist defines stale thresholds, duplicate guard checks, and corrective actions for hourly backlog hygiene enforcement.",
       "artifact_path": "office_os/artifacts/P4-OPS-4224_autonomous_backlog_freshness_audit_mini_checklist_hourly_runs_2026-03-02.md"
+    },
+    {
+      "id": "P4-OPS-4234",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define backlog top-up QA mini-checklist for owner balance and acceptance-quality lint",
+      "owner": "COMMAND",
+      "status": "TODO",
+      "created_at": "2026-03-02T13:15:00+08:00",
+      "updated_at": "2026-03-02T13:15:00+08:00",
+      "impact": 3,
+      "effort": 1,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Checklist defines owner mix guardrails, acceptance lint checks, and reject criteria for weak top-up tasks in hourly runs.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4234_backlog_topup_qa_minichecklist_owner_balance_acceptance_lint_2026-03-02.md"
     },
     {
       "id": "P5-REL-4086",
@@ -188,6 +268,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 13:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up added 4 concrete READY tasks (P1x2/P2x1/P3x1) to restore autonomous queue depth to >=10 actionable items with owner-assigned acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 13:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-4210",
+      "artifact": "Delivered freeze-revival pipeline hygiene checklist with required fields, SLA breach rules, owner escalation ladder, and weekly audit output format for anti-drift enforcement",
+      "path": "office_os/artifacts/P4-OPS-4210_freeze_revival_pipeline_hygiene_checklist_sla_alerts_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 13:20",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-4233",
+      "artifact": "Delivered no-decision rescue objection stack for top 10 procurement-frozen accounts with tiered scripts, proof inserts, day-by-day action ladder, and conversion targets for 14-day stage reactivation",
+      "path": "office_os/artifacts/P1-REV-4233_no_decision_rescue_objection_stack_top10_procurement_frozen_accounts_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 13:07",
       "owner": "COMMAND",
@@ -362,30 +466,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-4092",
-      "artifact": "Delivered 5-day multi-thread stakeholder wake-up sequence for legal-approved finance-stalled deals with lane-specific proof payloads (Champion/CFO/Procurement/Exec), objection-closure cadence, and explicit meeting-booked/decision-committed conversion targets",
-      "path": "office_os/artifacts/P1-REV-4092_multithread_stakeholder_wakeup_sequence_legal_approved_finance_stalled_deals_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1817",
-      "artifact": "Implemented live Today\\'s Upgrades board using shipped milestones grouped by owner, plus explicit empty-state recovery actions (refresh + jump to completed work) to eliminate dead panel behavior",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 10:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1816",
-      "artifact": "Activated Task Board quick presets (P0 needs action / owner queue) with deterministic filter-state application, auto mode switch to operator, and immediate backlog re-render for faster triage under pressure",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
