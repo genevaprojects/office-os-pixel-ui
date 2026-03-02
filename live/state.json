@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T07:30:05.569106+00:00",
+  "now": "2026-03-02T07:40:05.585210+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Board ranks top 10 freeze-stalled accounts by ARR/recoverability, maps each to a next command + owner SLA + day-7 conversion target.",
       "artifact_path": "office_os/artifacts/P1-REV-4252_procurement_freeze_revival_command_board_top10_arr_weighted_2026-03-02.md"
-    },
-    {
-      "id": "P1-REV-4254",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build legal-to-procurement stall rescue SLA board for sub-72h redline recovery",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T15:20:00+08:00",
-      "updated_at": "2026-03-02T15:20:00+08:00",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "SLA board defines 24h/48h/72h stall signatures, owner+backup escalations, fallback clause actions, and objective closure verification gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-4254_legal_to_procurement_stall_rescue_sla_board_sub72h_redline_recovery_2026-03-02.md"
     },
     {
       "id": "P2-PROD-4255",
@@ -228,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-4254",
+      "artifact": "Delivered legal-to-procurement stall rescue SLA board for sub-72h redline recovery with 24h/48h/72h stall signatures, owner+backup escalation map, fallback clause action ladder, and objective closure verification gates",
+      "path": "office_os/artifacts/P1-REV-4254_legal_to_procurement_stall_rescue_sla_board_sub72h_redline_recovery_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 15:26",
       "owner": "SOCIAL",
@@ -410,22 +406,6 @@
       "taskId": "P3-CONT-4223",
       "artifact": "Delivered 8 proof-first founder post prompts for budget-freeze objections with hook-proof-CTA units, channel tags, and keyword instrumentation for conversion tracking",
       "path": "office_os/artifacts/P3-CONT-4223_proof_first_founder_post_prompts_budget_freeze_objections_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 12:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-4226",
-      "artifact": "Delivered 5-touch CFO reopen sequence for counterfactual briefs with timed outreach, objection-specific proof inserts, and reply-to-meeting conversion triggers for frozen late-stage deals",
-      "path": "office_os/artifacts/P1-REV-4226_cfo_reopen_sequence_counterfactual_briefs_meeting_conversion_triggers_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 12:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up to keep READY/QUEUED/TODO inventory at or above 10 with concrete priority-weighted owner-assigned tasks",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
