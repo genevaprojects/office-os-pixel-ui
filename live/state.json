@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T16:00:07.565206+00:00",
+  "now": "2026-03-02T16:10:06.623489+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-4318",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion-procurement weekly conversion scoreboard with deterministic close commands for top 20 pipeline deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Scoreboard ranks 20 deals by recoverable ARR, maps daily owner commands, defines day3/day7 outcome gates, and includes close-probability delta tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-4318_champion_procurement_weekly_conversion_scoreboard_top20_pipeline_2026-03-02.md",
-      "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-4319",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Library contains 12 objection-mapped clause options, margin guardrails by tier, fallback sequencing, and same-call CTA recommendations.",
       "artifact_path": "office_os/artifacts/P1-REV-4319_redline_risk_reversal_clause_library_margin_safe_fallback_2026-03-02.md",
       "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
+      "updated_at": "2026-03-03T00:07:03.730925+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Kill-list includes top 15 friction causes, intervention scripts, owner routing, and 48h verification checkpoints.",
       "artifact_path": "office_os/artifacts/P2-PROD-4322_activation_friction_kill_list_owner_routing_48h_verification_2026-03-02.md",
       "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
+      "updated_at": "2026-03-03T00:07:03.730938+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Spec defines KPIs, thresholds, and alert states for stale-task drift, duplicate reject rates, and owner-balance breaches.",
       "artifact_path": "office_os/artifacts/P4-OPS-4295_hourly_backlog_freshness_duplicate_drift_dashboard_spec_2026-03-02.md",
       "created_at": "2026-03-02T20:21:20+08:00",
-      "updated_at": "2026-03-02T23:07:04.878832+08:00",
+      "updated_at": "2026-03-03T00:07:03.730953+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Spec defines freshness decay bands, owner-balance thresholds, auto-correction rules, and reject/repair workflow.",
       "artifact_path": "office_os/artifacts/P4-OPS-4301_autonomous_backlog_topup_freshness_decay_guard_owner_balance_2026-03-02.md",
       "created_at": "2026-03-02T21:15:00+08:00",
-      "updated_at": "2026-03-02T23:07:04.878828+08:00",
+      "updated_at": "2026-03-03T00:07:03.730948+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Spec defines starvation thresholds, corrective task generation actions, and audit fields for hourly validation.",
       "artifact_path": "office_os/artifacts/P4-OPS-4324_autonomous_backlog_lane_starvation_detector_corrective_dispatch_2026-03-02.md",
       "created_at": "2026-03-02T23:21:44+08:00",
-      "updated_at": "2026-03-02T23:21:44+08:00",
+      "updated_at": "2026-03-03T00:07:03.730944+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +179,7 @@
       "acceptance": "Checklist defines stale-output thresholds, quarantine actions, fallback artifact routing, and next-run verification criteria for release from quarantine.",
       "artifact_path": "office_os/artifacts/P5-REL-4317_cron_stale_output_auto_quarantine_checklist_revenue_critical_daily_automations_2026-03-02.md",
       "created_at": "2026-03-02T22:20:00+08:00",
-      "updated_at": "2026-03-02T23:07:04.878836+08:00",
+      "updated_at": "2026-03-03T00:07:03.730957+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 00:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1840",
+      "artifact": "Added Shift+F crisis hotkey to jump into OFFICE_OS_FRONTEND stale-focus mode with oldest actionable task auto-selected and keyboard shortcut documentation updated for high-pressure triage speed",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 00:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1839",
+      "artifact": "Added Frontend Readiness Proof Capsule with deterministic pass/fail gates (live lock, blocked P0, open queue pressure, ship freshness), plus copy-ready proof brief and one-click recovery pivots for operator readiness audits",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 23:37",
       "owner": "COMMAND",
@@ -382,30 +386,6 @@
       "taskId": "P2-PROD-4299",
       "artifact": "Delivered first-week activation risk scoreboard with confidence deterioration alerts, deterministic CSM-to-product handoff commands, and day7 verification closure criteria",
       "path": "office_os/artifacts/P2-PROD-4299_first_week_activation_risk_scoreboard_confidence_alerts_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 21:20",
-      "owner": "COMMAND",
-      "taskId": "P1-REV-4298",
-      "artifact": "Delivered executive committee one-call close agenda for legal-approved procurement stalls with stakeholder sequence, quantified concession bands, objection counters, and binary approve/defer/decline close gates",
-      "path": "office_os/artifacts/P1-REV-4298_exec_committee_onecall_close_agenda_legal_approved_procurement_stalls_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P2-PROD-4293",
-      "artifact": "Delivered first-week activation drift escalation matrix with green/amber/red thresholds, escalation lanes, persona-specific reassurance scripts, and day-7 pass/fail closure criteria",
-      "path": "office_os/artifacts/P2-PROD-4293_first_week_activation_drift_escalation_matrix_reassurance_scripts_2026-03-02.md",
       "status": "done"
     }
   ],
