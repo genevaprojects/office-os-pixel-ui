@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T01:10:05.454515+00:00",
+  "now": "2026-03-02T01:22:13.841728+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,94 @@
       ]
     },
     {
-      "id": "P2-PROD-4088",
+      "id": "P1-REV-4091",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build procurement delay ROI rebuttal calculator script for live CFO calls",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Script quantifies weekly delay cost, maps objections to ROI counters, and outputs a call-ready 90-second close narrative with input placeholders.",
+      "artifact_path": "office_os/artifacts/P1-REV-4091_procurement_delay_roi_rebuttal_calculator_script_live_cfo_calls_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4092",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create multi-thread stakeholder wake-up sequence for legal-approved but finance-stalled deals",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sequence defines day-by-day touches, stakeholder-specific proof payloads, and conversion targets for meeting-booked and decision-committed outcomes.",
+      "artifact_path": "office_os/artifacts/P1-REV-4092_multithread_stakeholder_wakeup_sequence_legal_approved_finance_stalled_deals_2026-03-02.md"
+    },
+    {
+      "id": "P1-REV-4093",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Draft champion handoff brief template to transfer urgency from operator users to executive buyers",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Template includes champion narrative slots, quantified proof inserts, objection preemption blocks, and executive CTA progression.",
+      "artifact_path": "office_os/artifacts/P1-REV-4093_champion_handoff_brief_template_operator_to_executive_buyer_2026-03-02.md"
+    },
+    {
+      "id": "P2-PROD-4094",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Create enterprise onboarding risk-to-playbook lookup matrix for CSM daily standups",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "created_at": "2026-03-02T08:15:45+08:00",
-      "updated_at": "2026-03-02T08:15:45+08:00",
+      "title": "Create first-week onboarding intervention decision tree for low-adoption enterprise cohorts",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Decision tree maps telemetry signatures to intervention paths, owner routing, and verification gates with rollback options.",
+      "artifact_path": "office_os/artifacts/P2-PROD-4094_first_week_onboarding_intervention_decision_tree_low_adoption_enterprise_cohorts_2026-03-02.md"
+    },
+    {
+      "id": "P3-CONT-4095",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce objection-to-proof founder micro-content kit for procurement freeze narratives",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
       "impact": 4,
       "effort": 2,
       "urgency": 3,
@@ -83,28 +163,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Matrix maps risk signatures to playbook commands, owner responsibilities, and same-day verification checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4088_enterprise_onboarding_risk_to_playbook_lookup_matrix_csm_daily_standups_2026-03-02.md"
-    },
-    {
-      "id": "P4-OPS-4080",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Design autonomous READY-queue freshness dashboard spec for hourly command runs",
-      "owner": "COMMAND",
-      "status": "READY",
-      "created_at": "2026-03-02T07:20:00+08:00",
-      "updated_at": "2026-03-02T08:07:03.212481+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines freshness metrics, aging thresholds, dashboard sections, and fail-state actions for hourly queue hygiene control.",
-      "artifact_path": "office_os/artifacts/P4-OPS-4080_autonomous_ready_queue_freshness_dashboard_spec_hourly_command_runs_2026-03-02.md"
+      "acceptance": "Kit provides 10 concise hook-proof-CTA units with channel tags, posting cadence, and tracking keywords.",
+      "artifact_path": "office_os/artifacts/P3-CONT-4095_objection_to_proof_founder_micro_content_kit_procurement_freeze_narratives_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4081",
@@ -167,6 +227,26 @@
       "artifact_path": "office_os/artifacts/P4-OPS-4090_autonomous_shiplog_milestone_quality_checker_v2_duplicate_suppression_2026-03-02.md"
     },
     {
+      "id": "P4-OPS-4096",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous READY queue rebalance playbook for owner-skew and stale-age breaches",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-02T09:21:20+08:00",
+      "updated_at": "2026-03-02T09:21:20+08:00",
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Playbook specifies rebalance triggers, corrective actions, and verification checks to restore queue freshness within one run.",
+      "artifact_path": "office_os/artifacts/P4-OPS-4096_autonomous_ready_queue_rebalance_playbook_owner_skew_stale_age_breaches_2026-03-02.md"
+    },
+    {
       "id": "P5-REL-4083",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -208,6 +288,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 09:21",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up to restore READY",
+      "path": "QUEUED",
+      "status": "TODO coverage to >=10 with priority-weighted owner-assigned tasks and concrete acceptance criteria for continued autonomous throughput"
+    },
+    {
+      "time": "2026-03-02 09:21",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-4080",
+      "artifact": "Delivered autonomous READY-queue freshness dashboard spec defining freshness metrics, age thresholds, queue-health scoring, dashboard sections, and automatic fail-state actions for hourly command hygiene",
+      "path": "office_os/artifacts/P4-OPS-4080_autonomous_ready_queue_freshness_dashboard_spec_hourly_command_runs_2026-03-02.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-02 09:20",
+      "owner": "COMMAND",
+      "taskId": "P2-PROD-4088",
+      "artifact": "Delivered enterprise onboarding risk-to-playbook lookup matrix for CSM daily standups with trigger thresholds, command mapping, owner routing, and same-day verification checks to compress risk-to-action latency",
+      "path": "office_os/artifacts/P2-PROD-4088_enterprise_onboarding_risk_to_playbook_lookup_matrix_csm_daily_standups_2026-03-02.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 08:37",
       "owner": "COMMAND",
@@ -382,30 +486,6 @@
       "taskId": "P4-OPS-4062",
       "artifact": "Delivered autonomous artifact acceptance drift monitor with signal thresholds, hourly/daily/weekly sampling cadence, and correction loop for quality recovery under drift",
       "path": "office_os/artifacts/P4-OPS-4062_autonomous_artifact_acceptance_drift_monitor_weekly_correction_loop_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-4053",
-      "artifact": "Delivered autonomous READY queue health rubric with queue-depth scoring, priority-balance checks, duplicate guardrails, and RED/YELLOW/GREEN top-up triggers to keep execution unblocked",
-      "path": "office_os/artifacts/P4-OPS-4053_autonomous_ready_queue_health_check_rubric_topup_trigger_thresholds_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-4059",
-      "artifact": "Delivered day0-day10 first-value confidence rescue playbook for high-ARR pilots with confidence-drop signatures, owner-routed intervention matrix, and checkpoint gates for momentum recovery",
-      "path": "office_os/artifacts/P2-PROD-4059_day0_day10_first_value_confidence_rescue_playbook_high_arr_pilots_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 06:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-4055",
-      "artifact": "Delivered procurement delay cost calculator one-pager with weekly/total delay-cost formulas, objection-triggered input map, and call-ready same-week urgency script for live escalation calls",
-      "path": "office_os/artifacts/P1-REV-4055_procurement_delay_cost_calculator_onepager_live_deal_escalation_calls_2026-03-02.md",
       "status": "done"
     }
   ],
