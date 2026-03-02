@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-02T06:30:07.231374+00:00",
+  "now": "2026-03-02T06:40:04.881709+00:00",
   "workers": [
     {
       "name": "Research",
@@ -85,26 +85,6 @@
       "manual_rank": null,
       "acceptance": "Tracker defines commit date, owner, defer reason, quantified risk, and 5-day checkpoint outcomes for top deferred deals.",
       "artifact_path": "office_os/artifacts/P1-REV-4244_cfo_followup_decision_commitment_tracker_deferred_procurement_stage_deals_2026-03-02.md"
-    },
-    {
-      "id": "P2-PROD-4245",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Design first-value evidence handoff template from CSM to procurement-facing champions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T14:20:55+08:00",
-      "updated_at": "2026-03-02T14:20:55+08:00",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template captures day0-day3 proof events, unresolved risks, owner SLAs, and executive-ready summary for procurement confidence.",
-      "artifact_path": "office_os/artifacts/P2-PROD-4245_first_value_evidence_handoff_template_csm_to_procurement_facing_champions_2026-03-02.md"
     },
     {
       "id": "P4-OPS-4090",
@@ -225,29 +205,17 @@
       "manual_rank": null,
       "acceptance": "Checklist defines stale thresholds, prune/refresh actions, and verification gates for hourly backlog hygiene.",
       "artifact_path": "office_os/artifacts/P4-OPS-4242_autonomous_backlog_freshness_sweep_checklist_hourly_worker_loops_2026-03-02.md"
-    },
-    {
-      "id": "P5-REL-4243",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Draft cron artifact staleness canary card for revenue-critical jobs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-02T14:16:30+08:00",
-      "updated_at": "2026-03-02T14:16:30+08:00",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 2,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card includes stale detection thresholds, primary/secondary remediation actions, and next-run verification criteria.",
-      "artifact_path": "office_os/artifacts/P5-REL-4243_cron_artifact_staleness_canary_card_revenue_critical_jobs_2026-03-02.md"
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-02 14:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-02 14:25",
       "owner": "SOCIAL",
@@ -438,14 +406,6 @@
       "taskId": "P1-REV-4204",
       "artifact": "Delivered legal-safe concession clause menu for procurement-freeze recovery with scenario-mapped clause options, prohibited term guardrails, approval-gate matrix, and fallback language library to preserve term-sheet integrity while accelerating close progression",
       "path": "office_os/artifacts/P1-REV-4204_legal_safe_concession_clause_menu_freeze_recovery_2026-03-02.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-02 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-4209",
-      "artifact": "Delivered 8-script founder voice-note bank for budget-freeze counter-narratives with tactical-empathy phrasing, stakeholder-specific rebuttal paths, and CTA progression from soft reply to working session",
-      "path": "office_os/artifacts/P3-CONT-4209_founder_voice_note_script_bank_budget_freeze_counter_narratives_2026-03-02.md",
       "status": "done"
     }
   ],
