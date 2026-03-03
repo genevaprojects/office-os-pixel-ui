@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T22:22:02.866718+00:00",
+  "now": "2026-03-03T22:30:05.449665+00:00",
   "workers": [
     {
       "name": "Research",
@@ -269,6 +269,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 06:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1935",
+      "artifact": "Added boardroom macro pack export (Shift+G + UI action) bundling posture, recovery clock, countdown rail, investor recovery queue, and decision queueability for one-copy investor handoff",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1934",
+      "artifact": "Added Founder Desk Checkpoint Countdown Rail with live SLA/staleness countdown visibility and copy-ready checkpoint brief for investor-timeboxed command narration",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 06:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -450,22 +466,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-complete tasks for uninterrupted autonomous throughput",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 04:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6125",
-      "artifact": "Delivered 10 proof-led procurement-delay short-form hooks with hook-proof-CTA structure, objection tags, channel variants, and conversion keyword tracking matrix for faster demand capture",
-      "path": "office_os/artifacts/P3-CONT-6125_proof_led_shortform_hooks_procurement_delay_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 04:20",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6124",
-      "artifact": "Delivered CSM-to-product escalation payload template with severity tiers, mandatory payload schema, routing ownership, and next-run verification criteria for repeatable first-value regression recovery",
-      "path": "office_os/artifacts/P2-PROD-6124_csm_product_escalation_payload_template_2026-03-04.md",
       "status": "done"
     }
   ],
