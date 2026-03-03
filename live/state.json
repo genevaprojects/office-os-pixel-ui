@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T08:30:06.308481+00:00",
+  "now": "2026-03-03T08:40:04.443667+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,46 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5403",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 7-day champion-to-procurement multithread sprint for security-cleared late-stage deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines daily multithread actions, stakeholder routing, and Day3/Day7 conversion checkpoints for proposal acceleration.",
-      "artifact_path": "office_os/artifacts/P1-REV-5403_champion_to_procurement_multithread_sprint_7day_2026-03-03.md",
-      "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5405",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value confidence rescue matrix for telemetry-mismatch onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps mismatch signatures to owner actions, SLA windows, fallback evidence paths, and next-run closure gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5405_first_value_confidence_rescue_matrix_day0_day7_telemetry_mismatch_2026-03-03.md",
-      "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5406",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 16:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 16:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5403",
+      "artifact": "Delivered 7-day champion-to-procurement multithread sprint with daily stakeholder routing, multithread command cadence, and enforced Day3/Day7 proposal-acceleration conversion checkpoints",
+      "path": "office_os/artifacts/P1-REV-5403_champion_to_procurement_multithread_sprint_7day_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 16:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5405",
+      "artifact": "Delivered day0-day7 first-value confidence rescue matrix for telemetry-mismatch onboarding cohorts with signature-to-owner action routing, SLA windows, fallback evidence paths, and strict Day3/Day7 closure gates",
+      "path": "office_os/artifacts/P2-PROD-5405_first_value_confidence_rescue_matrix_day0_day7_telemetry_mismatch_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 16:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P0-FE-1887",
       "artifact": "Added Demo Validation auto-remediation action and command-palette trigger to apply failing-check recovery profile (stability + state reconcile + executive render posture) without disrupting live-data refresh behavior",
       "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 14:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1886",
-      "artifact": "Added Command Jump Rail active-context status line with live active section callout and 1-9 keyboard guidance, including accessible jump labels and deterministic active-target highlighting under scroll/jump transitions",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 13:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5325",
-      "artifact": "Delivered CSM-to-Product escalation decision tree for repeated first-value confidence drops with signature-based routing, severity SLA timers, escalation thresholds, and mandatory next-run verification closure gates",
-      "path": "office_os/artifacts/P2-PROD-5325_csm_to_product_escalation_decision_tree_repeated_first_value_confidence_drops_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 13:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5320",
-      "artifact": "Delivered 5-day procurement-to-signature acceleration sprint for top 10 security-cleared late-stage deals with ARR-weighted ordering, day-by-day owner commands, redline fallback lanes, and enforced Day3/Day5 binary signature gates",
-      "path": "office_os/artifacts/P1-REV-5320_procurement_to_signature_acceleration_sprint_top10_security_cleared_late_stage_deals_2026-03-03.md",
       "status": "done"
     }
   ],
