@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T18:30:06.605705+00:00",
+  "now": "2026-03-03T18:40:05.794659+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6112",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h executive unblock sprint for top 8 budget-frozen deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 owner actions, binary reopen-or-kill gates, and recoverable ARR prioritization with strict checkpoint timing.",
-      "artifact_path": "office_os/artifacts/P1-REV-6112_72h_exec_unblock_sprint_top8_budget_frozen_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6114",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Heatmap scores churn risk, defines intervention SLAs, and sets target save-probability deltas with weekly owner actions.",
       "artifact_path": "office_os/artifacts/P1-REV-6114_renewal_save_probability_heatmap_15_pilots_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6115",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 first-value trust rescue matrix for telemetry-mismatch cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps mismatch signatures to owner actions, SLA windows, fallback proof paths, and Day3/Day7 closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6115_first_value_trust_rescue_matrix_telemetry_mismatch_2026-03-04.md",
       "created_at": "2026-03-04T02:20:00+08:00",
       "updated_at": "2026-03-04T02:20:00+08:00",
       "due_at": null,
@@ -229,12 +189,28 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 02:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 02:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6115",
+      "artifact": "Delivered day0-day7 first-value trust rescue matrix for telemetry-mismatch cohorts with signature-based owner routing, SLA windows, fallback proof paths, and Day3/Day7 closure gates",
+      "path": "office_os/artifacts/P2-PROD-6115_first_value_trust_rescue_matrix_telemetry_mismatch_2026-03-04.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 02:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete tasks, owners, and acceptance-criteria-complete definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-04 02:36"
     },
     {
       "time": "2026-03-04 02:20",
@@ -410,22 +386,6 @@
       "taskId": "P2-PROD-5476",
       "artifact": "Delivered CSM-to-Product escalation memo stack v3 with severity tiers, routing ownership matrix, payload templates, and strict next-run verification criteria for first-value regressions",
       "path": "office_os/artifacts/P2-PROD-5476_csm_product_escalation_memo_stack_first_value_regressions_v3_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 00:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5471",
-      "artifact": "Delivered legal/procurement objection compression script pack with 10 objection branches, quantified proof placeholders, concession guardrails, and same-call CTA exits for sub-7-day close attempts",
-      "path": "office_os/artifacts/P1-REV-5471_legal_procurement_objection_compression_script_pack_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 23:52",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1901",
-      "artifact": "Hardened full-plan dispatch to queue only currently queueable 30-minute steps, disable when none are ready, and show ready-step count in CTA for deterministic command reliability",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
