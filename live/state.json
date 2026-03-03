@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T10:22:01.477467+00:00",
+  "now": "2026-03-03T10:30:06.575251+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5423",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder credibility push for budget-freeze reversal threads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 posts with hook-proof-CTA, objection tags, and meeting-booked keyword instrumentation by channel.",
-      "artifact_path": "office_os/artifacts/P1-REV-5423_founder_credibility_push_budget_freeze_reversal_7day_2026-03-03.md",
-      "created_at": "2026-03-03T18:20:24+08:00",
-      "updated_at": "2026-03-03T18:20:24+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5424",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5428",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led scripts for procurement-delay rebuttal publishing",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Scripts include hook-proof-CTA flow, objection tags, platform map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5428_short_proof_led_scripts_procurement_delay_rebuttal_2026-03-03.md",
-      "created_at": "2026-03-03T18:20:24+08:00",
-      "updated_at": "2026-03-03T18:20:24+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-5429",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5428",
+      "artifact": "Delivered 10 short proof-led procurement-delay rebuttal scripts with hook-proof-CTA flow, objection tags, platform mapping, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5428_short_proof_led_scripts_procurement_delay_rebuttal_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5423",
+      "artifact": "Delivered 7-post founder credibility push for budget-freeze reversal threads with hook-proof-CTA sequencing, objection tags, and channel keyword instrumentation for meeting-booked recovery",
+      "path": "office_os/artifacts/P1-REV-5423_founder_credibility_push_budget_freeze_reversal_7day_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 18:20",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "P3-CONT-5347",
       "artifact": "Delivered founder authority post bank for no-decision revival week with 12 proof-led prompts, CTA variants, and platform sequencing guidance for conversion-focused distribution",
       "path": "office_os/artifacts/P3-CONT-5347_founder_authority_post_bank_nodecision_revival_week_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 16:20",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5345",
-      "artifact": "Delivered CSM-to-product escalation packet for repeated activation confidence drops with severity lanes, escalation templates, routing matrix, and next-run pass/fail criteria",
-      "path": "office_os/artifacts/P2-PROD-5345_csm_product_escalation_packet_activation_confidence_drops_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 16:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5343",
-      "artifact": "Delivered top-12 late-stage redline unblock matrix with clause-signature owner routing, concession bands A/B/C, sub-72h escalation cadence, and deterministic decision-forcing command templates",
-      "path": "office_os/artifacts/P1-REV-5343_top12_late_stage_redline_unblock_matrix_sub72h_decision_compression_2026-03-03.md",
       "status": "done"
     }
   ],
