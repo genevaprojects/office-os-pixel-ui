@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T05:30:08.365307+00:00",
+  "now": "2026-03-03T05:40:07.768002+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5320",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 5-day procurement-to-signature acceleration sprint for top 10 security-cleared late-stage deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines day-by-day owner commands, redline fallback lanes, and Day3/Day5 signature gates with recoverable ARR ordering.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T13:20:00+08:00",
-      "updated_at": "2026-03-03T13:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5321",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -137,26 +117,6 @@
       "effort": 2,
       "urgency": 3,
       "acceptance": "Stack includes severity lanes, owner routing scripts, fallback evidence options, and strict pass/fail closure checks.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T13:20:00+08:00",
-      "updated_at": "2026-03-03T13:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5325",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create CSM-to-product escalation decision tree for repeated first-value confidence drops",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Decision tree maps drop signatures to owner actions, SLA timers, escalation thresholds, and next-run verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-03T13:20:00+08:00",
       "updated_at": "2026-03-03T13:20:00+08:00",
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 13:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5325",
+      "artifact": "Delivered CSM-to-Product escalation decision tree for repeated first-value confidence drops with signature-based routing, severity SLA timers, escalation thresholds, and mandatory next-run verification closure gates",
+      "path": "office_os/artifacts/P2-PROD-5325_csm_to_product_escalation_decision_tree_repeated_first_value_confidence_drops_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 13:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5320",
+      "artifact": "Delivered 5-day procurement-to-signature acceleration sprint for top 10 security-cleared late-stage deals with ARR-weighted ordering, day-by-day owner commands, redline fallback lanes, and enforced Day3/Day5 binary signature gates",
+      "path": "office_os/artifacts/P1-REV-5320_procurement_to_signature_acceleration_sprint_top10_security_cleared_late_stage_deals_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 13:25",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5276",
-      "artifact": "Delivered 10 short-form hook-proof-CTA clips for committee-delay/no-decision objections with objection tags, channel deployment map, and KPI keyword instrumentation for conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-5276_shortform_proof_clips_committee_delay_nodecision_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5272",
-      "artifact": "Delivered 5-touch founder proof outbound sequence for procurement-delay objections with touch timing, channel-specific CTA variants, proof slots, and conversion keyword tagging for decision acceleration",
-      "path": "office_os/artifacts/P1-REV-5272_founder_proof_sequence_procurement_delay_2026-03-03.md",
       "status": "done"
     }
   ],
