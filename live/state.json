@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T11:22:19.671625+00:00",
+  "now": "2026-03-03T11:30:06.400802+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5434",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder trust-proof cadence for budget-freeze reversal conversations",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Cadence provides 7 posts with hook-proof-CTA format, objection tags, and meeting-booked keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-5434_founder_trust_proof_cadence_budget_freeze_reversal_7day_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5435",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Stack includes severity tiers, escalation templates, owner routing, and next-run pass/fail closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5437_csm_product_escalation_memo_stack_confidence_breaches_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5438",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led scripts for procurement-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Scripts include hook-proof-CTA flow, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5438_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
       "updated_at": "2026-03-03T11:21:49.059Z",
       "due_at": null,
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 19:28",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5438",
+      "artifact": "Delivered 10 short proof-led scripts for procurement-delay and no-decision objections with hook-proof-CTA flow, objection tags, channel map, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5438_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 19:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5434",
+      "artifact": "Delivered 7-day founder trust-proof cadence for budget-freeze reversal conversations with hook-proof-CTA posts, objection tags, and meeting-booked keyword instrumentation",
+      "path": "office_os/artifacts/P1-REV-5434_founder_trust_proof_cadence_budget_freeze_reversal_7day_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 19:21",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "P4-OPS-5348",
       "artifact": "Delivered autonomous acceptance-criteria quality linter for backlog top-up tasks with deterministic pass/fail checks, duplicate classes, and run-safe audit schema for immediate queue quality control",
       "path": "office_os/artifacts/P4-OPS-5348_autonomous_acceptance_criteria_quality_linter_topup_tasks_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 17:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5406",
-      "artifact": "Delivered CSM war-room escalation memo stack with severity tiers, escalation templates, routing ownership matrix, and next-run pass/fail verification criteria for onboarding confidence regressions",
-      "path": "office_os/artifacts/P2-PROD-5406_csm_warroom_escalation_memo_stack_confidence_regressions_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 17:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5402",
-      "artifact": "Delivered procurement redline risk-reversal brief pack with 8 objection-to-proof briefs, concession guardrails, and same-call CTA routes for CFO/legal co-signer close-cycle compression",
-      "path": "office_os/artifacts/P1-REV-5402_procurement_redline_risk_reversal_brief_pack_cfo_legal_2026-03-03.md",
       "status": "done"
     }
   ],
