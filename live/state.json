@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T16:30:06.638959+00:00",
+  "now": "2026-03-03T16:40:07.052943+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6004",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h reopen-or-kill sprint for top 10 procurement-delayed late-stage deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 owner actions, binary reopen/close gates, and recoverable ARR prioritization.",
-      "artifact_path": "office_os/artifacts/P1-REV-6004_design_72h_reopen_or_kill_sprint_for_top_10_procurement_delayed_late_stage_deals_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6005",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Radar scores expansion probability, maps weekly interventions, and defines proposal-ready trigger criteria with owner SLAs.",
       "artifact_path": "office_os/artifacts/P1-REV-6005_produce_pilot_expansion_trigger_radar_for_18_accounts_entering_budget_reallocation_window_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6006",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 first-value confidence rescue matrix for integration-friction cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps confidence-breach signatures to owner actions, SLA windows, fallback proof paths, and Day3/Day7 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6006_build_day0_day7_first_value_confidence_rescue_matrix_for_integration_friction_cohorts_2026-03-04.md",
       "created_at": "2026-03-04T00:20:00+08:00",
       "updated_at": "2026-03-04T00:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 00:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 00:20",
       "owner": "COMMAND",
@@ -418,14 +386,6 @@
       "taskId": "P3-CONT-5466",
       "artifact": "Delivered 12 short-form proof clips for legal-delay and no-decision objections with hook-proof-CTA scripts, objection tags, channel deployment map, and keyword-driven conversion tracking loop",
       "path": "office_os/artifacts/P3-CONT-5466_shortform_proof_clips_legal_delay_nodecision_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5463",
-      "artifact": "Delivered 7-day founder authority narrative sprint for committee-delay reversals with hook-proof-CTA daily sequence, objection tags, channel map, and conversion keyword instrumentation for forced-outcome deal reactivation",
-      "path": "office_os/artifacts/P1-REV-5463_founder_authority_narrative_sprint_committee_delay_reversals_2026-03-03.md",
       "status": "done"
     }
   ],
