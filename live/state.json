@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T17:21:41.704815+00:00",
+  "now": "2026-03-03T17:30:05.388516+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6104",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder authority proof narrative for budget-freeze reversal conversations",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 hook-proof-CTA posts, objection tags, channel map, and conversion keyword instrumentation for meeting-booked lifts.",
-      "artifact_path": "office_os/artifacts/P1-REV-6104_founder_authority_proof_narrative_budget_freeze_2026-03-04.md",
-      "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6105",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Stack defines severity tiers, routing ownership, payload templates, and next-run verification criteria with rollback triggers.",
       "artifact_path": "office_os/artifacts/P2-PROD-6107_csm_product_escalation_stack_first_value_regressions_v4_2026-03-04.md",
-      "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6108",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for security-review delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6108_shortform_proof_clips_security_review_delay_2026-03-04.md",
       "created_at": "2026-03-04T01:20:00+08:00",
       "updated_at": "2026-03-04T01:20:00+08:00",
       "due_at": null,
