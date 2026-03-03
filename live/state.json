@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T21:21:22.795024+00:00",
+  "now": "2026-03-03T21:30:06.940286+00:00",
   "workers": [
     {
       "name": "Research",
@@ -187,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6214",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce proof-led short-form content matrix for budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix includes 12 hook-proof-CTA units, channel variants, objection tags, and conversion keyword tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6214_budget_freeze_shortform_matrix_2026-03-04.md",
-      "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6215",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1929",
+      "artifact": "Added Team Demo Cast Fast Read rail with continuity one-liner, checkpoint/priority-lane compression, and copy-ready queue-all continuity bundle for interruption-safe boardroom narration",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 05:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1928",
+      "artifact": "Added Founder Desk Command Reliability Fast Read rail with a 15-second boardroom line, ETA/checkpoint compression, queueable recovery count, and one-click recovery sweep dispatch for faster investor-pressure command control",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 05:22",
       "owner": "COMMAND",
@@ -450,22 +446,6 @@
       "taskId": "P4-OPS-6118",
       "artifact": "Defined priority-weighted top-up quality sampler with score bands, duplicate fingerprints, rewrite triggers, and run-level audit fields for autonomous backlog quality control",
       "path": "office_os/artifacts/P4-OPS-6118_priority_weighted_topup_quality_sampler_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6116",
-      "artifact": "Delivered CSM-to-product escalation packet template for repeated onboarding regressions with severity tiers, payload schema, routing ownership, and next-run verification closure criteria for deterministic escalation control",
-      "path": "office_os/artifacts/P2-PROD-6116_csm_product_escalation_packet_repeated_onboarding_regressions_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6111",
-      "artifact": "Delivered legal-procurement rebuttal decision tree covering 10 objection nodes with quantified-proof placeholders, concession boundaries, and deterministic same-call CTA exits to prevent ambiguous late-stage branches",
-      "path": "office_os/artifacts/P1-REV-6111_legal_procurement_rebuttal_decision_tree_2026-03-04.md",
       "status": "done"
     }
   ],
