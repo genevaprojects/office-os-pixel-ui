@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T14:21:47.648701+00:00",
+  "now": "2026-03-03T14:30:08.399274+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5463",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder authority narrative sprint for committee-delay reversals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sprint includes 7 hook-proof-CTA posts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-5463_founder_authority_narrative_sprint_committee_delay_reversals_2026-03-03.md",
-      "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5464",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -158,26 +138,6 @@
       "urgency": 3,
       "acceptance": "Stack defines severity tiers, routing ownership, payload templates, and next-run verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5465_csm_product_escalation_memo_stack_first_value_trust_regressions_2026-03-03.md",
-      "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5466",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for legal-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5466_shortform_proof_clips_legal_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T22:20:00+08:00",
       "updated_at": "2026-03-03T22:20:00+08:00",
       "due_at": null,
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 22:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5466",
+      "artifact": "Delivered 12 short-form proof clips for legal-delay and no-decision objections with hook-proof-CTA scripts, objection tags, channel deployment map, and keyword-driven conversion tracking loop",
+      "path": "office_os/artifacts/P3-CONT-5466_shortform_proof_clips_legal_delay_nodecision_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5463",
+      "artifact": "Delivered 7-day founder authority narrative sprint for committee-delay reversals with hook-proof-CTA daily sequence, objection tags, channel map, and conversion keyword instrumentation for forced-outcome deal reactivation",
+      "path": "office_os/artifacts/P1-REV-5463_founder_authority_narrative_sprint_committee_delay_reversals_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 22:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-5443",
       "artifact": "Delivered 72-hour close-or-reset sprint for top 8 no-decision enterprise deals with H24/H48/H72 command cadence, binary outcome gates, owner routing, and recoverable-ARR prioritization rules",
       "path": "office_os/artifacts/P1-REV-5443_72h_close_or_reset_sprint_top8_nodecision_enterprise_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 20:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5448",
-      "artifact": "Delivered 10 short-form committee-delay rebuttal scripts with hook-proof-CTA structure, objection-tag mapping, channel deployment plan, and keyword-based conversion attribution rules",
-      "path": "office_os/artifacts/P3-CONT-5448_shortform_proof_scripts_committee_delay_rebuttals_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 20:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5444",
-      "artifact": "Delivered 7-day founder authority narrative ladder for procurement-delay objections with hook-proof-CTA posts, objection tags, channel sequencing, and conversion keyword instrumentation for meeting/proposal acceleration",
-      "path": "office_os/artifacts/P1-REV-5444_founder_authority_narrative_ladder_procurement_delay_7day_2026-03-03.md",
       "status": "done"
     }
   ],
