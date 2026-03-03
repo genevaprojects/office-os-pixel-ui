@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T17:00:06.795608+00:00",
+  "now": "2026-03-03T17:10:06.316488+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6001",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 executive sponsor reactivation slate for budget-thawed stalled deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Slate ranks recoverable ARR, maps day0-day5 executive touch sequence, and enforces Day3/Day5 meeting-booked + proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6001_build_top_10_executive_sponsor_reactivation_slate_for_budget_thawed_stalled_deals_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6002",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Pack includes 10 objection branches, concession guardrails, quantified proof placeholders, and same-call CTA exits for sub-7-day close pushes.",
       "artifact_path": "office_os/artifacts/P1-REV-6002_create_procurement_redline_compression_call_scripts_for_legal_security_finance_triads_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6005",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce pilot expansion trigger radar for 18 accounts entering budget reallocation window",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Radar scores expansion probability, maps weekly interventions, and defines proposal-ready trigger criteria with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-6005_produce_pilot_expansion_trigger_radar_for_18_accounts_entering_budget_reallocation_window_2026-03-04.md",
       "created_at": "2026-03-04T00:20:00+08:00",
       "updated_at": "2026-03-04T00:20:00+08:00",
       "due_at": null,
