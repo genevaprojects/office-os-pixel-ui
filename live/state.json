@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T03:30:04.809549+00:00",
+  "now": "2026-03-03T03:40:05.133743+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5303",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h no-decision forced-outcome sprint for top 8 dormant enterprise opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 owner actions, binary reopen-or-close gates, and recoverable ARR prioritization.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5305",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -137,26 +117,6 @@
       "effort": 2,
       "urgency": 4,
       "acceptance": "Board scores churn risk, maps stakeholder interventions, and sets weekly save-probability delta targets.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5306",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value confidence rescue matrix for telemetry mismatch cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix links mismatch signatures to owner actions, SLA timers, fallback evidence paths, and closure criteria.",
       "artifact_path": null,
       "created_at": "2026-03-03T11:22:00+08:00",
       "updated_at": "2026-03-03T11:22:00+08:00",
@@ -248,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 11:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5303",
+      "artifact": "Delivered 72h no-decision forced-outcome sprint for top 8 dormant enterprise opportunities with H24/H48/H72 owner actions, binary reopen-or-close gates, and recoverable ARR prioritization model",
+      "path": "office_os/artifacts/P1-REV-5303_72h_nodecision_forced_outcome_sprint_top8_dormant_enterprise_opportunities_2026-03-03.md",
+      "status": "done\\n2026-03-03 11:35"
+    },
     {
       "time": "2026-03-03 11:26",
       "owner": "SOCIAL",
@@ -438,14 +406,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up",
       "path": "office_os/TOPUP_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 08:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
