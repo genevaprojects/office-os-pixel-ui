@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T00:21:41.185394+00:00",
+  "now": "2026-03-03T00:30:29.973579+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5254",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder authority proof sequence for legal-delay objections in late-stage pipeline",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 daily authority drops with proof slot, CTA variant, and conversion keyword tagging by channel.",
-      "artifact_path": "office_os/artifacts/P1-REV-5254_founder_authority_proof_sequence_legal_delay_2026-03-03.md",
-      "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5255",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Ladder defines severity tiers, owner routing, scripted escalation payloads, and next-run pass/fail verification rules.",
       "artifact_path": "office_os/artifacts/P2-PROD-5257_csm_product_escalation_script_ladder_first_value_breach_2026-03-03.md",
-      "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5258",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for committee-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, objection tags, channel deployment map, and KPI keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5258_shortform_proof_clips_committee_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
       "updated_at": "2026-03-03T08:20:34+08:00",
       "due_at": null,
