@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T05:00:08.451751+00:00",
+  "now": "2026-03-03T05:10:07.965796+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5311",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 10-account executive reactivation strike sheet for legal-cleared no-decision deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sheet ranks accounts by recoverable ARR, assigns 5-day touch sequence, and defines Day3/Day5 conversion gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5314",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Rubric maps stakeholder sequence, confidence scoring, mandatory proof blocks, and Day7 proposal trigger criteria.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
+      "updated_at": "2026-03-03T13:07:04.912603+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Stack includes severity lanes, memo templates, routing matrix, and next-run pass/fail verification criteria.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
+      "updated_at": "2026-03-03T13:07:04.912618+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Protocol defines pressure thresholds, safe rebalance actions, WIP-cap checks, and audit output fields.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
+      "updated_at": "2026-03-03T13:07:04.912629+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Card defines schema completeness checks, anomaly fingerprints, remediation ordering, and pending_verify closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5278_cron_output_schema_integrity_quickcheck_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T11:07:04.590241+08:00",
+      "updated_at": "2026-03-03T13:07:04.912634+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Card defines missing-file signatures, remediation sequence, retry policy, and pending_verify closure checks.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
+      "updated_at": "2026-03-03T13:07:04.912623+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 13:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5311",
+      "artifact": "Delivered 10-account executive reactivation strike sheet for legal-cleared no-decision deals with recoverable-ARR ranking, deterministic 5-day touch sequence, and enforced Day3/Day5 binary conversion gates plus fail-path escalation actions",
+      "path": "office_os/artifacts/P1-REV-5311_executive_reactivation_strike_sheet_10_accounts_legal_cleared_nodecision_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 12:26",
       "owner": "SOCIAL",
@@ -370,22 +366,6 @@
       "taskId": "P1-REV-5255",
       "artifact": "Delivered renewal-risk intervention scorecard for top 15 pilots entering budget-freeze windows with save-probability model, week-by-week intervention triggers, and owner SLA response gates",
       "path": "office_os/artifacts/P1-REV-5255_renewal_risk_intervention_scorecard_top15_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 09:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5256",
-      "artifact": "Delivered day0-day10 activation confidence repair matrix for telemetry mismatch cohorts with signature-to-owner actions, SLA timers, fallback evidence paths, and objective closure gates",
-      "path": "office_os/artifacts/P2-PROD-5256_activation_confidence_repair_matrix_day0_day10_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 09:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5252",
-      "artifact": "Delivered procurement redline stall breaker memo pack with 8 CFO/legal committee templates, quantified risk-reversal blocks, concession guardrail bands, and same-week close CTA routes",
-      "path": "office_os/artifacts/P1-REV-5252_procurement_redline_stall_breaker_memo_pack_2026-03-03.md",
       "status": "done"
     }
   ],
