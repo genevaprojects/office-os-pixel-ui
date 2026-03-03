@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T12:22:03.206397+00:00",
+  "now": "2026-03-03T12:30:22.264572+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5444",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder authority narrative ladder for procurement-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder provides 7 posts with hook-proof-CTA structure, objection tags, and channel keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-5444_founder_authority_narrative_ladder_procurement_delay_7day_2026-03-03.md",
-      "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5445",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Stack defines severity tiers, escalation payload templates, routing ownership, and next-run verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5447_csm_product_confidence_breach_escalation_memo_stack_2026-03-03.md",
-      "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5448",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short-form proof scripts for committee-delay rebuttal publishing",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Scripts include hook-proof-CTA flow, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5448_shortform_proof_scripts_committee_delay_rebuttals_2026-03-03.md",
       "created_at": "2026-03-03T20:21:30+08:00",
       "updated_at": "2026-03-03T20:21:30+08:00",
       "due_at": null,
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 20:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5448",
+      "artifact": "Delivered 10 short-form committee-delay rebuttal scripts with hook-proof-CTA structure, objection-tag mapping, channel deployment plan, and keyword-based conversion attribution rules",
+      "path": "office_os/artifacts/P3-CONT-5448_shortform_proof_scripts_committee_delay_rebuttals_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 20:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5444",
+      "artifact": "Delivered 7-day founder authority narrative ladder for procurement-delay objections with hook-proof-CTA posts, objection tags, channel sequencing, and conversion keyword instrumentation for meeting/proposal acceleration",
+      "path": "office_os/artifacts/P1-REV-5444_founder_authority_narrative_ladder_procurement_delay_7day_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 20:21",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "P4-OPS-5419",
       "artifact": "Delivered autonomous top-up novelty guardrail spec with duplicate fingerprinting, archetype rotation rules, acceptance freshness gates, churn budget, and run-level novelty audit schema to prevent same-objective backlog churn",
       "path": "office_os/artifacts/P4-OPS-5419_autonomous_topup_novelty_guardrail_prevent_same_objective_churn_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 18:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5417",
-      "artifact": "Delivered CSM-to-product escalation memo stack for week-one confidence regressions with severity lanes, escalation payload templates, routing ownership matrix, and next-run pass/fail verification criteria",
-      "path": "office_os/artifacts/P2-PROD-5417_csm_to_product_escalation_memo_stack_week1_confidence_regressions_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 18:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5412",
-      "artifact": "Delivered CFO risk-reversal concession ladder for budget-freeze live calls with 8 objection classes, concession bands A/B/C, margin guardrails, fallback language, and same-call CTA routes",
-      "path": "office_os/artifacts/P1-REV-5412_cfo_risk_reversal_concession_ladder_budget_freeze_live_calls_2026-03-03.md",
       "status": "done"
     }
   ],
