@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T03:00:05.927493+00:00",
+  "now": "2026-03-03T03:10:05.143500+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5269",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 7-day CFO objection conversion sprint for top 12 procurement-stalled deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint ranks 12 deals by recoverable ARR, defines day-by-day owner commands, and enforces Day3/Day7 meeting+proposal gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5269_cfo_objection_conversion_sprint_top12_2026-03-03.md",
-      "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5270",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Pack includes 8 objection branches, quantified proof placeholders, concession guardrails, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5270_legal_signoff_acceleration_script_pack_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5273",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build pilot renewal rescue heatmap for top 15 accounts entering budget freeze",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap ranks 15 pilots by save probability, week-by-week triggers, and stakeholder-specific intervention commands.",
-      "artifact_path": "office_os/artifacts/P1-REV-5273_pilot_renewal_rescue_heatmap_top15_2026-03-03.md",
-      "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
+      "updated_at": "2026-03-03T11:07:04.590213+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Templates define severity triggers, owner routing, escalation payload fields, and next-run pass/fail verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5275_onboarding_escalation_payload_templates_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
+      "updated_at": "2026-03-03T11:07:04.590226+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Scorer defines freshness bands, drift fingerprints, fail thresholds, and deterministic non-owner-mutating corrections.",
       "artifact_path": "office_os/artifacts/P4-OPS-5277_ready_lane_freshness_drift_scorer_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
+      "updated_at": "2026-03-03T11:07:04.590235+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Sentinel defines completeness checks, fallback order, fingerprinting schema, and pending_verify-to-resolved closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5260_cron_artifact_completeness_sentinel_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T10:07:03.414535+08:00",
+      "updated_at": "2026-03-03T11:07:04.590231+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Card defines schema completeness checks, anomaly fingerprints, remediation ordering, and pending_verify closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5278_cron_output_schema_integrity_quickcheck_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
+      "updated_at": "2026-03-03T11:07:04.590241+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 11:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 11:07",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5273",
+      "artifact": "Delivered pilot renewal rescue heatmap for top 15 budget-freeze accounts with save-probability ranking, week-by-week intervention triggers, and stakeholder-specific intervention commands",
+      "path": "office_os/artifacts/P1-REV-5273_pilot_renewal_rescue_heatmap_top15_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 11:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5269",
+      "artifact": "Delivered 7-day CFO objection conversion sprint for top 12 procurement-stalled deals with recoverable ARR ranking, day-by-day owner commands, and enforced Day3 meeting + Day7 proposal gates",
+      "path": "office_os/artifacts/P1-REV-5269_cfo_objection_conversion_sprint_top12_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 10:37",
       "owner": "COMMAND",
@@ -382,30 +366,6 @@
       "taskId": "P1-REV-5241",
       "artifact": "Delivered 14-day expansion fast-lane playbook for top 10 near-renewal accounts with ARR-probability ranking model, day-by-day owner cadence, and Day7/Day14 meeting/proposal binary gates",
       "path": "office_os/artifacts/P1-REV-5241_expansion_fastlane_playbook_top10_near_renewal_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5246",
-      "artifact": "Delivered day0-day14 activation proof continuity map for partial telemetry-loss cohorts with signature-based routing, SLA owner actions, fallback evidence paths, and closure verification gates",
-      "path": "office_os/artifacts/P2-PROD-5246_activation_proof_continuity_map_day0_day14_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5243",
-      "artifact": "Delivered no-decision forced-outcome operating cadence for top 15 dormant opportunities with deterministic recoverable-ARR ranking, 24h/48h/72h owner-backup execution lanes, and mandatory binary reopen/closeout gates",
-      "path": "office_os/artifacts/P1-REV-5243_nodecision_forced_outcome_operating_cadence_top15_2026-03-03.md",
       "status": "done"
     }
   ],
