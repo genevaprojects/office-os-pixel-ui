@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T23:22:18.250093+00:00",
+  "now": "2026-03-03T23:30:05.456152+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6228",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led objection rebuttal micro-content pack for procurement-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Pack includes 10 hook-proof-CTA units, channel variants, objection taxonomy tags, and keyword conversion instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-6228_procurement_delay_rebuttal_microcontent_pack_2026-03-04.md",
-      "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-6229",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -158,26 +138,6 @@
       "urgency": 3,
       "acceptance": "Playbook includes signature taxonomy, owner routing, SLA clocks, rollback choices, and Day3/Day7 verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-6229_onboarding_confidence_rescue_playbook_telemetry_mismatch_2026-03-04.md",
-      "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6230",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 7-day founder authority content ladder for no-decision enterprise threads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder includes daily hook-proof-CTA posts, objection tags, channel mapping, and meeting-booked tracking fields.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6230_founder_authority_content_ladder_nodecision_2026-03-04.md",
       "created_at": "2026-03-04T07:22:00+08:00",
       "updated_at": "2026-03-04T07:22:00+08:00",
       "due_at": null,
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6230",
+      "artifact": "Delivered 7-day founder authority content ladder for no-decision enterprise threads with daily hook-proof-CTA posts, objection tags, channel mapping, and meeting-booked tracking fields",
+      "path": "office_os/artifacts/P3-CONT-6230_founder_authority_content_ladder_nodecision_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6228",
+      "artifact": "Delivered founder-led procurement-delay objection rebuttal micro-content pack with 10 hook-proof-CTA units, channel variants, objection taxonomy tags, and keyword-based conversion instrumentation",
+      "path": "office_os/artifacts/P1-REV-6228_procurement_delay_rebuttal_microcontent_pack_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 07:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1939",
+      "artifact": "Added Team Interruption Command Rail with queue-ready swap visibility, failover ETA, and copy-ready immediate command + 60s runbook bundle for deterministic interruption-time continuity control",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 07:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1938",
+      "artifact": "Added Overview Investor Trust Scorecard rail with weighted pillar breakdown (confidence/trust/speed/checklist/source), weakest-pillar callout, and copy-ready trust+verdict bundle for investor-grade explainability under live demo pressure",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 07:22",
       "owner": "COMMAND",
@@ -434,38 +426,6 @@
       "taskId": "P0-FE-1933",
       "artifact": "Upgraded checkpoint narration with precise h/m/s countdown formatting in Critical Focus Strip and Sticky Action Bar for tighter boardroom timing clarity under recovery pressure",
       "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1932",
-      "artifact": "Added boardroom recovery sweep macro across Shift+G, command palette, and Command Jump status rail to auto-run validation remediation and route into trust recovery lane when gate posture stays blocked",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 05:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6210",
-      "artifact": "Delivered closed-lost resurrection trigger board for quarter-end enterprise recoveries with trigger taxonomy, ARR-weighted scoring, deterministic 72h reopen-or-kill workflow, owner routing, and conversion gates",
-      "path": "office_os/artifacts/P1-REV-6210_closed_lost_resurrection_trigger_board_2026-03-04.md",
-      "status": "done\\n2026-03-04 05:36"
-    },
-    {
-      "time": "2026-03-04 05:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1929",
-      "artifact": "Added Team Demo Cast Fast Read rail with continuity one-liner, checkpoint/priority-lane compression, and copy-ready queue-all continuity bundle for interruption-safe boardroom narration",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 05:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1928",
-      "artifact": "Added Founder Desk Command Reliability Fast Read rail with a 15-second boardroom line, ETA/checkpoint compression, queueable recovery count, and one-click recovery sweep dispatch for faster investor-pressure command control",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
