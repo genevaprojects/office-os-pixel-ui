@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T00:00:07.492093+00:00",
+  "now": "2026-03-03T00:10:04.580980+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5241",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 14-day expansion fast-lane playbook for top 10 near-renewal accounts with cross-sell windows",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Playbook ranks top 10 accounts by expansion ARR probability, maps day-by-day owner actions, and defines Day7/Day14 meeting-booked and proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5241_expansion_fastlane_playbook_top10_near_renewal_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5242",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Tree includes 10 objection branches, quantified proof placeholders, concession guardrail bands, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5242_procurement_delay_reversal_objection_tree_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5245",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce enterprise pilot save-plan template for at-risk champions entering budget freeze",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Template contains risk signatures, intervention triggers, stakeholder-specific scripts, and save-threshold probability deltas by week.",
-      "artifact_path": "office_os/artifacts/P1-REV-5245_enterprise_pilot_saveplan_template_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
+      "updated_at": "2026-03-03T08:07:03.068554+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Pack defines severity lanes, escalation scripts, owner routing, and next-run pass/fail verification requirements.",
       "artifact_path": "office_os/artifacts/P2-PROD-5247_onboarding_confidence_breach_escalation_script_pack_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
+      "updated_at": "2026-03-03T08:07:03.068568+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Detector defines dependency staleness thresholds, anomaly fingerprint schema, and owner-safe correction recommendations.",
       "artifact_path": "office_os/artifacts/P4-OPS-5249_stale_dependency_detector_ready_lane_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
+      "updated_at": "2026-03-03T08:07:03.068573+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines schema drift checks, fingerprinting, remediation order, and pending_verify closure rules.",
       "artifact_path": "office_os/artifacts/P5-REL-5250_cron_output_schema_drift_sentinel_card_2026-03-03.md",
       "created_at": "2026-03-03T07:20:00+08:00",
-      "updated_at": "2026-03-03T07:20:00+08:00",
+      "updated_at": "2026-03-03T08:07:03.068577+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 08:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5245",
+      "artifact": "Delivered enterprise pilot save-plan template for budget-freeze risks with risk signatures, trigger-based interventions, stakeholder scripts, and week-by-week save-probability deltas",
+      "path": "office_os/artifacts/P1-REV-5245_enterprise_pilot_saveplan_template_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 08:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5241",
+      "artifact": "Delivered 14-day expansion fast-lane playbook for top 10 near-renewal accounts with ARR-probability ranking model, day-by-day owner cadence, and Day7/Day14 meeting/proposal binary gates",
+      "path": "office_os/artifacts/P1-REV-5241_expansion_fastlane_playbook_top10_near_renewal_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 07:37",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks using priority-weighted mix and owner-assigned acceptance-complete task specs",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 05:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-5219",
-      "artifact": "Delivered cron fallback output integrity card for growth-critical campaigns with schema/freshness/completeness checks, deterministic remediation sequence, and strict next-run closure gates",
-      "path": "office_os/artifacts/P5-REL-5219_cron_fallback_output_integrity_card_growth_campaigns_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 05:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5218",
-      "artifact": "Delivered autonomous backlog aging-pressure rebalance protocol with deterministic age bands, weighted selection logic, WIP-safe correction rules, and hourly audit schema to prevent stale queue buildup",
-      "path": "office_os/artifacts/P4-OPS-5218_backlog_aging_pressure_rebalance_protocol_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 05:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
