@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T18:21:43.380087+00:00",
+  "now": "2026-03-03T18:30:06.605705+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6113",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder authority narrative to revive committee no-decision threads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 hook-proof-CTA posts, objection tags, channel map, and conversion keyword instrumentation with daily objective.",
-      "artifact_path": "office_os/artifacts/P1-REV-6113_founder_authority_narrative_committee_revival_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6114",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Template defines severity tiers, payload schema, routing ownership, and next-run verification criteria for deterministic escalation.",
       "artifact_path": "office_os/artifacts/P2-PROD-6116_csm_product_escalation_packet_repeated_onboarding_regressions_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6117",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof hooks for legal-delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel-specific variants, and conversion keyword tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6117_shortform_proof_hooks_legal_delay_budget_freeze_2026-03-04.md",
       "created_at": "2026-03-04T02:20:00+08:00",
       "updated_at": "2026-03-04T02:20:00+08:00",
       "due_at": null,
