@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T11:30:06.400802+00:00",
+  "now": "2026-03-03T11:40:06.314370+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5433",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72-hour no-decision forced-outcome sprint for top 10 dormant enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 actions, owner backups, and binary reopen-or-close verification gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5433_72h_nodecision_forced_outcome_sprint_top10_dormant_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5435",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Tracker scores churn risk, maps weekly interventions, and sets save-probability delta targets with owner SLAs.",
       "artifact_path": "office_os/artifacts/P1-REV-5435_pilot_renewal_save_probability_intervention_tracker_top15_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5436",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 first-value evidence rescue matrix for telemetry-loss onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps telemetry-loss signatures to owner actions, SLA windows, fallback evidence paths, and closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5436_day0_day7_first_value_evidence_rescue_matrix_telemetry_loss_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
       "updated_at": "2026-03-03T11:21:49.059Z",
       "due_at": null,
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5436",
+      "artifact": "Delivered day0-day7 first-value evidence rescue matrix for telemetry-loss onboarding cohorts with signature-to-owner routing, SLA windows, fallback evidence continuity, and objective closure criteria",
+      "path": "office_os/artifacts/P2-PROD-5436_day0_day7_first_value_evidence_rescue_matrix_telemetry_loss_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 19:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5433",
+      "artifact": "Delivered 72-hour no-decision forced-outcome sprint for top 10 dormant enterprise deals with H24/H48/H72 command lanes, owner backup matrix, and binary reopen-or-close verification gates",
+      "path": "office_os/artifacts/P1-REV-5433_72h_nodecision_forced_outcome_sprint_top10_dormant_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 19:28",
       "owner": "SOCIAL",
@@ -430,22 +406,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 17:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5408",
-      "artifact": "Delivered backlog top-up acceptance scoring rubric with weighted quality dimensions, duplicate-prevention fingerprints, and run-level accept/rewrite/reject decision bands",
-      "path": "office_os/artifacts/P4-OPS-5408_autonomous_backlog_topup_acceptance_scoring_rubric_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 17:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5348",
-      "artifact": "Delivered autonomous acceptance-criteria quality linter for backlog top-up tasks with deterministic pass/fail checks, duplicate classes, and run-safe audit schema for immediate queue quality control",
-      "path": "office_os/artifacts/P4-OPS-5348_autonomous_acceptance_criteria_quality_linter_topup_tasks_2026-03-03.md",
       "status": "done"
     }
   ],
