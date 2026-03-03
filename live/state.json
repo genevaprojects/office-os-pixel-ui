@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T05:21:59.056806+00:00",
+  "now": "2026-03-03T05:30:08.365307+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5323",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder-led legal-delay reversal narrative ladder for week-long enterprise follow-ups",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder provides 7 daily proof-led posts with objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T13:20:00+08:00",
-      "updated_at": "2026-03-03T13:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5324",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -177,26 +157,6 @@
       "effort": 2,
       "urgency": 3,
       "acceptance": "Decision tree maps drop signatures to owner actions, SLA timers, escalation thresholds, and next-run verification gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T13:20:00+08:00",
-      "updated_at": "2026-03-03T13:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5326",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led clips for procurement-delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel plan, and KPI keywords for attribution tracking.",
       "artifact_path": null,
       "created_at": "2026-03-03T13:20:00+08:00",
       "updated_at": "2026-03-03T13:20:00+08:00",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 13:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5326",
+      "artifact": "Delivered 10 short proof-led clips for procurement-delay and budget-freeze objections with hook-proof-CTA scripts, objection tagging, channel deployment map, and keyword instrumentation for meeting/proposal attribution",
+      "path": "office_os/artifacts/P3-CONT-5326_short_proof_led_clips_procurement_delay_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 13:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5323",
+      "artifact": "Delivered 7-day founder-led legal-delay reversal narrative ladder for enterprise follow-ups with day-by-day hook-proof-CTA sequencing, objection tags, proof insert library, and keyword-tracked conversion controls",
+      "path": "office_os/artifacts/P1-REV-5323_founder_legal_delay_reversal_narrative_ladder_week_long_enterprise_followups_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 13:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-5272",
       "artifact": "Delivered 5-touch founder proof outbound sequence for procurement-delay objections with touch timing, channel-specific CTA variants, proof slots, and conversion keyword tagging for decision acceleration",
       "path": "office_os/artifacts/P1-REV-5272_founder_proof_sequence_procurement_delay_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 10:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 10:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5261",
-      "artifact": "Delivered 10-account CFO reactivation strike sheet for post-budget-freeze enterprise renewals with recoverable-ARR ranking, H24/H72 owner actions, and binary reopen/close gates with probability deltas",
-      "path": "office_os/artifacts/P1-REV-5261_cfo_reactivation_strike_sheet_post_budget_freeze_2026-03-03.md",
       "status": "done"
     }
   ],
