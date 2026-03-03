@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T06:30:06.322797+00:00",
+  "now": "2026-03-03T06:40:04.889853+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5333",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design dormant champion reactivation scorecard for budget-hold no-decision pipeline",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Scorecard maps silence signatures to owner actions, ranks recoverable ARR, and defines Day3/Day7 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5333_dormant_champion_reactivation_scorecard_budget_hold_pipeline_2026-03-03.md",
-      "created_at": "2026-03-03T14:20:00+08:00",
-      "updated_at": "2026-03-03T14:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5335",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -138,26 +118,6 @@
       "urgency": 3,
       "acceptance": "Matrix links telemetry-gap signatures to owner actions, SLA timers, fallback evidence paths, and closure verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5335_day0_day7_activation_confidence_rescue_matrix_telemetry_gap_2026-03-03.md",
-      "created_at": "2026-03-03T14:20:00+08:00",
-      "updated_at": "2026-03-03T14:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5336",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create CSM-to-product escalation memo ladder for recurring first-value regressions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder defines severity lanes, owner routing, escalation payload templates, and next-run pass/fail verification criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5336_csm_to_product_escalation_memo_ladder_first_value_regressions_2026-03-03.md",
       "created_at": "2026-03-03T14:20:00+08:00",
       "updated_at": "2026-03-03T14:20:00+08:00",
       "due_at": null,
