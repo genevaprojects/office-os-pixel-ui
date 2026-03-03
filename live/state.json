@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T09:00:05.955871+00:00",
+  "now": "2026-03-03T09:10:05.444707+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5401",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 dormant enterprise reactivation command board with day0-day5 forced-outcome gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks 15 dormant deals by recoverable ARR, maps day0-day5 owner commands, and defines Day3/Day5 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5401_dormant_enterprise_reactivation_command_board_day0_day5_2026-03-03.md",
-      "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5402",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Pack includes 8 objection-to-proof briefs, concession guardrails, and same-call CTA routes for close-cycle compression.",
       "artifact_path": "office_os/artifacts/P1-REV-5402_procurement_redline_risk_reversal_brief_pack_cfo_legal_2026-03-03.md",
       "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
+      "updated_at": "2026-03-03T17:07:04.120479+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Stack defines severity tiers, escalation templates, routing ownership, and pass/fail verification criteria for next run.",
       "artifact_path": "office_os/artifacts/P2-PROD-5406_csm_warroom_escalation_memo_stack_confidence_regressions_2026-03-03.md",
       "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
+      "updated_at": "2026-03-03T17:07:04.120493+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Linter defines minimum acceptance completeness checks, duplicate detection rules, and audit output schema for task injection quality.",
       "artifact_path": "office_os/artifacts/P4-OPS-5348_autonomous_acceptance_criteria_quality_linter_topup_tasks_2026-03-03.md",
       "created_at": "2026-03-03T15:20:00+08:00",
-      "updated_at": "2026-03-03T16:07:03.312867+08:00",
+      "updated_at": "2026-03-03T17:07:04.120509+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Rubric defines minimum acceptance quality checks, duplication fingerprints, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-5408_autonomous_backlog_topup_acceptance_scoring_rubric_2026-03-03.md",
       "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
+      "updated_at": "2026-03-03T17:07:04.120498+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Card defines schema completeness checks, anomaly fingerprints, remediation ordering, and pending_verify closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5278_cron_output_schema_integrity_quickcheck_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T16:07:03.312862+08:00",
+      "updated_at": "2026-03-03T17:07:04.120503+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 17:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 17:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5401",
+      "artifact": "Delivered top-15 dormant enterprise reactivation command board with recoverable-ARR ranking, Day0-Day5 owner command cadence, and enforced Day3/Day5 binary reopen-or-close gates for deterministic forced outcomes",
+      "path": "office_os/artifacts/P1-REV-5401_dormant_enterprise_reactivation_command_board_day0_day5_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 16:37",
       "owner": "COMMAND",
@@ -370,22 +366,6 @@
       "taskId": "P1-REV-5322",
       "artifact": "Delivered champion multithread reactivation board for 12 stalled enterprise opportunities with ARR-weighted ranking, Day0-Day7 cadence, mandatory proof blocks, owner routing matrix, and Day3/Day7 binary conversion gates",
       "path": "office_os/artifacts/P1-REV-5322_champion_multithread_reactivation_board_12_stalled_enterprise_opportunities_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 14:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1887",
-      "artifact": "Added Demo Validation auto-remediation action and command-palette trigger to apply failing-check recovery profile (stability + state reconcile + executive render posture) without disrupting live-data refresh behavior",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
