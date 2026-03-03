@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T02:21:56.572292+00:00",
+  "now": "2026-03-03T02:30:06.915009+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5272",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder proof sequence for procurement-delay objections across 5 outbound touches",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence contains 5 touchpoints with proof slots, CTA variants by channel, and keyword tagging for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-5272_founder_proof_sequence_procurement_delay_2026-03-03.md",
-      "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5273",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Templates define severity triggers, owner routing, escalation payload fields, and next-run pass/fail verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5275_onboarding_escalation_payload_templates_2026-03-03.md",
-      "created_at": "2026-03-03T10:20:00+08:00",
-      "updated_at": "2026-03-03T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5276",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short-form proof clips for committee-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts, objection tags, channel deployment map, and KPI keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5276_shortform_proof_clips_committee_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T10:20:00+08:00",
       "updated_at": "2026-03-03T10:20:00+08:00",
       "due_at": null,
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5276",
+      "artifact": "Delivered 10 short-form hook-proof-CTA clips for committee-delay/no-decision objections with objection tags, channel deployment map, and KPI keyword instrumentation for conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-5276_shortform_proof_clips_committee_delay_nodecision_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5272",
+      "artifact": "Delivered 5-touch founder proof outbound sequence for procurement-delay objections with touch timing, channel-specific CTA variants, proof slots, and conversion keyword tagging for decision acceleration",
+      "path": "office_os/artifacts/P1-REV-5272_founder_proof_sequence_procurement_delay_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 10:07",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-5240",
-      "artifact": "Delivered cron artifact freshness verification card with threshold bands, schema/integrity checks, deterministic remediation sequence, and pending_verify-to-resolved closure gates",
-      "path": "office_os/artifacts/P5-REL-5240_cron_artifact_freshness_verification_card_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5239",
-      "artifact": "Delivered autonomous task-age anomaly linter spec with stale thresholds, anomaly fingerprinting, owner-safe correction rules, and hourly audit schema for backlog freshness control",
-      "path": "office_os/artifacts/P4-OPS-5239_task_age_anomaly_linter_backlog_freshness_2026-03-03.md",
       "status": "done"
     }
   ],
