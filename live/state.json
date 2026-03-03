@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T19:50:06.805508+00:00",
+  "now": "2026-03-03T20:00:07.524956+00:00",
   "workers": [
     {
       "name": "Research",
@@ -229,6 +229,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1921",
+      "artifact": "Upgraded Team Hot-Swap Queueability Rail with explicit blocker-lane visibility and a copy-ready queue-all continuity bundle combining posture, blockers, command, and fallback runbook for interruption-safe boardroom dispatch",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1920",
+      "artifact": "Upgraded Founder Desk Investor Recovery Queue with queue-all lock visibility and nearest checkpoint countdown (cooldown/SLA) so operators can narrate deterministic command timing before dispatch",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 03:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -410,22 +426,6 @@
       "taskId": "P1-REV-6103",
       "artifact": "Delivered 72h reopen-or-kill command sprint for top 8 no-decision enterprise stalls with H24/H48/H72 owner actions, strict binary gates, escalation backups, and recoverable-ARR prioritization template for forced-outcome control",
       "path": "office_os/artifacts/P1-REV-6103_72h_reopen_or_kill_command_sprint_top8_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 01:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution (P1-heavy), owner assignment, and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 01:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6008",
-      "artifact": "Delivered autonomous backlog lane rebalance linter spec with priority-weight drift detection, deterministic corrective top-up logic, and duplicate-fingerprint guards to keep execution aligned with revenue-first strategy",
-      "path": "office_os/artifacts/P4-OPS-6008_autonomous_backlog_lane_rebalance_linter_priority_weight_drift_2026-03-04.md",
       "status": "done"
     }
   ],
