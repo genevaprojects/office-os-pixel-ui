@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T14:30:08.399274+00:00",
+  "now": "2026-03-03T14:40:06.262390+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P2-PROD-5464",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 onboarding confidence rescue matrix for low-signal enterprise cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps confidence-breach signatures to owner actions, SLA windows, fallback proof paths, and closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5464_onboarding_confidence_rescue_matrix_day0_day7_low_signal_enterprise_2026-03-03.md",
-      "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5465",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -205,29 +185,33 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null
-    },
-    {
-      "id": "P5-REL-5469",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron DST-boundary anomaly triage card for growth-critical automations",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "acceptance": "Card defines DST edge-case thresholds, remediation order, retry policy, and pending_verify closure criteria.",
-      "artifact_path": "office_os/artifacts/P5-REL-5469_cron_dst_boundary_anomaly_triage_growth_automations_2026-03-03.md",
-      "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 22:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-5469",
+      "artifact": "Delivered DST-boundary cron anomaly triage card with edge-case thresholds, deterministic remediation order, retry policy, and pending_verify closure criteria for growth-critical automations",
+      "path": "office_os/artifacts/P5-REL-5469_cron_dst_boundary_anomaly_triage_growth_automations_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5464",
+      "artifact": "Delivered day0-day7 onboarding confidence rescue matrix for low-signal enterprise cohorts with breach-signature routing, owner/SLA actions, fallback proof paths, and hard closure checks",
+      "path": "office_os/artifacts/P2-PROD-5464_onboarding_confidence_rescue_matrix_day0_day7_low_signal_enterprise_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 22:25",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P1-REV-5441",
       "artifact": "Delivered top-10 expansion trigger strike sheet with ARR-ranked budget-release windows, day0-day5 owner command cadence, and enforced Day3/Day5 meeting-booked/proposal-sent gates for active-pipeline conversion",
       "path": "office_os/artifacts/P1-REV-5441_top10_expansion_trigger_strike_sheet_budget_release_windows_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5445",
-      "artifact": "Delivered top-12 pilot renewal save-probability heatmap with churn-risk tiering, weekly intervention actions, owner SLA windows, and Day7/Day14/Day21 delta targets for budget-risk retention control",
-      "path": "office_os/artifacts/P1-REV-5445_pilot_renewal_save_probability_heatmap_top12_budget_risk_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 20:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5446",
-      "artifact": "Delivered first-value evidence continuity matrix for telemetry-loss onboarding cohorts with signature-to-owner routing, SLA windows, fallback proof paths, and Day3/Day7 closure gates",
-      "path": "office_os/artifacts/P2-PROD-5446_first_value_evidence_continuity_matrix_telemetry_loss_onboarding_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 20:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5443",
-      "artifact": "Delivered 72-hour close-or-reset sprint for top 8 no-decision enterprise deals with H24/H48/H72 command cadence, binary outcome gates, owner routing, and recoverable-ARR prioritization rules",
-      "path": "office_os/artifacts/P1-REV-5443_72h_close_or_reset_sprint_top8_nodecision_enterprise_2026-03-03.md",
       "status": "done"
     }
   ],
