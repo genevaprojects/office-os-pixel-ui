@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T00:30:29.973579+00:00",
+  "now": "2026-03-03T00:40:05.456170+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5253",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h close-or-kill command sprint for top 10 no-decision enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint maps H24/H48/H72 owner actions, binary close-or-kill gates, and recoverable ARR ranking with escalation backup lanes.",
-      "artifact_path": "office_os/artifacts/P1-REV-5253_close_or_kill_command_sprint_top10_2026-03-03.md",
-      "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5255",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -158,26 +138,6 @@
       "urgency": 3,
       "acceptance": "Matrix links telemetry mismatch signatures to owner actions, SLA timers, fallback evidence paths, and closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5256_activation_confidence_repair_matrix_day0_day10_2026-03-03.md",
-      "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5257",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build CSM-to-product escalation script ladder for first-value breach incidents",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder defines severity tiers, owner routing, scripted escalation payloads, and next-run pass/fail verification rules.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5257_csm_product_escalation_script_ladder_first_value_breach_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
       "updated_at": "2026-03-03T08:20:34+08:00",
       "due_at": null,
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 08:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5257",
+      "artifact": "Delivered CSM-to-Product first-value breach escalation script ladder with severity tiers, owner routing matrix, scripted escalation payloads, and objective next-run pass/fail verification rules",
+      "path": "office_os/artifacts/P2-PROD-5257_csm_product_escalation_script_ladder_first_value_breach_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 08:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5253",
+      "artifact": "Delivered 72h close-or-kill command sprint for top 10 no-decision enterprise deals with H24/H48/H72 owner actions, binary gate logic, recoverable ARR ranking, and escalation backup lanes for deterministic outcome control",
+      "path": "office_os/artifacts/P1-REV-5253_close_or_kill_command_sprint_top10_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 08:20",
       "owner": "COMMAND",
@@ -410,22 +386,6 @@
       "taskId": "P0-FE-1870",
       "artifact": "Converted OFFICE_OS_FRONTEND READY-lane exhaustion into explicit autonomous continuity milestone and immediately resumed same-run frontend execution without prompting",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 05:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1869",
-      "artifact": "Added Continuity Failure Drill Pack in Team view with failover ETA and one-click copy for drill-only or drill+boardroom bundle to harden interruption-time staffing response",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 05:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1868",
-      "artifact": "Added Confidence Delta Strip in Mission Control Overview with snapshot-to-snapshot confidence/trust/speed deltas and copy-ready brief to tighten investor drift narration under pressure",
-      "path": "office_os_mission_control/app/page.tsx",
       "status": "done"
     }
   ],
