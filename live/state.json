@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T15:00:06.185105+00:00",
+  "now": "2026-03-03T15:10:05.088883+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5461",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 legal-cleared deal resurrection board for Q2 close week",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks recoverable ARR, assigns day0-day5 multithread actions, and defines Day3/Day5 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5461_top12_legal_cleared_deal_resurrection_board_q2_close_week_2026-03-03.md",
-      "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5462",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Kit includes 10 objection branches, quantified proof placeholders, concession boundaries, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5462_procurement_redline_objection_reversal_kit_cfo_security_legal_2026-03-03.md",
       "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
+      "updated_at": "2026-03-03T23:07:05.118077+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Stack defines severity tiers, routing ownership, payload templates, and next-run verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5465_csm_product_escalation_memo_stack_first_value_trust_regressions_2026-03-03.md",
       "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
+      "updated_at": "2026-03-03T23:07:05.118095+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Protocol defines fingerprint schema, conflict thresholds, merge rules, and audit fields for non-destructive dedupe.",
       "artifact_path": "office_os/artifacts/P4-OPS-5467_autonomous_duplicate_task_fingerprint_dedupe_protocol_v2_2026-03-03.md",
       "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
+      "updated_at": "2026-03-03T23:07:05.118102+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Monitor defines quality scoring bands, drift thresholds, corrective rewrite triggers, and run-level reporting schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-5468_acceptance_quality_drift_monitor_ready_queue_2026-03-03.md",
       "created_at": "2026-03-03T22:20:00+08:00",
-      "updated_at": "2026-03-03T22:20:00+08:00",
+      "updated_at": "2026-03-03T23:07:05.118110+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Card defines drift thresholds, remediation order, retry policy, and pending_verify next-run closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T22:07:06.550318+08:00",
+      "updated_at": "2026-03-03T23:07:05.118117+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5461",
+      "artifact": "Delivered top-12 legal-cleared deal resurrection board for Q2 close week with recoverable-ARR ranking, deterministic Day0-Day5 multithread actions, and hard Day3/Day5 reopen-or-close gates",
+      "path": "office_os/artifacts/P1-REV-5461_top12_legal_cleared_deal_resurrection_board_q2_close_week_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 22:50",
       "owner": "BUILDER",
@@ -370,22 +366,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-5450",
-      "artifact": "Delivered cron future-timestamp anomaly triage card for revenue jobs with severity thresholds, remediation order, retry policy, and pending_verify next-run closure checks",
-      "path": "office_os/artifacts/P5-REL-5450_cron_artifact_future_timestamp_anomaly_triage_revenue_jobs_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5449",
-      "artifact": "Delivered autonomous backlog freshness SLA scorecard for hourly runs with freshness thresholds, stale-ratio triggers, corrective actions, and run-level audit schema",
-      "path": "office_os/artifacts/P4-OPS-5449_autonomous_backlog_freshness_sla_scorecard_hourly_runs_2026-03-03.md",
       "status": "done"
     }
   ],
