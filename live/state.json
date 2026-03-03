@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T13:30:06.080897+00:00",
+  "now": "2026-03-03T13:40:06.207614+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5454",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h executive escalation sprint for top 6 budget-freeze enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 actions, owner routing, binary reopen-or-close gates, and recoverable ARR focus.",
-      "artifact_path": "office_os/artifacts/P1-REV-5454_72h_exec_escalation_sprint_top6_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5455",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Watchlist scores expansion probability, assigns weekly actions, and sets proposal-sent and meeting-booked gate targets.",
       "artifact_path": "office_os/artifacts/P1-REV-5455_expansion_trigger_watchlist_15_active_pilots_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5456",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 onboarding confidence rescue matrix for low-signal cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps confidence-breach signatures to owner actions, SLA timers, fallback proof paths, and closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5456_onboarding_confidence_rescue_matrix_day0_day7_low_signal_2026-03-03.md",
       "created_at": "2026-03-03T21:20:19+08:00",
       "updated_at": "2026-03-03T21:20:19+08:00",
       "due_at": null,
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 21:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 21:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5456",
+      "artifact": "Delivered day0-day7 onboarding confidence rescue matrix for low-signal cohorts with confidence-breach signatures, owner action routing, SLA timers, fallback proof paths, and explicit Day7 closure checks",
+      "path": "office_os/artifacts/P2-PROD-5456_onboarding_confidence_rescue_matrix_day0_day7_low_signal_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 21:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5454",
+      "artifact": "Delivered 72-hour executive escalation sprint for top 6 budget-freeze enterprise deals with H24/H48/H72 action lanes, owner routing, binary reopen-or-close gates, and recoverable-ARR prioritization model",
+      "path": "office_os/artifacts/P1-REV-5454_72h_exec_escalation_sprint_top6_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 21:25",
       "owner": "SOCIAL",
@@ -422,30 +406,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:21",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-5420",
-      "artifact": "Delivered cron artifact freshness integrity quick-card with threshold bands, anomaly fingerprints, deterministic remediation order, retry ladder, and pending_verify closure checks",
-      "path": "office_os/artifacts/P5-REL-5420_cron_artifact_freshness_integrity_quickcard_revenue_critical_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5429",
-      "artifact": "Delivered autonomous acceptance-gate sampler for topped-up tasks with risk-weighted random sampling, acceptance lint criteria, corrective rewrite protocol, and audit schema",
-      "path": "office_os/artifacts/P4-OPS-5429_autonomous_acceptance_gate_sampler_topup_tasks_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5426",
-      "artifact": "Delivered onboarding trust regression escalation bundle for CSM↔Product war room with severity thresholds, routing ownership, escalation templates, and next-run pass/fail closure gates",
-      "path": "office_os/artifacts/P2-PROD-5426_onboarding_trust_regression_escalation_bundle_csm_product_warroom_2026-03-03.md",
       "status": "done"
     }
   ],
