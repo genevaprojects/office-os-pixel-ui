@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T20:21:26.449034+00:00",
+  "now": "2026-03-03T20:30:05.082072+00:00",
   "workers": [
     {
       "name": "Research",
@@ -158,26 +158,6 @@
       "urgency": 3,
       "acceptance": "Pack includes failure-signature taxonomy, owner SLA routing, fallback evidence plan, and day3/day7 closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-6204_first_value_rescue_ops_pack_2026-03-04.md",
-      "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6205",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce procurement-objection rebuttal short-form sequence with conversion instrumentation",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 10 hook-proof-CTA units, channel variants, objection tags, and keyword tracking matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6205_procurement_rebuttal_shortform_sequence_2026-03-04.md",
       "created_at": "2026-03-04T04:20:49+08:00",
       "updated_at": "2026-03-04T04:20:49+08:00",
       "due_at": null,
