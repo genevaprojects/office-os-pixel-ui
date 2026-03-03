@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T22:30:05.449665+00:00",
+  "now": "2026-03-03T22:40:06.608603+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6218",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design procurement redline unblock command map for sub-7-day close acceleration",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Map redline stall signatures to owner actions, SLA windows, fallback clauses, and close-or-kill gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6218_procurement_redline_unblock_command_map_2026-03-04.md",
-      "created_at": "2026-03-04T06:20:00+08:00",
-      "updated_at": "2026-03-04T06:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6219",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -158,26 +138,6 @@
       "urgency": 3,
       "acceptance": "Pack includes failure signatures, owner routing, SLA clocks, rollback options, and pass/fail verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-6220_first_value_incident_triage_pack_2026-03-04.md",
-      "created_at": "2026-03-04T06:20:00+08:00",
-      "updated_at": "2026-03-04T06:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6221",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define CSM to product confidence-regression escalation template with evidence contract",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Template includes severity tiers, required evidence payload, routing matrix, and next-run closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6221_confidence_regression_escalation_template_2026-03-04.md",
       "created_at": "2026-03-04T06:20:00+08:00",
       "updated_at": "2026-03-04T06:20:00+08:00",
       "due_at": null,
@@ -268,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6218",
+      "artifact": "Delivered procurement redline unblock command map with stall signatures, owner/SLA actions, fallback clauses, and Day3/Day5/Day7 close-or-kill gates for sub-7-day enterprise close acceleration",
+      "path": "office_os/artifacts/P1-REV-6218_procurement_redline_unblock_command_map_2026-03-04.md",
+      "status": "done\\n2026-03-04 06:36"
+    },
     {
       "time": "2026-03-04 06:22",
       "owner": "BUILDER",
@@ -458,14 +426,6 @@
       "taskId": "P2-PROD-6203",
       "artifact": "Delivered first-value rescue operations pack for trust-risk onboarding cohorts with failure-signature taxonomy, owner SLA routing, fallback evidence tiers, and hard Day3/Day7 closure gates for deterministic recovery control",
       "path": "office_os/artifacts/P2-PROD-6203_first_value_rescue_ops_pack_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 04:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-complete tasks for uninterrupted autonomous throughput",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
