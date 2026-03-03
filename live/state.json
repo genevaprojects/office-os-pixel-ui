@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T10:00:05.065074+00:00",
+  "now": "2026-03-03T10:10:04.983796+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5411",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 procurement committee unblock command map for Q2 late-stage opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Map ranks 12 opportunities by recoverable ARR, defines day0-day5 stakeholder commands, and enforces Day3/Day5 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5411_top12_procurement_committee_unblock_command_map_q2_late_stage_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5412",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Ladder covers 8 objection classes with concession bands, fallback language, and same-call CTA routes with margin guardrails.",
       "artifact_path": "office_os/artifacts/P1-REV-5412_cfo_risk_reversal_concession_ladder_budget_freeze_live_calls_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5415",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build close-slippage early-warning scorecard for top 20 enterprise opportunities entering procurement",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Scorecard ranks top 20 deals by slip risk, maps owner interventions, and defines weekly probability-delta targets with escalation triggers.",
-      "artifact_path": "office_os/artifacts/P1-REV-5415_close_slippage_early_warning_scorecard_top20_procurement_2026-03-03.md",
       "created_at": "2026-03-03T17:20:00+08:00",
       "updated_at": "2026-03-03T17:20:00+08:00",
       "due_at": null,
