@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T09:24:46.683423+00:00",
+  "now": "2026-03-03T09:30:15.063513+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5414",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led procurement trust recovery script pack for legal-hesitation committees",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts with objection tags, channel map, and meeting-booked keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-5414_founder_procurement_trust_recovery_script_pack_legal_hesitation_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5415",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Stack defines severity lanes, escalation payload templates, routing ownership, and pass/fail verification criteria for the next run.",
       "artifact_path": "office_os/artifacts/P2-PROD-5417_csm_to_product_escalation_memo_stack_week1_confidence_regressions_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5418",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short proof-led clips for procurement-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA format, objection tags, channel rollout order, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5418_short_proof_led_clips_procurement_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T17:20:00+08:00",
       "updated_at": "2026-03-03T17:20:00+08:00",
       "due_at": null,
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 17:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5418",
+      "artifact": "Delivered 12 short proof-led clips for procurement-delay and no-decision objections with hook-proof-CTA format, objection tags, channel rollout order, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5418_short_proof_led_clips_procurement_delay_nodecision_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 17:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5414",
+      "artifact": "Delivered founder-led procurement trust recovery script pack for legal-hesitation committees with 10 hook-proof-CTA scripts, objection tags, channel map, and meeting-booked keyword instrumentation",
+      "path": "office_os/artifacts/P1-REV-5414_founder_procurement_trust_recovery_script_pack_legal_hesitation_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 17:20",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 15:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-5328",
-      "artifact": "Delivered cron stale-output fallback drill card with stale signatures, fallback run order, retry constraints, and pending_verify closure checks for revenue automation resilience",
-      "path": "office_os/artifacts/P5-REL-5328_cron_stale_output_fallback_drill_card_revenue_automation_resilience_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 15:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-5338",
-      "artifact": "Delivered autonomous decision-SLA drift detector with explicit drift thresholds, anomaly fingerprint schema, owner-safe nudge ladder, and run-level audit output model for deterministic queue recovery",
-      "path": "office_os/artifacts/P4-OPS-5338_autonomous_decision_sla_drift_detector_owner_safe_nudges_2026-03-03.md",
       "status": "done"
     }
   ],
