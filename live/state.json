@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T04:21:53.583957+00:00",
+  "now": "2026-03-03T04:30:06.201766+00:00",
   "workers": [
     {
       "name": "Research",
@@ -77,26 +77,6 @@
       "effort": 2,
       "urgency": 4,
       "acceptance": "Sheet ranks accounts by recoverable ARR, assigns 5-day touch sequence, and defines Day3/Day5 conversion gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5312",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement objection reversal voicemail+email combo pack for stalled CFO threads",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Pack includes 8 paired voicemail/email scripts with objection tags, proof inserts, and meeting-booked CTA variants.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
       "updated_at": "2026-03-03T12:20:00+08:00",
@@ -187,26 +167,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5317",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led clips for procurement-delay and committee-stall objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-5318",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 12:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5317",
+      "artifact": "Delivered 10 short proof-led clips for procurement-delay and committee-stall objections with hook-proof-CTA structure, channel map, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5317_short_proof_led_clips_procurement_delay_committee_stall_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5312",
+      "artifact": "Delivered procurement objection reversal voicemail+email combo pack with 8 objection-tagged paired scripts, proof insert placeholders, and meeting-booked CTA variants for stalled CFO threads",
+      "path": "office_os/artifacts/P1-REV-5312_procurement_objection_reversal_voicemail_email_combo_pack_stalled_cfo_threads_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 12:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-5252",
       "artifact": "Delivered procurement redline stall breaker memo pack with 8 CFO/legal committee templates, quantified risk-reversal blocks, concession guardrail bands, and same-week close CTA routes",
       "path": "office_os/artifacts/P1-REV-5252_procurement_redline_stall_breaker_memo_pack_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 09:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 08:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5257",
-      "artifact": "Delivered CSM-to-Product first-value breach escalation script ladder with severity tiers, owner routing matrix, scripted escalation payloads, and objective next-run pass/fail verification rules",
-      "path": "office_os/artifacts/P2-PROD-5257_csm_product_escalation_script_ladder_first_value_breach_2026-03-03.md",
       "status": "done"
     }
   ],
