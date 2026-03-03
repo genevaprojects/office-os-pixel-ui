@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T02:00:10.266814+00:00",
+  "now": "2026-03-03T02:10:04.943617+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5261",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 10-account CFO reactivation strike sheet for post-budget-freeze enterprise renewals",
-      "owner": "RESEARCH",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sheet ranks 10 accounts by recoverable ARR, lists H24/H72 owner actions, and defines reopen/close gates with probability deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-5261_cfo_reactivation_strike_sheet_post_budget_freeze_2026-03-03.md",
-      "status": "READY",
-      "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5262",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "artifact_path": "office_os/artifacts/P1-REV-5262_procurement_fastlane_clause_playbook_sub5day_close_2026-03-03.md",
       "status": "READY",
       "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
+      "updated_at": "2026-03-03T10:07:03.414516+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "artifact_path": "office_os/artifacts/P2-PROD-5266_onboarding_confidence_breach_escalation_memo_templates_2026-03-03.md",
       "status": "READY",
       "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
+      "updated_at": "2026-03-03T10:07:03.414530+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Checker defines integrity rules, anomaly fingerprints, and deterministic correction recommendations without owner reassignment.",
       "artifact_path": "office_os/artifacts/P4-OPS-5259_backlog_dependency_integrity_checker_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T09:07:04.900714+08:00",
+      "updated_at": "2026-03-03T10:07:03.414540+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "artifact_path": "office_os/artifacts/P4-OPS-5268_backlog_topup_quality_scorer_duplicate_drift_prevention_2026-03-03.md",
       "status": "READY",
       "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
+      "updated_at": "2026-03-03T10:07:03.414546+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Sentinel defines completeness checks, fallback order, fingerprinting schema, and pending_verify-to-resolved closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5260_cron_artifact_completeness_sentinel_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T09:07:04.900709+08:00",
+      "updated_at": "2026-03-03T10:07:03.414535+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 10:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5261",
+      "artifact": "Delivered 10-account CFO reactivation strike sheet for post-budget-freeze enterprise renewals with recoverable-ARR ranking, H24/H72 owner actions, and binary reopen/close gates with probability deltas",
+      "path": "office_os/artifacts/P1-REV-5261_cfo_reactivation_strike_sheet_post_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 09:35",
       "owner": "EXECUTOR",
@@ -370,22 +366,6 @@
       "taskId": "P4-OPS-5239",
       "artifact": "Delivered autonomous task-age anomaly linter spec with stale thresholds, anomaly fingerprinting, owner-safe correction rules, and hourly audit schema for backlog freshness control",
       "path": "office_os/artifacts/P4-OPS-5239_task_age_anomaly_linter_backlog_freshness_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 07:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 06:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5237",
-      "artifact": "Delivered activation confidence drift command board with severity-tier triage lanes, escalation command set, owner routing, and Day3/Day7 verification closure criteria",
-      "path": "office_os/artifacts/P2-PROD-5237_activation_confidence_drift_command_board_2026-03-03.md",
       "status": "done"
     }
   ],
