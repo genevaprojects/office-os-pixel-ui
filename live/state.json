@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T07:30:05.997979+00:00",
+  "now": "2026-03-03T07:40:06.702202+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5341",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day champion reactivation multithread sprint for silent enterprise committees",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint maps daily multithread touchpoints with owner backups and Day3/Day7 binary meeting-booked gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5341_champion_reactivation_multithread_sprint_silent_enterprise_committees_2026-03-03.md",
-      "created_at": "2026-03-03T15:20:00+08:00",
-      "updated_at": "2026-03-03T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5343",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Matrix maps clause conflicts to fallback language, owner actions, and H24/H48/H72 close-or-slip gates.",
       "artifact_path": "office_os/artifacts/P1-REV-5343_top12_redline_unblock_matrix_sub72h_decision_compression_2026-03-03.md",
-      "created_at": "2026-03-03T15:20:00+08:00",
-      "updated_at": "2026-03-03T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5344",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value breach response board for telemetry-gap cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board links breach signatures to owner actions, SLA timers, fallback evidence paths, and closure verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5344_day0_day7_first_value_breach_response_board_telemetry_gap_2026-03-03.md",
       "created_at": "2026-03-03T15:20:00+08:00",
       "updated_at": "2026-03-03T15:20:00+08:00",
       "due_at": null,
@@ -248,6 +208,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 15:37",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5344",
+      "artifact": "Delivered day0-day7 first-value breach response board for telemetry-gap cohorts with breach signature taxonomy, SLA-based owner routing, fallback evidence continuity lanes, and binary Day7 resolution vs extended-incident closure gates",
+      "path": "office_os/artifacts/P2-PROD-5344_day0_day7_first_value_breach_response_board_telemetry_gap_cohorts_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 15:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5341",
+      "artifact": "Delivered 7-day champion reactivation multithread sprint for silent enterprise committees with day-by-day command lanes, silence-signature routing, owner backup matrix, and binary Day3/Day7 advance-or-close gates",
+      "path": "office_os/artifacts/P1-REV-5341_champion_reactivation_multithread_sprint_silent_enterprise_committees_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 15:20",
       "owner": "COMMAND",
@@ -430,22 +406,6 @@
       "taskId": "P3-CONT-5317",
       "artifact": "Delivered 10 short proof-led clips for procurement-delay and committee-stall objections with hook-proof-CTA structure, channel map, and conversion keyword instrumentation",
       "path": "office_os/artifacts/P3-CONT-5317_short_proof_led_clips_procurement_delay_committee_stall_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 12:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5312",
-      "artifact": "Delivered procurement objection reversal voicemail+email combo pack with 8 objection-tagged paired scripts, proof insert placeholders, and meeting-booked CTA variants for stalled CFO threads",
-      "path": "office_os/artifacts/P1-REV-5312_procurement_objection_reversal_voicemail_email_combo_pack_stalled_cfo_threads_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 12:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
