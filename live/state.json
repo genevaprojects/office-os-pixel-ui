@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T20:30:05.082072+00:00",
+  "now": "2026-03-03T20:40:04.692690+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,46 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P2-PROD-6203",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value rescue operations pack #1 for trust-risk onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes failure-signature taxonomy, owner SLA routing, fallback evidence plan, and day3/day7 closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6203_first_value_rescue_ops_pack_2026-03-04.md",
-      "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6204",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create first-value rescue operations pack #2 for trust-risk onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes failure-signature taxonomy, owner SLA routing, fallback evidence plan, and day3/day7 closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6204_first_value_rescue_ops_pack_2026-03-04.md",
-      "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6126",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -248,6 +208,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6204",
+      "artifact": "Delivered first-value rescue operations pack v2 with signature-priority routing, co-owner SLA blueprint, trust-continuity fallback evidence plan, and viability/restoration closure checkpoints to accelerate confidence recovery",
+      "path": "office_os/artifacts/P2-PROD-6204_first_value_rescue_ops_pack_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6203",
+      "artifact": "Delivered first-value rescue operations pack for trust-risk onboarding cohorts with failure-signature taxonomy, owner SLA routing, fallback evidence tiers, and hard Day3/Day7 closure gates for deterministic recovery control",
+      "path": "office_os/artifacts/P2-PROD-6203_first_value_rescue_ops_pack_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 04:20",
       "owner": "COMMAND",
@@ -422,30 +406,6 @@
       "taskId": "P5-REL-5440",
       "artifact": "Delivered cron timestamp drift triage quick-card with severity thresholds, deterministic remediation order, retry policy, and pending_verify closure checks for revenue-critical jobs",
       "path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 02:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6109",
-      "artifact": "Delivered autonomous stale-task recovery handshake defining stale tiers, owner-safe nudges, reassessment windows, and audit fields for deterministic lane recovery without owner churn",
-      "path": "office_os/artifacts/P4-OPS-6109_stale_task_recovery_handshake_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 02:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6107",
-      "artifact": "Delivered CSM-to-product escalation memo stack v4 for recurring first-value regressions with severity tiers, routing ownership, payload templates, rollback triggers, and next-run verification closure rules",
-      "path": "office_os/artifacts/P2-PROD-6107_csm_product_escalation_stack_first_value_regressions_v4_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 02:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6102",
-      "artifact": "Delivered executive procurement objection compression script set with 10 CFO/security/legal objection branches, quantified proof placeholders, concession boundaries, and same-call CTA exits for sub-7-day close attempts",
-      "path": "office_os/artifacts/P1-REV-6102_exec_procurement_objection_compression_scripts_2026-03-04.md",
       "status": "done"
     }
   ],
