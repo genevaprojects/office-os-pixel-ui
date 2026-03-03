@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T14:00:11.777123+00:00",
+  "now": "2026-03-03T14:10:07.957782+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5451",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 14-day procurement-to-signature acceleration board for top 10 security-cleared deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks deals by recoverable ARR, maps day0-day14 multithread actions, and defines Day3/Day7/Day14 conversion gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5451_procurement_to_signature_acceleration_board_top10_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5452",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Set includes 8 objection briefs with quantified proof placeholders, concession boundaries, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5452_cfo_legal_risk_neutralization_brief_set_2026-03-03.md",
       "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5455",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build expansion trigger watchlist for 15 active pilots entering renewal window",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Watchlist scores expansion probability, assigns weekly actions, and sets proposal-sent and meeting-booked gate targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-5455_expansion_trigger_watchlist_15_active_pilots_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
+      "updated_at": "2026-03-03T22:07:06.550285+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Stack defines severity tiers, routing ownership, payload templates, and next-run verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5457_csm_product_trust_breach_escalation_memo_stack_v2_2026-03-03.md",
       "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
+      "updated_at": "2026-03-03T22:07:06.550303+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Spec defines minimum acceptance quality bars, duplicate fingerprint checks, and corrective rewrite protocol.",
       "artifact_path": "office_os/artifacts/P4-OPS-5459_acceptance_criteria_lint_pass_topup_tasks_2026-03-03.md",
       "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
+      "updated_at": "2026-03-03T22:07:06.550313+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines drift thresholds, remediation order, retry policy, and pending_verify next-run closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T21:07:03.254596+08:00",
+      "updated_at": "2026-03-03T22:07:06.550318+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Card defines timezone mismatch thresholds, remediation order, retry policy, and pending_verify closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5460_cron_timezone_drift_anomaly_quickcard_growth_jobs_2026-03-03.md",
       "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
+      "updated_at": "2026-03-03T22:07:06.550308+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5451",
+      "artifact": "Delivered 14-day procurement-to-signature acceleration board for top 10 security-cleared deals with ARR-prioritized routing, day0-day14 multithread actions, and Day3/Day7/Day14 conversion gates",
+      "path": "office_os/artifacts/P1-REV-5451_procurement_to_signature_acceleration_board_top10_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5455",
+      "artifact": "Delivered expansion trigger watchlist for 15 active pilots with probability scoring, weekly owner action cadence, and explicit proposal-sent + meeting-booked gate targets",
+      "path": "office_os/artifacts/P1-REV-5455_expansion_trigger_watchlist_15_active_pilots_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1895",
+      "artifact": "Added Command Jump preflight brief (4-check render/readability/responsive/state) to quick-status rail with copy action, command-palette command, and Shift+Y hotkey for interruption-time boardroom readiness handoff",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1894",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane exhaustion into explicit deterministic continuation milestone so autonomous pull-loop can continue without ambiguity",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 21:37",
       "owner": "COMMAND",
@@ -366,46 +366,6 @@
       "taskId": "P1-REV-5432",
       "artifact": "Delivered procurement redline concession ladder with quantified give-get bands, clause-level guardrails, and a deterministic 7-day escalation cadence for sub-7-day close-cycle compression",
       "path": "office_os/artifacts/P1-REV-5432_procurement_redline_concession_ladder_quantified_give_get_bands_sub7day_close_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5436",
-      "artifact": "Delivered day0-day7 first-value evidence rescue matrix for telemetry-loss onboarding cohorts with signature-to-owner routing, SLA windows, fallback evidence continuity, and objective closure criteria",
-      "path": "office_os/artifacts/P2-PROD-5436_day0_day7_first_value_evidence_rescue_matrix_telemetry_loss_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5433",
-      "artifact": "Delivered 72-hour no-decision forced-outcome sprint for top 10 dormant enterprise deals with H24/H48/H72 command lanes, owner backup matrix, and binary reopen-or-close verification gates",
-      "path": "office_os/artifacts/P1-REV-5433_72h_nodecision_forced_outcome_sprint_top10_dormant_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:28",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5438",
-      "artifact": "Delivered 10 short proof-led scripts for procurement-delay and no-decision objections with hook-proof-CTA flow, objection tags, channel map, and conversion keyword instrumentation",
-      "path": "office_os/artifacts/P3-CONT-5438_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5434",
-      "artifact": "Delivered 7-day founder trust-proof cadence for budget-freeze reversal conversations with hook-proof-CTA posts, objection tags, and meeting-booked keyword instrumentation",
-      "path": "office_os/artifacts/P1-REV-5434_founder_trust_proof_cadence_budget_freeze_reversal_7day_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
