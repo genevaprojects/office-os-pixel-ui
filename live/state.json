@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T21:00:05.318526+00:00",
+  "now": "2026-03-03T21:10:09.179752+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6200",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design proof-led pipeline acceleration micro-sprint #1 for late-stage stalled committees",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver ranked account segment, day0/day3/day7 actions, objection-to-proof mapping, and measurable meeting-booked/proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6200_pipeline_acceleration_microsprint_2026-03-04.md",
-      "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6201",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Deliver ranked account segment, day0/day3/day7 actions, objection-to-proof mapping, and measurable meeting-booked/proposal-sent gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6201_pipeline_acceleration_microsprint_2026-03-04.md",
       "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6202",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design proof-led pipeline acceleration micro-sprint #3 for late-stage stalled committees",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver ranked account segment, day0/day3/day7 actions, objection-to-proof mapping, and measurable meeting-booked/proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6202_pipeline_acceleration_microsprint_2026-03-04.md",
-      "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
+      "updated_at": "2026-03-04T05:07:03.006011+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Spec defines freshness score bands, drift thresholds, rewrite triggers, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-6126_backlog_freshness_drift_monitor_2026-03-04.md",
       "created_at": "2026-03-04T03:20:56+08:00",
-      "updated_at": "2026-03-04T04:07:04.391197+08:00",
+      "updated_at": "2026-03-04T05:07:03.006035+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Protocol defines duplicate detection, acceptance quality thresholds, and correction workflow with run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-6206_topup_quality_lint_protocol_2026-03-04.md",
       "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
+      "updated_at": "2026-03-04T05:07:03.006024+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Quick-card defines anomaly thresholds, remediation order, retry policy, and pending_verify closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-6127_cron_schema_drift_triage_quickcard_2026-03-04.md",
       "created_at": "2026-03-04T03:20:56+08:00",
-      "updated_at": "2026-03-04T04:07:04.391201+08:00",
+      "updated_at": "2026-03-04T05:07:03.006040+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Card defines anomaly signatures, triage order, fallback behavior, and pending_verify closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-6207_cron_signal_integrity_quickcheck_2026-03-04.md",
       "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T04:20:49+08:00",
+      "updated_at": "2026-03-04T05:07:03.006029+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 05:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6202",
+      "artifact": "Delivered proof-led pipeline acceleration micro-sprint #3 with prioritized stall segments, deterministic Day0/Day3/Day7 execution plan, objection-to-proof matrix, and measurable conversion gates for reactivation",
+      "path": "office_os/artifacts/P1-REV-6202_pipeline_acceleration_microsprint_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 05:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6200",
+      "artifact": "Delivered proof-led pipeline acceleration micro-sprint #1 with ranked stalled-committee account segments, Day0/Day3/Day7 action cadence, objection-to-proof mapping, and meeting-booked/proposal-sent success gates",
+      "path": "office_os/artifacts/P1-REV-6200_pipeline_acceleration_microsprint_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 04:37",
       "owner": "COMMAND",
@@ -382,30 +366,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 02:37",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6115",
-      "artifact": "Delivered day0-day7 first-value trust rescue matrix for telemetry-mismatch cohorts with signature-based owner routing, SLA windows, fallback proof paths, and Day3/Day7 closure gates",
-      "path": "office_os/artifacts/P2-PROD-6115_first_value_trust_rescue_matrix_telemetry_mismatch_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 02:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted concrete tasks, owners, and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-04 02:36"
-    },
-    {
-      "time": "2026-03-04 02:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-5440",
-      "artifact": "Delivered cron timestamp drift triage quick-card with severity thresholds, deterministic remediation order, retry policy, and pending_verify closure checks for revenue-critical jobs",
-      "path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
       "status": "done"
     }
   ],
