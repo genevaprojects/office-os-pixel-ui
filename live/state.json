@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T01:30:06.238283+00:00",
+  "now": "2026-03-03T01:40:06.781562+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,46 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5263",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 7-day no-decision recovery command sequence for top 12 late-stage stalls",
-      "owner": "EXECUTOR",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence maps daily owner moves, H24/H72 checkpoints, binary reopen/kill outcomes, and recoverable ARR ranking.",
-      "artifact_path": "office_os/artifacts/P1-REV-5263_nodecision_recovery_command_sequence_top12_2026-03-03.md",
-      "status": "READY",
-      "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5265",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 first-value evidence continuity checklist for telemetry-loss cohorts",
-      "owner": "EXECUTOR",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Checklist maps loss signatures to owner actions, SLA timers, fallback evidence routes, and closure verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5265_first_value_evidence_continuity_checklist_day0_day7_2026-03-03.md",
-      "status": "READY",
-      "created_at": "2026-03-03T09:20:00+08:00",
-      "updated_at": "2026-03-03T09:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5266",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5265",
+      "artifact": "Delivered day0-day7 first-value evidence continuity checklist for telemetry-loss cohorts with loss-signature owner routing, SLA timers, fallback evidence order, and closure verification gates",
+      "path": "office_os/artifacts/P2-PROD-5265_first_value_evidence_continuity_checklist_day0_day7_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5263",
+      "artifact": "Delivered 7-day no-decision recovery command sequence for top 12 late-stage stalls with recoverable-ARR ranking, daily owner moves, H24/H72 checkpoints, and binary reopen/kill outcomes",
+      "path": "office_os/artifacts/P1-REV-5263_nodecision_recovery_command_sequence_top12_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 09:20",
       "owner": "COMMAND",
@@ -410,22 +386,6 @@
       "taskId": "P2-PROD-5237",
       "artifact": "Delivered activation confidence drift command board with severity-tier triage lanes, escalation command set, owner routing, and Day3/Day7 verification closure criteria",
       "path": "office_os/artifacts/P2-PROD-5237_activation_confidence_drift_command_board_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 06:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5233",
-      "artifact": "Delivered 7-day stalled-deal forced-outcome sprint for top 12 no-decision opportunities with ARR-weighted ranking, H24/H72 checkpoints, owner routing, and binary reopen/closeout end-state gates",
-      "path": "office_os/artifacts/P1-REV-5233_stalled_deal_forced_outcome_sprint_top12_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 06:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5238",
-      "artifact": "Delivered 10 short-form hook-proof-CTA scripts for no-decision and budget-freeze objections with objection tags, channel map, and conversion keywords for rapid publishing and pipeline reactivation",
-      "path": "office_os/artifacts/P3-CONT-5238_shortform_proof_scripts_nodecision_budget_freeze_2026-03-03.md",
       "status": "done"
     }
   ],
