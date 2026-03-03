@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T16:22:03.564168+00:00",
+  "now": "2026-03-03T16:30:06.638959+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6003",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day authority content ladder for committee-no-decision revivals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes 7 hook-proof-CTA posts, objection tags, channel-specific CTA keywords, and meeting-booked instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-6003_draft_7_day_authority_content_ladder_for_committee_no_decision_revivals_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6004",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -178,26 +158,6 @@
       "urgency": 3,
       "acceptance": "Matrix maps confidence-breach signatures to owner actions, SLA windows, fallback proof paths, and Day3/Day7 verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-6006_build_day0_day7_first_value_confidence_rescue_matrix_for_integration_friction_cohorts_2026-03-04.md",
-      "created_at": "2026-03-04T00:20:00+08:00",
-      "updated_at": "2026-03-04T00:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6007",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for security-review delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6007_produce_12_short_form_proof_clips_for_security_review_delay_and_budget_freeze_objections_2026-03-04.md",
       "created_at": "2026-03-04T00:20:00+08:00",
       "updated_at": "2026-03-04T00:20:00+08:00",
       "due_at": null,
