@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T16:50:06.488547+00:00",
+  "now": "2026-03-03T17:00:06.795608+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1907",
+      "artifact": "Added Team Hot-Swap Execution Readiness rail with continuity score derived from top swap pressure + fragile lanes, plus copy-ready readiness brief and one-click top-swap command for interruption-time staffing recovery",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1906",
+      "artifact": "Added Founder Desk Investor Momentum Rail that fuses reliability confidence, 30-minute plan readiness, and overdue decision drag into a single boardroom score with copy-ready brief and direct primary-move queue action",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 00:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P5-REL-5469",
       "artifact": "Delivered DST-boundary cron anomaly triage card with edge-case thresholds, deterministic remediation order, retry policy, and pending_verify closure criteria for growth-critical automations",
       "path": "office_os/artifacts/P5-REL-5469_cron_dst_boundary_anomaly_triage_growth_automations_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5464",
-      "artifact": "Delivered day0-day7 onboarding confidence rescue matrix for low-signal enterprise cohorts with breach-signature routing, owner/SLA actions, fallback proof paths, and hard closure checks",
-      "path": "office_os/artifacts/P2-PROD-5464_onboarding_confidence_rescue_matrix_day0_day7_low_signal_enterprise_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5466",
-      "artifact": "Delivered 12 short-form proof clips for legal-delay and no-decision objections with hook-proof-CTA scripts, objection tags, channel deployment map, and keyword-driven conversion tracking loop",
-      "path": "office_os/artifacts/P3-CONT-5466_shortform_proof_clips_legal_delay_nodecision_2026-03-03.md",
       "status": "done"
     }
   ],
