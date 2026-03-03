@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T17:50:05.542091+00:00",
+  "now": "2026-03-03T18:00:05.745050+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 01:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1911",
+      "artifact": "Added Continuity Handshake Timer (60s) in Team view with live phase cues, progress tracking, start/pause/reset controls, and copy-ready drill brief for interruption-time continuity rehearsal",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 01:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1910",
+      "artifact": "Added Decision Queueability Rail in Founder Desk with overdue/due-soon/aged sweep queue states, cooldown visibility, and queueable primary decision action to remove ambiguous dispatch behavior during investor demos",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 01:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P0-FE-1899",
       "artifact": "Added Next 30-Minute Command Plan panel in Founder Desk with per-step queueability state, one-click queue actions, full-plan dispatch, and retry-failed-step control for deterministic command reliability",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 23:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1898",
-      "artifact": "Added Live Refresh Clock and Narration Readiness Score rails in Mission Control Overview with copy-ready refresh/narration packs for tighter investor-demo timing trust and storytelling reliability",
-      "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 23:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks using priority-weighted, owner-assigned, acceptance-complete task specs",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
