@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T03:22:02.992463+00:00",
+  "now": "2026-03-03T03:30:04.809549+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5304",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder authority proof-drop sequence for procurement-delay objections across 7 days",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence provides 7 daily posts with hook-proof-CTA, objection tags, and channel-specific conversion keywords.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5305",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -197,26 +177,6 @@
       "effort": 2,
       "urgency": 3,
       "acceptance": "Kit defines severity lanes, payload templates, routing ownership, and next-run verification steps.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5308",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for legal-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes 12 scripts with objection tags, channel map, and conversion keyword instrumentation.",
       "artifact_path": null,
       "created_at": "2026-03-03T11:22:00+08:00",
       "updated_at": "2026-03-03T11:22:00+08:00",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 11:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5308",
+      "artifact": "Delivered 12 short-form proof clips for legal-delay and no-decision objections with objection-tagged scripts, channel deployment map, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P3-CONT-5308_shortform_proof_clips_legal_delay_nodecision_12pack_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 11:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5304",
+      "artifact": "Delivered 7-day founder authority proof-drop sequence for procurement-delay objections with daily hook-proof-CTA posts, objection tags, and channel-specific conversion keyword tracking",
+      "path": "office_os/artifacts/P1-REV-5304_founder_authority_proof_drop_sequence_procurement_delay_7day_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 11:07",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 08:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5245",
-      "artifact": "Delivered enterprise pilot save-plan template for budget-freeze risks with risk signatures, trigger-based interventions, stakeholder scripts, and week-by-week save-probability deltas",
-      "path": "office_os/artifacts/P1-REV-5245_enterprise_pilot_saveplan_template_budget_freeze_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 08:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5241",
-      "artifact": "Delivered 14-day expansion fast-lane playbook for top 10 near-renewal accounts with ARR-probability ranking model, day-by-day owner cadence, and Day7/Day14 meeting/proposal binary gates",
-      "path": "office_os/artifacts/P1-REV-5241_expansion_fastlane_playbook_top10_near_renewal_2026-03-03.md",
       "status": "done"
     }
   ],
