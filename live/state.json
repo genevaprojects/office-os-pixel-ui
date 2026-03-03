@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T04:30:06.201766+00:00",
+  "now": "2026-03-03T04:40:07.211358+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5313",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design sub-72h redline unblock command board for top 6 late-stage enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board defines H24/H48/H72 actions, fallback clause lanes, owner backups, and binary close-or-slip gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5314",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -117,26 +97,6 @@
       "effort": 2,
       "urgency": 4,
       "acceptance": "Rubric maps stakeholder sequence, confidence scoring, mandatory proof blocks, and Day7 proposal trigger criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T12:20:00+08:00",
-      "updated_at": "2026-03-03T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5315",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day5 first-value breach rescue board for telemetry-loss onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board links breach signatures to owner actions, SLA timers, fallback evidence paths, and closure verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-03T12:20:00+08:00",
       "updated_at": "2026-03-03T12:20:00+08:00",
