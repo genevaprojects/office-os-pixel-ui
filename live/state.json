@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T15:50:09.298528+00:00",
+  "now": "2026-03-03T16:00:06.455635+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-03 23:52",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1901",
+      "artifact": "Hardened full-plan dispatch to queue only currently queueable 30-minute steps, disable when none are ready, and show ready-step count in CTA for deterministic command reliability",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:52",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1900",
+      "artifact": "Removed duplicate Founder Desk Next 30-Minute Command Plan panel so operators have a single authoritative execution surface during investor demos",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-03 23:36",
       "owner": "EXECUTOR",
       "taskId": "P2-PROD-5475",
@@ -370,22 +386,6 @@
       "taskId": "P1-REV-5452",
       "artifact": "Delivered CFO+legal risk neutralization brief set with 8 objection briefs, quantified proof placeholders, concession boundaries, and same-call CTA exits for redline committee stalls",
       "path": "office_os/artifacts/P1-REV-5452_cfo_legal_risk_neutralization_brief_set_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5451",
-      "artifact": "Delivered 14-day procurement-to-signature acceleration board for top 10 security-cleared deals with ARR-prioritized routing, day0-day14 multithread actions, and Day3/Day7/Day14 conversion gates",
-      "path": "office_os/artifacts/P1-REV-5451_procurement_to_signature_acceleration_board_top10_2026-03-03.md",
       "status": "done"
     }
   ],
