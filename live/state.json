@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T01:05:46.750572+00:00",
+  "now": "2026-03-03T01:10:05.110281+00:00",
   "workers": [
     {
       "name": "Research",
@@ -79,7 +79,7 @@
       "acceptance": "Script defines 5 touches across 14 days with persona-specific proof blocks, objection recovery prompts, and meeting/proposal conversion gates.",
       "artifact_path": "office_os/artifacts/P1-REV-5251_pilot_to_annual_expansion_5touch_script_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900699+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -99,7 +99,7 @@
       "acceptance": "Pack contains 8 memo templates with quantified risk-reversal blocks, concession guardrails, and same-week close CTA routes.",
       "artifact_path": "office_os/artifacts/P1-REV-5252_procurement_redline_stall_breaker_memo_pack_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900693+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +119,7 @@
       "acceptance": "Scorecard ranks 15 pilots by save probability with week-by-week intervention triggers and owner SLA response windows.",
       "artifact_path": "office_os/artifacts/P1-REV-5255_renewal_risk_intervention_scorecard_top15_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900680+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +139,7 @@
       "acceptance": "Matrix links telemetry mismatch signatures to owner actions, SLA timers, fallback evidence paths, and closure gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-5256_activation_confidence_repair_matrix_day0_day10_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900705+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +159,7 @@
       "acceptance": "Checker defines integrity rules, anomaly fingerprints, and deterministic correction recommendations without owner reassignment.",
       "artifact_path": "office_os/artifacts/P4-OPS-5259_backlog_dependency_integrity_checker_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900714+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +179,7 @@
       "acceptance": "Sentinel defines completeness checks, fallback order, fingerprinting schema, and pending_verify-to-resolved closure criteria.",
       "artifact_path": "office_os/artifacts/P5-REL-5260_cron_artifact_completeness_sentinel_2026-03-03.md",
       "created_at": "2026-03-03T08:20:34+08:00",
-      "updated_at": "2026-03-03T08:20:34+08:00",
+      "updated_at": "2026-03-03T09:07:04.900709+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 09:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 08:36",
       "owner": "EXECUTOR",
@@ -378,14 +386,6 @@
       "taskId": "P0-FE-1871",
       "artifact": "Added Demo Validation Console with deterministic render/readability/responsiveness/control-state checks, one-click hardening, and copy-ready QA report for fast boardroom readiness proof",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 06:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1870",
-      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane exhaustion into explicit autonomous continuity milestone and immediately resumed same-run frontend execution without prompting",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
