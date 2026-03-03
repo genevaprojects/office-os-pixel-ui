@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T13:02:11.282174+00:00",
+  "now": "2026-03-03T13:10:08.366624+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5441",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 expansion trigger strike sheet for budget-release windows in active pipeline",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Strike sheet ranks accounts by expansion ARR, maps day0-day5 owner actions, and sets Day3/Day5 meeting-booked and proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5441_top10_expansion_trigger_strike_sheet_budget_release_windows_2026-03-03.md",
-      "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5442",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Kit includes 8 objection branches, quantified proof placeholders, fallback concession bands, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5442_procurement_objection_reversal_call_bridge_kit_cfo_legal_2026-03-03.md",
       "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5445",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce pilot renewal save-probability heatmap for top 12 budget-risk accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap scores churn risk, sets weekly intervention actions, and defines save-probability delta targets with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-5445_pilot_renewal_save_probability_heatmap_top12_budget_risk_2026-03-03.md",
-      "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
+      "updated_at": "2026-03-03T21:07:03.254564+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Stack defines severity tiers, escalation payload templates, routing ownership, and next-run verification criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5447_csm_product_confidence_breach_escalation_memo_stack_2026-03-03.md",
       "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
+      "updated_at": "2026-03-03T21:07:03.254581+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Scorecard defines freshness thresholds, stale-task ratios, corrective triggers, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-5449_autonomous_backlog_freshness_sla_scorecard_hourly_runs_2026-03-03.md",
       "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
+      "updated_at": "2026-03-03T21:07:03.254591+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines drift thresholds, remediation order, retry policy, and pending_verify next-run closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
+      "updated_at": "2026-03-03T21:07:03.254596+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Card defines anomaly thresholds, remediation order, retry policy, and pending_verify closure checks for next-run validation.",
       "artifact_path": "office_os/artifacts/P5-REL-5450_cron_artifact_future_timestamp_anomaly_triage_revenue_jobs_2026-03-03.md",
       "created_at": "2026-03-03T20:21:30+08:00",
-      "updated_at": "2026-03-03T20:21:30+08:00",
+      "updated_at": "2026-03-03T21:07:03.254586+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 21:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5441",
+      "artifact": "Delivered top-10 expansion trigger strike sheet with ARR-ranked budget-release windows, day0-day5 owner command cadence, and enforced Day3/Day5 meeting-booked/proposal-sent gates for active-pipeline conversion",
+      "path": "office_os/artifacts/P1-REV-5441_top10_expansion_trigger_strike_sheet_budget_release_windows_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 21:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5445",
+      "artifact": "Delivered top-12 pilot renewal save-probability heatmap with churn-risk tiering, weekly intervention actions, owner SLA windows, and Day7/Day14/Day21 delta targets for budget-risk retention control",
+      "path": "office_os/artifacts/P1-REV-5445_pilot_renewal_save_probability_heatmap_top12_budget_risk_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 20:36",
       "owner": "EXECUTOR",
@@ -382,30 +366,6 @@
       "taskId": "P1-REV-5424",
       "artifact": "Delivered H24/H48/H72 close-or-kill sprint for top 8 legal-cleared no-decision deals with binary reopen/close gates, stakeholder-lane owner actions, and escalation backups for deterministic 72h outcomes",
       "path": "office_os/artifacts/P1-REV-5424_h24_h72_close_or_kill_sprint_top8_legal_cleared_nodecision_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5428",
-      "artifact": "Delivered 10 short proof-led procurement-delay rebuttal scripts with hook-proof-CTA flow, objection tags, platform mapping, and conversion keyword instrumentation",
-      "path": "office_os/artifacts/P3-CONT-5428_short_proof_led_scripts_procurement_delay_rebuttal_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5423",
-      "artifact": "Delivered 7-post founder credibility push for budget-freeze reversal threads with hook-proof-CTA sequencing, objection tags, and channel keyword instrumentation for meeting-booked recovery",
-      "path": "office_os/artifacts/P1-REV-5423_founder_credibility_push_budget_freeze_reversal_7day_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 18:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-complete tasks for uninterrupted autonomous pull-loop",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
