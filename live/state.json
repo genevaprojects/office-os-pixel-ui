@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T15:21:59.944846+00:00",
+  "now": "2026-03-03T15:30:04.940915+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5472",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder proof narrative for no-decision committee revivals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 hook-proof-CTA posts, objection tags, channel map, and conversion keyword instrumentation for committee restarts.",
-      "artifact_path": "office_os/artifacts/P1-REV-5472_founder_proof_narrative_nodecision_committee_revivals_2026-03-03.md",
-      "created_at": "2026-03-03T23:20:00+08:00",
-      "updated_at": "2026-03-03T23:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5473",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5477",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short-form proof clips for legal-delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5477_shortform_proof_clips_legal_delay_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T23:20:00+08:00",
-      "updated_at": "2026-03-03T23:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-5478",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 23:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5477",
+      "artifact": "Delivered 12 short-form proof clips for legal-delay and budget-freeze objections with hook-proof-CTA scripts, objection tags, channel mapping, and keyword-based conversion instrumentation for rapid deployment",
+      "path": "office_os/artifacts/P3-CONT-5477_shortform_proof_clips_legal_delay_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5472",
+      "artifact": "Delivered 7-day founder proof narrative for no-decision committee revivals with daily hook-proof-CTA sequence, objection-tag taxonomy, channel execution map, and CRM keyword instrumentation for restart conversion tracking",
+      "path": "office_os/artifacts/P1-REV-5472_founder_proof_narrative_nodecision_committee_revivals_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1899",
+      "artifact": "Added Next 30-Minute Command Plan panel in Founder Desk with per-step queueability state, one-click queue actions, full-plan dispatch, and retry-failed-step control for deterministic command reliability",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1898",
+      "artifact": "Added Live Refresh Clock and Narration Readiness Score rails in Mission Control Overview with copy-ready refresh/narration packs for tighter investor-demo timing trust and storytelling reliability",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 23:20",
       "owner": "COMMAND",
@@ -434,38 +426,6 @@
       "taskId": "P0-FE-1895",
       "artifact": "Added Command Jump preflight brief (4-check render/readability/responsive/state) to quick-status rail with copy action, command-palette command, and Shift+Y hotkey for interruption-time boardroom readiness handoff",
       "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1894",
-      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane exhaustion into explicit deterministic continuation milestone so autonomous pull-loop can continue without ambiguity",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-5456",
-      "artifact": "Delivered day0-day7 onboarding confidence rescue matrix for low-signal cohorts with confidence-breach signatures, owner action routing, SLA timers, fallback proof paths, and explicit Day7 closure checks",
-      "path": "office_os/artifacts/P2-PROD-5456_onboarding_confidence_rescue_matrix_day0_day7_low_signal_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-5454",
-      "artifact": "Delivered 72-hour executive escalation sprint for top 6 budget-freeze enterprise deals with H24/H48/H72 action lanes, owner routing, binary reopen-or-close gates, and recoverable-ARR prioritization model",
-      "path": "office_os/artifacts/P1-REV-5454_72h_exec_escalation_sprint_top6_budget_freeze_2026-03-03.md",
       "status": "done"
     }
   ],
