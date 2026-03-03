@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T15:30:04.940915+00:00",
+  "now": "2026-03-03T15:40:10.439301+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5473",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 72h reopen-or-kill sprint for top 8 stalled procurement deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines H24/H48/H72 owner actions, binary reopen-or-close gates, and recoverable ARR prioritization.",
-      "artifact_path": "office_os/artifacts/P1-REV-5473_72h_reopen_or_kill_sprint_top8_procurement_stalls_2026-03-03.md",
-      "created_at": "2026-03-03T23:20:00+08:00",
-      "updated_at": "2026-03-03T23:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5474",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Heatmap scores churn risk, assigns weekly interventions, and defines save-probability delta targets with owner SLAs.",
       "artifact_path": "office_os/artifacts/P1-REV-5474_renewal_save_probability_heatmap_20_pilots_budget_scrutiny_2026-03-03.md",
-      "created_at": "2026-03-03T23:20:00+08:00",
-      "updated_at": "2026-03-03T23:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5475",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day7 activation trust rescue matrix for telemetry mismatch cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps trust-breach signatures to owner actions, SLA windows, fallback proof paths, and Day3/Day7 closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5475_activation_trust_rescue_matrix_day0_day7_telemetry_mismatch_2026-03-03.md",
       "created_at": "2026-03-03T23:20:00+08:00",
       "updated_at": "2026-03-03T23:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 23:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-5475",
+      "artifact": "Delivered day0-day7 activation trust rescue matrix for telemetry mismatch cohorts with signature-based owner actions, SLA windows, fallback proof paths, and Day3/Day7 closure checks",
+      "path": "office_os/artifacts/P2-PROD-5475_activation_trust_rescue_matrix_day0_day7_telemetry_mismatch_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-5473",
+      "artifact": "Delivered 72h reopen-or-kill sprint for top 8 stalled procurement deals with H24/H48/H72 owner cadence, binary reopen/kill gates, and recoverable ARR prioritization framework",
+      "path": "office_os/artifacts/P1-REV-5473_72h_reopen_or_kill_sprint_top8_procurement_stalls_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 23:25",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "P1-REV-5451",
       "artifact": "Delivered 14-day procurement-to-signature acceleration board for top 10 security-cleared deals with ARR-prioritized routing, day0-day14 multithread actions, and Day3/Day7/Day14 conversion gates",
       "path": "office_os/artifacts/P1-REV-5451_procurement_to_signature_acceleration_board_top10_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5455",
-      "artifact": "Delivered expansion trigger watchlist for 15 active pilots with probability scoring, weekly owner action cadence, and explicit proposal-sent + meeting-booked gate targets",
-      "path": "office_os/artifacts/P1-REV-5455_expansion_trigger_watchlist_15_active_pilots_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1895",
-      "artifact": "Added Command Jump preflight brief (4-check render/readability/responsive/state) to quick-status rail with copy action, command-palette command, and Shift+Y hotkey for interruption-time boardroom readiness handoff",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
