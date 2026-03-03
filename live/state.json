@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T07:21:55.498742+00:00",
+  "now": "2026-03-03T07:30:05.997979+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5342",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led procurement-proof narrative sequence for legal-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 post scripts with hook-proof-CTA structure, objection tags, and channel-specific conversion keywords.",
-      "artifact_path": "office_os/artifacts/P1-REV-5342_founder_led_procurement_proof_narrative_sequence_legal_delay_2026-03-03.md",
-      "created_at": "2026-03-03T15:20:00+08:00",
-      "updated_at": "2026-03-03T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5343",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Packet contains severity lanes, escalation templates, routing matrix, and next-run pass/fail criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-5345_csm_product_escalation_packet_activation_confidence_drops_2026-03-03.md",
-      "created_at": "2026-03-03T15:20:00+08:00",
-      "updated_at": "2026-03-03T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5346",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led clips for committee-delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5346_short_proof_led_clips_committee_delay_budget_freeze_2026-03-03.md",
       "created_at": "2026-03-03T15:20:00+08:00",
       "updated_at": "2026-03-03T15:20:00+08:00",
       "due_at": null,
