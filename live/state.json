@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T08:22:38.593621+00:00",
+  "now": "2026-03-03T08:30:06.308481+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5404",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder-led trust recovery email ladder for no-decision and budget-freeze committees",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Ladder includes 7 emails with hook-proof-CTA structure, objection tags, and meeting-booked conversion keywords.",
-      "artifact_path": "office_os/artifacts/P1-REV-5404_founder_trust_recovery_email_ladder_nodecision_budgetfreeze_2026-03-03.md",
-      "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-5405",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -178,26 +158,6 @@
       "urgency": 3,
       "acceptance": "Stack defines severity tiers, escalation templates, routing ownership, and pass/fail verification criteria for next run.",
       "artifact_path": "office_os/artifacts/P2-PROD-5406_csm_warroom_escalation_memo_stack_confidence_regressions_2026-03-03.md",
-      "created_at": "2026-03-03T16:20:00+08:00",
-      "updated_at": "2026-03-03T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-5407",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short proof-led scripts for procurement-delay and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Scripts include hook-proof-CTA format, objection tags, platform map, and keyword instrumentation for conversion tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5407_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
       "created_at": "2026-03-03T16:20:00+08:00",
       "updated_at": "2026-03-03T16:20:00+08:00",
       "due_at": null,
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 16:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5407",
+      "artifact": "Delivered 10 short proof-led scripts for procurement-delay and no-decision objections with hook-proof-CTA format, objection tags, channel platform map, and keyword instrumentation for conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-5407_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 16:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5404",
+      "artifact": "Delivered founder-led 7-email trust recovery ladder for no-decision and budget-freeze committees with hook-proof-CTA structure, objection tags, and conversion keyword instrumentation for meeting-booked tracking",
+      "path": "office_os/artifacts/P1-REV-5404_founder_trust_recovery_email_ladder_nodecision_budgetfreeze_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 16:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-5320",
       "artifact": "Delivered 5-day procurement-to-signature acceleration sprint for top 10 security-cleared late-stage deals with ARR-weighted ordering, day-by-day owner commands, redline fallback lanes, and enforced Day3/Day5 binary signature gates",
       "path": "office_os/artifacts/P1-REV-5320_procurement_to_signature_acceleration_sprint_top10_security_cleared_late_stage_deals_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 13:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5326",
-      "artifact": "Delivered 10 short proof-led clips for procurement-delay and budget-freeze objections with hook-proof-CTA scripts, objection tagging, channel deployment map, and keyword instrumentation for meeting/proposal attribution",
-      "path": "office_os/artifacts/P3-CONT-5326_short_proof_led_clips_procurement_delay_budget_freeze_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 13:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5323",
-      "artifact": "Delivered 7-day founder-led legal-delay reversal narrative ladder for enterprise follow-ups with day-by-day hook-proof-CTA sequencing, objection tags, proof insert library, and keyword-tracked conversion controls",
-      "path": "office_os/artifacts/P1-REV-5323_founder_legal_delay_reversal_narrative_ladder_week_long_enterprise_followups_2026-03-03.md",
       "status": "done"
     }
   ],
