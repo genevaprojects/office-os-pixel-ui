@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T19:00:20.189827+00:00",
+  "now": "2026-03-03T19:10:06.075080+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6110",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Map top-20 latent expansion triggers from recently silent champions with 7-day reactivation windows",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Ranked map includes recoverable ARR, trigger signals, owner actions for Day0/Day3/Day7, and meeting-booked/proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6110_latent_expansion_trigger_map_silent_champions_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6111",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Tree covers 10 objection nodes, quantified proof placeholders, concession boundaries, and same-call CTA exits with no ambiguous branches.",
       "artifact_path": "office_os/artifacts/P1-REV-6111_legal_procurement_rebuttal_decision_tree_2026-03-04.md",
-      "created_at": "2026-03-04T02:20:00+08:00",
-      "updated_at": "2026-03-04T02:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6114",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create renewal save-probability heatmap for 15 pilots entering procurement scrutiny",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap scores churn risk, defines intervention SLAs, and sets target save-probability deltas with weekly owner actions.",
-      "artifact_path": "office_os/artifacts/P1-REV-6114_renewal_save_probability_heatmap_15_pilots_2026-03-04.md",
       "created_at": "2026-03-04T02:20:00+08:00",
       "updated_at": "2026-03-04T02:20:00+08:00",
       "due_at": null,
@@ -188,6 +148,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6110",
+      "artifact": "Delivered top-20 latent expansion trigger map for silent champions with recoverable ARR ranking, trigger-class signals, and Day0/Day3/Day7 owner gates tied to meeting-booked/proposal-sent outcomes",
+      "path": "office_os/artifacts/P1-REV-6110_latent_expansion_trigger_map_silent_champions_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6114",
+      "artifact": "Delivered renewal save-probability heatmap for 15 pilots entering procurement scrutiny with risk-band scoring, intervention SLAs, weekly owner actions, and target probability-delta gates",
+      "path": "office_os/artifacts/P1-REV-6114_renewal_save_probability_heatmap_15_pilots_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 02:37",
       "owner": "COMMAND",
@@ -370,22 +346,6 @@
       "taskId": "P1-REV-5474",
       "artifact": "Delivered 20-pilot renewal save-probability heatmap with red/amber/green risk bands, owner SLA interventions, and target probability-delta controls to protect budget-scrutiny renewals",
       "path": "office_os/artifacts/P1-REV-5474_renewal_save_probability_heatmap_20_pilots_budget_scrutiny_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 00:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5470",
-      "artifact": "Delivered top-15 dormant champion budget-release trigger map with recoverable ARR ranking, day0-day5 multithread actions, and enforced Day3/Day5 meeting-booked + proposal-sent gates for fast reopen execution",
-      "path": "office_os/artifacts/P1-REV-5470_budget_release_trigger_map_dormant_enterprise_champions_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 00:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-5476",
-      "artifact": "Delivered CSM-to-Product escalation memo stack v3 with severity tiers, routing ownership matrix, payload templates, and strict next-run verification criteria for first-value regressions",
-      "path": "office_os/artifacts/P2-PROD-5476_csm_product_escalation_memo_stack_first_value_regressions_v3_2026-03-03.md",
       "status": "done"
     }
   ],
