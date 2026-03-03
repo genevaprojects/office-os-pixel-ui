@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T21:30:06.940286+00:00",
+  "now": "2026-03-03T21:40:04.821093+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6210",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design closed-lost resurrection trigger board for quarter-end enterprise recoveries",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver trigger taxonomy, owner routing, 72h reopen-or-kill workflow, and ARR-weighted conversion gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6210_closed_lost_resurrection_trigger_board_2026-03-04.md",
-      "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6211",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Deliver ranked expansion candidates, signal thresholds, owner plays, and day3/day7/day14 expansion KPI gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6211_expansion_signal_map_2026-03-04.md",
-      "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6212",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value rescue checklist for integration-friction cohorts v2",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Checklist includes failure signatures, owner SLA routing, fallback evidence plan, and Day3/Day7 pass criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6212_first_value_rescue_checklist_v2_2026-03-04.md",
       "created_at": "2026-03-04T05:22:00+08:00",
       "updated_at": "2026-03-04T05:22:00+08:00",
       "due_at": null,
@@ -248,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6210",
+      "artifact": "Delivered closed-lost resurrection trigger board for quarter-end enterprise recoveries with trigger taxonomy, ARR-weighted scoring, deterministic 72h reopen-or-kill workflow, owner routing, and conversion gates",
+      "path": "office_os/artifacts/P1-REV-6210_closed_lost_resurrection_trigger_board_2026-03-04.md",
+      "status": "done\\n2026-03-04 05:36"
+    },
     {
       "time": "2026-03-04 05:21",
       "owner": "BUILDER",
@@ -438,14 +406,6 @@
       "taskId": "P5-REL-6119",
       "artifact": "Created cron artifact freshness integrity quick-check with threshold tiers, anomaly taxonomy, remediation order, and pending_verify closure criteria for growth-critical automations",
       "path": "office_os/artifacts/P5-REL-6119_cron_artifact_freshness_integrity_quickcheck_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6118",
-      "artifact": "Defined priority-weighted top-up quality sampler with score bands, duplicate fingerprints, rewrite triggers, and run-level audit fields for autonomous backlog quality control",
-      "path": "office_os/artifacts/P4-OPS-6118_priority_weighted_topup_quality_sampler_2026-03-04.md",
       "status": "done"
     }
   ],
