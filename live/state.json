@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T22:50:04.994595+00:00",
+  "now": "2026-03-03T23:00:05.736569+00:00",
   "workers": [
     {
       "name": "Research",
@@ -229,6 +229,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 06:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1937",
+      "artifact": "Added Team Interruption Broadcast Rail with failover ETA, immediate continuity command line, and copy-ready broadcast/failure-drill packs for interruption-time investor narration control",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1936",
+      "artifact": "Added Founder Desk Recovery Sweep Audit Rail with last-sweep age, retry-unlock countdown, queue success ratio, and one-click failed-step retry to make command reliability recovery evidence boardroom-readable in one panel",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 06:36",
       "owner": "EXECUTOR",
       "taskId": "P1-REV-6218",
@@ -410,22 +426,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6204",
-      "artifact": "Delivered first-value rescue operations pack v2 with signature-priority routing, co-owner SLA blueprint, trust-continuity fallback evidence plan, and viability/restoration closure checkpoints to accelerate confidence recovery",
-      "path": "office_os/artifacts/P2-PROD-6204_first_value_rescue_ops_pack_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6203",
-      "artifact": "Delivered first-value rescue operations pack for trust-risk onboarding cohorts with failure-signature taxonomy, owner SLA routing, fallback evidence tiers, and hard Day3/Day7 closure gates for deterministic recovery control",
-      "path": "office_os/artifacts/P2-PROD-6203_first_value_rescue_ops_pack_2026-03-04.md",
       "status": "done"
     }
   ],
