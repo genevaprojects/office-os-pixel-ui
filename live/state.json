@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T18:00:05.745050+00:00",
+  "now": "2026-03-03T18:10:04.544816+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6101",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 security-cleared procurement reactivation board with 7-day forced-outcome gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks recoverable ARR, maps day0-day7 owner actions, and enforces Day3/Day7 reopen-or-close gates with meeting-booked and proposal-sent checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-6101_security_cleared_procurement_reactivation_board_2026-03-04.md",
-      "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6102",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Set includes 10 objection branches, quantified proof placeholders, concession boundaries, and same-call CTA exits for sub-7-day close attempts.",
       "artifact_path": "office_os/artifacts/P1-REV-6102_exec_procurement_objection_compression_scripts_2026-03-04.md",
       "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6105",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce renewal save-probability intervention heatmap for 15 pilots entering budget review",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap scores churn risk, assigns weekly interventions, and defines save-probability delta targets with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-6105_renewal_save_probability_intervention_heatmap_2026-03-04.md",
-      "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
+      "updated_at": "2026-03-04T02:07:03.450104+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Stack defines severity tiers, routing ownership, payload templates, and next-run verification criteria with rollback triggers.",
       "artifact_path": "office_os/artifacts/P2-PROD-6107_csm_product_escalation_stack_first_value_regressions_v4_2026-03-04.md",
       "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
+      "updated_at": "2026-03-04T02:07:03.450119+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Handshake defines stale thresholds, owner-safe nudges, reassessment windows, and audit fields for deterministic stale-task recovery.",
       "artifact_path": "office_os/artifacts/P4-OPS-6109_stale_task_recovery_handshake_2026-03-04.md",
       "created_at": "2026-03-04T01:20:00+08:00",
-      "updated_at": "2026-03-04T01:20:00+08:00",
+      "updated_at": "2026-03-04T02:07:03.450130+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card defines drift thresholds, remediation order, retry policy, and pending_verify next-run closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-5440_cron_output_timestamp_drift_triage_revenue_critical_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T23:07:05.118117+08:00",
+      "updated_at": "2026-03-04T02:07:03.450124+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 02:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 01:50",
       "owner": "BUILDER",
@@ -378,14 +346,6 @@
       "taskId": "P1-REV-5472",
       "artifact": "Delivered 7-day founder proof narrative for no-decision committee revivals with daily hook-proof-CTA sequence, objection-tag taxonomy, channel execution map, and CRM keyword instrumentation for restart conversion tracking",
       "path": "office_os/artifacts/P1-REV-5472_founder_proof_narrative_nodecision_committee_revivals_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 23:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1899",
-      "artifact": "Added Next 30-Minute Command Plan panel in Founder Desk with per-step queueability state, one-click queue actions, full-plan dispatch, and retry-failed-step control for deterministic command reliability",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
       "status": "done"
     }
   ],
