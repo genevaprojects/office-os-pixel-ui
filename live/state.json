@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T14:50:04.904022+00:00",
+  "now": "2026-03-03T15:00:06.185105+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-03 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1897",
+      "artifact": "Removed duplicate Team Continuity Forecast (60m) panel to tighten boardroom continuity narrative and enforce a single projected-readiness source of truth",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 22:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1896",
+      "artifact": "Removed duplicate Founder Desk Decision Deadline Wave panel so deadline pressure has one authoritative control surface and no conflicting queue actions during investor demos",
+      "path": "office_os_mission_control/app/founder-desk/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-03 22:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P4-OPS-5449",
       "artifact": "Delivered autonomous backlog freshness SLA scorecard for hourly runs with freshness thresholds, stale-ratio triggers, corrective actions, and run-level audit schema",
       "path": "office_os/artifacts/P4-OPS-5449_autonomous_backlog_freshness_sla_scorecard_hourly_runs_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 21:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5441",
-      "artifact": "Delivered top-10 expansion trigger strike sheet with ARR-ranked budget-release windows, day0-day5 owner command cadence, and enforced Day3/Day5 meeting-booked/proposal-sent gates for active-pipeline conversion",
-      "path": "office_os/artifacts/P1-REV-5441_top10_expansion_trigger_strike_sheet_budget_release_windows_2026-03-03.md",
       "status": "done"
     }
   ],
