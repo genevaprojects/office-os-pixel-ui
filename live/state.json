@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T13:21:45.011129+00:00",
+  "now": "2026-03-03T13:30:06.080897+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5453",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft 7-day founder narrative sequence for no-decision to re-open conversion",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Sequence includes 7 hook-proof-CTA posts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-5453_founder_narrative_sequence_nodecision_reopen_7day_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5454",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-5458",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 short-form proof clips for legal-delay and budget-freeze objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Clips include hook-proof-CTA scripts, objection tags, channel map, and conversion keyword instrumentation.",
-      "artifact_path": "office_os/artifacts/P3-CONT-5458_shortform_proof_clips_legal_delay_budget_freeze_2026-03-03.md",
-      "created_at": "2026-03-03T21:20:19+08:00",
-      "updated_at": "2026-03-03T21:20:19+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-5459",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-5458",
+      "artifact": "Delivered 10 short-form proof clips for legal-delay and budget-freeze objections with hook-proof-CTA scripts, objection tags, cross-channel deployment map, and keyword-based conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-5458_shortform_proof_clips_legal_delay_budget_freeze_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-5453",
+      "artifact": "Delivered 7-day founder narrative sequence to convert no-decision stalls into re-open actions with daily hook-proof-CTA posts, objection tags, channel choreography, and conversion keyword instrumentation",
+      "path": "office_os/artifacts/P1-REV-5453_founder_narrative_sequence_nodecision_reopen_7day_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 21:20",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "P2-PROD-5426",
       "artifact": "Delivered onboarding trust regression escalation bundle for CSM↔Product war room with severity thresholds, routing ownership, escalation templates, and next-run pass/fail closure gates",
       "path": "office_os/artifacts/P2-PROD-5426_onboarding_trust_regression_escalation_bundle_csm_product_warroom_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-5422",
-      "artifact": "Delivered procurement concession boundary matrix for accelerated redline negotiations with 10 conflict types, concession bands A/B/C, fallback clauses, and same-call CTA exits for sub-5-day close control",
-      "path": "office_os/artifacts/P1-REV-5422_procurement_concession_boundary_matrix_accelerated_redlines_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 19:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-5425",
-      "artifact": "Delivered renewal save-probability intervention map for top 12 freeze-risk pilots with churn-risk scoring, weekly intervention actions, owner SLAs, and probability-delta targets",
-      "path": "office_os/artifacts/P1-REV-5425_renewal_save_probability_intervention_map_top12_freeze_risk_2026-03-03.md",
       "status": "done"
     }
   ],
