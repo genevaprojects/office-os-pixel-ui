@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T11:00:07.596985+00:00",
+  "now": "2026-03-03T11:10:05.477925+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5421",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 multi-thread reactivation slate for committee-stalled Q2 opportunities",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Top-15 slate ranks recoverable ARR, maps day0-day5 owner commands, and defines Day3/Day5 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5421_top15_multithread_reactivation_slate_committee_stalled_q2_2026-03-03.md",
-      "created_at": "2026-03-03T18:20:24+08:00",
-      "updated_at": "2026-03-03T18:20:24+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5422",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Matrix covers 10 redline conflict types, concession bands, fallback clauses, and same-call CTA exits for sub-5-day close attempts.",
       "artifact_path": "office_os/artifacts/P1-REV-5422_procurement_concession_boundary_matrix_accelerated_redlines_2026-03-03.md",
-      "created_at": "2026-03-03T18:20:24+08:00",
-      "updated_at": "2026-03-03T18:20:24+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5425",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce renewal save-probability intervention map for top 12 pilots at freeze risk",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Map scores churn risk, assigns weekly intervention actions, and sets save-probability delta targets with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-5425_renewal_save_probability_intervention_map_top12_freeze_risk_2026-03-03.md",
       "created_at": "2026-03-03T18:20:24+08:00",
       "updated_at": "2026-03-03T18:20:24+08:00",
       "due_at": null,
@@ -208,6 +168,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5425",
+      "artifact": "Delivered renewal save-probability intervention map for top 12 freeze-risk pilots with churn-risk scoring, weekly intervention actions, owner SLAs, and probability-delta targets",
+      "path": "office_os/artifacts/P1-REV-5425_renewal_save_probability_intervention_map_top12_freeze_risk_2026-03-03.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-03 19:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5421",
+      "artifact": "Delivered top-15 multi-thread reactivation slate for committee-stalled Q2 opportunities with recoverable-ARR ranking, day0-day5 owner commands, and enforced Day3/Day5 reopen-or-close gates",
+      "path": "office_os/artifacts/P1-REV-5421_top15_multithread_reactivation_slate_committee_stalled_q2_2026-03-03.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 18:36",
       "owner": "EXECUTOR",
@@ -390,22 +366,6 @@
       "taskId": "P2-PROD-5405",
       "artifact": "Delivered day0-day7 first-value confidence rescue matrix for telemetry-mismatch onboarding cohorts with signature-to-owner action routing, SLA windows, fallback evidence paths, and strict Day3/Day7 closure gates",
       "path": "office_os/artifacts/P2-PROD-5405_first_value_confidence_rescue_matrix_day0_day7_telemetry_mismatch_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 16:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-5407",
-      "artifact": "Delivered 10 short proof-led scripts for procurement-delay and no-decision objections with hook-proof-CTA format, objection tags, channel platform map, and keyword instrumentation for conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-5407_short_proof_led_scripts_procurement_delay_nodecision_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 16:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-5404",
-      "artifact": "Delivered founder-led 7-email trust recovery ladder for no-decision and budget-freeze committees with hook-proof-CTA structure, objection tags, and conversion keyword instrumentation for meeting-booked tracking",
-      "path": "office_os/artifacts/P1-REV-5404_founder_trust_recovery_email_ladder_nodecision_budgetfreeze_2026-03-03.md",
       "status": "done"
     }
   ],
