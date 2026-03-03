@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T22:00:05.511875+00:00",
+  "now": "2026-03-03T22:10:07.306290+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6208",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build founder-led 14-day champion reactivation sprint for silent enterprise deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver ARR-ranked target cohort, day0/day3/day7/day14 sequence, objection-to-proof map, and meeting-booked/proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6208_champion_reactivation_sprint_2026-03-04.md",
-      "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6209",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Deliver 12 objection branches with quantified proof placeholders, concession boundaries, and same-call CTA exits with no ambiguous branch.",
       "artifact_path": "office_os/artifacts/P1-REV-6209_procurement_rebuttal_stack_2026-03-04.md",
       "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6211",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build expansion-ready account signal map from active pilots",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver ranked expansion candidates, signal thresholds, owner plays, and day3/day7/day14 expansion KPI gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6211_expansion_signal_map_2026-03-04.md",
-      "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
+      "updated_at": "2026-03-04T06:07:04.865220+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Schema includes severity tiers, required evidence fields, routing owner map, and next-run verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-6213_csm_product_escalation_payload_schema_2026-03-04.md",
       "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
+      "updated_at": "2026-03-04T06:07:04.865235+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Audit defines drift indicators, acceptance score bands, correction triggers, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-6215_artifact_acceptance_drift_audit_2026-03-04.md",
       "created_at": "2026-03-04T05:22:00+08:00",
-      "updated_at": "2026-03-04T05:22:00+08:00",
+      "updated_at": "2026-03-04T06:07:04.865240+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Quick-card defines anomaly thresholds, remediation order, retry policy, and pending_verify closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-6127_cron_schema_drift_triage_quickcard_2026-03-04.md",
       "created_at": "2026-03-04T03:20:56+08:00",
-      "updated_at": "2026-03-04T05:07:03.006040+08:00",
+      "updated_at": "2026-03-04T06:07:04.865249+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Card defines anomaly signatures, triage order, fallback behavior, and pending_verify closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-6207_cron_signal_integrity_quickcheck_2026-03-04.md",
       "created_at": "2026-03-04T04:20:49+08:00",
-      "updated_at": "2026-03-04T05:07:03.006029+08:00",
+      "updated_at": "2026-03-04T06:07:04.865245+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6208",
+      "artifact": "Delivered founder-led 14-day champion reactivation sprint with ARR-ranked target cohort template, Day0/Day3/Day7/Day14 sequence, objection-to-proof map, and meeting-booked/proposal-sent gates to force explicit outcomes",
+      "path": "office_os/artifacts/P1-REV-6208_champion_reactivation_sprint_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6211",
+      "artifact": "Delivered expansion-ready account signal map from active pilots with ERS ranking model, trigger thresholds, owner play routing, and Day3/Day7/Day14 KPI gates for deterministic expansion motion",
+      "path": "office_os/artifacts/P1-REV-6211_expansion_signal_map_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1933",
+      "artifact": "Upgraded checkpoint narration with precise h/m/s countdown formatting in Critical Focus Strip and Sticky Action Bar for tighter boardroom timing clarity under recovery pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1932",
+      "artifact": "Added boardroom recovery sweep macro across Shift+G, command palette, and Command Jump status rail to auto-run validation remediation and route into trust recovery lane when gate posture stays blocked",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 05:36",
       "owner": "EXECUTOR",
@@ -366,46 +366,6 @@
       "taskId": "P0-FE-1920",
       "artifact": "Upgraded Founder Desk Investor Recovery Queue with queue-all lock visibility and nearest checkpoint countdown (cooldown/SLA) so operators can narrate deterministic command timing before dispatch",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6123",
-      "artifact": "Delivered day0-day7 activation recovery matrix for low-signal onboarding cohorts with signal-class owner routing, SLA/escalation timers, fallback proof paths, and strict Day3/Day7 closure gates to restore first-value confidence deterministically",
-      "path": "office_os/artifacts/P2-PROD-6123_day0_day7_activation_recovery_matrix_low_signal_onboarding_cohorts_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6122",
-      "artifact": "Delivered 5-day reopen-or-kill command cadence for budget-frozen enterprise opportunities with freeze-class routing, owner+backup accountability, Day0-Day5 binary gates, and ARR-prioritized operating board for forced-outcome pipeline control",
-      "path": "office_os/artifacts/P1-REV-6122_5day_reopen_or_kill_command_cadence_budget_frozen_enterprise_opportunities_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignments and measurable acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 03:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6119",
-      "artifact": "Created cron artifact freshness integrity quick-check with threshold tiers, anomaly taxonomy, remediation order, and pending_verify closure criteria for growth-critical automations",
-      "path": "office_os/artifacts/P5-REL-6119_cron_artifact_freshness_integrity_quickcheck_2026-03-04.md",
       "status": "done"
     }
   ],
