@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T04:00:04.737033+00:00",
+  "now": "2026-03-03T04:10:05.567034+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5301",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build 7-day champion-to-CFO multithread conversion strike plan for top 12 security-cleared deals",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Plan ranks 12 deals by recoverable ARR, maps daily multithread touches, and defines Day3/Day7 meeting+proposal conversion gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5302",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -97,26 +77,6 @@
       "effort": 2,
       "urgency": 4,
       "acceptance": "Matrix includes top 10 clause conflicts, concession bands, fallback language, and same-call CTA exits.",
-      "artifact_path": null,
-      "created_at": "2026-03-03T11:22:00+08:00",
-      "updated_at": "2026-03-03T11:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5305",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build pilot renewal risk intervention board for top 15 accounts entering budget freeze",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board scores churn risk, maps stakeholder interventions, and sets weekly save-probability delta targets.",
       "artifact_path": null,
       "created_at": "2026-03-03T11:22:00+08:00",
       "updated_at": "2026-03-03T11:22:00+08:00",
@@ -208,6 +168,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 12:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-5305",
+      "artifact": "Delivered pilot renewal risk intervention board for top 15 budget-freeze accounts with churn-risk scoring model, stakeholder intervention map, tiered weekly save-probability delta targets, and explicit escalation/exit gates",
+      "path": "office_os/artifacts/P1-REV-5305_pilot_renewal_risk_intervention_board_top15_budget_freeze_2026-03-03.md",
+      "status": "done\\n2026-03-03 12:06"
+    },
     {
       "time": "2026-03-03 11:35",
       "owner": "EXECUTOR",
@@ -398,14 +366,6 @@
       "taskId": "P4-OPS-5249",
       "artifact": "Delivered stale-dependency detector spec for READY lane with staleness thresholds, anomaly fingerprint schema, and owner-safe correction recommendations for autonomous queue integrity",
       "path": "office_os/artifacts/P4-OPS-5249_stale_dependency_detector_ready_lane_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 08:12",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up",
-      "path": "office_os/TOPUP_LOG.md",
       "status": "done"
     }
   ],
