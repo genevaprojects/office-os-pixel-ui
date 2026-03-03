@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T12:00:06.865372+00:00",
+  "now": "2026-03-03T12:10:04.760300+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-5431",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 legal-cleared committee revival command board for quarter-end closes",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board ranks top-12 by recoverable ARR, maps day0-day5 owner commands, and defines Day3/Day5 reopen-or-close gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-5431_top12_legal_cleared_committee_revival_command_board_qe_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5432",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Ladder covers 10 clause conflicts, quantified give-get bands, fallback language, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-5432_procurement_redline_concession_ladder_sub7day_close_cycles_2026-03-03.md",
-      "created_at": "2026-03-03T11:21:49.059Z",
-      "updated_at": "2026-03-03T11:21:49.059Z",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-5435",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce pilot renewal save-probability intervention tracker for top 15 at-risk accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Tracker scores churn risk, maps weekly interventions, and sets save-probability delta targets with owner SLAs.",
-      "artifact_path": "office_os/artifacts/P1-REV-5435_pilot_renewal_save_probability_intervention_tracker_top15_2026-03-03.md",
       "created_at": "2026-03-03T11:21:49.059Z",
       "updated_at": "2026-03-03T11:21:49.059Z",
       "due_at": null,
