@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T09:30:15.063513+00:00",
+  "now": "2026-03-03T09:40:05.886414+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-5413",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 7-day multi-thread revival sprint for security-cleared no-decision enterprise deals",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint defines daily owner actions across champion/procurement/CFO threads and includes Day3/Day7 forced-outcome checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-5413_multithread_revival_sprint_7day_security_cleared_nodecision_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-5415",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Scorecard ranks top 20 deals by slip risk, maps owner interventions, and defines weekly probability-delta targets with escalation triggers.",
       "artifact_path": "office_os/artifacts/P1-REV-5415_close_slippage_early_warning_scorecard_top20_procurement_2026-03-03.md",
-      "created_at": "2026-03-03T17:20:00+08:00",
-      "updated_at": "2026-03-03T17:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-5416",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value breach rescue board for procurement-sensitive onboarding cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board maps breach signatures to owner actions, SLA windows, fallback evidence paths, and next-run closure gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-5416_first_value_breach_rescue_board_day0_day7_procurement_sensitive_2026-03-03.md",
       "created_at": "2026-03-03T17:20:00+08:00",
       "updated_at": "2026-03-03T17:20:00+08:00",
       "due_at": null,
@@ -248,6 +208,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-03 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-03 17:25",
       "owner": "SOCIAL",
@@ -438,14 +406,6 @@
       "taskId": "P1-REV-5341",
       "artifact": "Delivered 7-day champion reactivation multithread sprint for silent enterprise committees with day-by-day command lanes, silence-signature routing, owner backup matrix, and binary Day3/Day7 advance-or-close gates",
       "path": "office_os/artifacts/P1-REV-5341_champion_reactivation_multithread_sprint_silent_enterprise_committees_2026-03-03.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-03 15:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-criteria-complete tasks",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
