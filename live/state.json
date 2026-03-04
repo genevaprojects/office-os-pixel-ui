@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T22:21:37.891321+00:00",
+  "now": "2026-03-04T22:30:05.824758+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-6604",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 10-touch reactivation sprint for security-cleared but silent buying committees",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint maps 10 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate and meeting-booked lift.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-6605",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,27 +186,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board maps activation anomaly fingerprints to severity-based owners, rollback actions, and day3/day7/day14 verification gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-6608",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 14 proof-first short posts for legal-delay fatigue and procurement committee drift",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
       "updated_at": "2026-03-05T06:21:08+08:00",
@@ -299,6 +257,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 06:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6608",
+      "artifact": "Delivered 14 proof-first short posts for legal-delay fatigue and procurement committee drift with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping",
+      "path": "office_os/artifacts/P3-CONT-6608_14_proof_first_short_posts_legal_delay_fatigue_procurement_committee_drift_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 06:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6604",
+      "artifact": "Delivered founder 10-touch reactivation sprint for security-cleared silent buying committees with objection-tagged sequence, proof assets, CTA ladder, and KPI schema for reply-rate/meeting-booked/proposal-reopened control",
+      "path": "office_os/artifacts/P1-REV-6604_founder_10touch_reactivation_sprint_security_cleared_silent_buying_committees_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 06:21",
       "owner": "COMMAND",
@@ -481,22 +455,6 @@
       "taskId": "P0-FE-1989",
       "artifact": "Added Command Integrity Countdown rail with snapshot-age trust clock, stale-threshold countdown, next checkpoint timer, and copy/refresh controls to improve live trust narration speed",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1988",
-      "artifact": "Added Executive Snapshot Ribbon to compress investor-facing GO/RECOVER posture, reliability score, blocker line, and one-click narration/gate actions for faster boardroom storytelling",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
