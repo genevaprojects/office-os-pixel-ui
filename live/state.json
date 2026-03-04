@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T20:21:38.017394+00:00",
+  "now": "2026-03-04T20:30:06.828289+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "started_at": null
     },
     {
-      "id": "P1-REV-6452",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder 10-touch committee wake sequence for week-4 silent champions with proof asset routing",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps day0-day10 touches, objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-reopened outcomes.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
       "id": "P1-REV-6453",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -186,27 +165,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board defines activation proof-gap fingerprints, severity-to-owner routing, fallback actions, and day3/day7/day14 closure evidence requirements.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
-      "id": "P3-CONT-6456",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 14 proof-first short posts for procurement-delay and security-fatigue objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T04:20:00+08:00",
       "updated_at": "2026-03-05T04:20:00+08:00",
@@ -278,6 +236,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 04:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6456",
+      "artifact": "Delivered 14 proof-first short posts for procurement-delay and security-fatigue objections with hook-proof-CTA scripts, channel variants, objection tags, and funnel-stage keyword mapping for conversion-oriented distribution",
+      "path": "office_os/artifacts/P3-CONT-6456_14_proof_first_short_posts_procurement_delay_security_fatigue_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6452",
+      "artifact": "Delivered founder 10-touch committee wake sequence for week-4 silent champions with day0-day10 touch map, objection-tag routing, proof asset matrix, CTA ladder, and KPI instrumentation for binary reopen-or-kill control",
+      "path": "office_os/artifacts/P1-REV-6452_founder_10touch_committee_wake_sequence_week4_silent_champions_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1989",
+      "artifact": "Added Command Integrity Countdown rail with snapshot-age trust clock, stale-threshold countdown, next checkpoint timer, and copy/refresh controls to improve live trust narration speed",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1988",
+      "artifact": "Added Executive Snapshot Ribbon to compress investor-facing GO/RECOVER posture, reliability score, blocker line, and one-click narration/gate actions for faster boardroom storytelling",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 04:07",
       "owner": "COMMAND",
@@ -444,38 +434,6 @@
       "taskId": "P1-REV-6429",
       "artifact": "Delivered top-10 late-stage slippage shock ladder with deterministic ranking model, owner+backup intervention lanes, and Day2/Day5 save-or-exit forecast gates with measurable delta thresholds",
       "path": "office_os/artifacts/P1-REV-6429_late_stage_slippage_shock_ladder_top10_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks using priority-weighted distribution with owner assignment and measurable acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6424",
-      "artifact": "Delivered acceptance-criteria specificity lint with weak-verb detection, 4-point specificity scoring, measurable auto-rewrite templates, and enforcement states to block vague READY-task criteria",
-      "path": "office_os/artifacts/P4-OPS-6424_autonomous_acceptance_specificity_lint_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6367",
-      "artifact": "Delivered autonomous backlog novelty filter with blended novelty thresholds, duplicate-intent detection logic, deterministic rewrite protocol, and run-level audit fields to suppress repetitive top-up wording",
-      "path": "office_os/artifacts/P4-OPS-6367_autonomous_backlog_novelty_filter_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6417",
-      "artifact": "Delivered top-15 security-cleared proposal stall rescue board with recoverable-ARR ranking, H24/H48 owner intervention lanes, and binary measurable reopen-or-kill gates for forecast-clean execution",
-      "path": "office_os/artifacts/P1-REV-6417_security_cleared_proposal_stall_rescue_board_top15_2026-03-05.md",
       "status": "done"
     }
   ],
