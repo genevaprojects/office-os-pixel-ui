@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T19:00:04.980909+00:00",
+  "now": "2026-03-04T19:10:08.587413+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6426",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 security-cleared no-response revival strikeboard with H24/H48 owner swaps and reopen-or-kill ARR gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Strikeboard ranks top-12 no-response late-stage deals by recoverable ARR, maps H24/H48 owner swap actions, and enforces binary reopen-or-kill thresholds with forecast delta checks.",
-      "artifact_path": "office_os/artifacts/P1-REV-6426_security_cleared_no_response_revival_strikeboard_top12_2026-03-05.md"
-    },
-    {
       "id": "P1-REV-6427",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -107,6 +86,27 @@
       "manual_rank": null,
       "acceptance": "Calculator includes 12+ objection branches, quantified concession bands A/B/C, explicit floor-margin formulas, and same-call close/no-close exit conditions.",
       "artifact_path": "office_os/artifacts/P1-REV-6427_procurement_redline_concession_calculator_v8_2026-03-05.md"
+    },
+    {
+      "id": "P1-REV-6435",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create enterprise committee silence heatmap by objection cluster with 7-day reactivation trigger windows and ARR-weighted routing",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-05T03:05:00+08:00",
+      "updated_at": "2026-03-05T03:05:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Heatmap classifies top objection clusters, ranks affected opportunities by recoverable ARR, and defines day0/day3/day7 trigger windows with owner routing and measurable reopen targets.",
+      "artifact_path": "office_os/artifacts/P1-REV-6435_committee_silence_heatmap_objection_clusters_2026-03-05.md"
     },
     {
       "id": "P2-PROD-6431",
@@ -130,6 +130,48 @@
       "artifact_path": "office_os/artifacts/P2-PROD-6431_csm_to_product_escalation_schema_v15_2026-03-05.md"
     },
     {
+      "id": "P2-PROD-6436",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Define security-review handoff evidence contract v16 for sales-to-product escalations with breach severity gates",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-05T03:05:00+08:00",
+      "updated_at": "2026-03-05T03:05:00+08:00",
+      "started_at": null,
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Contract includes mandatory evidence fields, anti-gaming validation, severity-to-SLA routing, and deterministic closure signoff criteria for audit-ready escalations.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6436_security_review_handoff_evidence_contract_v16_2026-03-05.md"
+    },
+    {
+      "id": "P3-CONT-6437",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 10 founder proof-snack scripts for committee no-response reversals across LinkedIn/X short-form",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-05T03:05:00+08:00",
+      "updated_at": "2026-03-05T03:05:00+08:00",
+      "started_at": null,
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping for reply-rate and meeting-booked outcomes.",
+      "artifact_path": "office_os/artifacts/P3-CONT-6437_founder_proof_snack_scripts_committee_no_response_reversals_2026-03-05.md"
+    },
+    {
       "id": "P4-OPS-6433",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -149,6 +191,27 @@
       "manual_rank": null,
       "acceptance": "Checker defines measurable-criteria score thresholds, weak acceptance fingerprints, auto-rewrite actions, and run-level audit fields for backlog quality control.",
       "artifact_path": "office_os/artifacts/P4-OPS-6433_autonomous_topup_acceptance_measurability_checker_2026-03-05.md"
+    },
+    {
+      "id": "P4-OPS-6438",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Create autonomous stale-READY recycler with age thresholds, rewrite templates, and owner-aware rerank logic",
+      "owner": "COMMAND",
+      "status": "READY",
+      "created_at": "2026-03-05T03:05:00+08:00",
+      "updated_at": "2026-03-05T03:05:00+08:00",
+      "started_at": null,
+      "impact": 3,
+      "effort": 1,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Spec defines READY-age thresholds, rerank/rewrite actions, owner-aware safeguards, and audit fields to prevent stale queue accumulation.",
+      "artifact_path": "office_os/artifacts/P4-OPS-6438_autonomous_stale_ready_recycler_2026-03-05.md"
     },
     {
       "id": "P5-REL-6369",
@@ -194,6 +257,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6434",
+      "artifact": "Delivered top-10 multithread champion-loss rescue board with recoverable-ARR ranking, H24/H48/H72 owner escalation ladder, and binary regain-or-exit gates tied to forecast-delta thresholds",
+      "path": "office_os/artifacts/P1-REV-6434_multithread_champion_loss_rescue_board_top10_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:05",
+      "owner": "RESEARCH",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted lane coverage and acceptance-complete task definitions across revenue, product, content, and operations",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6426",
+      "artifact": "Delivered top-12 security-cleared no-response revival strikeboard with recoverable-ARR ranking, deterministic H24/H48 owner-swap protocol, binary reopen-or-kill gates, and forecast-delta pass/fail thresholds for forced-outcome pipeline control",
+      "path": "office_os/artifacts/P1-REV-6426_security_cleared_no_response_revival_strikeboard_top12_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 02:37",
       "owner": "COMMAND",
@@ -369,30 +456,6 @@
       "artifact": "Delivered founder 7-day committee wake sprint for week-3 no-response enterprise champions with day0-day7 touch map, objection tags, proof-asset mapping, CTA ladder, and KPI tracking schema for reply-rate/meeting-booked/proposal-reopened outcomes",
       "path": "office_os/artifacts/P1-REV-6411_founder_7day_committee_wake_sprint_week3_noresponse_2026-03-05.md",
       "status": "done\\n2026-03-05 00:25"
-    },
-    {
-      "time": "2026-03-05 00:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1969",
-      "artifact": "Added Interruption Command Strip in Team view with failover ETA/checkpoint/blocker scan, immediate continuity command rail, and one-click copy actions for immediate command, queue-all continuity bundle, and boardroom broadcast pack",
-      "path": "office_os_mission_control/app/team/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1968",
-      "artifact": "Added Boardroom Command Strip in Founder Desk to compress live intervention flow into one rail (dispatch lock + checkpoint + ETA + queue-ready counts) with one-click primary move queue, primary decision action queue, and boardroom macro-pack copy",
-      "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
