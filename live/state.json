@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T18:21:43.979242+00:00",
+  "now": "2026-03-04T18:30:05.079895+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6427_procurement_redline_concession_calculator_v8_2026-03-05.md"
     },
     {
-      "id": "P1-REV-6428",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder 8-touch legal-cycle compression sprint for week-2 committee silence",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint maps day0-day10 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-reopened outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-6428_founder_8touch_legal_cycle_compression_sprint_2026-03-05.md"
-    },
-    {
       "id": "P1-REV-6429",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -191,27 +170,6 @@
       "manual_rank": null,
       "acceptance": "Schema includes mandatory payload fields, anti-gaming checks, SLA routing tiers, and audit-ready closure signoff fields with owner accountability.",
       "artifact_path": "office_os/artifacts/P2-PROD-6431_csm_to_product_escalation_schema_v15_2026-03-05.md"
-    },
-    {
-      "id": "P3-CONT-6432",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first objection clips for security-review fatigue and budget-freeze reversals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword mapping to consideration/evaluation/decision stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6432_proof_first_objection_clips_security_budget_reversal_2026-03-05.md"
     },
     {
       "id": "P4-OPS-6433",
