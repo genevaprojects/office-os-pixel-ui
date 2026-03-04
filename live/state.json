@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T22:00:07.292585+00:00",
+  "now": "2026-03-04T22:10:04.945587+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6460",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 expansion-deal legal lag rescue board with H24/H48 owner actions and ARR-based kill gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 10 at-risk expansion deals by recoverable ARR, defines H24/H48 owner interventions, and enforces binary reopen-or-kill thresholds with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
       "id": "P1-REV-6461",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script contains 12+ objection branches, quantified delay-cost framing, concession bands A/B/C, and explicit floor-price close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
+      "updated_at": "2026-03-05T06:07:04.390968+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Payload schema includes mandatory fields, anti-gaming checks, severity routing tiers, and audit-ready closure signoff criteria with owner accountability.",
       "artifact_path": null,
       "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
+      "updated_at": "2026-03-05T06:07:04.390982+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Monitor defines drift thresholds, rewrite triggers, and audit fields that flag recurring vague acceptances and enforce rewrite before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
+      "updated_at": "2026-03-05T06:07:04.390992+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Sentinel defines freshness thresholds, anomaly fingerprints, fallback order, and pending_verify closure checks to prevent stale-output reporting.",
       "artifact_path": null,
       "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
+      "updated_at": "2026-03-05T06:07:04.390996+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -188,12 +167,36 @@
       "acceptance": "Sentinel defines freshness thresholds, anomaly fingerprints, fallback order, and pending_verify closure checks to prevent stale-output reporting.",
       "artifact_path": null,
       "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
+      "updated_at": "2026-03-05T06:07:04.390987+08:00",
       "due_at": null,
       "started_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 06:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 06:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1997",
+      "artifact": "Added Executive→Operator Handoff Sentinel with a 60-second readiness gate, explicit owner/checkpoint execution line, and one-click select/focus/copy actions for trust-safe handoff during live operations",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 06:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1996",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane starvation into an explicit continuation milestone anchored to executive→operator handoff reliability so autonomous frontend delivery remains unblocked",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 05:37",
       "owner": "COMMAND",
@@ -368,30 +371,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6369",
-      "artifact": "Delivered revenue cron fallback readiness card with failure fingerprint catalog, strict failover order, rollback triggers, and pending_verify recovery gates tied to next-run verification",
-      "path": "office_os/artifacts/P5-REL-6369_revenue_cron_fallback_readiness_card_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6443",
-      "artifact": "Delivered cron pending_verify state-reset verifier with next-run health gates, stale-counter reset enforcement, fingerprint continuity checks, and deterministic reopen/resolve transitions",
-      "path": "office_os/artifacts/P5-REL-6443_cron_pending_verify_state_reset_verifier_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:27",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6437",
-      "artifact": "Delivered 10 founder proof-snack scripts for committee no-response reversals across LinkedIn/X short-form with hook-proof-CTA format, objection tags, channel variants, and keyword-intent measurement plan",
-      "path": "office_os/artifacts/P3-CONT-6437_10_founder_proof_snack_scripts_committee_noresponse_reversals_2026-03-05.md",
       "status": "done"
     }
   ],
