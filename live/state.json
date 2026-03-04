@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T01:21:56.365898+00:00",
+  "now": "2026-03-04T01:30:07.403718+00:00",
   "workers": [
     {
       "name": "Research",
@@ -87,26 +87,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6242",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create founder-led 9-touch executive urgency sequence for stalled committee deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day14 map, objection tags, proof inserts, CTA ladder, and meeting-booked KPI instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-6242_founder_9touch_executive_urgency_sequence_2026-03-04.md",
-      "created_at": "2026-03-04T09:22:00+08:00",
-      "updated_at": "2026-03-04T09:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6243",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -158,26 +138,6 @@
       "urgency": 3,
       "acceptance": "Contract specifies required evidence schema, severity tiers, routing matrix, and closure checks for expansion handoff.",
       "artifact_path": "office_os/artifacts/P2-PROD-6245_expansion_readiness_evidence_contract_2026-03-04.md",
-      "created_at": "2026-03-04T09:22:00+08:00",
-      "updated_at": "2026-03-04T09:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6246",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 15 objection-led proof micro-posts for procurement and security delay windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, channel variants, objection taxonomy, and keyword tracking matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6246_objection_led_proof_micro_posts_2026-03-04.md",
       "created_at": "2026-03-04T09:22:00+08:00",
       "updated_at": "2026-03-04T09:22:00+08:00",
       "due_at": null,
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 09:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6246",
+      "artifact": "Delivered 15 objection-led proof micro-posts for procurement/security/budget/no-decision/integration objections with hook-proof-CTA scripts, channel variants, taxonomy, and keyword tracking matrix",
+      "path": "office_os/artifacts/P3-CONT-6246_objection_led_proof_micro_posts_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 09:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6242",
+      "artifact": "Delivered founder-led 9-touch executive urgency sequence for stalled committee deals with day0-day14 map, objection tags, proof inserts, CTA ladder, and meeting-booked KPI instrumentation",
+      "path": "office_os/artifacts/P1-REV-6242_founder_9touch_executive_urgency_sequence_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 09:22",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P5-REL-6224",
       "artifact": "Delivered cron retry saturation guardrail card for growth-critical workflows with threshold tiers, fallback sequence, escalation criteria, and pending_verify closure checks",
       "path": "office_os/artifacts/P5-REL-6224_cron_retry_saturation_guardrail_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6227",
-      "artifact": "Delivered 72-hour multithread close sprint for security-cleared procurement deals with ARR-weighted prioritization, H24/H48/H72 owner actions, escalation ladder, and binary close-or-kill gates",
-      "path": "office_os/artifacts/P1-REV-6227_72h_multithread_close_sprint_security_cleared_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6230",
-      "artifact": "Delivered 7-day founder authority content ladder for no-decision enterprise threads with daily hook-proof-CTA posts, objection tags, channel mapping, and meeting-booked tracking fields",
-      "path": "office_os/artifacts/P3-CONT-6230_founder_authority_content_ladder_nodecision_2026-03-04.md",
       "status": "done"
     }
   ],
