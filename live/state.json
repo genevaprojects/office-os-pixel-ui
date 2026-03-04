@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T23:00:06.926969+00:00",
+  "now": "2026-03-04T23:10:04.654114+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6601",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create top-15 legal-cleared deal acceleration strike board with H24/H48 commit actions and forecast delta gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 legal-cleared opportunities by recoverable ARR, defines H24/H48 owner commitments, and enforces measurable forecast-delta save-or-exit gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-6602",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "acceptance": "Script includes 12+ branches, quantified delay-cost framing, concession bands, and explicit close/no-close floor-margin exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-6605",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create expansion-renewal slippage heatmap with ARR-weighted kill gates and same-week save plan",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap scores renewal slippage by ARR impact, defines same-week interventions, and enforces binary save-or-kill thresholds.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
+      "updated_at": "2026-03-05T07:07:03.029050+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "acceptance": "Contract defines required payload fields, anti-gaming checks, severity routing, and closure attestation checklist with owner accountability.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
+      "updated_at": "2026-03-05T07:07:03.029064+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Protocol defines stale-age buckets, rewrite SLA windows, and deterministic state-transition rules before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
+      "updated_at": "2026-03-05T07:07:03.029074+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +146,7 @@
       "acceptance": "Sentinel defines freshness thresholds, anomaly fingerprints, fallback order, and pending_verify closure checks to prevent stale-output reporting.",
       "artifact_path": null,
       "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T06:07:04.390996+08:00",
+      "updated_at": "2026-03-05T07:07:03.029078+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -209,12 +167,20 @@
       "acceptance": "Alarm spec defines checksum drift thresholds, tiered responses, suppression windows, and pending_verify closure constraints.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
+      "updated_at": "2026-03-05T07:07:03.029069+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 07:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 06:36",
       "owner": "EXECUTOR",
@@ -405,14 +371,6 @@
       "taskId": "P1-REV-6453",
       "artifact": "Delivered top-15 late-stage slippage intervention board with weighted risk ranking, primary/backup intervention lanes, deterministic Day2/Day5 save-or-exit gates, and forecast-delta tracking standards for commit hygiene",
       "path": "office_os/artifacts/P1-REV-6453_late_stage_slippage_intervention_board_top15_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6456",
-      "artifact": "Delivered 14 proof-first short posts for procurement-delay and security-fatigue objections with hook-proof-CTA scripts, channel variants, objection tags, and funnel-stage keyword mapping for conversion-oriented distribution",
-      "path": "office_os/artifacts/P3-CONT-6456_14_proof_first_short_posts_procurement_delay_security_fatigue_2026-03-05.md",
       "status": "done"
     }
   ],
