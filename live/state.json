@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T08:30:07.197591+00:00",
+  "now": "2026-03-04T08:40:06.533829+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6313",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce top-15 no-decision resurrection strike matrix with owner SLA lanes and reopen probability gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Matrix ranks 15 stalled deals by recoverable ARR, assigns owner/backup SLA lanes, and enforces Day3/Day7 reopen-or-kill gates with measurable thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6313_nodecision_resurrection_strike_matrix_top15_2026-03-04.md",
-      "created_at": "2026-03-04T16:20:00+08:00",
-      "updated_at": "2026-03-04T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6314",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Map defines top redline bottlenecks, fallback clause paths, owner actions by hour bucket, and strict close/no-close rules for sub-72h cycle compression.",
       "artifact_path": "office_os/artifacts/P1-REV-6314_procurement_redline_compression_decision_map_2026-03-04.md",
-      "created_at": "2026-03-04T16:20:00+08:00",
-      "updated_at": "2026-03-04T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6315",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day14 activation confidence rescue board v7 for multi-signal onboarding drift",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board includes drift fingerprints, severity owner routing, rollback play options, and Day3/Day7/Day14 verification gates with closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6315_activation_confidence_rescue_board_v7_2026-03-04.md",
       "created_at": "2026-03-04T16:20:00+08:00",
       "updated_at": "2026-03-04T16:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 16:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6315",
+      "artifact": "Delivered day0-day14 activation confidence rescue board v7 with multi-signal drift fingerprints, severity owner routing, rollback play options, and Day3/Day7/Day14 verification closure criteria with evidence requirements",
+      "path": "office_os/artifacts/P2-PROD-6315_activation_confidence_rescue_board_v7_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 16:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6313",
+      "artifact": "Delivered top-15 no-decision resurrection strike matrix with recoverable-ARR ranking model, owner/backup SLA takeover lanes, and enforced Day3/Day7 reopen-or-kill gates for deterministic stalled-deal recovery",
+      "path": "office_os/artifacts/P1-REV-6313_nodecision_resurrection_strike_matrix_top15_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 16:26",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "P2-PROD-6296",
       "artifact": "Delivered onboarding confidence-regression triage board for integration-event drift cohorts with failure fingerprints, severity-linked owner actions, rollback paths, and Day3/Day7 verification closure gates",
       "path": "office_os/artifacts/P2-PROD-6296_onboarding_confidence_regression_triage_board_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 14:27",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6292",
-      "artifact": "Delivered founder-led 8-touch silent-champion revival sequence for quarter-end committee stalls with day0-day12 touch map, objection tags, proof snippets, CTA ladder, and meeting-booked KPI instrumentation fields",
-      "path": "office_os/artifacts/P1-REV-6292_founder_8touch_silent_champion_revival_qe_2026-03-04.md",
-      "status": "done\\n2026-03-04 14:27"
-    },
-    {
-      "time": "2026-03-04 14:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
