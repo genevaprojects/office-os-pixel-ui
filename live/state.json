@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T07:22:15.735389+00:00",
+  "now": "2026-03-04T07:30:13.172797+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6302",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led 10-touch dormant-champion wake sequence for committee no-decision deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence delivers day0-day14 touch map with objection tags, proof snippets, CTA ladder, and meeting-booked/reply-rate KPI fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-6302_founder_10touch_dormant_champion_wake_sequence_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6303",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6307",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 16 proof-first short posts for procurement-delay and legal-redline objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6307_proof_first_short_posts_procurement_legal_redline_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P3-CONT-6308",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 15:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6307",
+      "artifact": "Delivered 16 proof-first short posts for procurement-delay and legal-redline objections with hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking matrix",
+      "path": "office_os/artifacts/P3-CONT-6307_proof_first_short_posts_procurement_legal_redline_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 15:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6302",
+      "artifact": "Delivered founder-led 10-touch dormant-champion wake sequence with day0-day14 touch map, objection tagging, proof snippets, CTA ladder, and reply-rate/meeting-booked KPI instrumentation",
+      "path": "office_os/artifacts/P1-REV-6302_founder_10touch_dormant_champion_wake_sequence_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 15:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-6280",
       "artifact": "Delivered day0-day10 silent-champion reactivation sprint for committee-stalled enterprise accounts with touch map, objection taxonomy, proof inserts, CTA ladder, and meeting-booked KPI instrumentation",
       "path": "office_os/artifacts/P1-REV-6280_silent_champion_reactivation_sprint_committee_stalls_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6277",
-      "artifact": "Delivered cron artifact integrity spot-check card with integrity checks, anomaly classes, remediation order, and pending_verify next-run closure policy",
-      "path": "office_os/artifacts/P5-REL-6277_cron_artifact_integrity_spotcheck_card_2026-03-04.md",
       "status": "done"
     }
   ],
