@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T23:10:04.654114+00:00",
+  "now": "2026-03-04T23:30:04.644835+00:00",
   "workers": [
     {
       "name": "Research",
@@ -173,6 +173,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 07:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6612",
+      "artifact": "Delivered 7-day short-form rebuttal calendar for procurement/legal stall objections with daily hook-proof-CTA scripts, tag matrix, repurposing plan, and KPI framework",
+      "path": "office_os/artifacts/P3-CONT-6612_7day_shortform_rebuttal_calendar_procurement_legal_stall_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 07:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6611",
+      "artifact": "Delivered founder multichannel committee no-decision reactivation pack with 10-touch sequence, proof-block library, objection-tag routing, and CTA ladder for rapid decision-call recovery",
+      "path": "office_os/artifacts/P3-CONT-6611_founder_multichannel_committee_nodecision_reactivation_pack_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 07:07",
       "owner": "COMMAND",
@@ -355,22 +371,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6455",
-      "artifact": "Delivered day0-day14 activation proof-gap triage board with fingerprint taxonomy, severity-to-owner routing, fallback recovery actions, and strict Day3/Day7/Day14 closure evidence policy for audit-ready onboarding recovery",
-      "path": "office_os/artifacts/P2-PROD-6455_day0_day14_activation_proof_gap_triage_board_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6453",
-      "artifact": "Delivered top-15 late-stage slippage intervention board with weighted risk ranking, primary/backup intervention lanes, deterministic Day2/Day5 save-or-exit gates, and forecast-delta tracking standards for commit hygiene",
-      "path": "office_os/artifacts/P1-REV-6453_late_stage_slippage_intervention_board_top15_2026-03-05.md",
       "status": "done"
     }
   ],
