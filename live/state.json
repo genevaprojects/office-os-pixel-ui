@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T13:21:51.843996+00:00",
+  "now": "2026-03-04T13:30:05.688631+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6361_procurement_concession_guardrail_script_v3_2026-03-04.md"
     },
     {
-      "id": "P1-REV-6362",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder 10-touch silent-buyer reactivation sprint for procurement-stalled committees",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T21:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint maps day0-day14 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-6362_founder_10touch_silent_buyer_reactivation_sprint_2026-03-04.md"
-    },
-    {
       "id": "P1-REV-6363",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -191,27 +170,6 @@
       "manual_rank": null,
       "acceptance": "Payload schema includes mandatory fields, evidence quality scoring, SLA routing tiers, and audit-ready closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-6365_csm_to_product_escalation_payload_v10_2026-03-04.md"
-    },
-    {
-      "id": "P3-CONT-6366",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 20 proof-first short posts for procurement-delay and legal-redline objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T21:20:00+08:00",
-      "started_at": null,
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6366_20_proof_first_short_posts_procurement_legal_2026-03-04.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 21:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6366",
+      "artifact": "Delivered 20 proof-first short posts for procurement-delay and legal-redline objections with hook-proof-CTA scripts, objection taxonomy, channel variants, funnel-stage mapping, and conversion keyword tracking schema",
+      "path": "office_os/artifacts/P3-CONT-6366_20_proof_first_short_posts_procurement_legal_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6362",
+      "artifact": "Delivered founder 10-touch silent-buyer reactivation sprint for procurement-stalled committees with day0-day14 touch orchestration, objection-tag taxonomy, proof-asset routing, CTA ladder, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent outcomes",
+      "path": "office_os/artifacts/P1-REV-6362_founder_10touch_silent_buyer_reactivation_sprint_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 21:20",
       "owner": "COMMAND",
@@ -460,22 +434,6 @@
       "taskId": "P3-CONT-6347",
       "artifact": "Delivered 30 proof-first short posts spanning legal-delay, procurement-freeze, and no-decision objections with hook-proof-CTA format, channel-ready deployment, CTA keyword attribution, and KPI tracking notes",
       "path": "office_os/artifacts/P3-CONT-6347_30_proof_first_short_posts_legal_procurement_nodecision_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 19:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6342",
-      "artifact": "Delivered founder-led 16-touch dark-funnel revival sequence for stalled security-cleared committees with objection-tagged channel cadence, proof/CTA laddering, and binary Day24 outcome forcing for meeting/proposal/exit control",
-      "path": "office_os/artifacts/P1-REV-6342_founder_16touch_dark_funnel_revival_sequence_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 19:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, concrete owner assignment, and acceptance-complete execution-ready task definitions",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
