@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T07:30:13.172797+00:00",
+  "now": "2026-03-04T07:40:05.534418+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6303",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create close-slippage early-warning trigger board for top-20 late-stage enterprise opportunities",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board defines top-20 risk ranking, trigger classes, owner SLAs, and day3/day7 close-probability checkpoints with explicit save-or-exit rules.",
-      "artifact_path": "office_os/artifacts/P1-REV-6303_close_slippage_early_warning_board_top20_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6304",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 3,
       "acceptance": "Map includes stakeholder influence scoring, objection routing, owner actions by lane, and measurable reopen/proposal gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6304_champion_multithread_map_security_cleared_procurement_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6305",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day10 onboarding confidence recovery board v6 for integration drift cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board includes failure fingerprints, severity-to-owner routing, rollback options, and day3/day7/day10 verification closure gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6305_onboarding_confidence_recovery_board_v6_2026-03-04.md",
       "created_at": "2026-03-04T15:20:00+08:00",
       "updated_at": "2026-03-04T15:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 15:26",
       "owner": "SOCIAL",
@@ -418,14 +386,6 @@
       "taskId": "P3-CONT-6285",
       "artifact": "Delivered 12 proof-first short posts for security-review and procurement-delay objections with hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking fields",
       "path": "office_os/artifacts/P3-CONT-6285_proof_first_short_posts_security_procurement_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6280",
-      "artifact": "Delivered day0-day10 silent-champion reactivation sprint for committee-stalled enterprise accounts with touch map, objection taxonomy, proof inserts, CTA ladder, and meeting-booked KPI instrumentation",
-      "path": "office_os/artifacts/P1-REV-6280_silent_champion_reactivation_sprint_committee_stalls_2026-03-04.md",
       "status": "done"
     }
   ],
