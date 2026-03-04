@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T14:30:05.681526+00:00",
+  "now": "2026-03-04T14:40:07.424581+00:00",
   "workers": [
     {
       "name": "Research",
@@ -132,27 +132,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6371_cfo_budget_freeze_reversal_script_v4_2026-03-04.md"
     },
     {
-      "id": "P1-REV-6373",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create top-10 close-date slippage containment lane with same-week recover-or-reforecast gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Lane ranks top-10 slipping opportunities, assigns owner+backup SLAs, and enforces Day2/Day5 recover-or-reforecast gates with commit-forecast delta tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-6373_close_date_slippage_containment_lane_top10_2026-03-04.md"
-    },
-    {
       "id": "P2-PROD-6374",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -172,27 +151,6 @@
       "manual_rank": null,
       "acceptance": "Schema defines mandatory fields, anti-gaming validation checks, severity routing, and closure-signoff payload requirements for audit-ready escalations.",
       "artifact_path": "office_os/artifacts/P2-PROD-6374_onboarding_evidence_integrity_schema_v11_2026-03-04.md"
-    },
-    {
-      "id": "P2-PROD-6375",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day14 expansion-risk intervention ladder with cohort-level rollback triggers and closure proofs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
-      "started_at": null,
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ladder defines risk fingerprints, owner routing, rollback trigger thresholds, and Day3/Day7/Day14 closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6375_day0_day14_expansion_risk_intervention_ladder_2026-03-04.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -259,6 +217,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 22:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6375",
+      "artifact": "Delivered day0-day14 expansion-risk intervention ladder with cohort risk banding, Day3/Day7/Day10 trigger logic, rollback decision framework, and strict Day14 closure-proof requirements to prevent unresolved expansion drift",
+      "path": "office_os/artifacts/P2-PROD-6375_day0_day14_expansion_risk_intervention_ladder_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6373",
+      "artifact": "Delivered top-10 close-date slippage containment lane with deterministic ARR-weighted ranking, H24/H72/end-of-week recover-or-reforecast gates, owner+backup SLA routing, and evidence-required reforecast guardrails for same-week forecast control",
+      "path": "office_os/artifacts/P1-REV-6373_top10_close_date_slippage_containment_lane_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 22:27",
       "owner": "SOCIAL",
@@ -441,22 +415,6 @@
       "taskId": "P2-PROD-6355",
       "artifact": "Delivered day0-day21 activation drift control tower with fingerprint taxonomy, severity routing SLAs, rollback/intervention playbooks, and checkpoint-based verification closure gates",
       "path": "office_os/artifacts/P2-PROD-6355_day0_day21_activation_drift_control_tower_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6353",
-      "artifact": "Delivered late-stage no-decision shock lane for top-12 deals with ARR-weighted ranking, owner+backup SLA enforcement, and Day3/Day7 binary reopen-or-exit gates with forecast-delta tracking",
-      "path": "office_os/artifacts/P1-REV-6353_late_stage_nodecision_shock_lane_top12_day3_day7_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6357",
-      "artifact": "Delivered 18 proof-first short posts for budget-freeze and procurement-delay objections with hook-proof-CTA scripts, channel variants, objection taxonomy, and keyword instrumentation for reply/DM/meeting conversion tracking",
-      "path": "office_os/artifacts/P3-CONT-6357_18_proof_first_short_posts_budget_freeze_procurement_delay_2026-03-04.md",
       "status": "done"
     }
   ],
