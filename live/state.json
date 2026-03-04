@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T23:30:04.644835+00:00",
+  "now": "2026-03-04T23:40:07.859702+00:00",
   "workers": [
     {
       "name": "Research",
@@ -128,51 +128,33 @@
       "updated_at": "2026-03-05T07:07:03.029074+08:00",
       "started_at": null,
       "due_at": null
-    },
-    {
-      "id": "P5-REL-6459",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron artifact freshness sentinel for growth-critical jobs with pending_verify guardrails",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sentinel defines freshness thresholds, anomaly fingerprints, fallback order, and pending_verify closure checks to prevent stale-output reporting.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T07:07:03.029078+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
-      "id": "P5-REL-6610",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Define cron output checksum drift alarm with tiered response and false-positive suppression rules",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Alarm spec defines checksum drift thresholds, tiered responses, suppression windows, and pending_verify closure constraints.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T07:07:03.029069+08:00",
-      "started_at": null,
-      "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 07:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 07:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-6610",
+      "artifact": "Delivered cron output checksum drift alarm spec with canonicalization rules, drift-class thresholds, A-D tiered response, false-positive suppression TTLs, and deterministic pending_verify resolution criteria",
+      "path": "office_os/artifacts/P5-REL-6610_cron_output_checksum_drift_alarm_tiered_response_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-6459",
+      "artifact": "Delivered cron artifact freshness sentinel spec for growth-critical jobs with deterministic age states, stale fingerprint detection, tiered remediation flow, suppression bounds, and pending_verify closure guards",
+      "path": "office_os/artifacts/P5-REL-6459_cron_artifact_freshness_sentinel_growth_critical_jobs_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 07:26",
       "owner": "SOCIAL",
@@ -347,30 +329,6 @@
       "taskId": "P1-REV-6451",
       "artifact": "Delivered CFO no-decision reversal script v9 with 13 objection branches, quantified downside-offset framing, concession bands A/B/C, and explicit floor-price close/no-close walk-away exits for deterministic same-call outcomes",
       "path": "office_os/artifacts/P1-REV-6451_cfo_no_decision_reversal_script_v9_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1991",
-      "artifact": "Hardened Command Jump Coverage Sentinel with detailed missing/mismatch diagnostics, richer copy brief, and one-click auto-heal that rewires missing quick-jump targets to safe fallback sections",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1990",
-      "artifact": "Upgraded Command Integrity Countdown with trust-breach horizon telemetry (stale-vs-checkpoint) and one-click boardroom recovery-bundle copy action for faster reliability narration under investor pressure",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
