@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T03:00:08.450574+00:00",
+  "now": "2026-03-04T03:10:04.670104+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6249",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 multithread deal unblock board for legal-approved but signature-stalled accounts",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board lists top-10 ARR-weighted accounts with blocker signatures, owner/day cadence, and Day3/Day7 signature probability gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6249_signature_stall_multithread_unblock_board_2026-03-04.md",
-      "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6250",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Pack contains 8 objection branches, quantified proof placeholders, concession guardrails, and same-call CTA exits.",
       "artifact_path": "office_os/artifacts/P1-REV-6250_cfo_safe_roi_rebuttal_pack_procurement_delay_2026-03-04.md",
       "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6258",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create top-8 closed-lost resurrection blitz with H24/H48/H72 owner plays and recoverable ARR ranking",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Blitz pack includes ranking, stall reason, owner actions by time bucket, and reopen-or-kill decision gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6258_closed_lost_resurrection_blitz_top8_2026-03-04.md",
-      "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
+      "updated_at": "2026-03-04T11:07:04.459740+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Checklist includes evidence schema, severity routing, closure criteria, and audit-ready handoff fields.",
       "artifact_path": "office_os/artifacts/P2-PROD-6253_expansion_readiness_handoff_checklist_v2_2026-03-04.md",
       "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
+      "updated_at": "2026-03-04T11:07:04.459755+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Bank includes claim, counter-position, proof requirement, risk note, and CTA intent per item.",
       "artifact_path": "office_os/artifacts/P3-CONT-6255_contrarian_enterprise_ai_claim_bank_2026-03-04.md",
       "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
+      "updated_at": "2026-03-04T11:07:04.459765+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Scorecard defines scoring dimensions, pass bands, correction triggers, and ship-log audit hooks.",
       "artifact_path": "office_os/artifacts/P4-OPS-6248_autonomous_artifact_quality_scorecard_2026-03-04.md",
       "created_at": "2026-03-04T09:22:00+08:00",
-      "updated_at": "2026-03-04T10:07:03.098653+08:00",
+      "updated_at": "2026-03-04T11:07:04.459770+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -199,7 +159,7 @@
       "acceptance": "Template defines mandatory fields, compression rules, and pass/fail quality gate before ship-log append.",
       "artifact_path": "office_os/artifacts/P4-OPS-6256_run_summary_compression_template_quality_risk_revenue_2026-03-04.md",
       "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
+      "updated_at": "2026-03-04T11:07:04.459760+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -208,6 +168,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 11:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 11:12",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6249",
+      "artifact": "Delivered top-10 signature-stall multithread unblock board with ARR-weighted prioritization, blocker-signature mapping, owner/day cadence, and Day3/Day7 signature probability gates for forced-outcome close control",
+      "path": "office_os/artifacts/P1-REV-6249_signature_stall_multithread_unblock_board_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 11:08",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6258",
+      "artifact": "Delivered top-8 closed-lost resurrection blitz with recoverable ARR ranking, H24/H48/H72 owner plays, and binary reopen-or-kill decision gates for deterministic 72h recovery execution",
+      "path": "office_os/artifacts/P1-REV-6258_closed_lost_resurrection_blitz_top8_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 10:37",
       "owner": "COMMAND",
@@ -382,30 +366,6 @@
       "taskId": "P2-PROD-6238",
       "artifact": "Delivered CSM→Product risk escalation payload v2 with severity tiers, mandatory evidence contract, routing matrix, and next-run closure criteria including JSON payload shape",
       "path": "office_os/artifacts/P2-PROD-6238_csm_product_risk_escalation_payload_v2_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 09:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6233",
-      "artifact": "Delivered procurement-latency objection reversal script stack for CFO+legal dual-thread calls with 10 objection branches, quantified proof prompts, concession guardrails, and same-call CTA outcomes",
-      "path": "office_os/artifacts/P1-REV-6233_procurement_latency_reversal_script_stack_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 08:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 08:37",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6237",
-      "artifact": "Delivered day0-day5 onboarding evidence-gap recovery pack with failure signatures, owner routing/SLA clocks, rollback options, and Day3/Day5 verification gates for integration mismatch cohorts",
-      "path": "office_os/artifacts/P2-PROD-6237_onboarding_evidence_gap_recovery_pack_2026-03-04.md",
       "status": "done"
     }
   ],
