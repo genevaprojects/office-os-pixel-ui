@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T18:00:04.918840+00:00",
+  "now": "2026-03-04T18:10:08.944671+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-6417",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 security-cleared proposal stall rescue board with H24/H48 owner lanes and ARR recovery gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 15 stalled security-cleared opportunities by recoverable ARR, assigns H24/H48 owner interventions, and defines binary reopen-or-kill gates with measurable thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6417_security_cleared_proposal_stall_rescue_board_top15_2026-03-05.md"
     },
     {
       "id": "P1-REV-6418",
@@ -215,6 +194,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 02:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6417",
+      "artifact": "Delivered top-15 security-cleared proposal stall rescue board with recoverable-ARR ranking, H24/H48 owner intervention lanes, and binary measurable reopen-or-kill gates for forecast-clean execution",
+      "path": "office_os/artifacts/P1-REV-6417_security_cleared_proposal_stall_rescue_board_top15_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 01:37",
       "owner": "COMMAND",
@@ -405,14 +392,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 23:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6370",
-      "artifact": "Delivered top-8 procurement-redline deadlock breaker board with ARR-weighted prioritization model, blocker-fingerprint H24/H48 legal-owner swap playbooks, and hard signature-probability lift gates with kill criteria for forecast-safe close control",
-      "path": "office_os/artifacts/P1-REV-6370_redline_deadlock_breaker_board_top8_2026-03-04.md",
       "status": "done"
     }
   ],
