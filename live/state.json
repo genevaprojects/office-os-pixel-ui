@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T04:30:05.827275+00:00",
+  "now": "2026-03-04T04:40:07.485796+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6271",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design procurement-to-signature compression playbook for top-8 legal-approved late-stage accounts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Playbook maps blocker signatures to H24/H48/H72 owner actions, fallback clauses, and signature-probability checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-6271_procurement_to_signature_compression_playbook_top8_2026-03-04.md",
-      "created_at": "2026-03-04T12:20:00+08:00",
-      "updated_at": "2026-03-04T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6272",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Matrix defines trigger taxonomy, owner routing, timing windows, and binary reopen-or-kill outcomes with KPI gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6272_nodecision_resurrection_trigger_matrix_qe_2026-03-04.md",
-      "created_at": "2026-03-04T12:20:00+08:00",
-      "updated_at": "2026-03-04T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6273",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day7 first-value confidence recovery board for integration event drift cohorts",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board includes failure signatures, severity routing, SLA owner actions, rollback paths, and Day3/Day7 closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6273_first_value_confidence_recovery_board_event_drift_2026-03-04.md",
       "created_at": "2026-03-04T12:20:00+08:00",
       "updated_at": "2026-03-04T12:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6273",
+      "artifact": "Delivered day0-day7 first-value confidence recovery board for integration event drift cohorts with failure signatures, severity SLA routing, rollback paths, and Day3/Day7 closure gates",
+      "path": "office_os/artifacts/P2-PROD-6273_first_value_confidence_recovery_board_event_drift_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6271",
+      "artifact": "Delivered procurement-to-signature compression playbook for top-8 legal-approved late-stage accounts with blocker signatures, H24/H48/H72 owner actions, fallback clauses, and signature-probability checkpoints",
+      "path": "office_os/artifacts/P1-REV-6271_procurement_to_signature_compression_playbook_top8_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 12:26",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "P2-PROD-6252",
       "artifact": "Delivered day0-day7 activation breach recovery lane for missing integration events with failure signatures, SLA routing, rollback paths, and strict Day3/Day7 verification gates",
       "path": "office_os/artifacts/P2-PROD-6252_activation_breach_recovery_lane_missing_events_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 10:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6257",
-      "artifact": "Delivered cron output freshness sentinel with threshold classes, anomaly taxonomy, deterministic remediation order, and pending_verify next-run closure criteria for growth-critical artifacts",
-      "path": "office_os/artifacts/P5-REL-6257_cron_output_freshness_sentinel_growth_critical_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 10:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6254",
-      "artifact": "Delivered 12 proof-first short posts for security-review and procurement-delay objections with hook-proof-CTA units, LinkedIn/X variants, objection taxonomy, and keyword instrumentation matrix",
-      "path": "office_os/artifacts/P3-CONT-6254_short_proof_posts_security_procurement_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 10:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6251",
-      "artifact": "Delivered founder-led 5-touch day0-day8 urgency sequence for silent executive sponsors with objection-tagged touch map, proof inserts, CTA ladder, and meeting-booked tracking schema",
-      "path": "office_os/artifacts/P1-REV-6251_founder_5touch_silent_exec_sponsor_urgency_2026-03-04.md",
       "status": "done"
     }
   ],
