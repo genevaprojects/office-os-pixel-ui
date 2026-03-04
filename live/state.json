@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T11:22:00.431933+00:00",
+  "now": "2026-03-04T11:30:05.724151+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6342",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led 16-touch dark-funnel revival sequence for stalled security-cleared committees",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence maps day0-day24 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6342_2026-03-04.md",
-      "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6343",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6347",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 30 proof-first short posts targeting legal-delay, procurement freeze, and no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stages.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P3-CONT-6347_2026-03-04.md",
-      "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6348",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 19:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6347",
+      "artifact": "Delivered 30 proof-first short posts spanning legal-delay, procurement-freeze, and no-decision objections with hook-proof-CTA format, channel-ready deployment, CTA keyword attribution, and KPI tracking notes",
+      "path": "office_os/artifacts/P3-CONT-6347_30_proof_first_short_posts_legal_procurement_nodecision_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 19:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6342",
+      "artifact": "Delivered founder-led 16-touch dark-funnel revival sequence for stalled security-cleared committees with objection-tagged channel cadence, proof/CTA laddering, and binary Day24 outcome forcing for meeting/proposal/exit control",
+      "path": "office_os/artifacts/P1-REV-6342_founder_16touch_dark_funnel_revival_sequence_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 19:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-6311",
       "artifact": "Delivered CFO procurement deadlock rebuttal pack v7 with 12 objection branches, quantified proof placeholders, downside-control framing, concession bands A/B/C, and hard margin-floor clauses for live close-call control",
       "path": "office_os/artifacts/P1-REV-6311_cfo_procurement_deadlock_rebuttal_pack_v7_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 17:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 17:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6314",
-      "artifact": "Delivered procurement redline compression decision map with bottleneck taxonomy, fallback clause ladders, hour-bucket owner actions, and strict sub-72h close/no-close rules for deterministic signature outcomes",
-      "path": "office_os/artifacts/P1-REV-6314_procurement_redline_compression_decision_map_2026-03-04.md",
       "status": "done"
     }
   ],
