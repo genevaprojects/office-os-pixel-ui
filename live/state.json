@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T06:23:01.101968+00:00",
+  "now": "2026-03-04T06:30:06.993518+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6292",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led 8-touch silent-champion revival sequence for quarter-end committee stalls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence delivers day0-day12 touch map with objection tags, proof snippets, CTA ladder, and meeting-booked KPI instrumentation fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-6292_founder_8touch_silent_champion_revival_qe_2026-03-04.md",
-      "created_at": "2026-03-04T14:20:26+08:00",
-      "updated_at": "2026-03-04T14:20:26+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6293",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6297",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 14 proof-first short posts for procurement-delay and security-review objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, channel variants, objection taxonomy, and conversion keyword tracking matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6297_proof_first_short_posts_procurement_security_2026-03-04.md",
-      "created_at": "2026-03-04T14:20:26+08:00",
-      "updated_at": "2026-03-04T14:20:26+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6298",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 14:27",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6292",
+      "artifact": "Delivered founder-led 8-touch silent-champion revival sequence for quarter-end committee stalls with day0-day12 touch map, objection tags, proof snippets, CTA ladder, and meeting-booked KPI instrumentation fields",
+      "path": "office_os/artifacts/P1-REV-6292_founder_8touch_silent_champion_revival_qe_2026-03-04.md",
+      "status": "done\\n2026-03-04 14:27"
+    },
     {
       "time": "2026-03-04 14:20",
       "owner": "COMMAND",
@@ -458,14 +426,6 @@
       "taskId": "P1-REV-6270",
       "artifact": "Delivered founder-led 6-touch silent-champion revival sequence with day0-day10 touch map, objection tags, proof inserts, CTA ladder, and meeting-booked KPI instrumentation for late-stage reactivation control",
       "path": "office_os/artifacts/P1-REV-6270_founder_6touch_silent_champion_revival_sequence_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 12:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted lane mix, explicit owners, and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
