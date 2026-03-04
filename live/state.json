@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T17:00:06.225643+00:00",
+  "now": "2026-03-04T17:10:06.878213+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6409",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 dormant legal-approved deal reactivation kill-map with 72h owner actions and recoverable ARR cut lines",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-10 dormant legal-approved deals by recoverable ARR, maps H24/H48/H72 owner actions, and sets binary reopen-or-kill gates with measurable thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6409_dormant_legal_approved_reactivation_kill_map_top10_2026-03-05.md"
-    },
-    {
       "id": "P1-REV-6410",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -95,7 +74,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
+      "updated_at": "2026-03-05T01:07:03.128350+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 2,
@@ -116,7 +95,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
+      "updated_at": "2026-03-05T01:07:03.128365+08:00",
       "started_at": null,
       "impact": 4,
       "effort": 2,
@@ -137,7 +116,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-05T00:07:02.970907+08:00",
+      "updated_at": "2026-03-05T01:07:03.128387+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -158,7 +137,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-04T23:20:00+08:00",
-      "updated_at": "2026-03-05T00:07:02.970899+08:00",
+      "updated_at": "2026-03-05T01:07:03.128378+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -179,7 +158,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
+      "updated_at": "2026-03-05T01:07:03.128374+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -200,7 +179,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-05T00:07:02.970903+08:00",
+      "updated_at": "2026-03-05T01:07:03.128383+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -215,6 +194,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 01:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 00:37",
       "owner": "COMMAND",
@@ -405,14 +392,6 @@
       "taskId": "P2-PROD-6365",
       "artifact": "Delivered CSM-to-product escalation payload v10 with mandatory schema, Q1-Q4 evidence scoring, SLA tier routing logic, and audit-grade closure criteria for deterministic escalation quality",
       "path": "office_os/artifacts/P2-PROD-6365_csm_to_product_escalation_payload_v10_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6361",
-      "artifact": "Delivered procurement concession guardrail script v3 with 13 objection branches, floor-price math formulas, concession bands A/B/C, and explicit same-call GO/HOLD exits for margin-safe close control",
-      "path": "office_os/artifacts/P1-REV-6361_procurement_concession_guardrail_script_v3_2026-03-04.md",
       "status": "done"
     }
   ],
