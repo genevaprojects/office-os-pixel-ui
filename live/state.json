@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T14:21:36.986425+00:00",
+  "now": "2026-03-04T14:30:05.681526+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,6 +54,29 @@
   ],
   "backlog": [
     {
+      "id": "P0-FE-1960",
+      "project": "OFFICE_OS_FRONTEND",
+      "priority": "P0",
+      "title": "Convert OFFICE_OS_FRONTEND READY-lane starvation into explicit investor-qa continuation task for objection-drill reliability and timing-rail stress coverage",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-04T22:21:00+08:00",
+      "updated_at": "2026-03-04T22:21:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 1,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [
+        "P0-FE-1959"
+      ],
+      "blocked_reason": null,
+      "pinned": true,
+      "manual_rank": 0,
+      "acceptance": "When OFFICE_OS_FRONTEND has no READY tasks, backlog records a deterministic next premium UI target tied to objection-response drill reliability and boardroom timing-rail stress checks so autonomous execution remains unblocked.",
+      "artifact_path": "office_os/BACKLOG.json"
+    },
+    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -107,27 +130,6 @@
       "manual_rank": null,
       "acceptance": "Script includes at least 12 objection branches, quantified downside offsets, concession bands A/B/C, and explicit hard margin-floor close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-6371_cfo_budget_freeze_reversal_script_v4_2026-03-04.md"
-    },
-    {
-      "id": "P1-REV-6372",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder 7-day authority burst to reactivate silent procurement committees with proof-led CTAs",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Burst maps day0-day7 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent.",
-      "artifact_path": "office_os/artifacts/P1-REV-6372_founder_7day_authority_burst_procurement_committees_2026-03-04.md"
     },
     {
       "id": "P1-REV-6373",
@@ -191,27 +193,6 @@
       "manual_rank": null,
       "acceptance": "Ladder defines risk fingerprints, owner routing, rollback trigger thresholds, and Day3/Day7/Day14 closure evidence requirements.",
       "artifact_path": "office_os/artifacts/P2-PROD-6375_day0_day14_expansion_risk_intervention_ladder_2026-03-04.md"
-    },
-    {
-      "id": "P3-CONT-6376",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 16 proof-first micro posts for legal-delay and security-review objection windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
-      "started_at": null,
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6376_16_proof_first_micro_posts_legal_security_2026-03-04.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -278,6 +259,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 22:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6376",
+      "artifact": "Delivered 16 proof-first micro posts for legal-delay and security-review objection windows with hook-proof-CTA scripts, objection taxonomy, funnel-stage mapping, channel variants, and conversion keyword tracking",
+      "path": "office_os/artifacts/P3-CONT-6376_16_proof_first_micro_posts_legal_security_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6372",
+      "artifact": "Delivered founder 7-day authority burst for silent procurement committees with day0-day7 objection-tagged touches, proof-asset routing, escalating CTA ladder, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent outcomes",
+      "path": "office_os/artifacts/P1-REV-6372_founder_7day_authority_burst_procurement_committees_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1959",
+      "artifact": "Added Boardroom Live Clock Rail with snapshot-age, next-refresh checkpoint, stale-risk countdown, and copy/refresh controls to protect narration timing reliability during investor demos",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:21",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1958",
+      "artifact": "Added Investor Objection Radar with ranked pushback risk scoring, copy-ready 20-second response scripts, and one-click recovery lane pivot to harden live investor Q&A trust defense",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 22:20",
       "owner": "COMMAND",
@@ -444,38 +457,6 @@
       "taskId": "P3-CONT-6357",
       "artifact": "Delivered 18 proof-first short posts for budget-freeze and procurement-delay objections with hook-proof-CTA scripts, channel variants, objection taxonomy, and keyword instrumentation for reply/DM/meeting conversion tracking",
       "path": "office_os/artifacts/P3-CONT-6357_18_proof_first_short_posts_budget_freeze_procurement_delay_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6352",
-      "artifact": "Delivered founder-led 10-touch dormant committee wake sprint (Day0-Day14) with objection-tag routing, proof ladder, CTA progression, and day-gated reopen-or-exit rules to force binary movement in stalled enterprise threads",
-      "path": "office_os/artifacts/P1-REV-6352_founder_10touch_dormant_committee_wake_sprint_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution (P1-P5), owner assignment, and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-6349",
-      "artifact": "Delivered cron fallback artifact integrity verifier with checksum lineage envelope, five-gate integrity validation, triage ladder, and strict two-pass pending_verify release policy for revenue-critical job trust",
-      "path": "office_os/artifacts/P5-REL-6349_cron_fallback_artifact_integrity_verifier_checksum_lineage_pending_verify_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6348",
-      "artifact": "Delivered autonomous stale-task rewrite engine spec with freshness SLA bands, deterministic rewrite templates, duplicate-collapse safeguards, and WIP/dependency integrity checks to reduce backlog entropy without owner churn",
-      "path": "office_os/artifacts/P4-OPS-6348_autonomous_stale_task_rewrite_engine_freshness_sla_templates_2026-03-04.md",
       "status": "done"
     }
   ],
