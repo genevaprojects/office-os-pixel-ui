@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T01:30:07.403718+00:00",
+  "now": "2026-03-04T01:40:05.044323+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P2-PROD-6244",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day10 onboarding confidence rescue board for integration mismatch regressions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board includes failure signatures, owner routing, SLA windows, rollback paths, and Day3/Day7/Day10 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6244_onboarding_confidence_rescue_board_2026-03-04.md",
-      "created_at": "2026-03-04T09:22:00+08:00",
-      "updated_at": "2026-03-04T09:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P2-PROD-6245",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -205,29 +185,25 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null
-    },
-    {
-      "id": "P5-REL-6127",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron output schema-drift triage quick-card for revenue-critical jobs",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "acceptance": "Quick-card defines anomaly thresholds, remediation order, retry policy, and pending_verify closure checks.",
-      "artifact_path": "office_os/artifacts/P5-REL-6127_cron_schema_drift_triage_quickcard_2026-03-04.md",
-      "created_at": "2026-03-04T03:20:56+08:00",
-      "updated_at": "2026-03-04T08:07:03.796056+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-6127",
+      "artifact": "Delivered cron output schema-drift triage quick-card for revenue-critical jobs with anomaly thresholds, deterministic remediation order, retry policy, and pending_verify closure checks",
+      "path": "office_os/artifacts/P5-REL-6127_cron_schema_drift_triage_quickcard_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 09:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6244",
+      "artifact": "Delivered day0-day10 onboarding confidence rescue board for integration mismatch regressions with failure signatures, owner routing, SLA windows, rollback paths, and Day3/Day7/Day10 verification gates",
+      "path": "office_os/artifacts/P2-PROD-6244_onboarding_confidence_rescue_board_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 09:27",
       "owner": "SOCIAL",
@@ -410,22 +386,6 @@
       "taskId": "P0-FE-1940",
       "artifact": "Added Overview boardroom hotkey rail with editable-safe Shift+V/L/F shortcuts to instantly copy verdict+handoff, narration+cues, and fallback script for faster investor interruption recovery",
       "path": "office_os_mission_control/app/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6224",
-      "artifact": "Delivered cron retry saturation guardrail card for growth-critical workflows with threshold tiers, fallback sequence, escalation criteria, and pending_verify closure checks",
-      "path": "office_os/artifacts/P5-REL-6224_cron_retry_saturation_guardrail_2026-03-04.md",
       "status": "done"
     }
   ],
