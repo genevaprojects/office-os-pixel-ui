@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T09:30:07.689466+00:00",
+  "now": "2026-03-04T09:40:05.433753+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6320",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build enterprise security-review clock compression playbook for stalled procurement-signature transitions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Playbook defines D0/D1/D3 intervention lanes, blocker fingerprint routing, owner+backup SLAs, and binary sign-or-exit gates with measurable close-probability deltas.",
-      "artifact_path": "office_os/artifacts/P1-REV-6320_security_review_clock_compression_playbook_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6321",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Script defines hour-bucket owner actions, fallback clause triggers, quantifiable proof inserts, and strict H24/H48/H72 sign-or-exit thresholds.",
       "artifact_path": "office_os/artifacts/P1-REV-6328_mutual_action_plan_compression_script_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6324",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day21 expansion-readiness confidence board for enterprise pilot-to-paid conversions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board specifies confidence drift fingerprints, severity routing, rollback paths, and Day7/Day14/Day21 closure criteria with evidence integrity checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6324_expansion_readiness_confidence_board_day0_day21_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
       "updated_at": "2026-03-04T17:21:00+08:00",
       "due_at": null,
@@ -228,6 +188,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 17:15",
       "owner": "BUILDER",
@@ -418,14 +386,6 @@
       "taskId": "P2-PROD-6295",
       "artifact": "Delivered day0-day7 first-value evidence payload v5 with mandatory fields, SEV-1..SEV-4 routing SLAs, owner matrix, and audit-ready closure checks/lint rules for CSM→Product escalation quality",
       "path": "office_os/artifacts/P2-PROD-6295_first_value_evidence_payload_v5_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 15:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6291",
-      "artifact": "Delivered legal-to-procurement concession decision tree v5 with 12 objection branches, concession bands A/B/C, margin hard-stop guardrails, and same-call CLOSE/FINAL-SLOT/NO-CLOSE exits for deterministic late-stage deal control",
-      "path": "office_os/artifacts/P1-REV-6291_legal_procurement_concession_decision_tree_v5_2026-03-04.md",
       "status": "done"
     }
   ],
