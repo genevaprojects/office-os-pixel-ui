@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T20:50:08.295698+00:00",
+  "now": "2026-03-04T21:00:07.012978+00:00",
   "workers": [
     {
       "name": "Research",
@@ -195,6 +195,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-05 04:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1991",
+      "artifact": "Hardened Command Jump Coverage Sentinel with detailed missing/mismatch diagnostics, richer copy brief, and one-click auto-heal that rewires missing quick-jump targets to safe fallback sections",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1990",
+      "artifact": "Upgraded Command Integrity Countdown with trust-breach horizon telemetry (stale-vs-checkpoint) and one-click boardroom recovery-bundle copy action for faster reliability narration under investor pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-05 04:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -376,22 +392,6 @@
       "taskId": "P1-REV-6434",
       "artifact": "Delivered top-10 multithread champion-loss rescue board with recoverable-ARR ranking, H24/H48/H72 owner escalation ladder, and binary regain-or-exit gates tied to forecast-delta thresholds",
       "path": "office_os/artifacts/P1-REV-6434_multithread_champion_loss_rescue_board_top10_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:05",
-      "owner": "RESEARCH",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted lane coverage and acceptance-complete task definitions across revenue, product, content, and operations",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6426",
-      "artifact": "Delivered top-12 security-cleared no-response revival strikeboard with recoverable-ARR ranking, deterministic H24/H48 owner-swap protocol, binary reopen-or-kill gates, and forecast-delta pass/fail thresholds for forced-outcome pipeline control",
-      "path": "office_os/artifacts/P1-REV-6426_security_cleared_no_response_revival_strikeboard_top12_2026-03-05.md",
       "status": "done"
     }
   ],
