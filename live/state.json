@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T22:30:05.824758+00:00",
+  "now": "2026-03-04T22:40:06.696219+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-6603",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build procurement-stage champion rescue tracker for top-20 deals with day2/day5/day8 intervention SLA",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Tracker ranks top-20 procurement-stage deals, assigns owner+backup interventions for day2/day5/day8, and captures reopen/proposal-sent outcomes.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-6605",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -165,27 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Contract defines required payload fields, anti-gaming checks, severity routing, and closure attestation checklist with owner accountability.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T06:21:08+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-6607",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day14 activation anomaly response board with severity routing and rollback guardrails",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps activation anomaly fingerprints to severity-based owners, rollback actions, and day3/day7/day14 verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
       "updated_at": "2026-03-05T06:21:08+08:00",
@@ -257,6 +215,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 06:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6607",
+      "artifact": "Delivered day0-day14 activation anomaly response board with fingerprint-to-severity routing, rollback guardrails, and enforceable day3/day7/day14 verification gates with closure attestations",
+      "path": "office_os/artifacts/P2-PROD-6607_day0_day14_activation_anomaly_response_board_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 06:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6603",
+      "artifact": "Delivered procurement-stage champion rescue tracker for top-20 deals with ARR-weighted prioritization, deterministic day2/day5/day8 owner+backup interventions, and reopen/proposal-sent outcome instrumentation for forced save-or-exit control",
+      "path": "office_os/artifacts/P1-REV-6603_procurement_stage_champion_rescue_tracker_top20_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 06:26",
       "owner": "SOCIAL",
@@ -439,22 +413,6 @@
       "taskId": "P3-CONT-6456",
       "artifact": "Delivered 14 proof-first short posts for procurement-delay and security-fatigue objections with hook-proof-CTA scripts, channel variants, objection tags, and funnel-stage keyword mapping for conversion-oriented distribution",
       "path": "office_os/artifacts/P3-CONT-6456_14_proof_first_short_posts_procurement_delay_security_fatigue_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6452",
-      "artifact": "Delivered founder 10-touch committee wake sequence for week-4 silent champions with day0-day10 touch map, objection-tag routing, proof asset matrix, CTA ladder, and KPI instrumentation for binary reopen-or-kill control",
-      "path": "office_os/artifacts/P1-REV-6452_founder_10touch_committee_wake_sequence_week4_silent_champions_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 04:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1989",
-      "artifact": "Added Command Integrity Countdown rail with snapshot-age trust clock, stale-threshold countdown, next checkpoint timer, and copy/refresh controls to improve live trust narration speed",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
