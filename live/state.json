@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T04:21:50.734159+00:00",
+  "now": "2026-03-04T04:30:05.827275+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6270",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led 6-touch silent-champion revival sequence for legal-cleared stalled deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day10 touch map, objection tags, proof inserts, CTA ladder, and meeting-booked KPI instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-6270_founder_6touch_silent_champion_revival_sequence_2026-03-04.md",
-      "created_at": "2026-03-04T12:20:00+08:00",
-      "updated_at": "2026-03-04T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6271",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6275",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 proof-first short posts targeting procurement-delay and security-review objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking fields.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6275_proof_first_short_posts_procurement_security_2026-03-04.md",
-      "created_at": "2026-03-04T12:20:00+08:00",
-      "updated_at": "2026-03-04T12:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6276",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 12:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6275",
+      "artifact": "Delivered 10 proof-first short posts covering procurement-delay/security-review objections with hook-proof-CTA scripts, objection taxonomy, LinkedIn/X variants, and conversion keyword tracking fields",
+      "path": "office_os/artifacts/P3-CONT-6275_proof_first_short_posts_procurement_security_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 12:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6270",
+      "artifact": "Delivered founder-led 6-touch silent-champion revival sequence with day0-day10 touch map, objection tags, proof inserts, CTA ladder, and meeting-booked KPI instrumentation for late-stage reactivation control",
+      "path": "office_os/artifacts/P1-REV-6270_founder_6touch_silent_champion_revival_sequence_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 12:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "P1-REV-6251",
       "artifact": "Delivered founder-led 5-touch day0-day8 urgency sequence for silent executive sponsors with objection-tagged touch map, proof inserts, CTA ladder, and meeting-booked tracking schema",
       "path": "office_os/artifacts/P1-REV-6251_founder_5touch_silent_exec_sponsor_urgency_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 10:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 10:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6247",
-      "artifact": "Delivered stale-task rewrite protocol with anti-duplication fingerprint guards, rewrite decision tree, and audit hooks to prevent backlog spam while preserving execution velocity",
-      "path": "office_os/artifacts/P4-OPS-6247_stale_task_rewrite_protocol_antidup_2026-03-04.md",
       "status": "done"
     }
   ],
