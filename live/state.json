@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T20:00:04.629079+00:00",
+  "now": "2026-03-04T20:10:05.310783+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,48 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6435",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create enterprise committee silence heatmap by objection cluster with 7-day reactivation trigger windows and ARR-weighted routing",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-05T03:05:00+08:00",
-      "updated_at": "2026-03-05T03:05:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap classifies top objection clusters, ranks affected opportunities by recoverable ARR, and defines day0/day3/day7 trigger windows with owner routing and measurable reopen targets.",
-      "artifact_path": "office_os/artifacts/P1-REV-6435_committee_silence_heatmap_objection_clusters_2026-03-05.md"
-    },
-    {
-      "id": "P1-REV-6439",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 procurement-redline stall rescue board with H24/H72 owner plays and recoverable ARR kill gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 stalled procurement-redline deals by recoverable ARR, maps H24/H48/H72 owner actions, and enforces reopen-or-kill gates with measurable thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6439_procurement_redline_stall_rescue_board_top15_2026-03-05.md",
-      "created_at": "2026-03-05T03:20:00+08:00",
-      "updated_at": "2026-03-05T03:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
       "id": "P1-REV-6440",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -125,7 +83,7 @@
       "acceptance": "Call tree includes 12+ objection branches, quantified downside-offset framing, concession bands A/B/C, and explicit floor-price close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-6440_cfo_objection_reversal_call_tree_v8_2026-03-05.md",
       "created_at": "2026-03-05T03:20:00+08:00",
-      "updated_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T04:07:03.542296+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -137,7 +95,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-05T03:05:00+08:00",
-      "updated_at": "2026-03-05T03:05:00+08:00",
+      "updated_at": "2026-03-05T04:07:03.542317+08:00",
       "started_at": null,
       "impact": 4,
       "effort": 2,
@@ -167,7 +125,7 @@
       "acceptance": "Contract defines mandatory payload fields, anti-gaming validation checks, severity routing, and audit-grade closure signoff requirements.",
       "artifact_path": "office_os/artifacts/P2-PROD-6441_onboarding_proof_integrity_contract_v17_2026-03-05.md",
       "created_at": "2026-03-05T03:20:00+08:00",
-      "updated_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T04:07:03.542311+08:00",
       "due_at": null,
       "started_at": null
     },
@@ -179,7 +137,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
+      "updated_at": "2026-03-05T04:07:03.542321+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -194,6 +152,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 04:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6435",
+      "artifact": "Delivered enterprise committee silence heatmap by objection cluster with ARR-weighted risk scoring and deterministic 7-day reactivation trigger routes (proof injection/process compression/priority reclaim)",
+      "path": "office_os/artifacts/P1-REV-6435_committee_silence_heatmap_objection_clusters_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6439",
+      "artifact": "Delivered top-15 procurement-redline stall rescue board with ARR-weighted prioritization model, H24/H48/H72 owner playbook, and hard reopen-or-kill gates to eliminate forecast-drag stalls",
+      "path": "office_os/artifacts/P1-REV-6439_procurement_redline_stall_rescue_board_top15_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1987",
+      "artifact": "Added Frontend Release Readiness Console with HOLD/READY verdict, validation+state continuity gates, and one-click focus/revalidate/primary-select/copy command-pack actions without disrupting live-data flows",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1986",
+      "artifact": "Converted OFFICE_OS_FRONTEND READY-lane starvation into explicit release-readiness continuity milestone to keep autonomous frontend maturity execution deterministic when no READY tasks exist",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 03:37",
       "owner": "COMMAND",
@@ -352,46 +350,6 @@
       "taskId": "P1-REV-6417",
       "artifact": "Delivered top-15 security-cleared proposal stall rescue board with recoverable-ARR ranking, H24/H48 owner intervention lanes, and binary measurable reopen-or-kill gates for forecast-clean execution",
       "path": "office_os/artifacts/P1-REV-6417_security_cleared_proposal_stall_rescue_board_top15_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6421",
-      "artifact": "Delivered day0-day14 onboarding trust-gap triage matrix with fingerprint taxonomy, severity-to-owner routing, fallback actions, and evidence-bound Day3/Day7/Day14 closure gates to restore confidence predictably",
-      "path": "office_os/artifacts/P2-PROD-6421_day0_day14_onboarding_trust_gap_triage_matrix_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6420",
-      "artifact": "Delivered top-10 late-stage renewal-risk shock scoreboard with ARR-weighted ranking logic, owner+backup intervention lanes, and strict Day2/Day5 save-or-exit forecast-delta gates for deterministic renewal triage",
-      "path": "office_os/artifacts/P1-REV-6420_late_stage_renewal_risk_shock_scoreboard_top10_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6423",
-      "artifact": "Delivered 12 proof-first posts for security-review backlog and procurement committee fatigue objections with hook-proof-CTA scripts, objection taxonomy, channel variants, and funnel-stage conversion keyword mapping",
-      "path": "office_os/artifacts/P3-CONT-6423_12_proof_first_posts_security_review_backlog_procurement_fatigue_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6419",
-      "artifact": "Delivered founder 8-touch committee revival sprint for day10 no-response champions with day0-day10 touch map, objection tags, proof asset stack, CTA ladder, and KPI tracking for reply-rate/meeting-booked/proposal-reopened outcomes",
-      "path": "office_os/artifacts/P1-REV-6419_founder_8touch_committee_revival_sprint_day10_noresponse_2026-03-05.md",
       "status": "done"
     }
   ],
