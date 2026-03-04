@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T09:21:57.897905+00:00",
+  "now": "2026-03-04T09:30:07.689466+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6323",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led silent-buyer reactivation sequence v8 for quarter-end committee stalls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence covers day0-day18 with hook-proof-CTA blocks, objection tags, proof asset mapping, and KPI fields for reply-rate, meeting-booked, proposal-sent outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-6323_silent_buyer_reactivation_sequence_v8_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6328",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -198,26 +178,6 @@
       "urgency": 3,
       "acceptance": "Payload schema includes mandatory fields, severity tiers, SLA routing, blocker fingerprint taxonomy, and explicit closure evidence for audit-grade handoffs.",
       "artifact_path": "office_os/artifacts/P2-PROD-6325_csm_product_escalation_payload_v8_security_blockers_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6326",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 20 proof-first short posts for legal-delay and procurement-committee skepticism",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking matrix mapped to pipeline stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6326_proof_first_short_posts_legal_procurement_skepticism_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
       "updated_at": "2026-03-04T17:21:00+08:00",
       "due_at": null,
