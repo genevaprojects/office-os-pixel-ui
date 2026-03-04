@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T15:10:06.766926+00:00",
+  "now": "2026-03-04T15:22:12.295667+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,29 +54,6 @@
   ],
   "backlog": [
     {
-      "id": "P0-FE-1961",
-      "project": "OFFICE_OS_FRONTEND",
-      "priority": "P0",
-      "title": "Add boardroom pressure test micro-drill with timed stage jumps and fallback narration scoring to harden live interruption recovery",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-03-04T22:50:00+08:00",
-      "updated_at": "2026-03-04T23:07:06.105363+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 1,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [
-        "P0-FE-1960"
-      ],
-      "blocked_reason": null,
-      "pinned": true,
-      "manual_rank": 0,
-      "acceptance": "Pixel UI provides a one-click micro-drill that simulates 3 boardroom interruption moments, shows countdown + fallback narration quality score per stage, and outputs a copy-ready recovery rehearsal brief without breaking live data flows.",
-      "artifact_path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js"
-    },
-    {
       "id": "OPS-001",
       "priority": "P1",
       "title": "Install Office OS autonomy loop",
@@ -90,14 +67,35 @@
       ]
     },
     {
-      "id": "P1-REV-6371",
+      "id": "P1-REV-6401",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create CFO budget-freeze reversal script v4 with quantified risk offsets and hard margin-floor exits",
+      "title": "Build top-8 CFO committee deadlock breaker board with H24 owner swaps and hard reopen-or-kill ARR gates",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Board ranks top-8 deadlocked opportunities by recoverable ARR, maps H24/H48 owner interventions, and defines binary reopen-or-kill gates with measurable thresholds.",
+      "artifact_path": "office_os/artifacts/P1-REV-6401_cfo_committee_deadlock_breaker_board_top8_2026-03-04.md"
+    },
+    {
+      "id": "P1-REV-6402",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create security-review fast-close concession script v5 with quantified downside offsets and margin floor stops",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T23:07:06.105379+08:00",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 2,
@@ -107,18 +105,60 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Script includes at least 12 objection branches, quantified downside offsets, concession bands A/B/C, and explicit hard margin-floor close/no-close exits.",
-      "artifact_path": "office_os/artifacts/P1-REV-6371_cfo_budget_freeze_reversal_script_v4_2026-03-04.md"
+      "acceptance": "Script includes 12+ objection branches, quantified risk-offset framing, concession bands A/B/C, and explicit margin-floor close/no-close exits.",
+      "artifact_path": "office_os/artifacts/P1-REV-6402_security_review_fast_close_concession_script_v5_2026-03-04.md"
     },
     {
-      "id": "P2-PROD-6374",
+      "id": "P1-REV-6403",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Design founder 9-touch silent-procurement reactivation sprint for week-2 no-decision stalls",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Sprint maps day0-day12 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent outcomes.",
+      "artifact_path": "office_os/artifacts/P1-REV-6403_founder_9touch_silent_procurement_reactivation_sprint_2026-03-04.md"
+    },
+    {
+      "id": "P1-REV-6404",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Define late-stage slippage shock scoreboard for top-15 enterprise deals with Day3/Day7 forecast delta gates",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Scoreboard ranks top-15 late-stage deals, assigns owner+backup interventions, and enforces Day3/Day7 save-or-exit checkpoints with forecast delta tracking.",
+      "artifact_path": "office_os/artifacts/P1-REV-6404_late_stage_slippage_shock_scoreboard_top15_2026-03-04.md"
+    },
+    {
+      "id": "P2-PROD-6405",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Define onboarding evidence integrity schema v11 with anti-gaming checks and owner signoff payload",
-      "owner": "BUILDER",
+      "title": "Create day0-day14 integration confidence rescue board v12 with severity routing and evidence closure policy",
+      "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T23:07:06.105385+08:00",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
       "started_at": null,
       "impact": 4,
       "effort": 2,
@@ -128,8 +168,50 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Schema defines mandatory fields, anti-gaming validation checks, severity routing, and closure-signoff payload requirements for audit-ready escalations.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6374_onboarding_evidence_integrity_schema_v11_2026-03-04.md"
+      "acceptance": "Board defines drift fingerprints, severity owner routing, rollback options, and Day3/Day7/Day14 verification closure evidence requirements.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6405_day0_day14_integration_confidence_rescue_board_v12_2026-03-04.md"
+    },
+    {
+      "id": "P2-PROD-6406",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Draft CSM-to-product escalation payload v12 for onboarding friction with anti-gaming score and signoff gates",
+      "owner": "BUILDER",
+      "status": "READY",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
+      "started_at": null,
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Payload schema includes mandatory fields, anti-gaming checks, SLA routing tiers, and audit-ready closure signoff criteria.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6406_csm_to_product_escalation_payload_v12_onboarding_friction_2026-03-04.md"
+    },
+    {
+      "id": "P3-CONT-6407",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 16 proof-first short posts for budget-freeze and legal-redline reversal narratives",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
+      "started_at": null,
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword mapping to funnel stages.",
+      "artifact_path": "office_os/artifacts/P3-CONT-6407_16_proof_first_short_posts_budget_freeze_legal_redline_2026-03-04.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -153,14 +235,14 @@
       "artifact_path": "office_os/artifacts/P4-OPS-6367_autonomous_backlog_novelty_filter_2026-03-04.md"
     },
     {
-      "id": "P4-OPS-6368",
+      "id": "P4-OPS-6408",
       "project": "P4_OPERATIONS",
       "priority": "P4",
-      "title": "Create run-level artifact acceptance sampling protocol for autonomous quality drift prevention",
+      "title": "Create autonomous task-wording dedupe guardrail with similarity threshold and rewrite policy",
       "owner": "COMMAND",
       "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T23:07:06.105394+08:00",
+      "created_at": "2026-03-04T23:20:00+08:00",
+      "updated_at": "2026-03-04T23:20:00+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -170,8 +252,8 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Protocol defines sample size, pass/fail criteria, correction loop, and ship-log guardrails to catch quality drift before DONE transitions.",
-      "artifact_path": "office_os/artifacts/P4-OPS-6368_run_level_artifact_acceptance_sampling_protocol_2026-03-04.md"
+      "acceptance": "Guardrail defines similarity scoring threshold, duplicate detection actions, rewrite templates, and run-level audit fields to prevent repetitive backlog wording.",
+      "artifact_path": "office_os/artifacts/P4-OPS-6408_autonomous_task_wording_dedupe_guardrail_2026-03-04.md"
     },
     {
       "id": "P5-REL-6369",
@@ -196,6 +278,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 23:17",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-6371",
+      "artifact": "Delivered CFO budget-freeze reversal script v4 with 12 objection branches, quantified downside-offset model, concession bands A/B/C, and explicit hard margin-floor close/no-close exits for same-call decision forcing",
+      "path": "office_os/artifacts/P1-REV-6371_cfo_budget_freeze_reversal_script_v4_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 23:17",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1961",
+      "artifact": "Added Boardroom Pressure Test Micro-Drill with one-click 3-stage interruption simulation, live countdown stage jumps, fallback narration scoring, and copy-ready recovery rehearsal brief generation for boardroom interruption resilience",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 23:07",
       "owner": "COMMAND",
@@ -378,22 +476,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6354",
-      "artifact": "Delivered sub-48h legal redline collapse map with blocker-class fallback clause paths, hour-bucket owner actions, and strict H12/H24/H36/H48 sign-or-exit checkpoints to compress signature cycles",
-      "path": "office_os/artifacts/P1-REV-6354_sub48h_legal_redline_collapse_map_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6350",
-      "artifact": "Delivered top-15 expansion-at-risk rescue board with recoverable-ARR ranking, H24/H48 owner intervention lanes, deterministic binary save-or-exit gates, and measurable KPI delta targets for 48h ARR protection",
-      "path": "office_os/artifacts/P1-REV-6350_top15_expansion_risk_rescue_board_h24_h48_arr_gates_2026-03-04.md",
       "status": "done"
     }
   ],
