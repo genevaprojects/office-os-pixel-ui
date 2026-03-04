@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T12:21:48.967362+00:00",
+  "now": "2026-03-04T12:30:40.314563+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6352",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led 10-touch dormant committee wake sprint for silent enterprise champions",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint maps day0-day14 touches with objection tags, proof assets, CTA ladder, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent.",
-      "artifact_path": "office_os/artifacts/P1-REV-6352_founder_10touch_dormant_committee_wake_sprint_2026-03-04.md",
-      "created_at": "2026-03-04T20:20:00+08:00",
-      "updated_at": "2026-03-04T20:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6353",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6357",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 18 proof-first short posts for budget-freeze and procurement-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6357_18_proof_first_short_posts_budget_freeze_procurement_delay_2026-03-04.md",
-      "created_at": "2026-03-04T20:20:00+08:00",
-      "updated_at": "2026-03-04T20:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6358",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 20:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6357",
+      "artifact": "Delivered 18 proof-first short posts for budget-freeze and procurement-delay objections with hook-proof-CTA scripts, channel variants, objection taxonomy, and keyword instrumentation for reply/DM/meeting conversion tracking",
+      "path": "office_os/artifacts/P3-CONT-6357_18_proof_first_short_posts_budget_freeze_procurement_delay_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 20:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6352",
+      "artifact": "Delivered founder-led 10-touch dormant committee wake sprint (Day0-Day14) with objection-tag routing, proof ladder, CTA progression, and day-gated reopen-or-exit rules to force binary movement in stalled enterprise threads",
+      "path": "office_os/artifacts/P1-REV-6352_founder_10touch_dormant_committee_wake_sprint_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 20:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-6329",
-      "artifact": "Delivered mission-critical cron anomaly rollback card with blast-radius tiers, strict rollback order, fallback path, and pending_verify-to-resolved verification criteria",
-      "path": "office_os/artifacts/P5-REL-6329_cron_anomaly_rollback_card_revenue_automations_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6327",
-      "artifact": "Delivered ARR-weighted backlog reranker spec with deterministic scoring, stale/duplicate collapse rules, novelty constraints, and WIP-cap safety guards for autonomous queue quality",
-      "path": "office_os/artifacts/P4-OPS-6327_arr_weighted_backlog_reranker_spec_2026-03-04.md",
       "status": "done"
     }
   ],
