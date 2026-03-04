@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T20:30:06.828289+00:00",
+  "now": "2026-03-04T20:40:06.109523+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "started_at": null
     },
     {
-      "id": "P1-REV-6453",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define top-15 late-stage slippage intervention board with Day2/Day5 save-or-exit forecast gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 late-stage deals, assigns owner and backup interventions, and enforces Day2/Day5 save-or-exit gates with forecast delta tracking.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
       "id": "P2-PROD-6454",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Payload defines mandatory fields, anti-gaming validation checks, severity routing, and audit-grade closure signoff gates for onboarding escalations.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
-      "id": "P2-PROD-6455",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day14 activation proof-gap triage board with severity owner routing and closure evidence policy",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines activation proof-gap fingerprints, severity-to-owner routing, fallback actions, and day3/day7/day14 closure evidence requirements.",
       "artifact_path": null,
       "created_at": "2026-03-05T04:20:00+08:00",
       "updated_at": "2026-03-05T04:20:00+08:00",
@@ -236,6 +194,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6455",
+      "artifact": "Delivered day0-day14 activation proof-gap triage board with fingerprint taxonomy, severity-to-owner routing, fallback recovery actions, and strict Day3/Day7/Day14 closure evidence policy for audit-ready onboarding recovery",
+      "path": "office_os/artifacts/P2-PROD-6455_day0_day14_activation_proof_gap_triage_board_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6453",
+      "artifact": "Delivered top-15 late-stage slippage intervention board with weighted risk ranking, primary/backup intervention lanes, deterministic Day2/Day5 save-or-exit gates, and forecast-delta tracking standards for commit hygiene",
+      "path": "office_os/artifacts/P1-REV-6453_late_stage_slippage_intervention_board_top15_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 04:26",
       "owner": "SOCIAL",
@@ -410,30 +392,6 @@
       "taskId": "P1-REV-6426",
       "artifact": "Delivered top-12 security-cleared no-response revival strikeboard with recoverable-ARR ranking, deterministic H24/H48 owner-swap protocol, binary reopen-or-kill gates, and forecast-delta pass/fail thresholds for forced-outcome pipeline control",
       "path": "office_os/artifacts/P1-REV-6426_security_cleared_no_response_revival_strikeboard_top12_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6430",
-      "artifact": "Delivered day0-day7 onboarding trust-recovery matrix with failure fingerprints, severity routing, fallback play paths, and strict Day3/Day7 evidence closure gates for audit-ready recovery control",
-      "path": "office_os/artifacts/P2-PROD-6430_day0_day7_onboarding_trust_recovery_matrix_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 02:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6429",
-      "artifact": "Delivered top-10 late-stage slippage shock ladder with deterministic ranking model, owner+backup intervention lanes, and Day2/Day5 save-or-exit forecast gates with measurable delta thresholds",
-      "path": "office_os/artifacts/P1-REV-6429_late_stage_slippage_shock_ladder_top10_2026-03-05.md",
       "status": "done"
     }
   ],
