@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T21:00:07.012978+00:00",
+  "now": "2026-03-04T21:10:04.839224+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-6450",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 security-approved but stalled procurement deal rescue board with H24/H72 owner actions and ARR kill lines",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-12 stalled security-approved procurement deals by recoverable ARR, defines H24/H48/H72 owner actions, and enforces reopen-or-kill thresholds with measurable triggers.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T04:20:00+08:00",
-      "updated_at": "2026-03-05T04:20:00+08:00",
-      "due_at": null,
-      "started_at": null
     },
     {
       "id": "P1-REV-6451",
