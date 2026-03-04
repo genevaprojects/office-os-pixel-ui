@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T12:30:40.314563+00:00",
+  "now": "2026-03-04T12:40:06.172857+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6353",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create late-stage no-decision shock lane for top-12 deals with Day3/Day7 reopen gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Lane ranks top-12 no-decision deals, assigns owner/backup SLAs, and enforces Day3/Day7 reopen-or-kill gates with forecast delta tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-6353_late_stage_nodecision_shock_lane_top12_2026-03-04.md",
-      "created_at": "2026-03-04T20:20:00+08:00",
-      "updated_at": "2026-03-04T20:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6354",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Map defines top redline blockers, fallback clause paths, hour-bucket owner actions, and strict sign-or-exit checkpoints for sub-48h cycles.",
       "artifact_path": "office_os/artifacts/P1-REV-6354_sub48h_legal_redline_collapse_map_2026-03-04.md",
-      "created_at": "2026-03-04T20:20:00+08:00",
-      "updated_at": "2026-03-04T20:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6355",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day21 activation drift control tower with severity routing and verification checkpoints",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Control tower defines drift fingerprints, severity owner routing, rollback options, and Day7/Day14/Day21 verification closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6355_day0_day21_activation_drift_control_tower_2026-03-04.md",
       "created_at": "2026-03-04T20:20:00+08:00",
       "updated_at": "2026-03-04T20:20:00+08:00",
       "due_at": null,
@@ -228,6 +188,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 20:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 20:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6355",
+      "artifact": "Delivered day0-day21 activation drift control tower with fingerprint taxonomy, severity routing SLAs, rollback/intervention playbooks, and checkpoint-based verification closure gates",
+      "path": "office_os/artifacts/P2-PROD-6355_day0_day21_activation_drift_control_tower_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 20:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6353",
+      "artifact": "Delivered late-stage no-decision shock lane for top-12 deals with ARR-weighted ranking, owner+backup SLA enforcement, and Day3/Day7 binary reopen-or-exit gates with forecast-delta tracking",
+      "path": "office_os/artifacts/P1-REV-6353_late_stage_nodecision_shock_lane_top12_day3_day7_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 20:26",
       "owner": "SOCIAL",
@@ -402,30 +386,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6335",
-      "artifact": "Delivered day0-day30 expansion-risk telemetry board with anomaly fingerprint catalog, severity owner routing, deterministic rollback paths, and Day7/Day14/Day30 verification closure criteria",
-      "path": "office_os/artifacts/P2-PROD-6335_day0_day30_expansion_risk_telemetry_board_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6332",
-      "artifact": "Delivered founder-led day0-day20 14-touch committee wake campaign for silent buyers with objection-tag routing, proof-asset ladder, CTA escalation, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent conversion control",
-      "path": "office_os/artifacts/P1-REV-6332_founder_14touch_committee_wake_campaign_2026-03-04.md",
-      "status": "done\\n2026-03-04 18:25"
-    },
-    {
-      "time": "2026-03-04 18:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
