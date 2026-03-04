@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T17:21:55.203357+00:00",
+  "now": "2026-03-04T17:30:06.431708+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6418_cfo_legal_delay_reversal_script_v7_2026-03-05.md"
     },
     {
-      "id": "P1-REV-6419",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder 8-touch committee revival sprint for day10 no-response champions",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint maps day0-day10 touches with objection tags, proof assets, CTA ladder, and KPI tracking for reply-rate, meeting-booked, and proposal-reopened outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-6419_founder_8touch_committee_revival_sprint_day10_noresponse_2026-03-05.md"
-    },
-    {
       "id": "P1-REV-6420",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -191,27 +170,6 @@
       "manual_rank": null,
       "acceptance": "Payload schema includes mandatory fields, anti-gaming checks, SLA routing tiers, and audit-ready closure signoff gates with owner accountability fields.",
       "artifact_path": "office_os/artifacts/P2-PROD-6422_csm_to_product_escalation_payload_v14_2026-03-05.md"
-    },
-    {
-      "id": "P3-CONT-6423",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first posts for security-review backlog and procurement committee fatigue objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
-      "started_at": null,
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword mapping to consideration/evaluation/decision funnel stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6423_12_proof_first_posts_security_review_backlog_procurement_fatigue_2026-03-05.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -299,6 +257,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 01:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6423",
+      "artifact": "Delivered 12 proof-first posts for security-review backlog and procurement committee fatigue objections with hook-proof-CTA scripts, objection taxonomy, channel variants, and funnel-stage conversion keyword mapping",
+      "path": "office_os/artifacts/P3-CONT-6423_12_proof_first_posts_security_review_backlog_procurement_fatigue_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 01:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6419",
+      "artifact": "Delivered founder 8-touch committee revival sprint for day10 no-response champions with day0-day10 touch map, objection tags, proof asset stack, CTA ladder, and KPI tracking for reply-rate/meeting-booked/proposal-reopened outcomes",
+      "path": "office_os/artifacts/P1-REV-6419_founder_8touch_committee_revival_sprint_day10_noresponse_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 01:20",
       "owner": "COMMAND",
@@ -481,22 +455,6 @@
       "taskId": "P3-CONT-6376",
       "artifact": "Delivered 16 proof-first micro posts for legal-delay and security-review objection windows with hook-proof-CTA scripts, objection taxonomy, funnel-stage mapping, channel variants, and conversion keyword tracking",
       "path": "office_os/artifacts/P3-CONT-6376_16_proof_first_micro_posts_legal_security_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6372",
-      "artifact": "Delivered founder 7-day authority burst for silent procurement committees with day0-day7 objection-tagged touches, proof-asset routing, escalating CTA ladder, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent outcomes",
-      "path": "office_os/artifacts/P1-REV-6372_founder_7day_authority_burst_procurement_committees_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:21",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1959",
-      "artifact": "Added Boardroom Live Clock Rail with snapshot-age, next-refresh checkpoint, stale-risk countdown, and copy/refresh controls to protect narration timing reliability during investor demos",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
