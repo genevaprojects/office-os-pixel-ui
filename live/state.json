@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-03T23:50:04.272766+00:00",
+  "now": "2026-03-04T00:01:22.274785+00:00",
   "workers": [
     {
       "name": "Research",
@@ -189,6 +189,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1941",
+      "artifact": "Added Team Shift+K interruption shortcut to copy immediate continuity command plus 60-second runbook in one keystroke for failover-speed continuity dispatch",
+      "path": "office_os_mission_control/app/team/page.tsx",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 07:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1940",
+      "artifact": "Added Overview boardroom hotkey rail with editable-safe Shift+V/L/F shortcuts to instantly copy verdict+handoff, narration+cues, and fallback script for faster investor interruption recovery",
+      "path": "office_os_mission_control/app/page.tsx",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 07:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -370,22 +386,6 @@
       "taskId": "P2-PROD-6213",
       "artifact": "Delivered CSM-to-product escalation payload schema for repeated trust regressions with severity tiers, required evidence fields, routing owner map, and next-run verification gates",
       "path": "office_os/artifacts/P2-PROD-6213_csm_product_escalation_payload_schema_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6209",
-      "artifact": "Delivered procurement objection live-call rebuttal stack with 12 deterministic branches, quantified proof placeholders, concession boundaries, and same-call CTA exits for zero-ambiguity call control",
-      "path": "office_os/artifacts/P1-REV-6209_procurement_rebuttal_stack_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
