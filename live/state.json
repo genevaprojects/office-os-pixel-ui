@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T05:30:05.683297+00:00",
+  "now": "2026-03-04T05:40:08.274744+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6281",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce expansion-at-risk renewal rescue lane for top-12 pilots with ARR-weighted interventions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Lane defines top-12 ranking, day0/day3/day7 interventions, owner SLAs, and explicit save-or-exit gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6281_expansion_risk_renewal_rescue_lane_top12_2026-03-04.md",
-      "created_at": "2026-03-04T13:21:20+08:00",
-      "updated_at": "2026-03-04T13:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6282",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -138,26 +118,6 @@
       "urgency": 4,
       "acceptance": "Playbook defines trigger classes, timing windows, owner routing, and binary reopen-or-kill outcomes with KPI gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6282_nodecision_resurrection_trigger_playbook_qe_2026-03-04.md",
-      "created_at": "2026-03-04T13:21:20+08:00",
-      "updated_at": "2026-03-04T13:21:20+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P2-PROD-6283",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day7 first-value evidence integrity board for missing integration events",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board includes failure signatures, severity routing, rollback paths, and day3/day7 verification closure checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6283_first_value_evidence_integrity_board_2026-03-04.md",
       "created_at": "2026-03-04T13:21:20+08:00",
       "updated_at": "2026-03-04T13:21:20+08:00",
       "due_at": null,
@@ -228,6 +188,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 13:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6283",
+      "artifact": "Delivered day0-day7 first-value evidence integrity board for missing integration events with failure signatures, severity routing, rollback paths, and day3/day7 verification closure checks",
+      "path": "office_os/artifacts/P2-PROD-6283_first_value_evidence_integrity_board_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 13:36",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6281",
+      "artifact": "Delivered expansion-at-risk renewal rescue lane for top-12 pilots with ARR-weighted ranking, day0/day3/day7 interventions, owner SLAs, and hard save-or-exit gates",
+      "path": "office_os/artifacts/P1-REV-6281_expansion_risk_renewal_rescue_lane_top12_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 13:25",
       "owner": "SOCIAL",
@@ -411,22 +387,6 @@
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-04 11:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6266",
-      "artifact": "Delivered 15 proof-first micro-posts for legal/procurement objection windows with hook-proof-CTA units, channel variants, objection taxonomy, and keyword instrumentation matrix",
-      "path": "office_os/artifacts/P3-CONT-6266_build_15_proof-first_micro-posts_for_legal_procurement_objection_windows_(viral_variants)_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 11:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-complete definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-04 11:25"
     }
   ],
   "alertCount": 2,
