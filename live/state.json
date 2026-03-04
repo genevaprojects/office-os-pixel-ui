@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T16:30:05.786738+00:00",
+  "now": "2026-03-04T16:40:04.696620+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,48 +109,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6410_cfo_procurement_delay_rebuttal_script_v6_2026-03-05.md"
     },
     {
-      "id": "P1-REV-6412",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define top-12 late-stage slippage intervention scoreboard with day2/day5 save-or-exit forecast gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks top-12 late-stage slippage deals, assigns owner+backup intervention lanes, and enforces day2/day5 save-or-exit forecast delta gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6412_late_stage_slippage_intervention_scoreboard_top12_2026-03-05.md"
-    },
-    {
-      "id": "P2-PROD-6413",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day10 onboarding proof-gap triage board with severity routing and closure evidence policy",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-05T00:20:45+08:00",
-      "updated_at": "2026-03-05T00:20:45+08:00",
-      "started_at": null,
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines onboarding proof-gap fingerprints, severity-to-owner routing, fallback actions, and day3/day7/day10 closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6413_day0_day10_onboarding_proof_gap_triage_board_2026-03-05.md"
-    },
-    {
       "id": "P2-PROD-6414",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -257,6 +215,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 00:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 00:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6413",
+      "artifact": "Delivered day0-day10 onboarding proof-gap triage board with fingerprint taxonomy, severity-to-owner SLA routing, fallback playbook, and auditable Day3/Day7/Day10 closure evidence policy",
+      "path": "office_os/artifacts/P2-PROD-6413_day0_day10_onboarding_proof_gap_triage_board_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 00:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6412",
+      "artifact": "Delivered top-12 late-stage slippage intervention scoreboard with ARR-weighted ranking, owner+backup intervention lanes, and enforced Day2/Day5 save-or-exit forecast gates for deterministic close-cycle control",
+      "path": "office_os/artifacts/P1-REV-6412_late_stage_slippage_intervention_scoreboard_top12_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 00:25",
       "owner": "SOCIAL",
@@ -431,30 +413,6 @@
       "taskId": "P1-REV-6361",
       "artifact": "Delivered procurement concession guardrail script v3 with 13 objection branches, floor-price math formulas, concession bands A/B/C, and explicit same-call GO/HOLD exits for margin-safe close control",
       "path": "office_os/artifacts/P1-REV-6361_procurement_concession_guardrail_script_v3_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1957",
-      "artifact": "Added Demo Validation Scenario Sweep with one-click executive/operator/boardroom profile runs, min/avg release-risk scoring, persisted last-run matrix, and per-profile failing-check visibility to harden render/readability/responsiveness/state behavior before live walkthroughs",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6366",
-      "artifact": "Delivered 20 proof-first short posts for procurement-delay and legal-redline objections with hook-proof-CTA scripts, objection taxonomy, channel variants, funnel-stage mapping, and conversion keyword tracking schema",
-      "path": "office_os/artifacts/P3-CONT-6366_20_proof_first_short_posts_procurement_legal_2026-03-04.md",
       "status": "done"
     }
   ],
