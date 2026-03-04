@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T17:30:06.431708+00:00",
+  "now": "2026-03-04T17:40:05.662579+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,48 +109,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6418_cfo_legal_delay_reversal_script_v7_2026-03-05.md"
     },
     {
-      "id": "P1-REV-6420",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define top-10 late-stage renewal-risk shock scoreboard with day2/day5 intervention gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks top-10 renewal-risk deals, assigns owner+backup intervention lanes, and enforces day2/day5 save-or-exit forecast delta checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-6420_late_stage_renewal_risk_shock_scoreboard_top10_2026-03-05.md"
-    },
-    {
-      "id": "P2-PROD-6421",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day14 onboarding trust-gap triage matrix with severity routing and closure evidence policy",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-05T01:20:00+08:00",
-      "updated_at": "2026-03-05T01:20:00+08:00",
-      "started_at": null,
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix defines trust-gap fingerprints, severity-to-owner routing, fallback actions, and day3/day7/day14 closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6421_day0_day14_onboarding_trust_gap_triage_matrix_2026-03-05.md"
-    },
-    {
       "id": "P2-PROD-6422",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -257,6 +215,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 01:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 01:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6421",
+      "artifact": "Delivered day0-day14 onboarding trust-gap triage matrix with fingerprint taxonomy, severity-to-owner routing, fallback actions, and evidence-bound Day3/Day7/Day14 closure gates to restore confidence predictably",
+      "path": "office_os/artifacts/P2-PROD-6421_day0_day14_onboarding_trust_gap_triage_matrix_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 01:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6420",
+      "artifact": "Delivered top-10 late-stage renewal-risk shock scoreboard with ARR-weighted ranking logic, owner+backup intervention lanes, and strict Day2/Day5 save-or-exit forecast-delta gates for deterministic renewal triage",
+      "path": "office_os/artifacts/P1-REV-6420_late_stage_renewal_risk_shock_scoreboard_top10_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 01:26",
       "owner": "SOCIAL",
@@ -431,30 +413,6 @@
       "taskId": "P1-REV-6370",
       "artifact": "Delivered top-8 procurement-redline deadlock breaker board with ARR-weighted prioritization model, blocker-fingerprint H24/H48 legal-owner swap playbooks, and hard signature-probability lift gates with kill criteria for forecast-safe close control",
       "path": "office_os/artifacts/P1-REV-6370_redline_deadlock_breaker_board_top8_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6375",
-      "artifact": "Delivered day0-day14 expansion-risk intervention ladder with cohort risk banding, Day3/Day7/Day10 trigger logic, rollback decision framework, and strict Day14 closure-proof requirements to prevent unresolved expansion drift",
-      "path": "office_os/artifacts/P2-PROD-6375_day0_day14_expansion_risk_intervention_ladder_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6373",
-      "artifact": "Delivered top-10 close-date slippage containment lane with deterministic ARR-weighted ranking, H24/H72/end-of-week recover-or-reforecast gates, owner+backup SLA routing, and evidence-required reforecast guardrails for same-week forecast control",
-      "path": "office_os/artifacts/P1-REV-6373_top10_close_date_slippage_containment_lane_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 22:27",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6376",
-      "artifact": "Delivered 16 proof-first micro posts for legal-delay and security-review objection windows with hook-proof-CTA scripts, objection taxonomy, funnel-stage mapping, channel variants, and conversion keyword tracking",
-      "path": "office_os/artifacts/P3-CONT-6376_16_proof_first_micro_posts_legal_security_2026-03-04.md",
       "status": "done"
     }
   ],
