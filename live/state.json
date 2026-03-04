@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T15:00:06.164066+00:00",
+  "now": "2026-03-04T15:10:06.766926+00:00",
   "workers": [
     {
       "name": "Research",
@@ -61,7 +61,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-04T22:50:00+08:00",
-      "updated_at": "2026-03-04T22:50:00+08:00",
+      "updated_at": "2026-03-04T23:07:06.105363+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 1,
@@ -90,27 +90,6 @@
       ]
     },
     {
-      "id": "P1-REV-6370",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-8 procurement-redline deadlock breaker board with H24/H48 legal-owner swaps and signature probability lift gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-8 redline-stalled deals by recoverable ARR, maps blocker fingerprints to H24/H48 legal-owner swaps, and enforces signature-probability lift gates with kill criteria.",
-      "artifact_path": "office_os/artifacts/P1-REV-6370_redline_deadlock_breaker_board_top8_2026-03-04.md"
-    },
-    {
       "id": "P1-REV-6371",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -118,7 +97,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T23:07:06.105379+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 2,
@@ -139,7 +118,7 @@
       "owner": "BUILDER",
       "status": "READY",
       "created_at": "2026-03-04T22:20:00+08:00",
-      "updated_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T23:07:06.105385+08:00",
       "started_at": null,
       "impact": 4,
       "effort": 2,
@@ -160,7 +139,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071494+08:00",
+      "updated_at": "2026-03-04T23:07:06.105399+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -181,7 +160,7 @@
       "owner": "COMMAND",
       "status": "READY",
       "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071490+08:00",
+      "updated_at": "2026-03-04T23:07:06.105394+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -202,7 +181,7 @@
       "owner": "EXECUTOR",
       "status": "READY",
       "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071486+08:00",
+      "updated_at": "2026-03-04T23:07:06.105389+08:00",
       "started_at": null,
       "impact": 3,
       "effort": 1,
@@ -217,6 +196,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 23:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 23:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6370",
+      "artifact": "Delivered top-8 procurement-redline deadlock breaker board with ARR-weighted prioritization model, blocker-fingerprint H24/H48 legal-owner swap playbooks, and hard signature-probability lift gates with kill criteria for forecast-safe close control",
+      "path": "office_os/artifacts/P1-REV-6370_redline_deadlock_breaker_board_top8_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 22:36",
       "owner": "EXECUTOR",
@@ -399,22 +394,6 @@
       "taskId": "P1-REV-6350",
       "artifact": "Delivered top-15 expansion-at-risk rescue board with recoverable-ARR ranking, H24/H48 owner intervention lanes, deterministic binary save-or-exit gates, and measurable KPI delta targets for 48h ARR protection",
       "path": "office_os/artifacts/P1-REV-6350_top15_expansion_risk_rescue_board_h24_h48_arr_gates_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6355",
-      "artifact": "Delivered day0-day21 activation drift control tower with fingerprint taxonomy, severity routing SLAs, rollback/intervention playbooks, and checkpoint-based verification closure gates",
-      "path": "office_os/artifacts/P2-PROD-6355_day0_day21_activation_drift_control_tower_2026-03-04.md",
       "status": "done"
     }
   ],
