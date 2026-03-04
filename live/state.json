@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T02:21:53.037323+00:00",
+  "now": "2026-03-04T02:30:07.094229+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6251",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led 5-touch urgency sequence for silent executive sponsors in late-stage deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day8 touch map, objection tags, proof snippets, CTA ladder, and meeting-booked tracking fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-6251_founder_5touch_silent_exec_sponsor_urgency_2026-03-04.md",
-      "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6258",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -178,26 +158,6 @@
       "urgency": 3,
       "acceptance": "Checklist includes evidence schema, severity routing, closure criteria, and audit-ready handoff fields.",
       "artifact_path": "office_os/artifacts/P2-PROD-6253_expansion_readiness_handoff_checklist_v2_2026-03-04.md",
-      "created_at": "2026-03-04T10:20:00+08:00",
-      "updated_at": "2026-03-04T10:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P3-CONT-6254",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 short proof-first posts for security-review and procurement-delay windows",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA units, channel variants, objection taxonomy, and keyword instrumentation matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6254_short_proof_posts_security_procurement_2026-03-04.md",
       "created_at": "2026-03-04T10:20:00+08:00",
       "updated_at": "2026-03-04T10:20:00+08:00",
       "due_at": null,
@@ -288,6 +248,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 10:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6254",
+      "artifact": "Delivered 12 proof-first short posts for security-review and procurement-delay objections with hook-proof-CTA units, LinkedIn/X variants, objection taxonomy, and keyword instrumentation matrix",
+      "path": "office_os/artifacts/P3-CONT-6254_short_proof_posts_security_procurement_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 10:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6251",
+      "artifact": "Delivered founder-led 5-touch day0-day8 urgency sequence for silent executive sponsors with objection-tagged touch map, proof inserts, CTA ladder, and meeting-booked tracking schema",
+      "path": "office_os/artifacts/P1-REV-6251_founder_5touch_silent_exec_sponsor_urgency_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 10:20",
       "owner": "COMMAND",
@@ -470,22 +446,6 @@
       "taskId": "P1-REV-6235",
       "artifact": "Delivered founder-led 7-touch no-decision revival sequence with day0-day12 touch map, objection tags, proof inserts, CTA ladder, and reply-to-meeting KPI instrumentation for enterprise committee stalls",
       "path": "office_os/artifacts/P1-REV-6235_founder_7touch_nodecision_revival_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 08:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted, owner-assigned, acceptance-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 08:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6231",
-      "artifact": "Delivered READY-lane replenishment heuristic with priority-weighted top-up triggers, anti-duplication guards, owner balancing, and run-level audit fields",
-      "path": "office_os/artifacts/P4-OPS-6231_ready_lane_replenishment_heuristic_2026-03-04.md",
       "status": "done"
     }
   ],
