@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T21:30:04.804625+00:00",
+  "now": "2026-03-04T21:40:04.947711+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "started_at": null
     },
     {
-      "id": "P1-REV-6463",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define top-12 close-slippage intervention scoreboard with day2/day5 save-or-exit gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks top-12 late-stage deals, assigns owner+backup interventions, and enforces day2/day5 save-or-exit checkpoints with forecast delta tracking.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
       "id": "P2-PROD-6464",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Payload schema includes mandatory fields, anti-gaming checks, severity routing tiers, and audit-ready closure signoff criteria with owner accountability.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T05:20:00+08:00",
-      "updated_at": "2026-03-05T05:20:00+08:00",
-      "due_at": null,
-      "started_at": null
-    },
-    {
-      "id": "P2-PROD-6465",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day10 onboarding confidence rescue board with severity routing and evidence closure policy",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines onboarding failure fingerprints, severity-to-owner routing, fallback actions, and day3/day7/day10 closure evidence requirements.",
       "artifact_path": null,
       "created_at": "2026-03-05T05:20:00+08:00",
       "updated_at": "2026-03-05T05:20:00+08:00",
@@ -236,6 +194,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 05:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 05:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6465",
+      "artifact": "Delivered day0-day10 onboarding confidence rescue board with failure fingerprint catalog, severity-to-owner routing, fallback action ladder, and strict Day3/Day7/Day10 evidence closure policy",
+      "path": "office_os/artifacts/P2-PROD-6465_day0_day10_onboarding_confidence_rescue_board_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 05:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6463",
+      "artifact": "Delivered top-12 close-slippage intervention scoreboard with deterministic risk ranking, owner+backup intervention lanes, hard Day2/Day5 save-or-exit gates, and forecast delta tracking fields for forecast-clean late-stage control",
+      "path": "office_os/artifacts/P1-REV-6463_close_slippage_intervention_scoreboard_top12_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 05:26",
       "owner": "SOCIAL",
@@ -410,30 +392,6 @@
       "taskId": "P3-CONT-6437",
       "artifact": "Delivered 10 founder proof-snack scripts for committee no-response reversals across LinkedIn/X short-form with hook-proof-CTA format, objection tags, channel variants, and keyword-intent measurement plan",
       "path": "office_os/artifacts/P3-CONT-6437_10_founder_proof_snack_scripts_committee_noresponse_reversals_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6442",
-      "artifact": "Delivered 12 proof-first short posts for security-review fatigue and no-decision committee stalls with hook-proof-CTA scripts, objection taxonomy, channel variants, and funnel-stage conversion keyword mapping",
-      "path": "office_os/artifacts/P3-CONT-6442_12_proof_first_short_posts_security_review_nodecision_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted task mix, owner assignment, and measurable acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 03:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6438",
-      "artifact": "Delivered stale-READY recycler spec with 12h/24h/36h/48h recycle stages, owner-aware rerank logic, deterministic rewrite templates, and split-parent fallback for queue freshness recovery",
-      "path": "office_os/artifacts/P4-OPS-6438_autonomous_stale_ready_recycler_2026-03-05.md",
       "status": "done"
     }
   ],
