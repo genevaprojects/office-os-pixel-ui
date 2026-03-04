@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T00:21:58.042229+00:00",
+  "now": "2026-03-04T00:30:44.279697+00:00",
   "workers": [
     {
       "name": "Research",
@@ -127,26 +127,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6235",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder-led 7-touch no-decision revival sequence for enterprise committee stalls",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver day0-day12 touch map with objection tags, proof inserts, CTA ladder, and reply-to-meeting KPI instrumentation.",
-      "artifact_path": "office_os/artifacts/P1-REV-6235_founder_7touch_nodecision_revival_2026-03-04.md",
-      "created_at": "2026-03-04T08:20:50+08:00",
-      "updated_at": "2026-03-04T08:20:50+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6236",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6239",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first short-form clips for procurement-delay and security-review objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix includes hook-proof-CTA units, channel variants, objection taxonomy, and keyword tracking fields.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6239_procurement_security_shortform_clips_2026-03-04.md",
-      "created_at": "2026-03-04T08:20:50+08:00",
-      "updated_at": "2026-03-04T08:20:50+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6240",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 08:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6239",
+      "artifact": "Delivered 12 proof-first short-form clips for procurement-delay and security-review objections with hook-proof-CTA units, channel variants, objection taxonomy, and keyword tracking fields",
+      "path": "office_os/artifacts/P3-CONT-6239_procurement_security_shortform_clips_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 08:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6235",
+      "artifact": "Delivered founder-led 7-touch no-decision revival sequence with day0-day12 touch map, objection tags, proof inserts, CTA ladder, and reply-to-meeting KPI instrumentation for enterprise committee stalls",
+      "path": "office_os/artifacts/P1-REV-6235_founder_7touch_nodecision_revival_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 08:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6219",
-      "artifact": "Delivered ARR-weighted expansion trigger watchlist for active pilots with ranked accounts, trigger thresholds, owner command cadence, and day3/day7/day14 KPI gates",
-      "path": "office_os/artifacts/P1-REV-6219_expansion_trigger_watchlist_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 07:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6216",
-      "artifact": "Delivered CFO objection reversal battlecard for security-review delayed renewals with 8 objection branches, quantified proof prompts, concession guardrails, and same-call CTA exits",
-      "path": "office_os/artifacts/P1-REV-6216_cfo_objection_reversal_battlecard_2026-03-04.md",
       "status": "done"
     }
   ],
