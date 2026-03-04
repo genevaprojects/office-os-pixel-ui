@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T12:00:07.211731+00:00",
+  "now": "2026-03-04T12:10:04.923216+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6340",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 CFO legal-risk objection killboard with quantified risk-reversal proof blocks and H24/H48 owner escalation",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Killboard ranks 10 live objections by ARR at risk, maps quantified rebuttal proof and fallback clauses, and enforces H24/H48 escalation gates with measurable save-or-exit thresholds.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6340_2026-03-04.md",
-      "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6341",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Calculator defines concession bands A/B/C, margin floor hard-stops, trigger conditions, and outputs same-call GO/NO-GO guidance with auditable rationale.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6341_2026-03-04.md",
       "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6344",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft procurement redline sniper playbook for sub-36h signature outcomes in late-stage enterprise cycles",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Playbook maps top blocker clauses to fallback language, owner-by-hour actions, and strict sign-or-exit thresholds with risk-control constraints.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6344_2026-03-04.md",
-      "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
+      "updated_at": "2026-03-04T20:07:02.821710+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Packet schema includes mandatory fields, quality score rubric, severity tiers, owner SLA routing, and objective closure criteria for audit-ready handoffs.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P2-PROD-6346_2026-03-04.md",
       "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
+      "updated_at": "2026-03-04T20:07:02.821729+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Engine spec defines freshness thresholds, rewrite triggers, template rules, and run-level audit fields that prevent backlog entropy without scope loss.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P4-OPS-6348_2026-03-04.md",
       "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
+      "updated_at": "2026-03-04T20:07:02.821734+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Verifier defines integrity checks, anomaly classes, remediation order, and strict next-run pending_verify gates before resolved state transition.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P5-REL-6349_2026-03-04.md",
       "created_at": "2026-03-04T19:20:58+08:00",
-      "updated_at": "2026-03-04T19:20:58+08:00",
+      "updated_at": "2026-03-04T20:07:02.821740+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 20:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6344",
+      "artifact": "Delivered procurement redline sniper playbook for sub-36h signature outcomes with blocker-to-fallback clause mapping, owner-by-hour execution lanes, and hard sign-or-exit thresholds under risk-control constraints",
+      "path": "office_os/artifacts/P1-REV-6344_procurement_redline_sniper_playbook_sub36h_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 20:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6340",
+      "artifact": "Delivered top-10 CFO legal-risk objection killboard with ARR-at-risk ranking, quantified risk-reversal proof blocks, fallback clause guardrails, and strict H24/H48 save-or-exit escalation gates",
+      "path": "office_os/artifacts/P1-REV-6340_top10_cfo_legal_risk_objection_killboard_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 19:37",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6328",
-      "artifact": "Delivered late-stage mutual action plan compression script for procurement/legal ping-pong loops with hour-bucket owner actions, fallback clause triggers, quantifiable proof inserts, and strict H24/H48/H72 sign-or-exit thresholds",
-      "path": "office_os/artifacts/P1-REV-6328_mutual_action_plan_compression_script_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6322",
-      "artifact": "Delivered 14-day closed-lost resurrection sprint for legal-cleared champion-decay deals with top-15 recoverable ARR ranking, day-level owner actions, and strict Day3/Day7/Day14 evidence-backed reopen-or-kill gates",
-      "path": "office_os/artifacts/P1-REV-6322_closed_lost_resurrection_sprint_14day_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 18:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1953",
-      "artifact": "Added Presentation Stability Sentinel with validation drift, refresh reliability, mode-switch churn, and sync recency PASS/FAIL gates to strengthen boardroom preflight confidence without disrupting live-data behavior",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
