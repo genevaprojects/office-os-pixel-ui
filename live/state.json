@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T03:21:34.909004+00:00",
+  "now": "2026-03-04T03:30:05.420819+00:00",
   "workers": [
     {
       "name": "Research",
@@ -78,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Board includes ARR rank, blocker signature taxonomy, H24/H48/H72 owner actions, and close-or-kill gates.",
       "artifact_path": "office_os/artifacts/P1-REV-6259_build_top-10_redline-to-signature_acceleration_board_for_legal-cleared_enterprise_deals_2026-03-04.md",
-      "created_at": "2026-03-04T11:21:13+08:00",
-      "updated_at": "2026-03-04T11:21:13+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6260",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create 7-touch executive sponsor wake-up sequence for week-2 silence in late-stage opportunities",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day10 touch map, objection tags, proof inserts, CTA ladder, and meeting-booked tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-6260_create_7-touch_executive_sponsor_wake-up_sequence_for_week-2_silence_in_late-stage_opportunities_2026-03-04.md",
       "created_at": "2026-03-04T11:21:13+08:00",
       "updated_at": "2026-03-04T11:21:13+08:00",
       "due_at": null,
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6266",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Build 15 proof-first micro-posts for legal/procurement objection windows (viral variants)",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA units, channel variants, objection taxonomy, and keyword instrumentation matrix.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6266_build_15_proof-first_micro-posts_for_legal_procurement_objection_windows_(viral_variants)_2026-03-04.md",
-      "created_at": "2026-03-04T11:21:13+08:00",
-      "updated_at": "2026-03-04T11:21:13+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6248",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -269,12 +229,20 @@
   ],
   "ship": [
     {
+      "time": "2026-03-04 11:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6266",
+      "artifact": "Delivered 15 proof-first micro-posts for legal/procurement objection windows with hook-proof-CTA units, channel variants, objection taxonomy, and keyword instrumentation matrix",
+      "path": "office_os/artifacts/P3-CONT-6266_build_15_proof-first_micro-posts_for_legal_procurement_objection_windows_(viral_variants)_2026-03-04.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-04 11:21",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-complete definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-04 11:25"
     },
     {
       "time": "2026-03-04 11:21",
@@ -458,14 +426,6 @@
       "taskId": "P2-PROD-6244",
       "artifact": "Delivered day0-day10 onboarding confidence rescue board for integration mismatch regressions with failure signatures, owner routing, SLA windows, rollback paths, and Day3/Day7/Day10 verification gates",
       "path": "office_os/artifacts/P2-PROD-6244_onboarding_confidence_rescue_board_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 09:27",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6246",
-      "artifact": "Delivered 15 objection-led proof micro-posts for procurement/security/budget/no-decision/integration objections with hook-proof-CTA scripts, channel variants, taxonomy, and keyword tracking matrix",
-      "path": "office_os/artifacts/P3-CONT-6246_objection_led_proof_micro_posts_2026-03-04.md",
       "status": "done"
     }
   ],
