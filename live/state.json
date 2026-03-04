@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T14:10:07.428901+00:00",
+  "now": "2026-03-04T14:21:36.986425+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,14 +67,35 @@
       ]
     },
     {
-      "id": "P1-REV-6361",
+      "id": "P1-REV-6370",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create procurement concession guardrail script v3 with floor-price math and same-call close decision exits",
+      "title": "Build top-8 procurement-redline deadlock breaker board with H24/H48 legal-owner swaps and signature probability lift gates",
+      "owner": "RESEARCH",
+      "status": "READY",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
+      "started_at": null,
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Board ranks top-8 redline-stalled deals by recoverable ARR, maps blocker fingerprints to H24/H48 legal-owner swaps, and enforces signature-probability lift gates with kill criteria.",
+      "artifact_path": "office_os/artifacts/P1-REV-6370_redline_deadlock_breaker_board_top8_2026-03-04.md"
+    },
+    {
+      "id": "P1-REV-6371",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create CFO budget-freeze reversal script v4 with quantified risk offsets and hard margin-floor exits",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071471+08:00",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 2,
@@ -84,18 +105,18 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Script includes at least 12 objection branches, concession bands A/B/C, floor-price calculations, and explicit same-call close/no-close exits.",
-      "artifact_path": "office_os/artifacts/P1-REV-6361_procurement_concession_guardrail_script_v3_2026-03-04.md"
+      "acceptance": "Script includes at least 12 objection branches, quantified downside offsets, concession bands A/B/C, and explicit hard margin-floor close/no-close exits.",
+      "artifact_path": "office_os/artifacts/P1-REV-6371_cfo_budget_freeze_reversal_script_v4_2026-03-04.md"
     },
     {
-      "id": "P1-REV-6363",
+      "id": "P1-REV-6372",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Create late-stage no-decision shock lane for top-12 opportunities with day3/day7 recovery gates",
-      "owner": "EXECUTOR",
+      "title": "Design founder 7-day authority burst to reactivate silent procurement committees with proof-led CTAs",
+      "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071453+08:00",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 2,
@@ -105,39 +126,39 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Lane ranks top-12 opportunities, assigns owner+backup actions, and enforces Day3/Day7 recover-or-kill gates with forecast delta tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-6363_late_stage_nodecision_shock_lane_top12_2026-03-04.md"
+      "acceptance": "Burst maps day0-day7 touches with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent.",
+      "artifact_path": "office_os/artifacts/P1-REV-6372_founder_7day_authority_burst_procurement_committees_2026-03-04.md"
     },
     {
-      "id": "P2-PROD-6364",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day21 activation confidence rescue board with severity routing and closure evidence policy",
+      "id": "P1-REV-6373",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create top-10 close-date slippage containment lane with same-week recover-or-reforecast gates",
       "owner": "EXECUTOR",
       "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071481+08:00",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
       "started_at": null,
-      "impact": 4,
+      "impact": 5,
       "effort": 2,
-      "urgency": 3,
+      "urgency": 4,
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Board defines drift fingerprints, severity owner routing, rollback options, and Day7/Day14/Day21 verification closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6364_day0_day21_activation_confidence_rescue_board_2026-03-04.md"
+      "acceptance": "Lane ranks top-10 slipping opportunities, assigns owner+backup SLAs, and enforces Day2/Day5 recover-or-reforecast gates with commit-forecast delta tracking.",
+      "artifact_path": "office_os/artifacts/P1-REV-6373_close_date_slippage_containment_lane_top10_2026-03-04.md"
     },
     {
-      "id": "P2-PROD-6365",
+      "id": "P2-PROD-6374",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Create CSM-to-product escalation payload v10 with evidence scoring and audit closure checks",
+      "title": "Define onboarding evidence integrity schema v11 with anti-gaming checks and owner signoff payload",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-04T21:20:00+08:00",
-      "updated_at": "2026-03-04T22:07:03.071477+08:00",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
       "started_at": null,
       "impact": 4,
       "effort": 2,
@@ -147,8 +168,50 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Payload schema includes mandatory fields, evidence quality scoring, SLA routing tiers, and audit-ready closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6365_csm_to_product_escalation_payload_v10_2026-03-04.md"
+      "acceptance": "Schema defines mandatory fields, anti-gaming validation checks, severity routing, and closure-signoff payload requirements for audit-ready escalations.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6374_onboarding_evidence_integrity_schema_v11_2026-03-04.md"
+    },
+    {
+      "id": "P2-PROD-6375",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Build day0-day14 expansion-risk intervention ladder with cohort-level rollback triggers and closure proofs",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
+      "started_at": null,
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Ladder defines risk fingerprints, owner routing, rollback trigger thresholds, and Day3/Day7/Day14 closure evidence requirements.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6375_day0_day14_expansion_risk_intervention_ladder_2026-03-04.md"
+    },
+    {
+      "id": "P3-CONT-6376",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 16 proof-first micro posts for legal-delay and security-review objection windows",
+      "owner": "SOCIAL",
+      "status": "READY",
+      "created_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
+      "started_at": null,
+      "impact": 3,
+      "effort": 2,
+      "urgency": 3,
+      "due_at": null,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stage.",
+      "artifact_path": "office_os/artifacts/P3-CONT-6376_16_proof_first_micro_posts_legal_security_2026-03-04.md"
     },
     {
       "id": "P4-OPS-6367",
@@ -215,6 +278,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 22:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted revenue/product/content distribution, owner assignments, and acceptance-criteria-complete definitions",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:20",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6364",
+      "artifact": "Delivered day0-day21 activation confidence rescue board with drift fingerprints, severity owner routing, deterministic rollback options, and evidence-based Day7/Day14/Day21 closure gates to reduce onboarding regression risk",
+      "path": "office_os/artifacts/P2-PROD-6364_day0_day21_activation_confidence_rescue_board_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:20",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6363",
+      "artifact": "Delivered top-12 late-stage no-decision shock lane with ARR-weighted ranking, owner+backup action lanes, mandatory Day3/Day7 recover-or-kill gates, and forecast-delta controls for deterministic pipeline compression",
+      "path": "office_os/artifacts/P1-REV-6363_late_stage_nodecision_shock_lane_top12_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:17",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-6365",
+      "artifact": "Delivered CSM-to-product escalation payload v10 with mandatory schema, Q1-Q4 evidence scoring, SLA tier routing logic, and audit-grade closure criteria for deterministic escalation quality",
+      "path": "office_os/artifacts/P2-PROD-6365_csm_to_product_escalation_payload_v10_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 22:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-6361",
+      "artifact": "Delivered procurement concession guardrail script v3 with 13 objection branches, floor-price math formulas, concession bands A/B/C, and explicit same-call GO/HOLD exits for margin-safe close control",
+      "path": "office_os/artifacts/P1-REV-6361_procurement_concession_guardrail_script_v3_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 22:07",
       "owner": "COMMAND",
@@ -373,46 +476,6 @@
       "taskId": "P4-OPS-6348",
       "artifact": "Delivered autonomous stale-task rewrite engine spec with freshness SLA bands, deterministic rewrite templates, duplicate-collapse safeguards, and WIP/dependency integrity checks to reduce backlog entropy without owner churn",
       "path": "office_os/artifacts/P4-OPS-6348_autonomous_stale_task_rewrite_engine_freshness_sla_templates_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6344",
-      "artifact": "Delivered procurement redline sniper playbook for sub-36h signature outcomes with blocker-to-fallback clause mapping, owner-by-hour execution lanes, and hard sign-or-exit thresholds under risk-control constraints",
-      "path": "office_os/artifacts/P1-REV-6344_procurement_redline_sniper_playbook_sub36h_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 20:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6340",
-      "artifact": "Delivered top-10 CFO legal-risk objection killboard with ARR-at-risk ranking, quantified risk-reversal proof blocks, fallback clause guardrails, and strict H24/H48 save-or-exit escalation gates",
-      "path": "office_os/artifacts/P1-REV-6340_top10_cfo_legal_risk_objection_killboard_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 19:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 19:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6345",
-      "artifact": "Delivered day0-day45 expansion fragility telemetry board with anomaly fingerprint router, severity-based owner SLA lanes, and pending_verify closure gates for verified expansion-risk recovery",
-      "path": "office_os/artifacts/P2-PROD-6345_day0_day45_expansion_fragility_telemetry_board_2026-03-04.md",
       "status": "done"
     }
   ],
