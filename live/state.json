@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T15:30:05.474092+00:00",
+  "now": "2026-03-04T15:40:05.432118+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,48 +130,6 @@
       "artifact_path": "office_os/artifacts/P1-REV-6403_founder_9touch_silent_procurement_reactivation_sprint_2026-03-04.md"
     },
     {
-      "id": "P1-REV-6404",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Define late-stage slippage shock scoreboard for top-15 enterprise deals with Day3/Day7 forecast delta gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-04T23:20:00+08:00",
-      "updated_at": "2026-03-04T23:20:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Scoreboard ranks top-15 late-stage deals, assigns owner+backup interventions, and enforces Day3/Day7 save-or-exit checkpoints with forecast delta tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-6404_late_stage_slippage_shock_scoreboard_top15_2026-03-04.md"
-    },
-    {
-      "id": "P2-PROD-6405",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create day0-day14 integration confidence rescue board v12 with severity routing and evidence closure policy",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "created_at": "2026-03-04T23:20:00+08:00",
-      "updated_at": "2026-03-04T23:20:00+08:00",
-      "started_at": null,
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines drift fingerprints, severity owner routing, rollback options, and Day3/Day7/Day14 verification closure evidence requirements.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6405_day0_day14_integration_confidence_rescue_board_v12_2026-03-04.md"
-    },
-    {
       "id": "P2-PROD-6406",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -278,6 +236,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 23:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-6405",
+      "artifact": "Delivered day0-day14 integration confidence rescue board v12 with drift fingerprints, severity owner routing, rollback paths, and evidence-based Day3/Day7/Day14 closure policy for onboarding reliability control",
+      "path": "office_os/artifacts/P2-PROD-6405_day0_day14_integration_confidence_rescue_board_v12_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 23:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-6404",
+      "artifact": "Delivered top-15 late-stage slippage shock scoreboard with ARR-weighted ranking, owner+backup intervention lanes, and enforced Day3/Day7 save-or-exit forecast delta gates for deterministic commit control",
+      "path": "office_os/artifacts/P1-REV-6404_late_stage_slippage_shock_scoreboard_top15_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 23:17",
       "owner": "BUILDER",
@@ -452,30 +434,6 @@
       "taskId": "P4-OPS-6358",
       "artifact": "Delivered autonomous acceptance-criteria compression linter with deterministic rewrite rules, ambiguity fail classes, and top-up quality pass thresholds to keep high-volume backlog intake execution-ready",
       "path": "office_os/artifacts/P4-OPS-6358_autonomous_acceptance_criteria_compression_linter_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6356",
-      "artifact": "Delivered CSM-to-product escalation evidence packet v10 with mandatory schema, deterministic Q1-Q4 scoring, severity-based SLA routing, and audit-ready closure gates for reproducible escalation outcomes",
-      "path": "office_os/artifacts/P2-PROD-6356_csm_product_escalation_evidence_packet_v10_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6351",
-      "artifact": "Delivered procurement objection rebuttal calculator v3 with 12 objection branches, quantified proof placeholders, concession bands A/B/C, and hard floor-margin lockout logic for same-call negotiation control",
-      "path": "office_os/artifacts/P1-REV-6351_procurement_objection_rebuttal_calculator_v3_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
