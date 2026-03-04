@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T10:22:27.231931+00:00",
+  "now": "2026-03-04T10:30:07.410396+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6332",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led 14-touch committee wake campaign for silent buyers in security-cleared deals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Campaign maps day0-day20 touches with objection tags, proof assets, CTA ladder, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6332_2026-03-04.md",
-      "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6333",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6337",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 24 proof-first short posts for procurement freeze and legal-delay objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to funnel stages.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P3-CONT-6337_2026-03-04.md",
-      "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6338",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 18:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6332",
+      "artifact": "Delivered founder-led day0-day20 14-touch committee wake campaign for silent buyers with objection-tag routing, proof-asset ladder, CTA escalation, and KPI instrumentation for reply-rate/meeting-booked/proposal-sent conversion control",
+      "path": "office_os/artifacts/P1-REV-6332_founder_14touch_committee_wake_campaign_2026-03-04.md",
+      "status": "done\\n2026-03-04 18:25"
+    },
     {
       "time": "2026-03-04 18:20",
       "owner": "COMMAND",
@@ -458,14 +426,6 @@
       "taskId": "P1-REV-6301",
       "artifact": "Delivered procurement freeze reversal negotiation script tree v6 with 12 objection branches, quantified proof placeholders, concession bands A/B/C, and hard-stop margin guardrails for same-call close/conditional/kill control",
       "path": "office_os/artifacts/P1-REV-6301_procurement_freeze_reversal_script_tree_v6_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 16:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-6304",
-      "artifact": "Delivered enterprise champion multithread map for security-cleared procurement bottlenecks with stakeholder influence scoring, objection routing matrix, lane-based owner actions, and measurable reopen/proposal/kill gates",
-      "path": "office_os/artifacts/P1-REV-6304_champion_multithread_map_security_cleared_procurement_2026-03-04.md",
       "status": "done"
     }
   ],
