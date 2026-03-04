@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T19:10:08.587413+00:00",
+  "now": "2026-03-04T19:21:33.321506+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6427",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create procurement redline concession calculator v8 with floor-margin guardrails and same-call close exits",
-      "owner": "BUILDER",
-      "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Calculator includes 12+ objection branches, quantified concession bands A/B/C, explicit floor-margin formulas, and same-call close/no-close exit conditions.",
-      "artifact_path": "office_os/artifacts/P1-REV-6427_procurement_redline_concession_calculator_v8_2026-03-05.md"
-    },
-    {
       "id": "P1-REV-6435",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -109,25 +88,46 @@
       "artifact_path": "office_os/artifacts/P1-REV-6435_committee_silence_heatmap_objection_clusters_2026-03-05.md"
     },
     {
-      "id": "P2-PROD-6431",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Draft CSM-to-product escalation schema v15 with anti-gaming score and deterministic signoff fields",
-      "owner": "BUILDER",
+      "id": "P1-REV-6439",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Build top-15 procurement-redline stall rescue board with H24/H72 owner plays and recoverable ARR kill gates",
+      "owner": "RESEARCH",
       "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
-      "impact": 4,
+      "impact": 5,
       "effort": 2,
-      "urgency": 3,
-      "due_at": null,
+      "urgency": 5,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Schema includes mandatory payload fields, anti-gaming checks, SLA routing tiers, and audit-ready closure signoff fields with owner accountability.",
-      "artifact_path": "office_os/artifacts/P2-PROD-6431_csm_to_product_escalation_schema_v15_2026-03-05.md"
+      "acceptance": "Board ranks top-15 stalled procurement-redline deals by recoverable ARR, maps H24/H48/H72 owner actions, and enforces reopen-or-kill gates with measurable thresholds.",
+      "artifact_path": "office_os/artifacts/P1-REV-6439_procurement_redline_stall_rescue_board_top15_2026-03-05.md",
+      "created_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T03:20:00+08:00",
+      "due_at": null,
+      "started_at": null
+    },
+    {
+      "id": "P1-REV-6440",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Create CFO objection reversal call tree v8 with quantified downside offsets and floor-price walk-away rules",
+      "owner": "BUILDER",
+      "status": "READY",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 4,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Call tree includes 12+ objection branches, quantified downside-offset framing, concession bands A/B/C, and explicit floor-price close/no-close exits.",
+      "artifact_path": "office_os/artifacts/P1-REV-6440_cfo_objection_reversal_call_tree_v8_2026-03-05.md",
+      "created_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T03:20:00+08:00",
+      "due_at": null,
+      "started_at": null
     },
     {
       "id": "P2-PROD-6436",
@@ -151,6 +151,27 @@
       "artifact_path": "office_os/artifacts/P2-PROD-6436_security_review_handoff_evidence_contract_v16_2026-03-05.md"
     },
     {
+      "id": "P2-PROD-6441",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Define onboarding proof-integrity contract v17 with anti-gaming checks and deterministic closure signoff gates",
+      "owner": "BUILDER",
+      "status": "READY",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Contract defines mandatory payload fields, anti-gaming validation checks, severity routing, and audit-grade closure signoff requirements.",
+      "artifact_path": "office_os/artifacts/P2-PROD-6441_onboarding_proof_integrity_contract_v17_2026-03-05.md",
+      "created_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T03:20:00+08:00",
+      "due_at": null,
+      "started_at": null
+    },
+    {
       "id": "P3-CONT-6437",
       "project": "P3_CONTENT",
       "priority": "P3",
@@ -172,46 +193,25 @@
       "artifact_path": "office_os/artifacts/P3-CONT-6437_founder_proof_snack_scripts_committee_no_response_reversals_2026-03-05.md"
     },
     {
-      "id": "P4-OPS-6433",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create autonomous top-up acceptance measurability checker with threshold scoring and rewrite actions",
-      "owner": "COMMAND",
+      "id": "P3-CONT-6442",
+      "project": "P3_CONTENT",
+      "priority": "P3",
+      "title": "Produce 12 proof-first short posts for security-review fatigue and no-decision committee stalls",
+      "owner": "SOCIAL",
       "status": "READY",
-      "created_at": "2026-03-05T02:21:00+08:00",
-      "updated_at": "2026-03-05T02:21:00+08:00",
-      "started_at": null,
       "impact": 3,
-      "effort": 1,
+      "effort": 2,
       "urgency": 3,
-      "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Checker defines measurable-criteria score thresholds, weak acceptance fingerprints, auto-rewrite actions, and run-level audit fields for backlog quality control.",
-      "artifact_path": "office_os/artifacts/P4-OPS-6433_autonomous_topup_acceptance_measurability_checker_2026-03-05.md"
-    },
-    {
-      "id": "P4-OPS-6438",
-      "project": "P4_OPERATIONS",
-      "priority": "P4",
-      "title": "Create autonomous stale-READY recycler with age thresholds, rewrite templates, and owner-aware rerank logic",
-      "owner": "COMMAND",
-      "status": "READY",
-      "created_at": "2026-03-05T03:05:00+08:00",
-      "updated_at": "2026-03-05T03:05:00+08:00",
-      "started_at": null,
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
+      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword mapping by funnel stage.",
+      "artifact_path": "office_os/artifacts/P3-CONT-6442_12_proof_first_short_posts_security_review_nodecision_2026-03-05.md",
+      "created_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T03:20:00+08:00",
       "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Spec defines READY-age thresholds, rerank/rewrite actions, owner-aware safeguards, and audit fields to prevent stale queue accumulation.",
-      "artifact_path": "office_os/artifacts/P4-OPS-6438_autonomous_stale_ready_recycler_2026-03-05.md"
+      "started_at": null
     },
     {
       "id": "P5-REL-6369",
@@ -254,9 +254,70 @@
       "manual_rank": null,
       "acceptance": "Checklist maps pending_verify transition rules, next-run success gates, stale-counter reset checks, and evidence fields required before resolved status.",
       "artifact_path": "office_os/artifacts/P5-REL-6425_growth_cron_pending_verify_auto_resolution_checklist_2026-03-05.md"
+    },
+    {
+      "id": "P5-REL-6443",
+      "project": "P5_RELIABILITY",
+      "priority": "P5",
+      "title": "Create cron pending_verify state-reset verifier to prevent stale error counters after successful reruns",
+      "owner": "EXECUTOR",
+      "status": "READY",
+      "impact": 3,
+      "effort": 1,
+      "urgency": 2,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Verifier maps pending_verify->resolved transition rules, requires next-run healthy checks, and enforces stale-counter reset validation before closure.",
+      "artifact_path": "office_os/artifacts/P5-REL-6443_cron_pending_verify_state_reset_verifier_2026-03-05.md",
+      "created_at": "2026-03-05T03:20:00+08:00",
+      "updated_at": "2026-03-05T03:20:00+08:00",
+      "due_at": null,
+      "started_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 03:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted task mix, owner assignment, and measurable acceptance criteria",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-6438",
+      "artifact": "Delivered stale-READY recycler spec with 12h/24h/36h/48h recycle stages, owner-aware rerank logic, deterministic rewrite templates, and split-parent fallback for queue freshness recovery",
+      "path": "office_os/artifacts/P4-OPS-6438_autonomous_stale_ready_recycler_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:20",
+      "owner": "COMMAND",
+      "taskId": "P4-OPS-6433",
+      "artifact": "Delivered autonomous top-up acceptance measurability checker with 100-point scoring model, red/yellow/green gates, rewrite templates, and run-level audit fields to block vague backlog inserts",
+      "path": "office_os/artifacts/P4-OPS-6433_autonomous_topup_acceptance_measurability_checker_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:15",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-6431",
+      "artifact": "Delivered CSM→Product escalation schema v15 with mandatory payload contract, anti-gaming score deductions, deterministic SLA routing, and non-null signoff/closure evidence gates for audit-ready intake control",
+      "path": "office_os/artifacts/P2-PROD-6431_csm_to_product_escalation_schema_v15_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 03:15",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-6427",
+      "artifact": "Delivered procurement redline concession calculator v8 with floor-margin formula, A/B/C concession bands, 12-branch objection counters, and explicit same-call close/no-close exits for margin-safe legal-cycle compression",
+      "path": "office_os/artifacts/P1-REV-6427_procurement_redline_concession_calculator_v8_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 03:05",
       "owner": "RESEARCH",
@@ -416,46 +477,6 @@
       "artifact": "Delivered CFO procurement-delay rebuttal script v6 with 14 objection branches, quantified downside-offset framing, concession bands A/B/C, and explicit floor-price close/no-close exits",
       "path": "office_os/artifacts/P1-REV-6410_cfo_procurement_delay_rebuttal_script_v6_2026-03-05.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-05 01:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6413",
-      "artifact": "Delivered day0-day10 onboarding proof-gap triage board with fingerprint taxonomy, severity-to-owner SLA routing, fallback playbook, and auditable Day3/Day7/Day10 closure evidence policy",
-      "path": "office_os/artifacts/P2-PROD-6413_day0_day10_onboarding_proof_gap_triage_board_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6412",
-      "artifact": "Delivered top-12 late-stage slippage intervention scoreboard with ARR-weighted ranking, owner+backup intervention lanes, and enforced Day2/Day5 save-or-exit forecast gates for deterministic close-cycle control",
-      "path": "office_os/artifacts/P1-REV-6412_late_stage_slippage_intervention_scoreboard_top12_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 00:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-6411",
-      "artifact": "Delivered founder 7-day committee wake sprint for week-3 no-response enterprise champions with day0-day7 touch map, objection tags, proof-asset mapping, CTA ladder, and KPI tracking schema for reply-rate/meeting-booked/proposal-reopened outcomes",
-      "path": "office_os/artifacts/P1-REV-6411_founder_7day_committee_wake_sprint_week3_noresponse_2026-03-05.md",
-      "status": "done\\n2026-03-05 00:25"
     }
   ],
   "alertCount": 2,
