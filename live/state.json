@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T14:50:07.166738+00:00",
+  "now": "2026-03-04T15:00:06.164066+00:00",
   "workers": [
     {
       "name": "Research",
@@ -54,27 +54,27 @@
   ],
   "backlog": [
     {
-      "id": "P0-FE-1960",
+      "id": "P0-FE-1961",
       "project": "OFFICE_OS_FRONTEND",
       "priority": "P0",
-      "title": "Convert OFFICE_OS_FRONTEND READY-lane starvation into explicit investor-qa continuation task for objection-drill reliability and timing-rail stress coverage",
+      "title": "Add boardroom pressure test micro-drill with timed stage jumps and fallback narration scoring to harden live interruption recovery",
       "owner": "BUILDER",
       "status": "READY",
-      "created_at": "2026-03-04T22:21:00+08:00",
-      "updated_at": "2026-03-04T22:21:00+08:00",
+      "created_at": "2026-03-04T22:50:00+08:00",
+      "updated_at": "2026-03-04T22:50:00+08:00",
       "started_at": null,
       "impact": 5,
       "effort": 1,
       "urgency": 5,
       "due_at": null,
       "depends_on": [
-        "P0-FE-1959"
+        "P0-FE-1960"
       ],
       "blocked_reason": null,
       "pinned": true,
       "manual_rank": 0,
-      "acceptance": "When OFFICE_OS_FRONTEND has no READY tasks, backlog records a deterministic next premium UI target tied to objection-response drill reliability and boardroom timing-rail stress checks so autonomous execution remains unblocked.",
-      "artifact_path": "office_os/BACKLOG.json"
+      "acceptance": "Pixel UI provides a one-click micro-drill that simulates 3 boardroom interruption moments, shows countdown + fallback narration quality score per stage, and outputs a copy-ready recovery rehearsal brief without breaking live data flows.",
+      "artifact_path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js"
     },
     {
       "id": "OPS-001",
