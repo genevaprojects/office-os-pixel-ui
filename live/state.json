@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T08:22:29.635872+00:00",
+  "now": "2026-03-04T08:30:07.197591+00:00",
   "workers": [
     {
       "name": "Research",
@@ -107,26 +107,6 @@
       "manual_rank": null
     },
     {
-      "id": "P1-REV-6312",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design founder-led 12-touch silent-buyer wake sequence for stalled committee approvals",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence covers day0-day16 with objection tags, proof assets, CTA ladder, and KPI fields for reply-rate, meeting-booked, and proposal-sent outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-6312_founder_12touch_silent_buyer_wake_sequence_2026-03-04.md",
-      "created_at": "2026-03-04T16:20:00+08:00",
-      "updated_at": "2026-03-04T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6313",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,26 +187,6 @@
       "manual_rank": null
     },
     {
-      "id": "P3-CONT-6317",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 18 proof-first short posts for legal-delay and committee no-decision objections",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Pack includes hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking mapped to pipeline stages.",
-      "artifact_path": "office_os/artifacts/P3-CONT-6317_proof_first_short_posts_legal_committee_objections_2026-03-04.md",
-      "created_at": "2026-03-04T16:20:00+08:00",
-      "updated_at": "2026-03-04T16:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P4-OPS-6318",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -268,6 +228,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 16:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-6317",
+      "artifact": "Delivered 18 proof-first short posts for legal-delay and committee no-decision objections with hook-proof-CTA scripts, channel variants, stage mapping, and conversion keyword tracker schema",
+      "path": "office_os/artifacts/P3-CONT-6317_proof_first_short_posts_legal_committee_objections_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 16:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-6312",
+      "artifact": "Delivered founder-led 12-touch silent-buyer wake sequence (day0-day16) with objection tags, proof assets, CTA ladder, and KPI instrumentation for reply/meeting/proposal outcomes",
+      "path": "office_os/artifacts/P1-REV-6312_founder_12touch_silent_buyer_wake_sequence_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 16:20",
       "owner": "COMMAND",
@@ -450,22 +426,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 14:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6287",
-      "artifact": "Delivered cron failure fingerprint quick-router for revenue-critical workflows with deterministic first-response/fallback sequencing and strict next-run pending_verify closure protocol",
-      "path": "office_os/artifacts/P5-REL-6287_cron_failure_fingerprint_quick_router_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 14:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6286",
-      "artifact": "Delivered autonomous ship-log semantic lint card with duplicate fingerprint rules, task/artifact alignment checks, and correction flow to block malformed milestone appends",
-      "path": "office_os/artifacts/P4-OPS-6286_shiplog_semantic_lint_card_2026-03-04.md",
       "status": "done"
     }
   ],
