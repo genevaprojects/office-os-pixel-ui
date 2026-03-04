@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T10:00:07.437357+00:00",
+  "now": "2026-03-04T10:10:05.378837+00:00",
   "workers": [
     {
       "name": "Research",
@@ -79,47 +79,7 @@
       "acceptance": "Matrix includes at least 12 objection classes, concession bands A/B/C, non-negotiable margin floor clauses, and quantified risk-reversal placeholders by deal size tier.",
       "artifact_path": "office_os/artifacts/P1-REV-6321_cfo_downside_guarantee_addendum_matrix_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6322",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 14-day closed-lost resurrection sprint for legal-cleared enterprise deals with champion decay",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sprint ranks top-15 recoverable ARR opportunities, maps day-level owner actions, and enforces Day3/Day7/Day14 reopen-or-kill gates with evidence requirements.",
-      "artifact_path": "office_os/artifacts/P1-REV-6322_closed_lost_resurrection_sprint_14day_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6328",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build late-stage mutual action plan compression script for procurement/legal ping-pong loops",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Script defines hour-bucket owner actions, fallback clause triggers, quantifiable proof inserts, and strict H24/H48/H72 sign-or-exit thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6328_mutual_action_plan_compression_script_2026-03-04.md",
-      "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
+      "updated_at": "2026-03-04T18:07:04.117262+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Payload schema includes mandatory fields, severity tiers, SLA routing, blocker fingerprint taxonomy, and explicit closure evidence for audit-grade handoffs.",
       "artifact_path": "office_os/artifacts/P2-PROD-6325_csm_product_escalation_payload_v8_security_blockers_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
+      "updated_at": "2026-03-04T18:07:04.117277+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Spec defines rerank formula, stale/duplicate suppression thresholds, novelty constraints, audit fields, and deterministic safeguards against owner WIP cap violations.",
       "artifact_path": "office_os/artifacts/P4-OPS-6327_arr_weighted_backlog_reranker_spec_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
+      "updated_at": "2026-03-04T18:07:04.117282+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Card maps anomaly fingerprints to blast-radius tiers, rollback order, fallback execution path, and pending_verify-to-resolved criteria on next successful run.",
       "artifact_path": "office_os/artifacts/P5-REL-6329_cron_anomaly_rollback_card_revenue_automations_2026-03-04.md",
       "created_at": "2026-03-04T17:21:00+08:00",
-      "updated_at": "2026-03-04T17:21:00+08:00",
+      "updated_at": "2026-03-04T18:07:04.117286+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 18:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 18:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6328",
+      "artifact": "Delivered late-stage mutual action plan compression script for procurement/legal ping-pong loops with hour-bucket owner actions, fallback clause triggers, quantifiable proof inserts, and strict H24/H48/H72 sign-or-exit thresholds",
+      "path": "office_os/artifacts/P1-REV-6328_mutual_action_plan_compression_script_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 18:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6322",
+      "artifact": "Delivered 14-day closed-lost resurrection sprint for legal-cleared champion-decay deals with top-15 recoverable ARR ranking, day-level owner actions, and strict Day3/Day7/Day14 evidence-backed reopen-or-kill gates",
+      "path": "office_os/artifacts/P1-REV-6322_closed_lost_resurrection_sprint_14day_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 18:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1953",
+      "artifact": "Added Presentation Stability Sentinel with validation drift, refresh reliability, mode-switch churn, and sync recency PASS/FAIL gates to strengthen boardroom preflight confidence without disrupting live-data behavior",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 17:37",
       "owner": "COMMAND",
@@ -354,38 +346,6 @@
       "taskId": "P1-REV-6302",
       "artifact": "Delivered founder-led 10-touch dormant-champion wake sequence with day0-day14 touch map, objection tagging, proof snippets, CTA ladder, and reply-rate/meeting-booked KPI instrumentation",
       "path": "office_os/artifacts/P1-REV-6302_founder_10touch_dormant_champion_wake_sequence_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 15:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 15:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6299",
-      "artifact": "Delivered cron output freshness breach playbook with severity bands, fallback sequence, fingerprint triage, and mandatory pending_verify-to-resolved next-run closure policy",
-      "path": "office_os/artifacts/P5-REL-6299_cron_output_freshness_breach_playbook_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 15:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6298",
-      "artifact": "Delivered autonomous task-state transition audit card with deterministic invariants, forbidden-transition matrix, DONE-gate checks, and correction flow to preserve backlog integrity",
-      "path": "office_os/artifacts/P4-OPS-6298_task_state_transition_audit_card_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 15:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6295",
-      "artifact": "Delivered day0-day7 first-value evidence payload v5 with mandatory fields, SEV-1..SEV-4 routing SLAs, owner matrix, and audit-ready closure checks/lint rules for CSM→Product escalation quality",
-      "path": "office_os/artifacts/P2-PROD-6295_first_value_evidence_payload_v5_2026-03-04.md",
       "status": "done"
     }
   ],
