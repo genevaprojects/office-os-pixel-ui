@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T08:00:05.416617+00:00",
+  "now": "2026-03-04T08:10:06.038938+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6300",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 legal-cleared signature-stall rescue stack with H24/H48/H72 command lanes and ARR-weighted cut lines",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Stack ranks 12 stalled deals by recoverable ARR, maps blocker signatures to H24/H48/H72 owner actions, and defines binary close-or-kill gates with measurable thresholds.",
-      "artifact_path": "office_os/artifacts/P1-REV-6300_signature_stall_rescue_stack_top12_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6301",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -98,26 +78,6 @@
       "urgency": 4,
       "acceptance": "Script tree includes at least 12 objection branches, quantified proof placeholders, concession bands A/B/C, and hard-stop clauses preventing margin leakage.",
       "artifact_path": "office_os/artifacts/P1-REV-6301_procurement_freeze_reversal_script_tree_v6_2026-03-04.md",
-      "created_at": "2026-03-04T15:20:00+08:00",
-      "updated_at": "2026-03-04T15:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6304",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce enterprise champion multithread map for security-cleared procurement bottlenecks",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Map includes stakeholder influence scoring, objection routing, owner actions by lane, and measurable reopen/proposal gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6304_champion_multithread_map_security_cleared_procurement_2026-03-04.md",
       "created_at": "2026-03-04T15:20:00+08:00",
       "updated_at": "2026-03-04T15:20:00+08:00",
       "due_at": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 16:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6304",
+      "artifact": "Delivered enterprise champion multithread map for security-cleared procurement bottlenecks with stakeholder influence scoring, objection routing matrix, lane-based owner actions, and measurable reopen/proposal/kill gates",
+      "path": "office_os/artifacts/P1-REV-6304_champion_multithread_map_security_cleared_procurement_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 16:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6300",
+      "artifact": "Delivered top-12 legal-cleared signature-stall rescue stack with recoverable-ARR ranking model, fingerprint-specific H24/H48/H72 command lanes, and measurable close-or-kill gate thresholds for forecast-clean execution",
+      "path": "office_os/artifacts/P1-REV-6300_signature_stall_rescue_stack_top12_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 16:05",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1951",
+      "artifact": "Added Mode Transition Assurance Sentinel with continuity scoring, one-click transition drill, frontend-context normalization, and copy-ready handoff brief to harden executive↔operator switch reliability without impacting live data behavior",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 15:37",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "P0-FE-1948",
       "artifact": "Converted OFFICE_OS_FRONTEND READY-lane starvation into deterministic continuation by recording explicit boardroom scenario drill reliability target so autonomous frontend sprint remained unblocked",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-6283",
-      "artifact": "Delivered day0-day7 first-value evidence integrity board for missing integration events with failure signatures, severity routing, rollback paths, and day3/day7 verification closure checks",
-      "path": "office_os/artifacts/P2-PROD-6283_first_value_evidence_integrity_board_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:36",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-6281",
-      "artifact": "Delivered expansion-at-risk renewal rescue lane for top-12 pilots with ARR-weighted ranking, day0/day3/day7 interventions, owner SLAs, and hard save-or-exit gates",
-      "path": "office_os/artifacts/P1-REV-6281_expansion_risk_renewal_rescue_lane_top12_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 13:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6285",
-      "artifact": "Delivered 12 proof-first short posts for security-review and procurement-delay objections with hook-proof-CTA scripts, objection taxonomy, channel variants, and conversion keyword tracking fields",
-      "path": "office_os/artifacts/P3-CONT-6285_proof_first_short_posts_security_procurement_2026-03-04.md",
       "status": "done"
     }
   ],
