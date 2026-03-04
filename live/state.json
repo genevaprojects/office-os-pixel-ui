@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T11:00:07.844256+00:00",
+  "now": "2026-03-04T11:10:05.263077+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6330",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 procurement committee unblock strikeboard with H24/H48 owner lanes and ARR recovery gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Strikeboard ranks 12 stalled committee deals by recoverable ARR, defines H24/H48 owner interventions, and enforces binary reopen-or-kill checkpoints with measurable thresholds.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6330_2026-03-04.md",
-      "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6331",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,27 +79,7 @@
       "acceptance": "Matrix includes at least 12 objection branches, quantified proof placeholders, concession bands A/B/C, and hard margin floor clauses for live calls.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6331_2026-03-04.md",
       "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
-      "id": "P1-REV-6334",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft legal-redline compression playbook for sub-48h signature outcomes in enterprise procurement",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Playbook maps top redline blockers to fallback clauses, hour-bucket owner actions, and strict sign-or-exit rules with risk controls.",
-      "artifact_path": "[ASSUMPTION] office_os/artifacts/P1-REV-6334_2026-03-04.md",
-      "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
+      "updated_at": "2026-03-04T19:07:15.793328+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +99,7 @@
       "acceptance": "Payload schema includes mandatory fields, severity tiers, evidence quality checks, owner routing SLA, and audit-ready closure criteria.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P2-PROD-6336_2026-03-04.md",
       "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
+      "updated_at": "2026-03-04T19:07:15.793344+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +119,7 @@
       "acceptance": "Protocol defines duplicate thresholds, merge/rewrite actions, changelog requirements, and deterministic safeguards against accidental task loss.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P4-OPS-6338_2026-03-04.md",
       "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
+      "updated_at": "2026-03-04T19:07:15.793350+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +139,7 @@
       "acceptance": "Ladder maps canary failure fingerprints to rollback steps, fallback execution order, and strict next-run verification rules before resolution.",
       "artifact_path": "[ASSUMPTION] office_os/artifacts/P5-REL-6339_2026-03-04.md",
       "created_at": "2026-03-04T18:20:00+08:00",
-      "updated_at": "2026-03-04T18:20:00+08:00",
+      "updated_at": "2026-03-04T19:07:15.793355+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +148,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6334",
+      "artifact": "Delivered legal-redline compression playbook for sub-48h signature outcomes with blocker-to-fallback clause map, hour-bucket owner actions, escalation triggers, and sign-or-exit risk controls for enterprise procurement cycles",
+      "path": "office_os/artifacts/P1-REV-6334_legal_redline_compression_playbook_sub48h_signature_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 19:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6330",
+      "artifact": "Delivered top-12 procurement committee unblock strikeboard with recoverable-ARR ranking, blocker fingerprint routing, H24/H48 owner intervention lanes, and binary reopen-or-kill thresholds for deterministic revenue recovery command",
+      "path": "office_os/artifacts/P1-REV-6330_top12_procurement_committee_unblock_strikeboard_h24_h48_arr_gates_2026-03-04.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 18:37",
       "owner": "COMMAND",
@@ -362,30 +346,6 @@
       "taskId": "P1-REV-6312",
       "artifact": "Delivered founder-led 12-touch silent-buyer wake sequence (day0-day16) with objection tags, proof assets, CTA ladder, and KPI instrumentation for reply/meeting/proposal outcomes",
       "path": "office_os/artifacts/P1-REV-6312_founder_12touch_silent_buyer_wake_sequence_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 16:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and concrete acceptance criteria",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 16:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6309",
-      "artifact": "Delivered autonomous acceptance-criteria verifier card with semantic alignment checks, mismatch classes, correction flow, and append-only ship-log guardrails to harden DONE-gate integrity",
-      "path": "office_os/artifacts/P4-OPS-6309_acceptance_criteria_verifier_card_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 16:20",
-      "owner": "RESEARCH",
-      "taskId": "P3-CONT-6308",
-      "artifact": "Delivered contrarian authority thread bank with 20 CFO/procurement skepticism claims, proof requirements, risk notes, and channel-specific CTA intents for fast distribution testing",
-      "path": "office_os/artifacts/P3-CONT-6308_contrarian_authority_thread_bank_cfo_procurement_2026-03-04.md",
       "status": "done"
     }
   ],
