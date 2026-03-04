@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-04T00:01:22.274785+00:00",
+  "now": "2026-03-04T00:10:06.516456+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,26 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-6225",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 stalled committee deal rescue scoreboard with day-by-day owner actions and reopen-or-kill gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Deliver ARR-ranked scoreboard with Day0/Day3/Day7 intervention rules, objection tags, and meeting-booked/proposal-sent gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-6225_stalled_committee_rescue_scoreboard_2026-03-04.md",
-      "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
-      "due_at": null,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null
-    },
-    {
       "id": "P1-REV-6226",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -99,7 +79,7 @@
       "acceptance": "Checklist includes mandatory packet fields, reject triggers, fallback clause paths, and same-call close/no-close decision criteria.",
       "artifact_path": "office_os/artifacts/P1-REV-6226_procurement_packet_failfast_checklist_v2_2026-03-04.md",
       "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
+      "updated_at": "2026-03-04T08:07:03.796032+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -119,7 +99,7 @@
       "acceptance": "Playbook includes signature taxonomy, owner routing, SLA clocks, rollback choices, and Day3/Day7 verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-6229_onboarding_confidence_rescue_playbook_telemetry_mismatch_2026-03-04.md",
       "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
+      "updated_at": "2026-03-04T08:07:03.796046+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -139,7 +119,7 @@
       "acceptance": "Monitor spec defines drift thresholds, alert bands, correction triggers, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-6223_lane_throughput_drift_monitor_2026-03-04.md",
       "created_at": "2026-03-04T06:20:00+08:00",
-      "updated_at": "2026-03-04T07:07:03.128900+08:00",
+      "updated_at": "2026-03-04T08:07:03.796052+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -159,7 +139,7 @@
       "acceptance": "Spec defines when to top up, duplicate/fuzzy overlap checks, owner balancing, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-6231_ready_lane_replenishment_heuristic_2026-03-04.md",
       "created_at": "2026-03-04T07:22:00+08:00",
-      "updated_at": "2026-03-04T07:22:00+08:00",
+      "updated_at": "2026-03-04T08:07:03.796061+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -179,7 +159,7 @@
       "acceptance": "Quick-card defines anomaly thresholds, remediation order, retry policy, and pending_verify closure checks.",
       "artifact_path": "office_os/artifacts/P5-REL-6127_cron_schema_drift_triage_quickcard_2026-03-04.md",
       "created_at": "2026-03-04T03:20:56+08:00",
-      "updated_at": "2026-03-04T07:07:03.128909+08:00",
+      "updated_at": "2026-03-04T08:07:03.796056+08:00",
       "due_at": null,
       "depends_on": [],
       "blocked_reason": null,
@@ -188,6 +168,38 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-04 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 08:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-6225",
+      "artifact": "Delivered top-12 stalled committee deal rescue scoreboard with ARR-ranked prioritization, Day0/Day3/Day7 owner interventions, objection tags, and binary meeting-booked/proposal-sent reopen-or-kill gates",
+      "path": "office_os/artifacts/P1-REV-6225_stalled_committee_rescue_scoreboard_2026-03-04.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 08:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1943",
+      "artifact": "Added Operator Context Snapshot Rail plus Shift+O baseline restore to recover OFFICE_OS_FRONTEND triage state instantly after interruptions without losing live-data behavior",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-04 08:01",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-1942",
+      "artifact": "Added Command Jump Coverage Sentinel with target-integrity/mode-parity checks, drill coverage visibility, and one-click drill/copy actions to harden boardroom navigation reliability",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-04 07:50",
       "owner": "BUILDER",
@@ -354,38 +366,6 @@
       "taskId": "P0-FE-1934",
       "artifact": "Added Founder Desk Checkpoint Countdown Rail with live SLA/staleness countdown visibility and copy-ready checkpoint brief for investor-timeboxed command narration",
       "path": "office_os_mission_control/app/founder-desk/page.tsx",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6207",
-      "artifact": "Delivered cron signal-integrity quick-check card with anomaly signatures, deterministic triage order, fallback behavior, and pending_verify closure gates for growth-critical automations",
-      "path": "office_os/artifacts/P5-REL-6207_cron_signal_integrity_quickcheck_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-6215",
-      "artifact": "Delivered autonomous artifact acceptance drift audit spec with indicator model, score bands, correction triggers, and run-level audit schema to prevent quality decay across hourly outputs",
-      "path": "office_os/artifacts/P4-OPS-6215_artifact_acceptance_drift_audit_2026-03-04.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-04 06:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-6213",
-      "artifact": "Delivered CSM-to-product escalation payload schema for repeated trust regressions with severity tiers, required evidence fields, routing owner map, and next-run verification gates",
-      "path": "office_os/artifacts/P2-PROD-6213_csm_product_escalation_payload_schema_2026-03-04.md",
       "status": "done"
     }
   ],
