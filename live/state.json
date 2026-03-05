@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T13:30:05.425812+00:00",
+  "now": "2026-03-05T13:40:07.406809+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7128",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-silent committee reactivation cadence with D1/D2/D4 escalation swaps and binary proof gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Cadence maps legal-silent fingerprints to D1/D2/D4 interventions with owner+backup swaps and binary meeting-booked/proposal-sent proof gates.",
-      "artifact_path": "office_os/artifacts/P1-REV-7128_legal_silent_committee_reactivation_cadence_d1_d2_d4_binary_proof_gates_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7130",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -162,27 +141,6 @@
       "urgency": 3,
       "acceptance": "Contract defines payload schema, anti-gaming hard checks, severity-routing SLA matrix, and deterministic dual-attestation closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7131_onboarding_evidence_integrity_contract_v27_anti_gaming_dual_attestation_sla_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7132",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build Day0-Day30 onboarding confidence recovery matrix with severity lanes and rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Matrix maps trust-failure fingerprints to severity owners, rollback-safe intervention options, and Day3/Day7/Day14/Day30 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7132_day0_day30_onboarding_confidence_recovery_matrix_severity_lanes_rollback_safe_2026-03-05.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -236,6 +194,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 21:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7132",
+      "artifact": "Delivered Day0-Day30 onboarding confidence recovery matrix with trust-failure fingerprints, severity lanes, rollback-safe interventions, and deterministic Day3/Day7/Day14/Day30 verification gates with evidence contract",
+      "path": "office_os/artifacts/P2-PROD-7132_day0_day30_onboarding_confidence_recovery_matrix_severity_lanes_rollback_safe_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 21:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7128",
+      "artifact": "Delivered legal-silent committee reactivation cadence with fingerprint taxonomy, D1/D2/D4 owner+backup intervention swaps, and hard binary meeting-booked/proposal-sent proof gates with deterministic kill-or-recycle routing",
+      "path": "office_os/artifacts/P1-REV-7128_legal_silent_committee_reactivation_cadence_d1_d2_d4_binary_proof_gates_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 21:26",
       "owner": "SOCIAL",
@@ -419,22 +393,6 @@
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
       "status": "done"
-    },
-    {
-      "time": "2026-03-05 18:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-7101",
-      "artifact": "Delivered day0-day21 onboarding trust compression board with S1/S2/S3 severity lanes, rollback-safe intervention paths, and deterministic Day3/Day7/Day14/Day21 verification + reopen criteria",
-      "path": "office_os/artifacts/P2-PROD-7101_day0_day21_onboarding_trust_compression_board_severity_lanes_rollback_safe_interventions_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7103",
-      "artifact": "Delivered 18 proof-first short posts for procurement no-decision and legal-delay reversals with hook-proof-CTA scripts, objection tags, channel variants, and keyword CTA mapping",
-      "path": "office_os/artifacts/P3-CONT-7103_18_proof_first_short_posts_procurement_no_decision_legal_delay_reversals_2026-03-05.md",
-      "status": "done2026-03-05 18:36"
     }
   ],
   "alertCount": 2,
