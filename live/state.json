@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T09:21:22.194111+00:00",
+  "now": "2026-03-05T09:30:05.222736+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7090",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 11-touch procurement thaw sequence with proof-routing by objection class and CTA escalation ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI fields for reply-rate and meeting-booked lift.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7091",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -207,27 +186,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7094",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 16 proof-first short posts for security-review fatigue and procurement no-decision reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 16 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T17:20:00+08:00",
       "updated_at": "2026-03-05T17:20:00+08:00",
