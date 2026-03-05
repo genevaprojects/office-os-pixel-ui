@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T11:21:35.455319+00:00",
+  "now": "2026-03-05T11:30:05.033863+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7109",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce 14 proof-first short posts for procurement freeze and security-review fatigue objections",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 14 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
-      "artifact_path": "office_os/artifacts/P1-REV-7109_14_proof_first_short_posts_procurement_freeze_security_review_fatigue_2026-03-05.md",
-      "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7110",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -208,27 +187,6 @@
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7112_onboarding_evidence_integrity_contract_v26_anti_gaming_deterministic_closure_attestations_2026-03-05.md",
-      "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7113",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 12 founder proof-first clips for legal-delay and procurement no-decision reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7113_12_founder_proof_first_clips_legal_delay_procurement_no_decision_reversals_2026-03-05.md",
       "created_at": "2026-03-05T19:22:00+08:00",
       "updated_at": "2026-03-05T19:22:00+08:00",
       "started_at": null,
