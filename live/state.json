@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T00:01:41.975955+00:00",
+  "now": "2026-03-05T00:10:05.174769+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,7 +83,7 @@
       "acceptance": "Script includes 12+ branches, quantified delay-cost framing, concession bands, and explicit close/no-close floor-margin exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T07:07:03.029050+08:00",
+      "updated_at": "2026-03-05T08:07:04.404254+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -104,7 +104,7 @@
       "acceptance": "Contract defines required payload fields, anti-gaming checks, severity routing, and closure attestation checklist with owner accountability.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T07:07:03.029064+08:00",
+      "updated_at": "2026-03-05T08:07:04.404268+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,12 +125,20 @@
       "acceptance": "Protocol defines stale-age buckets, rewrite SLA windows, and deterministic state-transition rules before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T06:21:08+08:00",
-      "updated_at": "2026-03-05T07:07:03.029074+08:00",
+      "updated_at": "2026-03-05T08:07:04.404276+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 08:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 07:37",
       "owner": "COMMAND",
@@ -321,14 +329,6 @@
       "taskId": "P2-PROD-6454",
       "artifact": "Delivered onboarding breach-evidence payload v18 with mandatory schema, anti-gaming validation checks, severity routing matrix, and deterministic audit-grade closure signoff gates for escalation integrity",
       "path": "office_os/artifacts/P2-PROD-6454_onboarding_breach_evidence_payload_v18_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 05:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-6451",
-      "artifact": "Delivered CFO no-decision reversal script v9 with 13 objection branches, quantified downside-offset framing, concession bands A/B/C, and explicit floor-price close/no-close walk-away exits for deterministic same-call outcomes",
-      "path": "office_os/artifacts/P1-REV-6451_cfo_no_decision_reversal_script_v9_2026-03-05.md",
       "status": "done"
     }
   ],
