@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T05:21:36.901584+00:00",
+  "now": "2026-03-05T05:30:07.858758+00:00",
   "workers": [
     {
       "name": "Research",
@@ -151,27 +151,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7054",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 12 proof-first shorts for procurement freeze and delayed legal signoff objections",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, objection tags, channel variants, and keyword mapping by funnel stage.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7044",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +257,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 13:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7054",
+      "artifact": "Delivered 12 proof-first shorts for procurement freeze and delayed legal signoff objections with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage keyword mapping for conversion-aware distribution",
+      "path": "office_os/artifacts/P3-CONT-7054_12_proof_first_shorts_procurement_freeze_delayed_legal_signoff_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 13:07",
       "owner": "COMMAND",
@@ -468,14 +455,6 @@
       "taskId": "P3-CONT-7024",
       "artifact": "Delivered 12 proof-first short posts for procurement fatigue and legal redline stalls with hook-proof-CTA scripts, objection tags, channel variants, and funnel-mapped conversion keywords",
       "path": "office_os/artifacts/P3-CONT-7024_12_proof_first_short_posts_procurement_fatigue_legal_redline_stalls_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 10:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7021",
-      "artifact": "Delivered founder multichannel proof-routing sprint for security-cleared no-decision committees with 8-touch channel cadence, objection tags, persona proof blocks, CTA ladder, and KPI instrumentation for reply-rate and meeting-booked lift",
-      "path": "office_os/artifacts/P1-REV-7021_founder_multichannel_proof_routing_sprint_security_cleared_no_decision_committees_2026-03-05.md",
       "status": "done"
     }
   ],
