@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T09:00:06.364297+00:00",
+  "now": "2026-03-05T09:10:05.055227+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7079",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 legal-approved stalled expansion rescue grid with H24/H48/H72 intervention ladders and ARR recovery thresholds",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Grid ranks top-10 legal-approved stalled expansions by recoverable ARR, maps H24/H48/H72 intervention ladders, and defines binary recover-or-kill thresholds with forecast delta evidence.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7080",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-penalty calculator, reciprocal no-discount concession swaps, and explicit floor-margin close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
+      "updated_at": "2026-03-05T17:07:03.615483+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
       "artifact_path": null,
       "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
+      "updated_at": "2026-03-05T17:07:03.615498+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Scoreboard defines owner-level stale rewrite breaches, heatmap thresholds, deterministic correction SLAs, and run-level audit output fields.",
       "artifact_path": null,
       "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
+      "updated_at": "2026-03-05T17:07:03.615504+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Ladder defines drift tiers, first-response actions, suppression windows, and pending_verify verification checks before incident resolution.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T14:07:03.336757+08:00",
+      "updated_at": "2026-03-05T17:07:03.615509+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +167,28 @@
       "acceptance": "Verifier defines dedup fingerprints, pending_verify reopen conditions, stale-counter reset checks, and closure-evidence requirements.",
       "artifact_path": null,
       "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
+      "updated_at": "2026-03-05T17:07:03.615515+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 17:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 17:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7079",
+      "artifact": "Delivered top-10 legal-approved stalled expansion rescue grid with recoverable-ARR ranking, deterministic H24/H48/H72 intervention ladders, binary recover-or-kill thresholds, and forecast delta evidence schema",
+      "path": "office_os/artifacts/P1-REV-7079_top10_legal_approved_stalled_expansion_rescue_grid_h24_h48_h72_arr_recovery_thresholds_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 16:37",
       "owner": "COMMAND",
@@ -376,22 +371,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted owner assignment and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 12:20",
-      "owner": "COMMAND",
-      "taskId": "P3-CONT-7035",
-      "artifact": "Delivered 7-day founder authority short-video sequence with hook-proof-CTA scripts, legal-delay objection taxonomy, channel adaptations, and KPI targets for reversal conversion",
-      "path": "office_os/artifacts/P3-CONT-7035_7day_founder_authority_short_video_sequence_legal_delay_reversal_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 12:20",
-      "owner": "COMMAND",
-      "taskId": "P2-PROD-7033",
-      "artifact": "Delivered day0-day21 activation anomaly response board with severity fingerprint routing, rollback-safe intervention matrix, and deterministic Day3/Day7/Day14/Day21 verification gates",
-      "path": "office_os/artifacts/P2-PROD-7033_day0_day21_activation_anomaly_response_board_rollback_safe_matrix_2026-03-05.md",
       "status": "done"
     }
   ],
