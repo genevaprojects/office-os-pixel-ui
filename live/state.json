@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T06:21:28.744748+00:00",
+  "now": "2026-03-05T06:30:05.210197+00:00",
   "workers": [
     {
       "name": "Research",
@@ -151,27 +151,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7065",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create objection-led founder outreach pack for stalled security-cleared pilots",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack provides 10-touch sequence with proof routing, objection tags, CTA ladder, and KPI schema for reply-rate and meetings booked.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7066",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -207,27 +186,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload fields, anti-gaming checks, severity routing, and deterministic closure attestation criteria with owner accountability.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7068",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 14 proof-first shorts for procurement no-decision and legal-review fatigue objections",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 14 hook-proof-CTA scripts, objection taxonomy tags, channel variants, and funnel-stage keyword mapping.",
       "artifact_path": null,
       "created_at": "2026-03-05T14:20:00+08:00",
       "updated_at": "2026-03-05T14:20:00+08:00",
