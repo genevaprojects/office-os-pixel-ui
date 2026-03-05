@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T04:30:05.918815+00:00",
+  "now": "2026-03-05T04:40:04.694626+00:00",
   "workers": [
     {
       "name": "Research",
@@ -193,48 +193,6 @@
       "due_at": null
     },
     {
-      "id": "P5-REL-7017",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Define cron regression triage card with checksum drift severity and pending_verify closure protocol",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card defines checksum drift thresholds, tiered triage order, suppression windows, and pending_verify-to-resolved verification checks.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T09:20:00+08:00",
-      "updated_at": "2026-03-05T12:07:02.281388+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P5-REL-7037",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Define cron output integrity canary with checksum drift tiers and pending_verify verification gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Canary defines checksum drift thresholds, tiered responses, suppression windows, and pending_verify verification gates before resolving incidents.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T11:21:00+08:00",
-      "updated_at": "2026-03-05T12:07:02.281374+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P5-REL-7045",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -257,6 +215,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 12:20",
       "owner": "COMMAND",
@@ -447,14 +413,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 09:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-7010",
-      "artifact": "Delivered cron output regression sentinel spec with checksum drift thresholds, tiered response actions, suppression windows, and pending_verify closure guardrails to reduce false-positive alert noise while protecting integrity",
-      "path": "office_os/artifacts/P5-REL-7010_cron_output_regression_sentinel_checksum_drift_thresholds_suppression_windows_2026-03-05.md",
       "status": "done"
     }
   ],
