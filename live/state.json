@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T16:50:10.752437+00:00",
+  "now": "2026-03-05T17:00:06.435621+00:00",
   "workers": [
     {
       "name": "Research",
@@ -237,6 +237,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-06 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2031",
+      "artifact": "Added Shift+Q hotkey + hotkey guide entry for Queue-all recovery bundle copy with trust-lane routing to speed command response under live interruption pressure",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 00:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2030",
+      "artifact": "Added sticky Queue-all action that copies a deterministic monitor→top-risk→decision recovery bundle and auto-routes to trust lane for one-click interruption handling during investor demos",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-06 00:23",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -418,22 +434,6 @@
       "taskId": "P1-REV-7128",
       "artifact": "Delivered legal-silent committee reactivation cadence with fingerprint taxonomy, D1/D2/D4 owner+backup intervention swaps, and hard binary meeting-booked/proposal-sent proof gates with deterministic kill-or-recycle routing",
       "path": "office_os/artifacts/P1-REV-7128_legal_silent_committee_reactivation_cadence_d1_d2_d4_binary_proof_gates_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7133",
-      "artifact": "Delivered 14 proof-first short posts for security-review fatigue and legal-delay reversals with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage keyword mapping",
-      "path": "office_os/artifacts/P3-CONT-7133_14_proof_first_short_posts_security_review_fatigue_legal_delay_reversals_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:25",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7129",
-      "artifact": "Delivered founder 10-touch budget-freeze thaw sequence with day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI schema for reply/meeting/proposal-reopen tracking",
-      "path": "office_os/artifacts/P1-REV-7129_founder_10touch_budget_freeze_thaw_sequence_proof_routing_cta_ladder_2026-03-05.md",
       "status": "done"
     }
   ],
