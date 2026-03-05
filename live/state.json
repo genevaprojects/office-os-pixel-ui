@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T06:30:05.210197+00:00",
+  "now": "2026-03-05T06:40:05.070002+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7063",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build day0-day10 executive reactivation cadence for legal-silent buying committees",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps legal-silent fingerprints to D0/D2/D5/D10 owner actions with binary meeting-booked/proposal-sent progression gates and failover owner swaps.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7064",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board ranks top-15 deals by procurement latency risk, assigns owner interventions, and tracks day2/day5/day8 save-or-kill outcomes.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7066",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day30 onboarding confidence rebound matrix with rollback-safe escalation gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps failure fingerprints to severity owners, rollback-safe interventions, and day3/day7/day14/day30 verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T14:20:00+08:00",
       "updated_at": "2026-03-05T14:20:00+08:00",
@@ -278,6 +236,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 14:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 14:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7066",
+      "artifact": "Delivered day0-day30 onboarding confidence rebound matrix with severity bands, drift fingerprints, rollback-safe escalation gates, and closure evidence attestation rules to recover confidence without introducing regression risk",
+      "path": "office_os/artifacts/P2-PROD-7066_day0_day30_onboarding_confidence_rebound_matrix_rollback_safe_escalation_gates_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 14:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7063",
+      "artifact": "Delivered day0-day10 executive reactivation cadence for legal-silent buying committees with fingerprint taxonomy, D1/D3/D5/D7/D10 binary progression gates, owner-swap triggers, and salvage-or-kill discipline to force deterministic pipeline outcomes",
+      "path": "office_os/artifacts/P1-REV-7063_day0_day10_executive_reactivation_cadence_legal_silent_buying_committees_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 14:20",
       "owner": "COMMAND",
@@ -453,30 +435,6 @@
       "artifact": "Delivered acceptance-criteria rewrite linter spec with 100-point quality scoring, deterministic READY gates, rewrite triggers, and run-level audit fields for acceptance drift control",
       "path": "office_os/artifacts/P4-OPS-7025_autonomous_acceptance_criteria_rewrite_linter_quality_scoring_ready_gates_2026-03-05.md",
       "status": "done2026-03-05 11:21"
-    },
-    {
-      "time": "2026-03-05 11:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7016",
-      "artifact": "Delivered autonomous stale-task rewrite SLA board with age-bucket triggers, deterministic READY promotion gates, and run-level audit schema to eliminate stale-task promotion drift",
-      "path": "office_os/artifacts/P4-OPS-7016_autonomous_stale_task_rewrite_sla_board_age_buckets_ready_promotion_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 11:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7022",
-      "artifact": "Delivered onboarding evidence integrity contract v21 with mandatory payload schema, anti-gaming controls, severity routing tiers (S1-S4), and deterministic dual-owner closure attestation gates",
-      "path": "office_os/artifacts/P2-PROD-7022_onboarding_evidence_integrity_contract_v21_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 11:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7019",
-      "artifact": "Delivered procurement objection close script v13 with 13 objection branches, quantified concession bands (A/B/C), reciprocal trade rules, and explicit margin-floor close/no-close exits for same-call control",
-      "path": "office_os/artifacts/P1-REV-7019_procurement_objection_close_script_v13_2026-03-05.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
