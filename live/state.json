@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T08:00:06.604783+00:00",
+  "now": "2026-03-05T08:10:04.885698+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7071",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 procurement re-open sprint board with H24/H48/H72 owner-swap triggers and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-12 frozen opportunities by recoverable ARR, defines H24/H48/H72 owner-swap interventions, and enforces binary reopen-or-kill gates with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T15:20:00+08:00",
-      "updated_at": "2026-03-05T15:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7072",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -102,27 +81,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Script includes 12+ objection branches, quantified delay-cost math, reciprocal concession ladders with no-discount options, and explicit floor-margin close/no-close exits.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T15:20:00+08:00",
-      "updated_at": "2026-03-05T15:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7074",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design quarter-end renewal red-flag heatmap with ARR-weighted save sprints and weekly kill gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
       "artifact_path": null,
       "created_at": "2026-03-05T15:20:00+08:00",
       "updated_at": "2026-03-05T15:20:00+08:00",
@@ -215,6 +173,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 16:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7074",
+      "artifact": "Delivered quarter-end renewal red-flag heatmap with ARR-weighted risk scoring, save sprint owner/backup routing, and weekly save-or-exit kill gates tied to measurable progression criteria",
+      "path": "office_os/artifacts/P1-REV-7074_quarter_end_renewal_red_flag_heatmap_arr_weighted_save_sprints_weekly_kill_gates_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 16:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7071",
+      "artifact": "Delivered top-12 procurement re-open sprint board with recoverable-ARR ranking, deterministic H24/H48/H72 owner-swap triggers, binary reopen-or-kill salvage gates, and forecast delta fields for quarter-commit rescue",
+      "path": "office_os/artifacts/P1-REV-7071_top12_procurement_reopen_sprint_board_h24_h48_h72_owner_swap_arr_salvage_gates_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 15:37",
       "owner": "COMMAND",
@@ -397,22 +371,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 12:06",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2009",
-      "artifact": "Added Frontend Artifact Coverage Sentinel in Pixel UI Operator mode to audit OFFICE_OS_FRONTEND artifact_path completeness + UI trace coverage with direct review actions for missing traceability and ship evidence",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 12:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2008",
-      "artifact": "Added Frontend Delivery Risk Rail in Pixel UI Operator mode with 6h/24h breach-pressure forecast, overdue/due-window blocker scoring, and one-click due-lane focus controls for deterministic frontend execution pacing",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
