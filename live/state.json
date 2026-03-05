@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T18:00:07.142975+00:00",
+  "now": "2026-03-05T18:10:07.503986+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7166",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 legal-redline stalled deal rescue board with recoverable ARR ranking and D1/D3/D7 owner swap triggers",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-12 legal-redline stalled opportunities by recoverable ARR, defines D1/D3/D7 owner+backup interventions, and enforces binary reopen-or-kill gates with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7166_top12_legal_redline_stalled_deal_rescue_board_d1_d3_d7_owner_swaps_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7167",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss framing, reciprocal no-discount concession rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7167_cfo_legal_delay_close_script_v22_no_discount_reciprocal_concessions_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
+      "updated_at": "2026-03-06T02:07:04.154589+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Sequence includes day0-day10 touch map, objection-tagged proof inserts, binary CTA ladder, and KPI schema for reply, workshop-booked, and reopen rates.",
       "artifact_path": "office_os/artifacts/P1-REV-7169_founder_7touch_post_redline_silence_reactivation_binary_cta_ladder_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
+      "updated_at": "2026-03-06T02:07:04.154606+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, owner routing SLA, and Day0/3/7/14 verification closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7170_legal_to_onboarding_fast_track_handoff_contract_day0_day14_gates_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
+      "updated_at": "2026-03-06T02:07:04.154612+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Pack includes 12 hook-proof-CTA scripts, legal/procurement/champion role variants, objection tags, and funnel keyword mapping.",
       "artifact_path": "office_os/artifacts/P3-CONT-7172_12_proof_first_legal_approval_momentum_posts_role_specific_cta_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
+      "updated_at": "2026-03-06T02:07:04.154616+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Ladder defines stale-age breach tiers, owner correction SLAs, deterministic transitions, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS_autonomous_stale_task_remediation_ladder_owner_breach_slas_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T01:07:04.436941+08:00",
+      "updated_at": "2026-03-06T02:07:04.154626+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +188,7 @@
       "acceptance": "Linter defines 100-point quality rubric for outbound sequences, rewrite triggers, pass threshold, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7173_autonomous_outbound_sequence_quality_linter_score_gates_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
+      "updated_at": "2026-03-06T02:07:04.154621+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +209,36 @@
       "acceptance": "Canary defines next-run closure checks, stale-counter reset assertions, replay-failure reopen gates, and closure evidence fields.",
       "artifact_path": "office_os/artifacts/P5-REL_cron_pending_verify_closure_canary_stale_counter_reset_reopen_gates_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T01:07:04.436947+08:00",
+      "updated_at": "2026-03-06T02:07:04.154630+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 02:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2037",
+      "artifact": "Added command-palette and Shift+W parity for sticky overflow expansion with persisted state and state-ledger trace so operators can control dense action surfaces keyboard-first during live recovery",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2036",
+      "artifact": "Added mobile sticky action-bar overflow with core action pinning and More/Less expansion so trust-critical controls remain readable and tappable on narrow viewports without hiding recovery paths",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 01:22",
       "owner": "BUILDER",
@@ -410,30 +413,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-7135",
-      "artifact": "Delivered cron pending_verify closure verifier with next-run closure gates, stale-counter reset audits, replay-failure reopen map, and strict evidence contract to prevent false incident resolution",
-      "path": "office_os/artifacts/P5-REL-7135_cron_pending_verify_closure_verifier_stale_counter_reset_audits_replay_reopen_map_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7134",
-      "artifact": "Delivered autonomous backlog stale-lane rebalance protocol with stale-tier thresholds, owner quota caps, deterministic rewrite routing, and run-level audit schema to suppress queue entropy under constrained execution bandwidth",
-      "path": "office_os/artifacts/P4-OPS-7134_autonomous_backlog_stale_lane_rebalance_protocol_owner_quota_caps_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7131",
-      "artifact": "Delivered onboarding evidence integrity contract v27 with mandatory payload schema, 12 anti-gaming hard checks, severity-routing SLA matrix, and deterministic dual-attestation closure criteria for audit-safe onboarding incident resolution",
-      "path": "office_os/artifacts/P2-PROD-7131_onboarding_evidence_integrity_contract_v27_anti_gaming_dual_attestation_sla_2026-03-05.md",
       "status": "done"
     }
   ],
