@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T12:21:46.973625+00:00",
+  "now": "2026-03-05T12:30:21.907039+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7119",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 12-touch procurement thaw campaign with proof-routing by objection class and CTA escalation ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Campaign includes day0-day16 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI fields for reply-rate and meeting-booked lift.",
-      "artifact_path": "office_os/artifacts/P1-REV-7119_founder_12touch_procurement_thaw_campaign_proof_routing_objection_class_cta_escalation_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7120",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -214,27 +193,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7123",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 16 proof-first short posts for legal-delay and procurement no-decision reversals with funnel-stage keyword mapping",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Pack includes 16 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7123_16_proof_first_short_posts_legal_delay_procurement_no_decision_reversals_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7124",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 20:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7123",
+      "artifact": "Delivered 16 proof-first short posts for legal-delay and procurement no-decision reversals with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping",
+      "path": "office_os/artifacts/P3-CONT-7123_16_proof_first_short_posts_legal_delay_procurement_no_decision_reversals_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 20:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7119",
+      "artifact": "Delivered founder 12-touch procurement thaw campaign with day0-day16 touch map, objection-class proof routing, CTA escalation ladder, and KPI instrumentation for deterministic no-decision reversal",
+      "path": "office_os/artifacts/P1-REV-7119_founder_12touch_procurement_thaw_campaign_proof_routing_objection_class_cta_escalation_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 20:16",
       "owner": "BUILDER",
@@ -460,22 +434,6 @@
       "taskId": "P4-OPS-7086",
       "artifact": "Delivered autonomous stale-task rewrite scoreboard with owner-level breach heatmap thresholds, deterministic correction SLA loop, and run-level audit schema",
       "path": "office_os/artifacts/P4-OPS-7086_autonomous_stale_task_rewrite_scoreboard_owner_breach_heatmap_correction_sla_loop_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 17:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7084",
-      "artifact": "Delivered onboarding evidence integrity contract v24 with mandatory payload schema, 10 anti-gaming hard checks, severity routing SLA matrix, deterministic Day3/Day7/Day14/Day30 control gates, and closure/reopen attestation logic",
-      "path": "office_os/artifacts/P2-PROD-7084_onboarding_evidence_integrity_contract_v24_anti_gaming_hard_checks_deterministic_closure_attestations_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 17:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7080",
-      "artifact": "Delivered procurement freeze break script v18 with quantified delay-penalty calculator, 14 objection branches, reciprocal no-discount concession swaps, and explicit floor-margin close/no-close exits for margin-safe freeze reversal",
-      "path": "office_os/artifacts/P1-REV-7080_procurement_freeze_break_script_v18_delay_penalty_calculator_no_discount_concession_swaps_2026-03-05.md",
       "status": "done"
     }
   ],
