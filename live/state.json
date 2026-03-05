@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T13:00:57.826004+00:00",
+  "now": "2026-03-05T13:10:05.007061+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7116",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-20 expansion reactivation strike board with H24/H48 owner-swap triggers and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Board ranks top-20 stalled expansion opportunities by recoverable ARR, maps deterministic H24/H48 owner-swap interventions, and enforces binary salvage-or-kill gates with forecast delta evidence.",
-      "artifact_path": "office_os/artifacts/P1-REV-7116_top20_expansion_reactivation_strike_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7117",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7120",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design renewal red-zone intervention heatmap with ARR-weighted weekly save sprints and deterministic kill checkpoints",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Heatmap scores renewal risk by ARR impact, assigns weekly save sprint owners, and defines measurable save-or-exit checkpoints with deterministic threshold rules.",
-      "artifact_path": "office_os/artifacts/P1-REV-7120_renewal_red_zone_intervention_heatmap_arr_weighted_weekly_save_sprints_kill_checkpoints_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
+      "updated_at": "2026-03-05T21:07:02.614434+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
+      "updated_at": "2026-03-05T21:07:02.614451+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
+      "updated_at": "2026-03-05T21:07:02.614462+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,36 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T20:21:00+08:00",
-      "updated_at": "2026-03-05T20:21:00+08:00",
+      "updated_at": "2026-03-05T21:07:02.614457+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 21:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 21:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7116",
+      "artifact": "Delivered top-20 expansion reactivation strike board with recoverable-ARR ranking, deterministic H24/H48 owner-swap interventions, and binary salvage-or-kill gates wired to forecast delta evidence fields for commit hygiene",
+      "path": "office_os/artifacts/P1-REV-7116_top20_expansion_reactivation_strike_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 21:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7120",
+      "artifact": "Delivered renewal red-zone intervention heatmap with ARR-weighted risk scoring, weekly save sprint owner+backup assignment, and deterministic W1-W4 kill checkpoints with hard evidence gates and forecast-clean save-or-exit rules",
+      "path": "office_os/artifacts/P1-REV-7120_renewal_red_zone_intervention_heatmap_arr_weighted_weekly_save_sprints_kill_checkpoints_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 20:37",
       "owner": "COMMAND",
@@ -368,30 +350,6 @@
       "taskId": "P1-REV-7087",
       "artifact": "Delivered top-15 security-cleared expansion acceleration board with recoverable-ARR priority scoring, deterministic H24/H48 owner-swap triggers, and binary reopen-or-kill salvage gates with forecast delta fields",
       "path": "office_os/artifacts/P1-REV-7087_top15_security_cleared_expansion_acceleration_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 17:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 17:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, concrete acceptance criteria, and owner-assigned executable tasks",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 17:20",
-      "owner": "COMMAND",
-      "taskId": "P5-REL-7045",
-      "artifact": "Delivered cron artifact drift triage ladder with S1-S3 severity routing, deterministic fallback actions, and pending_verify recovery checks with closure evidence schema",
-      "path": "office_os/artifacts/P5-REL-7045_cron_artifact_drift_triage_ladder_pending_verify_recovery_checks_2026-03-05.md",
       "status": "done"
     }
   ],
