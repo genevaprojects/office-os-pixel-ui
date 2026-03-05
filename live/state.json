@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T19:50:05.338372+00:00",
+  "now": "2026-03-05T20:00:08.179322+00:00",
   "workers": [
     {
       "name": "Research",
@@ -237,6 +237,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-06 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2045",
+      "artifact": "Upgraded sticky RECOVER posture status to include explicit lead owner+task signal (owner:task) so boardroom observers see immediate accountability instead of counters-only telemetry",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 03:50",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2044",
+      "artifact": "Added a one-sentence investor verdict rail to Command Jump status and wired a one-click “Copy 10s verdict” action so interruption-time narration can be delivered instantly with live gate context",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-06 03:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -418,22 +434,6 @@
       "taskId": "P0-FE-2030",
       "artifact": "Added sticky Queue-all action that copies a deterministic monitor→top-risk→decision recovery bundle and auto-routes to trust lane for one-click interruption handling during investor demos",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 00:23",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-06 00:37"
-    },
-    {
-      "time": "2026-03-06 00:22",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7155",
-      "artifact": "Delivered autonomous backlog quality decay sentinel with breach tiers, owner rewrite quotas, deterministic transitions, and run-level audit schema to suppress backlog entropy",
-      "path": "office_os/artifacts/P4-OPS-7155_autonomous_backlog_quality_decay_sentinel_breach_tiers_rewrite_quotas_2026-03-05.md",
       "status": "done"
     }
   ],
