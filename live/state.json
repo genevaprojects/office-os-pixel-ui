@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T22:30:07.867969+00:00",
+  "now": "2026-03-05T22:40:05.516769+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7205",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive legal-owner escalation map for stalled committees with D1/D2/D5 binary proof gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "acceptance": "Map defines legal owner assignment, D1/D2/D5 interventions, deterministic escalation path, and binary meeting-booked/proposal-sent proof fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7205_executive_legal_owner_escalation_map_d1_d2_d5_binary_proof_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T06:20:00+08:00",
-      "updated_at": "2026-03-06T06:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7206",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -141,27 +120,6 @@
       "urgency": 3,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA, and deterministic Day0/3/7/14 closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7206_procurement_delay_onboarding_fast_track_contract_v30_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T06:20:00+08:00",
-      "updated_at": "2026-03-06T06:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7207",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build Day0-Day30 stalled-procurement activation recovery board with rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board maps stalled-procurement activation risks to severity lanes, rollback-safe interventions, and deterministic Day3/7/14/30 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7207_day0_day30_stalled_procurement_activation_recovery_board_2026-03-06.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
