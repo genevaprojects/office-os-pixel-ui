@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T06:00:12.926867+00:00",
+  "now": "2026-03-05T06:10:06.279692+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7050",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create top-10 procurement freeze rescue board with H24/H48 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-10 frozen procurement deals by recoverable ARR, maps H24/H48 owner-swap interventions, and enforces binary salvage-or-kill gates with forecast delta tracking.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7051",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified budget-freeze downside ledger, no-discount concession routes, and explicit floor-margin close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
+      "updated_at": "2026-03-05T14:07:03.336719+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Checklist defines rollback rehearsal steps, evidence capture requirements, owner signoffs, and Day7/Day14/Day30 confidence pass/fail gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
+      "updated_at": "2026-03-05T14:07:03.336735+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Protocol defines stale-age thresholds, duplicate-prune rules, rewrite SLA actions, and run-level audit fields before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T13:07:03.342406+08:00",
+      "updated_at": "2026-03-05T14:07:03.336753+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Protocol defines duplicate fingerprinting logic, canonical merge rules, deprecation tags, and audit fields to prevent duplicate drift.",
       "artifact_path": null,
       "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
+      "updated_at": "2026-03-05T14:07:03.336748+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Gate enforces measurable acceptance criteria, owner completeness, stale-age blockers, and deterministic fail reasons before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
+      "updated_at": "2026-03-05T14:07:03.336740+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,12 +188,20 @@
       "acceptance": "Ladder defines drift tiers, first-response actions, suppression windows, and pending_verify verification checks before incident resolution.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T13:07:03.342411+08:00",
+      "updated_at": "2026-03-05T14:07:03.336757+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 14:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 13:37",
       "owner": "COMMAND",
@@ -405,14 +392,6 @@
       "taskId": "P2-PROD-7023",
       "artifact": "Delivered day0-day14 activation drift fingerprint triage card with severity owner routing, rollback-safe intervention matrix, Day3/Day7/Day14 verification gates, and pending_verify closure constraints",
       "path": "office_os/artifacts/P2-PROD-7023_activation_drift_fingerprint_triage_card_day0_day14_rollback_guardrails_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 10:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-7020",
-      "artifact": "Delivered day2/day5/day8 late-stage stall rescue cadence with deterministic owner+backup activation rules, checkpoint pass/fail gates, and reopen/proposal/close outcome tracking schema",
-      "path": "office_os/artifacts/P1-REV-7020_day2_day5_day8_rescue_cadence_stalled_latestage_owner_backup_2026-03-05.md",
       "status": "done"
     }
   ],
