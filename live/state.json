@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T23:30:06.167325+00:00",
+  "now": "2026-03-05T23:40:06.826801+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7212",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive legal-owner intervention cadence for post-redline silence with D1/D2/D5 gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "acceptance": "Cadence maps legal-silent fingerprints to D1/D2/D5 interventions, owner+backup auto-swap rules, and binary proof gates for reopen/kill decisions.",
-      "artifact_path": "office_os/artifacts/P1-REV-7212_executive_legal_owner_intervention_cadence_d1_d2_d5_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T07:20:36+08:00",
-      "updated_at": "2026-03-06T07:20:36+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7213",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -162,27 +141,6 @@
       "urgency": 3,
       "acceptance": "Payload defines mandatory schema, anti-gaming hard checks, severity routing SLA, and deterministic Day0/3/7/14 closure attestations.",
       "artifact_path": "office_os/artifacts/P2-PROD-7214_legal_to_onboarding_handoff_payload_v30_anti_gaming_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T07:20:36+08:00",
-      "updated_at": "2026-03-06T07:20:36+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7215",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build Day0-Day30 onboarding drift recovery board v3 for procurement-delayed cohorts",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "acceptance": "Board maps procurement-delayed onboarding risks to severity lanes, rollback-safe interventions, and deterministic Day0/3/7/14/21/30 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7215_day0_day30_onboarding_drift_recovery_board_v3_2026-03-06.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -341,6 +299,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 07:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7215",
+      "artifact": "Delivered Day0-Day30 onboarding drift recovery board v3 for procurement-delayed cohorts with severity lanes, rollback-safe interventions, and deterministic Day0/3/7/14/21/30 verification gates for explicit recovery-or-recycle closure",
+      "path": "office_os/artifacts/P2-PROD-7215_day0_day30_onboarding_drift_recovery_board_v3_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 07:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7212",
+      "artifact": "Delivered executive legal-owner intervention cadence for post-redline silence with D1/D2/D5 fingerprint-based interventions, owner+backup auto-swap triggers, and binary reopen-or-kill proof gates to force deterministic deal movement",
+      "path": "office_os/artifacts/P1-REV-7212_executive_legal_owner_intervention_cadence_d1_d2_d5_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 07:16",
       "owner": "BUILDER",
@@ -515,30 +497,6 @@
       "taskId": "P2-PROD-7185",
       "artifact": "Delivered legal-to-onboarding fast-track payload v29 with mandatory schema contract, 12 anti-gaming hard checks, SLA severity routing matrix, and deterministic dual-attestation closure gates with reopen safeguards",
       "path": "office_os/artifacts/P2-PROD-7185_legal_to_onboarding_fast_track_payload_v29_anti_gaming_closure_attestations_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7182",
-      "artifact": "Delivered CFO legal-delay reversal script v24 with quantified delay-loss ledger, 13 objection branches, reciprocal no-discount concession rails, and explicit floor-margin close/pause/recycle exits for deterministic late-stage decision forcing",
-      "path": "office_os/artifacts/P1-REV-7182_cfo_legal_delay_reversal_script_v24_delay_loss_no_discount_rails_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2047",
-      "artifact": "Added Command Jump status digest surface across status rail action, command palette command, and Shift+J hotkey, packaging active jump, 10s verdict, checkpoint, preflight, and drill telemetry into a single copy-ready brief",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2046",
-      "artifact": "Upgraded Command Jump status rail action parity by adding one-click copy for boardroom 2-minute update and escalation pack so investor interruption narration can be emitted without panel/context switching",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
