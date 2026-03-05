@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T03:00:04.664615+00:00",
+  "now": "2026-03-05T03:10:06.918806+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7018",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build legal-silent enterprise deal unblock triage board with 24h owner commitments and recoverable ARR ranking",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top legal-silent enterprise deals by recoverable ARR, assigns 24h owner commitments, defines unblock triggers, and enforces reopen-or-kill checkpoint logic with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7019",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified concession bands, reciprocal trade rules, and explicit margin-floor close/no-close exits for same-call control.",
       "artifact_path": null,
       "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
+      "updated_at": "2026-03-05T11:07:04.151543+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming controls, severity routing tiers, and deterministic closure attestations with owner accountability.",
       "artifact_path": null,
       "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
+      "updated_at": "2026-03-05T11:07:04.151559+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Spec defines age-bucket rewrite triggers, SLA windows, and run-level audit fields before stale tasks can be promoted to READY.",
       "artifact_path": null,
       "created_at": "2026-03-05T09:20:00+08:00",
-      "updated_at": "2026-03-05T09:20:00+08:00",
+      "updated_at": "2026-03-05T11:07:04.151564+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Linter defines quality score thresholds, rewrite triggers, and deterministic READY promotion gates with run-level audit fields for acceptance quality drift.",
       "artifact_path": null,
       "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
+      "updated_at": "2026-03-05T11:07:04.151575+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +167,20 @@
       "acceptance": "Card defines checksum drift thresholds, tiered triage order, suppression windows, and pending_verify-to-resolved verification checks.",
       "artifact_path": null,
       "created_at": "2026-03-05T09:20:00+08:00",
-      "updated_at": "2026-03-05T09:20:00+08:00",
+      "updated_at": "2026-03-05T11:07:04.151571+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 11:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 10:37",
       "owner": "COMMAND",
@@ -384,14 +371,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "backlog top-up",
       "path": "office_os/TOPUP_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 08:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
