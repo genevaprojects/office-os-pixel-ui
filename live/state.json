@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T14:21:18.903882+00:00",
+  "now": "2026-03-05T14:30:04.647715+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7139",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 10-touch no-decision thaw sequence with objection-tagged proof routing and CTA escalation ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI schema for replies, meetings, and proposal reopens.",
-      "artifact_path": "office_os/artifacts/P1-REV-7139_founder_10touch_no_decision_thaw_sequence_proof_routing_cta_escalation_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T22:20:00+08:00",
-      "updated_at": "2026-03-05T22:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7140",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -204,27 +183,6 @@
       "urgency": 3,
       "acceptance": "Matrix maps trust-failure fingerprints to severity owners, rollback-safe intervention options, and Day3/Day7/Day14/Day30 verification gates.",
       "artifact_path": "office_os/artifacts/P2-PROD-7142_day0_day30_onboarding_trust_recovery_matrix_severity_lanes_rollback_safe_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T22:20:00+08:00",
-      "updated_at": "2026-03-05T22:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7143",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 14 proof-first short posts for security-review fatigue and procurement delay objection reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Pack includes 14 hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7143_14_proof_first_short_posts_security_review_fatigue_procurement_delay_2026-03-05.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
