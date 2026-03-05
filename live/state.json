@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T22:00:07.395758+00:00",
+  "now": "2026-03-05T22:10:05.395883+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7196",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 legal-approved but no-action deal strike board with H24/H48 owner swap triggers and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Board ranks 12 deals by recoverable ARR, assigns H24/H48 owner+backup intervention swaps, and enforces binary salvage-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7196_top12_legal_approved_no_action_deal_strike_board_h24_h48_arr_salvage_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7197",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
+      "updated_at": "2026-03-06T06:07:04.598986+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
+      "updated_at": "2026-03-06T06:07:04.599003+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
+      "updated_at": "2026-03-06T06:07:04.599009+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
+      "updated_at": "2026-03-06T06:07:04.599023+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Card defines 100-point rubric for KPI evidence quality, rewrite triggers, pass threshold, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-7180_define_autonomous_kpi_evidence_lint_card_for_revenue_artifacts_with_rewrite_triggers_2026-03-06.md",
       "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T05:07:07.884755+08:00",
+      "updated_at": "2026-03-06T06:07:04.599019+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +188,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T03:21:00+08:00",
-      "updated_at": "2026-03-06T05:07:07.884751+08:00",
+      "updated_at": "2026-03-06T06:07:04.599014+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,7 +209,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
+      "updated_at": "2026-03-06T06:07:04.599027+08:00",
       "started_at": null,
       "due_at": null
     }
@@ -242,7 +221,7 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-06 06:07"
     },
     {
       "time": "2026-03-06 05:20",
