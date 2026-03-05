@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T01:04:00.812674+00:00",
+  "now": "2026-03-05T01:10:05.280346+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7001",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 stalled procurement committee rescue board with H24/H48 owner actions and ARR recovery gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-12 stalled procurement committees by recoverable ARR, maps deterministic H24/H48 owner interventions, and enforces binary recover-or-kill gates with forecast delta tracking.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7002",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified downside-offset framing, concession bands, and explicit floor-margin close/no-close walkaway exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540461+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Map scores renewal red flags by ARR risk, assigns weekly save sprint owners, and defines measurable save-or-exit checkpoints.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540455+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Scorecard ranks top-20 late-stage deals, assigns owner+backup by gate window, and records reopen/proposal/close outcomes with thresholded interventions.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540441+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Contract defines mandatory payload fields, anti-gaming checks, severity routing tiers, and deterministic closure attestation checklist with owner accountability.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540470+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Playbook maps anomaly fingerprints to severity owners, rollback-safe intervention paths, and day3/day7/day14 verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540465+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +188,7 @@
       "acceptance": "Spec defines stale-bucket auto-tag logic, rewrite SLA enforcement steps, and run-level audit fields for freshness compliance.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540478+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +209,28 @@
       "acceptance": "Sentinel defines checksum drift thresholds, tiered response actions, false-positive suppression windows, and pending_verify closure guardrails.",
       "artifact_path": null,
       "created_at": "2026-03-05T08:21:40+08:00",
-      "updated_at": "2026-03-05T08:21:40+08:00",
+      "updated_at": "2026-03-05T09:07:04.540474+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 09:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 09:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7001",
+      "artifact": "Delivered top-12 stalled procurement committee rescue board with recoverable-ARR ranking, deterministic H24/H48 owner interventions, binary recover-or-kill gates, and forecast-delta tracking schema for quarter-end forecast integrity",
+      "path": "office_os/artifacts/P1-REV-7001_top12_stalled_procurement_committee_rescue_board_h24_h48_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 08:27",
       "owner": "SOCIAL",
@@ -418,22 +413,6 @@
       "taskId": "P1-REV-6461",
       "artifact": "Delivered procurement-objection reversal call script v9 with 14 objection branches, quantified delay-cost framing, concession bands A/B/C, and hard floor-price close/no-close walk-away gates",
       "path": "office_os/artifacts/P1-REV-6461_procurement_objection_reversal_call_script_v9_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 06:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 06:01",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-1997",
-      "artifact": "Added Executive→Operator Handoff Sentinel with a 60-second readiness gate, explicit owner/checkpoint execution line, and one-click select/focus/copy actions for trust-safe handoff during live operations",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
