@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T16:00:05.838566+00:00",
+  "now": "2026-03-05T16:10:04.793271+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7146",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 14-day expansion fast-close warpath with H24/H48 owner swap triggers and ARR-weighted kill gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Warpath ranks top expansion deals by recoverable ARR, defines H24/H48 owner swap triggers, and enforces binary reopen-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7146_expansion_fast_close_warpath_h24_h48_owner_swaps_arr_kill_gates_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7147",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7150",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build renewal red-zone save board with ARR-weighted risk lanes and week-by-week kill checkpoints",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board scores renewal risk by ARR, assigns weekly save owners, and defines deterministic save-or-exit kill checkpoints with evidence fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7150_renewal_red_zone_save_board_arr_weighted_weekly_kill_checkpoints_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
+      "updated_at": "2026-03-06T00:07:05.512811+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
+      "updated_at": "2026-03-06T00:07:05.512827+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
+      "updated_at": "2026-03-06T00:07:05.512835+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,36 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
+      "updated_at": "2026-03-06T00:07:05.512840+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 00:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 00:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2027",
+      "artifact": "Upgraded Frontend Continuity Sprint Rail with copy-ready 2-task sprint plan payload (current deterministic pull + follow-up seed) to preserve autonomous execution continuity through queue state shifts",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 00:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2026",
+      "artifact": "Upgraded Frontend READY Lane Sentinel with deterministic backlog task-seed payload generation (next P0-FE id, acceptance criteria, dependency context) and one-click copy action so zero-READY states stay execution-ready without manual task drafting",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 23:37",
       "owner": "COMMAND",
@@ -368,30 +350,6 @@
       "taskId": "P4-OPS-7124",
       "artifact": "Delivered autonomous backlog entropy suppression card with stale-age pressure tiers, owner rewrite quota enforcement, deterministic escalation transitions, and run-level audit schema to reduce stale-task throughput drag",
       "path": "office_os/artifacts/P4-OPS-7124_autonomous_backlog_entropy_suppression_card_stale_age_pressure_tiers_rewrite_quota_enforcement_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:06",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-7116",
-      "artifact": "Delivered top-20 expansion reactivation strike board with recoverable-ARR ranking, deterministic H24/H48 owner-swap interventions, and binary salvage-or-kill gates wired to forecast delta evidence fields for commit hygiene",
-      "path": "office_os/artifacts/P1-REV-7116_top20_expansion_reactivation_strike_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-7120",
-      "artifact": "Delivered renewal red-zone intervention heatmap with ARR-weighted risk scoring, weekly save sprint owner+backup assignment, and deterministic W1-W4 kill checkpoints with hard evidence gates and forecast-clean save-or-exit rules",
-      "path": "office_os/artifacts/P1-REV-7120_renewal_red_zone_intervention_heatmap_arr_weighted_weekly_save_sprints_kill_checkpoints_2026-03-05.md",
       "status": "done"
     }
   ],
