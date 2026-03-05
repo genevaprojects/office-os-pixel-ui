@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T10:00:04.998335+00:00",
+  "now": "2026-03-05T10:10:04.716746+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7087",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 security-cleared expansion acceleration board with H24/H48 owner-swap triggers and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 security-cleared expansion opportunities by recoverable ARR, maps deterministic H24/H48 owner-swap triggers, and enforces reopen-or-kill salvage gates with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7088",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-penalty framing, reciprocal no-discount concession rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7091",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design quarter-end renewal rescue heatmap with ARR-weighted save sprints and weekly kill checkpoints",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
+      "updated_at": "2026-03-05T18:07:03.517740+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
       "artifact_path": null,
       "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
+      "updated_at": "2026-03-05T18:07:03.517758+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Index defines owner-level task-aging pressure tiers, rewrite quotas by priority class, breach transitions, and run-level audit output fields.",
       "artifact_path": null,
       "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
+      "updated_at": "2026-03-05T18:07:03.517764+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,36 @@
       "acceptance": "Verifier defines dedup fingerprints, pending_verify reopen conditions, stale-counter reset checks, and closure-evidence requirements.",
       "artifact_path": null,
       "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T17:07:03.615515+08:00",
+      "updated_at": "2026-03-05T18:07:03.517769+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 18:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 18:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7091",
+      "artifact": "Delivered quarter-end renewal rescue heatmap with ARR-weighted risk scoring, owner/backup sprint routing, and deterministic Tuesday/Thursday/Friday save-or-exit checkpoints for forecast hygiene",
+      "path": "office_os/artifacts/P1-REV-7091_quarter_end_renewal_rescue_heatmap_arr_weighted_save_sprints_weekly_kill_checkpoints_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 18:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7087",
+      "artifact": "Delivered top-15 security-cleared expansion acceleration board with recoverable-ARR priority scoring, deterministic H24/H48 owner-swap triggers, and binary reopen-or-kill salvage gates with forecast delta fields",
+      "path": "office_os/artifacts/P1-REV-7087_top15_security_cleared_expansion_acceleration_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 17:37",
       "owner": "COMMAND",
@@ -368,30 +350,6 @@
       "taskId": "P1-REV-7063",
       "artifact": "Delivered day0-day10 executive reactivation cadence for legal-silent buying committees with fingerprint taxonomy, D1/D3/D5/D7/D10 binary progression gates, owner-swap triggers, and salvage-or-kill discipline to force deterministic pipeline outcomes",
       "path": "office_os/artifacts/P1-REV-7063_day0_day10_executive_reactivation_cadence_legal_silent_buying_committees_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7055",
-      "artifact": "Delivered autonomous backlog duplicate-fingerprint pruner protocol with canonical merge rules, deprecation tagging, and audit fields to suppress duplicate task drift",
-      "path": "office_os/artifacts/P4-OPS-7055_autonomous_backlog_duplicate_fingerprint_pruner_canonical_merge_protocol_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7056",
-      "artifact": "Delivered READY-lane quality gate spec with measurable acceptance lints, owner completeness checks, stale-age blockers, and deterministic fail reasons before READY promotion",
-      "path": "office_os/artifacts/P4-OPS-7056_ready_lane_quality_gate_measurable_acceptance_lints_stale_age_blockers_2026-03-05.md",
       "status": "done"
     }
   ],
