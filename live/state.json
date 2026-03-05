@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T15:21:45.023632+00:00",
+  "now": "2026-03-05T15:30:05.636279+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7149",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 10-touch committee reactivation campaign with objection-tagged proof routing and CTA ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Campaign includes day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI fields for replies, meetings, and proposal reopens.",
-      "artifact_path": "office_os/artifacts/P1-REV-7149_founder_10touch_committee_reactivation_campaign_proof_routing_cta_ladder_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7150",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -204,27 +183,6 @@
       "urgency": 3,
       "acceptance": "Contract defines payload schema, anti-gaming hard checks, severity-routing SLA matrix, and deterministic dual-attestation closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7152_onboarding_evidence_integrity_contract_v28_anti_gaming_dual_attestation_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T23:20:00+08:00",
-      "updated_at": "2026-03-05T23:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7153",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 16 proof-first short posts for procurement freeze and security-review fatigue reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Pack includes 16 hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7153_16_proof_first_short_posts_procurement_freeze_security_review_fatigue_2026-03-05.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
