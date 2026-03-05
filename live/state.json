@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T20:30:05.591796+00:00",
+  "now": "2026-03-05T20:40:04.830082+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,27 +99,6 @@
       "urgency": 4,
       "acceptance": "Matrix includes 12+ objection rows, reciprocal concession bands, quantified delay-loss framing, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7190_cfo_no_discount_concession_matrix_v25_procurement_freeze_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7191",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 silent procurement rescue scoreboard with reply/workshop/reopen KPI instrumentation",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "acceptance": "Scoreboard ranks 10 accounts, tracks touch cadence and KPI triplet (reply/workshop/reopen), and defines deterministic next action per risk tier.",
-      "artifact_path": "office_os/artifacts/P1-REV-7191_top10_silent_procurement_rescue_scoreboard_kpi_instrumentation_2026-03-06.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -235,27 +214,6 @@
       "due_at": null
     },
     {
-      "id": "P5-REL-7165",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron pending_verify closure canary with stale-counter reset assertions and reopen gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Canary defines next-run closure checks, stale-counter reset assertions, replay-failure reopen gates, and closure evidence fields.",
-      "artifact_path": "office_os/artifacts/P5-REL_cron_pending_verify_closure_canary_stale_counter_reset_reopen_gates_2026-03-06.md",
-      "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T02:07:04.154630+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P5-REL-7195",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -278,6 +236,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 04:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 04:36",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-7165",
+      "artifact": "Delivered cron pending_verify closure canary with stale-counter reset assertions, next-run verification gates, deterministic reopen criteria, and resolution evidence contract to prevent false incident closure",
+      "path": "office_os/artifacts/P5-REL-7165_cron_pending_verify_closure_canary_stale_counter_reset_assertions_reopen_gates_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 04:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7191",
+      "artifact": "Delivered top-10 silent procurement rescue scoreboard with ARR-ranked accounts, reply/workshop/reopen KPI triplet instrumentation, trigger thresholds, and deterministic next actions by risk tier to force reopen-or-kill execution discipline",
+      "path": "office_os/artifacts/P1-REV-7191_top10_silent_procurement_rescue_scoreboard_kpi_instrumentation_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 04:20",
       "owner": "COMMAND",
@@ -452,30 +434,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2037",
-      "artifact": "Added command-palette and Shift+W parity for sticky overflow expansion with persisted state and state-ledger trace so operators can control dense action surfaces keyboard-first during live recovery",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 02:00",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2036",
-      "artifact": "Added mobile sticky action-bar overflow with core action pinning and More/Less expansion so trust-critical controls remain readable and tappable on narrow viewports without hiding recovery paths",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/styles.css;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 01:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2033",
-      "artifact": "Added checkpoint-jump command in command palette plus Shift+X hotkey coverage so operators can route to the nearest risk lane instantly without breaking demo flow",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
