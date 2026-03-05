@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T02:21:44.127579+00:00",
+  "now": "2026-03-05T02:30:05.942477+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7021",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder multichannel proof-routing sprint for security-cleared no-decision committees",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sprint includes 8-touch channel map, objection tags, proof-routing blocks, CTA ladder, and KPI instrumentation for reply-rate and meeting-booked lift.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7022",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -186,27 +165,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Card maps activation drift fingerprints to severity owners, rollback-safe interventions, and day3/day7/day14 verification rules with pending_verify constraints.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7024",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 proof-first short posts for procurement fatigue and legal redline stalls",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack contains 12 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T10:20:00+08:00",
       "updated_at": "2026-03-05T10:20:00+08:00",
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 10:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7024",
+      "artifact": "Delivered 12 proof-first short posts for procurement fatigue and legal redline stalls with hook-proof-CTA scripts, objection tags, channel variants, and funnel-mapped conversion keywords",
+      "path": "office_os/artifacts/P3-CONT-7024_12_proof_first_short_posts_procurement_fatigue_legal_redline_stalls_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 10:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7021",
+      "artifact": "Delivered founder multichannel proof-routing sprint for security-cleared no-decision committees with 8-touch channel cadence, objection tags, persona proof blocks, CTA ladder, and KPI instrumentation for reply-rate and meeting-booked lift",
+      "path": "office_os/artifacts/P1-REV-7021_founder_multichannel_proof_routing_sprint_security_cleared_no_decision_committees_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 09:37",
       "owner": "COMMAND",
@@ -460,22 +434,6 @@
       "taskId": "P5-REL-6459",
       "artifact": "Delivered cron artifact freshness sentinel spec for growth-critical jobs with deterministic age states, stale fingerprint detection, tiered remediation flow, suppression bounds, and pending_verify closure guards",
       "path": "office_os/artifacts/P5-REL-6459_cron_artifact_freshness_sentinel_growth_critical_jobs_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 07:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6612",
-      "artifact": "Delivered 7-day short-form rebuttal calendar for procurement/legal stall objections with daily hook-proof-CTA scripts, tag matrix, repurposing plan, and KPI framework",
-      "path": "office_os/artifacts/P3-CONT-6612_7day_shortform_rebuttal_calendar_procurement_legal_stall_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 07:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-6611",
-      "artifact": "Delivered founder multichannel committee no-decision reactivation pack with 10-touch sequence, proof-block library, objection-tag routing, and CTA ladder for rapid decision-call recovery",
-      "path": "office_os/artifacts/P3-CONT-6611_founder_multichannel_committee_nodecision_reactivation_pack_2026-03-05.md",
       "status": "done"
     }
   ],
