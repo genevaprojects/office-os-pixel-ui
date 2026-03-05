@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T18:21:56.976938+00:00",
+  "now": "2026-03-05T18:30:05.792852+00:00",
   "workers": [
     {
       "name": "Research",
@@ -172,27 +172,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7179",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 10 proof-first short videos for legal-delay objection reversals with role-specific CTA variants",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts, legal/procurement/champion variants, objection tags, and funnel keyword mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7179_create_10_proof_first_short_videos_for_legal_delay_objection_reversals_with_role_specific_cta_variants_2026-03-06.md",
-      "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T02:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7164",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +257,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 02:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7179",
+      "artifact": "Delivered 10 proof-first short video scripts for legal-delay objection reversals with legal/procurement/champion CTA variants, objection tags, and funnel keyword mapping for role-routed distribution",
+      "path": "office_os/artifacts/P3-CONT-7179_create_10_proof_first_short_videos_for_legal_delay_objection_reversals_with_role_specific_cta_variants_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 02:20",
       "owner": "COMMAND",
@@ -468,14 +455,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 23:20",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-7145",
-      "artifact": "Delivered cron anomaly closure integrity checklist with pending_verify replay gates, stale-counter reset proof contract, and deterministic reopen criteria to prevent false recovery closure",
-      "path": "office_os/artifacts/P5-REL-7145_cron_anomaly_closure_integrity_checklist_pending_verify_replay_stale_counter_proofs_2026-03-05.md",
       "status": "done"
     }
   ],
