@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T09:30:05.222736+00:00",
+  "now": "2026-03-05T09:40:06.851735+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7089",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-committee silence breaker cadence with D1/D3/D6 actions and binary progression gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps legal-committee silence fingerprints to D1/D3/D6 owner actions, owner+backup accountability, and binary meeting-booked/proposal-sent progression gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7091",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T17:20:00+08:00",
-      "updated_at": "2026-03-05T17:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7092",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build day0-day30 onboarding trust recovery board with severity lanes and rollback-safe intervention paths",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps onboarding trust-failure fingerprints to severity lanes, rollback-safe interventions, and Day3/Day7/Day14/Day30 verification gates with owner SLAs.",
       "artifact_path": null,
       "created_at": "2026-03-05T17:20:00+08:00",
       "updated_at": "2026-03-05T17:20:00+08:00",
@@ -236,6 +194,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 17:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 17:20",
       "owner": "COMMAND",
@@ -426,14 +392,6 @@
       "taskId": "P4-OPS-7056",
       "artifact": "Delivered READY-lane quality gate spec with measurable acceptance lints, owner completeness checks, stale-age blockers, and deterministic fail reasons before READY promotion",
       "path": "office_os/artifacts/P4-OPS-7056_ready_lane_quality_gate_measurable_acceptance_lints_stale_age_blockers_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
