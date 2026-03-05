@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T23:00:07.149903+00:00",
+  "now": "2026-03-05T23:10:07.253026+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-7203",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 post-security-approved no-movement rescue board with H24/H48 owner swap rules and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Board ranks top-15 no-movement opportunities by recoverable ARR, defines H24/H48 owner+backup swap actions, and enforces binary salvage-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7203_top15_post_security_approved_no_movement_rescue_board_h24_h48_arr_salvage_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T06:20:00+08:00",
-      "updated_at": "2026-03-06T06:20:00+08:00",
-      "started_at": null,
-      "due_at": null
     },
     {
       "id": "P1-REV-7204",
