@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T10:21:55.059130+00:00",
+  "now": "2026-03-05T10:30:04.719514+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7099",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 12-touch security-review thaw sequence with objection-tagged proof routing and CTA escalation ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI instrumentation for reply-rate and meeting-booked lift.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7100",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -214,27 +193,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7103",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 18 proof-first short posts for procurement no-decision and legal-delay reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 18 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7104",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7103",
+      "artifact": "Delivered 18 proof-first short posts for procurement no-decision and legal-delay reversals with hook-proof-CTA scripts, objection tags, channel variants, and keyword CTA mapping",
+      "path": "office_os/artifacts/P3-CONT-7103_18_proof_first_short_posts_procurement_no_decision_legal_delay_reversals_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 18:26",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7099",
+      "artifact": "Delivered founder 12-touch security-review thaw sequence with objection-tagged proof routing, strict CTA escalation ladder, and KPI instrumentation for deterministic stalled-deal progression",
+      "path": "office_os/artifacts/P1-REV-7099_founder_12touch_security_review_thaw_sequence_objection_tagged_proof_routing_cta_escalation_ladder_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 18:12",
       "owner": "COMMAND",
@@ -460,22 +434,6 @@
       "taskId": "P4-OPS-7044",
       "artifact": "Delivered autonomous stale-task compression protocol with stale-age thresholds, duplicate-prune fingerprinting, rewrite SLA enforcement, and deterministic READY promotion fail codes",
       "path": "office_os/artifacts/P4-OPS-7044_autonomous_stale_task_compression_protocol_duplicate_prune_rewrite_sla_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 14:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-7066",
-      "artifact": "Delivered day0-day30 onboarding confidence rebound matrix with severity bands, drift fingerprints, rollback-safe escalation gates, and closure evidence attestation rules to recover confidence without introducing regression risk",
-      "path": "office_os/artifacts/P2-PROD-7066_day0_day30_onboarding_confidence_rebound_matrix_rollback_safe_escalation_gates_2026-03-05.md",
       "status": "done"
     }
   ],
