@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T14:00:17.108321+00:00",
+  "now": "2026-03-05T14:10:04.767469+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7126",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-25 dormant expansion wake list with recoverable ARR scoring and 7-day owner action lanes",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "List ranks top-25 dormant expansion deals by recoverable ARR, defines day-by-day owner actions (D0-D7), and includes binary reopen-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7126_top25_dormant_expansion_wake_list_recoverable_arr_7day_owner_lanes_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7127",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7130",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design renewal red-zone rescue board with ARR-weighted save sprints and deterministic week-by-week kill gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Board scores renewal risk by ARR, assigns weekly save sprint owners, and defines deterministic save-or-exit kill gates with evidence fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7130_renewal_red_zone_rescue_board_arr_weighted_save_sprints_weekly_kill_gates_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
+      "updated_at": "2026-03-05T22:07:04.074011+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
+      "updated_at": "2026-03-05T22:07:04.074026+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
+      "updated_at": "2026-03-05T22:07:04.074039+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,36 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
+      "updated_at": "2026-03-05T22:07:04.074034+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 22:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7130",
+      "artifact": "Delivered renewal red-zone rescue board with ARR-weighted risk scoring, weekly save sprint ownership, deterministic week-by-week kill gates, and evidence schema to force binary save-or-exit renewal outcomes",
+      "path": "office_os/artifacts/P1-REV-7130_renewal_red_zone_rescue_board_arr_weighted_save_sprints_weekly_kill_gates_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 22:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7126",
+      "artifact": "Delivered top-25 dormant expansion wake list with recoverable-ARR priority scoring, deterministic D0-D7 owner action lanes, binary reopen-or-kill checkpoints, and mandatory forecast-delta evidence fields for bandwidth-safe pipeline reactivation",
+      "path": "office_os/artifacts/P1-REV-7126_top25_dormant_expansion_wake_list_recoverable_arr_7day_owner_lanes_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 21:36",
       "owner": "EXECUTOR",
@@ -368,30 +350,6 @@
       "taskId": "P4-OPS-7104",
       "artifact": "Delivered autonomous stale-task remediation ladder with owner-level stale tiers, deterministic correction SLAs, T0-T3 escalation logic, and run-level audit fields to suppress backlog entropy before throughput collapse",
       "path": "office_os/artifacts/P4-OPS-7104_autonomous_stale_task_remediation_ladder_owner_correction_slas_audit_fields_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 19:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7102",
-      "artifact": "Delivered onboarding evidence integrity contract v26 with mandatory payload schema, 10 anti-gaming hard checks, severity routing SLA table, and deterministic dual-attestation closure criteria with pending_verify safeguards",
-      "path": "office_os/artifacts/P2-PROD-7102_onboarding_evidence_integrity_contract_v26_anti_gaming_hard_checks_deterministic_closure_attestations_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 19:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7097",
-      "artifact": "Delivered CFO risk-offset close script v20 for procurement-delay objections with quantified delay-cost framing, 13 objection branches, reciprocal no-discount concession rails, and explicit floor-margin close/no-close exits",
-      "path": "office_os/artifacts/P1-REV-7097_cfo_risk_offset_close_script_v20_procurement_delay_no_discount_concession_rails_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 19:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
