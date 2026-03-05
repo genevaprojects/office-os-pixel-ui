@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T17:30:06.331595+00:00",
+  "now": "2026-03-05T17:40:05.228079+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7168",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive mutual action plan template for legal-owner alignment with checkpoint SLA enforcement",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Template defines legal owner assignment, weekly checkpoint SLA, proof-of-progress fields, and deterministic escalation path for missed checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-7168_executive_mutual_action_plan_legal_owner_alignment_checkpoint_sla_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7169",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -166,27 +145,6 @@
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, owner routing SLA, and Day0/3/7/14 verification closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7170_legal_to_onboarding_fast_track_handoff_contract_day0_day14_gates_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T01:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7171",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create onboarding first-value risk matrix for legal-delayed cohorts with rollback-safe intervention lanes",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps legal-delayed onboarding risks to severity lanes, rollback-safe intervention options, and deterministic Day3/Day7/Day21 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7171_onboarding_first_value_risk_matrix_legal_delayed_cohorts_2026-03-06.md",
       "created_at": "2026-03-06T01:20:00+08:00",
       "updated_at": "2026-03-06T01:20:00+08:00",
       "started_at": null,
