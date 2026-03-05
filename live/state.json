@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T18:10:07.503986+00:00",
+  "now": "2026-03-05T18:21:56.976938+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,10 +67,31 @@
       ]
     },
     {
-      "id": "P1-REV-7167",
+      "id": "P1-REV-7174",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Draft CFO legal-delay close script v22 with quantified delay-loss ledger and no-discount reciprocal concession rails",
+      "title": "Build top-15 security-cleared no-decision revival board with H24/H48 owner swaps and ARR salvage gates",
+      "owner": "RESEARCH",
+      "status": "TODO",
+      "impact": 5,
+      "effort": 2,
+      "urgency": 5,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Board ranks top-15 opportunities by recoverable ARR, maps H24/H48 owner+backup interventions, and enforces binary reopen-or-kill checkpoints with forecast delta fields.",
+      "artifact_path": "office_os/artifacts/P1-REV-7174_build_top_15_security_cleared_no_decision_revival_board_with_h24/h48_owner_swaps_and_arr_salvage_gates_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
+      "started_at": null,
+      "due_at": null
+    },
+    {
+      "id": "P1-REV-7175",
+      "project": "P1_REVENUE",
+      "priority": "P1",
+      "title": "Draft CFO procurement-delay reversal script v23 with quantified loss ledger and reciprocal no-discount rails",
       "owner": "BUILDER",
       "status": "TODO",
       "impact": 5,
@@ -81,18 +102,18 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss framing, reciprocal no-discount concession rails, and explicit floor-margin close/no-close exits.",
-      "artifact_path": "office_os/artifacts/P1-REV-7167_cfo_legal_delay_close_script_v22_no_discount_reciprocal_concessions_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T02:07:04.154589+08:00",
+      "artifact_path": "office_os/artifacts/P1-REV-7175_draft_cfo_procurement_delay_reversal_script_v23_with_quantified_loss_ledger_and_reciprocal_no_discount_rails_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
       "started_at": null,
       "due_at": null
     },
     {
-      "id": "P1-REV-7169",
+      "id": "P1-REV-7176",
       "project": "P1_REVENUE",
       "priority": "P1",
-      "title": "Produce founder 7-touch champion reactivation sequence for post-redline silence with binary CTA ladder",
-      "owner": "SOCIAL",
+      "title": "Create legal-owner checkpoint enforcement cadence for post-redline deals with D1/D3/D7 audit gates",
+      "owner": "EXECUTOR",
       "status": "TODO",
       "impact": 4,
       "effort": 1,
@@ -101,18 +122,18 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Sequence includes day0-day10 touch map, objection-tagged proof inserts, binary CTA ladder, and KPI schema for reply, workshop-booked, and reopen rates.",
-      "artifact_path": "office_os/artifacts/P1-REV-7169_founder_7touch_post_redline_silence_reactivation_binary_cta_ladder_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T02:07:04.154606+08:00",
+      "acceptance": "Cadence defines legal owner assignment, D1/D3/D7 checkpoint audits, deterministic escalation path, and binary progress proof fields.",
+      "artifact_path": "office_os/artifacts/P1-REV-7176_create_legal_owner_checkpoint_enforcement_cadence_for_post_redline_deals_with_d1/d3/d7_audit_gates_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
       "started_at": null,
       "due_at": null
     },
     {
-      "id": "P2-PROD-7170",
+      "id": "P2-PROD-7177",
       "project": "P2_PRODUCT",
       "priority": "P2",
-      "title": "Define legal-to-onboarding fast-track handoff contract with anti-gaming checks and Day0-Day14 verification gates",
+      "title": "Define onboarding unblock payload v28 with anti-gaming checks for legal-delayed cohorts",
       "owner": "BUILDER",
       "status": "TODO",
       "impact": 4,
@@ -122,18 +143,39 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, owner routing SLA, and Day0/3/7/14 verification closure criteria.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7170_legal_to_onboarding_fast_track_handoff_contract_day0_day14_gates_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T02:07:04.154612+08:00",
+      "acceptance": "Payload spec defines mandatory fields, anti-gaming hard checks, severity routing SLA, and deterministic closure attestations.",
+      "artifact_path": "office_os/artifacts/P2-PROD-7177_define_onboarding_unblock_payload_v28_with_anti_gaming_checks_for_legal_delayed_cohorts_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
       "started_at": null,
       "due_at": null
     },
     {
-      "id": "P3-CONT-7172",
+      "id": "P2-PROD-7178",
+      "project": "P2_PRODUCT",
+      "priority": "P2",
+      "title": "Build Day0-Day21 legal-delayed activation recovery board with rollback-safe interventions",
+      "owner": "EXECUTOR",
+      "status": "TODO",
+      "impact": 4,
+      "effort": 2,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Board maps legal-delayed activation risks to severity lanes, rollback-safe interventions, and Day3/7/14/21 verification gates.",
+      "artifact_path": "office_os/artifacts/P2-PROD-7178_build_day0_day21_legal_delayed_activation_recovery_board_with_rollback_safe_interventions_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
+      "started_at": null,
+      "due_at": null
+    },
+    {
+      "id": "P3-CONT-7179",
       "project": "P3_CONTENT",
       "priority": "P3",
-      "title": "Create 12 proof-first legal-approval momentum posts with role-specific CTA variants",
+      "title": "Create 10 proof-first short videos for legal-delay objection reversals with role-specific CTA variants",
       "owner": "SOCIAL",
       "status": "TODO",
       "impact": 3,
@@ -143,10 +185,10 @@
       "blocked_reason": null,
       "pinned": false,
       "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, legal/procurement/champion role variants, objection tags, and funnel keyword mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7172_12_proof_first_legal_approval_momentum_posts_role_specific_cta_2026-03-06.md",
-      "created_at": "2026-03-06T01:20:00+08:00",
-      "updated_at": "2026-03-06T02:07:04.154616+08:00",
+      "acceptance": "Pack includes 10 hook-proof-CTA scripts, legal/procurement/champion variants, objection tags, and funnel keyword mapping.",
+      "artifact_path": "office_os/artifacts/P3-CONT-7179_create_10_proof_first_short_videos_for_legal_delay_objection_reversals_with_role_specific_cta_variants_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -193,6 +235,27 @@
       "due_at": null
     },
     {
+      "id": "P4-OPS-7180",
+      "project": "P4_OPERATIONS",
+      "priority": "P4",
+      "title": "Define autonomous KPI evidence lint card for revenue artifacts with rewrite triggers",
+      "owner": "COMMAND",
+      "status": "TODO",
+      "impact": 3,
+      "effort": 1,
+      "urgency": 3,
+      "depends_on": [],
+      "blocked_reason": null,
+      "pinned": false,
+      "manual_rank": null,
+      "acceptance": "Card defines 100-point rubric for KPI evidence quality, rewrite triggers, pass threshold, and run-level audit fields.",
+      "artifact_path": "office_os/artifacts/P4-OPS-7180_define_autonomous_kpi_evidence_lint_card_for_revenue_artifacts_with_rewrite_triggers_2026-03-06.md",
+      "created_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T02:20:00+08:00",
+      "started_at": null,
+      "due_at": null
+    },
+    {
       "id": "P5-REL-7165",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -215,6 +278,46 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 02:20",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
+      "path": "office_os/BACKLOG.json",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:20",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7172",
+      "artifact": "Delivered 12 proof-first legal-approval momentum posts with Hook-Proof-CTA structure, legal/procurement/champion CTA variants, objection mapping, and funnel keyword taxonomy",
+      "path": "office_os/artifacts/P3-CONT-7172_12_proof_first_legal_approval_momentum_posts_role_specific_cta_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:20",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7169",
+      "artifact": "Delivered founder day0-day10 seven-touch post-redline silence reactivation sequence with objection-tagged proof inserts, binary CTA ladder, and reply/workshop/reopen KPI schema",
+      "path": "office_os/artifacts/P1-REV-7169_founder_7touch_post_redline_silence_reactivation_binary_cta_ladder_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:16",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-7170",
+      "artifact": "Delivered legal-to-onboarding fast-track handoff contract with mandatory payload schema, 10 anti-gaming hard checks, owner routing SLA matrix, and deterministic Day0/3/7/14 verification gates with evidence requirements",
+      "path": "office_os/artifacts/P2-PROD-7170_legal_to_onboarding_fast_track_handoff_contract_day0_day14_gates_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 02:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-7167",
+      "artifact": "Delivered CFO legal-delay close script v22 with quantified delay-loss ledger, 13 objection branches, reciprocal no-discount concession rails, and explicit margin-floor close/no-close exits for deterministic decision forcing",
+      "path": "office_os/artifacts/P1-REV-7167_cfo_legal_delay_close_script_v22_no_discount_reciprocal_concessions_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 02:07",
       "owner": "COMMAND",
@@ -373,46 +476,6 @@
       "taskId": "P5-REL-7145",
       "artifact": "Delivered cron anomaly closure integrity checklist with pending_verify replay gates, stale-counter reset proof contract, and deterministic reopen criteria to prevent false recovery closure",
       "path": "office_os/artifacts/P5-REL-7145_cron_anomaly_closure_integrity_checklist_pending_verify_replay_stale_counter_proofs_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 23:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7144",
-      "artifact": "Delivered autonomous backlog acceptance-lint escalation card with failure classes, deterministic rewrite triggers, owner correction SLA windows, and run-level audit schema to suppress vague-task churn before execution",
-      "path": "office_os/artifacts/P4-OPS-7144_autonomous_backlog_acceptance_lint_escalation_card_rewrite_triggers_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 23:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-7140",
-      "artifact": "Delivered renewal red-zone kill-gate board with ARR-weighted weekly save sprint lanes, deterministic W1-W4 gate criteria, and explicit exit triggers to protect commit hygiene under slippage pressure",
-      "path": "office_os/artifacts/P1-REV-7140_renewal_red_zone_kill_gate_board_arr_weighted_weekly_save_sprints_deterministic_exit_criteria_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 23:05",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-7136",
-      "artifact": "Delivered top-12 stalled security-cleared deal rescue board with recoverable-ARR ranking, deterministic H24/H48 owner-swap triggers, and binary ARR salvage-or-kill gates for forecast-clean reopen execution",
-      "path": "office_os/artifacts/P1-REV-7136_top12_stalled_security_cleared_deal_rescue_board_h24_h48_owner_swap_arr_salvage_gates_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
