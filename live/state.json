@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T05:00:06.929285+00:00",
+  "now": "2026-03-05T05:10:05.506775+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7040",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 stalled legal-cleared expansion rescue board with H24/H48 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 12 stalled legal-cleared expansion opportunities by recoverable ARR, defines H24/H48 owner swap plays, and enforces reopen-or-kill salvage gates with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7041",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified downside ledger framing, concession ladders with no-discount alternatives, and explicit floor-margin close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7046",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion-to-procurement acceleration map for top-15 late-stage deals with D1/D3/D7 gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map ranks top-15 late-stage deals by recoverable ARR, assigns D1/D3/D7 interventions, and enforces binary progression gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
+      "updated_at": "2026-03-05T13:07:03.342377+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "acceptance": "Runbook maps day0/day3/day7/day14/day21/day30 failure signatures to owner routing, rollback-safe interventions, and deterministic verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
+      "updated_at": "2026-03-05T13:07:03.342394+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Watchdog spec defines stale-age breach thresholds, rewrite enforcement actions, and run-level audit fields before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T11:21:00+08:00",
-      "updated_at": "2026-03-05T12:07:02.281379+08:00",
+      "updated_at": "2026-03-05T13:07:03.342401+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +146,7 @@
       "acceptance": "Protocol defines stale-age thresholds, duplicate-prune rules, rewrite SLA actions, and run-level audit fields before READY promotion.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
+      "updated_at": "2026-03-05T13:07:03.342406+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,12 +167,20 @@
       "acceptance": "Ladder defines drift tiers, first-response actions, suppression windows, and pending_verify verification checks before incident resolution.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
+      "updated_at": "2026-03-05T13:07:03.342411+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 12:37",
       "owner": "COMMAND",
@@ -405,14 +371,6 @@
       "taskId": "P1-REV-7021",
       "artifact": "Delivered founder multichannel proof-routing sprint for security-cleared no-decision committees with 8-touch channel cadence, objection tags, persona proof blocks, CTA ladder, and KPI instrumentation for reply-rate and meeting-booked lift",
       "path": "office_os/artifacts/P1-REV-7021_founder_multichannel_proof_routing_sprint_security_cleared_no_decision_committees_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 09:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
