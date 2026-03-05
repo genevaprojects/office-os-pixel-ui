@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T05:30:07.858758+00:00",
+  "now": "2026-03-05T05:40:06.110969+00:00",
   "workers": [
     {
       "name": "Research",
@@ -102,27 +102,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Script includes 12+ objection branches, quantified budget-freeze downside ledger, no-discount concession routes, and explicit floor-margin close/no-close exits.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7052",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build legal-silent committee reactivation cadence with D1/D3/D7 binary progression gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps legal-silent committee fingerprints to D1/D3/D7 owner actions and enforces binary meeting-booked/proposal-sent progression gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T13:20:00+08:00",
       "updated_at": "2026-03-05T13:20:00+08:00",
@@ -233,30 +212,17 @@
       "updated_at": "2026-03-05T13:07:03.342411+08:00",
       "started_at": null,
       "due_at": null
-    },
-    {
-      "id": "P5-REL-7057",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron pending_verify auto-close verifier with stale-counter reset safeguards",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Verifier checks next-run health, enforces stale-counter resets, reopens failed verifications, and logs closure evidence fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T13:20:00+08:00",
-      "updated_at": "2026-03-05T13:20:00+08:00",
-      "started_at": null,
-      "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 13:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 13:25",
       "owner": "SOCIAL",
@@ -447,14 +413,6 @@
       "taskId": "P1-REV-7020",
       "artifact": "Delivered day2/day5/day8 late-stage stall rescue cadence with deterministic owner+backup activation rules, checkpoint pass/fail gates, and reopen/proposal/close outcome tracking schema",
       "path": "office_os/artifacts/P1-REV-7020_day2_day5_day8_rescue_cadence_stalled_latestage_owner_backup_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 10:26",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7024",
-      "artifact": "Delivered 12 proof-first short posts for procurement fatigue and legal redline stalls with hook-proof-CTA scripts, objection tags, channel variants, and funnel-mapped conversion keywords",
-      "path": "office_os/artifacts/P3-CONT-7024_12_proof_first_short_posts_procurement_fatigue_legal_redline_stalls_2026-03-05.md",
       "status": "done"
     }
   ],
