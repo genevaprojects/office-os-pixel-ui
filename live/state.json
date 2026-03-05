@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T13:22:08.497941+00:00",
+  "now": "2026-03-05T13:30:05.425812+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7129",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 10-touch budget-freeze thaw sequence with objection-tagged proof routing and CTA ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "acceptance": "Sequence includes day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI schema for replies, meetings, and proposal reopens.",
-      "artifact_path": "office_os/artifacts/P1-REV-7129_founder_10touch_budget_freeze_thaw_sequence_proof_routing_cta_ladder_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7130",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -214,27 +193,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7133",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 14 proof-first short posts for security-review fatigue and legal-delay objection reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "acceptance": "Pack includes 14 hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7133_14_proof_first_short_posts_security_review_fatigue_legal_delay_reversals_2026-03-05.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-05T21:20:00+08:00",
-      "updated_at": "2026-03-05T21:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7134",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 21:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7133",
+      "artifact": "Delivered 14 proof-first short posts for security-review fatigue and legal-delay reversals with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage keyword mapping",
+      "path": "office_os/artifacts/P3-CONT-7133_14_proof_first_short_posts_security_review_fatigue_legal_delay_reversals_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 21:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7129",
+      "artifact": "Delivered founder 10-touch budget-freeze thaw sequence with day0-day14 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI schema for reply/meeting/proposal-reopen tracking",
+      "path": "office_os/artifacts/P1-REV-7129_founder_10touch_budget_freeze_thaw_sequence_proof_routing_cta_ladder_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 21:20",
       "owner": "COMMAND",
@@ -461,22 +435,6 @@
       "artifact": "Delivered 18 proof-first short posts for procurement no-decision and legal-delay reversals with hook-proof-CTA scripts, objection tags, channel variants, and keyword CTA mapping",
       "path": "office_os/artifacts/P3-CONT-7103_18_proof_first_short_posts_procurement_no_decision_legal_delay_reversals_2026-03-05.md",
       "status": "done2026-03-05 18:36"
-    },
-    {
-      "time": "2026-03-05 18:26",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7099",
-      "artifact": "Delivered founder 12-touch security-review thaw sequence with objection-tagged proof routing, strict CTA escalation ladder, and KPI instrumentation for deterministic stalled-deal progression",
-      "path": "office_os/artifacts/P1-REV-7099_founder_12touch_security_review_thaw_sequence_objection_tagged_proof_routing_cta_escalation_ladder_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 18:12",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "backlog top-up",
-      "path": "office_os/TOPUP_LOG.md",
-      "status": "done"
     }
   ],
   "alertCount": 2,
