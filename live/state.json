@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T18:30:05.792852+00:00",
+  "now": "2026-03-05T18:40:05.957426+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7176",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-owner checkpoint enforcement cadence for post-redline deals with D1/D3/D7 audit gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines legal owner assignment, D1/D3/D7 checkpoint audits, deterministic escalation path, and binary progress proof fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7176_create_legal_owner_checkpoint_enforcement_cadence_for_post_redline_deals_with_d1/d3/d7_audit_gates_2026-03-06.md",
-      "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T02:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7177",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -145,27 +124,6 @@
       "manual_rank": null,
       "acceptance": "Payload spec defines mandatory fields, anti-gaming hard checks, severity routing SLA, and deterministic closure attestations.",
       "artifact_path": "office_os/artifacts/P2-PROD-7177_define_onboarding_unblock_payload_v28_with_anti_gaming_checks_for_legal_delayed_cohorts_2026-03-06.md",
-      "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T02:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7178",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build Day0-Day21 legal-delayed activation recovery board with rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps legal-delayed activation risks to severity lanes, rollback-safe interventions, and Day3/7/14/21 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7178_build_day0_day21_legal_delayed_activation_recovery_board_with_rollback_safe_interventions_2026-03-06.md",
       "created_at": "2026-03-06T02:20:00+08:00",
       "updated_at": "2026-03-06T02:20:00+08:00",
       "started_at": null,
