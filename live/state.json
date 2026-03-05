@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T04:21:42.202125+00:00",
+  "now": "2026-03-05T04:30:05.918815+00:00",
   "workers": [
     {
       "name": "Research",
@@ -144,27 +144,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Runbook maps day0/day3/day7/day14/day21/day30 failure signatures to owner routing, rollback-safe interventions, and deterministic verification gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T12:20:00+08:00",
-      "updated_at": "2026-03-05T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7043",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 proof-first founder clips for security-review hold and legal-delay objections",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 10 hook-proof-CTA clips, objection tags, channel variants, and conversion keywords mapped to funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T12:20:00+08:00",
       "updated_at": "2026-03-05T12:20:00+08:00",
