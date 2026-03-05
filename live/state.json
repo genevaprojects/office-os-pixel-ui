@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T17:00:06.435621+00:00",
+  "now": "2026-03-05T17:10:05.929234+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7156",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-20 closed-lost reactivation ledger with ARR recovery score and 7-day owner strike plan",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Ledger ranks 20 closed-lost enterprise deals by recoverable ARR, includes reactivation trigger, 7-day owner actions, and binary reopen-or-kill gates.",
-      "artifact_path": "office_os/artifacts/P1-REV_top20_closed_lost_reactivation_ledger_arr_recovery_7day_owner_strike_plan_2026-03-06.md",
-      "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7157",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, delay-loss calculator framing, reciprocal no-discount trade rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV_cfo_legal_delay_reversal_script_v22_delay_loss_no_discount_trade_rails_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436910+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,28 +104,7 @@
       "acceptance": "Sequence includes day0-day14 touch plan, objection-tagged proof routing, CTA ladder, and KPI schema for reply/meeting/proposal reopen rates.",
       "artifact_path": "office_os/artifacts/P1-REV_founder_10touch_legal_redline_thaw_sequence_objection_proof_routing_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7160",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build renewal red-zone save sprint board with ARR-weighted risk tiers and week-by-week kill gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board scores renewal accounts by ARR risk, assigns weekly save sprint owners, and defines deterministic save-or-exit gates with evidence fields.",
-      "artifact_path": "office_os/artifacts/P1-REV_renewal_red_zone_save_sprint_board_arr_weighted_weekly_kill_gates_2026-03-06.md",
-      "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436927+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Contract defines payload schema, anti-gaming hard checks, severity routing SLA, and deterministic dual-attestation closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD_onboarding_evidence_integrity_contract_v28_anti_gaming_dual_attestation_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436932+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +146,7 @@
       "acceptance": "Pack includes 16 hook-proof-CTA scripts, objection taxonomy tags, channel variants, and funnel-stage conversion keyword mapping.",
       "artifact_path": "office_os/artifacts/P3-CONT_16_proof_first_short_posts_procurement_stall_legal_delay_reversal_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436936+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +167,7 @@
       "acceptance": "Ladder defines stale-age breach tiers, owner correction SLAs, deterministic transitions, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS_autonomous_stale_task_remediation_ladder_owner_breach_slas_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436941+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +188,28 @@
       "acceptance": "Canary defines next-run closure checks, stale-counter reset assertions, replay-failure reopen gates, and closure evidence fields.",
       "artifact_path": "office_os/artifacts/P5-REL_cron_pending_verify_closure_canary_stale_counter_reset_reopen_gates_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
+      "updated_at": "2026-03-06T01:07:04.436947+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 01:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7160",
+      "artifact": "Delivered renewal red-zone save sprint board with ARR-weighted risk tiers, weekly owner gates (Wk1-Wk4), deterministic save-or-exit rules, and evidence schema to enforce renewal commit hygiene",
+      "path": "office_os/artifacts/P1-REV_renewal_red_zone_save_sprint_board_arr_weighted_weekly_kill_gates_2026-03-06.md",
+      "status": "done2026-03-06 01:07"
+    },
+    {
+      "time": "2026-03-06 01:05",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7156",
+      "artifact": "Delivered top-20 closed-lost reactivation ledger with ARR recovery scoring, trigger taxonomy, D0-D7 owner strike plans, and binary reopen-or-kill gates with required evidence fields for forecast-clean pipeline recovery",
+      "path": "office_os/artifacts/P1-REV_top20_closed_lost_reactivation_ledger_arr_recovery_7day_owner_strike_plan_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 00:50",
       "owner": "BUILDER",
@@ -418,22 +392,6 @@
       "taskId": "P1-REV-7126",
       "artifact": "Delivered top-25 dormant expansion wake list with recoverable-ARR priority scoring, deterministic D0-D7 owner action lanes, binary reopen-or-kill checkpoints, and mandatory forecast-delta evidence fields for bandwidth-safe pipeline reactivation",
       "path": "office_os/artifacts/P1-REV-7126_top25_dormant_expansion_wake_list_recoverable_arr_7day_owner_lanes_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-7132",
-      "artifact": "Delivered Day0-Day30 onboarding confidence recovery matrix with trust-failure fingerprints, severity lanes, rollback-safe interventions, and deterministic Day3/Day7/Day14/Day30 verification gates with evidence contract",
-      "path": "office_os/artifacts/P2-PROD-7132_day0_day30_onboarding_confidence_recovery_matrix_severity_lanes_rollback_safe_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 21:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-7128",
-      "artifact": "Delivered legal-silent committee reactivation cadence with fingerprint taxonomy, D1/D2/D4 owner+backup intervention swaps, and hard binary meeting-booked/proposal-sent proof gates with deterministic kill-or-recycle routing",
-      "path": "office_os/artifacts/P1-REV-7128_legal_silent_committee_reactivation_cadence_d1_d2_d4_binary_proof_gates_2026-03-05.md",
       "status": "done"
     }
   ],
