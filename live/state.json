@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T02:30:05.942477+00:00",
+  "now": "2026-03-05T02:40:04.882733+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7020",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design day2/day5/day8 rescue cadence for stalled late-stage opportunities with owner+backup assignment",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence defines day2/day5/day8 rescue actions for top late-stage stalls, owner+backup assignment, measurable intervention checkpoints, and reopen/proposal/close outcome tracking.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7022",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming controls, severity routing tiers, and deterministic closure attestations with owner accountability.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T10:20:00+08:00",
-      "updated_at": "2026-03-05T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7023",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build activation drift fingerprint triage card for day0-day14 cohorts with rollback guardrails",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Card maps activation drift fingerprints to severity owners, rollback-safe interventions, and day3/day7/day14 verification rules with pending_verify constraints.",
       "artifact_path": null,
       "created_at": "2026-03-05T10:20:00+08:00",
       "updated_at": "2026-03-05T10:20:00+08:00",
@@ -236,6 +194,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 10:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 10:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7023",
+      "artifact": "Delivered day0-day14 activation drift fingerprint triage card with severity owner routing, rollback-safe intervention matrix, Day3/Day7/Day14 verification gates, and pending_verify closure constraints",
+      "path": "office_os/artifacts/P2-PROD-7023_activation_drift_fingerprint_triage_card_day0_day14_rollback_guardrails_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 10:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7020",
+      "artifact": "Delivered day2/day5/day8 late-stage stall rescue cadence with deterministic owner+backup activation rules, checkpoint pass/fail gates, and reopen/proposal/close outcome tracking schema",
+      "path": "office_os/artifacts/P1-REV-7020_day2_day5_day8_rescue_cadence_stalled_latestage_owner_backup_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 10:26",
       "owner": "SOCIAL",
@@ -410,30 +392,6 @@
       "taskId": "OPS-RERANK",
       "artifact": "backlog rerank",
       "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 07:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 07:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6610",
-      "artifact": "Delivered cron output checksum drift alarm spec with canonicalization rules, drift-class thresholds, A-D tiered response, false-positive suppression TTLs, and deterministic pending_verify resolution criteria",
-      "path": "office_os/artifacts/P5-REL-6610_cron_output_checksum_drift_alarm_tiered_response_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-6459",
-      "artifact": "Delivered cron artifact freshness sentinel spec for growth-critical jobs with deterministic age states, stale fingerprint detection, tiered remediation flow, suppression bounds, and pending_verify closure guards",
-      "path": "office_os/artifacts/P5-REL-6459_cron_artifact_freshness_sentinel_growth_critical_jobs_2026-03-05.md",
       "status": "done"
     }
   ],
