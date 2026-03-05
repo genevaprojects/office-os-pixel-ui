@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T07:00:08.146664+00:00",
+  "now": "2026-03-05T07:10:06.070833+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7061",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Construct top-12 quarter-end rescue lane for CFO-locked renewals with H24/H72 intervention swaps",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 12 CFO-locked renewals by recoverable ARR, defines H24/H72 owner-swap interventions, and enforces binary reopen-or-kill gates with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7062",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -102,27 +81,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Script contains 12+ objection branches, quantified freeze-cost framing, no-discount fallback ladders, and explicit floor-margin close/no-close exits.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T14:20:00+08:00",
-      "updated_at": "2026-03-05T14:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7064",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design champion-to-procurement compression board for top-15 at-risk enterprise deals",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 deals by procurement latency risk, assigns owner interventions, and tracks day2/day5/day8 save-or-kill outcomes.",
       "artifact_path": null,
       "created_at": "2026-03-05T14:20:00+08:00",
       "updated_at": "2026-03-05T14:20:00+08:00",
