@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T11:00:07.513915+00:00",
+  "now": "2026-03-05T11:10:05.566371+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7096",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-20 late-stage legal-cleared deal strike map with H24/H48 intervention swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Map ranks top-20 legal-cleared late-stage deals by recoverable ARR, defines H24/H48 intervention swaps, and enforces binary salvage-or-kill gates with forecast delta fields.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7097",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-cost framing, reciprocal no-discount concession rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": null,
       "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7100",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design renewal red-zone heatmap with ARR-weighted kill checkpoints and week-by-week save sprint ownership",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
+      "updated_at": "2026-03-05T19:07:02.943820+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
       "artifact_path": null,
       "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
+      "updated_at": "2026-03-05T19:07:02.943837+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Ladder defines stale-task severity tiers, owner-level correction SLAs, deterministic remediation steps, and run-level audit output fields.",
       "artifact_path": null,
       "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
+      "updated_at": "2026-03-05T19:07:02.943843+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,20 @@
       "acceptance": "Checklist defines recovery canary steps, pending_verify replay verification, checksum-integrity assertions, and deterministic reopen criteria when checks fail.",
       "artifact_path": null,
       "created_at": "2026-03-05T18:20:00+08:00",
-      "updated_at": "2026-03-05T18:20:00+08:00",
+      "updated_at": "2026-03-05T19:07:02.943847+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 19:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 18:36",
       "owner": "EXECUTOR",
@@ -384,14 +350,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 15:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7069",
-      "artifact": "Delivered READY-lane admission validator with deterministic admission checks, R001-R007 fail taxonomy, and run-level rejection audit fields for promotion integrity",
-      "path": "office_os/artifacts/P4-OPS-7069_backlog_ready_lane_admission_validator_deterministic_fail_reason_taxonomy_2026-03-05.md",
       "status": "done"
     }
   ],
