@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T08:30:06.247833+00:00",
+  "now": "2026-03-05T08:40:07.480752+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,48 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7081",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create champion silence reactivation matrix with D1/D2/D5 owner actions and meeting-booked proof gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps champion silence fingerprints to D1/D2/D5 actions, owner+backup accountability, and binary meeting-booked/proposal-sent proof gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7083",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Design day0-day30 onboarding risk compression board with severity lanes and rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps onboarding risk fingerprints to severity lanes, rollback-safe interventions, and Day3/Day7/Day14/Day30 verification gates with owner SLAs.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7084",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -236,6 +194,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 16:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 16:15",
       "owner": "BUILDER",
@@ -426,14 +392,6 @@
       "taskId": "P2-PROD-7033",
       "artifact": "Delivered day0-day21 activation anomaly response board with severity fingerprint routing, rollback-safe intervention matrix, and deterministic Day3/Day7/Day14/Day21 verification gates",
       "path": "office_os/artifacts/P2-PROD-7033_day0_day21_activation_anomaly_response_board_rollback_safe_matrix_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 12:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7032",
-      "artifact": "Delivered onboarding evidence integrity contract v21 with mandatory payload schema, anti-gaming enforcement checks, severity routing tiers, and deterministic closure attestation with dual-owner accountability",
-      "path": "office_os/artifacts/P2-PROD-7032_onboarding_evidence_integrity_contract_v21_2026-03-05.md",
       "status": "done"
     }
   ],
