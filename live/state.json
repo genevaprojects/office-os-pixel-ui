@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T17:22:51.321944+00:00",
+  "now": "2026-03-05T17:30:06.331595+00:00",
   "workers": [
     {
       "name": "Research",
@@ -279,6 +279,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-06 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2033",
+      "artifact": "Added checkpoint-jump command in command palette plus Shift+X hotkey coverage so operators can route to the nearest risk lane instantly without breaking demo flow",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 01:22",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2032",
+      "artifact": "Added sticky Next Checkpoint routing action that context-jumps to monitor/queue/decision lane based on nearest risk checkpoint source with lock-aware behavior for interruption-safe trust recovery",
+      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-06 01:15",
       "owner": "BUILDER",
       "taskId": "P2-PROD-7161",
@@ -460,22 +476,6 @@
       "taskId": "P2-PROD-7131",
       "artifact": "Delivered onboarding evidence integrity contract v27 with mandatory payload schema, 12 anti-gaming hard checks, severity-routing SLA matrix, and deterministic dual-attestation closure criteria for audit-safe onboarding incident resolution",
       "path": "office_os/artifacts/P2-PROD-7131_onboarding_evidence_integrity_contract_v27_anti_gaming_dual_attestation_sla_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7127",
-      "artifact": "Delivered procurement-delay reversal script v21 with quantified delay-loss ledger, 14 objection branches, reciprocal no-discount trade rails, and explicit margin-floor close/no-close exits for deterministic procurement unfreeze decisions",
-      "path": "office_os/artifacts/P1-REV-7127_procurement_delay_reversal_script_v21_loss_ledger_no_discount_trade_rails_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 22:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
