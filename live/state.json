@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T15:50:05.377498+00:00",
+  "now": "2026-03-05T16:00:05.838566+00:00",
   "workers": [
     {
       "name": "Research",
@@ -195,12 +195,20 @@
   ],
   "ship": [
     {
+      "time": "2026-03-05 23:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-05 23:20",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-05 23:37"
+      "status": "done"
     },
     {
       "time": "2026-03-05 23:20",
@@ -384,14 +392,6 @@
       "taskId": "P1-REV-7120",
       "artifact": "Delivered renewal red-zone intervention heatmap with ARR-weighted risk scoring, weekly save sprint owner+backup assignment, and deterministic W1-W4 kill checkpoints with hard evidence gates and forecast-clean save-or-exit rules",
       "path": "office_os/artifacts/P1-REV-7120_renewal_red_zone_intervention_heatmap_arr_weighted_weekly_save_sprints_kill_checkpoints_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 20:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
       "status": "done"
     }
   ],
