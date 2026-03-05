@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T16:30:08.436998+00:00",
+  "now": "2026-03-05T16:40:08.734609+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7158",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design procurement committee deadlock breaker matrix with D1/D3/D5 interventions and owner backup swaps",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps committee deadlock fingerprints to D1/D3/D5 interventions, owner+backup swaps, and binary progression gates tied to proposal outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV_procurement_committee_deadlock_breaker_matrix_d1_d3_d5_2026-03-06.md",
-      "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7159",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -187,27 +166,6 @@
       "manual_rank": null,
       "acceptance": "Contract defines payload schema, anti-gaming hard checks, severity routing SLA, and deterministic dual-attestation closure criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD_onboarding_evidence_integrity_contract_v28_anti_gaming_dual_attestation_2026-03-06.md",
-      "created_at": "2026-03-06T00:22:30+08:00",
-      "updated_at": "2026-03-06T00:22:30+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7162",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Build Day0-Day30 onboarding trust recovery matrix with severity routing and rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Matrix maps trust-failure fingerprints to severity owners, rollback-safe interventions, and Day3/Day7/Day14/Day30 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD_day0_day30_onboarding_trust_recovery_matrix_severity_rollback_safe_2026-03-06.md",
       "created_at": "2026-03-06T00:22:30+08:00",
       "updated_at": "2026-03-06T00:22:30+08:00",
       "started_at": null,
@@ -284,7 +242,7 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
+      "status": "done2026-03-06 00:37"
     },
     {
       "time": "2026-03-06 00:22",
