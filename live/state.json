@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T03:21:52.830011+00:00",
+  "now": "2026-03-05T03:30:04.957311+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7029",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Draft founder 10-touch committee wake campaign for legal-silent deals with proof routing and CTA ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Campaign maps day0-day12 touch sequence with objection tags, proof routing, CTA ladder, and KPI instrumentation for reply-rate and meetings booked.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T11:21:00+08:00",
-      "updated_at": "2026-03-05T11:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7030",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -228,27 +207,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Board maps activation anomaly fingerprints to severity owners, rollback-safe interventions, and day3/day7/day14/day21 verification gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T11:21:00+08:00",
-      "updated_at": "2026-03-05T11:21:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7034",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 16 proof-first short posts for security-review fatigue and procurement no-decision stalls",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 16 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T11:21:00+08:00",
       "updated_at": "2026-03-05T11:21:00+08:00",
@@ -341,6 +299,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 11:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7034",
+      "artifact": "Delivered 16 proof-first short posts for security-review fatigue and procurement no-decision stalls with hook-proof-CTA scripts, objection tags, channel variants, and funnel keyword conversion mapping",
+      "path": "office_os/artifacts/P3-CONT-7034_16_proof_first_short_posts_security_review_fatigue_procurement_stalls_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 11:25",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7029",
+      "artifact": "Delivered founder 10-touch committee wake campaign for legal-silent deals with day0-day12 touch map, objection tags, proof routing, CTA ladder, and KPI instrumentation for reply-rate/meetings/proposal resend",
+      "path": "office_os/artifacts/P1-REV-7029_founder_10touch_committee_wake_campaign_legal_silent_deals_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 11:20",
       "owner": "COMMAND",
@@ -523,22 +497,6 @@
       "taskId": "P3-CONT-7008",
       "artifact": "Delivered 14 proof-first short posts for procurement fatigue and legal redline stalls with hook-proof-CTA scripts, objection tags, channel variants, and funnel-stage conversion keyword mapping",
       "path": "office_os/artifacts/P3-CONT-7008_14_proof_first_short_posts_procurement_fatigue_legal_redline_stalls_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 08:27",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7004",
-      "artifact": "Delivered founder 8-touch legal-silent committee wake campaign with day0-day10 touch map, objection-tag routing, proof packet paths, CTA ladder, and KPI instrumentation to force binary decision outcomes",
-      "path": "office_os/artifacts/P1-REV-7004_founder_8touch_legal_silent_committee_wake_campaign_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 08:21",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution and acceptance-criteria-complete owner-assigned tasks",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
