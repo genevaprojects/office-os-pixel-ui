@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T21:30:05.420368+00:00",
+  "now": "2026-03-05T21:40:05.351737+00:00",
   "workers": [
     {
       "name": "Research",
@@ -99,27 +99,6 @@
       "urgency": 4,
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss framing, reciprocal concession bands, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7197_cfo_no_delay_close_script_v26_procurement_stall_delay_loss_ledger_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T05:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7198",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create executive legal-owner checkpoint war-room cadence with D1/D3/D7 reopen-or-kill proof gates",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "acceptance": "Cadence defines D1/D3/D7 intervention protocol, owner+backup responsibility swaps, binary reopen-or-kill proof fields, and escalation path for misses.",
-      "artifact_path": "office_os/artifacts/P1-REV-7198_executive_legal_owner_checkpoint_war_room_cadence_d1_d3_d7_2026-03-06.md",
       "depends_on": [],
       "blocked_reason": null,
       "pinned": false,
@@ -252,27 +231,6 @@
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
       "updated_at": "2026-03-06T05:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P5-REL-7195",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron replay confidence checklist with pending_verify downgrade and stale-counter reset evidence",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "acceptance": "Checklist includes replay confidence fields, pending_verify downgrade rules, stale-counter reset evidence, and reopen triggers after failed next-run checks.",
-      "artifact_path": "office_os/artifacts/P5-REL-7195_cron_replay_confidence_checklist_pending_verify_downgrade_stale_counter_reset_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T05:07:07.884746+08:00",
       "started_at": null,
       "due_at": null
     }
