@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T12:00:07.307497+00:00",
+  "now": "2026-03-05T12:10:05.577765+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7106",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 stalled expansion revival board with H24/H48 owner-swap triggers and ARR recovery gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-12 stalled expansions by recoverable ARR, defines H24/H48 owner-swap triggers, and enforces binary recover-or-kill gates with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7106_top12_stalled_expansion_revival_board_h24_h48_owner_swap_arr_recovery_gates_2026-03-05.md",
-      "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7107",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,28 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-penalty ledger, reciprocal no-discount concessions, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7107_cfo_no_discount_close_script_v20_delay_penalty_ledger_floor_margin_exits_2026-03-05.md",
       "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7110",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design quarter-end renewal save sprint heatmap with ARR-weighted risk bands and weekly kill checkpoints",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
-      "artifact_path": "office_os/artifacts/P1-REV-7110_quarter_end_renewal_save_sprint_heatmap_arr_weighted_weekly_kill_checkpoints_2026-03-05.md",
-      "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
+      "updated_at": "2026-03-05T20:07:04.853377+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +104,7 @@
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
       "artifact_path": "office_os/artifacts/P2-PROD-7112_onboarding_evidence_integrity_contract_v26_anti_gaming_deterministic_closure_attestations_2026-03-05.md",
       "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
+      "updated_at": "2026-03-05T20:07:04.853394+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +125,7 @@
       "acceptance": "Rubric defines measurable acceptance criteria scoring, rewrite triggers by priority class, and run-level audit thresholds for READY promotion quality.",
       "artifact_path": "office_os/artifacts/P4-OPS-7114_autonomous_acceptance_criteria_hardening_rubric_rewrite_triggers_audit_thresholds_2026-03-05.md",
       "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
+      "updated_at": "2026-03-05T20:07:04.853400+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +146,36 @@
       "acceptance": "Card defines anomaly fingerprint classes, pending_verify reopen rules, stale-counter reset checks, and closure evidence fields.",
       "artifact_path": "office_os/artifacts/P5-REL-7115_cron_anomaly_fingerprint_triage_card_pending_verify_reopen_stale_counter_reset_2026-03-05.md",
       "created_at": "2026-03-05T19:22:00+08:00",
-      "updated_at": "2026-03-05T19:22:00+08:00",
+      "updated_at": "2026-03-05T20:07:04.853405+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 20:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 20:07",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7110",
+      "artifact": "Delivered quarter-end renewal save sprint heatmap with ARR-weighted risk bands, explicit owner/backup routing, and weekly deterministic save-or-kill checkpoints for forecast-clean renewal control",
+      "path": "office_os/artifacts/P1-REV-7110_quarter_end_renewal_save_sprint_heatmap_arr_weighted_weekly_kill_checkpoints_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 20:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7106",
+      "artifact": "Delivered top-12 stalled expansion revival board with recoverable-ARR ranking, deterministic H24/H48 owner-swap triggers, and binary recover-or-kill gates tied to forecast delta fields for commit hygiene",
+      "path": "office_os/artifacts/P1-REV-7106_top12_stalled_expansion_revival_board_h24_h48_owner_swap_arr_recovery_gates_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 19:37",
       "owner": "COMMAND",
@@ -368,30 +350,6 @@
       "taskId": "P1-REV-7079",
       "artifact": "Delivered top-10 legal-approved stalled expansion rescue grid with recoverable-ARR ranking, deterministic H24/H48/H72 intervention ladders, binary recover-or-kill thresholds, and forecast delta evidence schema",
       "path": "office_os/artifacts/P1-REV-7079_top10_legal_approved_stalled_expansion_rescue_grid_h24_h48_h72_arr_recovery_thresholds_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 16:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 16:15",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7076",
-      "artifact": "Delivered onboarding evidence integrity contract v23 with mandatory payload schema, seven anti-gaming hard gates, severity SLA routing, deterministic Day3/7/14/30 verification controls, and closure attestation/reopen logic",
-      "path": "office_os/artifacts/P2-PROD-7076_onboarding_evidence_integrity_contract_v23_anti_gaming_closure_attestations_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 16:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7072",
-      "artifact": "Delivered CFO freeze-break negotiation script v17 with quantified delay-cost ledger, 15 objection branches, reciprocal no-discount concession ladders, and explicit floor-margin close/no-close exits for margin-safe commitment decisions",
-      "path": "office_os/artifacts/P1-REV-7072_cfo_freeze_break_negotiation_script_v17_delay_cost_ledger_no_discount_fallback_2026-03-05.md",
       "status": "done"
     }
   ],
