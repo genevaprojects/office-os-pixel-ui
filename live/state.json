@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T07:30:06.592432+00:00",
+  "now": "2026-03-05T07:40:06.050753+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,27 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7073",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-silent committee wake sequence with D1/D3/D7 progression gates and owner backup matrix",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence maps legal-silent fingerprints to D1/D3/D7 interventions, owner+backup accountability, and binary meeting-booked/proposal-sent progression gates.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T15:20:00+08:00",
-      "updated_at": "2026-03-05T15:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7074",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -144,27 +123,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Heatmap scores renewal risk by ARR impact, assigns save sprint owners, and defines weekly save-or-exit checkpoints with measurable criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T15:20:00+08:00",
-      "updated_at": "2026-03-05T15:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7075",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define onboarding confidence rebound board Day0-Day30 with severity routing and rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board maps onboarding drift fingerprints to severity owners, rollback-safe intervention matrix, and Day3/Day7/Day14/Day30 verification gates.",
       "artifact_path": null,
       "created_at": "2026-03-05T15:20:00+08:00",
       "updated_at": "2026-03-05T15:20:00+08:00",
@@ -257,6 +215,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-05 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7075",
+      "artifact": "Delivered Day0-Day30 onboarding confidence rebound board with drift fingerprint catalog, severity owner+backup routing, rollback-safe intervention matrix, and deterministic Day3/Day7/Day14/Day30 verification gates",
+      "path": "office_os/artifacts/P2-PROD-7075_onboarding_confidence_rebound_board_day0_day30_severity_routing_rollback_safe_interventions_2026-03-05.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-05 15:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7073",
+      "artifact": "Delivered legal-silent committee wake sequence with fingerprint taxonomy, D1/D3/D7 intervention flow, owner+backup accountability matrix, and binary meeting-booked/proposal-sent progression gates with deterministic kill/defer enforcement",
+      "path": "office_os/artifacts/P1-REV-7073_legal_silent_committee_wake_sequence_d1_d3_d7_progression_gates_owner_backup_matrix_2026-03-05.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-05 15:20",
       "owner": "COMMAND",
@@ -431,30 +413,6 @@
       "taskId": "P0-FE-2008",
       "artifact": "Added Frontend Delivery Risk Rail in Pixel UI Operator mode with 6h/24h breach-pressure forecast, overdue/due-window blocker scoring, and one-click due-lane focus controls for deterministic frontend execution pacing",
       "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 11:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 11:42",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-7031",
-      "artifact": "Delivered procurement committee unblock trigger matrix with fingerprint-to-action routing, D1/D3/D7 intervention cadence, and hard meeting-booked/proposal-sent binary progression gates",
-      "path": "office_os/artifacts/P1-REV-7031_procurement_committee_unblock_trigger_matrix_d1_d3_d7_2026-03-05.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-05 11:42",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-7028",
-      "artifact": "Delivered top-20 late-stage slippage intervention tracker with ARR-weighted risk ranking, owner+backup Day2/Day5/D8 cadence, and enforced reopen/proposal/close binary outcome capture with save-or-kill gate",
-      "path": "office_os/artifacts/P1-REV-7028_top20_latestage_slippage_intervention_tracker_day2_day5_day8_2026-03-05.md",
       "status": "done"
     }
   ],
