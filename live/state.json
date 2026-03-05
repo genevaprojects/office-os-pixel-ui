@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T08:21:21.020578+00:00",
+  "now": "2026-03-05T08:30:06.247833+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7082",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 9-touch procurement deadlock wake sequence with proof routing and CTA escalation ladder",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence includes day0-day12 touch map, objection-tagged proof routing, CTA escalation ladder, and KPI fields for reply-rate and meeting-booked lift.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7083",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -186,27 +165,6 @@
       "pinned": false,
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, anti-gaming hard checks, severity routing SLA table, and deterministic closure attestation criteria.",
-      "artifact_path": null,
-      "created_at": "2026-03-05T16:20:22+08:00",
-      "updated_at": "2026-03-05T16:20:22+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7085",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Create 14 proof-first short posts for legal-delay and procurement-freeze objection reversals",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 14 hook-proof-CTA scripts, objection tags, channel variants, and conversion keyword mapping by funnel stage.",
       "artifact_path": null,
       "created_at": "2026-03-05T16:20:22+08:00",
       "updated_at": "2026-03-05T16:20:22+08:00",
