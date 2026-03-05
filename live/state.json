@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T20:00:08.179322+00:00",
+  "now": "2026-03-05T20:10:05.490824+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-7181",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-20 procurement-stalled expansion rescue board with H24/H48 intervention swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "acceptance": "Board ranks top-20 stalled expansions by recoverable ARR, defines H24/H48 owner+backup intervention swaps, and enforces binary salvage-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7181_top20_procurement_stalled_expansion_rescue_board_h24_h48_arr_salvage_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T03:21:00+08:00",
-      "updated_at": "2026-03-06T03:21:00+08:00",
-      "started_at": null,
-      "due_at": null
     },
     {
       "id": "P1-REV-7182",
@@ -236,6 +215,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2047",
+      "artifact": "Added Command Jump status digest surface across status rail action, command palette command, and Shift+J hotkey, packaging active jump, 10s verdict, checkpoint, preflight, and drill telemetry into a single copy-ready brief",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 04:00",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-2046",
+      "artifact": "Upgraded Command Jump status rail action parity by adding one-click copy for boardroom 2-minute update and escalation pack so investor interruption narration can be emitted without panel/context switching",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 03:50",
       "owner": "BUILDER",
@@ -418,22 +413,6 @@
       "taskId": "P1-REV-7156",
       "artifact": "Delivered top-20 closed-lost reactivation ledger with ARR recovery scoring, trigger taxonomy, D0-D7 owner strike plans, and binary reopen-or-kill gates with required evidence fields for forecast-clean pipeline recovery",
       "path": "office_os/artifacts/P1-REV_top20_closed_lost_reactivation_ledger_arr_recovery_7day_owner_strike_plan_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2031",
-      "artifact": "Added Shift+Q hotkey + hotkey guide entry for Queue-all recovery bundle copy with trust-lane routing to speed command response under live interruption pressure",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 00:50",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2030",
-      "artifact": "Added sticky Queue-all action that copies a deterministic monitor→top-risk→decision recovery bundle and auto-routes to trust lane for one-click interruption handling during investor demos",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
