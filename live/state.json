@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T21:00:08.044979+00:00",
+  "now": "2026-03-05T21:10:06.247612+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7189",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design 5-day legal-owner escalation blitz for top stalled deals with H24 owner swaps and reopen-or-kill gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 1,
-      "urgency": 4,
-      "acceptance": "Blitz defines day-by-day intervention table, owner+backup swaps at H24/H48, binary reopen-or-kill checkpoints, and ARR delta fields for each account.",
-      "artifact_path": "office_os/artifacts/P1-REV-7189_5day_legal_owner_escalation_blitz_h24_owner_swaps_reopen_kill_gates_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7190",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884714+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884730+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884735+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Card defines 100-point rubric for KPI evidence quality, rewrite triggers, pass threshold, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-7180_define_autonomous_kpi_evidence_lint_card_for_revenue_artifacts_with_rewrite_triggers_2026-03-06.md",
       "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T02:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884755+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T03:21:00+08:00",
-      "updated_at": "2026-03-06T03:21:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884751+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +188,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884740+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +209,20 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T04:20:00+08:00",
-      "updated_at": "2026-03-06T04:20:00+08:00",
+      "updated_at": "2026-03-06T05:07:07.884746+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 05:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 04:37",
       "owner": "COMMAND",
@@ -426,14 +413,6 @@
       "taskId": "P1-REV-7167",
       "artifact": "Delivered CFO legal-delay close script v22 with quantified delay-loss ledger, 13 objection branches, reciprocal no-discount concession rails, and explicit margin-floor close/no-close exits for deterministic decision forcing",
       "path": "office_os/artifacts/P1-REV-7167_cfo_legal_delay_close_script_v22_no_discount_reciprocal_concessions_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 02:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
       "status": "done"
     }
   ],
