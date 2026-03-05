@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-05T19:00:07.657529+00:00",
+  "now": "2026-03-05T19:10:05.595173+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-7174",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 security-cleared no-decision revival board with H24/H48 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks top-15 opportunities by recoverable ARR, maps H24/H48 owner+backup interventions, and enforces binary reopen-or-kill checkpoints with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7174_build_top_15_security_cleared_no_decision_revival_board_with_h24/h48_owner_swaps_and_arr_salvage_gates_2026-03-06.md",
-      "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T02:20:00+08:00",
-      "started_at": null,
-      "due_at": null
     },
     {
       "id": "P1-REV-7175",
