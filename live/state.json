@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T07:28:56.634357+00:00",
+  "now": "2026-03-06T07:40:16.073254+00:00",
   "workers": [
     {
       "name": "Research",
@@ -88,27 +88,6 @@
       "due_at": null
     },
     {
-      "id": "P2-PROD-7403",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define day0-day21 onboarding confidence recovery board for security-delayed cohorts",
-      "owner": "EXECUTOR",
-      "acceptance": "Board defines severity lanes, owner routing SLA, rollback-safe interventions, and deterministic Day0/3/7/14/21 verification gates with closure evidence.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7403_day0_day21_onboarding_confidence_recovery_board_security_delayed_2026-03-06.md",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T14:15:04.096426+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7228",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -172,27 +151,6 @@
       "due_at": null
     },
     {
-      "id": "P5-REL-7332",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron pending_verify replay verifier with dedup-safe reopen conditions and stale-reset evidence gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Verifier defines pending_verify next-run pass/fail criteria, stale-counter reset evidence bundle, dedup fingerprint checks, and reopen escalation triggers.",
-      "artifact_path": "office_os/artifacts/P5-REL-7332_cron_pending_verify_replay_verifier_dedup_safe_reopen_2026-03-06.md",
-      "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T14:15:04.096444+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P5-REL-7408",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -215,6 +173,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 15:38",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-7332",
+      "artifact": "Delivered cron pending_verify replay verifier with deterministic pass/fail/hold logic, stale-counter reset evidence schema, dedup-safe reopen suppression, and R1-R4 escalation triggers with audit output contract",
+      "path": "office_os/artifacts/P5-REL-7332_cron_pending_verify_replay_verifier_dedup_safe_reopen_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 15:38",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7403",
+      "artifact": "Delivered Day0-Day21 onboarding confidence recovery board for security-delayed cohorts with severity lanes, owner-routing SLA matrix, rollback-safe intervention library, deterministic Day0/3/7/14/21 gates, and mandatory closure evidence bundle",
+      "path": "office_os/artifacts/P2-PROD-7403_day0_day21_onboarding_confidence_recovery_board_security_delayed_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 15:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 15:17",
       "owner": "BUILDER",
@@ -389,30 +371,6 @@
       "taskId": "P1-REV-7312",
       "artifact": "Delivered executive committee-stall escalation cadence with stall fingerprint taxonomy, D1/D3/D7 owner+backup intervention clocks, deterministic binary proof gates, and reopen-or-recycle enforcement checkpoint policy",
       "path": "office_os/artifacts/P1-REV-7312_executive_committee_stall_escalation_cadence_d1_d3_d7_binary_proof_gates_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 10:25",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7315",
-      "artifact": "Delivered 12 procurement-objection reversal micro-posts with hook-proof-CTA scripts, legal/procurement/champion CTA variants, objection tags, and KPI mapping for reply/workshop/reopen tracking",
-      "path": "office_os/artifacts/P3-CONT-7315_12_procurement_objection_reversal_micro_posts_role_cta_variants_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 10:07",
-      "owner": "COMMAND",
-      "taskId": "OPS-RERANK",
-      "artifact": "backlog rerank",
-      "path": "office_os/RERANK_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 09:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted additions (P1/P2/P3/P4), owner assignment, and acceptance-complete definitions for uninterrupted autonomous throughput",
-      "path": "office_os/BACKLOG.json",
       "status": "done"
     }
   ],
