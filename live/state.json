@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T05:23:43.052357+00:00",
+  "now": "2026-03-06T05:30:10.046011+00:00",
   "workers": [
     {
       "name": "Research",
@@ -137,27 +137,6 @@
       "owner": "BUILDER",
       "acceptance": "Contract defines mandatory payload schema, 10+ anti-gaming hard checks, severity routing SLA, and dual-attestation closure with reopen triggers.",
       "artifact_path": "office_os/artifacts/P2-PROD-7404_sales_to_product_escalation_evidence_contract_v34_2026-03-06.md",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T13:23:01.530+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7405",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 founder proof-first committee-thaw short scripts for legal/procurement stalls",
-      "owner": "SOCIAL",
-      "acceptance": "Scripts include hook-proof-CTA format, objection tags, legal/procurement/champion CTA swaps, and KPI keywords for reply/meeting/proposal reopen tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7405_12_founder_proof_first_committee_thaw_short_scripts_2026-03-06.md",
       "status": "TODO",
       "impact": 3,
       "effort": 1,
