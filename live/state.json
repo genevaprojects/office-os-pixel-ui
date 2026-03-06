@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T07:13:10.090833+00:00",
+  "now": "2026-03-06T07:28:56.634357+00:00",
   "workers": [
     {
       "name": "Research",
@@ -88,27 +88,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7402",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create CFO no-discount delay-loss script v31 for procurement committee deadlocks",
-      "owner": "BUILDER",
-      "acceptance": "Script includes quantified 30/60/90-day delay-loss table, 12+ objection branches, reciprocal non-price concession rails, and floor-margin close/no-close exits.",
-      "artifact_path": "office_os/artifacts/P1-REV-7402_cfo_no_discount_delay_loss_script_v31_procurement_deadlocks_2026-03-06.md",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T14:15:04.096412+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7403",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -126,27 +105,6 @@
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
       "updated_at": "2026-03-06T14:15:04.096426+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7404",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Create sales-to-product escalation evidence contract v34 with anti-gaming hard checks",
-      "owner": "BUILDER",
-      "acceptance": "Contract defines mandatory payload schema, 10+ anti-gaming hard checks, severity routing SLA, and dual-attestation closure with reopen triggers.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7404_sales_to_product_escalation_evidence_contract_v34_2026-03-06.md",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T14:15:04.096422+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -257,6 +215,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 15:17",
+      "owner": "BUILDER",
+      "taskId": "P2-PROD-7404",
+      "artifact": "Delivered sales-to-product escalation evidence contract v34 with mandatory payload schema, 12 anti-gaming hard checks, severity routing SLA, dual-attestation closure, and deterministic reopen triggers",
+      "path": "office_os/artifacts/P2-PROD-7404_sales_to_product_escalation_evidence_contract_v34_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 15:16",
+      "owner": "BUILDER",
+      "taskId": "P1-REV-7402",
+      "artifact": "Delivered CFO no-discount delay-loss script v31 for procurement committee deadlocks with quantified 30/60/90-day loss table, 13 objection branches, reciprocal non-price concession rails, and explicit floor-margin close/no-close exits",
+      "path": "office_os/artifacts/P1-REV-7402_cfo_no_discount_delay_loss_script_v31_procurement_deadlocks_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 14:14",
       "owner": "COMMAND",
@@ -439,22 +413,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted additions (P1/P2/P3/P4), owner assignment, and acceptance-complete definitions for uninterrupted autonomous throughput",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 09:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7217",
-      "artifact": "Delivered autonomous ship-log specificity linter with 100-point rubric, anti-generic auto-fail triggers, pass/warn/fail thresholds, rewrite directives, and run-level audit schema to block low-signal milestone logging",
-      "path": "office_os/artifacts/P4-OPS-7217_autonomous_ship_log_specificity_linter_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 09:20",
-      "owner": "RESEARCH",
-      "taskId": "P1-REV-7220",
-      "artifact": "Delivered top-15 committee-stall rescue command board with ARR-ranked accounts, H24/H48/H72 owner+backup intervention ladder, binary reopen-or-recycle gates, and forecast delta ledger for 72h pipeline forcing",
-      "path": "office_os/artifacts/P1-REV-7220_top15_committee_stall_rescue_command_board_72h_reopen_or_recycle_2026-03-06.md",
       "status": "done"
     }
   ],
