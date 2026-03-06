@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T01:22:14.435650+00:00",
+  "now": "2026-03-06T01:30:07.150651+00:00",
   "workers": [
     {
       "name": "Research",
@@ -145,27 +145,6 @@
       "manual_rank": null,
       "acceptance": "Contract defines required payload schema, at least 10 anti-gaming hard checks, owner routing SLA, and deterministic Day0/3/7 verification gates with dual-signoff closure.",
       "artifact_path": "office_os/artifacts/P2-PROD-7226_sales_to_onboarding_handoff_evidence_contract_v31_2026-03-06.md",
-      "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7227",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 committee-stall objection reversal micro-posts with legal/procurement/champion CTA variants",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, role-specific CTA variants, objection tags, and funnel keyword mapping for reply/workshop/reopen tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7227_12_committee_stall_objection_reversal_micro_posts_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
       "updated_at": "2026-03-06T09:20:00+08:00",
       "started_at": null,
