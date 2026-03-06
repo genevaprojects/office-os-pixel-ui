@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T03:24:11.386502+00:00",
+  "now": "2026-03-06T03:30:15.112686+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7321",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Produce founder 8-touch procurement thaw outbound sequence with objection-tagged proof routing",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Sequence provides day0-day10 touch map, legal/procurement/champion CTA variants, objection-tagged proof inserts, and KPI schema for reply/meeting/reopen tracking.",
-      "artifact_path": "office_os/artifacts/P1-REV-7321_founder_8touch_procurement_thaw_outbound_sequence_2026-03-06.md",
-      "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7322",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -166,27 +145,6 @@
       "manual_rank": null,
       "acceptance": "Board defines severity lanes, owner routing SLA, rollback-safe interventions, and deterministic Day0/3/7/14/21 verification gates with closure evidence checks.",
       "artifact_path": "office_os/artifacts/P2-PROD-7322_day0_day21_onboarding_trust_recovery_board_legal_delayed_2026-03-06.md",
-      "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7323",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Deliver 12 proof-first micro-posts for legal-delay objection reversal with role CTA variants",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, role-specific CTA variants, objection tags, and funnel keyword map for reply/workshop/reopen attribution.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7323_12_proof_first_micro_posts_legal_delay_role_cta_variants_2026-03-06.md",
       "created_at": "2026-03-06T11:21:18+08:00",
       "updated_at": "2026-03-06T11:21:18+08:00",
       "started_at": null,
@@ -278,6 +236,22 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 11:27",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7323",
+      "artifact": "Delivered 12 proof-first legal-delay objection reversal micro-posts with hook-proof-CTA scripts, role CTA quick-swaps, objection tags, and funnel keyword mapping for reply/workshop/reopen attribution",
+      "path": "office_os/artifacts/P3-CONT-7323_12_proof_first_micro_posts_legal_delay_role_cta_variants_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 11:27",
+      "owner": "SOCIAL",
+      "taskId": "P1-REV-7321",
+      "artifact": "Delivered founder 8-touch procurement thaw outbound sequence with day0-day10 touch map, objection-tagged proof routing, legal/procurement/champion CTA variants, and KPI schema for reply/meeting/reopen control",
+      "path": "office_os/artifacts/P1-REV-7321_founder_8touch_procurement_thaw_outbound_sequence_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 11:21",
       "owner": "COMMAND",
@@ -460,22 +434,6 @@
       "taskId": "P1-REV-7204",
       "artifact": "Delivered CFO delay-cost close script v27 for procurement holdouts with quantified monthly loss framing, 13 objection branches, reciprocal no-discount concession rails, and hard margin-floor close/no-close exits",
       "path": "office_os/artifacts/P1-REV-7204_cfo_delay_cost_close_script_v27_procurement_holdouts_no_discount_rails_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 06:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2059",
-      "artifact": "Added sticky action bar Narration Stack control with GO/RECOVER labeling and sync-lock-safe disable behavior so operators can pull the full boardroom script sequence in one click under live pressure",
-      "path": "office_os_pixel_ui/public/index.html;office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 06:22",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-2058",
-      "artifact": "Added boardroom narration stack generator (10s verdict + 30s line + 2m update + fallback + primary move) and wired copy access into Command Jump status actions, command palette, and Shift+Z hotkey for interruption-proof investor storytelling",
-      "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
   ],
