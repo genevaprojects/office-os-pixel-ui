@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T04:23:24.586834+00:00",
+  "now": "2026-03-06T04:30:10.479619+00:00",
   "workers": [
     {
       "name": "Research",
@@ -166,27 +166,6 @@
       "manual_rank": null,
       "acceptance": "Contract defines mandatory payload schema, 10+ anti-gaming hard checks, severity routing SLA, and dual-attestation closure with reopen triggers.",
       "artifact_path": "office_os/artifacts/P2-PROD-7328_sales_to_onboarding_escalation_evidence_contract_v33_2026-03-06.md",
-      "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7329",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Deliver 10 founder proof-first committee-thaw short scripts with role-specific CTA variants",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 10 hook-proof-CTA scripts, objection tags, legal/procurement/champion CTA swaps, and KPI keywords for reply/meeting/reopen attribution.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7329_10_founder_proof_first_committee_thaw_short_scripts_2026-03-06.md",
       "created_at": "2026-03-06T12:20:00+08:00",
       "updated_at": "2026-03-06T12:20:00+08:00",
       "started_at": null,
