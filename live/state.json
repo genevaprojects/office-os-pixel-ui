@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T05:00:14.528095+00:00",
+  "now": "2026-03-06T05:10:13.850896+00:00",
   "workers": [
     {
       "name": "Research",
@@ -70,7 +70,7 @@
       "acceptance": "UI surfaces READY-lane pressure badge with aged-task count and one-click deterministic focus to oldest actionable task without breaking filters.",
       "artifact_path": "office_os_pixel_ui/public/app.js",
       "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
+      "updated_at": "2026-03-06T13:07:20.915937+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -86,27 +86,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-7325",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-8 procurement-frozen late-stage rescue slate with H24/H48 owner swaps and binary reopen-or-kill gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Slate ranks 8 accounts by recoverable ARR, defines H24/H48 owner+backup intervention swaps, and enforces binary reopen-or-kill gates with forecast delta tracking fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7325_top8_procurement_frozen_rescue_slate_h24_h48_binary_gates_2026-03-06.md",
-      "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
     },
     {
       "id": "P1-REV-7326",
@@ -125,7 +104,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss table, reciprocal non-price concession rails, and floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7326_cfo_no_discount_committee_thaw_script_v30_2026-03-06.md",
       "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
+      "updated_at": "2026-03-06T13:07:20.915912+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Contract defines mandatory payload schema, 10+ anti-gaming hard checks, severity routing SLA, and dual-attestation closure with reopen triggers.",
       "artifact_path": "office_os/artifacts/P2-PROD-7328_sales_to_onboarding_escalation_evidence_contract_v33_2026-03-06.md",
       "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
+      "updated_at": "2026-03-06T13:07:20.915927+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Linter defines stale-age buckets, rewrite SLA breach thresholds, auto-correction directives, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7228_autonomous_backlog_freshness_decay_linter_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T12:07:03.508573+08:00",
+      "updated_at": "2026-03-06T13:07:20.915933+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Checker specifies measurable-testability score bands, fail-fast rewrite triggers, correction templates, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7331_autonomous_acceptance_criteria_specificity_checker_fail_fast_rewrite_triggers_2026-03-06.md",
       "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
+      "updated_at": "2026-03-06T13:07:20.915941+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,12 +188,20 @@
       "acceptance": "Verifier defines pending_verify next-run pass/fail criteria, stale-counter reset evidence bundle, dedup fingerprint checks, and reopen escalation triggers.",
       "artifact_path": "office_os/artifacts/P5-REL-7332_cron_pending_verify_replay_verifier_dedup_safe_reopen_2026-03-06.md",
       "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
+      "updated_at": "2026-03-06T13:07:20.915946+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 13:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 12:37",
       "owner": "COMMAND",
@@ -404,14 +391,6 @@
       "owner": "BUILDER",
       "taskId": "P0-FE-7215",
       "artifact": "Upgraded validation command flow so Shift+V and command-palette QA command run scenario sweep + thresholded auto-remediation before copying full QA bundle, with state-ledger traceability",
-      "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 08:02",
-      "owner": "BUILDER",
-      "taskId": "P0-FE-7214",
-      "artifact": "Added Demo Validation viewport readiness matrix with projected mobile/tablet/desktop risk scoring and one-click profile apply controls to harden readability posture before live walkthroughs",
       "path": "office_os_pixel_ui/public/app.js",
       "status": "done"
     }
