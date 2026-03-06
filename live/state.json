@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T03:30:15.112686+00:00",
+  "now": "2026-03-06T03:40:13.093665+00:00",
   "workers": [
     {
       "name": "Research",
@@ -109,48 +109,6 @@
       "due_at": null
     },
     {
-      "id": "P1-REV-7320",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Create legal-owner checkpoint enforcement cadence for stalled committees with D1/D3/D7 proof gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps stall fingerprints to D1/D3/D7 interventions, includes owner+backup swap triggers, and enforces binary reopen-or-kill proof checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-7320_legal_owner_checkpoint_enforcement_cadence_stalled_committees_d1_d3_d7_2026-03-06.md",
-      "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7322",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define Day0-Day21 onboarding trust recovery board for legal-delayed cohorts with rollback-safe interventions",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines severity lanes, owner routing SLA, rollback-safe interventions, and deterministic Day0/3/7/14/21 verification gates with closure evidence checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7322_day0_day21_onboarding_trust_recovery_board_legal_delayed_2026-03-06.md",
-      "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7218",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -236,6 +194,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 11:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 11:27",
       "owner": "SOCIAL",
@@ -426,14 +392,6 @@
       "taskId": "P2-PROD-7206",
       "artifact": "Delivered procurement-delay onboarding fast-track contract v30 with anti-gaming checks, SLA routing matrix, deterministic Day0/3/7/14 verification gates, and dual-attestation closure rules",
       "path": "office_os/artifacts/P2-PROD-7206_procurement_delay_onboarding_fast_track_contract_v30_day0_day3_day7_day14_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 07:16",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7204",
-      "artifact": "Delivered CFO delay-cost close script v27 for procurement holdouts with quantified monthly loss framing, 13 objection branches, reciprocal no-discount concession rails, and hard margin-floor close/no-close exits",
-      "path": "office_os/artifacts/P1-REV-7204_cfo_delay_cost_close_script_v27_procurement_holdouts_no_discount_rails_2026-03-06.md",
       "status": "done"
     }
   ],
