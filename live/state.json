@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T00:02:23.577796+00:00",
+  "now": "2026-03-06T00:10:07.336565+00:00",
   "workers": [
     {
       "name": "Research",
@@ -300,6 +300,22 @@
   ],
   "ship": [
     {
+      "time": "2026-03-06 08:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-7215",
+      "artifact": "Upgraded validation command flow so Shift+V and command-palette QA command run scenario sweep + thresholded auto-remediation before copying full QA bundle, with state-ledger traceability",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 08:02",
+      "owner": "BUILDER",
+      "taskId": "P0-FE-7214",
+      "artifact": "Added Demo Validation viewport readiness matrix with projected mobile/tablet/desktop risk scoring and one-click profile apply controls to harden readability posture before live walkthroughs",
+      "path": "office_os_pixel_ui/public/app.js",
+      "status": "done"
+    },
+    {
       "time": "2026-03-06 07:37",
       "owner": "COMMAND",
       "taskId": "OPS-WATCHDOG",
@@ -481,22 +497,6 @@
       "taskId": "P3-CONT-7187",
       "artifact": "Delivered 12 proof-first short posts for legal-delay and procurement objection reversals with hook-proof-CTA scripts, role-specific CTAs, objection tags, and funnel keyword mapping for fast distribution",
       "path": "office_os/artifacts/P3-CONT-7187_12_proof_first_short_posts_legal_delay_procurement_objection_reversals_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:20",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7184",
-      "artifact": "Delivered founder 8-touch procurement thaw sequence with day0-day10 touch map, objection-tagged proof routing, binary CTA ladder, and KPI schema for reply/workshop/reopen compression",
-      "path": "office_os/artifacts/P1-REV-7184_founder_8touch_procurement_thaw_sequence_objection_proof_routing_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7185",
-      "artifact": "Delivered legal-to-onboarding fast-track payload v29 with mandatory schema contract, 12 anti-gaming hard checks, SLA severity routing matrix, and deterministic dual-attestation closure gates with reopen safeguards",
-      "path": "office_os/artifacts/P2-PROD-7185_legal_to_onboarding_fast_track_payload_v29_anti_gaming_closure_attestations_2026-03-06.md",
       "status": "done"
     }
   ],
