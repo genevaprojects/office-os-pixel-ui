@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T05:30:10.046011+00:00",
+  "now": "2026-03-06T05:41:26.941681+00:00",
   "workers": [
     {
       "name": "Research",
@@ -258,6 +258,14 @@
   ],
   "ship": [
     {
+      "time": "2026-03-06 13:41",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
       "time": "2026-03-06 13:23",
       "owner": "COMMAND",
       "taskId": "OPS-TOPUP",
@@ -447,14 +455,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 08:17",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7214",
-      "artifact": "Delivered legal-to-onboarding handoff payload v30 with mandatory schema, 12 anti-gaming hard checks, severity routing SLA, and deterministic Day0/3/7/14 verification + dual-attestation closure gates",
-      "path": "office_os/artifacts/P2-PROD-7214_legal_to_onboarding_handoff_payload_v30_anti_gaming_gates_2026-03-06.md",
       "status": "done"
     }
   ],
