@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T02:30:08.158363+00:00",
+  "now": "2026-03-06T02:40:07.110704+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,48 +103,6 @@
       "manual_rank": null,
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss framing, reciprocal concession rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7311_cfo_no_discount_close_script_v28_legal_delay_delay_loss_ledger_2026-03-06.md",
-      "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7312",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design executive committee-stall escalation cadence with D1/D3/D7 binary proof gates",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps stall fingerprints to D1/D3/D7 owner interventions, owner+backup swap triggers, and binary reopen-or-recycle checkpoints.",
-      "artifact_path": "office_os/artifacts/P1-REV-7312_executive_committee_stall_escalation_cadence_d1_d3_d7_binary_proof_gates_2026-03-06.md",
-      "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P2-PROD-7313",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define Day0-Day14 legal-cleared onboarding acceleration board with rollback-safe intervention lanes",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines severity lanes, owner routing SLA, rollback-safe interventions, and deterministic Day0/3/7/14 verification gates.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7313_day0_day14_legal_cleared_onboarding_acceleration_board_2026-03-06.md",
       "created_at": "2026-03-06T10:20:00+08:00",
       "updated_at": "2026-03-06T10:20:00+08:00",
       "started_at": null,
@@ -278,6 +236,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 10:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 10:36",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7313",
+      "artifact": "Delivered Day0-Day14 legal-cleared onboarding acceleration board with severity lanes, owner routing SLA matrix, rollback-safe intervention library, and deterministic D0/D3/D7/D14 verification gates",
+      "path": "office_os/artifacts/P2-PROD-7313_day0_day14_legal_cleared_onboarding_acceleration_board_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 10:35",
+      "owner": "EXECUTOR",
+      "taskId": "P1-REV-7312",
+      "artifact": "Delivered executive committee-stall escalation cadence with stall fingerprint taxonomy, D1/D3/D7 owner+backup intervention clocks, deterministic binary proof gates, and reopen-or-recycle enforcement checkpoint policy",
+      "path": "office_os/artifacts/P1-REV-7312_executive_committee_stall_escalation_cadence_d1_d3_d7_binary_proof_gates_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 10:25",
       "owner": "SOCIAL",
@@ -452,30 +434,6 @@
       "taskId": "P2-PROD-7200",
       "artifact": "Delivered legal-to-onboarding fast-track payload v30 with mandatory schema, anti-gaming hard checks, severity routing SLA, and deterministic Day0/3/7/14 closure attestation gates",
       "path": "office_os/artifacts/P2-PROD-7200_legal_to_onboarding_fast_track_payload_v30_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 06:15",
-      "owner": "BUILDER",
-      "taskId": "P1-REV-7197",
-      "artifact": "Delivered CFO no-delay close script v26 for procurement stalls with quantified delay-loss ledger, 13 objection branches, reciprocal no-discount concession bands, and explicit floor-margin close/no-close exits",
-      "path": "office_os/artifacts/P1-REV-7197_cfo_no_delay_close_script_v26_procurement_stall_delay_loss_ledger_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 05:20",
-      "owner": "COMMAND",
-      "taskId": "OPS-TOPUP",
-      "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted distribution, owner assignment, and acceptance-criteria-complete task definitions",
-      "path": "office_os/BACKLOG.json",
-      "status": "done2026-03-06 06:07"
-    },
-    {
-      "time": "2026-03-06 05:20",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7194",
-      "artifact": "Delivered autonomous ship-log dedup linter spec with canonical fingerprinting, S0-S3 severity tiers, append-safe correction rules, and run-level audit schema for duplicate suppression without mutating history",
-      "path": "office_os/artifacts/P4-OPS-7194_autonomous_ship_log_dedup_linter_severity_correction_workflow_2026-03-06.md",
       "status": "done"
     }
   ],
