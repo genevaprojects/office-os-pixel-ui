@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T04:00:14.091192+00:00",
+  "now": "2026-03-06T04:10:15.828858+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7318",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-10 legal-approved no-movement expansion rescue board with H24/H48 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 10 accounts by recoverable ARR, defines deterministic H24/H48 owner+backup swap actions, and enforces binary reopen-or-recycle gates with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7318_top10_legal_approved_no_movement_expansion_rescue_board_h24_h48_arr_salvage_gates_2026-03-06.md",
-      "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7319",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes 12+ objection branches, quantified delay-loss ledger, reciprocal non-price concession rails, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7319_cfo_no_discount_close_script_v29_procurement_delay_delay_loss_2026-03-06.md",
       "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
+      "updated_at": "2026-03-06T12:07:03.508533+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T07:20:36+08:00",
-      "updated_at": "2026-03-06T10:07:02.330546+08:00",
+      "updated_at": "2026-03-06T12:07:03.508566+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Linter defines stale-age buckets, rewrite SLA breach thresholds, auto-correction directives, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7228_autonomous_backlog_freshness_decay_linter_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T10:07:02.330550+08:00",
+      "updated_at": "2026-03-06T12:07:03.508573+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Policy specifies per-lane minimum insertion quotas, priority-weight drift thresholds, correction actions, and run-level audit fields for top-up balance enforcement.",
       "artifact_path": "office_os/artifacts/P4-OPS-7324_autonomous_topup_lane_balancing_policy_priority_weight_floors_2026-03-06.md",
       "created_at": "2026-03-06T11:21:18+08:00",
-      "updated_at": "2026-03-06T11:21:18+08:00",
+      "updated_at": "2026-03-06T12:07:03.508551+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,12 +167,20 @@
       "acceptance": "Verifier includes stale-counter reset evidence requirements, pending_verify next-run checks, reopen triggers, and dedup-safe incident fingerprint fields.",
       "artifact_path": "office_os/artifacts/P5-REL-7317_cron_stale_counter_reset_verifier_pending_verify_reopen_guardrails_2026-03-06.md",
       "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T10:20:00+08:00",
+      "updated_at": "2026-03-06T12:07:03.508559+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 12:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 11:37",
       "owner": "COMMAND",
@@ -384,14 +371,6 @@
       "taskId": "P1-REV-7212",
       "artifact": "Delivered executive legal-owner intervention cadence for post-redline silence with D1/D2/D5 fingerprint-based interventions, owner+backup auto-swap triggers, and binary reopen-or-kill proof gates to force deterministic deal movement",
       "path": "office_os/artifacts/P1-REV-7212_executive_legal_owner_intervention_cadence_d1_d2_d5_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 07:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7206",
-      "artifact": "Delivered procurement-delay onboarding fast-track contract v30 with anti-gaming checks, SLA routing matrix, deterministic Day0/3/7/14 verification gates, and dual-attestation closure rules",
-      "path": "office_os/artifacts/P2-PROD-7206_procurement_delay_onboarding_fast_track_contract_v30_day0_day3_day7_day14_2026-03-06.md",
       "status": "done"
     }
   ],
