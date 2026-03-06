@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T10:00:18.672356+00:00",
+  "now": "2026-03-06T10:16:49.352475+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7422",
-      "project": "OFFICE_OS_REVOPS",
-      "priority": "P1",
-      "title": "Build top-8 security-cleared procurement no-motion thaw board with D1/D2 owner swap gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "ARR-ranked top-8 board includes D1/D2 deterministic actions, owner+backup swap conditions, binary reopen-or-kill gates, and forecast-delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7422_top8_security_cleared_procurement_nomotion_thaw_board_2026-03-06.md",
-      "created_at": "2026-03-06T09:22:12.437Z",
-      "updated_at": "2026-03-06T09:22:12.437Z",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7228",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -104,7 +83,7 @@
       "acceptance": "Linter defines stale-age buckets, rewrite SLA breach thresholds, auto-correction directives, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7228_autonomous_backlog_freshness_decay_linter_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T17:11:03.493916+08:00",
+      "updated_at": "2026-03-06T18:12:31.350346+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T17:11:03.493921+08:00",
+      "updated_at": "2026-03-06T18:12:31.350351+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T17:11:03.493925+08:00",
+      "updated_at": "2026-03-06T18:12:31.350355+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "acceptance": "Artifact defines stale-ready age tiers, rewrite/recycle triggers, owner quota enforcement, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7414_autonomous_backlog_stale_ready_recycler_decay_tiers_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T17:11:03.493934+08:00",
+      "updated_at": "2026-03-06T18:12:31.350366+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "acceptance": "Spec defines fingerprint features, threshold bands, reject/merge rules, and run-level audit output for duplicate-theme suppression.",
       "artifact_path": "office_os/artifacts/P4-OPS-7425_autonomous_task_title_duplicate_detector_semantic_fingerprint_policy_2026-03-06.md",
       "created_at": "2026-03-06T09:22:12.437Z",
-      "updated_at": "2026-03-06T09:22:12.437Z",
+      "updated_at": "2026-03-06T18:12:31.350370+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,12 +188,28 @@
       "acceptance": "Artifact defines next-run freshness checks, stale-counter reset evidence, pass/fail closure gates, and reopen trigger taxonomy.",
       "artifact_path": "office_os/artifacts/P5-REL-7415_cron_pending_verify_freshness_attestation_checklist_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T17:11:03.493938+08:00",
+      "updated_at": "2026-03-06T18:12:31.350362+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 18:12",
+      "owner": "COMMAND",
+      "taskId": "OPS-TOPUP",
+      "artifact": "backlog top-up",
+      "path": "office_os/TOPUP_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 18:12",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 17:36",
       "owner": "EXECUTOR",
@@ -397,22 +392,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 11:27",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7323",
-      "artifact": "Delivered 12 proof-first legal-delay objection reversal micro-posts with hook-proof-CTA scripts, role CTA quick-swaps, objection tags, and funnel keyword mapping for reply/workshop/reopen attribution",
-      "path": "office_os/artifacts/P3-CONT-7323_12_proof_first_micro_posts_legal_delay_role_cta_variants_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 11:27",
-      "owner": "SOCIAL",
-      "taskId": "P1-REV-7321",
-      "artifact": "Delivered founder 8-touch procurement thaw outbound sequence with day0-day10 touch map, objection-tagged proof routing, legal/procurement/champion CTA variants, and KPI schema for reply/meeting/reopen control",
-      "path": "office_os/artifacts/P1-REV-7321_founder_8touch_procurement_thaw_outbound_sequence_2026-03-06.md",
       "status": "done"
     }
   ],
