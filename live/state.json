@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T03:00:06.349892+00:00",
+  "now": "2026-03-06T03:10:16.481709+00:00",
   "workers": [
     {
       "name": "Research",
@@ -65,27 +65,6 @@
         "DecisionQueue format defined",
         "Autonomy rules documented and active"
       ]
-    },
-    {
-      "id": "P1-REV-7310",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-15 procurement-freeze reversal strike map with H24/H48 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "READY",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Strike map ranks 15 accounts by recoverable ARR, defines deterministic H24/H48 owner+backup swap actions, and enforces reopen-or-kill gates with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7310_top15_procurement_freeze_reversal_strike_map_h24_h48_arr_salvage_gates_2026-03-06.md",
-      "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
     },
     {
       "id": "P1-REV-7311",
@@ -236,6 +215,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 11:06",
+      "owner": "RESEARCH",
+      "taskId": "P1-REV-7310",
+      "artifact": "Delivered top-15 procurement-freeze reversal strike map with recoverable ARR ranking, deterministic H24/H48 owner+backup swap triggers, binary reopen-or-kill gates, and forecast-delta field schema for commit hygiene",
+      "path": "office_os/artifacts/P1-REV-7310_top15_procurement_freeze_reversal_strike_map_h24_h48_arr_salvage_gates_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 10:37",
       "owner": "COMMAND",
@@ -426,14 +413,6 @@
       "taskId": "P1-REV-7199",
       "artifact": "Delivered founder 8-touch procurement reactivation sequence v2 with day0-day10 channel cadence, legal/procurement/champion variants, objection-proof routing, binary CTA ladder, and KPI schema for reply/workshop/reopen tracking",
       "path": "office_os/artifacts/P1-REV-7199_founder_8touch_procurement_reactivation_sequence_v2_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 06:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7200",
-      "artifact": "Delivered legal-to-onboarding fast-track payload v30 with mandatory schema, anti-gaming hard checks, severity routing SLA, and deterministic Day0/3/7/14 closure attestation gates",
-      "path": "office_os/artifacts/P2-PROD-7200_legal_to_onboarding_fast_track_payload_v30_2026-03-06.md",
       "status": "done"
     }
   ],
