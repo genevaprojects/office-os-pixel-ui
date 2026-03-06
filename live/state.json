@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T04:30:10.479619+00:00",
+  "now": "2026-03-06T04:40:11.886585+00:00",
   "workers": [
     {
       "name": "Research",
@@ -130,27 +130,6 @@
       "due_at": null
     },
     {
-      "id": "P2-PROD-7327",
-      "project": "P2_PRODUCT",
-      "priority": "P2",
-      "title": "Define Day0-Day14 activation confidence rescue board for procurement-delayed cohorts with proof-gated closure",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 4,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board defines severity lanes, owner SLA routing, rollback-safe interventions, and deterministic Day0/3/7/14 verification gates with closure evidence checks.",
-      "artifact_path": "office_os/artifacts/P2-PROD-7327_day0_day14_activation_confidence_rescue_board_procurement_delayed_2026-03-06.md",
-      "created_at": "2026-03-06T12:20:00+08:00",
-      "updated_at": "2026-03-06T12:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P2-PROD-7328",
       "project": "P2_PRODUCT",
       "priority": "P2",
@@ -214,27 +193,6 @@
       "due_at": null
     },
     {
-      "id": "P5-REL-7317",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron stale-counter reset verifier with pending_verify reopen guardrails",
-      "owner": "EXECUTOR",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Verifier includes stale-counter reset evidence requirements, pending_verify next-run checks, reopen triggers, and dedup-safe incident fingerprint fields.",
-      "artifact_path": "office_os/artifacts/P5-REL-7317_cron_stale_counter_reset_verifier_pending_verify_reopen_guardrails_2026-03-06.md",
-      "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T12:07:03.508559+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P5-REL-7332",
       "project": "P5_RELIABILITY",
       "priority": "P5",
@@ -257,6 +215,30 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 12:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P2-PROD-7327",
+      "artifact": "Delivered Day0-Day14 activation confidence rescue board for procurement-delayed cohorts with severity lanes, owner+backup SLA routing, rollback-safe intervention library, deterministic D0/D3/D7/D14 verification gates, and hard closure-evidence checks",
+      "path": "office_os/artifacts/P2-PROD-7327_day0_day14_activation_confidence_rescue_board_procurement_delayed_2026-03-06.md",
+      "status": "done"
+    },
+    {
+      "time": "2026-03-06 12:35",
+      "owner": "EXECUTOR",
+      "taskId": "P5-REL-7317",
+      "artifact": "Delivered cron stale-counter reset verifier with mandatory reset-evidence bundle, pending_verify next-run gate checks, deterministic reopen triggers, and dedup-safe incident fingerprint contract to prevent false closure",
+      "path": "office_os/artifacts/P5-REL-7317_cron_stale_counter_reset_verifier_pending_verify_reopen_guardrails_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 12:07",
       "owner": "COMMAND",
@@ -431,30 +413,6 @@
       "taskId": "P0-FE-7214",
       "artifact": "Added Demo Validation viewport readiness matrix with projected mobile/tablet/desktop risk scoring and one-click profile apply controls to harden readability posture before live walkthroughs",
       "path": "office_os_pixel_ui/public/app.js",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 07:37",
-      "owner": "COMMAND",
-      "taskId": "OPS-WATCHDOG",
-      "artifact": "stale watchdog",
-      "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-7215",
-      "artifact": "Delivered Day0-Day30 onboarding drift recovery board v3 for procurement-delayed cohorts with severity lanes, rollback-safe interventions, and deterministic Day0/3/7/14/21/30 verification gates for explicit recovery-or-recycle closure",
-      "path": "office_os/artifacts/P2-PROD-7215_day0_day30_onboarding_drift_recovery_board_v3_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 07:35",
-      "owner": "EXECUTOR",
-      "taskId": "P1-REV-7212",
-      "artifact": "Delivered executive legal-owner intervention cadence for post-redline silence with D1/D2/D5 fingerprint-based interventions, owner+backup auto-swap triggers, and binary reopen-or-kill proof gates to force deterministic deal movement",
-      "path": "office_os/artifacts/P1-REV-7212_executive_legal_owner_intervention_cadence_d1_d2_d5_2026-03-06.md",
       "status": "done"
     }
   ],
