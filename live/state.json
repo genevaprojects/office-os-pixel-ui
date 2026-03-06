@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T02:00:06.885567+00:00",
+  "now": "2026-03-06T02:10:07.232513+00:00",
   "workers": [
     {
       "name": "Research",
@@ -67,27 +67,6 @@
       ]
     },
     {
-      "id": "P1-REV-7223",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Build top-12 security-cleared no-movement expansion rescue lane with H24/H48/H72 owner swaps and ARR salvage gates",
-      "owner": "RESEARCH",
-      "status": "TODO",
-      "impact": 5,
-      "effort": 2,
-      "urgency": 5,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Board ranks 12 no-movement expansions by recoverable ARR, defines H24/H48/H72 owner+backup interventions, and enforces binary salvage-or-recycle outcomes with forecast delta fields.",
-      "artifact_path": "office_os/artifacts/P1-REV-7223_top12_security_cleared_no_movement_expansion_rescue_lane_2026-03-06.md",
-      "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P1-REV-7224",
       "project": "P1_REVENUE",
       "priority": "P1",
@@ -104,7 +83,7 @@
       "acceptance": "Script includes at least 12 objection branches, quantified delay-loss framing, reciprocal concession bands, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7224_cfo_procurement_freeze_reversal_script_v27_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
+      "updated_at": "2026-03-06T10:07:02.330512+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +104,7 @@
       "acceptance": "Contract defines required payload schema, at least 10 anti-gaming hard checks, owner routing SLA, and deterministic Day0/3/7 verification gates with dual-signoff closure.",
       "artifact_path": "office_os/artifacts/P2-PROD-7226_sales_to_onboarding_handoff_evidence_contract_v31_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
+      "updated_at": "2026-03-06T10:07:02.330526+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +125,7 @@
       "acceptance": "Card defines 100-point rubric for KPI evidence quality, rewrite triggers, pass threshold, and run-level audit fields.",
       "artifact_path": "office_os/artifacts/P4-OPS-7180_define_autonomous_kpi_evidence_lint_card_for_revenue_artifacts_with_rewrite_triggers_2026-03-06.md",
       "created_at": "2026-03-06T02:20:00+08:00",
-      "updated_at": "2026-03-06T06:07:04.599019+08:00",
+      "updated_at": "2026-03-06T10:07:02.330537+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +146,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T03:21:00+08:00",
-      "updated_at": "2026-03-06T06:07:04.599014+08:00",
+      "updated_at": "2026-03-06T10:07:02.330531+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +167,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T05:20:00+08:00",
-      "updated_at": "2026-03-06T06:07:04.599027+08:00",
+      "updated_at": "2026-03-06T10:07:02.330542+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +188,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T07:20:36+08:00",
-      "updated_at": "2026-03-06T07:20:36+08:00",
+      "updated_at": "2026-03-06T10:07:02.330546+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +209,20 @@
       "acceptance": "Linter defines stale-age buckets, rewrite SLA breach thresholds, auto-correction directives, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7228_autonomous_backlog_freshness_decay_linter_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
+      "updated_at": "2026-03-06T10:07:02.330550+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 10:07",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 09:20",
       "owner": "COMMAND",
@@ -426,14 +413,6 @@
       "taskId": "P3-CONT-7193",
       "artifact": "Delivered 10 founder voice-note procurement objection rebuttal micro-scripts with legal/procurement/champion CTA variants, objection tags, funnel keyword mapping, and KPI targets for reply/workshop/reopen uplift",
       "path": "office_os/artifacts/P3-CONT-7193_10_procurement_objection_rebuttal_micro_scripts_founder_voice_notes_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 05:16",
-      "owner": "BUILDER",
-      "taskId": "P2-PROD-7192",
-      "artifact": "Delivered legal-to-onboarding SLA breach auto-remediation flow with breach fingerprint taxonomy, severity-based owner routing SLA, and deterministic Day0/Day3/Day7 verification + closure/reopen criteria",
-      "path": "office_os/artifacts/P2-PROD-7192_legal_to_onboarding_sla_breach_auto_remediation_flow_day0_day3_day7_2026-03-06.md",
       "status": "done"
     }
   ],
