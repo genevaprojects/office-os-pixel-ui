@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T09:22:40.726023+00:00",
+  "now": "2026-03-06T09:30:13.670353+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,27 +103,6 @@
       "manual_rank": null,
       "acceptance": "Matrix includes severity lanes, owner SLA routing, rollback-safe interventions, and Day0/3/7/14 pass-fail verification gates with reopen logic.",
       "artifact_path": "office_os/artifacts/P2-PROD-7423_day0_day14_onboarding_trust_rescue_matrix_procurement_delayed_2026-03-06.md",
-      "created_at": "2026-03-06T09:22:12.437Z",
-      "updated_at": "2026-03-06T09:22:12.437Z",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P3-CONT-7424",
-      "project": "OFFICE_OS_CONTENT",
-      "priority": "P3",
-      "title": "Produce 10 founder proof-first legal-delay reversal scripts with role CTA swaps and KPI keyword tags",
-      "owner": "SOCIAL",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 2,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Artifact includes 10 hook-proof-CTA scripts, objection tags, legal/procurement/champion CTA swaps, and KPI keywords for attribution.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7424_10_founder_proof_first_legal_delay_reversal_scripts_2026-03-06.md",
       "created_at": "2026-03-06T09:22:12.437Z",
       "updated_at": "2026-03-06T09:22:12.437Z",
       "started_at": null,
@@ -278,6 +257,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 17:26",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7424",
+      "artifact": "Delivered 10 founder proof-first legal-delay reversal scripts with hook-proof-CTA structure, objection tags, legal/procurement/champion CTA swaps, and KPI keywords for reply/meeting/reopen attribution",
+      "path": "office_os/artifacts/P3-CONT-7424_10_founder_proof_first_legal_delay_reversal_scripts_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 17:20",
       "owner": "COMMAND",
@@ -468,14 +455,6 @@
       "taskId": "OPS-TOPUP",
       "artifact": "Backlog top-up executed to restore >=10 READY/QUEUED/TODO tasks with priority-weighted additions (P1/P2/P3/P4), owner assignment, and acceptance-complete execution criteria",
       "path": "office_os/BACKLOG.json",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 11:21",
-      "owner": "COMMAND",
-      "taskId": "P4-OPS-7202",
-      "artifact": "Delivered autonomous backlog top-up quality linter v4 with 100-point acceptance completeness scoring, owner-load WIP-cap guardrails, rewrite triggers, and batch-level insertion pass criteria",
-      "path": "office_os/artifacts/P4-OPS-7202_autonomous_backlog_topup_quality_linter_v4_2026-03-06.md",
       "status": "done"
     }
   ],
