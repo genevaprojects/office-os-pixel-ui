@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T00:30:56.622105+00:00",
+  "now": "2026-03-06T00:40:05.419746+00:00",
   "workers": [
     {
       "name": "Research",
@@ -212,30 +212,17 @@
       "updated_at": "2026-03-06T07:20:36+08:00",
       "started_at": null,
       "due_at": null
-    },
-    {
-      "id": "P5-REL-7219",
-      "project": "P5_RELIABILITY",
-      "priority": "P5",
-      "title": "Create cron pending_verify integrity checker v2 with stale-counter reset attestations and reopen triggers",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 2,
-      "acceptance": "Checker includes pending_verify verification gates, stale-counter reset evidence requirements, dedup fingerprint fields, and deterministic reopen triggers.",
-      "artifact_path": "office_os/artifacts/P5-REL-7219_cron_pending_verify_integrity_checker_v2_2026-03-06.md",
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "created_at": "2026-03-06T07:20:36+08:00",
-      "updated_at": "2026-03-06T07:20:36+08:00",
-      "started_at": null,
-      "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 08:37",
+      "owner": "COMMAND",
+      "taskId": "OPS-WATCHDOG",
+      "artifact": "stale watchdog",
+      "path": "office_os/STALE_WATCHDOG_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 08:17",
       "owner": "BUILDER",
@@ -426,14 +413,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 04:36",
-      "owner": "EXECUTOR",
-      "taskId": "P5-REL-7165",
-      "artifact": "Delivered cron pending_verify closure canary with stale-counter reset assertions, next-run verification gates, deterministic reopen criteria, and resolution evidence contract to prevent false incident closure",
-      "path": "office_os/artifacts/P5-REL-7165_cron_pending_verify_closure_canary_stale_counter_reset_assertions_reopen_gates_2026-03-06.md",
       "status": "done"
     }
   ],
