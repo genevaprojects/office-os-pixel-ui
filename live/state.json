@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T02:22:05.457010+00:00",
+  "now": "2026-03-06T02:30:08.158363+00:00",
   "workers": [
     {
       "name": "Research",
@@ -172,27 +172,6 @@
       "due_at": null
     },
     {
-      "id": "P3-CONT-7315",
-      "project": "P3_CONTENT",
-      "priority": "P3",
-      "title": "Produce 12 procurement-objection reversal micro-posts with legal/procurement/champion CTA variants",
-      "owner": "SOCIAL",
-      "status": "READY",
-      "impact": 3,
-      "effort": 1,
-      "urgency": 3,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Pack includes 12 hook-proof-CTA scripts, role CTA variants, objection tags, and KPI mapping for reply/workshop/reopen tracking.",
-      "artifact_path": "office_os/artifacts/P3-CONT-7315_12_procurement_objection_reversal_micro_posts_role_cta_variants_2026-03-06.md",
-      "created_at": "2026-03-06T10:20:00+08:00",
-      "updated_at": "2026-03-06T10:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
       "id": "P4-OPS-7202",
       "project": "P4_OPERATIONS",
       "priority": "P4",
@@ -299,6 +278,14 @@
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 10:25",
+      "owner": "SOCIAL",
+      "taskId": "P3-CONT-7315",
+      "artifact": "Delivered 12 procurement-objection reversal micro-posts with hook-proof-CTA scripts, legal/procurement/champion CTA variants, objection tags, and KPI mapping for reply/workshop/reopen tracking",
+      "path": "office_os/artifacts/P3-CONT-7315_12_procurement_objection_reversal_micro_posts_role_cta_variants_2026-03-06.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 10:07",
       "owner": "COMMAND",
@@ -489,14 +476,6 @@
       "taskId": "P4-OPS-7194",
       "artifact": "Delivered autonomous ship-log dedup linter spec with canonical fingerprinting, S0-S3 severity tiers, append-safe correction rules, and run-level audit schema for duplicate suppression without mutating history",
       "path": "office_os/artifacts/P4-OPS-7194_autonomous_ship_log_dedup_linter_severity_correction_workflow_2026-03-06.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 05:20",
-      "owner": "SOCIAL",
-      "taskId": "P3-CONT-7193",
-      "artifact": "Delivered 10 founder voice-note procurement objection rebuttal micro-scripts with legal/procurement/champion CTA variants, objection tags, funnel keyword mapping, and KPI targets for reply/workshop/reopen uplift",
-      "path": "office_os/artifacts/P3-CONT-7193_10_procurement_objection_rebuttal_micro_scripts_founder_voice_notes_2026-03-06.md",
       "status": "done"
     }
   ],
