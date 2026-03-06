@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T08:53:51.600765+00:00",
+  "now": "2026-03-06T09:11:23.904156+00:00",
   "workers": [
     {
       "name": "Research",
@@ -83,7 +83,7 @@
       "acceptance": "ARR-ranked top-10 slate includes deterministic H24/H48 interventions, owner+backup swap conditions, binary reopen-or-kill criteria, and forecast-delta fields.",
       "artifact_path": "office_os/artifacts/P1-REV-7412_top10_legal_cleared_no_motion_expansion_rescue_slate_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T16:15:00+08:00",
+      "updated_at": "2026-03-06T17:11:03.493893+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -104,7 +104,7 @@
       "acceptance": "Artifact provides 12 scripts using hook-proof-CTA format, objection tags, legal/procurement/champion CTA swaps, and KPI keywords for attribution.",
       "artifact_path": "office_os/artifacts/P3-CONT-7413_12_founder_proof_first_procurement_thaw_short_scripts_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T16:15:00+08:00",
+      "updated_at": "2026-03-06T17:11:03.493911+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -125,7 +125,7 @@
       "acceptance": "Linter defines stale-age buckets, rewrite SLA breach thresholds, auto-correction directives, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7228_autonomous_backlog_freshness_decay_linter_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T16:07:06.746386+08:00",
+      "updated_at": "2026-03-06T17:11:03.493916+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -146,7 +146,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T16:07:06.746392+08:00",
+      "updated_at": "2026-03-06T17:11:03.493921+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -167,7 +167,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T16:07:06.746396+08:00",
+      "updated_at": "2026-03-06T17:11:03.493925+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -188,7 +188,7 @@
       "acceptance": "Artifact defines stale-ready age tiers, rewrite/recycle triggers, owner quota enforcement, and run-level audit output schema.",
       "artifact_path": "office_os/artifacts/P4-OPS-7414_autonomous_backlog_stale_ready_recycler_decay_tiers_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T16:15:00+08:00",
+      "updated_at": "2026-03-06T17:11:03.493934+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -209,7 +209,7 @@
       "pinned": false,
       "manual_rank": null,
       "created_at": "2026-03-06T13:23:01.530+08:00",
-      "updated_at": "2026-03-06T16:07:06.746401+08:00",
+      "updated_at": "2026-03-06T17:11:03.493930+08:00",
       "started_at": null,
       "due_at": null
     },
@@ -230,12 +230,20 @@
       "acceptance": "Artifact defines next-run freshness checks, stale-counter reset evidence, pass/fail closure gates, and reopen trigger taxonomy.",
       "artifact_path": "office_os/artifacts/P5-REL-7415_cron_pending_verify_freshness_attestation_checklist_2026-03-06.md",
       "created_at": "2026-03-06T16:15:00+08:00",
-      "updated_at": "2026-03-06T16:15:00+08:00",
+      "updated_at": "2026-03-06T17:11:03.493938+08:00",
       "started_at": null,
       "due_at": null
     }
   ],
   "ship": [
+    {
+      "time": "2026-03-06 17:11",
+      "owner": "COMMAND",
+      "taskId": "OPS-RERANK",
+      "artifact": "backlog rerank",
+      "path": "office_os/RERANK_LOG.md",
+      "status": "done"
+    },
     {
       "time": "2026-03-06 16:07",
       "owner": "COMMAND",
@@ -426,14 +434,6 @@
       "taskId": "OPS-WATCHDOG",
       "artifact": "stale watchdog",
       "path": "office_os/STALE_WATCHDOG_LOG.md",
-      "status": "done"
-    },
-    {
-      "time": "2026-03-06 10:36",
-      "owner": "EXECUTOR",
-      "taskId": "P2-PROD-7313",
-      "artifact": "Delivered Day0-Day14 legal-cleared onboarding acceleration board with severity lanes, owner routing SLA matrix, rollback-safe intervention library, and deterministic D0/D3/D7/D14 verification gates",
-      "path": "office_os/artifacts/P2-PROD-7313_day0_day14_legal_cleared_onboarding_acceleration_board_2026-03-06.md",
       "status": "done"
     }
   ],
