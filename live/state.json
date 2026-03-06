@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-06T01:30:07.150651+00:00",
+  "now": "2026-03-06T01:40:06.962603+00:00",
   "workers": [
     {
       "name": "Research",
@@ -103,27 +103,6 @@
       "manual_rank": null,
       "acceptance": "Script includes at least 12 objection branches, quantified delay-loss framing, reciprocal concession bands, and explicit floor-margin close/no-close exits.",
       "artifact_path": "office_os/artifacts/P1-REV-7224_cfo_procurement_freeze_reversal_script_v27_2026-03-06.md",
-      "created_at": "2026-03-06T09:20:00+08:00",
-      "updated_at": "2026-03-06T09:20:00+08:00",
-      "started_at": null,
-      "due_at": null
-    },
-    {
-      "id": "P1-REV-7225",
-      "project": "P1_REVENUE",
-      "priority": "P1",
-      "title": "Design legal-owner D1/D3/D7 checkpoint enforcement cadence for post-redline committee stalls",
-      "owner": "EXECUTOR",
-      "status": "TODO",
-      "impact": 4,
-      "effort": 1,
-      "urgency": 4,
-      "depends_on": [],
-      "blocked_reason": null,
-      "pinned": false,
-      "manual_rank": null,
-      "acceptance": "Cadence maps stall fingerprints to D1/D3/D7 interventions, owner+backup swap triggers, binary reopen-or-recycle gates, and KPI fields for meeting/proposal/legal-progress outcomes.",
-      "artifact_path": "office_os/artifacts/P1-REV-7225_legal_owner_d1_d3_d7_checkpoint_enforcement_cadence_2026-03-06.md",
       "created_at": "2026-03-06T09:20:00+08:00",
       "updated_at": "2026-03-06T09:20:00+08:00",
       "started_at": null,
